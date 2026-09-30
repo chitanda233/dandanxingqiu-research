@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="《弹弹星球》微信小游戏客户端代码研究：外围系统、成长、匹配与局内流程。">
+<title>弹弹星球 · 代码研究门户</title><link rel="stylesheet" href="assets/site.css"></head><body class="home">
+<header class="home-top"><div class="wordmark">弹弹星球 <span>/ CODE RESEARCH</span></div><a href="https://github.com/chitanda233/dandanxingqiu-research">GitHub 仓库 ↗</a></header>
+<main class="home-main"><div class="home-hero"><div class="eyebrow">WECHAT MINI GAME / UNITY + LUA / SNAPSHOT 242</div><h1>从源码看清<br><em>弹弹星球</em>的游戏结构</h1><p>基于本机微信小游戏缓存，沿着系统入口、长期成长、匹配请求与战斗状态机追踪客户端实现。每条关键结论都能回到配置或反编译代码。</p><div class="hero-meta"><span>2026.09.30 采集</span><span>23 个 Lua AssetBundle</span><span>8,272 个 Lua 字节码</span><span>148 份筛选反编译</span></div></div>
+<div class="section-label">四个研究专题 <span>SELECT A REPORT</span></div><div class="topic-grid"><a class="topic" href="reports/systems/index.html"><span class="topic-num">01 / 04</span><h2>外围系统</h2><p>入口、功能开放、任务与资源回流</p><span class="topic-link">阅读专题 ↗</span></a>
+<a class="topic" href="reports/growth/index.html"><span class="topic-num">02 / 04</span><h2>成长系统</h2><p>角色、武器、技能与赛季进度</p><span class="topic-link">阅读专题 ↗</span></a>
+<a class="topic" href="reports/matching/index.html"><span class="topic-num">03 / 04</span><h2>匹配系统</h2><p>玩法目标、队伍状态和服务端边界</p><span class="topic-link">阅读专题 ↗</span></a>
+<a class="topic" href="reports/battle/index.html"><span class="topic-num">04 / 04</span><h2>局内流程</h2><p>回合、弹射指令与结算</p><span class="topic-link">阅读专题 ↗</span></a></div>
+<section class="home-note"><div><div class="eyebrow">证据与边界</div><h2>读配置，也读它的限制</h2><p>客户端代码能说明入口、字段、请求和表现链；不能单独证明当前服是否开放、匹配池算法、抽取概率或服务器最终结算。反编译内容有局部失真，正文已标出推断与未验证部分。</p></div><div class="resource-list"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/README.md">研究口径与证据等级 ↗</a><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/raw/manifest.json">原始包哈希清单 ↗</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">提取与反编译目录 ↗</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/tools">复现工具 ↗</a></div></section>
+</main><footer class="home-footer">《弹弹星球》本机缓存研究 · AppID wx64969d55b91a6963 · 包目录 242</footer></body></html>

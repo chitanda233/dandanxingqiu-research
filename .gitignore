@@ -1,0 +1,5 @@
+# Experimental nested repositories and generated Python cache
+vendor/LuaDecompy/
+vendor/luadec51/
+**/__pycache__/
+*.pyc

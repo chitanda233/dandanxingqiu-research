@@ -38,16 +38,18 @@ def main() -> None:
     ap.add_argument("--since", default="2026-09-28")
     ap.add_argument("--text", default="弹弹星球")
     ap.add_argument("--list-members", action="store_true")
+    ap.add_argument("--appid", help="Use this AppID for a copied package outside the WeChat cache hierarchy")
     ap.add_argument("--extract-appid")
     ap.add_argument("--output", type=Path)
     args = ap.parse_args()
     needle = args.text.encode("utf-8")
-    for path in sorted(args.root.rglob("*.wxapkg")):
-        if args.extract_appid and path.parent.parent.name != args.extract_appid:
+    paths = [args.root] if args.root.is_file() else sorted(args.root.rglob("*.wxapkg"))
+    for path in paths:
+        appid = args.appid or path.parent.parent.name
+        if args.extract_appid and appid != args.extract_appid:
             continue
         if path.stat().st_mtime < __import__("datetime").datetime.fromisoformat(args.since).timestamp():
             continue
-        appid = path.parent.parent.name
         try:
             members = unpack(path, appid)
         except Exception as exc:

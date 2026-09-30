@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="《弹弹星球》匹配系统客户端代码研究。玩法目标、队伍状态和服务端边界">
+<title>匹配系统 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
+<body><div class="site-shell">
+<aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<a class="" href="../growth/index.html"><span>02</span>成长系统</a>
+<a class="current" href="../matching/index.html"><span>03</span>匹配系统</a>
+<a class="" href="../battle/index.html"><span>04</span>局内流程</a></nav>
+<div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#先分清三个匹配">先分清三个“匹配”</a>
+<a href="#玩法目标是多级结构">玩法目标是多级结构</a>
+<a href="#队伍状态队员状态及房间条件">队伍状态、队员状态及房间条件</a>
+<a href="#从建队到正式匹配的消息链">从建队到正式匹配的消息链</a>
+<a href="#配置值记录存在含义有限">配置值：记录存在，含义有限</a>
+<a href="#机器人与匹配算法的证据边界">机器人与匹配算法的证据边界</a></nav>
+<div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/matching.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 03 / 04 · 客户端源码</div><h1>匹配系统</h1><p>玩法目标、队伍状态和服务端边界</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<article class="prose"><h1 id="匹配系统目标组队与成功回包">匹配系统：目标、组队与成功回包</h1>
+<blockquote>
+<p>范围：研究客户端从选择目标到进入战斗前的请求与状态。匹配池、段位差扩圈和机器人填充属于服务端决策，不能从客户端常量推导出实战算法。</p>
+</blockquote>
+<h2 id="先分清三个匹配">先分清三个“匹配”</h2>
+<p>代码里的“自动匹配”至少有三件不同的事：<code>team_auto_match_c2s</code> 用来寻找队伍/补人；<code>team_open_match_c2s</code> 是带 PvP 玩法目标的正式匹配请求；<code>team_match_stat_c2s</code> 请求某玩法的人数/容量统计。它们参数、回包和目标不同，不能合并成一条“点匹配”逻辑。见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L211">队伍网络</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L529">自动匹配请求</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L741">匹配统计</a>。</p>
+<pre><code class="language-text">选择目标(type/target/arg)
+    ├─ 单人：保存所选目标 → 正式 PvP/玩法匹配请求
+    └─ 组队：创建/加入队伍 → 邀请或招募/自动补人
+                   → 队员准备、队长发起 → 正式匹配请求
+正式请求 → matching 状态 → 成功/取消回包 → 战斗加载
+</code></pre>
+<h2 id="玩法目标是多级结构">玩法目标是多级结构</h2>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.const.lua#L30">队伍枚举</a>将玩法主类 <code>target_main_type</code> 与具体 <code>target</code> 分开：有 PvP、PvE、赛季 2v2/3v3、自由房、塔、防守/副本和活动等枚举；PvP 目标类型又有 <code>match=2</code>、<code>pvp_2v2=3</code>、<code>pvp_3v3=4</code>。<code>team_create_c2s</code> 会构造 <code>type</code>、<code>target</code>、<code>arg</code>，同时带队伍条件与选项，见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L286">创建队伍</a>。<code>team_update_target_c2s</code> 在已组队时向服务端发变更请求，单人时则保存所选目标并广播界面更新，见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L455">更新目标</a>。</p>
+<p>目标枚举不是开放清单。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.data.data.lua#L1979"><code>is_team_target_open</code></a>和 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.team_target.main.lua"><code>team_target</code></a>显示客户端还检查目标条件；<code>team_misc</code> 另有 <code>team_target_open_3V3</code> 字段。当前服是否开放 3v3 或某活动仍需服务器状态。</p>
+<h2 id="队伍状态队员状态及房间条件">队伍状态、队员状态及房间条件</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>客户端枚举/状态</th>
+<th>用途与注意</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>本人身份 <code>role_status</code></td>
+<td><code>normal=0</code>、<code>teammate=1</code>、<code>captain=2</code>、<code>matching=3</code></td>
+<td>单人、队员、队长和匹配中不是同一种状态。</td>
+</tr>
+<tr>
+<td>队伍 <code>team_status</code></td>
+<td><code>normal=0</code>、<code>recruiting=1</code>、<code>matching=2</code>、<code>fighting=3</code></td>
+<td>招募、正式匹配和战斗期分离。</td>
+</tr>
+<tr>
+<td>队员 <code>teammate_status</code></td>
+<td><code>none=0</code>、<code>ready=1</code>、<code>in_fight=2</code></td>
+<td>“准备”是队员状态，可与队伍是否招募/匹配并存。</td>
+</tr>
+<tr>
+<td>组队条件</td>
+<td>职业、段位、杯数、密码；另有同职业人数限制常量</td>
+<td>这些是队伍入队条件/房间设置，不等于服务器匹配池过滤公式。</td>
+</tr>
+<tr>
+<td>自由房</td>
+<td>开放/密码、平衡与否、地图、环境、行动时间等设置枚举</td>
+<td>自定义房间是另一种建房模型，不能与排位匹配规则混淆。</td>
+</tr>
+</tbody>
+</table>
+<p>上述值来自<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.const.lua#L3">队伍常量</a>及<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.data.data.lua#L1657">队伍数据</a>。队伍数据还提供“所有成员已准备”“成员上限”“是否满员”“当前是否招募/匹配/战斗”的独立查询，说明客户端在发起前确实要区分队伍人数与准备情况，但具体是否允许未满员起排、谁能强制开排，仍应看对应模式和服务器回包。</p>
+<h2 id="从建队到正式匹配的消息链">从建队到正式匹配的消息链</h2>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>请求/回包</th>
+<th>能确认的载荷或后续动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>同步队伍</td>
+<td><code>team_info_c2s</code> / <code>team_info_s2c</code></td>
+<td>刷新队伍主体与角色信息。</td>
+</tr>
+<tr>
+<td>建队/变更</td>
+<td><code>team_create_c2s</code>、<code>team_update_target_c2s</code></td>
+<td>请求有目标三元组；建队还可带 <code>condition</code>、<code>options</code>。</td>
+</tr>
+<tr>
+<td>邀请/申请</td>
+<td><code>team_invite_c2s</code>、<code>team_apply_c2s</code>、对应处理回包</td>
+<td>邀请与申请各有列表、处理和通知链。</td>
+</tr>
+<tr>
+<td>招募/自动补人</td>
+<td><code>team_open_recruit_c2s</code>、<code>team_auto_match_c2s</code>，可分别停止</td>
+<td>自动补人请求目标包含 <code>type</code>、<code>target</code>、<code>arg</code>、<code>extend_type</code>；成功回包改本地自动匹配状态。</td>
+</tr>
+<tr>
+<td>准备</td>
+<td><code>team_ready_c2s</code>、<code>team_cancel_ready_c2s</code></td>
+<td>队员准备与取消有独立请求；部分赛事房间有准备前校验。</td>
+</tr>
+<tr>
+<td>正式开排</td>
+<td><code>team_open_match_c2s</code>、<code>team_stop_match_c2s</code></td>
+<td>PvP 请求设置玩法 <code>type</code>、<code>target</code>、<code>arg</code>；服务端队伍状态可进入 matching。</td>
+</tr>
+<tr>
+<td>结果/取消</td>
+<td><code>season_match_succ_s2c</code>、<code>team_cancel_match_s2c</code> 等</td>
+<td>赛季成功回包打开 <code>MatchSuccessView</code> 并广播成功；取消回包可提示队长或队员取消。</td>
+</tr>
+</tbody>
+</table>
+<p>建队、邀请、招募和匹配请求在<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L280">队伍网络 280–544</a>；准备/开排在<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L181">同文件 181–225</a>；成功视图在<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.season.manager.network.network.lua#L174">赛季网络 174</a>；取消提示在<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L1194">队伍网络 1194</a>。反编译的部分发送函数变量名损坏，但消息名称和参数结构可以交叉核对。</p>
+<h2 id="配置值记录存在含义有限">配置值：记录存在，含义有限</h2>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.team_misc.team_misc.lua#L5"><code>team_misc</code></a>含 <code>team_recruit_amount=6</code>、<code>team_recruit_refresh_cd=10</code>、<code>team_match_life=300</code>、<code>team_match_auto_note=15</code>、<code>team_match_cd=1</code>、<code>match_diff=2</code>、<code>max_apply_amount=30</code>、<code>apply_life=60</code>、<code>recruit_life=300</code>。这些字段说明招募、申请、匹配存在计数/寿命/冷却参数，但没有服务器对应实现时，不能把 <code>team_match_life=300</code> 直接写成“每次最长等待 300 秒”，也不能把 <code>match_diff=2</code> 写成“最多跨两个段位”。</p>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.ranked_match_misc.ranked_match_misc.lua#L12"><code>ranked_match_misc</code></a>还含 2v2 跨服天数、3v3 目标开放、平衡属性等字段。它们可能影响模式入口或数值处理，但仍不能解释实际匹配池分层。排位 2v2/3v3 的队伍容量、跨服条件和当前开放日期都应在动态服务端数据里确认。</p>
+<h2 id="机器人与匹配算法的证据边界">机器人与匹配算法的证据边界</h2>
+<p>客户端确实存在 <code>team_add_bot_c2s</code>、机器人识别查询、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.free_battle_robot.free_battle_robot.lua#L4"><code>free_battle_robot</code> 配置</a>，但这组证据只能说明自定义/自由战斗等场景支持机器人对象。<strong>不能据此断言排位等待到某秒就填机器人</strong>。隐藏分、实力加权、扩圈半径、胜率控制、跨服池规则、是否允许人机混排均无可复原的服务端算法。能明确描述的仅是客户端“提交目标 → 状态/统计更新 → 成功或取消回包 → 载入战斗”的链路。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

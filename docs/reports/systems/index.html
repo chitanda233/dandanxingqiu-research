@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="《弹弹星球》外围系统客户端代码研究。入口、功能开放、任务与资源回流">
+<title>外围系统 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
+<body><div class="site-shell">
+<aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="current" href="../systems/index.html"><span>01</span>外围系统</a>
+<a class="" href="../growth/index.html"><span>02</span>成长系统</a>
+<a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
+<a class="" href="../battle/index.html"><span>04</span>局内流程</a></nav>
+<div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#结论与主循环">结论与主循环</a>
+<a href="#入口层哪些操作通向哪里">入口层：哪些操作通向哪里</a>
+<a href="#功能开放配置提示和实时状态是两层">功能开放：配置提示和实时状态是两层</a>
+<a href="#任务主线日常和活跃度分开运行">任务：主线、日常和活跃度分开运行</a>
+<a href="#商店扭蛋与赛季怎样接上循环">商店、扭蛋与赛季怎样接上循环</a>
+<a href="#玩家可见流程与研究边界">玩家可见流程与研究边界</a></nav>
+<div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/systems.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 01 / 04 · 客户端源码</div><h1>外围系统</h1><p>入口、功能开放、任务与资源回流</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<article class="prose"><h1 id="外围系统入口任务与资源回流">外围系统：入口、任务与资源回流</h1>
+<blockquote>
+<p>范围：本页研究玩家离开战斗后的“看见入口 → 解锁 → 做任务/领取 → 购买或抽取 → 回到养成与战斗”。所有开放等级是缓存版本的客户端提示；当前服状态由服务端与角色数据决定。</p>
+</blockquote>
+<h2 id="结论与主循环">结论与主循环</h2>
+<p>游戏外围并非一张功能菜单，而是三层：主界面把武器、技能、玩法入口和队伍放在底部；日常、商店、福利放在右上；<code>open_func</code> 决定入口能否显示/点击，并持续刷新红点。任务、赛季、商店和扭蛋将战斗产出及领取行为引回角色与武器养成。这个路径可由<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua#L79">底部配置</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.right_up_config.lua#L34">右上配置</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.open_func.manager.const.lua#L5">功能常量</a>及<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.task.manager.network.network.lua#L15">任务网络</a>交叉确认。</p>
+<pre><code class="language-text">主界面入口与开放检查 → 玩法/队伍/战斗 → 服务端结果
+                         ↓                ↓
+                    主线、日常、赛季 ← 任务进度与结算
+                         ↓
+                 活跃度、段位、商店、扭蛋
+                         ↓
+                   等级/武器/技能/宠物培养
+</code></pre>
+<h2 id="入口层哪些操作通向哪里">入口层：哪些操作通向哪里</h2>
+<table>
+<thead>
+<tr>
+<th>位置与模块</th>
+<th>客户端可确认的行为</th>
+<th>证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>底部 <code>weapon</code></td>
+<td>打开武器子面板，带对应红点；新手特定流程会挡住入口。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua#L79">底部配置 79–101</a></td>
+</tr>
+<tr>
+<td>底部 <code>skill</code></td>
+<td>打开技能子面板；入口有独立红点。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua#L128">底部配置 128–151</a></td>
+</tr>
+<tr>
+<td>底部 <code>entrance</code></td>
+<td>打开玩法集合面板。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua#L152">底部配置 152–177</a></td>
+</tr>
+<tr>
+<td>底部 <code>team</code></td>
+<td>读取当前目标、是否组队和队员人数，进入/退出队伍子场景。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua#L177">底部配置 177 起</a></td>
+</tr>
+<tr>
+<td>右上 <code>daily</code></td>
+<td>跳转 <code>TaskDailyView</code>，检查日常功能 ID，绑定日常任务红点。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.right_up_config.lua#L34">右上配置 34–55</a></td>
+</tr>
+<tr>
+<td>右上 <code>shop</code></td>
+<td>打开 <code>ShopView</code>，检查商店功能 ID，接入商店红点。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.right_up_config.lua#L56">右上配置 56–78</a></td>
+</tr>
+<tr>
+<td>右上 <code>welfare</code></td>
+<td>打开 <code>WelfareMainView</code>，开放判断交由福利模块。</td>
+<td><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.main_view.manager.config.right_up_config.lua#L79">右上配置 79–108</a></td>
+</tr>
+</tbody>
+</table>
+<p>公会、好友、家园、装扮和称号可从<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.open_func.manager.const.lua#L5">功能 ID 表</a>及 <code>reverse/lua-bytecode/manifest.json</code> 的独立模块名确认“客户端包含入口/代码”。本次未逐个追到领取规则，因此不把它们写成已完成的资源闭环，更不据此断定当前服全部开放。</p>
+<h2 id="功能开放配置提示和实时状态是两层">功能开放：配置提示和实时状态是两层</h2>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.open_func.manager.core.lua#L148"><code>open_func</code> 管理器</a>的 <code>is_open</code> 返回客户端当前掌握的开放布尔值；<code>is_server_day_open</code> 显式比较开服天数。主界面按钮自身仍会调用开放检查并显示未开放提示。功能表既有等级条件，也有开服日、头衔/分支和服务端开关字段；只按等级画一条解锁线会误导。</p>
+<table>
+<thead>
+<tr>
+<th>功能 ID</th>
+<th>客户端提示/条件</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>3601</code> 扭蛋</td>
+<td>角色 2 级</td>
+<td>早期开启的获取入口。</td>
+</tr>
+<tr>
+<td><code>2235</code> 武器升星</td>
+<td>角色 6 级</td>
+<td>武器升星比更多后期系统更早出现。</td>
+</tr>
+<tr>
+<td><code>23</code> 日常任务、<code>1901</code> 排行榜</td>
+<td>角色 10 级</td>
+<td>日常和排行都被放在早期中段。</td>
+</tr>
+<tr>
+<td><code>5901</code> 战令</td>
+<td>角色 18 级</td>
+<td>任务/赛季之外再提供一条奖励进度。</td>
+</tr>
+<tr>
+<td><code>1801</code> 宠物</td>
+<td>开服第 2 天且角色 25 级</td>
+<td>同时具有时间和角色条件，不能只看等级。</td>
+</tr>
+<tr>
+<td><code>2208</code> 武器强化</td>
+<td>“士兵Ⅲ”头衔</td>
+<td>头衔条件不是简单等级值。</td>
+</tr>
+</tbody>
+</table>
+<p>以上 ID 的名称来自<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.open_func.manager.const.lua#L5">功能常量</a>，提示与条件来自<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.open_func.open_func.lua">开放配置</a>及分片配置。配置的部分嵌套表因反编译失真，不进一步宣称多条件的精确优先级。客户端存在服务端开放回包与角色级功能状态，因此本表是“提示样本”，不是当前账号开放列表。</p>
+<h2 id="任务主线日常和活跃度分开运行">任务：主线、日常和活跃度分开运行</h2>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.task.manager.const.lua#L8">任务枚举</a>区分主线 <code>main=102</code>、支线 <code>zhixian=2</code>、日常 <code>daily=3</code>、公会日常 <code>alliance_daily=104</code>、战令 <code>battle_pass=21</code> 等任务类型。任务状态区分可接、已接、可领、失败、完成；奖励状态另分未领、可领、已领。日常任务配置中普通日常上限值为 5，公会日常为 3；这是客户端配置项，不能推定每天一定刷新相同任务数。</p>
+<p>任务初始化会请求主线、支线、主线阶段信息；达到相应开放条件后再请求战令、活跃度和其他活动任务。见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.task.manager.core.lua#L100">任务管理器初始化请求</a>。协议把 <code>task_info_c2s</code>、提交 <code>task_commit_c2s</code>、日常活跃度信息/奖励、周奖励和主线阶段奖励分开，回包更新任务数据和红点，见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.task.manager.network.network.lua#L76">任务网络</a>。因此玩家做完一个行为后，可能先得到任务状态更新，再出现手动领取入口；“达成”和“入账”不是同一客户端状态。</p>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.task_liveness.task_liveness.lua#L4"><code>task_liveness</code></a>有 20、40、60、80、100 五档活跃度门槛。反编译能看见部分道具 ID/数量，但嵌套奖励数组被拆碎，本报告不直接将它们解读为当前实际礼包内容。<code>task_daily_liveness_reward_c2s</code> 与 <code>task_daily_week_reward_c2s</code> 则分别指向日/周领取链，见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.task.manager.network.network.lua#L88">任务网络</a>。</p>
+<h2 id="商店扭蛋与赛季怎样接上循环">商店、扭蛋与赛季怎样接上循环</h2>
+<table>
+<thead>
+<tr>
+<th>系统</th>
+<th>可确认的客户端闭环</th>
+<th>仍需核对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>商店</td>
+<td>拉取店铺信息、购买/批量购买、物品数量回包、订阅/店铺更新；购买成功后本地状态和红点可更新。见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.shop.manager.network.network.lua#L8">商店网络</a>。</td>
+<td>实际商品、价格、支付与限购由服务器和活动状态决定。</td>
+</tr>
+<tr>
+<td>扭蛋</td>
+<td>先请求信息/心愿/预览，再发 <code>gacha_spin_c2s</code>，收 <code>gacha_spin_s2c</code>；还有预览刷新与抽取。见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.gacha.manager.network.network.lua#L16">扭蛋网络</a>。</td>
+<td>配置中 <code>pre_gacha_num=3</code>、<code>forgive_gacha_num=2</code> 等字段不能单凭名称写成公开概率或保底次数。</td>
+</tr>
+<tr>
+<td>赛季</td>
+<td>请求赛季信息和个人信息、领取段位/赛季杯数奖励、处理战斗结果；回包驱动数据和红点。见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.season.manager.network.network.lua#L20">赛季网络</a>。</td>
+<td>赛程、当前赛季、奖励到账及结算由服务器确认。</td>
+</tr>
+</tbody>
+</table>
+<p>扭蛋<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.gacha_misc.gacha_misc.lua#L5">静态配置</a>还出现预览刷新、广告刷新和资源消耗字段。它说明此系统存在多种操作入口，但只靠本缓存不能核定实时抽取概率。战令<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.battlepass_misc.battlepass_misc.lua#L4">配置</a>有经验、购买 ID、周期和周经验上限字段；应与赛季、日常任务视为不同进度线。</p>
+<h2 id="玩家可见流程与研究边界">玩家可见流程与研究边界</h2>
+<p>玩家大概率经历“主界面提示未开/开放 → 选择玩法或养成入口 → 战斗/任务状态更新 → 红点提示可领取 → 领取或消费 → 数值再成长”。这个闭环是从入口、任务协议和养成协议串出的<strong>结构性推断</strong>，不是对某个账号的实测路径。当前版本具体按钮顺序、首次弹窗、任务刷新时间、全部奖励组成仍待服务器回包或录像验证。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

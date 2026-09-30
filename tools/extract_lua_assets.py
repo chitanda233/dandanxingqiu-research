@@ -39,7 +39,7 @@ def main() -> None:
                 target_dir.mkdir(exist_ok=True)
                 target = target_dir / f"{safe_name(name)}_{obj.path_id}.bin"
                 target.write_bytes(payload)
-                manifest.append({"bundle": package.name, "name": name, "path_id": obj.path_id, "file": str(target.relative_to(args.output)), "bytes": len(payload), "head": payload[:16].hex()})
+                manifest.append({"bundle": package.name, "name": name, "path_id": obj.path_id, "file": target.relative_to(args.output).as_posix(), "bytes": len(payload), "head": payload[:16].hex()})
             print(f"{package.name}: {counts}")
         except Exception as exc:
             print(f"ERROR {package.name}: {exc}")

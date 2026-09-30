@@ -1,0 +1,164 @@
+{
+  "game": "弹弹星球",
+  "appid": "wx64969d55b91a6963",
+  "cache_package_version": "242",
+  "snapshot_date": "2026-09-30",
+  "files": [
+    {
+      "category": "wechat-packages",
+      "file": "raw/wechat-packages/__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+      "bytes": 1621153,
+      "sha256": "3b8ab533d6ae2c4e9630149e0bd30b6647c15c92a5d5e405154debcd3d2392a8"
+    },
+    {
+      "category": "wechat-packages",
+      "file": "raw/wechat-packages/_wasmcode1_.wxapkg",
+      "bytes": 4696463,
+      "sha256": "62f649e66ea185849040d7747272d2aa3ef8099c39b9666834adbd2407d1b689"
+    },
+    {
+      "category": "wechat-packages",
+      "file": "raw/wechat-packages/_wasmcode_.wxapkg",
+      "bytes": 4199958,
+      "sha256": "92015f56b2166c055d3d7d4f27778101ce9bb00a9c4f082d6c9e3d5041d23536"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua0_573512.ab",
+      "bytes": 868784,
+      "sha256": "8dc8f38778232a0209917571d477d224d2997d04691c804c00b9d6bed68a4ecc"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua10_573512.ab",
+      "bytes": 1384275,
+      "sha256": "660e71bf7bc08ceb574eba15de1b7a6a1d317cd40cc66bf140d52315b66e6c2d"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua11_573512.ab",
+      "bytes": 1003710,
+      "sha256": "1707079c4da8b374fe074930449bb8d5dc8fb9af6bc31ca0cd93aecbeb9e794b"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua12_573512.ab",
+      "bytes": 1289536,
+      "sha256": "998516c856d6fa62f8dd60ad7f9c43841299e285d8481bece2ababfb39da68f1"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua1_573660.ab",
+      "bytes": 2111955,
+      "sha256": "0dc5a0eca7d2d253213deeafc341c8d10572919babcc27d71a541ede04ec0e1c"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua2_573512.ab",
+      "bytes": 1279780,
+      "sha256": "88c8987f5a2bb35b185d9bf51a44aaa2893c482e133d9ffc8178a14a81ba471f"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua3_573410.ab",
+      "bytes": 1018556,
+      "sha256": "8d877b00aa892fff62dacb492f94fc155be04a7abc3c3bc8417c0e34665a3035"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua4_573711.ab",
+      "bytes": 1674372,
+      "sha256": "dca0cee4f58cafcf2fba9fd3625764f4e58a1b6a39e819a3f403ee01830be375"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua5_573650.ab",
+      "bytes": 1664921,
+      "sha256": "37811097e38600a4f05c807604c118bc8780d95e84e850ad8ad6da5e828edbba"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua6_573512.ab",
+      "bytes": 1480222,
+      "sha256": "1a3571c7b1158a4dd5b11add4f0ccf7a8fb651e6cf89f22dc3ca3ebd76ca4dce"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua7_573533.ab",
+      "bytes": 954069,
+      "sha256": "12cd03232c20b11a9a058a2f322e11c69dae6d495d3642235b87ef610f40c3bf"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua8_573660.ab",
+      "bytes": 1091311,
+      "sha256": "06c0893f636e519c5eaa1bf36532bc857f01dff391591c9f68348762f2092c20"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua9_573570.ab",
+      "bytes": 1279876,
+      "sha256": "96080edd920c9422b1af886aef6996de5b9a32fd6f552656447391df0493cdca"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_championship_556965.ab",
+      "bytes": 45663,
+      "sha256": "61c73655e9cd8c610ed69515fa1af492092d27bd6dc3cc20f3623e944b7e97b2"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_gacha_556965.ab",
+      "bytes": 140732,
+      "sha256": "59909769118a339234585e40274d73908f49cf6acc8d6d62423f2bf545303458"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_label_556965.ab",
+      "bytes": 22634,
+      "sha256": "358758882c96b991d78c16974d0973d2c7593c82af83879fc4cfb8e9fd956187"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_level_up_556965.ab",
+      "bytes": 10029,
+      "sha256": "f4ae8ebc542c4b7ec9c5c27ad4ea046882530abdb09835f9f258962a9d4b47f0"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_main_weapon_develop_556965.ab",
+      "bytes": 208207,
+      "sha256": "b3652cd7453d094460ad5e270ca0017b1d955b8671a0f17e83755091077466e2"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_mvp_result_556965.ab",
+      "bytes": 4063,
+      "sha256": "ede09e233ea570737267e9457c81e4b112599c9ac27dbecfe4d8f6e2148ae5df"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_score_556965.ab",
+      "bytes": 21953,
+      "sha256": "ee3cac95c4c7627996e881468b0a0816191f29620c28f57cc9e525c30758bf38"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_season_572323.ab",
+      "bytes": 215616,
+      "sha256": "900fe0139e3d708e15a9990ebe4fe11ca50ec2c15e857ecca7957a4fda25b5ca"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_task_561842.ab",
+      "bytes": 59504,
+      "sha256": "c22ecdfdd51a3c098bdf9eb96fe9c3da92c9c21073170f137ca740f148eaae87"
+    },
+    {
+      "category": "lua-bundles",
+      "file": "raw/lua-bundles/lua_team_572323.ab",
+      "bytes": 184634,
+      "sha256": "6be3529cc48e18dc2c90bbabe7141cb059d5c85165d12a84046e83323be0463c"
+    }
+  ]
+}

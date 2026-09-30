@@ -11,7 +11,7 @@
 | [匹配系统](analysis/matching.md) | 单人/组队、招募补人、准备、发起/取消匹配、成功回包 |
 | [局内流程](analysis/battle.md) | 加载、回合下发、蓄力发射/技能、服务端节点、超时、结算 |
 
-[网页报告入口](docs/index.html) · [研究口径与证据目录](analysis/README.md)
+[在线网页报告](https://chitanda233.github.io/dandanxingqiu-research/) · [网页源文件](docs/index.html) · [研究口径与证据目录](analysis/README.md)
 
 ## 仓库结构
 
@@ -41,4 +41,4 @@ python tools/build_site.py
 python tools/check_site.py
 ```
 
-若需要核对本机快照，先检查 [原始资源清单](raw/manifest.json) 的 SHA-256。`docs/` 是 GitHub Pages 的发布目录，建站命令只读取 `analysis/`，不会改动原始资源。
+若需要核对本机快照，先检查 [原始资源清单](raw/manifest.json) 的 SHA-256。GitHub Pages 从 `main/docs` 发布；建站命令只读取 `analysis/`，不会改动原始资源。

@@ -1,0 +1,623 @@
+{
+  "10102092": {
+    "before_id": 10102091,
+    "id": 10102092,
+    "original_price": [
+      [
+        1001010004,
+        180
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10102092",
+    "price": [
+      [
+        1001010004,
+        180
+      ]
+    ],
+    "discount": "3",
+    "access_name": "AUTO_GEN_shop_shop_name_10102092"
+  },
+  "110301007": {
+    "sort": 9,
+    "name": "AUTO_GEN_shop_shop_name_110301007",
+    "id": 110301007,
+    "get_item": [
+      [
+        1217010002,
+        4
+      ],
+      [
+        1405020001,
+        1
+      ],
+      [
+        1001010013,
+        1
+      ],
+      [
+        1206010001,
+        2
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_110301007"
+  },
+  "11010056": {
+    "before_id": 11010026,
+    "id": 11010056,
+    "get_item": [
+      [
+        1205010001,
+        10
+      ]
+    ],
+    "is_red_point": [
+      [
+        2208,
+        1
+      ]
+    ],
+    "sort": 5,
+    "name": "AUTO_GEN_shop_shop_name_10101067",
+    "item_id": 1205010001,
+    "access_name": "AUTO_GEN_shop_shop_name_10101067"
+  },
+  "11010058": {
+    "num": 8,
+    "before_id": 11010056,
+    "id": 11010058,
+    "get_item": [
+      [
+        1205010001,
+        10
+      ]
+    ],
+    "is_red_point": [
+      [
+        2208,
+        1
+      ]
+    ],
+    "sort": 5,
+    "name": "AUTO_GEN_shop_shop_name_10101067",
+    "item_id": 1205010001,
+    "access_name": "AUTO_GEN_shop_shop_name_10101067"
+  },
+  "10101039": {
+    "before_id": 10101010,
+    "id": 10101039,
+    "name": "AUTO_GEN_shop_shop_name_10101039",
+    "price": [
+      [
+        1001010004,
+        875
+      ]
+    ],
+    "discount": "5",
+    "access_name": "AUTO_GEN_shop_shop_name_10101039"
+  },
+  "10101041": {
+    "before_id": 10101019,
+    "id": 10101041,
+    "name": "AUTO_GEN_shop_shop_name_10101041",
+    "price": [
+      [
+        1001010004,
+        250
+      ]
+    ],
+    "discount": "5",
+    "access_name": "AUTO_GEN_shop_shop_name_10101041"
+  },
+  "110301008": {
+    "before_id": 110301007,
+    "id": 110301008,
+    "get_item": [
+      [
+        1217010002,
+        80
+      ],
+      [
+        1405020001,
+        100
+      ],
+      [
+        1001010013,
+        5
+      ],
+      [
+        1201010001,
+        648
+      ]
+    ],
+    "discount_desc": "AUTO_GEN_shop_shop_discount_desc_110301006",
+    "sort": 10,
+    "name": "AUTO_GEN_shop_shop_name_110301008",
+    "price": [
+      [
+        1001010004,
+        6480
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_110301008"
+  },
+  "10601055": {
+    "type2": 1,
+    "num": 10,
+    "id": 10601055,
+    "get_item": [
+      [
+        1212010001,
+        1
+      ]
+    ],
+    "original_price": [
+      [
+        1001010005,
+        20
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10601055",
+    "sort": 8,
+    "price": [
+      [
+        1001010005,
+        20
+      ]
+    ],
+    "item_id": 1212010001,
+    "access_name": "AUTO_GEN_shop_shop_name_10601055"
+  },
+  "10701123": {
+    "type": 4,
+    "name": "AUTO_GEN_shop_shop_name_543_10701123",
+    "id": 10701123,
+    "get_item": [
+      [
+        1217010002,
+        1
+      ]
+    ],
+    "open": [
+      [
+        4,
+        [
+          3,
+          99999
+        ]
+      ]
+    ],
+    "original_price": [
+      [
+        1001010007,
+        40
+      ]
+    ],
+    "num_max": 140,
+    "buy_limit": [
+      [
+        2,
+        2000
+      ]
+    ],
+    "sort": 4,
+    "num": 70,
+    "price": [
+      [
+        1001010007,
+        40
+      ]
+    ],
+    "item_id": 1217010002,
+    "access_name": "AUTO_GEN_shop_shop_name_543_10701123"
+  },
+  "11010003": {
+    "item_id": 1205010001,
+    "name": "AUTO_GEN_shop_shop_name_10101067",
+    "id": 11010003,
+    "get_item": [
+      [
+        1205010001,
+        10
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_10101067"
+  },
+  "110301005": {
+    "sort": 7,
+    "name": "AUTO_GEN_shop_shop_name_110301005",
+    "id": 110301005,
+    "get_item": [
+      [
+        1618010001,
+        1
+      ],
+      [
+        1405020001,
+        1
+      ],
+      [
+        1001010013,
+        1
+      ],
+      [
+        1201010001,
+        6
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_110301005"
+  },
+  "10102091": {
+    "id": 10102091,
+    "original_price": [
+      [
+        1001010004,
+        120
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10102091",
+    "price": [
+      [
+        1001010004,
+        120
+      ]
+    ],
+    "discount": "2",
+    "access_name": "AUTO_GEN_shop_shop_name_10102091"
+  },
+  "10102093": {
+    "before_id": 10102092,
+    "id": 10102093,
+    "original_price": [
+      [
+        1001010004,
+        300
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10102093",
+    "price": [
+      [
+        1001010004,
+        300
+      ]
+    ],
+    "discount": "5",
+    "access_name": "AUTO_GEN_shop_shop_name_10102093"
+  },
+  "11010027": {
+    "num": 10,
+    "is_red_point": [
+      [
+        2204,
+        1
+      ]
+    ],
+    "id": 11010027,
+    "get_item": [
+      [
+        1201010001,
+        10
+      ]
+    ],
+    "sort": 6,
+    "name": "AUTO_GEN_shop_shop_name_11010004",
+    "item_id": 1201010001,
+    "access_name": "AUTO_GEN_shop_shop_name_11010004"
+  },
+  "11010057": {
+    "before_id": 11010027,
+    "id": 11010057,
+    "get_item": [
+      [
+        1201010001,
+        10
+      ]
+    ],
+    "is_red_point": [
+      [
+        2204,
+        1
+      ]
+    ],
+    "sort": 6,
+    "name": "AUTO_GEN_shop_shop_name_11010004",
+    "item_id": 1201010001,
+    "access_name": "AUTO_GEN_shop_shop_name_11010004"
+  },
+  "10101010": {
+    "id": 10101010,
+    "get_item": [
+      [
+        10201040005,
+        1
+      ]
+    ],
+    "original_price": [
+      [
+        1001010004,
+        1750
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10101010",
+    "sort": 80,
+    "price": [
+      [
+        1001010004,
+        350
+      ]
+    ],
+    "item_id": 10201040005,
+    "access_name": "AUTO_GEN_shop_shop_name_10101010"
+  },
+  "11010059": {
+    "num": 4,
+    "before_id": 11010057,
+    "id": 11010059,
+    "get_item": [
+      [
+        1201010001,
+        10
+      ]
+    ],
+    "is_red_point": [
+      [
+        2204,
+        1
+      ]
+    ],
+    "sort": 6,
+    "name": "AUTO_GEN_shop_shop_name_11010004",
+    "item_id": 1201010001,
+    "access_name": "AUTO_GEN_shop_shop_name_11010004"
+  },
+  "11010026": {
+    "num": 2,
+    "is_red_point": [
+      [
+        2208,
+        1
+      ]
+    ],
+    "id": 11010026,
+    "get_item": [
+      [
+        1205010001,
+        10
+      ]
+    ],
+    "sort": 5,
+    "name": "AUTO_GEN_shop_shop_name_10101067",
+    "item_id": 1205010001,
+    "access_name": "AUTO_GEN_shop_shop_name_10101067"
+  },
+  "10601002": {
+    "type2": 99,
+    "num": 20,
+    "id": 10601002,
+    "get_item": [
+      [
+        1210010001,
+        1
+      ]
+    ],
+    "original_price": [
+      [
+        1001010005,
+        10
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10601002",
+    "sort": 17,
+    "price": [
+      [
+        1001010005,
+        10
+      ]
+    ],
+    "item_id": 1210010001,
+    "access_name": "AUTO_GEN_shop_shop_name_10601002"
+  },
+  "10101042": {
+    "before_id": 10101041,
+    "id": 10101042,
+    "name": "AUTO_GEN_shop_shop_name_10101042",
+    "price": [
+      [
+        1001010004,
+        400
+      ]
+    ],
+    "discount": "8",
+    "access_name": "AUTO_GEN_shop_shop_name_10101042"
+  },
+  "10101040": {
+    "before_id": 10101039,
+    "id": 10101040,
+    "name": "AUTO_GEN_shop_shop_name_10101040",
+    "price": [
+      [
+        1001010004,
+        1400
+      ]
+    ],
+    "discount": "8",
+    "access_name": "AUTO_GEN_shop_shop_name_10101040"
+  },
+  "10801041": {
+    "type": 1,
+    "access_name": "AUTO_GEN_shop_shop_name_10801041",
+    "id": 10801041,
+    "get_item": [
+      [
+        1021800001,
+        1
+      ]
+    ],
+    "open": [
+      [
+        4,
+        [
+          6,
+          99999
+        ]
+      ]
+    ],
+    "original_price": [
+      [
+        1001010003,
+        300
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10801041",
+    "sort": 10,
+    "num": 5,
+    "discount": "5",
+    "price": [
+      [
+        1001010003,
+        300
+      ]
+    ],
+    "item_id": 1021800001,
+    "tag": 1
+  },
+  "11010013": {
+    "id": 11010013,
+    "get_item": [
+      [
+        1210010001,
+        10
+      ]
+    ],
+    "original_price": [
+      [
+        1010010001,
+        500
+      ]
+    ],
+    "item_id": 1210010001,
+    "name": "AUTO_GEN_shop_shop_name_10601002",
+    "discount": "5",
+    "price": [
+      [
+        1010010001,
+        250
+      ]
+    ],
+    "color": 3,
+    "access_name": "AUTO_GEN_shop_shop_name_10601002"
+  },
+  "11010014": {
+    "id": 11010014,
+    "get_item": [
+      [
+        10201040027,
+        10
+      ]
+    ],
+    "original_price": [
+      [
+        1010010001,
+        100
+      ]
+    ],
+    "item_id": 10201040027,
+    "name": "AUTO_GEN_shop_shop_name_11010014",
+    "price": [
+      [
+        1010010001,
+        50
+      ]
+    ],
+    "color": 2,
+    "access_name": "AUTO_GEN_shop_shop_name_11010014"
+  },
+  "10102094": {
+    "before_id": 10102093,
+    "id": 10102094,
+    "original_price": [
+      [
+        1001010004,
+        420
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10102094",
+    "price": [
+      [
+        1001010004,
+        420
+      ]
+    ],
+    "discount": "7",
+    "access_name": "AUTO_GEN_shop_shop_name_10102094"
+  },
+  "11010004": {
+    "item_id": 1201010001,
+    "name": "AUTO_GEN_shop_shop_name_11010004",
+    "id": 11010004,
+    "get_item": [
+      [
+        1201010001,
+        10
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_11010004"
+  },
+  "110301006": {
+    "before_id": 110301005,
+    "id": 110301006,
+    "get_item": [
+      [
+        10201030029,
+        2
+      ],
+      [
+        1405020001,
+        80
+      ],
+      [
+        1001010013,
+        4
+      ],
+      [
+        1201010001,
+        512
+      ]
+    ],
+    "discount_desc": "AUTO_GEN_shop_shop_discount_desc_110301006",
+    "sort": 8,
+    "name": "AUTO_GEN_shop_shop_name_110301006",
+    "price": [
+      [
+        1001010004,
+        3280
+      ]
+    ],
+    "access_name": "AUTO_GEN_shop_shop_name_110301006"
+  },
+  "10101019": {
+    "id": 10101019,
+    "get_item": [
+      [
+        10201040026,
+        1
+      ]
+    ],
+    "original_price": [
+      [
+        1001010004,
+        500
+      ]
+    ],
+    "name": "AUTO_GEN_shop_shop_name_10101019",
+    "sort": 70,
+    "price": [
+      [
+        1001010004,
+        100
+      ]
+    ],
+    "item_id": 10201040026,
+    "access_name": "AUTO_GEN_shop_shop_name_10101019"
+  }
+}

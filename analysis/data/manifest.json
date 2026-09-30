@@ -369,5 +369,159 @@
     "sha256": "0c98d12164ba52979113dd9dd8c2a1f6068d6a7c395ee7a6acf66a8fd5fe7852",
     "output": "language_define_weapon_class.json",
     "rows": 12
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_misc.gacha_misc",
+    "source": "lua12_573512/auto_gen.package_include.config.gacha_misc.gacha_misc_7739475200575144929.bin",
+    "sha256": "438040ef6dc3e645ab7823511f8259a67f7c7a2065ad9e0418ebfbf7905d287f",
+    "output": "gacha_misc_gacha_misc.json",
+    "rows": 14
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_guarantee.gacha_guarantee",
+    "source": "lua11_573512/auto_gen.package_include.config.gacha_guarantee.gacha_guarantee_-7575259529417761934.bin",
+    "sha256": "7af82a31f63eac3cfc76dd68c8a549f39a438936fb7b63a0ae751d1e14d3c808",
+    "output": "gacha_guarantee_gacha_guarantee.json",
+    "rows": 10
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_pool.gacha_pool",
+    "source": "lua4_573711/auto_gen.package_include.config.gacha_pool.gacha_pool_-7935424634148655449.bin",
+    "sha256": "5a768ed24fa10ac94bb8fd0d1c9358581d2c2c528e7c965c6d32df1d1850bfd1",
+    "output": "gacha_pool_gacha_pool.json",
+    "rows": 200
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha.gacha_0",
+    "source": "lua4_573711/auto_gen.package_include.config.gacha.gacha_0_604700157264528603.bin",
+    "sha256": "4be87baaa10ed8ea34432b6a8abcdc82c47cedc0ca784fe940e0737e11b3c2d8",
+    "output": "gacha_gacha_0.json",
+    "rows": 1
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha.gacha_543",
+    "source": "lua4_573711/auto_gen.package_include.config.gacha.gacha_543_-2867609434655422984.bin",
+    "sha256": "e457610491fbe96255d903b259c6067fe68049207e764c536ceb73dbc2b1eda8",
+    "output": "gacha_gacha_543.json",
+    "rows": 1
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_wish.gacha_wish",
+    "source": "lua5_573650/auto_gen.package_include.config.gacha_wish.gacha_wish_5239760701562676389.bin",
+    "sha256": "d7b93b1f37c86fe6ef3f620f5626ef8f4d53bd3a586ff35f013a3d0e6be22c28",
+    "output": "gacha_wish_gacha_wish.json",
+    "rows": 7
+  },
+  {
+    "name": "auto_gen.package_include.config.shop.shop_0",
+    "source": "lua8_573660/auto_gen.package_include.config.shop.shop_0_-3211099693395847770.bin",
+    "sha256": "33ab88a84f87903ca31e8ba05f4fd8f74d812b5becdcf2ae46a129a4d30d450e",
+    "output": "shop_shop_0.json",
+    "rows": 23
+  },
+  {
+    "name": "auto_gen.package_include.config.shop.shop_543",
+    "source": "lua8_573660/auto_gen.package_include.config.shop.shop_543_3326241323951293059.bin",
+    "sha256": "5539b42e6953b14bf0c6ce4e9ed497c8a583acebc20aa0aa7904f25bcef350f6",
+    "output": "shop_shop_543.json",
+    "rows": 28
+  },
+  {
+    "name": "auto_gen.package_include.config.shop_class.shop_class",
+    "source": "lua11_573512/auto_gen.package_include.config.shop_class.shop_class_-3406478644912893761.bin",
+    "sha256": "960977cdc512a187e2915139211daed8fb7a6e23f931ab416f46b1cea96787e2",
+    "output": "shop_class_shop_class.json",
+    "rows": 46
+  },
+  {
+    "name": "auto_gen.package_include.config.seven_sign.seven_sign_0",
+    "source": "lua8_573660/auto_gen.package_include.config.seven_sign.seven_sign_0_-7569516695107156289.bin",
+    "sha256": "b3d18be55e898aa8a1cd3dba9c71af6a723ff13de3430c137391c0296c1d9ae2",
+    "output": "seven_sign_seven_sign_0.json",
+    "rows": 5
+  },
+  {
+    "name": "auto_gen.package_include.config.seven_sign.seven_sign_543",
+    "source": "lua8_573660/auto_gen.package_include.config.seven_sign.seven_sign_543_7454392523392418410.bin",
+    "sha256": "847c4fddfe40bae6e7a77992725c4d2cbf3ddc50593f898fc3628d57e91ed80f",
+    "output": "seven_sign_seven_sign_543.json",
+    "rows": 5
+  },
+  {
+    "name": "auto_gen.package_include.config.task_liveness.task_liveness",
+    "source": "lua10_573512/auto_gen.package_include.config.task_liveness.task_liveness_-4493766599770351219.bin",
+    "sha256": "f8aed4f160e687c2190e98ea7aff85e1c30eff966bacab2964be42a16ef95f4b",
+    "output": "task_liveness_task_liveness.json",
+    "rows": 5
+  },
+  {
+    "name": "auto_gen.package_include.config.tasks.tasks_0",
+    "source": "lua7_573533/auto_gen.package_include.config.tasks.tasks_0_4849879193151581229.bin",
+    "sha256": "1bb5b6e9f70ffdb591635bd8364bea92bd9d1c40c4172cf5a6affd485e7657f9",
+    "output": "tasks_tasks_0.json",
+    "rows": 80
+  },
+  {
+    "name": "auto_gen.package_include.config.tasks.tasks_543",
+    "source": "lua7_573533/auto_gen.package_include.config.tasks.tasks_543_5065045647889641194.bin",
+    "sha256": "5ee0b11c4af1911de2423105bc51051bba6cb645d89ee9d241364e3edb0c9e85",
+    "output": "tasks_tasks_543.json",
+    "rows": 80
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_misc.battlepass_misc",
+    "source": "lua5_573650/auto_gen.package_include.config.battlepass_misc.battlepass_misc_-8200650588084156186.bin",
+    "sha256": "7dffad6fa586e304cff7a335747ac5782c8a869e6fef5591b33aa78fd113ccf6",
+    "output": "battlepass_misc_battlepass_misc.json",
+    "rows": 7
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_common.battlepass_common",
+    "source": "lua5_573650/auto_gen.package_include.config.battlepass_common.battlepass_common_3662703076486911480.bin",
+    "sha256": "007a2cea2287c624880978f796a18251e694f45f489783a364820164d43b793c",
+    "output": "battlepass_common_battlepass_common.json",
+    "rows": 17
+  },
+  {
+    "name": "auto_gen.package_include.config.season_misc.season_misc",
+    "source": "lua4_573711/auto_gen.package_include.config.season_misc.season_misc_3946440141446785915.bin",
+    "sha256": "ac1b3d29c0e08ed6737964e3c41e844ae8ea8982513a0e13ecdb6cb067c6456c",
+    "output": "season_misc_season_misc.json",
+    "rows": 62
+  },
+  {
+    "name": "auto_gen.package_include.config.season_reset.season_reset",
+    "source": "lua6_573512/auto_gen.package_include.config.season_reset.season_reset_1292712693523699504.bin",
+    "sha256": "325d642afeb4a90d1073d82ccb417d6180361c9baf730848101b5671fcbdf991",
+    "output": "season_reset_season_reset.json",
+    "rows": 4
+  },
+  {
+    "name": "auto_gen.package_include.config.season_rank.season_rank",
+    "source": "lua10_573512/auto_gen.package_include.config.season_rank.season_rank_-4247833471120686611.bin",
+    "sha256": "f8738dd4e216e54b2b0f84799f4534b72f0e73ade68a181eb711985b12f74bec",
+    "output": "season_rank_season_rank.json",
+    "rows": 27
+  },
+  {
+    "name": "auto_gen.package_include.config.season_cup.season_cup",
+    "source": "lua10_573512/auto_gen.package_include.config.season_cup.season_cup_-522318371118045844.bin",
+    "sha256": "dc5d6b6e51ace334f8a81c1efa9a0bc2b0495779723305220bad36b992abc9a0",
+    "output": "season_cup_season_cup.json",
+    "rows": 53
+  },
+  {
+    "name": "auto_gen.package_include.config.season_cultivate.season_cultivate",
+    "source": "lua7_573533/auto_gen.package_include.config.season_cultivate.season_cultivate_-2409590241630127749.bin",
+    "sha256": "9dd87f52e8e53086446cf5a9918b80e8eac2bf197cc289b1241e4de413300871",
+    "output": "season_cultivate_season_cultivate.json",
+    "rows": 30
+  },
+  {
+    "name": "auto_gen.package_include.config.season_pvp_elo.pvp_elo",
+    "source": "lua7_573533/auto_gen.package_include.config.season_pvp_elo.pvp_elo_614984319525012012.bin",
+    "sha256": "b17bd26e6a76675bd51e6d6f4d812e1e6d230620c7953568c59183a9db74ab85",
+    "output": "season_pvp_elo_pvp_elo.json",
+    "rows": 16
   }
 ]

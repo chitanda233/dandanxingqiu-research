@@ -6,10 +6,16 @@
 
 | 专题 | 主要回答 |
 | --- | --- |
+| [逆向策划设计案](analysis/design-spec.md) | 主循环、单局决策、成长、AI 匹配与资源回流如何组成产品设计 |
 | [外围系统](analysis/systems.md) | 主界面入口、功能开放、任务、活跃度、商店、扭蛋、赛季的关系 |
 | [成长系统](analysis/growth.md) | 角色等级与属性、武器升星/强化、技能/宠物、段位和战令 |
 | [匹配系统](analysis/matching.md) | 单人/组队、招募补人、准备、发起/取消匹配、成功回包 |
 | [局内流程](analysis/battle.md) | 加载、回合下发、蓄力发射/技能、服务端节点、超时、结算 |
+| [局内计算与操作](analysis/combat-math.md) | 发炮字段、推荐力度搜索、轨迹与天气 |
+| [技能与数值](analysis/skills.md) | 技能效果、费用、冷却、限次、文字与配置冲突 |
+| [机器人与 AI](analysis/robots.md) | 新人 AI、等待兜底、人机杯分、配装与行为样本 |
+| [局外成长数值](analysis/growth-numbers.md) | 角色、宠物、武器、宝石及 PVP 平衡表 |
+| [局外经济与留存](analysis/economy.md) | 活跃度、抽取保底、商店、签到与通行证 |
 
 [在线网页报告](https://chitanda233.github.io/dandanxingqiu-research/) · [网页源文件](docs/index.html) · [研究口径与证据目录](analysis/README.md)
 
@@ -17,6 +23,7 @@
 
 ```text
 analysis/                  分专题的人工分析报告（网页的唯一内容源）
+  data/                   75 张由原始字节码执行导出的配置 JSON 与来源哈希
 docs/                      GitHub Pages 静态网页；每个专题一个页面
 raw/                       从本机缓存复制的原始 wxapkg 与 23 个 Lua AssetBundle
   manifest.json            每份原始文件的大小与 SHA-256
@@ -37,6 +44,8 @@ python -m pip install -r requirements.txt
 python tools/inspect_wxapkg.py raw/wechat-packages/__WITHOUT_MULTI_PLUGINCODE__.wxapkg --appid wx64969d55b91a6963 --since 2026-09-01
 python tools/extract_lua_assets.py raw/lua-bundles reverse/lua-bytecode
 python tools/decompile_selected.py reverse/lua-bytecode reverse/lua-decompiled --java java --jar vendor/unluac.jar
+python -m pip install -r requirements-research.txt
+python tools/extract_config_tables.py
 python tools/build_site.py
 python tools/check_site.py
 ```

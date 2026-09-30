@@ -1,0 +1,506 @@
+{
+  "rank_range": {
+    "key": "rank_range",
+    "val": [
+      1,
+      1
+    ]
+  },
+  "the_first_X_ai_pvp": {
+    "key": "the_first_X_ai_pvp",
+    "val": 5
+  },
+  "pvp_fundmental_exp": {
+    "key": "pvp_fundmental_exp",
+    "val": [
+      [
+        3,
+        2735
+      ],
+      [
+        8,
+        641
+      ],
+      [
+        20,
+        103
+      ]
+    ]
+  },
+  "rec_angle_icon": {
+    "key": "rec_angle_icon",
+    "val": [
+      "Icon/Skill/1",
+      "110023"
+    ]
+  },
+  "pvp_reputation_max": {
+    "key": "pvp_reputation_max",
+    "val": 100
+  },
+  "room_refresh_num": {
+    "key": "room_refresh_num",
+    "val": 6
+  },
+  "pvp_reward_times_daily": {
+    "key": "pvp_reward_times_daily",
+    "val": 3
+  },
+  "season_pre_time": {
+    "key": "season_pre_time",
+    "val": [
+      [
+        8,
+        -2
+      ],
+      [
+        11,
+        -1
+      ],
+      [
+        15,
+        0
+      ]
+    ]
+  },
+  "robot_quit2": {
+    "key": "robot_quit2",
+    "val": 8
+  },
+  "negative_reputation_cut": {
+    "key": "negative_reputation_cut",
+    "val": 5
+  },
+  "newbie_match_time": {
+    "key": "newbie_match_time",
+    "val": [
+      2500,
+      5000
+    ]
+  },
+  "season_pre_cross_day": {
+    "key": "season_pre_cross_day",
+    "val": 7
+  },
+  "pvp_match_fail_ai_time": {
+    "key": "pvp_match_fail_ai_time",
+    "val": 180
+  },
+  "rec_angle_dec_time": {
+    "key": "rec_angle_dec_time",
+    "val": 10
+  },
+  "ai_name": {
+    "key": "ai_name",
+    "val": [
+      "弹弹人",
+      "阿弹",
+      "爆弹",
+      "冷弹",
+      "热诚弹",
+      "伊利弹",
+      "坏弹"
+    ]
+  },
+  "match_not_good_cup_calculate": {
+    "key": "match_not_good_cup_calculate"
+  },
+  "init_rank": {
+    "key": "init_rank",
+    "val": 101
+  },
+  "partitioned_star": {
+    "key": "partitioned_star",
+    "val": 25
+  },
+  "rank_lose_buff": {
+    "key": "rank_lose_buff",
+    "val": 30
+  },
+  "season_cup_maxrank": {
+    "key": "season_cup_maxrank",
+    "val": [
+      [
+        1,
+        3100
+      ],
+      [
+        2,
+        3800
+      ],
+      [
+        3,
+        4600
+      ],
+      [
+        4,
+        5000
+      ]
+    ]
+  },
+  "max_each_attend_award": {
+    "key": "max_each_attend_award",
+    "val": [
+      [
+        1,
+        3000
+      ]
+    ]
+  },
+  "season_new_cross_day": {
+    "key": "season_new_cross_day",
+    "val": 7
+  },
+  "initial_elo": {
+    "key": "initial_elo",
+    "val": 1000
+  },
+  "match_rank_limit": {
+    "key": "match_rank_limit",
+    "val": 0
+  },
+  "cup_passives": {
+    "key": "cup_passives",
+    "val": [
+      [
+        0,
+        2000,
+        189
+      ]
+    ]
+  },
+  "season_pre_num": {
+    "key": "season_pre_num",
+    "val": 500
+  },
+  "out_of_line_pvp": {
+    "key": "out_of_line_pvp",
+    "val": 4
+  },
+  "each_attend_award": {
+    "key": "each_attend_award",
+    "val": [
+      [
+        1,
+        200
+      ]
+    ]
+  },
+  "immunity_card": {
+    "key": "immunity_card",
+    "val": 1424010001
+  },
+  "initial_cup": {
+    "key": "initial_cup",
+    "val": 1000
+  },
+  "the_first_X_games_ai": {
+    "key": "the_first_X_games_ai",
+    "val": [
+      5,
+      1,
+      1
+    ]
+  },
+  "not_answer_pvp": {
+    "key": "not_answer_pvp",
+    "val": 2
+  },
+  "cup_passives_open_func": {
+    "key": "cup_passives_open_func",
+    "val": [
+      17,
+      18
+    ]
+  },
+  "pvp_elo_Y": {
+    "key": "pvp_elo_Y",
+    "val": 100
+  },
+  "robot_quit": {
+    "key": "robot_quit",
+    "val": 2
+  },
+  "pvp_not_open_time": {
+    "key": "pvp_not_open_time",
+    "val": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0
+      ]
+    ]
+  },
+  "win_cup": {
+    "key": "win_cup",
+    "val": [
+      [
+        5,
+        20
+      ],
+      [
+        10,
+        40
+      ],
+      [
+        300,
+        200
+      ]
+    ]
+  },
+  "reach_reward_special_weapon": {
+    "key": "reach_reward_special_weapon",
+    "val": [
+      800,
+      900
+    ]
+  },
+  "rec_angle_dec": {
+    "key": "rec_angle_dec",
+    "val": [
+      "使用<color=#ff0000>推荐角度</color>发射，提升攻击力和地形破坏力"
+    ]
+  },
+  "the_first_2_ai_pvp_battle": {
+    "key": "the_first_2_ai_pvp_battle",
+    "val": [
+      102010001,
+      102010002
+    ]
+  },
+  "cup_range": {
+    "key": "cup_range",
+    "val": [
+      500,
+      500
+    ]
+  },
+  "pvp_elo_X": {
+    "key": "pvp_elo_X",
+    "val": 10
+  },
+  "max_lv_gap": {
+    "key": "max_lv_gap",
+    "val": [
+      26,
+      20
+    ]
+  },
+  "combat_value_attr": {
+    "key": "combat_value_attr",
+    "val": [
+      11,
+      1,
+      2,
+      3,
+      4,
+      5,
+      71,
+      73,
+      13,
+      17,
+      31
+    ]
+  },
+  "warrior_add_max": {
+    "key": "warrior_add_max",
+    "val": 5
+  },
+  "battle_balance_attr_limit": {
+    "key": "battle_balance_attr_limit",
+    "val": [
+      [
+        12,
+        9600
+      ],
+      [
+        13,
+        9600
+      ],
+      [
+        16,
+        9600
+      ],
+      [
+        17,
+        9600
+      ],
+      [
+        14,
+        9600
+      ],
+      [
+        15,
+        9600
+      ],
+      [
+        131,
+        9600
+      ],
+      [
+        134,
+        9600
+      ],
+      [
+        139,
+        9600
+      ],
+      [
+        141,
+        9600
+      ],
+      [
+        143,
+        9600
+      ],
+      [
+        145,
+        9600
+      ]
+    ]
+  },
+  "activity_cup_add": {
+    "key": "activity_cup_add",
+    "val": [
+      [
+        [
+          1,
+          2
+        ],
+        5000
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        10000
+      ]
+    ]
+  },
+  "extra_cup_calculate": {
+    "key": "extra_cup_calculate"
+  },
+  "robot_open_func": {
+    "key": "robot_open_func",
+    "val": 110
+  },
+  "suggestion_for_pvp": {
+    "key": "suggestion_for_pvp",
+    "val": [
+      [
+        "在排位赛中，戒骄戒躁往往能有更好的表现"
+      ],
+      [
+        "与队友良好的沟通是赢下比赛胜利的关键"
+      ]
+    ]
+  },
+  "robot_quit_messege": {
+    "key": "robot_quit_messege",
+    "val": [
+      "去打主线了,先溜~"
+    ]
+  },
+  "robot_invitation_time": {
+    "key": "robot_invitation_time",
+    "val": 15000
+  },
+  "season_pre_max": {
+    "key": "season_pre_max",
+    "val": 10
+  },
+  "second_ai_pvp_task": {
+    "key": "second_ai_pvp_task",
+    "val": 100101
+  },
+  "ai_battle_power": {
+    "key": "ai_battle_power",
+    "val": [
+      [
+        11,
+        5000
+      ],
+      [
+        1,
+        5000
+      ],
+      [
+        2,
+        5000
+      ],
+      [
+        3,
+        5000
+      ],
+      [
+        4,
+        5000
+      ],
+      [
+        5,
+        5000
+      ],
+      [
+        71,
+        5000
+      ],
+      [
+        73,
+        5000
+      ],
+      [
+        74,
+        5000
+      ]
+    ]
+  },
+  "the_first_X_games_robot_D_value": {
+    "key": "the_first_X_games_robot_D_value",
+    "val": [
+      1000
+    ]
+  },
+  "cross_server_days": {
+    "key": "cross_server_days",
+    "val": 1
+  },
+  "init_cup": {
+    "key": "init_cup",
+    "val": 800
+  },
+  "robot_role_list": {
+    "key": "robot_role_list",
+    "val": [
+      4001,
+      4002,
+      4003,
+      4004,
+      4005,
+      4006,
+      4007,
+      4008,
+      4009,
+      4010,
+      4011,
+      4012
+    ]
+  },
+  "rec_angle_effect": {
+    "key": "rec_angle_effect",
+    "val": 510005
+  },
+  "pvp_forbid_reputation": {
+    "key": "pvp_forbid_reputation",
+    "val": 90
+  },
+  "rank_list_entry_position": {
+    "key": "rank_list_entry_position",
+    "val": 300
+  }
+}

@@ -73,9 +73,18 @@ def main() -> None:
         if target.stat().st_size != item["bytes"] or hashlib.sha256(target.read_bytes()).hexdigest() != item["sha256"]:
             problems.append(f"Original hash/size mismatch: {item['file']}")
 
+    derived = json.loads((ROOT / "analysis/data/manifest.json").read_text(encoding="utf-8"))
+    for item in derived:
+        source = ROOT / "reverse/lua-bytecode" / item["source"]
+        output = ROOT / "analysis/data" / item["output"]
+        if not source.is_file() or hashlib.sha256(source.read_bytes()).hexdigest() != item["sha256"]:
+            problems.append(f"Derived table source mismatch: {item['name']}")
+        if not output.is_file() or len(json.loads(output.read_text(encoding="utf-8"))) != item["rows"]:
+            problems.append(f"Derived table row count mismatch: {item['name']}")
+
     if problems:
         raise SystemExit("\n".join(problems))
-    print(f"PASS: {len(pages)} pages, {checked} links, {len(manifest['files'])} original files hash-checked")
+    print(f"PASS: {len(pages)} pages, {checked} links, {len(manifest['files'])} originals, {len(derived)} derived tables checked")
 
 
 if __name__ == "__main__":

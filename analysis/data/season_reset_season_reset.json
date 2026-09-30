@@ -1,0 +1,22 @@
+{
+  "1004": {
+    "id": 1004,
+    "transform_prop": 3000000,
+    "reset_item": 1429010002
+  },
+  "1003": {
+    "id": 1003,
+    "transform_prop": 10000,
+    "reset_item": 1002010014
+  },
+  "1005": {
+    "id": 1005,
+    "transform_prop": 1000000,
+    "reset_item": 1429010003
+  },
+  "1006": {
+    "id": 1006,
+    "transform_prop": 500000,
+    "reset_item": 1020200017
+  }
+}

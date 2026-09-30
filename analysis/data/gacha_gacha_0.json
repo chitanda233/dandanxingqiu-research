@@ -1,0 +1,51 @@
+{
+  "102": {
+    "gacha_type": 3,
+    "touying": "gacha_img_mengdanji_touying3",
+    "wish_bg": "gacha_txt_mengdanji04",
+    "sort": 1,
+    "item_type": 2,
+    "bg": "gacha_bg_mengdanji5",
+    "gacha_bg": "gacha_img_mengdanji3",
+    "type": 4,
+    "id": 102,
+    "gacha_desc": "AUTO_GEN_gacha_gacha_gacha_desc_102",
+    "cost_item_list": [
+      [
+        1405030001,
+        1
+      ]
+    ],
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        4,
+        20
+      ],
+      [
+        6,
+        50
+      ]
+    ],
+    "open_cond": [
+      [
+        2,
+        17,
+        999
+      ]
+    ],
+    "name": "装备扭蛋",
+    "icon": "gacha_togbtn_teshu",
+    "pool_list": [
+      102
+    ],
+    "title_resource": "gacha_txt_mengdanji01"
+  }
+}

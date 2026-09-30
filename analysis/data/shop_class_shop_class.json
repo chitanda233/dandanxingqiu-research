@@ -1,0 +1,474 @@
+{
+  "1": {
+    "tab_icon": "Shop_icon_tehui",
+    "type": 1,
+    "open_id": 4601,
+    "subtype": [
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_1_1",
+        "sub_id": 1
+      },
+      {
+        "currency": [
+          1001010003,
+          1001010004
+        ],
+        "open_id": 4609,
+        "sub_id": 2,
+        "hint_show": "market_shop_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_1_2"
+      },
+      {
+        "currency": [
+          1001010005
+        ],
+        "open_id": 4607,
+        "sub_id": 3,
+        "hint_show": "market_shop_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_1_3"
+      },
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 46,
+        "sub_id": 4,
+        "hint_show": "market_shop_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_1_4"
+      }
+    ],
+    "shop_show": 1,
+    "icon": "shop_tilte_tehui",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_1"
+  },
+  "2": {
+    "tab_icon": "Shop_icon_zhuangban",
+    "type": 2,
+    "open_id": 4606,
+    "subtype": [
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010013,
+          1001010014
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_2_1",
+        "sub_id": 1
+      },
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010013,
+          1001010014
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_2_2",
+        "sub_id": 2
+      },
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010013,
+          1001010014
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_2_3",
+        "sub_id": 3
+      },
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010013,
+          1001010014
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_2_4",
+        "sub_id": 4
+      },
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1001010013,
+          1001010014
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_2_5",
+        "sub_id": 5
+      }
+    ],
+    "shop_show": 3,
+    "icon": "shop_tilte_zhuangban",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_2"
+  },
+  "3": {
+    "tab_icon": "Shop_icon_shegnwang",
+    "type": 3,
+    "open_id": 4604,
+    "subtype": [
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1005010001
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_3_1",
+        "sub_id": 1
+      },
+      {
+        "hint_show": "market_shop_rule",
+        "currency": [
+          1004010001
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_3_2",
+        "sub_id": 2
+      }
+    ],
+    "shop_show": 4,
+    "icon": "shop_tilte_shengwang",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_3"
+  },
+  "4": {
+    "tab_icon": "Shop_icon_saiji",
+    "type": 4,
+    "open_id": 4610,
+    "subtype": [
+      {
+        "hint_show": "season_shop_rule",
+        "currency": [
+          1010010001
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_4_1",
+        "sub_id": 1
+      },
+      {
+        "currency": [
+          1001010007
+        ],
+        "open_id": 4605,
+        "sub_id": 2,
+        "hint_show": "season_shop_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_4_2"
+      }
+    ],
+    "shop_show": 2,
+    "icon": "shop_tilte_saiji",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_4"
+  },
+  "5": {
+    "tab_icon": "Shop_icon_chognzhi",
+    "type": 5,
+    "open_id": 2001,
+    "subtype": [
+      {
+        "hint_show": "recharge_crystal_rule",
+        "currency": [
+          1001010003,
+          1001010004,
+          1001011000
+        ],
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_5_1",
+        "sub_id": 1
+      },
+      {
+        "currency": [
+          1001010003,
+          1001011000
+        ],
+        "open_id": 2001,
+        "sub_id": 2,
+        "hint_show": "recharge_diamond_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_1_2"
+      },
+      {
+        "currency": [
+          1001011000
+        ],
+        "open_id": 2001,
+        "sub_id": 3,
+        "hint_show": "recharge_crystal_rule",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_5_3"
+      }
+    ],
+    "shop_show": 5,
+    "icon": "shop_tilte_chongzhi",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_5"
+  },
+  "6": {
+    "tab_icon": "Shop_icon_shanghang",
+    "type": 6,
+    "open_id": 12,
+    "subtype": [
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 12,
+        "sub_id": 1,
+        "hint_show": "trade_shop_tips",
+        "class_id": 1,
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_6_1"
+      },
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 1802,
+        "sub_id": 2,
+        "hint_show": "trade_shop_tips",
+        "class_id": 2,
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_6_2"
+      },
+      {
+        "currency": [
+          1001010001
+        ],
+        "open_id": 2205,
+        "sub_id": 3,
+        "hint_show": "trade_shop_tips",
+        "class_id": 4,
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_6_3"
+      }
+    ],
+    "shop_show": 6,
+    "icon": "shop_tilte_shanghang",
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_6"
+  },
+  "7": {
+    "tab_icon": "shop_icon_paimai",
+    "type": 7,
+    "open_id": 25,
+    "subtype": [
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 25,
+        "sub_id": 1,
+        "hint_show": "auction_tips",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_7_1"
+      },
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 25,
+        "sub_id": 2,
+        "hint_show": "auction_tips",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_7_2"
+      },
+      {
+        "currency": [
+          1001010003,
+          1001010004,
+          1001010001
+        ],
+        "open_id": 24,
+        "sub_id": 3,
+        "hint_show": "guild_auction",
+        "subtab_name": "AUTO_GEN_shop_class_shop_class_subtab_name_7_3"
+      }
+    ],
+    "shop_show": 7,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_7"
+  },
+  "106": {
+    "type": 106,
+    "open_id": 9801,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_106"
+  },
+  "122": {
+    "type": 122,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_122",
+    "act_cid": 2701
+  },
+  "107": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_107",
+    "type": 107
+  },
+  "123": {
+    "type": 123,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_123",
+    "act_cid": 3004
+  },
+  "108": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_108",
+    "type": 108
+  },
+  "124": {
+    "type": 124,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_124",
+    "act_cid": 3006
+  },
+  "109": {
+    "type": 109,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_109",
+    "act_cid": 2001
+  },
+  "125": {
+    "type": 125,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_125",
+    "act_cid": 2904
+  },
+  "110": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_110",
+    "type": 110
+  },
+  "126": {
+    "type": 126,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_126",
+    "act_cid": 2907
+  },
+  "111": {
+    "type": 111,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_111",
+    "act_cid": 2109
+  },
+  "127": {
+    "type": 127,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_127",
+    "act_cid": 3204
+  },
+  "112": {
+    "type": 112,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_112",
+    "act_cid": 2113
+  },
+  "128": {
+    "type": 128,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_128",
+    "act_cid": 3205
+  },
+  "129": {
+    "type": 129,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_129",
+    "act_cid": 3304
+  },
+  "113": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_113",
+    "type": 113
+  },
+  "130": {
+    "type": 130,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_130",
+    "act_cid": 3308
+  },
+  "131": {
+    "type": 131,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_131",
+    "act_cid": 3305
+  },
+  "114": {
+    "type": 114,
+    "open_id": 9401,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_114"
+  },
+  "132": {
+    "type": 132,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_132",
+    "act_cid": 3702
+  },
+  "133": {
+    "type": 133,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_133",
+    "act_cid": 3706
+  },
+  "115": {
+    "type": 115,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_115",
+    "act_cid": 2116
+  },
+  "134": {
+    "type": 134,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_134",
+    "act_cid": 3704
+  },
+  "100": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_100",
+    "type": 100
+  },
+  "116": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_116",
+    "type": 116
+  },
+  "136": {
+    "type": 136,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_136",
+    "act_cid": 3905
+  },
+  "101": {
+    "type": 101,
+    "open_id": 2002,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_101"
+  },
+  "117": {
+    "type": 117,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_117",
+    "act_cid": 2303
+  },
+  "138": {
+    "type": 138,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_138",
+    "act_cid": 4212
+  },
+  "102": {
+    "type": 102,
+    "open_id": 2003,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_102"
+  },
+  "118": {
+    "type": 118,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_118",
+    "act_cid": 2304
+  },
+  "103": {
+    "type": 103,
+    "open_id": 2004,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_103"
+  },
+  "119": {
+    "type": 119,
+    "open_id": 225,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_119"
+  },
+  "104": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_104",
+    "type": 104
+  },
+  "120": {
+    "type": 120,
+    "open_id": 308,
+    "shop_show": 0,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_120",
+    "act_cid": 2406
+  },
+  "105": {
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_105",
+    "type": 105
+  },
+  "121": {
+    "type": 121,
+    "open_id": 311,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_121"
+  },
+  "137": {
+    "type": 137,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_137",
+    "act_cid": 4204
+  },
+  "135": {
+    "type": 135,
+    "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_135",
+    "act_cid": 3904
+  }
+}

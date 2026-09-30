@@ -1,0 +1,119 @@
+{
+  "3": {
+    "open_func": 1003,
+    "day": 3,
+    "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_3",
+    "id": 3,
+    "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_3",
+    "reward": [
+      [
+        1605010156,
+        1
+      ],
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "pic": [
+      "sevendaysign_day51",
+      "sevendaysign_day51"
+    ]
+  },
+  "4": {
+    "open_func": 1004,
+    "day": 4,
+    "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_4",
+    "id": 4,
+    "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_4",
+    "reward": [
+      [
+        10204010067,
+        1
+      ],
+      [
+        1217010010,
+        100
+      ]
+    ],
+    "pic": [
+      "sevendaysign_day4",
+      "sevendaysign_day4"
+    ]
+  },
+  "5": {
+    "open_func": 1005,
+    "day": 5,
+    "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_5",
+    "id": 5,
+    "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_5",
+    "reward": [
+      [
+        1150012016,
+        1
+      ],
+      [
+        1019010001,
+        100
+      ]
+    ],
+    "pic": [
+      "sevendaysign_day15",
+      "sevendaysign_day15"
+    ]
+  },
+  "6": {
+    "type": 3,
+    "id": 6,
+    "reward_tag": 2,
+    "sign_type": 1,
+    "reward": [
+      [
+        1020600008,
+        1
+      ],
+      [
+        1405020001,
+        10
+      ]
+    ],
+    "day": 6,
+    "server_ids": [
+      543
+    ],
+    "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_6",
+    "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_6",
+    "open_func": 1006,
+    "pic": [
+      "sevendaysign_day7",
+      "sevendaysign_day7"
+    ]
+  },
+  "7": {
+    "type": 2,
+    "id": 7,
+    "reward_tag": 0,
+    "sign_type": 1,
+    "reward": [
+      [
+        10201040040,
+        1
+      ],
+      [
+        1210010001,
+        10
+      ]
+    ],
+    "day": 7,
+    "server_ids": [
+      543
+    ],
+    "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_7",
+    "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_7",
+    "open_func": 1007,
+    "pic": [
+      "sevendaysign_day16",
+      "sevendaysign_day16"
+    ]
+  }
+}

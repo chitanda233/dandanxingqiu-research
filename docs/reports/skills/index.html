@@ -4,21 +4,23 @@
 <title>技能与数值 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
 <body><div class="site-shell">
 <aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
-<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../design-spec/index.html"><span>00</span>逆向策划设计案</a>
+<a class="" href="../systems/index.html"><span>01</span>外围系统</a>
 <a class="" href="../growth/index.html"><span>02</span>成长系统</a>
 <a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
 <a class="" href="../battle/index.html"><span>04</span>局内流程</a>
 <a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
 <a class="current" href="../skills/index.html"><span>06</span>技能与数值</a>
 <a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
-<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a>
+<a class="" href="../economy/index.html"><span>09</span>局外经济与留存</a></nav>
 <div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#如何读一行技能">如何读一行技能</a>
 <a href="#可逐项回查的主动技能样本">可逐项回查的主动技能样本</a>
 <a href="#武器主动技能一把武器有多档">武器主动技能：一把武器有多档</a>
 <a href="#被动技能不是一张增伤百分比表">被动技能不是一张增伤百分比表</a>
 <a href="#数值字段的适用边界">数值字段的适用边界</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/skills.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
-<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 06 / 08 · 客户端源码</div><h1>技能与数值</h1><p>主动技能、被动触发与等级变体</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 06 / 10 · 客户端源码</div><h1>技能与数值</h1><p>主动技能、被动触发与等级变体</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="技能与数值字段样本和生效约束">技能与数值：字段、样本和生效约束</h1>
 <p>版本 242 中 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">主动技能表</a>有 8,237 行，<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/passive_skill_passive_skill.json">被动技能表</a>有 8,932 行。这些行包括测试、怪物、不同等级、隐藏效果与历史配置，不能说玩家可装备 8,237 种技能。表是从原始 Lua 5.1 字节码执行导出，中文名和说明由 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/language_define_skill.json">主动语言表</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/language_define_passive_skill.json">被动语言表</a>关联；脚本与哈希见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/manifest.json">导出清单</a>。</p>
 <h2 id="如何读一行技能">如何读一行技能</h2>

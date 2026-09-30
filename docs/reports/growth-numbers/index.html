@@ -4,21 +4,23 @@
 <title>局外成长数值 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
 <body><div class="site-shell">
 <aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
-<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../design-spec/index.html"><span>00</span>逆向策划设计案</a>
+<a class="" href="../systems/index.html"><span>01</span>外围系统</a>
 <a class="" href="../growth/index.html"><span>02</span>成长系统</a>
 <a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
 <a class="" href="../battle/index.html"><span>04</span>局内流程</a>
 <a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
 <a class="" href="../skills/index.html"><span>06</span>技能与数值</a>
 <a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
-<a class="current" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<a class="current" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a>
+<a class="" href="../economy/index.html"><span>09</span>局外经济与留存</a></nav>
 <div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#角色等级和属性点">角色等级和属性点</a>
 <a href="#宠物等级与进化">宠物等级与进化</a>
 <a href="#武器品质强度与星级">武器品质、强度与星级</a>
 <a href="#宝石词条与装备强化">宝石、词条与装备强化</a>
 <a href="#排位公平值与真实成长分开看">排位“公平值”与真实成长分开看</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/growth-numbers.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
-<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 08 / 08 · 客户端源码</div><h1>局外成长数值</h1><p>等级、宠物、武器、宝石与公平值</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 08 / 10 · 客户端源码</div><h1>局外成长数值</h1><p>等级、宠物、武器、宝石与公平值</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="局外成长数值角色宠物武器宝石">局外成长数值：角色、宠物、武器、宝石</h1>
 <p>本页列<strong>配置表中的具体数值与门槛</strong>。不同系统共享“等级/战力/属性”字样，但不共享同一条曲线。原始 Lua 字节码重新导出的 JSON 保留了全部行，报告只摘有解释价值的节点；<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/manifest.json">导出来源与 SHA-256</a>。</p>
 <h2 id="角色等级和属性点">角色等级和属性点</h2>

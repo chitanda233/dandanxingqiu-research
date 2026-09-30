@@ -4,14 +4,16 @@
 <title>成长系统 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
 <body><div class="site-shell">
 <aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
-<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../design-spec/index.html"><span>00</span>逆向策划设计案</a>
+<a class="" href="../systems/index.html"><span>01</span>外围系统</a>
 <a class="current" href="../growth/index.html"><span>02</span>成长系统</a>
 <a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
 <a class="" href="../battle/index.html"><span>04</span>局内流程</a>
 <a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
 <a class="" href="../skills/index.html"><span>06</span>技能与数值</a>
 <a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
-<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a>
+<a class="" href="../economy/index.html"><span>09</span>局外经济与留存</a></nav>
 <div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#成长结构总览">成长结构总览</a>
 <a href="#角色等级经验属性与开放门槛">角色等级：经验、属性与开放门槛</a>
 <a href="#武器获得穿戴强化升星的分工">武器：获得、穿戴、强化、升星的分工</a>
@@ -20,7 +22,7 @@
 <a href="#周期性回流与成长节奏">周期性回流与成长节奏</a>
 <a href="#尚不能回答的关键问题">尚不能回答的关键问题</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/growth.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
-<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 02 / 08 · 客户端源码</div><h1>成长系统</h1><p>角色、武器、技能与赛季进度</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 02 / 10 · 客户端源码</div><h1>成长系统</h1><p>角色、武器、技能与赛季进度</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="成长系统角色武器技能与赛季">成长系统：角色、武器、技能与赛季</h1>
 <p><strong>具体数值请读：</strong><a href="../growth-numbers/index.html">局外成长数值表</a>列 133 级角色、100 级宠物、武器阶级和宝石成本的节点；<a href="../skills/index.html">技能与数值</a>列效果、CD、限次及说明冲突。两页均直接引用由字节码导出的配置 JSON。</p>
 <blockquote>

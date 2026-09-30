@@ -31,6 +31,8 @@
 
 推荐线还有 `line_min_power_base=70`、`line_max_power_base=95`、`line_min_power_rate=0.85`、`line_max_power_rate=0.75`、`line_max_fire_range=380`、`parabola_angle_fix_range=10`。这些是 UI/辅助瞄准配置，[原表](../analysis/data/fight_misc_attr_parabola.json)；推荐力度计算模块会检查当前控制单位、回合状态、锁定目标，形成 `recommand_forces`，[调用链](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L81)。
 
+进一步追到 `raw_recommand_force`：先取候选力度区间 **0–100**，调用落点模拟，再在区间内反复取中值，根据模拟落点缩小上下界，直到宽度小于内部精度阈值。它是**对目标落点的数值搜索**，不是仅查上表的 20 个预设力度；预设角度表用于另一类快捷提示。[二分搜索段](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1188) `recommand_force` 计算时还用 `battle.gravity × bullet.gravity_factor × bullet.mass` 形成重力项，并会对传送入口/出口位置重新尝试解力度。[推荐力度入口](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1144) 反编译丢失了部分中间变量和闭包名，因此目标判定误差与迭代次数暂不能精确写出。
+
 ## 客户端能看到的轨迹计算
 
 普通抛物线在客户端按 `x=floor(x0+v0x·t+0.5·ax·t²)`、`y=floor(y0+v0y·t+0.5·ay·t²)` 更新位置。[轨迹代码](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua#L52) 物理环境的逐帧轨迹另用 `pos += v·dt`，更新速度 `v += a·dt`，横向加速度取 `(外力−阻力·vx)/质量` 后保留三位小数。[同文件](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua#L64) 游戏还有直线、贝塞尔与自由落体路径，不能用单一抛物线概括全部武器。

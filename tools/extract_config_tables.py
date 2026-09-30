@@ -40,6 +40,15 @@ NAMES = [
     "exp.player", "team_target.main",
     "language_define.skill", "language_define.passive_skill", "language_define.attr",
     "language_define.battle_env", "language_define.weapon_class", "language_define.weapon_job",
+    "gacha_misc.gacha_misc", "gacha_guarantee.gacha_guarantee", "gacha_pool.gacha_pool",
+    "gacha.gacha_0", "gacha.gacha_543", "gacha_wish.gacha_wish",
+    "shop.shop_0", "shop.shop_543", "shop_class.shop_class",
+    "seven_sign.seven_sign_0", "seven_sign.seven_sign_543",
+    "task_liveness.task_liveness", "tasks.tasks_0", "tasks.tasks_543",
+    "battlepass_misc.battlepass_misc", "battlepass_common.battlepass_common",
+    "season_misc.season_misc", "season_reset.season_reset",
+    "season_rank.season_rank", "season_cup.season_cup", "season_cultivate.season_cultivate",
+    "season_pvp_elo.pvp_elo",
 ]
 
 

@@ -4,14 +4,16 @@
 <title>匹配系统 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
 <body><div class="site-shell">
 <aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
-<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../design-spec/index.html"><span>00</span>逆向策划设计案</a>
+<a class="" href="../systems/index.html"><span>01</span>外围系统</a>
 <a class="" href="../growth/index.html"><span>02</span>成长系统</a>
 <a class="current" href="../matching/index.html"><span>03</span>匹配系统</a>
 <a class="" href="../battle/index.html"><span>04</span>局内流程</a>
 <a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
 <a class="" href="../skills/index.html"><span>06</span>技能与数值</a>
 <a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
-<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a>
+<a class="" href="../economy/index.html"><span>09</span>局外经济与留存</a></nav>
 <div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#先分清三个匹配">先分清三个“匹配”</a>
 <a href="#玩法目标是多级结构">玩法目标是多级结构</a>
 <a href="#队伍状态队员状态及房间条件">队伍状态、队员状态及房间条件</a>
@@ -19,7 +21,7 @@
 <a href="#配置值记录存在含义有限">配置值：记录存在，含义有限</a>
 <a href="#机器人与匹配算法的证据边界">机器人与匹配算法的证据边界</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/matching.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
-<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 03 / 08 · 客户端源码</div><h1>匹配系统</h1><p>玩法目标、队伍状态和服务端边界</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 03 / 10 · 客户端源码</div><h1>匹配系统</h1><p>玩法目标、队伍状态和服务端边界</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="匹配系统目标组队与成功回包">匹配系统：目标、组队与成功回包</h1>
 <p><strong>机器人专题：</strong><a href="../robots/index.html">机器人与 AI</a>按 <code>need_robot</code> 逐模式列出补位字段，并拆开自由对战 18 行陪练、91 行配装和 23 行 AI 模板。静态配置不能替代服务器排位队列规则。</p>
 <blockquote>

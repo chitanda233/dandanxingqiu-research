@@ -57,3 +57,32 @@
 ## 机器人与匹配算法的证据边界
 
 客户端确实存在 `team_add_bot_c2s`、机器人识别查询、[`free_battle_robot` 配置](../reverse/lua-decompiled/auto_gen.package_include.config.free_battle_robot.free_battle_robot.lua#L4)，但这组证据只能说明自定义/自由战斗等场景支持机器人对象。**不能据此断言排位等待到某秒就填机器人**。隐藏分、实力加权、扩圈半径、胜率控制、跨服池规则、是否允许人机混排均无可复原的服务端算法。能明确描述的仅是客户端“提交目标 → 状态/统计更新 → 成功或取消回包 → 载入战斗”的链路。
+
+## 模块策划案：玩法目标与准入
+
+**目标数据模型。** 一次匹配选择保存 `type/target/arg`，先由 `team_target.main` 的主类、子目标决定入口与模式，再映射 `play_type` 去读 `gameplay`。目标行还含 `min_count/max_count`、`need_apply`、`open_func` 和展示字段。以主类 PvP 的子目标 2 为例，映射 `play_type=102`，人数为 1–2，配置 `need_apply=1`；这说明该入口支持单人或双人发起，但是否要等另一人、是否可补位仍看队伍和服务器规则。[目标表](../analysis/data/team_target_main.json)、[玩法表](../analysis/data/gameplay_gameplay.json)
+
+**玩家流程。** 选目标时先做开放及人数校验；单人可直接进入正式匹配链，组队则先建队/入队、修改目标、邀请或招募、队员准备，再由队长开排。队伍处于 `recruiting` 时展示找人状态，`matching` 时展示排队并允许符合规则的取消，`fighting` 时转局内。身份 `captain` 与 `teammate` 要显示不同操作；队员“准备”只说明其个人状态，不能当作整个队伍匹配成功。队员退出、目标变更、队长转移都应使准备校验重新执行；具体强制取消结果由服务端回包确认。[队伍状态枚举](../reverse/lua-decompiled/game.module.team.manager.const.lua)、[队伍网络](../reverse/lua-decompiled/game.module.team.manager.network.network.lua)
+
+## 模块策划案：两条队列和结果处理
+
+**队友补齐。** `team_auto_match_c2s` 带目标和 `extend_type`，作用于当前队伍的补人过程；它可以和招募/申请并行，但回包仅能说明自动找队友的状态。`team_match_stat_c2s` 是人数/容量统计查询，不是加入队列操作。正式对战由 `team_open_match_c2s` 发起，并由停止请求、取消通知或成功回包结束。[自动补人](../reverse/lua-decompiled/game.module.team.manager.network.network.lua#L529)、[人数统计](../reverse/lua-decompiled/game.module.team.manager.network.network.lua#L741)
+
+**成功路径。** 玩家点击开始 → 客户端发送目标三元组 → 队伍状态变为匹配中 → `season_match_succ_s2c` 打开匹配成功视图 → 战斗载入。成功前的重复点击应由本地状态防抖，成功后的载入失败/重连需交给战斗模块恢复，不能自行视作获胜或扣除对局次数。取消回包区分队长或队员取消并通知相应 UI。[赛季成功回包](../reverse/lua-decompiled/game.module.season.manager.network.network.lua#L174)、[取消处理](../reverse/lua-decompiled/game.module.team.manager.network.network.lua#L1194)
+
+## 模块策划案：排位、自由竞技与机器人入口
+
+| 场景 | 配置能直接说明 | 匹配设计含义与缺口 |
+| --- | --- | --- |
+| 排位 `play_type=102` | `guaranteed_fire=0`，其余多数字段缺省 | 不能从缺省字段认定不允许技能或自动战斗；实际规则必须和模式继承及服务端比对。 |
+| 3V3 排位 `103` | `guaranteed_fire=1` | 此模式配置了保证发炮，需在局内超时分支解释；不能推出机器人补位。 |
+| 自由竞技 `501` | `time_limit=7200`、技能和自动战斗均为 1、不可调速 | 与排位分属不同队列/房间玩法，战斗自动化不等于匹配自动补人。 |
+| 锦标赛海选 `502` | `time_limit=3600`、技能 1、自动战斗 0、保证发炮 1 | 赛事入口有更严格的自动战斗/超时设置；报名、轮次由赛事服务端决定。 |
+
+[完整玩法配置](../analysis/data/gameplay_gameplay.json)的缺省字段不能统一补 0。`season_misc` 的 `the_first_X_ai_pvp=5`、`newbie_match_time=[2500,5000]`、`pvp_match_fail_ai_time=180` 说明赛季另有新手 AI 和等待兜底参数，但缺少选择/计时执行器，无法形成“等 N 秒填机器人”的已验证规则。[赛季参数](../analysis/data/season_misc_season_misc.json)
+
+## 可复核的验收场景
+
+1. 选择 102 单人/双人入口，核对 `type/target/arg` 和人数上下限；未开放或人数超限时不能发正式开排请求。
+2. 队员未准备、队长取消、队员离队、目标变更，分别记录本地状态与 `s2c` 后的状态；不能靠按钮动画判定排队结果。
+3. 实测首次 5 场与普通场的成功回包、等待时间和结算对象，才能确认 AI 参数是否在当前服启用；杯数必须区分机器人与真人专用字段。[机器人专题](robots.md)

@@ -23,7 +23,7 @@
 
 ```text
 analysis/                  分专题的人工分析报告（网页的唯一内容源）
-  data/                   75 张由原始字节码执行导出的配置 JSON 与来源哈希
+  data/                   79 张由原始字节码执行导出的配置 JSON 与来源哈希
 docs/                      GitHub Pages 静态网页；每个专题一个页面
 raw/                       从本机缓存复制的原始 wxapkg 与 23 个 Lua AssetBundle
   manifest.json            每份原始文件的大小与 SHA-256

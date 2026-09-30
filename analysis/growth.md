@@ -54,3 +54,29 @@
 ## 尚不能回答的关键问题
 
 缺少在线玩家状态和完整服务端实现，因此未确认：实际升级所需/获得经验的计量方式、每级属性点在战斗中的系数、武器升星各阶准确消耗、某个 PvP 模式是否全部平衡装备与宠物、赛季重置实际日期和分段保护规则。客户端字段 `next_season_id`、`lose_protect_daily` 是明确存在的，但需要服务器行为才能解释为具体结算规则。
+
+## 模块策划案：角色等级与属性分配
+
+**目标与输入。** 等级提供功能解锁、基础属性模板和可分配属性点，是长期进度的主索引。经验变化来自结算/任务等服务器发放；角色回包确定当前等级与未分配点数。`exp.player` 的 `attr_points` 为该等级对应总量：1 级 5、10 级 50、50 级 250、100 级 500；单一属性上限为等级×3。可把“当前未分配点数”设计为总获得点数减已分配点数，但必须计入重置、活动加点和 50 级行 `extra_attr_points=50` 等例外，不能拿该差值反推真实账号。[133 级配置](../analysis/data/exp_player.json)
+
+**操作与反馈。** 玩家升级时刷新等级、经验进度、基础属性、可用点数和新开放入口；分配属性点时先展示预览，成功回包后扣点并更新角色面板/评分。若单项触达 `attr_limit`，输入应被阻止或提示上限。等级 50 的基础生命与等级 30 同为 120、等级 60 跳到 280，显示基础模板并非每级线性加法；角色最终生命仍需汇入装备和模式平衡。`day_max_exp` 是各级表字段，不能把它当成玩家实际的剩余额度。
+
+## 模块策划案：武器从获得到战斗构筑
+
+**状态和操作顺序。** 武器至少有背包实例、槽位穿戴、星级、强化、阶级、精通、羁绊和评分八个面向。玩家先获得实例，再按槽位穿戴；随后用材料发起强化/升星；每次成功都要重算该实例属性、阵容评分、可升级提示。穿戴和卸下是独立请求；强化提交 `items/is_use/use_type`，升星提交 `item_cid/up_num`，因此不能把“点一次升级”作为所有武器成长的统一 API。[武器网络](../reverse/lua-decompiled/game.module.main_weapon_develop.manager.network.network.lua)、[武器数据](../reverse/lua-decompiled/game.module.main_weapon_develop.manager.data.data.lua)
+
+**前置关系。** `weapon_class` 六阶的等级/开服日双门槛依次为 1/1、60/62、75/124、85/186、95/248、105/310；`weapon_strength` 的 7、15、30 级还检查其他部位分别达到 4、20、82。拿到材料不等于可立即升级：应先显示缺少的等级、开服日、其他部位或素材条件。`weapon_amplification` 20 级在 `_0` 分片要求开服 7 天，在 `_543` 为 6 天，体现按服运营节奏覆写。详细属性节点见[成长数值页](growth-numbers.md)，配置本体见[阶级](../analysis/data/weapon_class_weapon_class.json)、[强化门槛](../analysis/data/weapon_strength_weapon_strength.json)、[放大分片](../analysis/data/weapon_amplification_weapon_amplification_0.json)。
+
+**失败/材料处理。** 强化回包同时含 `return_num/result`，表明结果可能有退回或不同结果分支；客户端不能在请求发出时先扣除材料并宣称成功。`equip_strengthen.lv` 中 `success_max/luck_max` 是进度相关字段，尚不能换算成单次概率。升星回包给出新 `star` 后才刷新解锁、评分与红点。每个操作的素材消耗、失败返还和保底需查具体服务端回包，静态配置只提供输入候选。
+
+## 模块策划案：技能、宠物与配装
+
+**技能培养。** [`skill_base_upgrade` 905 行](../analysis/data/skill_base_upgrade_skill_base_upgrade_0.json)把解锁行和逐级行放在同一表。技能 1001 的解锁行 `1001000` 要求角色 22 级、物品 `1402020003×1`，并记 `is_casual_wear=1`；等级 1 行要 `1402010001×25 + 1001010001×1,000`，等级 10 行要 `400 + 10,000`，等级 20 行要 `4,000 + 90,000`。等级 40 行只有属性没有成本字段，说明缺字段不可当作免费升级。取得、升级、装备/上阵、局内可释放是四个状态；局内还受模式开关、CD、消耗和次数限制。[技能专题](skills.md)
+
+**宠物培养。** 宠物有个体、等级、进化、天赋、技能学习等分线。等级 1/20/50/100 的生命模板为 27/111/338/1,156，等级 20 的进化上限可被下一阶段从 20 提至 25（具体 `pet_evo` 行需按宠物与次数查）。一次培养应先验证宠物实例与目标等级/进化前置，再提交资源消耗，回包后刷新宠物面板与编队。不能把等级模板直接加到所有 PvP 的最终属性；排位可能使用另一张平衡表。[宠物等级](../analysis/data/pet_level_pet_level.json)、[进化](../analysis/data/pet_evo_pet_evo.json)、[排位平衡](../analysis/data/ranked_match_balance_ranked_match_balance.json)
+
+## 模块策划案：竞技成长与重置
+
+**双轨进度。** 段位节点以 `ranked_match_rank.next_id/last_id` 串联；杯数和 ELO 则由 `season_cup` 与 `season_pvp_elo` 各自管理，不可混为同一分数。赛季个人信息回包更新段位/杯数；奖励领取又分段位 ID 与杯数请求。设计上一次竞技结算至少要分别处理胜负结果、杯数变动、ELO/段位状态、每日领奖次数和可领取奖励，不能仅显示“升星+1”。[段位表](../analysis/data/ranked_match_rank_ranked_match_rank.json)、[杯分表](../analysis/data/season_cup_season_cup.json)、[赛季网络](../reverse/lua-decompiled/game.module.season.manager.network.network.lua)
+
+**公平化边界。** `ranked_match_balance` 有 288 行替换属性，第一行角色生命/攻击/防御为 1,568/570/335，宠物为 297/614/346。进入某模式时若服务器选择了平衡行，战斗计算应读取模式化属性而非角色页的原面板；离开战斗后局外实例成长仍保留。确切选行键与替换顺序未闭合，不把第一行当作全服统一公平值。[排位平衡表](../analysis/data/ranked_match_balance_ranked_match_balance.json)

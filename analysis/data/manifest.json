@@ -523,5 +523,33 @@
     "sha256": "b17bd26e6a76675bd51e6d6f4d812e1e6d230620c7953568c59183a9db74ab85",
     "output": "season_pvp_elo_pvp_elo.json",
     "rows": 16
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_0",
+    "source": "lua9_573570/auto_gen.package_include.config.open_func.open_func_0_7787192126939727327.bin",
+    "sha256": "989ae67fe72f9b65d9931c49107e68c3ab7d5d6883be465259045e5536d55611",
+    "output": "open_func_open_func_0.json",
+    "rows": 21
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_543",
+    "source": "lua9_573570/auto_gen.package_include.config.open_func.open_func_543_-5012888750475918977.bin",
+    "sha256": "2801b789661d93b0f39d226431786633a19bebd7132546b37c0bac1c8c177a23",
+    "output": "open_func_open_func_543.json",
+    "rows": 21
+  },
+  {
+    "name": "auto_gen.package_include.config.gameplay.gameplay",
+    "source": "lua5_573650/auto_gen.package_include.config.gameplay.gameplay_8702747091628045568.bin",
+    "sha256": "ee6e507a5de50fd29f68efd37f460fd698cd846d8103d5c961a70c2c71406e65",
+    "output": "gameplay_gameplay.json",
+    "rows": 70
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0",
+    "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0_-6383403709424737490.bin",
+    "sha256": "4d0c9f0040a58f5585f3f427cecacdbae2dd945163d91f8866161dc00b5dfd87",
+    "output": "skill_base_upgrade_skill_base_upgrade_0.json",
+    "rows": 905
   }
 ]

@@ -49,6 +49,8 @@ NAMES = [
     "season_misc.season_misc", "season_reset.season_reset",
     "season_rank.season_rank", "season_cup.season_cup", "season_cultivate.season_cultivate",
     "season_pvp_elo.pvp_elo",
+    "open_func.open_func_0", "open_func.open_func_543",
+    "gameplay.gameplay", "skill_base_upgrade.skill_base_upgrade_0",
 ]
 
 

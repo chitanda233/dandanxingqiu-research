@@ -55,7 +55,7 @@
 
 任务初始化会请求主线、支线、主线阶段信息；达到相应开放条件后再请求战令、活跃度和其他活动任务。见[任务管理器初始化请求](../reverse/lua-decompiled/game.module.task.manager.core.lua#L100)。协议把 `task_info_c2s`、提交 `task_commit_c2s`、日常活跃度信息/奖励、周奖励和主线阶段奖励分开，回包更新任务数据和红点，见[任务网络](../reverse/lua-decompiled/game.module.task.manager.network.network.lua#L76)。因此玩家做完一个行为后，可能先得到任务状态更新，再出现手动领取入口；“达成”和“入账”不是同一客户端状态。
 
-[`task_liveness`](../reverse/lua-decompiled/auto_gen.package_include.config.task_liveness.task_liveness.lua#L4)有 20、40、60、80、100 五档活跃度门槛。反编译能看见部分道具 ID/数量，但嵌套奖励数组被拆碎，本报告不直接将它们解读为当前实际礼包内容。`task_daily_liveness_reward_c2s` 与 `task_daily_week_reward_c2s` 则分别指向日/周领取链，见[任务网络](../reverse/lua-decompiled/game.module.task.manager.network.network.lua#L88)。
+[`task_liveness`](../analysis/data/task_liveness_task_liveness.json)有 20、40、60、80、100 五档活跃度门槛，奖励嵌套数组已从原始字节码直接导出。`task_daily_liveness_reward_c2s` 与 `task_daily_week_reward_c2s` 分别指向日/周领取链，见[任务网络](../reverse/lua-decompiled/game.module.task.manager.network.network.lua#L88)。
 
 ## 商店、扭蛋与赛季怎样接上循环
 
@@ -70,3 +70,25 @@
 ## 玩家可见流程与研究边界
 
 玩家大概率经历“主界面提示未开/开放 → 选择玩法或养成入口 → 战斗/任务状态更新 → 红点提示可领取 → 领取或消费 → 数值再成长”。这个闭环是从入口、任务协议和养成协议串出的**结构性推断**，不是对某个账号的实测路径。当前版本具体按钮顺序、首次弹窗、任务刷新时间、全部奖励组成仍待服务器回包或录像验证。
+
+## 模块策划案：主城入口与开放判定
+
+**设计目标。** 主城承担“本次能做什么、完成后去哪里投入资源”的分发作用。底部把武器、技能、玩法和队伍作为常驻入口，右上把日常、商店、福利作为周期入口。按钮配置同时指定点击去向、开放 ID 和红点来源，所以同一个入口应区分 `隐藏/未开放可预览/可进入/有可领取内容` 四种展示状态，而不能只存一个是否开启的布尔值。这是依据[按钮配置](../reverse/lua-decompiled/game.module.main_view.manager.config.bottom_btn_config.lua)与[开放管理器](../reverse/lua-decompiled/game.module.open_func.manager.core.lua)整理的客户端设计状态；具体隐藏策略仍逐按钮决定。
+
+**输入与流程。** 进入主城后读取角色等级、开服日、分服功能配置、功能状态和红点数据；点击入口时再次做开放检查。通过则进入对应面板，失败则按 `noOpenTips` 提示条件。`open_func` 的 `unlock_and`、`open_days`、`unlock_branch`、`is_open` 分别是不同维度，不应把其中一个字段单独解释成最终可进入。客户端收到开放状态变化后，入口及任务跳转都要重新计算。[基础分片](../analysis/data/open_func_open_func_0.json)和[543 分片](../analysis/data/open_func_open_func_543.json)各导出 21 条覆写记录；它们只覆盖部分功能，不是全量开放表。
+
+**阶段实例：星图挑战中心。** 功能 560201 的文案是“开服第 2 天且达到 25 级”，560202 是第 3 天/30 级，560203 是第 4 天/35 级，560204 是第 5 天/38 级。若玩家第 3 天达到 30 级，客户端可把前两段当作满足静态门槛，后两段仍提示未来条件；最终进入还要看服务端开放状态和前置分支。543 分片为星图总入口 5601 额外配置预览奖励 `1001010004×20` 和 `ispreview=1`，说明同一系统在不同服可能出现不同预览层。[两份开放覆写](../analysis/data/open_func_open_func_0.json)、[543 分片](../analysis/data/open_func_open_func_543.json)
+
+## 模块策划案：任务追踪与领取
+
+**状态模型。** 每条任务至少区分条件进度、任务可提交状态和奖励领取状态。配置字段 `target_num` 决定本地展示的目标量，`open_func` 决定是否出现/可跳转，`jump_id` 决定“前往”按钮的目标，`task_award` 是静态奖励候选，服务器任务信息才是当前进度真值。完成一次玩法后应先由任务回包更新进度，达到目标显示可提交/可领，再由 `task_commit_c2s` 或对应奖励请求使道具入账。[任务表 80 行](../analysis/data/tasks_tasks_0.json)、[任务状态枚举](../reverse/lua-decompiled/game.module.task.manager.const.lua)、[任务协议](../reverse/lua-decompiled/game.module.task.manager.network.network.lua)
+
+**具体实例。** 任务 1031012 的 `target_num=4`、`open_func=26`、`jump_id=MoonBoxMainView`：前往按钮引到月亮宝箱，重复计数达到 4 后再按任务状态领取。任务 1031013 的 `target_num=1`、`open_func=6`、`cid=401`，目标是公会副本组队入口。这里 `cid=401` 是条件参数，不可自动当成完成一次副本的要求；精确计数事件由任务类型处理器/服务端决定。关闭入口或跳转失败时保留任务进度，不应把前往失败解释为任务失败。
+
+**活跃度二级奖励。** 活跃度不是任务直接奖励的同义词：任务配置累计 `liveness`，随后跨越 20/40/60/80/100 五个阈值，玩家再单独领取宝箱。导出的[活跃度表](../analysis/data/task_liveness_task_liveness.json)显示 20 档类型 1/2 分别是 `1001010001×5,000,000/500,000`，40 档均为 `1402010001×2,000`，60 档均为 `1205010001×20`，80 档分别为 `1405020001×5/1413010001×5`，100 档均为 `1001010004×100`。类型 1/2 的选择条件没有从客户端闭合，因此 UI 只能依据服务器给出的当前档奖励展示，不能把两类相加。
+
+## 模块策划案：外围回流与异常分支
+
+**消费承接。** 完成日常、活跃度或对局后，货币/材料变更驱动武器、宠物、技能等可升级红点；玩家进入商店购买、扭蛋抽取或养成面板时，每条写操作都要等对应 `s2c` 成功回包，再更新背包、次数、红点。购买失败、抽取失败、任务重复领取和功能临时关闭都保留上一次有效状态，具体错误码由服务器控制。[商店网络](../reverse/lua-decompiled/game.module.shop.manager.network.network.lua)、[扭蛋网络](../reverse/lua-decompiled/game.module.gacha.manager.network.network.lua)
+
+**日会话脚本。** 一次可复原的标准会话是“进主城看开放入口 → 从日常任务跳玩法 → 对局完成触发任务回包 → 提交任务 → 活跃度跨档 → 领取档位奖励 → 投入技能/武器升级 → 再选择 PvP 或副本”。其中哪项任务先出现、是否自动提交、何时跨日刷新，均属于服务端日历与账号状态，不用静态表伪造固定时刻。

@@ -53,4 +53,24 @@ ending（胜负、结果展示、MVP、退出）
 
 ## 仍未还原的部分
 
-本次没有完整还原所有战斗配置、弹体技能原型和服务器战斗实现；一些反编译函数内部有未定义临时变量。故本页不宣称准确的弹道公式、操作时限常数、伤害结算公式、回合胜负触发阈值或各模式完整战斗差异。可确定的是状态切换、关键消息字段、可发射与可用技能校验、服务器节点驱动表现、超时分支的条件和服务端胜负回包。
+本次已还原客户端普通抛物线与逐帧物理轨迹、默认行动时长配置和多个玩法覆盖项，详见[局内计算](combat-math.md)；服务端最终伤害、命中和胜负阈值仍未闭合。反编译部分函数有未定义临时变量，不将客户端预览公式当作权威判定。
+
+## 模块策划案：战斗进入和初始化
+
+**输入契约。** 外围玩法提供 `room_id/play_type/cfg_battle_id`、玩法配置、环境、行动时长和客户端类型；进入时创建定时器、场景根、数据、物理与网络。`loading` 保留等待服务端进入回包的阶段，`battle_enter_s2c` 后才进入 `fighting` 并安装触摸输入。若结果消息在加载期已到，结束流程延后执行，不能让加载画面和结算画面互相覆盖。[战斗基类](../reverse/lua-decompiled/game.module.fight.manager.base.core.lua)、[结束模块](../reverse/lua-decompiled/game.module.fight.manager.base.ending.core.lua)
+
+**模式层。** `gameplay` 是同一局内基类的开关集，不能把 UI 体验写成统一标准。203 冒险车站：技能/自动战斗/调速为 1、保证发炮为 0；219 英雄材料副本：技能 0、自动战斗/调速 1；401 梦魇讨伐：时限 7200、技能/自动战斗/调速 1；502 全国锦标赛海选：时限 3600、技能 1、自动战斗 0、保证发炮 1、调速 0、展示 MVP 1。玩家进入前要按 `play_type` 组合技能按钮、自动战斗开关、倍速按钮和结果表现。[70 行玩法配置](../analysis/data/gameplay_gameplay.json)
+
+## 模块策划案：一回合的可操作状态
+
+**回合起点。** `battle_next_round_s2c` 带 `turn/round/round_stime/wind/action_list`。客户端用行动列表确定当前操作者，清上一回合表现，重置本回合发炮与技能状态，再依据服务器起始时间显示剩余行动时间。默认 `round_action_time=15` 仅为配置基线；房间自定义时长、玩法覆盖与服务器同步可能改实际倒计时。[回合逻辑](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua)、[默认常量](../analysis/data/fight_misc_attr_const.json)
+
+**可执行动作顺序。** 玩家可以调整位置/角度和目标，开启蓄力，选择技能，发炮或合法跳过。开始蓄力发送 `round/force_speed` 并停移动；取消蓄力单独发送 `is_cancel=true`。确认发炮时发送角度、力度、发射位置、原始位置、方向、力度类型、落点角度和增益位置。技能则走 `type=2/cf_skill_id`。本地 `round_fired` 在提交后改变，但伤害与击杀必须等服务器节点。[发射逻辑](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.fire.core.lua)、[命令网络](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua)
+
+**操作失败。** 非本人行动、回合阶段不允许、死亡/禁用、已经发射、技能 CD/费用/次数不足时不发请求或由回包拒绝。倒计时仅在当前可控单位且非挂机/自动战斗时显示。超时若 `guaranteed_fire=1` 且有可见敌方目标、单位可发射、未在蓄力与抛物线状态，客户端尝试计算推荐力度并保底发射；不满足时走跳过或等待服务器结束，不能把超时统一视为自动命中。[超时分支](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua#L941)
+
+## 模块策划案：表现队列、重连与结束
+
+**命令回包。** 服务端可以把一条行动拆成多个 `batch_index/batch_total` 批次；客户端需合并完整 `node_list`，再按发炮、技能、特殊弹体等类型解析，并按弹体飞行时间和顺序播放。这个设计让客户端负责可见轨迹、爆炸与伤害表现的时序，服务端负责行动结果。若少一批，客户端不能提前演出完整行动或据此给出结算。[节点解析](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua)
+
+**重连和结算。** 重连模块恢复战斗快照/阶段，不能用初次进入流程假设玩家处在第一回合。结束回包写入 `fight_result_msg`，客户端以 `win_camp_id==self_camp` 判胜负，随后根据模式决定结果页和 MVP。排位杯分、任务进度和奖励由外围回包另行更新，结果动画结束不是资源到账证明。[重连](../reverse/lua-decompiled/game.module.fight.manager.base.reconnect.lua)、[结束模块](../reverse/lua-decompiled/game.module.fight.manager.base.ending.core.lua)

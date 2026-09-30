@@ -61,3 +61,19 @@
 ## 局内操作状态与失败条件
 
 施法前客户端检查：战斗状态 `attack`、当前行动者、`round_status.action`、自动战斗状态、沉默/禁用、固定与重复回合限制、每回合和每场次数、冷却以及费用。冰冻原型在重复回合被禁止；固定 1005 位移技能在定身时被拒。[技能校验](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L177) 成功请求后仍要等待服务器消息确认并更新费用/CD；本地“按钮可点”不等于服务器接受。
+
+## 模块策划案：瞄准与推荐力度
+
+**输入。** 操作者位置与朝向、目标位置、武器/弹体、角度、当前风和环境系数共同决定本地推荐轨迹。快捷角度表中的 20°、30°、50°、65° 各有 20 个力度样本，是给玩家的速查提示；真正的推荐力度函数会在 0–100 区间模拟落点并二分搜索。因此“选 30° 第五格力度”与“点击推荐力度”属于两个算法入口。[角度样本](../analysis/data/fight_misc_attr_parabola.json)、[推荐求解](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1188)
+
+**模拟顺序。** 先把服务端风值乘 0.1，再乘战斗关卡的 `wind_power_factor` 和 `weather_factor`；建立弹体初速、重力项 `battle.gravity×bullet.gravity_factor×bullet.mass` 和阻力；若弹体为普通抛物线，按 `floor(x0+v0x·t+½ax·t²)`、`floor(y0+v0y·t+½ay·t²)` 计算位置。逐帧物理分支则先以速度推进位置，再以加速度推进速度，横向加速度含 `(外力−阻力×vx)/质量`，并保留三位小数。推荐解再比较模拟落点与目标，缩小力度区间；传送门场景另尝试入口/出口。具体离散步长与二分误差阈值在反编译中缺失，不应声称可逐像素重现客户端准星。[轨迹](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua)、[推荐入口](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1144)
+
+**操作实例。** 假设某战斗行 `wind_power_factor=240/weather_factor=1`，本回合 `wind=10`，客户端将 `cur_wind` 置为 1，形成 `wind_factor=240`。这是对该字段链的算例，不能理解成物理横向加速度恒为 240；还要看弹体、环境和方向如何使用该因子。玩家把力度调到 70、角度调到 50° 后，发炮消息提交的就是当前 `angle/force` 及位置等输入；服务器返回节点决定真实落点、受击者和伤害。即使本地推荐线穿过目标，客户端也不能预先扣目标生命。[回合风换算](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua#L384)、[发炮协议](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua#L18)
+
+## 模块策划案：弹道类型、天气与伤害流水线
+
+**弹道类型。** 轨迹代码有普通抛物线、逐帧受力、直线、贝塞尔和自由落体路径。武器与技能必须先指定弹体类型和参数，才可能选正确预测器；把普通抛物线公式用于所有攻击会错判传送、分裂和自由落体。环境 1 磁暴提供 `parabola_change_rate=2/add_speed_rate=18000`；环境 2 狂风提供普通风 `[40,60]`、狂风 `[80,100]`、`wild_wind_round=3`。这些决定潜在修正，但 `wild_wind_rate=2000` 的概率量纲仍未闭合。[战场环境表](../analysis/data/battle_env_battle_env.json)
+
+**权威伤害阶段。** 可以确认的数据入口是攻击、防御、最大生命、伤害/减伤、暴击率与暴伤、抗暴、物理/法术增伤等属性，以及 `dmg_random_r=.02`、暴伤系数范围 1.25–2、最低伤害系数 .1。不能确认的阶段是命中碰撞、技能倍率应用顺序、穿防、护盾吸收、暴击抽样、随机因子、减伤叠加、逐次取整。策划实现若要复刻，应把这些列为服务端待还原接口，而不是用一条看似完整的乘法式填补空缺。生命同步模块只把显示值限制在 `0..max_hp`，不证明伤害公式。[属性定义](../analysis/data/attr_attr.json)、[战斗常量](../analysis/data/fight_misc_attr_const.json)
+
+**验收边界。** 同角度/力度在无风与有风环境、普通弹体与特殊弹体、传送门有无、玩家主动发射与超时保底发射四组条件下记录发炮 c2s、节点 s2c 和落点。只有拿到服务端节点与配置联动，才能把本页的预测公式升级为完整的数值设计案；当前本页准确描述的是客户端如何生成输入和表现。

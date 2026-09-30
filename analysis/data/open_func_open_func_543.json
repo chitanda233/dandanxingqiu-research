@@ -1,0 +1,449 @@
+{
+  "560502": {
+    "id": 560502,
+    "unlock_and": [
+      [
+        1,
+        41
+      ]
+    ],
+    "desc": "星图挑战工程6-10层",
+    "unlock_branch": [
+      [
+        1,
+        5605020001
+      ],
+      [
+        2,
+        5605020001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        41
+      ]
+    ],
+    "open_days": 6,
+    "noOpenTips_old": "开服第6天且达到41级开启",
+    "noOpenTips": "开服第6天且达到41级开启"
+  },
+  "166": {
+    "id": 166,
+    "unlock_and": [
+      [
+        1,
+        10
+      ]
+    ],
+    "desc": "好友邀请",
+    "is_open": 1,
+    "unlock_and_old": [
+      [
+        1,
+        10
+      ]
+    ],
+    "noOpenTips_old": "角色达到10级开启",
+    "noOpenTips": "角色达到10级开启",
+    "plat": 1
+  },
+  "301": {
+    "id": 301,
+    "desc": "集结令",
+    "is_open": 0
+  },
+  "560302": {
+    "id": 560302,
+    "unlock_and": [
+      [
+        1,
+        41
+      ]
+    ],
+    "desc": "星图挑战突击6-10层",
+    "unlock_branch": [
+      [
+        1,
+        5603020001
+      ],
+      [
+        2,
+        5603020001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        41
+      ]
+    ],
+    "open_days": 6,
+    "noOpenTips_old": "开服第6天且达到41级开启",
+    "noOpenTips": "开服第6天且达到41级开启"
+  },
+  "5603": {
+    "unlock_branch": [
+      [
+        1,
+        56030001
+      ],
+      [
+        2,
+        56030001
+      ]
+    ],
+    "id": 5603,
+    "desc": "星图挑战（突击区域）"
+  },
+  "303": {
+    "show_ani_target_main_btns_key": "open_server_activity",
+    "id": 303,
+    "desc": "新服攻略",
+    "is_open": 1,
+    "showIcon": "openfunc_icon_jijieling",
+    "showFlag": 1,
+    "showAtlas": "Icon/OpenFunc2"
+  },
+  "319": {
+    "id": 319,
+    "unlock_and": [
+      [
+        1,
+        999
+      ]
+    ],
+    "desc": "周年H5",
+    "is_open": 1,
+    "unlock_and_old": [
+      [
+        1,
+        999
+      ]
+    ],
+    "noOpenTips_old": "活动已结束",
+    "noOpenTips": "活动已结束"
+  },
+  "560401": {
+    "id": 560401,
+    "unlock_and": [
+      [
+        1,
+        30
+      ]
+    ],
+    "desc": "星图挑战异能1-5层",
+    "unlock_branch": [
+      [
+        1,
+        5604010001
+      ],
+      [
+        2,
+        5604010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        30
+      ]
+    ],
+    "open_days": 3,
+    "noOpenTips_old": "开服第3天且达到30级开启",
+    "noOpenTips": "开服第3天且达到30级开启"
+  },
+  "5604": {
+    "unlock_branch": [
+      [
+        1,
+        56040001
+      ],
+      [
+        2,
+        56040001
+      ]
+    ],
+    "id": 5604,
+    "desc": "星图挑战（异能区域）"
+  },
+  "560201": {
+    "id": 560201,
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "desc": "星图挑战中心1-5层",
+    "unlock_branch": [
+      [
+        1,
+        5602010001
+      ],
+      [
+        2,
+        5602010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "open_days": 2,
+    "noOpenTips_old": "开服第2天且达到25级开启",
+    "noOpenTips": "开服第2天且达到25级开启"
+  },
+  "560202": {
+    "id": 560202,
+    "unlock_and": [
+      [
+        1,
+        30
+      ]
+    ],
+    "desc": "星图挑战中心6-10层",
+    "unlock_branch": [
+      [
+        1,
+        5602020001
+      ],
+      [
+        2,
+        5602020001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        30
+      ]
+    ],
+    "open_days": 3,
+    "noOpenTips_old": "开服第3天且达到30级开启",
+    "noOpenTips": "开服第3天且达到30级开启"
+  },
+  "560203": {
+    "id": 560203,
+    "unlock_and": [
+      [
+        1,
+        35
+      ]
+    ],
+    "desc": "星图挑战中心11-14层",
+    "unlock_branch": [
+      [
+        1,
+        5602030001
+      ],
+      [
+        2,
+        5602030001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        35
+      ]
+    ],
+    "open_days": 4,
+    "noOpenTips_old": "开服第4天且达到35级开启",
+    "noOpenTips": "开服第4天且达到35级开启"
+  },
+  "314": {
+    "id": 314,
+    "unlock_and": [
+      [
+        1,
+        999
+      ]
+    ],
+    "desc": "春节H5",
+    "is_open": 1,
+    "unlock_and_old": [
+      [
+        1,
+        999
+      ]
+    ],
+    "noOpenTips_old": "默认开启",
+    "noOpenTips": "敬请期待"
+  },
+  "5601": {
+    "preview_reward": [
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "index": 96,
+    "show_ani_target_main_btns_key": "entrance",
+    "id": 5601,
+    "showAtlas": "Icon/OpenFunc2",
+    "fly_time": 50,
+    "desc": "星图挑战系统",
+    "ispreview": 1,
+    "isShow": 1,
+    "showIcon": "openfunc_icon_xingtutiaozhan",
+    "showFlag": 1,
+    "preview_desc": "AUTO_GEN_open_func_open_func_preview_desc_543_5601"
+  },
+  "5605": {
+    "unlock_branch": [
+      [
+        1,
+        56050001
+      ],
+      [
+        2,
+        56050001
+      ]
+    ],
+    "id": 5605,
+    "desc": "星图挑战（工程区域）"
+  },
+  "560301": {
+    "id": 560301,
+    "unlock_and": [
+      [
+        1,
+        30
+      ]
+    ],
+    "desc": "星图挑战突击1-5层",
+    "unlock_branch": [
+      [
+        1,
+        5603010001
+      ],
+      [
+        2,
+        5603010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        30
+      ]
+    ],
+    "open_days": 3,
+    "noOpenTips_old": "开服第3天且达到30级开启",
+    "noOpenTips": "开服第3天且达到30级开启"
+  },
+  "560402": {
+    "id": 560402,
+    "unlock_and": [
+      [
+        1,
+        41
+      ]
+    ],
+    "desc": "星图挑战异能6-10层",
+    "unlock_branch": [
+      [
+        1,
+        5604020001
+      ],
+      [
+        2,
+        5604020001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        41
+      ]
+    ],
+    "open_days": 6,
+    "noOpenTips_old": "开服第6天且达到41级开启",
+    "noOpenTips": "开服第6天且达到41级开启"
+  },
+  "305": {
+    "id": 305,
+    "preview_desc": "AUTO_GEN_open_func_open_func_preview_desc_305",
+    "unlock_and": [
+      [
+        1,
+        1
+      ]
+    ],
+    "desc": "七夕H5",
+    "is_open": 1,
+    "unlock_and_old": [
+      [
+        1,
+        1
+      ]
+    ],
+    "noOpenTips_old": "默认开启",
+    "noOpenTips": "默认开启"
+  },
+  "560501": {
+    "id": 560501,
+    "unlock_and": [
+      [
+        1,
+        30
+      ]
+    ],
+    "desc": "星图挑战工程1-5层",
+    "unlock_branch": [
+      [
+        1,
+        5605010001
+      ],
+      [
+        2,
+        5605010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        30
+      ]
+    ],
+    "open_days": 3,
+    "noOpenTips_old": "开服第3天且达到30级开启",
+    "noOpenTips": "开服第3天且达到30级开启"
+  },
+  "560204": {
+    "id": 560204,
+    "unlock_and": [
+      [
+        1,
+        38
+      ]
+    ],
+    "desc": "星图挑战中心15-17层",
+    "unlock_branch": [
+      [
+        1,
+        5602040001
+      ],
+      [
+        2,
+        5602040001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        38
+      ]
+    ],
+    "open_days": 5,
+    "noOpenTips_old": "开服第5天且达到38级开启",
+    "noOpenTips": "开服第5天且达到38级开启"
+  },
+  "5602": {
+    "id": 5602,
+    "desc": "星图挑战（中心区）"
+  }
+}

@@ -18,7 +18,10 @@
 <a href="#可逐项回查的主动技能样本">可逐项回查的主动技能样本</a>
 <a href="#武器主动技能一把武器有多档">武器主动技能：一把武器有多档</a>
 <a href="#被动技能不是一张增伤百分比表">被动技能不是一张增伤百分比表</a>
-<a href="#数值字段的适用边界">数值字段的适用边界</a></nav>
+<a href="#数值字段的适用边界">数值字段的适用边界</a>
+<a href="#模块策划案获取升级装备释放四段状态">模块策划案：获取、升级、装备、释放四段状态</a>
+<a href="#模块策划案战术类型和数字档位">模块策划案：战术类型和数字档位</a>
+<a href="#模块策划案效果执行与冲突处理">模块策划案：效果执行与冲突处理</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/skills.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
 <main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 06 / 10 · 客户端源码</div><h1>技能与数值</h1><p>主动技能、被动触发与等级变体</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="技能与数值字段样本和生效约束">技能与数值：字段、样本和生效约束</h1>
@@ -82,4 +85,54 @@
 <h2 id="被动技能不是一张增伤百分比表">被动技能不是一张增伤百分比表</h2>
 <p>被动表效果形态包括 <code>ps_add_buff</code>、<code>ps_add_energy</code>、<code>ps_add_anger</code>、<code>ps_check_obj_num</code> 等。例：ID <code>2</code> 的 <code>ps_add_energy={prob:10000,add_value:50}</code>，ID <code>3</code> 的 <code>ps_add_anger</code> 同值；其中 10000 可能是万分比基数，但需通过实际触发器确认。ID <code>4/5</code> 的 <code>ps_check_obj_num</code> 限定空间宽高、阵营、数量再加分。被动可以改资源、状态、召唤物与触发条件，不是只改攻击乘区。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/passive_skill_passive_skill.json">被动表</a></p>
 <h2 id="数值字段的适用边界">数值字段的适用边界</h2>
-<p>技能 <code>effect.100</code> 常与文字中的伤害率×100 相合，如 <code>2005233</code> 的 12050 对应 120.5%；<code>effect.101</code> 常是固定项。但这仅说明<strong>该技能字段的编码</strong>，不能推出最终伤害公式。技能触发后还会进入伤害、命中、暴击、护盾、目标状态、PVP 平衡和服务器节点链。更完整的输入与轨迹见<a href="../combat-math/index.html">局内计算</a>。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>
+<p>技能 <code>effect.100</code> 常与文字中的伤害率×100 相合，如 <code>2005233</code> 的 12050 对应 120.5%；<code>effect.101</code> 常是固定项。但这仅说明<strong>该技能字段的编码</strong>，不能推出最终伤害公式。技能触发后还会进入伤害、命中、暴击、护盾、目标状态、PVP 平衡和服务器节点链。更完整的输入与轨迹见<a href="../combat-math/index.html">局内计算</a>。</p>
+<h2 id="模块策划案获取升级装备释放四段状态">模块策划案：获取、升级、装备、释放四段状态</h2>
+<p><strong>获取与升级。</strong> <code>skill_base_upgrade</code> 的解锁行提供 <code>skill_id/require_lvl/cost</code>，后续 <code>lvl</code> 行给材料、货币和属性成长。技能 1001 解锁需角色 22 级与 <code>1402020003×1</code>；1 级需 <code>1402010001×25 + 1001010001×1,000</code>，10 级需 <code>400 + 10,000</code>，20 级需 <code>4,000 + 90,000</code>。这是一条前期低价、后期陡增的成本曲线；未配置成本的高级行不能解释为免费。局外“已解锁”还需区分“已装备/已选择”，否则战斗持有列表中没有它。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_base_upgrade_skill_base_upgrade_0.json">905 行技能培养表</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L177">局内持有校验</a></p>
+<p><strong>局内资格。</strong> 进入战斗后先看玩法 <code>use_skill</code>；219 英雄材料副本和 409 普通材料副本配置 <code>use_skill=0</code>，401 梦魇讨伐为 1。允许技能的场景，再按当前行动者、行动阶段、沉默/定身、技能原型禁用、费用、CD、每回合/每局次数逐项过滤。冷却随新回合函数下降，不能把 <code>turn_cd=4</code> 简化为“4 秒”。按下技能可以进入选目标/预览或直接请求；最终使用与效果节点由服务端确认。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/gameplay_gameplay.json">玩法表</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L170">可用校验</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L841">回合刷新</a></p>
+<h2 id="模块策划案战术类型和数字档位">模块策划案：战术类型和数字档位</h2>
+<table>
+<thead>
+<tr>
+<th>决策位置</th>
+<th>代表技能</th>
+<th>玩家看到的取舍</th>
+<th>配置判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>控制敌方回合</td>
+<td>冰冻 <code>1001009</code> / <code>1001049</code></td>
+<td>把本回合输出换成对手行动限制；高级变体可更频繁使用</td>
+<td>前者 <code>cost=[1,0]</code>、CD 4、单局 1；后者 CD 3、单局 3，均每回合最多 1。效果引用 buff <code>1001001</code>。</td>
+</tr>
+<tr>
+<td>清除负面状态</td>
+<td>净化 <code>1009009</code> / <code>1009049</code></td>
+<td>在受控/减益后恢复后续行动价值</td>
+<td>前者 CD 4、单局 1；后者 CD 3、单局 3；效果类型 62 的 <code>del_buff_count=1</code>、<code>del_buff_type=[4,3,2]</code>。</td>
+</tr>
+<tr>
+<td>承受集火</td>
+<td>减伤 <code>1011010/1011030/1011050</code></td>
+<td>以当前行动换下一轮生存，升级后 CD 4→3→2，单局 2→3</td>
+<td>描述分别 5.5%/7.5%/9.5%，都每回合最多 1；效果率仍需服务端核对。</td>
+</tr>
+<tr>
+<td>恢复生命</td>
+<td>单体治疗 <code>80013</code>、群疗 <code>1007040</code></td>
+<td>对低血量单位或全队分配回合价值</td>
+<td><code>80013</code> CD 2、单局 1，效果 <code>107=547/103=109</code>；群疗 CD 3、单局 2，效果 <code>107=732/103=165</code>。</td>
+</tr>
+<tr>
+<td>位移与弹道</td>
+<td>传送 <code>110001</code>、分裂弹 <code>2005233</code></td>
+<td>牺牲普通射击节奏换地形位置或多弹覆盖</td>
+<td>传送落点触发位移；分裂弹为主弹加 2 枚子弹，必须分别结算碰撞。</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">主动技能全表</a>中 <code>1017010/20/30</code> 增伤系还显示费用 13,500→13,200→13,000，CD 4→3→3，单局 2→2→3；这些行 <code>effect</code> 缺省，不能补写“直接加 X% 攻击”。表格的“玩家取舍”是根据 CD、次数与效果类型推导的策划解释，并非已确认的最优打法。</p>
+<h2 id="模块策划案效果执行与冲突处理">模块策划案：效果执行与冲突处理</h2>
+<p><strong>执行队列。</strong> 主动技能的 <code>effect</code> 是按 <code>index</code> 排列的多个效果项，可能包含改弹、添加 buff、回血、分裂弹或位移。一种技能可以先产生弹体，再在命中后附加状态，再产生后续弹体；不能只取第一条 <code>effect</code> 作为整招效果。被动则由资源、状态、对象数量和触发条件驱动，是否触发还取决于战斗事件和判定器。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">主动配置</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/passive_skill_passive_skill.json">被动配置</a></p>
+<p><strong>冲突实例。</strong> <code>1006999</code> 治疗文案写“单局 5 次、6%+170”，行内却为 <code>match_max=1</code>、效果参数 577/173。复刻时应分开保存显示文案、配置限次、效果参数、服务端最终生效值，优先用实际 <code>s2c</code> 检验。<code>pve_*</code> 覆写和模式开关也必须在运行时加入决策，不可因 UI 显示技能图标便推定此局能放。技能消耗应在服务端接受后更新；请求失败时不应消耗本地次数。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">冲突原行</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua">技能网络与校验</a></p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

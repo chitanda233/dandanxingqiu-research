@@ -77,7 +77,7 @@ def home_page() -> str:
 <meta name="description" content="《弹弹星球》微信小游戏逆向策划设计案：单局计算、技能、成长、匹配机器人与经济循环。">
 <title>弹弹星球 · 代码研究门户</title><link rel="stylesheet" href="assets/site.css"></head><body class="home">
 <header class="home-top"><div class="wordmark">弹弹星球 <span>/ CODE RESEARCH</span></div><a href="{REPO}">GitHub 仓库 ↗</a></header>
-<main class="home-main"><div class="home-hero"><div class="eyebrow">WECHAT MINI GAME / UNITY + LUA / SNAPSHOT 242</div><h1>从代码反推<br><em>弹弹星球</em>的策划设计</h1><p>把战斗操作、技能数值、成长节奏、赛季匹配和机器人安排连成一套可复核的设计案。每条具体规则回到配置或调用链，未闭合的服务端环节保留边界。</p><div class="hero-meta"><span>2026.09.30 采集</span><span>23 个 Lua AssetBundle</span><span>8,272 个 Lua 字节码</span><span>75 张配置表</span></div></div>
+<main class="home-main"><div class="home-hero"><div class="eyebrow">WECHAT MINI GAME / UNITY + LUA / SNAPSHOT 242</div><h1>从代码反推<br><em>弹弹星球</em>的策划设计</h1><p>把战斗操作、技能数值、成长节奏、赛季匹配和机器人安排连成一套可复核的设计案。每个专题都给出入口、状态、操作、数值、异常与证据边界。</p><div class="hero-meta"><span>2026.09.30 采集</span><span>23 个 Lua AssetBundle</span><span>8,272 个 Lua 字节码</span><span>79 张配置表</span></div></div>
 <div class="section-label">十个研究专题 <span>SELECT A REPORT</span></div><div class="topic-grid">{cards}</div>
 <section class="home-note"><div><div class="eyebrow">证据与边界</div><h2>读配置，也读它的限制</h2><p>客户端代码能说明入口、字段、请求和表现链；不能单独证明当前服是否开放、匹配池算法、抽取概率或服务器最终结算。反编译内容有局部失真，正文已标出推断与未验证部分。</p></div><div class="resource-list"><a href="{REPO}/blob/main/analysis/README.md">研究口径与证据等级 ↗</a><a href="{REPO}/blob/main/raw/manifest.json">原始包哈希清单 ↗</a><a href="{REPO}/tree/main/reverse">提取与反编译目录 ↗</a><a href="{REPO}/tree/main/tools">复现工具 ↗</a></div></section>
 </main><footer class="home-footer">《弹弹星球》本机缓存研究 · AppID wx64969d55b91a6963 · 包目录 242</footer></body></html>"""

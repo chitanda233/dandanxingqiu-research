@@ -44,3 +44,25 @@
 2. **每天**：任务给进度和活跃度，20→100 五档宝箱拉长会话；PVP 每日领奖次数限制把竞技与日常留存绑定。
 3. **每周/每周期**：通行证 10000 周经验上限与 21 天固定周期限制一次性刷完；赛季奖杯/ELO 重置推动再次爬升。
 4. **长期**：资源进入角色等级、宠物、武器、宝石和配装，而 PVP 平衡表对部分属性另行替换，形成“养成驱动选择与构筑，公平值约束纯面板差距”的结构。后半句是多张表组合的设计推断，具体模式的替换比例由服务端决定。[成长数值](growth-numbers.md)
+
+## 模块策划案：每日任务与活跃宝箱
+
+**资源入账时点。** 玩家先领取任务直接奖励，再由任务 `liveness` 累计日活跃度，跨 20/40/60/80/100 阈值后再领取五个宝箱。这是两次独立写操作：任务完成不应直接视为宝箱到账。每档的类型 1/2 奖励见[活跃度原表](../analysis/data/task_liveness_task_liveness.json)；20 档两类货币数量差 10 倍、80 档给不同物品，说明类型选择是重要运营条件。策划验证应以服务器当前类型为准，防止 UI 展示一种、领取另一种。[任务网络](../reverse/lua-decompiled/game.module.task.manager.network.network.lua)
+
+**可计算但有限的预算。** 若类型 1 且五档全领，仅从宝箱可得 `1001010001×5,000,000`、`1402010001×2,000`、`1205010001×20`、`1405020001×5`、`1001010004×100`；类型 2 把第一项改为 500,000、第四项改为 `1413010001×5`。这不含任务直接奖、战斗奖、签到和活动奖，也不代表任何玩家每天必能达到 100 活跃。任务 1031012 需计数 4、任务 1031013 需计数 1，前者把玩家带去月亮宝箱，后者带去公会副本组队；任务的 `open_func` 与 `jump_id` 决定其和其他系统的承接。[任务表](../analysis/data/tasks_tasks_0.json)
+
+## 模块策划案：商店与抽取
+
+**商店交易链。** 分类表决定货币页、入口开放和商品展示；分服商品表决定 `price/original_price/discount/before_id/get_item`。玩家打开商店需先获取动态店铺信息，选择商品后校验货币、限购与前置，发送购买或批量购买，成功回包再扣货币/加商品/更新限购，失败则保留旧数据。`before_id` 表明有顺序购买候选，但其具体依赖校验仍需服务端确认；`discount` 不可不经格式化直接显示为百分比。[商店分类](../analysis/data/shop_class_shop_class.json)、[分片商品](../analysis/data/shop_shop_0.json)、[商店协议](../reverse/lua-decompiled/game.module.shop.manager.network.network.lua)
+
+**抽取交易链。** 抽取前先读池、预览、心愿和保底状态；扣除本池指定资源并发 `gacha_spin_c2s`，收到 `gacha_spin_s2c` 后再展示结果并同步计数/背包。10 次紫、80 次橙是保底类型 1 的规则行；类型 3 的每 3 次品质线、类型 1 的 200 次神器之心和 60/40 次红武是其他规则行。各保底可能由不同池/解锁条件选用，不可合成一条全局抽卡承诺。`gacha_misc` 的首/次/三次费用和刷新费用属于另一个可见子流程，不能替代入口 102 的 `cost_item_list`。[扭蛋入口](../analysis/data/gacha_gacha_0.json)、[保底](../analysis/data/gacha_guarantee_gacha_guarantee.json)、[抽取杂项](../analysis/data/gacha_misc_gacha_misc.json)
+
+**资源去向实例。** 技能 1001 升 1 级消耗 `1402010001×25 + 1001010001×1,000`，升 10 级对应行消耗 `400 + 10,000`，升 20 级行消耗 `4,000 + 90,000`。活跃 40 档给 `1402010001×2,000`，在物品 ID 相同且类型已确认的前提下，该档可覆盖上述任一单次材料成本，但这不表示可以直接从 1 级跳到 20 级，途中每级另有成本。玩家获取与消耗要按完整等级序列结算。[活跃度](../analysis/data/task_liveness_task_liveness.json)、[技能成本](../analysis/data/skill_base_upgrade_skill_base_upgrade_0.json)
+
+## 模块策划案：签到、通行证和赛季周期
+
+**签到。** 七日签到按日索引与服分片取奖励，基础服与 543 服第 5 天投放不同物品。登录、可领、已领三种状态应分开，跨日后重新计算，而不是把配置天数直接当作已连续签到天数。是否补签、断签重置及广告补领无法由这两张分片表确定。[基础分片](../analysis/data/seven_sign_seven_sign_0.json)、[543 分片](../analysis/data/seven_sign_seven_sign_543.json)
+
+**通行证。** `battlepass_exp=1000`、`battlepass_week_exp_limit=10000`、`battlepass_fix_days=21` 构成周期和周上限参数；免费/付费/货币解锁行分别决定可领奖层。设计上任务发放通行证经验后，服务端核周上限与等级，再把可领奖状态投向 UI；升级、购买等级、购买付费线是不同写操作。`battlepass_lv_price=100` 为表内价格参数，货币/付款 SKU 需查具体入口行；不能把 1000 经验直接说成每级固定需求。[通行证杂项](../analysis/data/battlepass_misc_battlepass_misc.json)、[入口表](../analysis/data/battlepass_common_battlepass_common.json)
+
+**赛季。** 排位每天 `pvp_reward_times_daily=3` 是参与奖励次数参数；赛季杯分、ELO 与段位奖励是独立进度。结算时先识别对手是否机器人、当前杯分档及可能的弱队修正，再由服务端写最终值；客户端只能据回包展示。重置与继承由赛季档期和 `season_reset` 等表控制，不能把配置中的 `initial_cup=1000` 与 `init_cup=800` 任意合并。[赛季参数](../analysis/data/season_misc_season_misc.json)、[杯分表](../analysis/data/season_cup_season_cup.json)

@@ -1,0 +1,11205 @@
+[
+  {
+    "times": 0,
+    "id": 1,
+    "main_show_skill_list": [
+      7100001
+    ],
+    "main_skill_list": [
+      7100001
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 2,
+    "main_show_skill_list": [
+      7100011
+    ],
+    "main_skill_list": [
+      7100011
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100021
+    ],
+    "times": 2,
+    "id": 3,
+    "use_times": 10,
+    "main_skill_list": [
+      7100021
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100031
+    ],
+    "times": 3,
+    "id": 4,
+    "use_times": 12,
+    "main_skill_list": [
+      7100031
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712101,
+      712102
+    ],
+    "id": 5,
+    "main_passive_show_skill_list": [
+      712101,
+      712102
+    ],
+    "main_show_skill_list": [
+      7100041
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100041
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7121011,
+      712102
+    ],
+    "id": 6,
+    "main_passive_show_skill_list": [
+      7121011,
+      712102
+    ],
+    "main_show_skill_list": [
+      7100051
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100051
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7121012,
+      712102
+    ],
+    "id": 7,
+    "main_passive_show_skill_list": [
+      7121012,
+      712102
+    ],
+    "main_show_skill_list": [
+      7100061
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100061
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7121013,
+      712102
+    ],
+    "id": 8,
+    "main_passive_show_skill_list": [
+      7121013,
+      712102
+    ],
+    "main_show_skill_list": [
+      7100071
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100071
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 9,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 10,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 11,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 12,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 13,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 14,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 15,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 16,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 17,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 19,
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 20,
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100111
+    ],
+    "times": 2,
+    "id": 21,
+    "use_times": 10,
+    "main_skill_list": [
+      7100111
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100121
+    ],
+    "times": 3,
+    "id": 22,
+    "use_times": 12,
+    "main_skill_list": [
+      7100121
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712111,
+      712112
+    ],
+    "id": 23,
+    "main_passive_show_skill_list": [
+      712111,
+      712112
+    ],
+    "main_show_skill_list": [
+      7100131
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100131
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7121111,
+      712112
+    ],
+    "id": 24,
+    "main_passive_show_skill_list": [
+      7121111,
+      712112
+    ],
+    "main_show_skill_list": [
+      7100141
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100141
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7121112,
+      712112
+    ],
+    "id": 25,
+    "main_passive_show_skill_list": [
+      7121112,
+      712112
+    ],
+    "main_show_skill_list": [
+      7100151
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100151
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7121113,
+      712112
+    ],
+    "id": 26,
+    "main_passive_show_skill_list": [
+      7121113,
+      712112
+    ],
+    "main_show_skill_list": [
+      7100161
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100161
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "main_passivity_skill_list": [
+      7121114,
+      712112
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_1",
+    "scale": 150,
+    "pet_head": [
+      "p001a_1",
+      "p001a_2",
+      "p001a_3"
+    ],
+    "role_level_limit": 1,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_1",
+    "main_passive_show_skill_list": [
+      7121114,
+      712112
+    ],
+    "level_limit": 60,
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "c_id": 10011,
+    "id": 27,
+    "entrance_sound": "sd_14011",
+    "pet_size": 100,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "model": [
+      "p001a_1",
+      "p001a_2",
+      "p001a_3"
+    ],
+    "main_show_skill_list": [
+      7100171
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_1",
+    "times": 8,
+    "height": 130,
+    "use_times": 22,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7100171
+    ]
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 28,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 29,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 30,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 31,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 32,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 33,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 34,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 35,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 36,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712121,
+      712122
+    ],
+    "id": 37,
+    "times": 0,
+    "main_show_skill_list": [
+      7100201
+    ],
+    "main_passive_show_skill_list": [
+      712121,
+      712122
+    ],
+    "main_skill_list": [
+      7100201
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712121,
+      7121221
+    ],
+    "id": 38,
+    "times": 1,
+    "main_show_skill_list": [
+      7100211
+    ],
+    "main_passive_show_skill_list": [
+      712121,
+      7121221
+    ],
+    "main_skill_list": [
+      7100211
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712121,
+      7121222
+    ],
+    "id": 39,
+    "main_passive_show_skill_list": [
+      712121,
+      7121222
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100221
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100221
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712121,
+      7121223
+    ],
+    "id": 40,
+    "main_passive_show_skill_list": [
+      712121,
+      7121223
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100231
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100231
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712121,
+      7121224
+    ],
+    "id": 41,
+    "main_passive_show_skill_list": [
+      712121,
+      7121224
+    ],
+    "main_show_skill_list": [
+      7100241
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100241
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7121211,
+      7121225
+    ],
+    "id": 42,
+    "main_passive_show_skill_list": [
+      7121211,
+      7121225
+    ],
+    "main_show_skill_list": [
+      7100251
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100251
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7121212,
+      7121226
+    ],
+    "id": 43,
+    "main_passive_show_skill_list": [
+      7121212,
+      7121226
+    ],
+    "main_show_skill_list": [
+      7100261
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100261
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7121213,
+      7121227
+    ],
+    "id": 44,
+    "main_passive_show_skill_list": [
+      7121213,
+      7121227
+    ],
+    "main_show_skill_list": [
+      7100271
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100271
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 45,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 46,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 47,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 48,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 49,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 50,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 51,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 52,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 53,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 54,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712131,
+      712132
+    ],
+    "id": 55,
+    "times": 0,
+    "main_show_skill_list": [
+      7100301
+    ],
+    "main_passive_show_skill_list": [
+      712131,
+      712132
+    ],
+    "main_skill_list": [
+      7100301
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712131,
+      7121321
+    ],
+    "id": 56,
+    "times": 1,
+    "main_show_skill_list": [
+      7100311
+    ],
+    "main_passive_show_skill_list": [
+      712131,
+      7121321
+    ],
+    "main_skill_list": [
+      7100311
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712131,
+      7121322
+    ],
+    "id": 57,
+    "main_passive_show_skill_list": [
+      712131,
+      7121322
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100321
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100321
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712131,
+      7121323
+    ],
+    "id": 58,
+    "main_passive_show_skill_list": [
+      712131,
+      7121323
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100331
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100331
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712131,
+      7121324
+    ],
+    "id": 59,
+    "main_passive_show_skill_list": [
+      712131,
+      7121324
+    ],
+    "main_show_skill_list": [
+      7100341
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100341
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7121311,
+      7121325
+    ],
+    "id": 60,
+    "main_passive_show_skill_list": [
+      7121311,
+      7121325
+    ],
+    "main_show_skill_list": [
+      7100351
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100351
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7121312,
+      7121326
+    ],
+    "id": 61,
+    "main_passive_show_skill_list": [
+      7121312,
+      7121326
+    ],
+    "main_show_skill_list": [
+      7100361
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100361
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7121313,
+      7121327
+    ],
+    "id": 62,
+    "main_passive_show_skill_list": [
+      7121313,
+      7121327
+    ],
+    "main_show_skill_list": [
+      7100371
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100371
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 63,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 64,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 65,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 66,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 67,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 68,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 69,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 70,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 71,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 72,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 73,
+    "main_show_skill_list": [
+      7100002
+    ],
+    "main_skill_list": [
+      7100002
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 74,
+    "main_show_skill_list": [
+      7100012
+    ],
+    "main_skill_list": [
+      7100012
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100022
+    ],
+    "times": 2,
+    "id": 75,
+    "use_times": 10,
+    "main_skill_list": [
+      7100022
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100032
+    ],
+    "times": 3,
+    "id": 76,
+    "use_times": 12,
+    "main_skill_list": [
+      7100032
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712201,
+      712202
+    ],
+    "id": 77,
+    "main_passive_show_skill_list": [
+      712201,
+      712202
+    ],
+    "main_show_skill_list": [
+      7100042
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100042
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7122011,
+      712202
+    ],
+    "id": 78,
+    "main_passive_show_skill_list": [
+      7122011,
+      712202
+    ],
+    "main_show_skill_list": [
+      7100052
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100052
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7122012,
+      712202
+    ],
+    "id": 79,
+    "main_passive_show_skill_list": [
+      7122012,
+      712202
+    ],
+    "main_show_skill_list": [
+      7100062
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100062
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7122013,
+      712202
+    ],
+    "id": 80,
+    "main_passive_show_skill_list": [
+      7122013,
+      712202
+    ],
+    "main_show_skill_list": [
+      7100072
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100072
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 81,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 82,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 83,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 84,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 85,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 86,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 87,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 88,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 89,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 90,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 91,
+    "main_show_skill_list": [
+      7100102
+    ],
+    "main_skill_list": [
+      7100102
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 92,
+    "main_show_skill_list": [
+      7100112
+    ],
+    "main_skill_list": [
+      7100112
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100122
+    ],
+    "times": 2,
+    "id": 93,
+    "use_times": 10,
+    "main_skill_list": [
+      7100122
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100132
+    ],
+    "times": 3,
+    "id": 94,
+    "use_times": 12,
+    "main_skill_list": [
+      7100132
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712211,
+      712212
+    ],
+    "id": 95,
+    "main_passive_show_skill_list": [
+      712211,
+      712212
+    ],
+    "main_show_skill_list": [
+      7100142
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100142
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7122111,
+      712212
+    ],
+    "id": 96,
+    "main_passive_show_skill_list": [
+      7122111,
+      712212
+    ],
+    "main_show_skill_list": [
+      7100152
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100152
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7122112,
+      712212
+    ],
+    "id": 97,
+    "main_passive_show_skill_list": [
+      7122112,
+      712212
+    ],
+    "main_show_skill_list": [
+      7100162
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100162
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7122113,
+      712212
+    ],
+    "id": 98,
+    "main_passive_show_skill_list": [
+      7122113,
+      712212
+    ],
+    "main_show_skill_list": [
+      7100172
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100172
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 99,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 100,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 101,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 102,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 103,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 104,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 105,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 106,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 107,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 108,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712221,
+      712222
+    ],
+    "id": 109,
+    "times": 0,
+    "main_show_skill_list": [
+      7100202
+    ],
+    "main_passive_show_skill_list": [
+      712221,
+      712222
+    ],
+    "main_skill_list": [
+      7100202
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712221,
+      7122221
+    ],
+    "id": 110,
+    "times": 1,
+    "main_show_skill_list": [
+      7100212
+    ],
+    "main_passive_show_skill_list": [
+      712221,
+      7122221
+    ],
+    "main_skill_list": [
+      7100212
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712221,
+      7122222
+    ],
+    "id": 111,
+    "main_passive_show_skill_list": [
+      712221,
+      7122222
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100222
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100222
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712221,
+      7122223
+    ],
+    "id": 112,
+    "main_passive_show_skill_list": [
+      712221,
+      7122223
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100232
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100232
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712221,
+      7122224
+    ],
+    "id": 113,
+    "main_passive_show_skill_list": [
+      712221,
+      7122224
+    ],
+    "main_show_skill_list": [
+      7100242
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100242
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7122211,
+      7122225
+    ],
+    "id": 114,
+    "main_passive_show_skill_list": [
+      7122211,
+      7122225
+    ],
+    "main_show_skill_list": [
+      7100252
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100252
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7122212,
+      7122226
+    ],
+    "id": 115,
+    "main_passive_show_skill_list": [
+      7122212,
+      7122226
+    ],
+    "main_show_skill_list": [
+      7100262
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100262
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7122213,
+      7122227
+    ],
+    "id": 116,
+    "main_passive_show_skill_list": [
+      7122213,
+      7122227
+    ],
+    "main_show_skill_list": [
+      7100272
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100272
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 117,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 118,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 119,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 120,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 121,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 122,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 123,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 124,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 125,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 126,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712231,
+      712232
+    ],
+    "id": 127,
+    "times": 0,
+    "main_show_skill_list": [
+      7100302
+    ],
+    "main_passive_show_skill_list": [
+      712231,
+      712232
+    ],
+    "main_skill_list": [
+      7100302
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712231,
+      7122321
+    ],
+    "id": 128,
+    "times": 1,
+    "main_show_skill_list": [
+      7100312
+    ],
+    "main_passive_show_skill_list": [
+      712231,
+      7122321
+    ],
+    "main_skill_list": [
+      7100312
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712231,
+      7122322
+    ],
+    "id": 129,
+    "main_passive_show_skill_list": [
+      712231,
+      7122322
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100322
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100322
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712231,
+      7122323
+    ],
+    "id": 130,
+    "main_passive_show_skill_list": [
+      712231,
+      7122323
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100332
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100332
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712231,
+      7122324
+    ],
+    "id": 131,
+    "main_passive_show_skill_list": [
+      712231,
+      7122324
+    ],
+    "main_show_skill_list": [
+      7100342
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100342
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7122311,
+      7122325
+    ],
+    "id": 132,
+    "main_passive_show_skill_list": [
+      7122311,
+      7122325
+    ],
+    "main_show_skill_list": [
+      7100352
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100352
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7122312,
+      7122326
+    ],
+    "id": 133,
+    "main_passive_show_skill_list": [
+      7122312,
+      7122326
+    ],
+    "main_show_skill_list": [
+      7100362
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100362
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7122313,
+      7122327
+    ],
+    "id": 134,
+    "main_passive_show_skill_list": [
+      7122313,
+      7122327
+    ],
+    "main_show_skill_list": [
+      7100372
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100372
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 135,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 136,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 137,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 138,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 139,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 140,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 141,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 142,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 143,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 144,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 145,
+    "main_show_skill_list": [
+      7100003
+    ],
+    "main_skill_list": [
+      7100003
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 146,
+    "main_show_skill_list": [
+      7100013
+    ],
+    "main_skill_list": [
+      7100013
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100023
+    ],
+    "times": 2,
+    "id": 147,
+    "use_times": 10,
+    "main_skill_list": [
+      7100023
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100033
+    ],
+    "times": 3,
+    "id": 148,
+    "use_times": 12,
+    "main_skill_list": [
+      7100033
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712301,
+      712302
+    ],
+    "id": 149,
+    "main_passive_show_skill_list": [
+      712301,
+      712302
+    ],
+    "main_show_skill_list": [
+      7100043
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100043
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7123011,
+      712302
+    ],
+    "id": 150,
+    "main_passive_show_skill_list": [
+      7123011,
+      712302
+    ],
+    "main_show_skill_list": [
+      7100053
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100053
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7123012,
+      712302
+    ],
+    "id": 151,
+    "main_passive_show_skill_list": [
+      7123012,
+      712302
+    ],
+    "main_show_skill_list": [
+      7100063
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100063
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7123013,
+      712302
+    ],
+    "id": 152,
+    "main_passive_show_skill_list": [
+      7123013,
+      712302
+    ],
+    "main_show_skill_list": [
+      7100073
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100073
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 153,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 154,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 155,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 156,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 157,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 158,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 159,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 160,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 161,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 162,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 163,
+    "main_show_skill_list": [
+      7100103
+    ],
+    "main_skill_list": [
+      7100103
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 164,
+    "main_show_skill_list": [
+      7100113
+    ],
+    "main_skill_list": [
+      7100113
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100123
+    ],
+    "times": 2,
+    "id": 165,
+    "use_times": 10,
+    "main_skill_list": [
+      7100123
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100133
+    ],
+    "times": 3,
+    "id": 166,
+    "use_times": 12,
+    "main_skill_list": [
+      7100133
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712311,
+      712312
+    ],
+    "id": 167,
+    "main_passive_show_skill_list": [
+      712311,
+      712312
+    ],
+    "main_show_skill_list": [
+      7100143
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100143
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7123111,
+      712312
+    ],
+    "id": 168,
+    "main_passive_show_skill_list": [
+      7123111,
+      712312
+    ],
+    "main_show_skill_list": [
+      7100153
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100153
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7123112,
+      712312
+    ],
+    "id": 169,
+    "main_passive_show_skill_list": [
+      7123112,
+      712312
+    ],
+    "main_show_skill_list": [
+      7100163
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100163
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7123113,
+      712312
+    ],
+    "id": 170,
+    "main_passive_show_skill_list": [
+      7123113,
+      712312
+    ],
+    "main_show_skill_list": [
+      7100173
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100173
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 171,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 172,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 173,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 174,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 175,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 176,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 177,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 178,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 179,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 180,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712321,
+      712322
+    ],
+    "id": 181,
+    "times": 0,
+    "main_show_skill_list": [
+      7100203
+    ],
+    "main_passive_show_skill_list": [
+      712321,
+      712322
+    ],
+    "main_skill_list": [
+      7100203
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712321,
+      7123221
+    ],
+    "id": 182,
+    "times": 1,
+    "main_show_skill_list": [
+      7100213
+    ],
+    "main_passive_show_skill_list": [
+      712321,
+      7123221
+    ],
+    "main_skill_list": [
+      7100213
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712321,
+      7123222
+    ],
+    "id": 183,
+    "main_passive_show_skill_list": [
+      712321,
+      7123222
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100223
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100223
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712321,
+      7123223
+    ],
+    "id": 184,
+    "main_passive_show_skill_list": [
+      712321,
+      7123223
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100233
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100233
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712321,
+      7123224
+    ],
+    "id": 185,
+    "main_passive_show_skill_list": [
+      712321,
+      7123224
+    ],
+    "main_show_skill_list": [
+      7100243
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100243
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7123211,
+      7123225
+    ],
+    "id": 186,
+    "main_passive_show_skill_list": [
+      7123211,
+      7123225
+    ],
+    "main_show_skill_list": [
+      7100253
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100253
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7123212,
+      7123226
+    ],
+    "id": 187,
+    "main_passive_show_skill_list": [
+      7123212,
+      7123226
+    ],
+    "main_show_skill_list": [
+      7100263
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100263
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7123213,
+      7123227
+    ],
+    "id": 188,
+    "main_passive_show_skill_list": [
+      7123213,
+      7123227
+    ],
+    "main_show_skill_list": [
+      7100273
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100273
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 189,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 190,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 191,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 192,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 193,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 194,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 195,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 196,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 197,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 198,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712331,
+      712332
+    ],
+    "id": 199,
+    "times": 0,
+    "main_show_skill_list": [
+      7100303
+    ],
+    "main_passive_show_skill_list": [
+      712331,
+      712332
+    ],
+    "main_skill_list": [
+      7100303
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712331,
+      7123321
+    ],
+    "id": 200,
+    "times": 1,
+    "main_show_skill_list": [
+      7100313
+    ],
+    "main_passive_show_skill_list": [
+      712331,
+      7123321
+    ],
+    "main_skill_list": [
+      7100313
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712331,
+      7123322
+    ],
+    "id": 201,
+    "main_passive_show_skill_list": [
+      712331,
+      7123322
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100323
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100323
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712331,
+      7123323
+    ],
+    "id": 202,
+    "main_passive_show_skill_list": [
+      712331,
+      7123323
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100333
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100333
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712331,
+      7123324
+    ],
+    "id": 203,
+    "main_passive_show_skill_list": [
+      712331,
+      7123324
+    ],
+    "main_show_skill_list": [
+      7100343
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100343
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7123311,
+      7123325
+    ],
+    "id": 204,
+    "main_passive_show_skill_list": [
+      7123311,
+      7123325
+    ],
+    "main_show_skill_list": [
+      7100353
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100353
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7123312,
+      7123326
+    ],
+    "id": 205,
+    "main_passive_show_skill_list": [
+      7123312,
+      7123326
+    ],
+    "main_show_skill_list": [
+      7100363
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100363
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7123313,
+      7123327
+    ],
+    "id": 206,
+    "main_passive_show_skill_list": [
+      7123313,
+      7123327
+    ],
+    "main_show_skill_list": [
+      7100373
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100373
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 207,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 208,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 209,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 210,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 211,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 212,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 213,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 214,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 215,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 216,
+    "level_limit": 999
+  },
+  {
+    "main_show_skill_list": [
+      7100406
+    ],
+    "main_passivity_skill_list": [
+      712001,
+      712002,
+      712003
+    ],
+    "times": 0,
+    "id": 217,
+    "main_passive_show_skill_list": [
+      712001,
+      712002
+    ],
+    "main_skill_list": [
+      7100406
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100416
+    ],
+    "main_passivity_skill_list": [
+      712001,
+      7120031,
+      712003
+    ],
+    "times": 1,
+    "id": 218,
+    "main_passive_show_skill_list": [
+      712001,
+      7120031
+    ],
+    "main_skill_list": [
+      7100416
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712001,
+      7120032,
+      712003
+    ],
+    "id": 219,
+    "main_passive_show_skill_list": [
+      712001,
+      7120032
+    ],
+    "main_show_skill_list": [
+      7100426
+    ],
+    "times": 2,
+    "main_skill_list": [
+      7100426
+    ],
+    "use_times": 10,
+    "break_through_list": [
+      [
+        1611010001,
+        2
+      ]
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712001,
+      7120033,
+      712003
+    ],
+    "id": 220,
+    "main_passive_show_skill_list": [
+      712001,
+      7120033
+    ],
+    "main_show_skill_list": [
+      7100436
+    ],
+    "times": 3,
+    "main_skill_list": [
+      7100436
+    ],
+    "use_times": 12,
+    "break_through_list": [
+      [
+        1611010001,
+        3
+      ]
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712001,
+      7120034,
+      712003
+    ],
+    "id": 221,
+    "main_passive_show_skill_list": [
+      712001,
+      7120034
+    ],
+    "main_show_skill_list": [
+      7100446
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100446
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1611010001,
+        5
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7120011,
+      7120035,
+      712003
+    ],
+    "id": 222,
+    "main_passive_show_skill_list": [
+      7120011,
+      7120035
+    ],
+    "main_show_skill_list": [
+      7100456
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100456
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1611010001,
+        10
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7120012,
+      7120036,
+      712003
+    ],
+    "id": 223,
+    "main_passive_show_skill_list": [
+      7120012,
+      7120036
+    ],
+    "main_show_skill_list": [
+      7100466
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100466
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1611010001,
+        15
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7120013,
+      7120037,
+      712003
+    ],
+    "id": 224,
+    "main_passive_show_skill_list": [
+      7120013,
+      7120037
+    ],
+    "main_show_skill_list": [
+      7100476
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100476
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1611010001,
+        20
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 225,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1611010001,
+        25
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 226,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1611010001,
+        30
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 227,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1611010001,
+        35
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 228,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1611010001,
+        40
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 229,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1611010001,
+        50
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 230,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1611010001,
+        100
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 231,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1611010001,
+        150
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 232,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1611010001,
+        200
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 233,
+    "break_through_list": [
+      [
+        1611010001,
+        300
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 234,
+    "level_limit": 999
+  },
+  {
+    "main_show_skill_list": [
+      7100407
+    ],
+    "main_passivity_skill_list": [
+      712901,
+      712902,
+      712903
+    ],
+    "times": 0,
+    "id": 235,
+    "main_passive_show_skill_list": [
+      712901,
+      712902
+    ],
+    "main_skill_list": [
+      7100407
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100417
+    ],
+    "main_passivity_skill_list": [
+      712901,
+      7129021,
+      712903
+    ],
+    "times": 1,
+    "id": 236,
+    "main_passive_show_skill_list": [
+      712901,
+      7129021
+    ],
+    "main_skill_list": [
+      7100417
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712901,
+      7129022,
+      712903
+    ],
+    "id": 237,
+    "main_passive_show_skill_list": [
+      712901,
+      7129022
+    ],
+    "main_show_skill_list": [
+      7100427
+    ],
+    "times": 2,
+    "main_skill_list": [
+      7100427
+    ],
+    "use_times": 10,
+    "break_through_list": [
+      [
+        1611010001,
+        2
+      ]
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712901,
+      7129023,
+      712903
+    ],
+    "id": 238,
+    "main_passive_show_skill_list": [
+      712901,
+      7129023
+    ],
+    "main_show_skill_list": [
+      7100437
+    ],
+    "times": 3,
+    "main_skill_list": [
+      7100437
+    ],
+    "use_times": 12,
+    "break_through_list": [
+      [
+        1611010001,
+        3
+      ]
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712901,
+      7129024,
+      712903
+    ],
+    "id": 239,
+    "main_passive_show_skill_list": [
+      712901,
+      7129024
+    ],
+    "main_show_skill_list": [
+      7100447
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100447
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1611010001,
+        5
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7129011,
+      7129025,
+      712903
+    ],
+    "id": 240,
+    "main_passive_show_skill_list": [
+      7129011,
+      7129025
+    ],
+    "main_show_skill_list": [
+      7100457
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100457
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1611010001,
+        10
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7129012,
+      7129026,
+      712903
+    ],
+    "id": 241,
+    "main_passive_show_skill_list": [
+      7129012,
+      7129026
+    ],
+    "main_show_skill_list": [
+      7100467
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100467
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1611010001,
+        15
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7129013,
+      7129027,
+      712903
+    ],
+    "id": 242,
+    "main_passive_show_skill_list": [
+      7129013,
+      7129027
+    ],
+    "main_show_skill_list": [
+      7100477
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100477
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1611010001,
+        20
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 243,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1611010001,
+        25
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 244,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1611010001,
+        30
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 245,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1611010001,
+        35
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 246,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1611010001,
+        40
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 247,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1611010001,
+        50
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 248,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1611010001,
+        100
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 249,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1611010001,
+        150
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 250,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1611010001,
+        200
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 251,
+    "break_through_list": [
+      [
+        1611010001,
+        300
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 252,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 253,
+    "main_show_skill_list": [
+      7100004
+    ],
+    "main_skill_list": [
+      7100004
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 254,
+    "main_show_skill_list": [
+      7100014
+    ],
+    "main_skill_list": [
+      7100014
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100024
+    ],
+    "times": 2,
+    "id": 255,
+    "use_times": 10,
+    "main_skill_list": [
+      7100024
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100034
+    ],
+    "times": 3,
+    "id": 256,
+    "use_times": 12,
+    "main_skill_list": [
+      7100034
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712701,
+      712702
+    ],
+    "id": 257,
+    "main_passive_show_skill_list": [
+      712701,
+      712702
+    ],
+    "main_show_skill_list": [
+      7100044
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100044
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7127011,
+      712702
+    ],
+    "id": 258,
+    "main_passive_show_skill_list": [
+      7127011,
+      712702
+    ],
+    "main_show_skill_list": [
+      7100054
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100054
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7127012,
+      712702
+    ],
+    "id": 259,
+    "main_passive_show_skill_list": [
+      7127012,
+      712702
+    ],
+    "main_show_skill_list": [
+      7100064
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100064
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7127013,
+      712702
+    ],
+    "id": 260,
+    "main_passive_show_skill_list": [
+      7127013,
+      712702
+    ],
+    "main_show_skill_list": [
+      7100074
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100074
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 261,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 262,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 263,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 264,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 265,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 266,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 267,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 268,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 269,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 270,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 271,
+    "main_show_skill_list": [
+      7100104
+    ],
+    "main_skill_list": [
+      7100104
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "times": 1,
+    "id": 272,
+    "main_show_skill_list": [
+      7100114
+    ],
+    "main_skill_list": [
+      7100114
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100124
+    ],
+    "times": 2,
+    "id": 273,
+    "use_times": 10,
+    "main_skill_list": [
+      7100124
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_show_skill_list": [
+      7100134
+    ],
+    "times": 3,
+    "id": 274,
+    "use_times": 12,
+    "main_skill_list": [
+      7100134
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712711,
+      712712
+    ],
+    "id": 275,
+    "main_passive_show_skill_list": [
+      712711,
+      712712
+    ],
+    "main_show_skill_list": [
+      7100144
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100144
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7127111,
+      712712
+    ],
+    "id": 276,
+    "main_passive_show_skill_list": [
+      7127111,
+      712712
+    ],
+    "main_show_skill_list": [
+      7100154
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100154
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7127112,
+      712712
+    ],
+    "id": 277,
+    "main_passive_show_skill_list": [
+      7127112,
+      712712
+    ],
+    "main_show_skill_list": [
+      7100164
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100164
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7127113,
+      712712
+    ],
+    "id": 278,
+    "main_passive_show_skill_list": [
+      7127113,
+      712712
+    ],
+    "main_show_skill_list": [
+      7100174
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100174
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 279,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 280,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 281,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 282,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 283,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 284,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 285,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 286,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 287,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 288,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712721,
+      712722
+    ],
+    "id": 289,
+    "times": 0,
+    "main_show_skill_list": [
+      7100204
+    ],
+    "main_passive_show_skill_list": [
+      712721,
+      712722
+    ],
+    "main_skill_list": [
+      7100204
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712721,
+      7127221
+    ],
+    "id": 290,
+    "times": 1,
+    "main_show_skill_list": [
+      7100214
+    ],
+    "main_passive_show_skill_list": [
+      712721,
+      7127221
+    ],
+    "main_skill_list": [
+      7100214
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712721,
+      7127222
+    ],
+    "id": 291,
+    "main_passive_show_skill_list": [
+      712721,
+      7127222
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100224
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100224
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712721,
+      7127223
+    ],
+    "id": 292,
+    "main_passive_show_skill_list": [
+      712721,
+      7127223
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100234
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100234
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712721,
+      7127224
+    ],
+    "id": 293,
+    "main_passive_show_skill_list": [
+      712721,
+      7127224
+    ],
+    "main_show_skill_list": [
+      7100244
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100244
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7127211,
+      7127225
+    ],
+    "id": 294,
+    "main_passive_show_skill_list": [
+      7127211,
+      7127225
+    ],
+    "main_show_skill_list": [
+      7100254
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100254
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7127212,
+      7127226
+    ],
+    "id": 295,
+    "main_passive_show_skill_list": [
+      7127212,
+      7127226
+    ],
+    "main_show_skill_list": [
+      7100264
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100264
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7127213,
+      7127227
+    ],
+    "id": 296,
+    "main_passive_show_skill_list": [
+      7127213,
+      7127227
+    ],
+    "main_show_skill_list": [
+      7100274
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100274
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 297,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 298,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 299,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 300,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 301,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 302,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 303,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 304,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 305,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 306,
+    "level_limit": 999
+  },
+  {
+    "main_passivity_skill_list": [
+      712731,
+      712732
+    ],
+    "id": 307,
+    "times": 0,
+    "main_show_skill_list": [
+      7100304
+    ],
+    "main_passive_show_skill_list": [
+      712731,
+      712732
+    ],
+    "main_skill_list": [
+      7100304
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712731,
+      7127321
+    ],
+    "id": 308,
+    "times": 1,
+    "main_show_skill_list": [
+      7100314
+    ],
+    "main_passive_show_skill_list": [
+      712731,
+      7127321
+    ],
+    "main_skill_list": [
+      7100314
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712731,
+      7127322
+    ],
+    "id": 309,
+    "main_passive_show_skill_list": [
+      712731,
+      7127322
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100324
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100324
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712731,
+      7127323
+    ],
+    "id": 310,
+    "main_passive_show_skill_list": [
+      712731,
+      7127323
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100334
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100334
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      712731,
+      7127324
+    ],
+    "id": 311,
+    "main_passive_show_skill_list": [
+      712731,
+      7127324
+    ],
+    "main_show_skill_list": [
+      7100344
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100344
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7127311,
+      7127325
+    ],
+    "id": 312,
+    "main_passive_show_skill_list": [
+      7127311,
+      7127325
+    ],
+    "main_show_skill_list": [
+      7100354
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100354
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7127312,
+      7127326
+    ],
+    "id": 313,
+    "main_passive_show_skill_list": [
+      7127312,
+      7127326
+    ],
+    "main_show_skill_list": [
+      7100364
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100364
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7127313,
+      7127327
+    ],
+    "id": 314,
+    "main_passive_show_skill_list": [
+      7127313,
+      7127327
+    ],
+    "main_show_skill_list": [
+      7100374
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100374
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 315,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 316,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 317,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 318,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 319,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 320,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 321,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 322,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 323,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 324,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 325,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "times": 1,
+    "id": 326,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 327,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 328,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 329,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 330,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 331,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 332,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10041,
+    "id": 333,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 334,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 335,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 336,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 337,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 338,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 339,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 340,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 341,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10042,
+    "id": 342,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        10
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 343,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 344,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 345,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 346,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 347,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 348,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 349,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 350,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      130002
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_325",
+    "scale": 150,
+    "pet_head": [
+      "p004a_1",
+      "p004b_1",
+      "p004c_1"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_325",
+    "main_passive_show_skill_list": [
+      130002
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10043,
+    "id": 351,
+    "entrance_sound": "sd_7142",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001311
+    ],
+    "model": [
+      "p004a_1",
+      "p004b_1",
+      "p004c_1"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_325",
+    "times": 8,
+    "height": 100,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        30
+      ]
+    ],
+    "main_skill_list": [
+      7001311
+    ]
+  },
+  {
+    "main_passivity_skill_list": [
+      712501,
+      712502,
+      712503
+    ],
+    "id": 352,
+    "times": 0,
+    "main_show_skill_list": [
+      7100305
+    ],
+    "main_passive_show_skill_list": [
+      712501,
+      712502
+    ],
+    "main_skill_list": [
+      7100305
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712501,
+      7125021,
+      712503
+    ],
+    "id": 353,
+    "times": 1,
+    "main_show_skill_list": [
+      7100315
+    ],
+    "main_passive_show_skill_list": [
+      712501,
+      7125021
+    ],
+    "main_skill_list": [
+      7100315
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      712501,
+      7125022,
+      712503
+    ],
+    "id": 354,
+    "main_passive_show_skill_list": [
+      712501,
+      7125022
+    ],
+    "times": 2,
+    "main_show_skill_list": [
+      7100325
+    ],
+    "use_times": 10,
+    "main_skill_list": [
+      7100325
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      712501,
+      7125023,
+      712503
+    ],
+    "id": 355,
+    "main_passive_show_skill_list": [
+      712501,
+      7125023
+    ],
+    "times": 3,
+    "main_show_skill_list": [
+      7100335
+    ],
+    "use_times": 12,
+    "main_skill_list": [
+      7100335
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      7125011,
+      7125024,
+      712503
+    ],
+    "id": 356,
+    "main_passive_show_skill_list": [
+      712501,
+      7125024
+    ],
+    "main_show_skill_list": [
+      7100345
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100345
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        15
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7125012,
+      7125025,
+      712503
+    ],
+    "id": 357,
+    "main_passive_show_skill_list": [
+      7125011,
+      7125025
+    ],
+    "main_show_skill_list": [
+      7100355
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100355
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7125013,
+      7125026,
+      712503
+    ],
+    "id": 358,
+    "main_passive_show_skill_list": [
+      7125012,
+      7125026
+    ],
+    "main_show_skill_list": [
+      7100365
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100365
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7125014,
+      7125027,
+      712503
+    ],
+    "id": 359,
+    "main_passive_show_skill_list": [
+      7125013,
+      7125027
+    ],
+    "main_show_skill_list": [
+      7100375
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100375
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        40
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 360,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        50
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 361,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        70
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 362,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1603010001,
+        100
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 363,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 364,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1603010001,
+        200
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 365,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1603010001,
+        250
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 366,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 367,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1603010001,
+        350
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 368,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 369,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 370,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "times": 1,
+    "id": 371,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 372,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 373,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 374,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 375,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 376,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 377,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10061,
+    "id": 378,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 379,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 380,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 381,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 382,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 383,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 384,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 385,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 386,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10062,
+    "id": 387,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        10
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 388,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 389,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 390,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 391,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 392,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 393,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 394,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 395,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      710401
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_370",
+    "scale": 150,
+    "pet_head": [
+      "p006c_1",
+      "p006c_2",
+      "p006c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_370",
+    "main_passive_show_skill_list": [
+      710401
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10063,
+    "id": 396,
+    "entrance_sound": "sd_14061",
+    "pet_size": 120,
+    "main_show_skill_list": [
+      7001411
+    ],
+    "model": [
+      "p006c_1",
+      "p006c_2",
+      "p006c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_370",
+    "times": 8,
+    "height": 110,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        30
+      ]
+    ],
+    "main_skill_list": [
+      7001411
+    ]
+  },
+  {
+    "times": 0,
+    "id": 397,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 398,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 399,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 400,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 401,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 402,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 403,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 404,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      710701
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_397",
+    "scale": 150,
+    "pet_head": [
+      "p007c_1",
+      "p007c_2",
+      "p007c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_397",
+    "main_passive_show_skill_list": [
+      710701
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10071,
+    "id": 405,
+    "entrance_sound": "sd_14071",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001337
+    ],
+    "model": [
+      "p007c_1",
+      "p007c_2",
+      "p007c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_397",
+    "times": 8,
+    "height": 100,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        30
+      ]
+    ],
+    "main_skill_list": [
+      7001337
+    ]
+  },
+  {
+    "times": 0,
+    "id": 406,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 407,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 408,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 409,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 410,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 411,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 412,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 413,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10081,
+    "id": 414,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 415,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 416,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 417,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 418,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 419,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 420,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 421,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 422,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "c_id": 10082,
+    "id": 423,
+    "role_level_limit": 999,
+    "times": 8,
+    "resolve_item_list": [
+      [
+        1604010001,
+        10
+      ]
+    ],
+    "use_times": 18,
+    "level_limit": 999
+  },
+  {
+    "times": 0,
+    "id": 424,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 425,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 426,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 427,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 428,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 429,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 430,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 431,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      710601
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_406",
+    "pet_head": [
+      "p008c_1",
+      "p008c_2",
+      "p008c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_406",
+    "main_passive_show_skill_list": [
+      710601
+    ],
+    "level_limit": 999,
+    "c_id": 10083,
+    "id": 432,
+    "entrance_sound": "sd_14061",
+    "model": [
+      "p008c_1",
+      "p008c_2",
+      "p008c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_406",
+    "times": 8,
+    "main_show_skill_list": [
+      7001511
+    ],
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        30
+      ]
+    ],
+    "main_skill_list": [
+      7001511
+    ]
+  },
+  {
+    "times": 0,
+    "id": 433,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 434,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 435,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 436,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 437,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 438,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 439,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 440,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711101
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_433",
+    "scale": 150,
+    "pet_head": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_433",
+    "main_passive_show_skill_list": [
+      711101
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10111,
+    "id": 441,
+    "entrance_sound": "sd_14111",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001611
+    ],
+    "model": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_433",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001611
+    ]
+  },
+  {
+    "times": 0,
+    "id": 442,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 443,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 444,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 445,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 446,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 447,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 448,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 449,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711101
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_433",
+    "scale": 150,
+    "pet_head": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_433",
+    "main_passive_show_skill_list": [
+      711101
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10112,
+    "id": 450,
+    "entrance_sound": "sd_14111",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001611
+    ],
+    "model": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_433",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001611
+    ]
+  },
+  {
+    "times": 0,
+    "id": 451,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 452,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 453,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 454,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 455,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 456,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 457,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 458,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711101
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_433",
+    "pet_head": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_433",
+    "main_passive_show_skill_list": [
+      711101
+    ],
+    "level_limit": 999,
+    "c_id": 10113,
+    "id": 459,
+    "entrance_sound": "sd_14111",
+    "model": [
+      "p011c_1",
+      "p011c_2",
+      "p011c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_433",
+    "times": 8,
+    "main_show_skill_list": [
+      7001611
+    ],
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7001611
+    ]
+  },
+  {
+    "times": 0,
+    "id": 460,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 461,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 462,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 463,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 464,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 465,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 466,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 467,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711201
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_460",
+    "scale": 150,
+    "pet_head": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_460",
+    "main_passive_show_skill_list": [
+      711201
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10121,
+    "id": 468,
+    "entrance_sound": "sd_14121",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001711
+    ],
+    "model": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_460",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001711
+    ]
+  },
+  {
+    "times": 0,
+    "id": 469,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 470,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 471,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 472,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 473,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 474,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 475,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 476,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711201
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_460",
+    "scale": 150,
+    "pet_head": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_460",
+    "main_passive_show_skill_list": [
+      711201
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10122,
+    "id": 477,
+    "entrance_sound": "sd_14121",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001711
+    ],
+    "model": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_460",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001711
+    ]
+  },
+  {
+    "times": 0,
+    "id": 478,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 479,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 480,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 481,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 482,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 483,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 484,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 485,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711201
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_460",
+    "pet_head": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_460",
+    "main_passive_show_skill_list": [
+      711201
+    ],
+    "level_limit": 999,
+    "c_id": 10123,
+    "id": 486,
+    "entrance_sound": "sd_14121",
+    "model": [
+      "p012c_1",
+      "p012c_2",
+      "p012c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_460",
+    "times": 8,
+    "main_show_skill_list": [
+      7001711
+    ],
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7001711
+    ]
+  },
+  {
+    "times": 0,
+    "id": 487,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 488,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 489,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 490,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 491,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 492,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 493,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 494,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711301
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "scale": 150,
+    "pet_head": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "main_passive_show_skill_list": [
+      711301
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10131,
+    "id": 495,
+    "entrance_sound": "sd_14131",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001811
+    ],
+    "model": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001811
+    ]
+  },
+  {
+    "times": 0,
+    "id": 496,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 497,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 498,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 499,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 500,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 501,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 502,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 503,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711301
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "scale": 150,
+    "pet_head": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "main_passive_show_skill_list": [
+      711301
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10132,
+    "id": 504,
+    "entrance_sound": "sd_14131",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001811
+    ],
+    "model": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001811
+    ]
+  },
+  {
+    "times": 0,
+    "id": 505,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 506,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 507,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 508,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 509,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 510,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 511,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 512,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711301
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "pet_head": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "main_passive_show_skill_list": [
+      711301
+    ],
+    "level_limit": 999,
+    "c_id": 10133,
+    "id": 513,
+    "entrance_sound": "sd_14131",
+    "model": [
+      "p013c_1",
+      "p013c_2",
+      "p013c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_487",
+    "times": 8,
+    "main_show_skill_list": [
+      7001811
+    ],
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7001811
+    ]
+  },
+  {
+    "times": 0,
+    "id": 514,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 515,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 516,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 517,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 518,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 519,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 520,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 521,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711401
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "scale": 150,
+    "pet_head": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "main_passive_show_skill_list": [
+      711401
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10141,
+    "id": 522,
+    "entrance_sound": "sd_14061",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001911
+    ],
+    "model": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001911
+    ]
+  },
+  {
+    "times": 0,
+    "id": 523,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 524,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 525,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 526,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 527,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 528,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 529,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 530,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711401
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "scale": 150,
+    "pet_head": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "main_passive_show_skill_list": [
+      711401
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10142,
+    "id": 531,
+    "entrance_sound": "sd_14061",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7001911
+    ],
+    "model": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7001911
+    ]
+  },
+  {
+    "times": 0,
+    "id": 532,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 533,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 534,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 535,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 536,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 537,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 538,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 539,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711401
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "pet_head": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "main_passive_show_skill_list": [
+      711401
+    ],
+    "level_limit": 999,
+    "c_id": 10143,
+    "id": 540,
+    "entrance_sound": "sd_14061",
+    "model": [
+      "p014c_1",
+      "p014c_2",
+      "p014c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_514",
+    "times": 8,
+    "main_show_skill_list": [
+      7001911
+    ],
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7001911
+    ]
+  },
+  {
+    "times": 0,
+    "id": 541,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 542,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 543,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 544,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 545,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 546,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 547,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 548,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711601
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_541",
+    "scale": 150,
+    "pet_head": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_541",
+    "main_passive_show_skill_list": [
+      711601
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10161,
+    "id": 549,
+    "entrance_sound": "sd_14101",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7002111
+    ],
+    "model": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_541",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7002111
+    ]
+  },
+  {
+    "times": 0,
+    "id": 550,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 551,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 552,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 553,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 554,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 555,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 556,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 557,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711601
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_541",
+    "scale": 150,
+    "pet_head": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_541",
+    "main_passive_show_skill_list": [
+      711601
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10162,
+    "id": 558,
+    "entrance_sound": "sd_14101",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7002111
+    ],
+    "model": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_541",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        2
+      ]
+    ],
+    "main_skill_list": [
+      7002111
+    ]
+  },
+  {
+    "times": 0,
+    "id": 559,
+    "use_times": 10,
+    "level_limit": 30
+  },
+  {
+    "times": 1,
+    "id": 560,
+    "use_times": 12,
+    "level_limit": 40
+  },
+  {
+    "times": 2,
+    "id": 561,
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1603010001,
+        20
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "times": 3,
+    "id": 562,
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1603010001,
+        30
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "times": 4,
+    "id": 563,
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1603010001,
+        60
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "times": 5,
+    "id": 564,
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1603010001,
+        150
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "times": 6,
+    "id": 565,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1603010001,
+        300
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "times": 7,
+    "id": 566,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1603010001,
+        400
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "main_passivity_skill_list": [
+      711601
+    ],
+    "name2": "AUTO_GEN_pet_evo_pet_evo_name2_541",
+    "scale": 150,
+    "pet_head": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "role_level_limit": 999,
+    "name3": "AUTO_GEN_pet_evo_pet_evo_name3_541",
+    "main_passive_show_skill_list": [
+      711601
+    ],
+    "level_limit": 999,
+    "attrs": {
+      "11": 1,
+      "2": 1,
+      "1": 1
+    },
+    "c_id": 10163,
+    "id": 567,
+    "entrance_sound": "sd_14101",
+    "pet_size": 100,
+    "main_show_skill_list": [
+      7002111
+    ],
+    "model": [
+      "p016c_1",
+      "p016c_2",
+      "p016c_3"
+    ],
+    "name": "AUTO_GEN_pet_evo_pet_evo_name_541",
+    "times": 8,
+    "height": 120,
+    "use_times": 18,
+    "resolve_item_list": [
+      [
+        1604010001,
+        6
+      ]
+    ],
+    "main_skill_list": [
+      7002111
+    ]
+  },
+  {
+    "main_show_skill_list": [
+      7100408
+    ],
+    "main_passivity_skill_list": [
+      711701,
+      711702,
+      711703
+    ],
+    "times": 0,
+    "id": 568,
+    "main_passive_show_skill_list": [
+      711701,
+      711702
+    ],
+    "main_skill_list": [
+      7100408
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100418
+    ],
+    "main_passivity_skill_list": [
+      711701,
+      7117021,
+      711703
+    ],
+    "times": 1,
+    "id": 569,
+    "main_passive_show_skill_list": [
+      711701,
+      7117021
+    ],
+    "main_skill_list": [
+      7100418
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      711701,
+      7117022,
+      711703
+    ],
+    "id": 570,
+    "main_passive_show_skill_list": [
+      711701,
+      7117022
+    ],
+    "main_show_skill_list": [
+      7100428
+    ],
+    "times": 2,
+    "main_skill_list": [
+      7100428
+    ],
+    "use_times": 10,
+    "break_through_list": [
+      [
+        1611010001,
+        2
+      ]
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      711701,
+      7117023,
+      711703
+    ],
+    "id": 571,
+    "main_passive_show_skill_list": [
+      711701,
+      7117023
+    ],
+    "main_show_skill_list": [
+      7100438
+    ],
+    "times": 3,
+    "main_skill_list": [
+      7100438
+    ],
+    "use_times": 12,
+    "break_through_list": [
+      [
+        1611010001,
+        3
+      ]
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      711701,
+      7117024,
+      711703
+    ],
+    "id": 572,
+    "main_passive_show_skill_list": [
+      711701,
+      7117024
+    ],
+    "main_show_skill_list": [
+      7100448
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100448
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1611010001,
+        5
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7117011,
+      7117025,
+      711703
+    ],
+    "id": 573,
+    "main_passive_show_skill_list": [
+      7117011,
+      7117025
+    ],
+    "main_show_skill_list": [
+      7100458
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100458
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1611010001,
+        10
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7117012,
+      7117026,
+      711703
+    ],
+    "id": 574,
+    "main_passive_show_skill_list": [
+      7117012,
+      7117026
+    ],
+    "main_show_skill_list": [
+      7100468
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100468
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1611010001,
+        15
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7117013,
+      7117027,
+      711703
+    ],
+    "id": 575,
+    "main_passive_show_skill_list": [
+      7117013,
+      7117027
+    ],
+    "main_show_skill_list": [
+      7100478
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100478
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1611010001,
+        20
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 576,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1611010001,
+        25
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 577,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1611010001,
+        30
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 578,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1611010001,
+        35
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 579,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1611010001,
+        40
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 580,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1611010001,
+        50
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 581,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1611010001,
+        100
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 582,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1611010001,
+        150
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 583,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1611010001,
+        200
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 584,
+    "break_through_list": [
+      [
+        1611010001,
+        300
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 585,
+    "level_limit": 999
+  },
+  {
+    "main_show_skill_list": [
+      7100409
+    ],
+    "main_passivity_skill_list": [
+      713001,
+      713003,
+      713002,
+      713004
+    ],
+    "times": 0,
+    "id": 586,
+    "main_passive_show_skill_list": [
+      713001,
+      713003
+    ],
+    "main_skill_list": [
+      7100409,
+      7100410
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100419
+    ],
+    "main_passivity_skill_list": [
+      713001,
+      7130031,
+      713002,
+      713004
+    ],
+    "times": 1,
+    "id": 587,
+    "main_passive_show_skill_list": [
+      713001,
+      7130031
+    ],
+    "main_skill_list": [
+      7100419,
+      7100420
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      713001,
+      7130032,
+      713002,
+      713004
+    ],
+    "id": 588,
+    "main_passive_show_skill_list": [
+      713001,
+      7130032
+    ],
+    "main_show_skill_list": [
+      7100429
+    ],
+    "times": 2,
+    "main_skill_list": [
+      7100429,
+      7100430
+    ],
+    "use_times": 10,
+    "break_through_list": [
+      [
+        1611010001,
+        2
+      ]
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      713001,
+      7130033,
+      713002,
+      713004
+    ],
+    "id": 589,
+    "main_passive_show_skill_list": [
+      713001,
+      7130033
+    ],
+    "main_show_skill_list": [
+      7100439
+    ],
+    "times": 3,
+    "main_skill_list": [
+      7100439,
+      7100440
+    ],
+    "use_times": 12,
+    "break_through_list": [
+      [
+        1611010001,
+        3
+      ]
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      713001,
+      7130034,
+      713002,
+      713004
+    ],
+    "id": 590,
+    "main_passive_show_skill_list": [
+      713001,
+      7130034
+    ],
+    "main_show_skill_list": [
+      7100449
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100449,
+      7100450
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1611010001,
+        5
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7130011,
+      7130035,
+      713002,
+      713004
+    ],
+    "id": 591,
+    "main_passive_show_skill_list": [
+      7130011,
+      7130035
+    ],
+    "main_show_skill_list": [
+      7100459
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100459,
+      7100460
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1611010001,
+        10
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7130012,
+      7130036,
+      713002,
+      713004
+    ],
+    "id": 592,
+    "main_passive_show_skill_list": [
+      7130012,
+      7130036
+    ],
+    "main_show_skill_list": [
+      7100469
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100469,
+      7100470
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1611010001,
+        15
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7130013,
+      7130037,
+      713002,
+      713004
+    ],
+    "id": 593,
+    "main_passive_show_skill_list": [
+      7130013,
+      7130037
+    ],
+    "main_show_skill_list": [
+      7100479
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100479,
+      7100480
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1611010001,
+        20
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 594,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1611010001,
+        25
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 595,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1611010001,
+        30
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 596,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1611010001,
+        35
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 597,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1611010001,
+        40
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 598,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1611010001,
+        50
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 599,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1611010001,
+        100
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 600,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1611010001,
+        150
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 601,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1611010001,
+        200
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 602,
+    "break_through_list": [
+      [
+        1611010001,
+        300
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 603,
+    "level_limit": 999
+  },
+  {
+    "main_show_skill_list": [
+      7100509
+    ],
+    "main_passivity_skill_list": [
+      713006,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      713014,
+      7130132
+    ],
+    "times": 0,
+    "id": 604,
+    "main_passive_show_skill_list": [
+      713006,
+      713014
+    ],
+    "main_skill_list": [
+      7100509,
+      7100510
+    ],
+    "level_limit": 20
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_show_skill_list": [
+      7100519
+    ],
+    "main_passivity_skill_list": [
+      713006,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130141,
+      7130132
+    ],
+    "times": 1,
+    "id": 605,
+    "main_passive_show_skill_list": [
+      713006,
+      7130141
+    ],
+    "main_skill_list": [
+      7100519,
+      7100520
+    ],
+    "level_limit": 25
+  },
+  {
+    "attrs": {
+      "11": 13,
+      "2": 8,
+      "1": 12
+    },
+    "main_passivity_skill_list": [
+      713006,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130142,
+      7130132
+    ],
+    "id": 606,
+    "main_passive_show_skill_list": [
+      713006,
+      7130142
+    ],
+    "main_show_skill_list": [
+      7100529
+    ],
+    "times": 2,
+    "main_skill_list": [
+      7100529,
+      7100530
+    ],
+    "use_times": 10,
+    "break_through_list": [
+      [
+        1611010001,
+        2
+      ]
+    ],
+    "level_limit": 30
+  },
+  {
+    "attrs": {
+      "11": 83,
+      "2": 30,
+      "1": 48
+    },
+    "main_passivity_skill_list": [
+      713006,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130143,
+      7130132
+    ],
+    "id": 607,
+    "main_passive_show_skill_list": [
+      713006,
+      7130143
+    ],
+    "main_show_skill_list": [
+      7100539
+    ],
+    "times": 3,
+    "main_skill_list": [
+      7100539,
+      7100540
+    ],
+    "use_times": 12,
+    "break_through_list": [
+      [
+        1611010001,
+        3
+      ]
+    ],
+    "level_limit": 35
+  },
+  {
+    "attrs": {
+      "11": 25,
+      "2": 7,
+      "1": 14
+    },
+    "main_passivity_skill_list": [
+      713006,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130144,
+      7130132
+    ],
+    "id": 608,
+    "main_passive_show_skill_list": [
+      713006,
+      7130144
+    ],
+    "main_show_skill_list": [
+      7100549
+    ],
+    "times": 4,
+    "main_skill_list": [
+      7100549,
+      7100550
+    ],
+    "use_times": 14,
+    "break_through_list": [
+      [
+        1611010001,
+        5
+      ]
+    ],
+    "level_limit": 40
+  },
+  {
+    "attrs": {
+      "11": 15,
+      "2": 9,
+      "1": 17
+    },
+    "main_passivity_skill_list": [
+      7130061,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130145,
+      7130132
+    ],
+    "id": 609,
+    "main_passive_show_skill_list": [
+      7130061,
+      7130145
+    ],
+    "main_show_skill_list": [
+      7100559
+    ],
+    "times": 5,
+    "main_skill_list": [
+      7100559,
+      7100560
+    ],
+    "use_times": 16,
+    "break_through_list": [
+      [
+        1611010001,
+        10
+      ]
+    ],
+    "level_limit": 45
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 35,
+      "1": 50
+    },
+    "main_passivity_skill_list": [
+      7130062,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130146,
+      7130132
+    ],
+    "id": 610,
+    "main_passive_show_skill_list": [
+      7130062,
+      7130146
+    ],
+    "main_show_skill_list": [
+      7100569
+    ],
+    "times": 6,
+    "main_skill_list": [
+      7100569,
+      7100570
+    ],
+    "use_times": 18,
+    "break_through_list": [
+      [
+        1611010001,
+        15
+      ]
+    ],
+    "level_limit": 50
+  },
+  {
+    "attrs": {
+      "11": 145,
+      "2": 47,
+      "1": 72
+    },
+    "main_passivity_skill_list": [
+      7130063,
+      713007,
+      713008,
+      713009,
+      7130091,
+      713010,
+      713011,
+      713012,
+      7130121,
+      713013,
+      7130147,
+      7130132
+    ],
+    "id": 611,
+    "main_passive_show_skill_list": [
+      7130063,
+      7130147
+    ],
+    "main_show_skill_list": [
+      7100579
+    ],
+    "times": 7,
+    "main_skill_list": [
+      7100579,
+      7100580
+    ],
+    "use_times": 20,
+    "break_through_list": [
+      [
+        1611010001,
+        20
+      ]
+    ],
+    "level_limit": 55
+  },
+  {
+    "attrs": {
+      "11": 60,
+      "2": 21,
+      "1": 30
+    },
+    "times": 8,
+    "id": 612,
+    "use_times": 22,
+    "break_through_list": [
+      [
+        1611010001,
+        25
+      ]
+    ],
+    "level_limit": 60
+  },
+  {
+    "attrs": {
+      "11": 37,
+      "2": 20,
+      "1": 28
+    },
+    "times": 9,
+    "id": 613,
+    "use_times": 24,
+    "break_through_list": [
+      [
+        1611010001,
+        30
+      ]
+    ],
+    "level_limit": 65
+  },
+  {
+    "attrs": {
+      "11": 107,
+      "2": 39,
+      "1": 56
+    },
+    "times": 10,
+    "id": 614,
+    "use_times": 26,
+    "break_through_list": [
+      [
+        1611010001,
+        35
+      ]
+    ],
+    "level_limit": 70
+  },
+  {
+    "attrs": {
+      "11": 54,
+      "2": 24,
+      "1": 34
+    },
+    "times": 11,
+    "id": 615,
+    "use_times": 28,
+    "break_through_list": [
+      [
+        1611010001,
+        40
+      ]
+    ],
+    "level_limit": 75
+  },
+  {
+    "attrs": {
+      "11": 191,
+      "2": 88,
+      "1": 117
+    },
+    "times": 12,
+    "id": 616,
+    "use_times": 30,
+    "break_through_list": [
+      [
+        1611010001,
+        50
+      ]
+    ],
+    "level_limit": 80
+  },
+  {
+    "attrs": {
+      "11": 85,
+      "2": 39,
+      "1": 55
+    },
+    "times": 13,
+    "id": 617,
+    "use_times": 32,
+    "break_through_list": [
+      [
+        1611010001,
+        100
+      ]
+    ],
+    "level_limit": 85
+  },
+  {
+    "attrs": {
+      "11": 181,
+      "2": 56,
+      "1": 75
+    },
+    "times": 14,
+    "id": 618,
+    "use_times": 34,
+    "break_through_list": [
+      [
+        1611010001,
+        150
+      ]
+    ],
+    "level_limit": 90
+  },
+  {
+    "attrs": {
+      "11": 82,
+      "2": 33,
+      "1": 48
+    },
+    "times": 15,
+    "id": 619,
+    "use_times": 36,
+    "break_through_list": [
+      [
+        1611010001,
+        200
+      ]
+    ],
+    "level_limit": 95
+  },
+  {
+    "role_level_limit": 1,
+    "times": 16,
+    "id": 620,
+    "break_through_list": [
+      [
+        1611010001,
+        300
+      ]
+    ],
+    "level_limit": 100
+  },
+  {
+    "role_level_limit": 999,
+    "times": 17,
+    "id": 621,
+    "level_limit": 999
+  }
+]

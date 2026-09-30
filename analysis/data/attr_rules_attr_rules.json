@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": 1,
+    "reduce_value": 154,
+    "add_value": 153
+  },
+  "2": {
+    "id": 2,
+    "reduce_value": 156,
+    "add_value": 155
+  },
+  "3": {
+    "id": 3,
+    "reduce_value": 158,
+    "add_value": 157
+  },
+  "4": {
+    "id": 4,
+    "reduce_value": 160,
+    "add_value": 159
+  },
+  "5": {
+    "id": 5,
+    "reduce_value": 162,
+    "add_value": 161
+  },
+  "11": {
+    "id": 11,
+    "reduce_value": 152,
+    "add_value": 151
+  },
+  "71": {
+    "id": 71,
+    "reduce_value": 164,
+    "add_value": 163
+  },
+  "74": {
+    "id": 74,
+    "reduce_value": 170,
+    "add_value": 169
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "103": {
+    "next_id": 201,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_103",
+    "icon_num": "Ⅲ",
+    "id": 103,
+    "rank_equal_star": 2,
+    "last_id": 102
+  },
+  "901": {
+    "rank_equal_star": 21,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_901",
+    "lose_protect_daily": 1,
+    "id": 901,
+    "next_season_id": 504,
+    "rank_id": 7,
+    "last_id": 605
+  },
+  "605": {
+    "icon_num": "Ⅱ",
+    "id": 605,
+    "next_season_id": 404,
+    "next_id": 901,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_605",
+    "lose_protect_daily": 1,
+    "rank_equal_star": 19,
+    "star": 2,
+    "rank_id": 6,
+    "last_id": 604
+  },
+  "604": {
+    "icon_num": "I",
+    "id": 604,
+    "next_season_id": 403,
+    "next_id": 605,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_604",
+    "lose_protect_daily": 1,
+    "rank_equal_star": 17,
+    "star": 2,
+    "rank_id": 6,
+    "last_id": 505
+  },
+  "504": {
+    "icon_num": "I",
+    "id": 504,
+    "next_season_id": 303,
+    "next_id": 505,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_504",
+    "lose_protect_daily": 1,
+    "rank_equal_star": 13,
+    "star": 2,
+    "rank_id": 5,
+    "last_id": 404
+  },
+  "505": {
+    "icon_num": "Ⅱ",
+    "id": 505,
+    "next_season_id": 304,
+    "next_id": 604,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_505",
+    "lose_protect_daily": 1,
+    "rank_equal_star": 15,
+    "star": 2,
+    "rank_id": 5,
+    "last_id": 504
+  },
+  "201": {
+    "icon_num": "I",
+    "id": 201,
+    "next_season_id": 101,
+    "next_id": 202,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_201",
+    "lose_protect_daily": 3,
+    "rank_equal_star": 3,
+    "star": 1,
+    "rank_id": 2,
+    "last_id": 103
+  },
+  "101": {
+    "next_id": 102,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_101",
+    "icon_num": "I",
+    "id": 101,
+    "rank_equal_star": 0
+  },
+  "202": {
+    "icon_num": "Ⅱ",
+    "id": 202,
+    "next_season_id": 101,
+    "next_id": 203,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_202",
+    "lose_protect_daily": 3,
+    "rank_equal_star": 4,
+    "star": 1,
+    "rank_id": 2,
+    "last_id": 201
+  },
+  "404": {
+    "icon_num": "Ⅱ",
+    "id": 404,
+    "next_season_id": 302,
+    "next_id": 504,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_404",
+    "lose_protect_daily": 3,
+    "rank_equal_star": 11,
+    "star": 2,
+    "rank_id": 4,
+    "last_id": 403
+  },
+  "203": {
+    "icon_num": "Ⅲ",
+    "id": 203,
+    "next_season_id": 102,
+    "next_id": 302,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_203",
+    "lose_protect_daily": 3,
+    "rank_equal_star": 5,
+    "star": 1,
+    "rank_id": 2,
+    "last_id": 202
+  },
+  "102": {
+    "next_id": 103,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_102",
+    "icon_num": "Ⅱ",
+    "id": 102,
+    "rank_equal_star": 1,
+    "last_id": 101
+  },
+  "302": {
+    "next_id": 303,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_302",
+    "icon_num": "I",
+    "id": 302,
+    "rank_equal_star": 6,
+    "next_season_id": 103,
+    "last_id": 203
+  },
+  "303": {
+    "next_id": 304,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_303",
+    "icon_num": "Ⅱ",
+    "id": 303,
+    "rank_equal_star": 7,
+    "next_season_id": 201,
+    "last_id": 302
+  },
+  "304": {
+    "next_id": 403,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_304",
+    "icon_num": "Ⅲ",
+    "id": 304,
+    "rank_equal_star": 8,
+    "next_season_id": 202,
+    "last_id": 303
+  },
+  "403": {
+    "icon_num": "I",
+    "id": 403,
+    "next_season_id": 203,
+    "next_id": 404,
+    "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_403",
+    "lose_protect_daily": 3,
+    "rank_equal_star": 9,
+    "star": 2,
+    "rank_id": 4,
+    "last_id": 304
+  }
+}

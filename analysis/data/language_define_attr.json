@@ -1,0 +1,1854 @@
+{
+  "AUTO_GEN_attr_attr_name_99": {
+    "key": "AUTO_GEN_attr_attr_name_99",
+    "1": "战力"
+  },
+  "AUTO_GEN_attr_attr_name_1057": {
+    "key": "AUTO_GEN_attr_attr_name_1057",
+    "1": "额外速度提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_574": {
+    "key": "AUTO_GEN_attr_attr_desc_s_574",
+    "1": "对盾击流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_1066": {
+    "key": "AUTO_GEN_attr_attr_name_1066",
+    "1": "额外防坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_name_153": {
+    "key": "AUTO_GEN_attr_attr_name_153",
+    "1": "攻击提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_555": {
+    "key": "AUTO_GEN_attr_attr_desc_s_555",
+    "1": "增加最终感电概率"
+  },
+  "AUTO_GEN_attr_attr_name_9921": {
+    "key": "AUTO_GEN_attr_attr_name_9921",
+    "1": "神圣力量"
+  },
+  "AUTO_GEN_attr_attr_desc_s_474": {
+    "key": "AUTO_GEN_attr_attr_desc_s_474",
+    "1": "受到伤害时概率给伤害来源附加干扰"
+  },
+  "AUTO_GEN_attr_attr_desc_467": {
+    "key": "AUTO_GEN_attr_attr_desc_467",
+    "1": "每回合首次受到子弹伤害时概率触发，给己方1~2人增加1.25%攻击，持续1回合"
+  },
+  "AUTO_GEN_attr_attr_desc_s_516": {
+    "key": "AUTO_GEN_attr_attr_desc_s_516",
+    "1": "被追击时受到追击伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_505": {
+    "key": "AUTO_GEN_attr_attr_name_505",
+    "1": "灼烧伤害增加"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_14": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_14",
+    "1": "结果伤害"
+  },
+  "AUTO_GEN_attr_attr_name_1086": {
+    "key": "AUTO_GEN_attr_attr_name_1086",
+    "1": "瞄准减伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_571": {
+    "key": "AUTO_GEN_attr_attr_desc_s_571",
+    "1": "对流血流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_124": {
+    "key": "AUTO_GEN_attr_attr_name_124",
+    "1": "固定破甲抵抗"
+  },
+  "AUTO_GEN_attr_attr_name_455": {
+    "key": "AUTO_GEN_attr_attr_name_455",
+    "1": "抗感电"
+  },
+  "AUTO_GEN_attr_attr_name_156": {
+    "key": "AUTO_GEN_attr_attr_name_156",
+    "1": "防御减少"
+  },
+  "AUTO_GEN_attr_attr_name_138": {
+    "key": "AUTO_GEN_attr_attr_name_138",
+    "1": "受到治疗效果降低"
+  },
+  "AUTO_GEN_attr_attr_name_174": {
+    "key": "AUTO_GEN_attr_attr_name_174",
+    "1": "炸坑效果减少"
+  },
+  "AUTO_GEN_attr_attr_name_259": {
+    "key": "AUTO_GEN_attr_attr_name_259",
+    "1": "魔法攻击提升"
+  },
+  "AUTO_GEN_attr_attr_name_91": {
+    "key": "AUTO_GEN_attr_attr_name_91",
+    "1": "真实战力（用于战斗计算）"
+  },
+  "AUTO_GEN_attr_attr_name_160": {
+    "key": "AUTO_GEN_attr_attr_name_160",
+    "1": "魔攻减少"
+  },
+  "AUTO_GEN_attr_attr_name_293": {
+    "key": "AUTO_GEN_attr_attr_name_293",
+    "1": "对宠物造成伤害增加"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_507": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_507",
+    "1": "感电增伤"
+  },
+  "TID_attr_attr_desc_4": {
+    "key": "TID_attr_attr_desc_4",
+    "1": "增加暴击率和暴击伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_576": {
+    "key": "AUTO_GEN_attr_attr_desc_s_576",
+    "1": "受豹速流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_197": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_197",
+    "1": "伤害系数"
+  },
+  "AUTO_GEN_attr_attr_desc_s_475": {
+    "key": "AUTO_GEN_attr_attr_desc_s_475",
+    "1": "受到伤害时概率给伤害来源附加沉默"
+  },
+  "TID_attr_attr_name_13": {
+    "key": "TID_attr_attr_name_13",
+    "1": "护甲"
+  },
+  "AUTO_GEN_attr_attr_desc_s_63": {
+    "key": "AUTO_GEN_attr_attr_desc_s_63",
+    "1": "主要提升魔法攻击力"
+  },
+  "AUTO_GEN_attr_attr_name_161": {
+    "key": "AUTO_GEN_attr_attr_name_161",
+    "1": "魔防提升"
+  },
+  "AUTO_GEN_attr_attr_name_572": {
+    "key": "AUTO_GEN_attr_attr_name_572",
+    "1": "对挖坑流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_552": {
+    "key": "AUTO_GEN_attr_attr_name_552",
+    "1": "额外豹速率"
+  },
+  "AUTO_GEN_attr_attr_name_301": {
+    "key": "AUTO_GEN_attr_attr_name_301",
+    "1": "固定技能伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_469": {
+    "key": "AUTO_GEN_attr_attr_name_469",
+    "1": "加防"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_242": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_242",
+    "1": "物理伤害减免"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_503": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_503",
+    "1": "反伤增伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_507": {
+    "key": "AUTO_GEN_attr_attr_desc_s_507",
+    "1": "增加感电造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_128": {
+    "key": "AUTO_GEN_attr_attr_name_128",
+    "1": "宠物分摊人物伤害权重"
+  },
+  "AUTO_GEN_attr_attr_name_154": {
+    "key": "AUTO_GEN_attr_attr_name_154",
+    "1": "攻击减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_445": {
+    "key": "AUTO_GEN_attr_attr_desc_s_445",
+    "1": "攻击有概率附加感电"
+  },
+  "AUTO_GEN_attr_attr_name_136": {
+    "key": "AUTO_GEN_attr_attr_name_136",
+    "1": "治疗效果降低"
+  },
+  "AUTO_GEN_attr_attr_name_512": {
+    "key": "AUTO_GEN_attr_attr_name_512",
+    "1": "被集火时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_9922": {
+    "key": "AUTO_GEN_attr_attr_name_9922",
+    "1": "神圣护甲"
+  },
+  "AUTO_GEN_attr_attr_name_441": {
+    "key": "AUTO_GEN_attr_attr_name_441",
+    "1": "抗核爆"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_15": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_15",
+    "1": "受伤减少"
+  },
+  "AUTO_GEN_attr_attr_name_140": {
+    "key": "AUTO_GEN_attr_attr_name_140",
+    "1": "物理伤害万分比减少"
+  },
+  "AUTO_GEN_attr_attr_name_9911": {
+    "key": "AUTO_GEN_attr_attr_name_9911",
+    "1": "穿甲倍率"
+  },
+  "TID_attr_attr_desc_131": {
+    "key": "TID_attr_attr_desc_131",
+    "1": "提高自身角色造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_509": {
+    "key": "AUTO_GEN_attr_attr_name_509",
+    "1": "流血伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_269": {
+    "key": "AUTO_GEN_attr_attr_name_269",
+    "1": "对玩家防坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_573": {
+    "key": "AUTO_GEN_attr_attr_name_573",
+    "1": "对召唤流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_31": {
+    "key": "AUTO_GEN_attr_attr_desc_s_31",
+    "1": "用于释放常规技能和移动"
+  },
+  "AUTO_GEN_attr_attr_name_433": {
+    "key": "AUTO_GEN_attr_attr_name_433",
+    "1": "抗豹速"
+  },
+  "AUTO_GEN_attr_attr_name_561": {
+    "key": "AUTO_GEN_attr_attr_name_561",
+    "1": "最终闪现概率降低"
+  },
+  "AUTO_GEN_attr_attr_name_152": {
+    "key": "AUTO_GEN_attr_attr_name_152",
+    "1": "生命上限减少"
+  },
+  "AUTO_GEN_attr_attr_name_571": {
+    "key": "AUTO_GEN_attr_attr_name_571",
+    "1": "对流血流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_191": {
+    "key": "AUTO_GEN_attr_attr_name_191",
+    "1": "对怪物伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_12": {
+    "key": "AUTO_GEN_attr_attr_name_12",
+    "1": "伤害"
+  },
+  "AUTO_GEN_attr_attr_name_479": {
+    "key": "AUTO_GEN_attr_attr_name_479",
+    "1": "抗追击"
+  },
+  "AUTO_GEN_attr_attr_name_557": {
+    "key": "AUTO_GEN_attr_attr_name_557",
+    "1": "额外核爆率"
+  },
+  "AUTO_GEN_attr_attr_name_164": {
+    "key": "AUTO_GEN_attr_attr_name_164",
+    "1": "炸坑减少"
+  },
+  "TID_attr_attr_desc_134": {
+    "key": "TID_attr_attr_desc_134",
+    "1": "降低受到的来自人物的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_32": {
+    "key": "AUTO_GEN_attr_attr_name_32",
+    "1": "怒气上限"
+  },
+  "AUTO_GEN_attr_attr_name_270": {
+    "key": "AUTO_GEN_attr_attr_name_270",
+    "1": "对玩家防坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_477": {
+    "key": "AUTO_GEN_attr_attr_desc_s_477",
+    "1": "减少对手盾反的施加概率"
+  },
+  "AUTO_GEN_attr_attr_name_556": {
+    "key": "AUTO_GEN_attr_attr_name_556",
+    "1": "额外流血率"
+  },
+  "AUTO_GEN_attr_attr_name_477": {
+    "key": "AUTO_GEN_attr_attr_name_477",
+    "1": "抗盾反"
+  },
+  "AUTO_GEN_attr_attr_name_449": {
+    "key": "AUTO_GEN_attr_attr_name_449",
+    "1": "集火"
+  },
+  "AUTO_GEN_attr_attr_name_182": {
+    "key": "AUTO_GEN_attr_attr_name_182",
+    "1": "宠物伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_514": {
+    "key": "AUTO_GEN_attr_attr_name_514",
+    "1": "被盾反时对应伤害减少"
+  },
+  "TID_attr_attr_name_134": {
+    "key": "TID_attr_attr_name_134",
+    "1": "人物伤害减免"
+  },
+  "AUTO_GEN_attr_attr_name_9917": {
+    "key": "AUTO_GEN_attr_attr_name_9917",
+    "1": "暴击几率"
+  },
+  "TID_attr_attr_name_131": {
+    "key": "TID_attr_attr_name_131",
+    "1": "人物伤害加成"
+  },
+  "AUTO_GEN_attr_attr_name_513": {
+    "key": "AUTO_GEN_attr_attr_name_513",
+    "1": "盾反伤害提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_563": {
+    "key": "AUTO_GEN_attr_attr_desc_s_563",
+    "1": "增加最终的盾反概率"
+  },
+  "AUTO_GEN_attr_attr_name_196": {
+    "key": "AUTO_GEN_attr_attr_name_196",
+    "1": "受怪物伤害减少"
+  },
+  "TID_attr_attr_desc_101": {
+    "key": "TID_attr_attr_desc_101",
+    "1": "攻击时触发暴击的概率"
+  },
+  "TID_attr_attr_name_101": {
+    "key": "TID_attr_attr_name_101",
+    "1": "暴击率"
+  },
+  "AUTO_GEN_attr_attr_name_1070": {
+    "key": "AUTO_GEN_attr_attr_name_1070",
+    "1": "额外对玩家防坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_501": {
+    "key": "AUTO_GEN_attr_attr_desc_s_501",
+    "1": "增加触发连击后的炮弹伤害"
+  },
+  "AUTO_GEN_attr_attr_name_13": {
+    "key": "AUTO_GEN_attr_attr_name_13",
+    "1": "减伤"
+  },
+  "AUTO_GEN_attr_attr_name_553": {
+    "key": "AUTO_GEN_attr_attr_name_553",
+    "1": "额外暴击率"
+  },
+  "TID_attr_attr_name_31": {
+    "key": "TID_attr_attr_name_31",
+    "1": "体力"
+  },
+  "TID_attr_attr_desc_13": {
+    "key": "TID_attr_attr_desc_13",
+    "1": "受到伤害时，降低基础伤害值"
+  },
+  "TID_attr_attr_desc_12": {
+    "key": "TID_attr_attr_desc_12",
+    "1": "造成伤害时，增加基础伤害值"
+  },
+  "AUTO_GEN_attr_attr_name_9914": {
+    "key": "AUTO_GEN_attr_attr_name_9914",
+    "1": "伤害减免"
+  },
+  "AUTO_GEN_attr_attr_name_133": {
+    "key": "AUTO_GEN_attr_attr_name_133",
+    "1": "承受伤害加深"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_508": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_508",
+    "1": "感电减伤"
+  },
+  "AUTO_GEN_attr_attr_name_43": {
+    "key": "AUTO_GEN_attr_attr_name_43",
+    "1": "怒气常规每回合回复"
+  },
+  "TID_attr_attr_advanced": {
+    "key": "TID_attr_attr_advanced",
+    "1": "高级属性"
+  },
+  "AUTO_GEN_attr_attr_name_63": {
+    "key": "AUTO_GEN_attr_attr_name_63",
+    "1": "智力"
+  },
+  "TID_attr_attr_name_4": {
+    "key": "TID_attr_attr_name_4",
+    "1": "幸运"
+  },
+  "AUTO_GEN_attr_attr_desc_471": {
+    "key": "AUTO_GEN_attr_attr_desc_471",
+    "1": "每回合首次受到子弹伤害时概率触发，给己方1~2人增加防御属性*3.58%护盾，持续1回合"
+  },
+  "TID_attr_attr_desc_3": {
+    "key": "TID_attr_attr_desc_3",
+    "1": "加快出手速度，增加最大体力"
+  },
+  "AUTO_GEN_attr_attr_name_558": {
+    "key": "AUTO_GEN_attr_attr_name_558",
+    "1": "额外集火率"
+  },
+  "TID_attr_attr_name_3": {
+    "key": "TID_attr_attr_name_3",
+    "1": "敏捷"
+  },
+  "AUTO_GEN_attr_attr_desc_s_11": {
+    "key": "AUTO_GEN_attr_attr_desc_s_11",
+    "1": "可承受的伤害量"
+  },
+  "AUTO_GEN_attr_attr_desc_s_101": {
+    "key": "AUTO_GEN_attr_attr_desc_s_101",
+    "1": "攻击时触发暴击的概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_115": {
+    "key": "AUTO_GEN_attr_attr_desc_s_115",
+    "1": "受击时概率触发，可免疫对方子弹挖坑"
+  },
+  "AUTO_GEN_attr_attr_name_516": {
+    "key": "AUTO_GEN_attr_attr_name_516",
+    "1": "被追击时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_16": {
+    "key": "AUTO_GEN_attr_attr_desc_s_16",
+    "1": "武器命中敌人时的炸坑效率"
+  },
+  "AUTO_GEN_attr_attr_name_73": {
+    "key": "AUTO_GEN_attr_attr_name_73",
+    "1": "对人炸坑"
+  },
+  "TID_attr_attr_name_2": {
+    "key": "TID_attr_attr_name_2",
+    "1": "防御"
+  },
+  "AUTO_GEN_attr_attr_name_163": {
+    "key": "AUTO_GEN_attr_attr_name_163",
+    "1": "炸坑提升"
+  },
+  "AUTO_GEN_attr_attr_name_9904": {
+    "key": "AUTO_GEN_attr_attr_name_9904",
+    "1": "幸运"
+  },
+  "AUTO_GEN_attr_attr_name_1204": {
+    "key": "AUTO_GEN_attr_attr_name_1204",
+    "1": "受到伤害减少(肉鸽玩法受到子弹伤害增加)"
+  },
+  "TID_attr_attr_desc_1": {
+    "key": "TID_attr_attr_desc_1",
+    "1": "增加战斗中对敌人造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_413": {
+    "key": "AUTO_GEN_attr_attr_name_413",
+    "1": "豹速"
+  },
+  "AUTO_GEN_attr_attr_name_9909": {
+    "key": "AUTO_GEN_attr_attr_name_9909",
+    "1": "穿甲免疫"
+  },
+  "AUTO_GEN_attr_attr_desc_s_1": {
+    "key": "AUTO_GEN_attr_attr_desc_s_1",
+    "1": "影响战斗中对敌人造成的伤害"
+  },
+  "TID_attr_attr_name_11": {
+    "key": "TID_attr_attr_name_11",
+    "1": "生命"
+  },
+  "AUTO_GEN_attr_attr_name_74": {
+    "key": "AUTO_GEN_attr_attr_name_74",
+    "1": "防坑"
+  },
+  "TID_attr_attr_base": {
+    "key": "TID_attr_attr_base",
+    "1": "基础属性"
+  },
+  "AUTO_GEN_attr_attr_name_1059": {
+    "key": "AUTO_GEN_attr_attr_name_1059",
+    "1": "额外魔法攻击提升"
+  },
+  "AUTO_GEN_attr_attr_name_1206": {
+    "key": "AUTO_GEN_attr_attr_name_1206",
+    "1": "伤害增加(肉鸽玩法持续伤害减少)"
+  },
+  "AUTO_GEN_attr_attr_desc_s_505": {
+    "key": "AUTO_GEN_attr_attr_desc_s_505",
+    "1": "增加灼烧造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_559": {
+    "key": "AUTO_GEN_attr_attr_name_559",
+    "1": "额外反伤率"
+  },
+  "TID_attr_attr": {
+    "key": "TID_attr_attr",
+    "1": "属性"
+  },
+  "AUTO_GEN_attr_attr_name_139": {
+    "key": "AUTO_GEN_attr_attr_name_139",
+    "1": "物理伤害万分比提升"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_1201": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_1201",
+    "1": "伤害增加(肉鸽玩法子弹伤害增加)"
+  },
+  "AUTO_GEN_attr_attr_desc_s_1031": {
+    "key": "AUTO_GEN_attr_attr_desc_s_1031",
+    "1": "战斗外或进入战斗时"
+  },
+  "AUTO_GEN_attr_attr_desc_s_435": {
+    "key": "AUTO_GEN_attr_attr_desc_s_435",
+    "1": "减少对手吸血效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_417": {
+    "key": "AUTO_GEN_attr_attr_desc_s_417",
+    "1": "每射出一轮子弹恢复"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_510": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_510",
+    "1": "流血减伤"
+  },
+  "AUTO_GEN_attr_attr_name_1038": {
+    "key": "AUTO_GEN_attr_attr_name_1038",
+    "1": "额外受到治疗效果降低"
+  },
+  "AUTO_GEN_attr_attr_name_61": {
+    "key": "AUTO_GEN_attr_attr_name_61",
+    "1": "体质"
+  },
+  "AUTO_GEN_attr_attr_desc_s_174": {
+    "key": "AUTO_GEN_attr_attr_desc_s_174",
+    "1": "降低受到的炸坑效果"
+  },
+  "AUTO_GEN_attr_attr_name_121": {
+    "key": "AUTO_GEN_attr_attr_name_121",
+    "1": "抗暴击"
+  },
+  "AUTO_GEN_attr_attr_name_62": {
+    "key": "AUTO_GEN_attr_attr_name_62",
+    "1": "力量"
+  },
+  "AUTO_GEN_attr_attr_name_9910": {
+    "key": "AUTO_GEN_attr_attr_name_9910",
+    "1": "穿甲几率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_582": {
+    "key": "AUTO_GEN_attr_attr_desc_s_582",
+    "1": "受召唤流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_name_419": {
+    "key": "AUTO_GEN_attr_attr_name_419",
+    "1": "反伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_581": {
+    "key": "AUTO_GEN_attr_attr_desc_s_581",
+    "1": "受核爆流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_name_110": {
+    "key": "AUTO_GEN_attr_attr_name_110",
+    "1": "固定破甲减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_241": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_241",
+    "1": "承受物理伤害提高"
+  },
+  "AUTO_GEN_attr_attr_desc_s_580": {
+    "key": "AUTO_GEN_attr_attr_desc_s_580",
+    "1": "受流血流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_579": {
+    "key": "AUTO_GEN_attr_attr_desc_s_579",
+    "1": "受感电流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_578": {
+    "key": "AUTO_GEN_attr_attr_desc_s_578",
+    "1": "受灼烧流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_502": {
+    "key": "AUTO_GEN_attr_attr_desc_s_502",
+    "1": "被连击子弹命中时受到连击伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_193": {
+    "key": "AUTO_GEN_attr_attr_desc_s_193",
+    "1": "提高对宠物造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_515": {
+    "key": "AUTO_GEN_attr_attr_desc_s_515",
+    "1": "增加追击造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_577": {
+    "key": "AUTO_GEN_attr_attr_desc_s_577",
+    "1": "受追击流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_name_127": {
+    "key": "AUTO_GEN_attr_attr_name_127",
+    "1": "抗免坑"
+  },
+  "AUTO_GEN_attr_attr_name_465": {
+    "key": "AUTO_GEN_attr_attr_name_465",
+    "1": "加速"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_515": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_515",
+    "1": "追击增伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_573": {
+    "key": "AUTO_GEN_attr_attr_desc_s_573",
+    "1": "对召唤流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_451": {
+    "key": "AUTO_GEN_attr_attr_desc_s_451",
+    "1": "受击时有概率根据护盾量进行反伤"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_514": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_514",
+    "1": "盾反减伤"
+  },
+  "AUTO_GEN_attr_attr_name_112": {
+    "key": "AUTO_GEN_attr_attr_name_112",
+    "1": "破甲效果减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_471": {
+    "key": "AUTO_GEN_attr_attr_desc_s_471",
+    "1": "受到伤害时概率获得护盾"
+  },
+  "AUTO_GEN_attr_attr_name_109": {
+    "key": "AUTO_GEN_attr_attr_name_109",
+    "1": "固定破甲"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_513": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_513",
+    "1": "盾反增伤"
+  },
+  "AUTO_GEN_attr_attr_name_51": {
+    "key": "AUTO_GEN_attr_attr_name_51",
+    "1": "移动速度"
+  },
+  "AUTO_GEN_attr_attr_name_1054": {
+    "key": "AUTO_GEN_attr_attr_name_1054",
+    "1": "额外攻击减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_513": {
+    "key": "AUTO_GEN_attr_attr_desc_s_513",
+    "1": "增加盾反造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_568": {
+    "key": "AUTO_GEN_attr_attr_desc_s_568",
+    "1": "对追击流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_567": {
+    "key": "AUTO_GEN_attr_attr_desc_s_567",
+    "1": "对豹速流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_92": {
+    "key": "AUTO_GEN_attr_attr_name_92",
+    "1": "怪物战力效果"
+  },
+  "AUTO_GEN_attr_attr_name_574": {
+    "key": "AUTO_GEN_attr_attr_name_574",
+    "1": "对盾击流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_447": {
+    "key": "AUTO_GEN_attr_attr_desc_s_447",
+    "1": "攻击有概率附加流血"
+  },
+  "AUTO_GEN_attr_attr_desc_s_565": {
+    "key": "AUTO_GEN_attr_attr_desc_s_565",
+    "1": "增加最终的追击概率"
+  },
+  "TID_attr_attr_name_103": {
+    "key": "TID_attr_attr_name_103",
+    "1": "暴击伤害"
+  },
+  "AUTO_GEN_attr_attr_name_234": {
+    "key": "AUTO_GEN_attr_attr_name_234",
+    "1": "承受伤害降低"
+  },
+  "AUTO_GEN_attr_attr_desc_s_559": {
+    "key": "AUTO_GEN_attr_attr_desc_s_559",
+    "1": "增加最终反伤概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_558": {
+    "key": "AUTO_GEN_attr_attr_desc_s_558",
+    "1": "增加最终集火概率"
+  },
+  "AUTO_GEN_attr_attr_name_3": {
+    "key": "AUTO_GEN_attr_attr_name_3",
+    "1": "速度"
+  },
+  "AUTO_GEN_attr_attr_desc_465": {
+    "key": "AUTO_GEN_attr_attr_desc_465",
+    "1": "每回合首次受到子弹伤害时概率触发，给己方1~2人增加10%速度，持续1回合"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_504": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_504",
+    "1": "反伤减伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_556": {
+    "key": "AUTO_GEN_attr_attr_desc_s_556",
+    "1": "增加最终流血概率"
+  },
+  "AUTO_GEN_attr_attr_desc_3": {
+    "key": "AUTO_GEN_attr_attr_desc_3",
+    "1": "影响战斗中出手顺序，速度领先越多，先出手概率越高，当速度领先8%以上时必定先出手。\n在排位赛等竞技玩法开始时，所有玩家速度在经过被动技能加成后，将进行一次范围为96%~104%的随机取值，再根据随机结果大小确定最终出手顺序。"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_511": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_511",
+    "1": "集火增伤"
+  },
+  "AUTO_GEN_attr_attr_name_131": {
+    "key": "AUTO_GEN_attr_attr_name_131",
+    "1": "伤害提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_552": {
+    "key": "AUTO_GEN_attr_attr_desc_s_552",
+    "1": "增加最终豹速概率"
+  },
+  "AUTO_GEN_attr_attr_name_1037": {
+    "key": "AUTO_GEN_attr_attr_name_1037",
+    "1": "额外受到治疗效果提升"
+  },
+  "AUTO_GEN_attr_attr_name_15": {
+    "key": "AUTO_GEN_attr_attr_name_15",
+    "1": "固定伤害抵抗"
+  },
+  "AUTO_GEN_attr_attr_name_401": {
+    "key": "AUTO_GEN_attr_attr_name_401",
+    "1": "物理暴击率（提升）"
+  },
+  "AUTO_GEN_attr_attr_desc_s_551": {
+    "key": "AUTO_GEN_attr_attr_desc_s_551",
+    "1": "增加最终连击概率"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_517": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_517",
+    "1": "豹速增伤"
+  },
+  "AUTO_GEN_attr_attr_name_583": {
+    "key": "AUTO_GEN_attr_attr_name_583",
+    "1": "受盾击流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_508": {
+    "key": "AUTO_GEN_attr_attr_name_508",
+    "1": "被感电时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_165": {
+    "key": "AUTO_GEN_attr_attr_name_165",
+    "1": "防坑提升"
+  },
+  "AUTO_GEN_attr_attr_name_101": {
+    "key": "AUTO_GEN_attr_attr_name_101",
+    "1": "暴击率"
+  },
+  "AUTO_GEN_attr_attr_name_467": {
+    "key": "AUTO_GEN_attr_attr_name_467",
+    "1": "加攻"
+  },
+  "AUTO_GEN_attr_attr_name_1082": {
+    "key": "AUTO_GEN_attr_attr_name_1082",
+    "1": "流血伤害额外增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_459": {
+    "key": "AUTO_GEN_attr_attr_desc_s_459",
+    "1": "减少对手的触发集火概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_512": {
+    "key": "AUTO_GEN_attr_attr_desc_s_512",
+    "1": "被集火时受到集火伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_511": {
+    "key": "AUTO_GEN_attr_attr_desc_s_511",
+    "1": "增加集火的单位造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_9908": {
+    "key": "AUTO_GEN_attr_attr_name_9908",
+    "1": "敏捷"
+  },
+  "AUTO_GEN_attr_attr_name_511": {
+    "key": "AUTO_GEN_attr_attr_name_511",
+    "1": "集火伤害提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_194": {
+    "key": "AUTO_GEN_attr_attr_desc_s_194",
+    "1": "降低宠物受到的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_509": {
+    "key": "AUTO_GEN_attr_attr_desc_s_509",
+    "1": "增加流血造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_508": {
+    "key": "AUTO_GEN_attr_attr_desc_s_508",
+    "1": "被感电时受到感电伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_506": {
+    "key": "AUTO_GEN_attr_attr_desc_s_506",
+    "1": "被灼烧时受到灼烧伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_72": {
+    "key": "AUTO_GEN_attr_attr_name_72",
+    "1": "对人防坑"
+  },
+  "AUTO_GEN_attr_attr_desc_s_504": {
+    "key": "AUTO_GEN_attr_attr_desc_s_504",
+    "1": "减少触发反伤后的反伤伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_503": {
+    "key": "AUTO_GEN_attr_attr_desc_s_503",
+    "1": "增加触发反伤后的反伤伤害"
+  },
+  "AUTO_GEN_attr_attr_name_1062": {
+    "key": "AUTO_GEN_attr_attr_name_1062",
+    "1": "额外魔法防御减少"
+  },
+  "TID_attr_attr_desc_31": {
+    "key": "TID_attr_attr_desc_31",
+    "1": "用于释放常规技能和移动"
+  },
+  "AUTO_GEN_attr_attr_desc_s_479": {
+    "key": "AUTO_GEN_attr_attr_desc_s_479",
+    "1": "减少对手的追击概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_457": {
+    "key": "AUTO_GEN_attr_attr_desc_s_457",
+    "1": "减少对手的流血施加概率"
+  },
+  "AUTO_GEN_attr_attr_name_197": {
+    "key": "AUTO_GEN_attr_attr_name_197",
+    "1": "伤害调整系数"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_246": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_246",
+    "1": "魔法伤害减免"
+  },
+  "AUTO_GEN_attr_attr_desc_s_132": {
+    "key": "AUTO_GEN_attr_attr_desc_s_132",
+    "1": "战斗外"
+  },
+  "AUTO_GEN_attr_attr_name_1201": {
+    "key": "AUTO_GEN_attr_attr_name_1201",
+    "1": "伤害增加(不止肉鸽玩法，任何玩法只要有该属性都可以生效，属于增伤乘区中的玩法乘区，下面的肉鸽属性同理，该效果包括DOT等效果而不单纯是子弹(具体可以问黄日强))"
+  },
+  "AUTO_GEN_attr_attr_desc_s_570": {
+    "key": "AUTO_GEN_attr_attr_desc_s_570",
+    "1": "对感电流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_103": {
+    "key": "AUTO_GEN_attr_attr_name_103",
+    "1": "暴击伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_2": {
+    "key": "AUTO_GEN_attr_attr_desc_s_2",
+    "1": "减免战斗中受到的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_193": {
+    "key": "AUTO_GEN_attr_attr_name_193",
+    "1": "对宠物伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_467": {
+    "key": "AUTO_GEN_attr_attr_desc_s_467",
+    "1": "受到伤害时概率增加攻击"
+  },
+  "AUTO_GEN_attr_attr_name_447": {
+    "key": "AUTO_GEN_attr_attr_name_447",
+    "1": "流血"
+  },
+  "AUTO_GEN_attr_attr_desc_s_465": {
+    "key": "AUTO_GEN_attr_attr_desc_s_465",
+    "1": "受到伤害时概率增加速度"
+  },
+  "AUTO_GEN_attr_attr_name_1052": {
+    "key": "AUTO_GEN_attr_attr_name_1052",
+    "1": "额外生命上限减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_463": {
+    "key": "AUTO_GEN_attr_attr_desc_s_463",
+    "1": "受击时概率触发，直接集火宠物进场"
+  },
+  "AUTO_GEN_attr_attr_desc_s_461": {
+    "key": "AUTO_GEN_attr_attr_desc_s_461",
+    "1": "受击时概率触发，闪现进场概率增加"
+  },
+  "AUTO_GEN_attr_attr_name_504": {
+    "key": "AUTO_GEN_attr_attr_name_504",
+    "1": "反伤伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_455": {
+    "key": "AUTO_GEN_attr_attr_desc_s_455",
+    "1": "减少对手的感电施加概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_453": {
+    "key": "AUTO_GEN_attr_attr_desc_s_453",
+    "1": "减少对手的灼烧施加概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_449": {
+    "key": "AUTO_GEN_attr_attr_desc_s_449",
+    "1": "攻击有概率使召唤物、宠物攻击"
+  },
+  "AUTO_GEN_attr_attr_name_272": {
+    "key": "AUTO_GEN_attr_attr_name_272",
+    "1": "排名对人炸坑能力降低"
+  },
+  "AUTO_GEN_attr_attr_name_69": {
+    "key": "AUTO_GEN_attr_attr_name_69",
+    "1": "属性转化比例"
+  },
+  "AUTO_GEN_attr_attr_name_41": {
+    "key": "AUTO_GEN_attr_attr_name_41",
+    "1": "体力每回合回复"
+  },
+  "AUTO_GEN_attr_attr_name_102": {
+    "key": "AUTO_GEN_attr_attr_name_102",
+    "1": "治疗暴击率（提升）"
+  },
+  "AUTO_GEN_attr_attr_name_506": {
+    "key": "AUTO_GEN_attr_attr_name_506",
+    "1": "被灼烧时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_566": {
+    "key": "AUTO_GEN_attr_attr_desc_s_566",
+    "1": "对连击流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_132": {
+    "key": "AUTO_GEN_attr_attr_name_132",
+    "1": "伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_291": {
+    "key": "AUTO_GEN_attr_attr_name_291",
+    "1": "对怪物造成伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_439": {
+    "key": "AUTO_GEN_attr_attr_desc_s_439",
+    "1": "减少对手反伤效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_437": {
+    "key": "AUTO_GEN_attr_attr_desc_s_437",
+    "1": "减少对手恢复效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_name_151": {
+    "key": "AUTO_GEN_attr_attr_name_151",
+    "1": "生命上限提升"
+  },
+  "AUTO_GEN_attr_attr_name_266": {
+    "key": "AUTO_GEN_attr_attr_name_266",
+    "1": "防坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_433": {
+    "key": "AUTO_GEN_attr_attr_desc_s_433",
+    "1": "减少对手豹速效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_name_507": {
+    "key": "AUTO_GEN_attr_attr_name_507",
+    "1": "感电伤害增加"
+  },
+  "TID_attr_attr_name_12": {
+    "key": "TID_attr_attr_name_12",
+    "1": "破坏力"
+  },
+  "AUTO_GEN_attr_attr_name_129": {
+    "key": "AUTO_GEN_attr_attr_name_129",
+    "1": "炸坑伤害率"
+  },
+  "AUTO_GEN_attr_attr_name_579": {
+    "key": "AUTO_GEN_attr_attr_name_579",
+    "1": "受感电流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_1203": {
+    "key": "AUTO_GEN_attr_attr_name_1203",
+    "1": "受到伤害增加(肉鸽玩法受到子弹伤害增加)"
+  },
+  "AUTO_GEN_attr_attr_name_475": {
+    "key": "AUTO_GEN_attr_attr_name_475",
+    "1": "沉默"
+  },
+  "AUTO_GEN_attr_attr_name_9912": {
+    "key": "AUTO_GEN_attr_attr_name_9912",
+    "1": "闪避几率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_421": {
+    "key": "AUTO_GEN_attr_attr_desc_s_421",
+    "1": "子弹挖坑大幅提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_419": {
+    "key": "AUTO_GEN_attr_attr_desc_s_419",
+    "1": "对攻击者造成伤害"
+  },
+  "AUTO_GEN_attr_attr_name_115": {
+    "key": "AUTO_GEN_attr_attr_name_115",
+    "1": "免坑"
+  },
+  "AUTO_GEN_attr_attr_name_93": {
+    "key": "AUTO_GEN_attr_attr_name_93",
+    "1": "怪物身上的玩家战力效果"
+  },
+  "AUTO_GEN_attr_attr_desc_s_231": {
+    "key": "AUTO_GEN_attr_attr_desc_s_231",
+    "1": "战斗内生效"
+  },
+  "AUTO_GEN_attr_attr_name_1032": {
+    "key": "AUTO_GEN_attr_attr_name_1032",
+    "1": "额外伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_415": {
+    "key": "AUTO_GEN_attr_attr_desc_s_415",
+    "1": "根据造成伤害恢复"
+  },
+  "AUTO_GEN_attr_attr_desc_s_413": {
+    "key": "AUTO_GEN_attr_attr_desc_s_413",
+    "1": "额外获得1个回合"
+  },
+  "AUTO_GEN_attr_attr_name_9919": {
+    "key": "AUTO_GEN_attr_attr_name_9919",
+    "1": "格挡倍率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_412": {
+    "key": "AUTO_GEN_attr_attr_desc_s_412",
+    "1": "根据敌方被子弹击中造成额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_9903": {
+    "key": "AUTO_GEN_attr_attr_name_9903",
+    "1": "命中"
+  },
+  "AUTO_GEN_attr_attr_desc_s_198": {
+    "key": "AUTO_GEN_attr_attr_desc_s_198",
+    "1": "均可生效"
+  },
+  "AUTO_GEN_attr_attr_desc_s_196": {
+    "key": "AUTO_GEN_attr_attr_desc_s_196",
+    "1": "降低受到怪物的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_510": {
+    "key": "AUTO_GEN_attr_attr_desc_s_510",
+    "1": "被流血时受到流血伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_569": {
+    "key": "AUTO_GEN_attr_attr_desc_s_569",
+    "1": "对灼烧流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_1061": {
+    "key": "AUTO_GEN_attr_attr_name_1061",
+    "1": "额外魔法防御提升"
+  },
+  "AUTO_GEN_attr_attr_name_565": {
+    "key": "AUTO_GEN_attr_attr_name_565",
+    "1": "额外追击率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_5": {
+    "key": "AUTO_GEN_attr_attr_desc_s_5",
+    "1": "减免战斗中受到的魔法伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_121": {
+    "key": "AUTO_GEN_attr_attr_desc_s_121",
+    "1": "减少对手暴击的触发概率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_181": {
+    "key": "AUTO_GEN_attr_attr_desc_s_181",
+    "1": "战斗外生效"
+  },
+  "AUTO_GEN_attr_attr_name_9905": {
+    "key": "AUTO_GEN_attr_attr_name_9905",
+    "1": "生命"
+  },
+  "AUTO_GEN_attr_attr_name_42": {
+    "key": "AUTO_GEN_attr_attr_name_42",
+    "1": "怒气每回合回复"
+  },
+  "AUTO_GEN_attr_attr_desc_s_173": {
+    "key": "AUTO_GEN_attr_attr_desc_s_173",
+    "1": "提升炸坑能力"
+  },
+  "AUTO_GEN_attr_attr_desc_s_134": {
+    "key": "AUTO_GEN_attr_attr_desc_s_134",
+    "1": "降低自身角色受到的伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_131": {
+    "key": "AUTO_GEN_attr_attr_desc_s_131",
+    "1": "提高自身角色造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_145": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_145",
+    "1": "承受魔法伤害"
+  },
+  "AUTO_GEN_attr_attr_name_108": {
+    "key": "AUTO_GEN_attr_attr_name_108",
+    "1": "破甲率减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_127": {
+    "key": "AUTO_GEN_attr_attr_desc_s_127",
+    "1": "减少对手免坑效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_desc_475": {
+    "key": "AUTO_GEN_attr_attr_desc_475",
+    "1": "每回合首次受到子弹伤害时概率触发，给伤害来源附加沉默，无法使用除武器外的所有主动技能，持续2回合"
+  },
+  "AUTO_GEN_attr_attr_desc_s_123": {
+    "key": "AUTO_GEN_attr_attr_desc_s_123",
+    "1": "都可生效"
+  },
+  "AUTO_GEN_attr_attr_name_181": {
+    "key": "AUTO_GEN_attr_attr_name_181",
+    "1": "宠物伤害提升"
+  },
+  "AUTO_GEN_attr_attr_name_173": {
+    "key": "AUTO_GEN_attr_attr_name_173",
+    "1": "炸坑效果扩大"
+  },
+  "TID_attr_attr_desc_2": {
+    "key": "TID_attr_attr_desc_2",
+    "1": "减免战斗中受到的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_5": {
+    "key": "AUTO_GEN_attr_attr_name_5",
+    "1": "魔防"
+  },
+  "AUTO_GEN_attr_attr_name_142": {
+    "key": "AUTO_GEN_attr_attr_name_142",
+    "1": "承受物理伤害万分比降低"
+  },
+  "AUTO_GEN_attr_attr_name_554": {
+    "key": "AUTO_GEN_attr_attr_name_554",
+    "1": "额外灼烧率"
+  },
+  "AUTO_GEN_attr_attr_name_1058": {
+    "key": "AUTO_GEN_attr_attr_name_1058",
+    "1": "额外速度减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_74": {
+    "key": "AUTO_GEN_attr_attr_desc_s_74",
+    "1": "降低子弹命中自己时的弹坑深度"
+  },
+  "AUTO_GEN_attr_attr_desc_s_73": {
+    "key": "AUTO_GEN_attr_attr_desc_s_73",
+    "1": "影响玩家的炸坑效率"
+  },
+  "AUTO_GEN_attr_attr_name_1208": {
+    "key": "AUTO_GEN_attr_attr_name_1208",
+    "1": "受到伤害减少(肉鸽玩法受到持续伤害增加)"
+  },
+  "AUTO_GEN_attr_attr_desc_s_13": {
+    "key": "AUTO_GEN_attr_attr_desc_s_13",
+    "1": "受到伤害时，降低基础伤害值"
+  },
+  "AUTO_GEN_attr_attr_desc_s_71": {
+    "key": "AUTO_GEN_attr_attr_desc_s_71",
+    "1": "提高子弹造成的弹坑深度"
+  },
+  "AUTO_GEN_attr_attr_name_71": {
+    "key": "AUTO_GEN_attr_attr_name_71",
+    "1": "炸坑"
+  },
+  "AUTO_GEN_attr_attr_desc_s_443": {
+    "key": "AUTO_GEN_attr_attr_desc_s_443",
+    "1": "攻击有概率附加灼烧"
+  },
+  "AUTO_GEN_attr_attr_name_113": {
+    "key": "AUTO_GEN_attr_attr_name_113",
+    "1": "闪避率（提升）"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_143": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_143",
+    "1": "魔法伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_62": {
+    "key": "AUTO_GEN_attr_attr_desc_s_62",
+    "1": "主要提升攻击力"
+  },
+  "AUTO_GEN_attr_attr_desc_s_61": {
+    "key": "AUTO_GEN_attr_attr_desc_s_61",
+    "1": "主要提升生命值"
+  },
+  "AUTO_GEN_attr_attr_desc_s_17": {
+    "key": "AUTO_GEN_attr_attr_desc_s_17",
+    "1": "降低武器的爆破能力"
+  },
+  "AUTO_GEN_attr_attr_name_184": {
+    "key": "AUTO_GEN_attr_attr_name_184",
+    "1": "宠物伤害减免"
+  },
+  "AUTO_GEN_attr_attr_name_569": {
+    "key": "AUTO_GEN_attr_attr_name_569",
+    "1": "对灼烧流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_s_72": {
+    "key": "AUTO_GEN_attr_attr_desc_s_72",
+    "1": "影响玩家的防坑效率"
+  },
+  "AUTO_GEN_attr_attr_name_1051": {
+    "key": "AUTO_GEN_attr_attr_name_1051",
+    "1": "额外生命上限提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_12": {
+    "key": "AUTO_GEN_attr_attr_desc_s_12",
+    "1": "造成伤害时，增加基础伤害值"
+  },
+  "AUTO_GEN_attr_attr_name_453": {
+    "key": "AUTO_GEN_attr_attr_name_453",
+    "1": "抗灼烧"
+  },
+  "AUTO_GEN_attr_attr_name_1033": {
+    "key": "AUTO_GEN_attr_attr_name_1033",
+    "1": "额外承受伤害加深"
+  },
+  "AUTO_GEN_attr_attr_desc_s_4": {
+    "key": "AUTO_GEN_attr_attr_desc_s_4",
+    "1": "影响战斗中对敌人造成的魔法伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_3": {
+    "key": "AUTO_GEN_attr_attr_desc_s_3",
+    "1": "影响战斗中出手顺序"
+  },
+  "AUTO_GEN_attr_attr_desc_s_469": {
+    "key": "AUTO_GEN_attr_attr_desc_s_469",
+    "1": "受到伤害时概率增加防御"
+  },
+  "AUTO_GEN_attr_attr_name_402": {
+    "key": "AUTO_GEN_attr_attr_name_402",
+    "1": "法术暴击率（提升）"
+  },
+  "TID_attr_attr_name_1": {
+    "key": "TID_attr_attr_name_1",
+    "1": "攻击"
+  },
+  "AUTO_GEN_attr_attr_desc_s_518": {
+    "key": "AUTO_GEN_attr_attr_desc_s_518",
+    "1": "敌人豹速回合时受到伤害减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_502": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_502",
+    "1": "连击减伤"
+  },
+  "AUTO_GEN_attr_attr_desc_s_575": {
+    "key": "AUTO_GEN_attr_attr_desc_s_575",
+    "1": "受连击流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_name_461": {
+    "key": "AUTO_GEN_attr_attr_name_461",
+    "1": "闪现"
+  },
+  "AUTO_GEN_attr_attr_name_1064": {
+    "key": "AUTO_GEN_attr_attr_name_1064",
+    "1": "额外炸坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_name_577": {
+    "key": "AUTO_GEN_attr_attr_name_577",
+    "1": "受追击流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_575": {
+    "key": "AUTO_GEN_attr_attr_name_575",
+    "1": "受连击流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_191": {
+    "key": "AUTO_GEN_attr_attr_desc_s_191",
+    "1": "提高对怪物造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_144": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_144",
+    "1": "魔法伤害减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_245": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_245",
+    "1": "承受魔法伤害提高"
+  },
+  "AUTO_GEN_attr_attr_name_183": {
+    "key": "AUTO_GEN_attr_attr_name_183",
+    "1": "宠物承受伤害加深"
+  },
+  "AUTO_GEN_attr_attr_name_405": {
+    "key": "AUTO_GEN_attr_attr_name_405",
+    "1": "物理万分比破甲（提升）"
+  },
+  "AUTO_GEN_attr_attr_desc_s_553": {
+    "key": "AUTO_GEN_attr_attr_desc_s_553",
+    "1": "增加最终暴击概率"
+  },
+  "AUTO_GEN_attr_attr_name_52": {
+    "key": "AUTO_GEN_attr_attr_name_52",
+    "1": "移动体力消耗"
+  },
+  "AUTO_GEN_attr_attr_name_122": {
+    "key": "AUTO_GEN_attr_attr_name_122",
+    "1": "暴伤减免"
+  },
+  "AUTO_GEN_attr_attr_name_271": {
+    "key": "AUTO_GEN_attr_attr_name_271",
+    "1": "排名对人炸坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_459": {
+    "key": "AUTO_GEN_attr_attr_name_459",
+    "1": "抗集火"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_509": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_509",
+    "1": "流血增伤"
+  },
+  "AUTO_GEN_attr_attr_name_9916": {
+    "key": "AUTO_GEN_attr_attr_name_9916",
+    "1": "暴击倍率"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_505": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_505",
+    "1": "灼烧增伤"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_140": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_140",
+    "1": "物理伤害减少"
+  },
+  "AUTO_GEN_attr_attr_desc_s_557": {
+    "key": "AUTO_GEN_attr_attr_desc_s_557",
+    "1": "增加最终核爆概率"
+  },
+  "AUTO_GEN_attr_attr_name_406": {
+    "key": "AUTO_GEN_attr_attr_name_406",
+    "1": "法术万分比破甲（提升）"
+  },
+  "AUTO_GEN_attr_attr_name_294": {
+    "key": "AUTO_GEN_attr_attr_name_294",
+    "1": "对宠物造成伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_159": {
+    "key": "AUTO_GEN_attr_attr_name_159",
+    "1": "魔攻提升"
+  },
+  "AUTO_GEN_attr_attr_name_1053": {
+    "key": "AUTO_GEN_attr_attr_name_1053",
+    "1": "额外攻击提升"
+  },
+  "AUTO_GEN_attr_attr_name_443": {
+    "key": "AUTO_GEN_attr_attr_name_443",
+    "1": "灼烧"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_518": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_518",
+    "1": "豹速减伤"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_516": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_516",
+    "1": "追击减伤"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_512": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_512",
+    "1": "集火减伤"
+  },
+  "AUTO_GEN_attr_attr_name_1056": {
+    "key": "AUTO_GEN_attr_attr_name_1056",
+    "1": "额外防御减少"
+  },
+  "AUTO_GEN_attr_attr_name_421": {
+    "key": "AUTO_GEN_attr_attr_name_421",
+    "1": "核爆"
+  },
+  "AUTO_GEN_attr_attr_name_1036": {
+    "key": "AUTO_GEN_attr_attr_name_1036",
+    "1": "额外治疗效果降低"
+  },
+  "AUTO_GEN_attr_attr_name_1055": {
+    "key": "AUTO_GEN_attr_attr_name_1055",
+    "1": "额外防御提升"
+  },
+  "AUTO_GEN_attr_attr_name_1080": {
+    "key": "AUTO_GEN_attr_attr_name_1080",
+    "1": "灼烧伤害额外增加"
+  },
+  "AUTO_GEN_attr_attr_name_9920": {
+    "key": "AUTO_GEN_attr_attr_name_9920",
+    "1": "体力上限"
+  },
+  "AUTO_GEN_attr_attr_name_155": {
+    "key": "AUTO_GEN_attr_attr_name_155",
+    "1": "防御提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_431": {
+    "key": "AUTO_GEN_attr_attr_desc_s_431",
+    "1": "减少对手连击效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_506": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_506",
+    "1": "灼烧减伤"
+  },
+  "AUTO_GEN_attr_attr_name_111": {
+    "key": "AUTO_GEN_attr_attr_name_111",
+    "1": "破甲效果提升"
+  },
+  "AUTO_GEN_attr_attr_name_126": {
+    "key": "AUTO_GEN_attr_attr_name_126",
+    "1": "闪避率抵抗（命中率）"
+  },
+  "AUTO_GEN_attr_attr_name_16": {
+    "key": "AUTO_GEN_attr_attr_name_16",
+    "1": "爆破"
+  },
+  "AUTO_GEN_attr_attr_name_260": {
+    "key": "AUTO_GEN_attr_attr_name_260",
+    "1": "魔法攻击减少"
+  },
+  "AUTO_GEN_attr_attr_name_4": {
+    "key": "AUTO_GEN_attr_attr_name_4",
+    "1": "魔攻"
+  },
+  "AUTO_GEN_attr_attr_name_518": {
+    "key": "AUTO_GEN_attr_attr_name_518",
+    "1": "敌人豹速回合时受伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_515": {
+    "key": "AUTO_GEN_attr_attr_name_515",
+    "1": "追击伤害提升"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_128": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_128",
+    "1": "宠物伤害承受权重"
+  },
+  "AUTO_GEN_attr_attr_name_198": {
+    "key": "AUTO_GEN_attr_attr_name_198",
+    "1": "宠物分摊宠物伤害权重"
+  },
+  "AUTO_GEN_attr_attr_name_1207": {
+    "key": "AUTO_GEN_attr_attr_name_1207",
+    "1": "受到伤害增加(肉鸽玩法受到持续伤害增加)"
+  },
+  "AUTO_GEN_attr_attr_name_1035": {
+    "key": "AUTO_GEN_attr_attr_name_1035",
+    "1": "额外治疗效果提升"
+  },
+  "AUTO_GEN_attr_attr_name_999945": {
+    "key": "AUTO_GEN_attr_attr_name_999945",
+    "1": "怒气血量减少回复"
+  },
+  "AUTO_GEN_attr_attr_name_1205": {
+    "key": "AUTO_GEN_attr_attr_name_1205",
+    "1": "伤害增加(肉鸽玩法持续伤害增加)"
+  },
+  "AUTO_GEN_attr_attr_name_123": {
+    "key": "AUTO_GEN_attr_attr_name_123",
+    "1": "破甲率抵抗"
+  },
+  "AUTO_GEN_attr_attr_name_157": {
+    "key": "AUTO_GEN_attr_attr_name_157",
+    "1": "速度提升"
+  },
+  "AUTO_GEN_attr_attr_name_1202": {
+    "key": "AUTO_GEN_attr_attr_name_1202",
+    "1": "伤害减少(肉鸽玩法子弹伤害减少)"
+  },
+  "AUTO_GEN_attr_attr_name_17": {
+    "key": "AUTO_GEN_attr_attr_name_17",
+    "1": "防爆"
+  },
+  "AUTO_GEN_attr_attr_desc_s_473": {
+    "key": "AUTO_GEN_attr_attr_desc_s_473",
+    "1": "受到伤害时概率给伤害来源附加缠绕"
+  },
+  "AUTO_GEN_attr_attr_name_567": {
+    "key": "AUTO_GEN_attr_attr_name_567",
+    "1": "对豹速流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_474": {
+    "key": "AUTO_GEN_attr_attr_desc_474",
+    "1": "每回合首次受到子弹伤害时概率触发，给伤害来源附加干扰，精确瞄准变为粗略瞄准，持续1回合"
+  },
+  "AUTO_GEN_attr_attr_name_261": {
+    "key": "AUTO_GEN_attr_attr_name_261",
+    "1": "魔法防御提升"
+  },
+  "AUTO_GEN_attr_attr_name_1031": {
+    "key": "AUTO_GEN_attr_attr_name_1031",
+    "1": "额外伤害提升"
+  },
+  "AUTO_GEN_attr_attr_name_474": {
+    "key": "AUTO_GEN_attr_attr_name_474",
+    "1": "干扰"
+  },
+  "AUTO_GEN_attr_attr_name_158": {
+    "key": "AUTO_GEN_attr_attr_name_158",
+    "1": "速度减少"
+  },
+  "AUTO_GEN_attr_attr_name_582": {
+    "key": "AUTO_GEN_attr_attr_name_582",
+    "1": "受召唤流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_143": {
+    "key": "AUTO_GEN_attr_attr_name_143",
+    "1": "法术伤害万分比提升"
+  },
+  "AUTO_GEN_attr_attr_name_581": {
+    "key": "AUTO_GEN_attr_attr_name_581",
+    "1": "受挖坑流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_580": {
+    "key": "AUTO_GEN_attr_attr_name_580",
+    "1": "受流血流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_578": {
+    "key": "AUTO_GEN_attr_attr_name_578",
+    "1": "受灼烧流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_576": {
+    "key": "AUTO_GEN_attr_attr_name_576",
+    "1": "受豹速流派伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_473": {
+    "key": "AUTO_GEN_attr_attr_name_473",
+    "1": "缠绕"
+  },
+  "AUTO_GEN_attr_attr_name_403": {
+    "key": "AUTO_GEN_attr_attr_name_403",
+    "1": "物理固定破甲（提升）"
+  },
+  "AUTO_GEN_attr_attr_desc_s_64": {
+    "key": "AUTO_GEN_attr_attr_desc_s_64",
+    "1": "主要提升防御"
+  },
+  "AUTO_GEN_attr_attr_name_292": {
+    "key": "AUTO_GEN_attr_attr_name_292",
+    "1": "对怪物造成伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_9901": {
+    "key": "AUTO_GEN_attr_attr_name_9901",
+    "1": "攻击"
+  },
+  "AUTO_GEN_attr_attr_name_141": {
+    "key": "AUTO_GEN_attr_attr_name_141",
+    "1": "承受物理伤害万分比加深"
+  },
+  "AUTO_GEN_attr_attr_desc_s_441": {
+    "key": "AUTO_GEN_attr_attr_desc_s_441",
+    "1": "减少对手核爆效果的触发概率"
+  },
+  "AUTO_GEN_attr_attr_name_195": {
+    "key": "AUTO_GEN_attr_attr_name_195",
+    "1": "怪物伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_404": {
+    "key": "AUTO_GEN_attr_attr_name_404",
+    "1": "法术固定破甲（提升）"
+  },
+  "AUTO_GEN_attr_attr_name_1067": {
+    "key": "AUTO_GEN_attr_attr_name_1067",
+    "1": "额外对玩家炸坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_295": {
+    "key": "AUTO_GEN_attr_attr_name_295",
+    "1": "防御穿透百分比"
+  },
+  "AUTO_GEN_attr_attr_name_1084": {
+    "key": "AUTO_GEN_attr_attr_name_1084",
+    "1": "追击伤害额外增加"
+  },
+  "AUTO_GEN_attr_attr_name_1065": {
+    "key": "AUTO_GEN_attr_attr_name_1065",
+    "1": "额外防坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_1083": {
+    "key": "AUTO_GEN_attr_attr_name_1083",
+    "1": "护盾获取额外增加"
+  },
+  "AUTO_GEN_attr_attr_name_137": {
+    "key": "AUTO_GEN_attr_attr_name_137",
+    "1": "受到治疗效果提升"
+  },
+  "AUTO_GEN_attr_attr_name_439": {
+    "key": "AUTO_GEN_attr_attr_name_439",
+    "1": "抗反伤"
+  },
+  "AUTO_GEN_attr_attr_name_563": {
+    "key": "AUTO_GEN_attr_attr_name_563",
+    "1": "额外盾反率"
+  },
+  "AUTO_GEN_attr_attr_name_194": {
+    "key": "AUTO_GEN_attr_attr_name_194",
+    "1": "宠物受伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_302": {
+    "key": "AUTO_GEN_attr_attr_name_302",
+    "1": "固定技能伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_1085": {
+    "key": "AUTO_GEN_attr_attr_name_1085",
+    "1": "瞄准增伤"
+  },
+  "AUTO_GEN_attr_attr_name_145": {
+    "key": "AUTO_GEN_attr_attr_name_145",
+    "1": "承受法术伤害万分比加深"
+  },
+  "AUTO_GEN_attr_attr_name_265": {
+    "key": "AUTO_GEN_attr_attr_name_265",
+    "1": "防坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_122": {
+    "key": "AUTO_GEN_attr_attr_desc_s_122",
+    "1": "减少对手暴击造成的伤害"
+  },
+  "AUTO_GEN_attr_attr_name_517": {
+    "key": "AUTO_GEN_attr_attr_name_517",
+    "1": "豹速回合伤害提升"
+  },
+  "AUTO_GEN_attr_attr_name_1060": {
+    "key": "AUTO_GEN_attr_attr_name_1060",
+    "1": "额外魔法攻击减少"
+  },
+  "AUTO_GEN_attr_attr_name_568": {
+    "key": "AUTO_GEN_attr_attr_name_568",
+    "1": "对追击流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_1069": {
+    "key": "AUTO_GEN_attr_attr_name_1069",
+    "1": "额外对玩家防坑能力提升"
+  },
+  "TID_attr_attr_desc_103": {
+    "key": "TID_attr_attr_desc_103",
+    "1": "暴击时的伤害增幅"
+  },
+  "AUTO_GEN_attr_attr_name_412": {
+    "key": "AUTO_GEN_attr_attr_name_412",
+    "1": "追击"
+  },
+  "AUTO_GEN_attr_attr_name_451": {
+    "key": "AUTO_GEN_attr_attr_name_451",
+    "1": "盾反"
+  },
+  "AUTO_GEN_attr_attr_desc_s_65": {
+    "key": "AUTO_GEN_attr_attr_desc_s_65",
+    "1": "主要提升炸坑效果"
+  },
+  "AUTO_GEN_attr_attr_name_435": {
+    "key": "AUTO_GEN_attr_attr_name_435",
+    "1": "抗吸血"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_101": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_101",
+    "1": "暴击"
+  },
+  "AUTO_GEN_attr_attr_name_415": {
+    "key": "AUTO_GEN_attr_attr_name_415",
+    "1": "吸血"
+  },
+  "AUTO_GEN_attr_attr_name_166": {
+    "key": "AUTO_GEN_attr_attr_name_166",
+    "1": "防坑减少"
+  },
+  "AUTO_GEN_attr_attr_name_264": {
+    "key": "AUTO_GEN_attr_attr_name_264",
+    "1": "炸坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_name_9918": {
+    "key": "AUTO_GEN_attr_attr_name_9918",
+    "1": "格挡几率"
+  },
+  "AUTO_GEN_attr_attr_name_1081": {
+    "key": "AUTO_GEN_attr_attr_name_1081",
+    "1": "感电伤害额外增加"
+  },
+  "AUTO_GEN_attr_attr_name_44": {
+    "key": "AUTO_GEN_attr_attr_name_44",
+    "1": "怒气跳过回合回复"
+  },
+  "AUTO_GEN_attr_attr_desc_s_411": {
+    "key": "AUTO_GEN_attr_attr_desc_s_411",
+    "1": "额外射出一轮子弹"
+  },
+  "AUTO_GEN_attr_attr_name_555": {
+    "key": "AUTO_GEN_attr_attr_name_555",
+    "1": "额外感电率"
+  },
+  "AUTO_GEN_attr_attr_desc_s_103": {
+    "key": "AUTO_GEN_attr_attr_desc_s_103",
+    "1": "暴击时的伤害增幅"
+  },
+  "AUTO_GEN_attr_attr_desc_s_514": {
+    "key": "AUTO_GEN_attr_attr_desc_s_514",
+    "1": "被盾反时受到盾反伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_9902": {
+    "key": "AUTO_GEN_attr_attr_name_9902",
+    "1": "破甲"
+  },
+  "AUTO_GEN_attr_attr_name_551": {
+    "key": "AUTO_GEN_attr_attr_name_551",
+    "1": "额外连击率"
+  },
+  "AUTO_GEN_attr_attr_name_502": {
+    "key": "AUTO_GEN_attr_attr_name_502",
+    "1": "被连击时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_name_457": {
+    "key": "AUTO_GEN_attr_attr_name_457",
+    "1": "抗流血"
+  },
+  "AUTO_GEN_attr_attr_name_192": {
+    "key": "AUTO_GEN_attr_attr_name_192",
+    "1": "对怪物伤害减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_141": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_141",
+    "1": "承受物理伤害"
+  },
+  "AUTO_GEN_attr_attr_name_146": {
+    "key": "AUTO_GEN_attr_attr_name_146",
+    "1": "承受法术伤害万分比降低"
+  },
+  "AUTO_GEN_attr_attr_name_64": {
+    "key": "AUTO_GEN_attr_attr_name_64",
+    "1": "耐力"
+  },
+  "AUTO_GEN_attr_attr_name_168": {
+    "key": "AUTO_GEN_attr_attr_name_168",
+    "1": "对玩家炸坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_name_445": {
+    "key": "AUTO_GEN_attr_attr_name_445",
+    "1": "感电"
+  },
+  "AUTO_GEN_attr_attr_name_1063": {
+    "key": "AUTO_GEN_attr_attr_name_1063",
+    "1": "额外炸坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_503": {
+    "key": "AUTO_GEN_attr_attr_name_503",
+    "1": "反伤伤害提升"
+  },
+  "AUTO_GEN_attr_attr_name_501": {
+    "key": "AUTO_GEN_attr_attr_name_501",
+    "1": "连击伤害提升"
+  },
+  "AUTO_GEN_attr_attr_desc_s_572": {
+    "key": "AUTO_GEN_attr_attr_desc_s_572",
+    "1": "对核爆流派造成的额外伤害"
+  },
+  "AUTO_GEN_attr_attr_name_570": {
+    "key": "AUTO_GEN_attr_attr_name_570",
+    "1": "对感电流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_desc_473": {
+    "key": "AUTO_GEN_attr_attr_desc_473",
+    "1": "每回合首次受到子弹伤害时概率触发，给伤害来源附加缠绕，无法使用位移技能，持续2回合"
+  },
+  "AUTO_GEN_attr_attr_name_125": {
+    "key": "AUTO_GEN_attr_attr_name_125",
+    "1": "破甲效果抵抗"
+  },
+  "AUTO_GEN_attr_attr_name_471": {
+    "key": "AUTO_GEN_attr_attr_name_471",
+    "1": "加盾"
+  },
+  "AUTO_GEN_attr_attr_desc_469": {
+    "key": "AUTO_GEN_attr_attr_desc_469",
+    "1": "每回合首次受到子弹伤害时概率触发，给己方1~2人增加1.25%防御，持续1回合"
+  },
+  "AUTO_GEN_attr_attr_name_135": {
+    "key": "AUTO_GEN_attr_attr_name_135",
+    "1": "治疗效果提升"
+  },
+  "AUTO_GEN_attr_attr_name_162": {
+    "key": "AUTO_GEN_attr_attr_name_162",
+    "1": "魔防减少"
+  },
+  "AUTO_GEN_attr_attr_name_9907": {
+    "key": "AUTO_GEN_attr_attr_name_9907",
+    "1": "闪避"
+  },
+  "AUTO_GEN_attr_attr_name_9913": {
+    "key": "AUTO_GEN_attr_attr_name_9913",
+    "1": "伤害加深"
+  },
+  "AUTO_GEN_attr_attr_desc_s_554": {
+    "key": "AUTO_GEN_attr_attr_desc_s_554",
+    "1": "增加最终灼烧概率"
+  },
+  "AUTO_GEN_attr_attr_name_263": {
+    "key": "AUTO_GEN_attr_attr_name_263",
+    "1": "炸坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_510": {
+    "key": "AUTO_GEN_attr_attr_name_510",
+    "1": "被流血时对应伤害减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_501": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_501",
+    "1": "连击增伤"
+  },
+  "AUTO_GEN_attr_attr_name_116": {
+    "key": "AUTO_GEN_attr_attr_name_116",
+    "1": "免坑率减少"
+  },
+  "AUTO_GEN_attr_attr_abbr_name_139": {
+    "key": "AUTO_GEN_attr_attr_abbr_name_139",
+    "1": "物理伤害"
+  },
+  "AUTO_GEN_attr_attr_desc_s_583": {
+    "key": "AUTO_GEN_attr_attr_desc_s_583",
+    "1": "受盾击流派的伤害额外减少"
+  },
+  "AUTO_GEN_attr_attr_name_1034": {
+    "key": "AUTO_GEN_attr_attr_name_1034",
+    "1": "额外承受伤害降低"
+  },
+  "AUTO_GEN_attr_attr_name_566": {
+    "key": "AUTO_GEN_attr_attr_name_566",
+    "1": "对连击流派伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_9915": {
+    "key": "AUTO_GEN_attr_attr_name_9915",
+    "1": "暴击免疫"
+  },
+  "AUTO_GEN_attr_attr_name_437": {
+    "key": "AUTO_GEN_attr_attr_name_437",
+    "1": "抗恢复"
+  },
+  "AUTO_GEN_attr_attr_name_9923": {
+    "key": "AUTO_GEN_attr_attr_name_9923",
+    "1": "杀怪经验"
+  },
+  "AUTO_GEN_attr_attr_name_431": {
+    "key": "AUTO_GEN_attr_attr_name_431",
+    "1": "抗连击"
+  },
+  "AUTO_GEN_attr_attr_name_107": {
+    "key": "AUTO_GEN_attr_attr_name_107",
+    "1": "破甲率"
+  },
+  "AUTO_GEN_attr_attr_name_417": {
+    "key": "AUTO_GEN_attr_attr_name_417",
+    "1": "恢复"
+  },
+  "AUTO_GEN_attr_attr_name_167": {
+    "key": "AUTO_GEN_attr_attr_name_167",
+    "1": "对玩家炸坑能力提升"
+  },
+  "AUTO_GEN_attr_attr_name_262": {
+    "key": "AUTO_GEN_attr_attr_name_262",
+    "1": "魔法防御减少"
+  },
+  "AUTO_GEN_attr_attr_name_463": {
+    "key": "AUTO_GEN_attr_attr_name_463",
+    "1": "援护"
+  },
+  "AUTO_GEN_attr_attr_name_411": {
+    "key": "AUTO_GEN_attr_attr_name_411",
+    "1": "连击"
+  },
+  "AUTO_GEN_attr_attr_name_1068": {
+    "key": "AUTO_GEN_attr_attr_name_1068",
+    "1": "额外对玩家炸坑能力减少"
+  },
+  "AUTO_GEN_attr_attr_name_21": {
+    "key": "AUTO_GEN_attr_attr_name_21",
+    "1": "初始怒气"
+  },
+  "AUTO_GEN_attr_attr_name_31": {
+    "key": "AUTO_GEN_attr_attr_name_31",
+    "1": "体力"
+  },
+  "AUTO_GEN_attr_attr_name_114": {
+    "key": "AUTO_GEN_attr_attr_name_114",
+    "1": "闪避率减少"
+  },
+  "AUTO_GEN_attr_attr_name_14": {
+    "key": "AUTO_GEN_attr_attr_name_14",
+    "1": "固定伤害增加"
+  },
+  "AUTO_GEN_attr_attr_name_144": {
+    "key": "AUTO_GEN_attr_attr_name_144",
+    "1": "法术伤害万分比减少"
+  },
+  "TID_attr_attr_desc_11": {
+    "key": "TID_attr_attr_desc_11",
+    "1": "可承受的伤害量"
+  },
+  "AUTO_GEN_attr_attr_name_104": {
+    "key": "AUTO_GEN_attr_attr_name_104",
+    "1": "暴击治疗量（提升）"
+  },
+  "AUTO_GEN_attr_attr_name_9906": {
+    "key": "AUTO_GEN_attr_attr_name_9906",
+    "1": "防御"
+  }
+}

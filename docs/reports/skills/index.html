@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="《弹弹星球》技能与数值客户端代码研究。主动技能、被动触发与等级变体">
+<title>技能与数值 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
+<body><div class="site-shell">
+<aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<a class="" href="../growth/index.html"><span>02</span>成长系统</a>
+<a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
+<a class="" href="../battle/index.html"><span>04</span>局内流程</a>
+<a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
+<a class="current" href="../skills/index.html"><span>06</span>技能与数值</a>
+<a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#如何读一行技能">如何读一行技能</a>
+<a href="#可逐项回查的主动技能样本">可逐项回查的主动技能样本</a>
+<a href="#武器主动技能一把武器有多档">武器主动技能：一把武器有多档</a>
+<a href="#被动技能不是一张增伤百分比表">被动技能不是一张增伤百分比表</a>
+<a href="#数值字段的适用边界">数值字段的适用边界</a></nav>
+<div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/skills.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 06 / 08 · 客户端源码</div><h1>技能与数值</h1><p>主动技能、被动触发与等级变体</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<article class="prose"><h1 id="技能与数值字段样本和生效约束">技能与数值：字段、样本和生效约束</h1>
+<p>版本 242 中 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">主动技能表</a>有 8,237 行，<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/passive_skill_passive_skill.json">被动技能表</a>有 8,932 行。这些行包括测试、怪物、不同等级、隐藏效果与历史配置，不能说玩家可装备 8,237 种技能。表是从原始 Lua 5.1 字节码执行导出，中文名和说明由 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/language_define_skill.json">主动语言表</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/language_define_passive_skill.json">被动语言表</a>关联；脚本与哈希见<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/manifest.json">导出清单</a>。</p>
+<h2 id="如何读一行技能">如何读一行技能</h2>
+<p>常见字段：<code>id</code> 是具体等级/变体，<code>prototype_id</code> 是机制原型；<code>effect</code> 是一组按 <code>index</code> 排列的效果；<code>cost</code> 给费用种类和值；<code>init_cd</code> 初始冷却、<code>turn_cd</code> 回合冷却、<code>turn_max</code> 每回合次数、<code>match_max</code> 单局次数；<code>pve_*</code> 是 PVE 覆盖值。未填字段不能当作 0。<code>-1</code> 在诸多行表示没有配置限次，仍可能被战斗规则限制。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">原表</a></p>
+<p>客户端 <code>unit_can_use_skill</code> 真实检查技能是否在角色持有列表中、当前回合与行动状态、沉默、定身/位移、重复回合、<code>turn_max</code>、<code>match_max</code>、CD、禁用类型和费用。技能实际效果与资源扣减由服务端回包推进。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L177">校验调用</a></p>
+<h2 id="可逐项回查的主动技能样本">可逐项回查的主动技能样本</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>中文名与说明中的数值</th>
+<th>费用 / CD / 限次</th>
+<th>配置要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>110001</code></td>
+<td>传送：发炮后传送到攻击落点，忽略武器角度限制</td>
+<td><code>cost=[1,15000]</code>；<code>turn_cd=2</code></td>
+<td><code>effect.fire_action_type=2</code>、落点位移参数。</td>
+</tr>
+<tr>
+<td><code>1001999</code></td>
+<td>冰冻弹：命中目标 2 回合不能行动；受到攻击解除且抵消伤害</td>
+<td><code>init_cd=0</code>、<code>turn_cd=0</code>、<code>match_max=-1</code></td>
+<td><code>effect</code> 引用 buff <code>1001001</code>。此行明显是练习/特例 ID，不能替代所有冰冻弹。</td>
+</tr>
+<tr>
+<td><code>1011010</code></td>
+<td>减伤：受到伤害降低 5.5%，持续 2 回合，文字写每场可用 2 次</td>
+<td><code>cost=[1,10000]</code>、<code>turn_cd=4</code>、<code>turn_max=1</code>、<code>match_max=2</code></td>
+<td>同系 <code>1011030</code> 为 7.5%/CD 3/单局 3 次；<code>1011050</code> 为 9.5%/CD 2/单局 3 次。</td>
+</tr>
+<tr>
+<td><code>1006999</code></td>
+<td>治疗：文字写最大生命 6%+170，单局可用 5 次</td>
+<td><code>cost=[1,0]</code>、<code>turn_cd=3</code>、<code>turn_max=1</code>、<strong>配置 <code>match_max=1</code></strong></td>
+<td>文字与限次字段不一致，不能据文字声称实战可用 5 次；实际取值须看服务端和模式覆盖。</td>
+</tr>
+<tr>
+<td><code>1007040</code></td>
+<td>群疗：文字写全队最大生命 7.32%+165、单局 2 次</td>
+<td><code>cost=[1,0]</code>、<code>turn_cd=3</code>、<code>turn_max=1</code>、<code>match_max=2</code></td>
+<td><code>effect.17</code> 有回血参数 <code>107=732,103=165</code>。</td>
+</tr>
+<tr>
+<td><code>2005233</code></td>
+<td>漏电大危机：主弹魔法伤害 120.5%+92；命中后分裂 2 枚，各为主弹 65%</td>
+<td><code>init_cd=3</code>、<code>turn_cd=3</code>、<code>turn_max=1</code></td>
+<td><code>effect.23</code> 指定 <code>split_bullet_num=2</code>、分裂弹 ID 1006。</td>
+</tr>
+</tbody>
+</table>
+<p>表内“文字数值”来自语言描述；“配置数值”来自技能效果字段。以治疗为例，<code>1006999</code> 的说明写 6%+170，<code>effect.17</code> 是 <code>107=577,103=173</code>。这种偏差意味着文本可能过期、字段需额外换算，或者该行受模式/等级改写；本报告保留差异。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">完整记录</a></p>
+<h2 id="武器主动技能一把武器有多档">武器主动技能：一把武器有多档</h2>
+<p>例如 <code>搬砖水泥桶</code> 系列：<code>2110011</code> 基础档双子弹，每颗说明为 17.6%+2，CD 2；<code>2110021</code> 真档 19.4%+3；<code>2110031</code> 极档 23.2%+3；<code>2110041</code> 绝档 25.6%+4；<code>2110051</code> 超档 27.6%+条件加成 3.1%+5；<code>2110061</code> 神档 30%+条件加成 5.3%+6。效果字段分别含 <code>100</code> 比例、<code>101</code> 固定项、<code>8=1</code>（第二发的索引从 0 起）与 <code>61.jellyfish_info</code> 两枚偏角 ±5 的子弹配置。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">技能表</a></p>
+<p><code>许愿魔杖</code> <code>2126011</code> 一发信号弹 25.6%+6，再召流星 76.8%+20；真档 <code>2126021</code> 为 28.2%+7 / 84.5%+23；极档 <code>2126031</code> 为 33.8%+9 / 101.4%+28；绝档 <code>2126041</code> 为 37.2%+10 / 111.5%+31。这里的“多段总伤”不能简单相加，因为目标选择、命中、暴击和独立伤害事件要由战斗节点确认。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/skill_skill.json">技能表</a></p>
+<h2 id="被动技能不是一张增伤百分比表">被动技能不是一张增伤百分比表</h2>
+<p>被动表效果形态包括 <code>ps_add_buff</code>、<code>ps_add_energy</code>、<code>ps_add_anger</code>、<code>ps_check_obj_num</code> 等。例：ID <code>2</code> 的 <code>ps_add_energy={prob:10000,add_value:50}</code>，ID <code>3</code> 的 <code>ps_add_anger</code> 同值；其中 10000 可能是万分比基数，但需通过实际触发器确认。ID <code>4/5</code> 的 <code>ps_check_obj_num</code> 限定空间宽高、阵营、数量再加分。被动可以改资源、状态、召唤物与触发条件，不是只改攻击乘区。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/passive_skill_passive_skill.json">被动表</a></p>
+<h2 id="数值字段的适用边界">数值字段的适用边界</h2>
+<p>技能 <code>effect.100</code> 常与文字中的伤害率×100 相合，如 <code>2005233</code> 的 12050 对应 120.5%；<code>effect.101</code> 常是固定项。但这仅说明<strong>该技能字段的编码</strong>，不能推出最终伤害公式。技能触发后还会进入伤害、命中、暴击、护盾、目标状态、PVP 平衡和服务器节点链。更完整的输入与轨迹见<a href="../combat-math/index.html">局内计算</a>。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

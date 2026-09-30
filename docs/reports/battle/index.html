@@ -7,7 +7,11 @@
 <div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
 <a class="" href="../growth/index.html"><span>02</span>成长系统</a>
 <a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
-<a class="current" href="../battle/index.html"><span>04</span>局内流程</a></nav>
+<a class="current" href="../battle/index.html"><span>04</span>局内流程</a>
+<a class="" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
+<a class="" href="../skills/index.html"><span>06</span>技能与数值</a>
+<a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
 <div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#一局的状态机">一局的状态机</a>
 <a href="#玩法配置控制同一套基础流程">玩法配置控制同一套基础流程</a>
 <a href="#新回合由服务器给出行动主体与时间">新回合由服务器给出行动主体与时间</a>
@@ -17,8 +21,9 @@
 <a href="#结算与退出">结算与退出</a>
 <a href="#仍未还原的部分">仍未还原的部分</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/battle.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
-<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 04 / 04 · 客户端源码</div><h1>局内流程</h1><p>回合、弹射指令与结算</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 04 / 08 · 客户端源码</div><h1>局内流程</h1><p>回合、弹射指令与结算</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="局内流程回合弹射指令与结算">局内流程：回合、弹射指令与结算</h1>
+<p><strong>本专题补充的深挖页：</strong><a href="../combat-math/index.html">具体发炮字段、弹道和天气数值</a>；<a href="../skills/index.html">主动/被动技能与实测边界</a>。战斗配置现由原始 Lua 字节码重新导出，<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/battle_battle.json">可直接检查全部 4,652 行战斗表</a>。</p>
 <blockquote>
 <p>范围：依据客户端状态机、战斗消息和战斗配置解释一局从载入到离开的过程。弹体命中与胜负结果以服务端消息为准；不同玩法复用基类但可以覆盖参数和入口。</p>
 </blockquote>

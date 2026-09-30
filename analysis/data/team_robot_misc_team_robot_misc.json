@@ -1,0 +1,120 @@
+{
+  "robot_recruit_interval_time": {
+    "key": "robot_recruit_interval_time",
+    "val": 2
+  },
+  "robot_open_func": {
+    "key": "robot_open_func",
+    "val": 5001
+  },
+  "robot_recruit_new_interval_time": {
+    "key": "robot_recruit_new_interval_time",
+    "val": 2
+  },
+  "robot_headshot": {
+    "key": "robot_headshot",
+    "val": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "robot_headshot_frame": {
+    "key": "robot_headshot_frame",
+    "val": [
+      9
+    ]
+  },
+  "robot_recruit_name": {
+    "key": "robot_recruit_name",
+    "val": [
+      "萝卜炖白菜",
+      "梦弹八卦周刊",
+      "著名的曹操",
+      "我打工养你",
+      "泰酷辣",
+      "酱油拌饭",
+      "只因泰酷辣",
+      "看不见我",
+      "雪地里的小画家",
+      "啊巴啊吧",
+      "阿D",
+      "帅到被人砍",
+      "每天想摆烂",
+      "DJ带薪年假",
+      "夏日炎炎",
+      "少一个暖被窝的",
+      "最强老六",
+      "摸鱼大队队长",
+      "狗蛋",
+      "巅峰丶星辰",
+      "江辰",
+      "大哥有低保",
+      "骄傲的少年",
+      "一壶老酒",
+      "三藏丶",
+      "余生",
+      "戰灬封神",
+      "爱心回力标",
+      "搁浅",
+      "伤心男孩",
+      "大炮打蚊子",
+      "孤城",
+      "娱乐丶",
+      "大力出奇迹",
+      "宝儿的神秘男友",
+      "神射手军神",
+      "低端局",
+      "无敌的存在",
+      "小虎",
+      "哈比特熊猫",
+      "过去现在未来",
+      "在时间的大钟上",
+      "从来打不中",
+      "王宝强不强",
+      "晴天小子",
+      "炸裂的小绵羊",
+      "打小就聪明",
+      "不要打我呀",
+      "护国大将军",
+      "狂奔的蜗牛",
+      "鲨鱼"
+    ]
+  },
+  "robot_room_delete_time": {
+    "key": "robot_room_delete_time",
+    "val": 120
+  },
+  "robot_bubble": {
+    "key": "robot_bubble",
+    "val": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "robot_recruit_new_first_time": {
+    "key": "robot_recruit_new_first_time",
+    "val": 2
+  },
+  "robot_recruit_attr": {
+    "key": "robot_recruit_attr",
+    "val": 9000
+  }
+}

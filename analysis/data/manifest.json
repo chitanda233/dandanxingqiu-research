@@ -1,0 +1,373 @@
+[
+  {
+    "name": "auto_gen.package_include.config.ai.ai",
+    "source": "lua2_573512/auto_gen.package_include.config.ai.ai_-5381264594366544858.bin",
+    "sha256": "4b6f1d4c539033e2e3086200010bd83a95cb4dbc8a9877ea56a4008a881d476d",
+    "output": "ai_ai.json",
+    "rows": 23
+  },
+  {
+    "name": "auto_gen.package_include.config.ai_misc.ai_misc",
+    "source": "lua2_573512/auto_gen.package_include.config.ai_misc.ai_misc_-1907924138369248362.bin",
+    "sha256": "fed1d74f32160fc8fdd534806b54e3e92e963dbc227cd8a8337a5d6a02bbba73",
+    "output": "ai_misc_ai_misc.json",
+    "rows": 11
+  },
+  {
+    "name": "auto_gen.package_include.config.attr.attr",
+    "source": "lua10_573512/auto_gen.package_include.config.attr.attr_6524379194116250538.bin",
+    "sha256": "33b50e4f7f03b857f559e4c1419f0f7bc3ee954c6c038f1de4c03ae5c89c3246",
+    "output": "attr_attr.json",
+    "rows": 319
+  },
+  {
+    "name": "auto_gen.package_include.config.attr_rules.attr_rules",
+    "source": "lua0_573512/auto_gen.package_include.config.attr_rules.attr_rules_-3170846133696051336.bin",
+    "sha256": "16e25793ced43305c61b627cdcf5242b48b4f174ac36803b1e6b5d1f82881fa7",
+    "output": "attr_rules_attr_rules.json",
+    "rows": 8
+  },
+  {
+    "name": "auto_gen.package_include.config.battle.battle",
+    "source": "lua0_573512/auto_gen.package_include.config.battle.battle_7650810913316125297.bin",
+    "sha256": "d5c79d9be832b293433a53f53c6227bb79ee8f8d9de94c5e8a6b72e60b3e4d64",
+    "output": "battle_battle.json",
+    "rows": 4652
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_env.battle_env",
+    "source": "lua3_573410/auto_gen.package_include.config.battle_env.battle_env_-3304023530973351208.bin",
+    "sha256": "1840417f13ab9db6f2f36740285decd6f8e669036ab8de7a712c1b314beea707",
+    "output": "battle_env_battle_env.json",
+    "rows": 17
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_gain.battle_gain",
+    "source": "lua10_573512/auto_gen.package_include.config.battle_gain.battle_gain_2076194794762178917.bin",
+    "sha256": "13d8bea3a97d5f112e79587395b1ed165cc34de1fc858a4e5fd122e33c3da035",
+    "output": "battle_gain_battle_gain.json",
+    "rows": 19
+  },
+  {
+    "name": "auto_gen.package_include.config.fight_misc.attr_const",
+    "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_const_5724182061044062260.bin",
+    "sha256": "3b1b85bb3c8934755d1c70781c6cb13fce3bfeb76e7f84ee8a076d5304895309",
+    "output": "fight_misc_attr_const.json",
+    "rows": 279
+  },
+  {
+    "name": "auto_gen.package_include.config.fight_misc.attr_parabola",
+    "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_parabola_-2399016759695687452.bin",
+    "sha256": "471651eeaf0ff7e1ae1eea7b34f1b26ed40b6e1b372e4895d6d5961997a24b26",
+    "output": "fight_misc_attr_parabola.json",
+    "rows": 25
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_misc.free_battle_misc",
+    "source": "lua5_573650/auto_gen.package_include.config.free_battle_misc.free_battle_misc_-7309747630493934129.bin",
+    "sha256": "d5a3644d2428c9d8f9604ad7f7d167e6ae19b36cee31621131acb217b2c3f755",
+    "output": "free_battle_misc_free_battle_misc.json",
+    "rows": 6
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_robot.free_battle_robot",
+    "source": "lua10_573512/auto_gen.package_include.config.free_battle_robot.free_battle_robot_-6766789023708836888.bin",
+    "sha256": "69b88c8c9ef5167a272017bf63dca531dd029f43926f5ef08481895f1bc0e7b3",
+    "output": "free_battle_robot_free_battle_robot.json",
+    "rows": 18
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_misc.ranked_match_misc",
+    "source": "lua11_573512/auto_gen.package_include.config.ranked_match_misc.ranked_match_misc_-822219755955665551.bin",
+    "sha256": "c2f2c94b0adc6a47f8d66ec1187c5f89273c56b8f62f34e7871beb73550356ff",
+    "output": "ranked_match_misc_ranked_match_misc.json",
+    "rows": 29
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_balance.ranked_match_balance",
+    "source": "lua6_573512/auto_gen.package_include.config.ranked_match_balance.ranked_match_balance_6186293995520560723.bin",
+    "sha256": "747881a33c79386a7927ee68d84d9528d544e550396a2034f0bdd3975380cde5",
+    "output": "ranked_match_balance_ranked_match_balance.json",
+    "rows": 288
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank.ranked_match_rank",
+    "source": "lua2_573512/auto_gen.package_include.config.ranked_match_rank.ranked_match_rank_-9128246459267105443.bin",
+    "sha256": "4d46648bf5ecefb7ac1238afc19d933cf3ff4995806cf7baee0815945a8c5bcb",
+    "output": "ranked_match_rank_ranked_match_rank.json",
+    "rows": 16
+  },
+  {
+    "name": "auto_gen.package_include.config.team_misc.team_misc",
+    "source": "lua9_573570/auto_gen.package_include.config.team_misc.team_misc_-8532930946604725789.bin",
+    "sha256": "3a54b259b05e26abee4a9359c200ae78fd992d2a60e76bf1f3cee206f7d393e5",
+    "output": "team_misc_team_misc.json",
+    "rows": 28
+  },
+  {
+    "name": "auto_gen.package_include.config.team_robot_misc.team_robot_misc",
+    "source": "lua11_573512/auto_gen.package_include.config.team_robot_misc.team_robot_misc_-8467507881855056319.bin",
+    "sha256": "b8c35df35d864c30852a0774e7862cb0f7e45e0829cef392201ac6c8f7d29247",
+    "output": "team_robot_misc_team_robot_misc.json",
+    "rows": 10
+  },
+  {
+    "name": "auto_gen.package_include.config.team_robot_invite.team_robot_invite",
+    "source": "lua9_573570/auto_gen.package_include.config.team_robot_invite.team_robot_invite_3751808160450960170.bin",
+    "sha256": "a1fb8eeefb883ac9f23ec62906cf02c860a6f6e4fd5a598269f43ca029c20433",
+    "output": "team_robot_invite_team_robot_invite.json",
+    "rows": 1
+  },
+  {
+    "name": "auto_gen.package_include.config.robot.robot",
+    "source": "lua9_573570/auto_gen.package_include.config.robot.robot_-6740468885951201188.bin",
+    "sha256": "347419da678a85e3548c194081cadd7dedb58c991c1dac04874f9d0ff70b708d",
+    "output": "robot_robot.json",
+    "rows": 196
+  },
+  {
+    "name": "auto_gen.package_include.config.robot_plan.robot_plan",
+    "source": "lua8_573660/auto_gen.package_include.config.robot_plan.robot_plan_-102460580707331558.bin",
+    "sha256": "7278fdd82e7ef2bf7fcf1488487fe1f709e5644fc866e2eb5f07b922e54f43cb",
+    "output": "robot_plan_robot_plan.json",
+    "rows": 91
+  },
+  {
+    "name": "auto_gen.package_include.config.robot_role.robot_role",
+    "source": "lua4_573711/auto_gen.package_include.config.robot_role.robot_role_-5484900240321383016.bin",
+    "sha256": "d0ac4efb7236da739e3999cffa3c87851ef378a4c6e174004780de650f1bde19",
+    "output": "robot_role_robot_role.json",
+    "rows": 606
+  },
+  {
+    "name": "auto_gen.package_include.config.robot_tactic.robot_tactic",
+    "source": "lua12_573512/auto_gen.package_include.config.robot_tactic.robot_tactic_4276629167782459560.bin",
+    "sha256": "c4bafa94ea1639dc426ab332368a1d43e6d9265f6450c1c316b756020416012d",
+    "output": "robot_tactic_robot_tactic.json",
+    "rows": 60
+  },
+  {
+    "name": "auto_gen.package_include.config.robot_tactic.talk_trigger",
+    "source": "lua12_573512/auto_gen.package_include.config.robot_tactic.talk_trigger_3910488443506788739.bin",
+    "sha256": "7e59b7868fc272ff402f736513754428abe41ea26f74f29b4be07b115c3845f5",
+    "output": "robot_tactic_talk_trigger.json",
+    "rows": 210
+  },
+  {
+    "name": "auto_gen.package_include.config.skill.skill",
+    "source": "lua10_573512/auto_gen.package_include.config.skill.skill_-3855228242822240957.bin",
+    "sha256": "c654950a7ebe384595fbbb7688c07ffe8ffb2685f7d93da912f9309bd5cdd761",
+    "output": "skill_skill.json",
+    "rows": 8237
+  },
+  {
+    "name": "auto_gen.package_include.config.passive_skill.passive_skill",
+    "source": "lua12_573512/auto_gen.package_include.config.passive_skill.passive_skill_-4447547219151491031.bin",
+    "sha256": "1e47483db5e16c3f978b1bd03c4521ad215288ca77b3c60a3e8c72a66fbd5137",
+    "output": "passive_skill_passive_skill.json",
+    "rows": 8932
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon.weapon",
+    "source": "lua9_573570/auto_gen.package_include.config.weapon.weapon_3281451056893447273.bin",
+    "sha256": "d22d05922a0e41588180cce711c100b89088ad024e6c183b956296378e0bbfd4",
+    "output": "weapon_weapon.json",
+    "rows": 440
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_job.weapon_job",
+    "source": "lua0_573512/auto_gen.package_include.config.weapon_job.weapon_job_-54631368008830260.bin",
+    "sha256": "a65062a2bb13169d737e2b7ee96accb20ef3347bd9d51d5aee7c5ca2d8b3316c",
+    "output": "weapon_job_weapon_job.json",
+    "rows": 4
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_class.weapon_class",
+    "source": "lua12_573512/auto_gen.package_include.config.weapon_class.weapon_class_2355488305658436498.bin",
+    "sha256": "38b23c634b77fa49d459d045704812207561980f3cee503b9e57c2f3615e020f",
+    "output": "weapon_class_weapon_class.json",
+    "rows": 6
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_strength.weapon_strength",
+    "source": "lua4_573711/auto_gen.package_include.config.weapon_strength.weapon_strength_-7336743213344570781.bin",
+    "sha256": "a53f578340cf893a09c43474d0e52ca156339bed569608cccc1f85e2b0f80f1a",
+    "output": "weapon_strength_weapon_strength.json",
+    "rows": 30
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_injection.weapon_injection",
+    "source": "lua4_573711/auto_gen.package_include.config.weapon_injection.weapon_injection_-8470079135605492675.bin",
+    "sha256": "9e4e1daab52d11fab2c3f494a12049b395e4a5425bed7f14716fd9721aaae345",
+    "output": "weapon_injection_weapon_injection.json",
+    "rows": 7
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_amplification.weapon_amplification_0",
+    "source": "lua1_573660/auto_gen.package_include.config.weapon_amplification.weapon_amplification_0_-8844530509440086220.bin",
+    "sha256": "c5c92022f96a94040e372971019fe3f27b235b1032ece1c3cd24499e3b84441a",
+    "output": "weapon_amplification_weapon_amplification_0.json",
+    "rows": 120
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_amplification.weapon_amplification_543",
+    "source": "lua1_573660/auto_gen.package_include.config.weapon_amplification.weapon_amplification_543_-1414624496891253848.bin",
+    "sha256": "51b25801871a892efb82aff8ea8a6752c9ab0a937a93c1b739918ccd144749ea",
+    "output": "weapon_amplification_weapon_amplification_543.json",
+    "rows": 120
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_enchant.weapon_enchant",
+    "source": "lua1_573660/auto_gen.package_include.config.weapon_enchant.weapon_enchant_6485705223544607537.bin",
+    "sha256": "3ed31c112e855a15b3b0a19e3da05f2b3d3fb7bb0ae96978e7885ce828de228e",
+    "output": "weapon_enchant_weapon_enchant.json",
+    "rows": 12
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_master.weapon_master",
+    "source": "lua11_573512/auto_gen.package_include.config.weapon_master.weapon_master_1027369716023637734.bin",
+    "sha256": "2dcf9c87facbd796d42e53720a5e44704a199b6ef31f3b0b7dd2824b55a09e74",
+    "output": "weapon_master_weapon_master.json",
+    "rows": 25
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_star.weapon_star",
+    "source": "lua3_573410/auto_gen.package_include.config.weapon_star.weapon_star_1240965334873867893.bin",
+    "sha256": "0779988f308fac0b2286308595051b7b5996f999203f1d794f1e3359901d58e0",
+    "output": "weapon_star_weapon_star.json",
+    "rows": 3664
+  },
+  {
+    "name": "auto_gen.package_include.config.pet.pet",
+    "source": "lua8_573660/auto_gen.package_include.config.pet.pet_-6265611510653387117.bin",
+    "sha256": "1f3a0c2f0c8b5ae809292278dc3b1cadf2eca72c6e09042c3a40c0284a96bb4f",
+    "output": "pet_pet.json",
+    "rows": 47
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_level.pet_level",
+    "source": "lua3_573410/auto_gen.package_include.config.pet_level.pet_level_4282987421562277268.bin",
+    "sha256": "50b94f87a1d3c3693ae860220eb27899814274a1dd674c5d502c169705e06bc3",
+    "output": "pet_level_pet_level.json",
+    "rows": 100
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_evo.pet_evo",
+    "source": "lua10_573512/auto_gen.package_include.config.pet_evo.pet_evo_-7908387268857994304.bin",
+    "sha256": "fa04fc014f887d550c0412c9f2ffed87fb2d042869d692f6682a6ddb09caf302",
+    "output": "pet_evo_pet_evo.json",
+    "rows": 621
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_talent.pet_talent",
+    "source": "lua10_573512/auto_gen.package_include.config.pet_talent.pet_talent_-5615147974342739067.bin",
+    "sha256": "42f4a7e1178bd737bcde3201e8f8375a8948f2188f21f177171db30fee285711",
+    "output": "pet_talent_pet_talent.json",
+    "rows": 188
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_misc.pet_misc",
+    "source": "lua1_573660/auto_gen.package_include.config.pet_misc.pet_misc_7925444442480200700.bin",
+    "sha256": "02fd91ded131ed2d3764a963c494b234e1777900e3640bbf52017c760d6af2d7",
+    "output": "pet_misc_pet_misc.json",
+    "rows": 78
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_skill_learn.pet_skill_learn",
+    "source": "lua6_573512/auto_gen.package_include.config.pet_skill_learn.pet_skill_learn_6691653643631672638.bin",
+    "sha256": "c716954aadfda6a0a9627eebff130ec6018ce2a85989d5ba033fb045c709e6ac",
+    "output": "pet_skill_learn_pet_skill_learn.json",
+    "rows": 169
+  },
+  {
+    "name": "auto_gen.package_include.config.gem_level.gem_level",
+    "source": "lua5_573650/auto_gen.package_include.config.gem_level.gem_level_-545740469871129031.bin",
+    "sha256": "5f13e6ceb4e8eacc8dd29e3763e71f7e5fafee23ca678dee8771567f6364b88d",
+    "output": "gem_level_gem_level.json",
+    "rows": 130
+  },
+  {
+    "name": "auto_gen.package_include.config.gem_synthesis.gem_synthesis",
+    "source": "lua1_573660/auto_gen.package_include.config.gem_synthesis.gem_synthesis_8577003611203595421.bin",
+    "sha256": "44703550b5cfcc4a845f8ef59bf125707ae159c61fd7328e0abb3c0651e59d72",
+    "output": "gem_synthesis_gem_synthesis.json",
+    "rows": 1
+  },
+  {
+    "name": "auto_gen.package_include.config.gem_skill.gem_skill",
+    "source": "lua10_573512/auto_gen.package_include.config.gem_skill.gem_skill_-281791411628058003.bin",
+    "sha256": "eaa48f38dbec1581d3f25bc96e7a275ebb1b2707d85a740a314e8a5c6988fd60",
+    "output": "gem_skill_gem_skill.json",
+    "rows": 555
+  },
+  {
+    "name": "auto_gen.package_include.config.equip_strengthen.lv",
+    "source": "lua4_573711/auto_gen.package_include.config.equip_strengthen.lv_807232781908740750.bin",
+    "sha256": "f63d0fdcbe1f4258325ffe396f7082c232f99f5acfbad4e15277c36a30544471",
+    "output": "equip_strengthen_lv.json",
+    "rows": 10
+  },
+  {
+    "name": "auto_gen.package_include.config.equip_skill_level.equip_skill_level_0",
+    "source": "lua6_573512/auto_gen.package_include.config.equip_skill_level.equip_skill_level_0_-6945334963495948057.bin",
+    "sha256": "f59b5cf7a5d837d2f2f3b7c7f51f348b7fd70a2fac1cb256d33dcdbbbbc86807",
+    "output": "equip_skill_level_equip_skill_level_0.json",
+    "rows": 968
+  },
+  {
+    "name": "auto_gen.package_include.config.equip_skill_level.equip_skill_level_543",
+    "source": "lua6_573512/auto_gen.package_include.config.equip_skill_level.equip_skill_level_543_506787438065231238.bin",
+    "sha256": "3f989e224050c3f0136466e1c94b5a1cd4adaae0a26c1f87f7e883e25acdda8c",
+    "output": "equip_skill_level_equip_skill_level_543.json",
+    "rows": 968
+  },
+  {
+    "name": "auto_gen.package_include.config.exp.player",
+    "source": "lua0_573512/auto_gen.package_include.config.exp.player_-7509012538849515948.bin",
+    "sha256": "8dae2f866223dc8f8769e3df5fa05005c8edf953bd20f8e982873c03334da52e",
+    "output": "exp_player.json",
+    "rows": 133
+  },
+  {
+    "name": "auto_gen.package_include.config.team_target.main",
+    "source": "lua11_573512/auto_gen.package_include.config.team_target.main_-7181414498054759974.bin",
+    "sha256": "7f7a3f0b90aca17230cabc019970362c4c509fc2cf2f0a81bf839901268968a3",
+    "output": "team_target_main.json",
+    "rows": 28
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.skill",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.skill_8141256517666560569.bin",
+    "sha256": "d3770631f8cd67be72cd61201f1544091948c61852d80ab5e35b80bc82909e1c",
+    "output": "language_define_skill.json",
+    "rows": 4572
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.passive_skill",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.passive_skill_6504865317392990820.bin",
+    "sha256": "1bbeba67a70d89103c7b35c11e47a6ccce7222031a46cbb9428baca8f5dc5ed8",
+    "output": "language_define_passive_skill.json",
+    "rows": 6966
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.attr",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.attr_5636121154245280958.bin",
+    "sha256": "b05cbaaac1df439aa5cddbfa6ec53a2c48ef329caf914c04bddba12ad938bb5e",
+    "output": "language_define_attr.json",
+    "rows": 463
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.battle_env",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.battle_env_-144790164303758964.bin",
+    "sha256": "320b830f5ab42c168870ffae6d08c7cbc105db024e26a118098db981f2e7a094",
+    "output": "language_define_battle_env.json",
+    "rows": 29
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.weapon_class",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.weapon_class_948409280418659139.bin",
+    "sha256": "0c98d12164ba52979113dd9dd8c2a1f6068d6a7c395ee7a6acf66a8fd5fe7852",
+    "output": "language_define_weapon_class.json",
+    "rows": 12
+  }
+]

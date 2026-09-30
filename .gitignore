@@ -3,3 +3,4 @@ vendor/LuaDecompy/
 vendor/luadec51/
 **/__pycache__/
 *.pyc
+.research-deps/

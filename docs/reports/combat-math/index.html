@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="《弹弹星球》局内计算与操作客户端代码研究。发炮字段、弹道、天气和伤害边界">
+<title>局内计算与操作 · 弹弹星球代码研究</title><link rel="stylesheet" href="../../assets/site.css"></head>
+<body><div class="site-shell">
+<aside class="sidebar"><a class="brand" href="../../index.html"><b>弹弹星球</b><small>本机代码研究 · 缓存版 242</small></a>
+<div class="nav-caption">研究专题</div><nav class="report-nav"><a class="" href="../systems/index.html"><span>01</span>外围系统</a>
+<a class="" href="../growth/index.html"><span>02</span>成长系统</a>
+<a class="" href="../matching/index.html"><span>03</span>匹配系统</a>
+<a class="" href="../battle/index.html"><span>04</span>局内流程</a>
+<a class="current" href="../combat-math/index.html"><span>05</span>局内计算与操作</a>
+<a class="" href="../skills/index.html"><span>06</span>技能与数值</a>
+<a class="" href="../robots/index.html"><span>07</span>机器人与 AI</a>
+<a class="" href="../growth-numbers/index.html"><span>08</span>局外成长数值</a></nav>
+<div class="nav-caption section-caption">本页章节</div><nav class="toc"><a href="#一次发炮究竟提交什么">一次发炮究竟提交什么</a>
+<a href="#瞄准与力度参数">瞄准与力度参数</a>
+<a href="#客户端能看到的轨迹计算">客户端能看到的轨迹计算</a>
+<a href="#战场环境会改什么">战场环境会改什么</a>
+<a href="#伤害暴击与生命哪些公式拿得到">伤害、暴击与生命：哪些公式拿得到</a>
+<a href="#局内操作状态与失败条件">局内操作状态与失败条件</a></nav>
+<div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/combat-math.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
+<main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 05 / 08 · 客户端源码</div><h1>局内计算与操作</h1><p>发炮字段、弹道、天气和伤害边界</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
+<article class="prose"><h1 id="局内计算与操作输入弹道伤害边界">局内计算与操作：输入、弹道、伤害边界</h1>
+<p>本页从<strong>原始字节码重新执行导出的配置</strong>与战斗 Lua 调用链出发。数值均属于版本 242 的客户端快照。配置常量不能直接冒充服务器的最终伤害公式；下文分别标记“客户端实际运算”“配置参数”“服务端待证”。完整表见 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/manifest.json">配置导出清单</a>；执行器见 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/tools/extract_config_tables.py">提取脚本</a>。</p>
+<h2 id="一次发炮究竟提交什么">一次发炮究竟提交什么</h2>
+<p><code>send_fire_cmd</code> 组装 <code>battle_seq_cmd_c2s</code>：<code>round</code>、<code>type=1</code>、<code>angle</code>、<code>force</code>、<code>pos</code>、<code>from_pos</code>、<code>direction</code>、<code>force_type</code>、<code>land_angle</code>、<code>fire_buff_pos</code>、<code>force_aim_type</code>。独立用技能是 <code>type=2</code>、<code>ask_skill.cf_skill_id</code>。客户端并非仅上传“命中目标”；方向、力度和起点均进入请求。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua#L10">发送代码</a></p>
+<p>服务端返回的 <code>battle_seq_cmd_s2c</code> 可能分批（<code>batch_index/batch_total</code>），客户端合并 <code>node_list</code> 后按 <code>type</code> 分派：1 发炮、2 技能、3 特殊子弹、100/101 其他弹体事件。弹体节点还按 <code>bullet_fly_time</code> 和 <code>_order</code> 排序。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua#L50">回包解析</a> 因此“由客户端计算出命中和伤害”不成立；可确认的是客户端计算预览和本地表现，并执行服务端节点。</p>
+<h2 id="瞄准与力度参数">瞄准与力度参数</h2>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th style="text-align: right;">缓存值</th>
+<th>含义与证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>round_action_time</code></td>
+<td style="text-align: right;">15</td>
+<td>默认行动时间配置，不等于所有模式真实回合时长。</td>
+</tr>
+<tr>
+<td><code>fire_max_force</code></td>
+<td style="text-align: right;">100</td>
+<td>力度上限常量。</td>
+</tr>
+<tr>
+<td><code>fire_power_grow_speed</code></td>
+<td style="text-align: right;">5500</td>
+<td>蓄力增长参数，单位及最终换算须看调用处。</td>
+</tr>
+<tr>
+<td><code>battle_fire_force_factor</code></td>
+<td style="text-align: right;">20</td>
+<td>发射力度系数。</td>
+</tr>
+<tr>
+<td><code>recommend_power_range</code> / <code>range2</code></td>
+<td style="text-align: right;">30 / 15</td>
+<td>推荐力度范围参数。</td>
+</tr>
+<tr>
+<td><code>max_walk_angle</code></td>
+<td style="text-align: right;">56</td>
+<td>移动坡角相关阈值。</td>
+</tr>
+<tr>
+<td><code>bullet_g</code> / <code>bullet_r</code> / <code>bullet_w</code> / <code>bullet_t</code></td>
+<td style="text-align: right;">-172 / 0.9 / 5.87 / 0.6</td>
+<td>弹体常量；不将它们拼成未经验证的全局物理公式。</td>
+</tr>
+</tbody>
+</table>
+<p>来自 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/fight_misc_attr_const.json">fight_misc 原表</a>。另有角度快捷提示字符串：20°；30°±风；50°±2×风；65°±2×风。它是<strong>界面辅助表达式</strong>，并非命中保证。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/fight_misc_attr_const.json">同表</a></p>
+<table>
+<thead>
+<tr>
+<th>角度</th>
+<th>配置的 20 个力度样本（前 5 / 后 5）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20°</td>
+<td>8, 16, 23, 28, 33 / 68, 70, 72, 75, 77</td>
+</tr>
+<tr>
+<td>30°</td>
+<td>8, 15, 21, 26, 30 / 60, 62, 65, 67, 69</td>
+</tr>
+<tr>
+<td>50°</td>
+<td>9, 16, 21, 26, 30 / 60, 62, 64, 66, 68</td>
+</tr>
+<tr>
+<td>65°</td>
+<td>11, 19, 26, 31, 35 / 72, 74, 77, 80, 82</td>
+</tr>
+</tbody>
+</table>
+<p>推荐线还有 <code>line_min_power_base=70</code>、<code>line_max_power_base=95</code>、<code>line_min_power_rate=0.85</code>、<code>line_max_power_rate=0.75</code>、<code>line_max_fire_range=380</code>、<code>parabola_angle_fix_range=10</code>。这些是 UI/辅助瞄准配置，<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/fight_misc_attr_parabola.json">原表</a>；推荐力度计算模块会检查当前控制单位、回合状态、锁定目标，形成 <code>recommand_forces</code>，<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L81">调用链</a>。</p>
+<h2 id="客户端能看到的轨迹计算">客户端能看到的轨迹计算</h2>
+<p>普通抛物线在客户端按 <code>x=floor(x0+v0x·t+0.5·ax·t²)</code>、<code>y=floor(y0+v0y·t+0.5·ay·t²)</code> 更新位置。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua#L52">轨迹代码</a> 物理环境的逐帧轨迹另用 <code>pos += v·dt</code>，更新速度 <code>v += a·dt</code>，横向加速度取 <code>(外力−阻力·vx)/质量</code> 后保留三位小数。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua#L64">同文件</a> 游戏还有直线、贝塞尔与自由落体路径，不能用单一抛物线概括全部武器。</p>
+<p>回合代码把风值乘 0.1 成为 <code>cur_wind</code>，再乘 <code>wind_power_factor</code> 和 <code>weather_factor</code> 得 <code>wind_factor</code>。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua">风处理</a> 战斗表对一些场景给 <code>gravity=10</code>、<code>wind_power_factor=240</code>、<code>weather_factor=1</code>、<code>air_resistance_factor=1</code>；这是<strong>该行场景</strong>值，并非全模式通用。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/battle_battle.json">战斗配置</a></p>
+<h2 id="战场环境会改什么">战场环境会改什么</h2>
+<table>
+<thead>
+<tr>
+<th>环境 ID</th>
+<th>参数</th>
+<th>可确认范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 磁暴</td>
+<td><code>parabola_change_rate=2</code>、<code>add_speed_rate=18000</code></td>
+<td>弹道/速度参数存在；实际应用分支需结合环境实现。</td>
+</tr>
+<tr>
+<td>2 狂风</td>
+<td><code>wild_wind_rate=2000</code>、<code>wild_wind_round=3</code>、普通风 <code>[40,60]</code>、狂风 <code>[80,100]</code></td>
+<td>配置的天气参数；<code>2000</code> 不直接解释成 20% 除非调用处证实。</td>
+</tr>
+<tr>
+<td>8 冰雪</td>
+<td>被动技能 ID <code>[393,394,395,396]</code></td>
+<td>环境附加技能表。</td>
+</tr>
+<tr>
+<td>12 魔法飞毯</td>
+<td>被动技能 ID <code>[617]</code></td>
+<td>环境附加技能表。</td>
+</tr>
+<tr>
+<td>16 磁力鞋</td>
+<td>被动技能 ID <code>[639]</code></td>
+<td>环境附加技能表。</td>
+</tr>
+<tr>
+<td>17 音乐节</td>
+<td>被动技能 ID <code>[648,651]</code></td>
+<td>环境附加技能表。</td>
+</tr>
+</tbody>
+</table>
+<p>数据见 <a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/battle_env_battle_env.json">battle_env 原表</a>。自由对战可选环境 ID 为 <code>1–8,11–14,16,17</code>，另有三组地图池与 <code>free_battle_time_list=[10,15,20]</code>。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/free_battle_misc_free_battle_misc.json">自由对战配置</a></p>
+<h2 id="伤害暴击与生命哪些公式拿得到">伤害、暴击与生命：哪些公式拿得到</h2>
+<p>属性表确认 ID 1 攻击、2 防御、11 最大生命、12 伤害、13 减伤、101 暴击率、103 暴击伤害、121 抗暴击、122 暴伤减免、131 伤害提升、134 伤害减免、139 物理增伤、143 法术增伤。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/attr_attr.json">属性定义与中文</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/language_define_attr.json">语言表</a>。<code>fight_misc</code> 同时给 <code>dmg_random_r=0.02</code>、<code>crit_dmg_min_k=1.25</code>、<code>crit_dmg_max_k=2</code>、<code>min_dmg_k=0.1</code>、<code>shield_dmg_min_k=0.1</code>、<code>break_def_min_par=0.1</code>。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/fight_misc_attr_const.json">常量</a></p>
+<p><strong>不能</strong>把这些常量直接写成“最终伤害 = 攻击×技能倍率×随机×暴击−防御”。缓存里没有足以闭合每一步的权威服务端伤害调用链，具体取整顺序、减伤叠加、护盾优先级和随机种子均未证实。客户端 <code>unit.attrs</code> 处理服务端属性更新，并将本地生命增加夹到 <code>max_hp</code>、生命减少夹到 0；那是展示状态维护，不是服务器结算公式。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-bytecode/lua4_573711/game.module.fight.manager.base.fighting.unit.attrs_-6891889581371411036.bin">属性模块原字节码</a></p>
+<h2 id="局内操作状态与失败条件">局内操作状态与失败条件</h2>
+<p>施法前客户端检查：战斗状态 <code>attack</code>、当前行动者、<code>round_status.action</code>、自动战斗状态、沉默/禁用、固定与重复回合限制、每回合和每场次数、冷却以及费用。冰冻原型在重复回合被禁止；固定 1005 位移技能在定身时被拒。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L177">技能校验</a> 成功请求后仍要等待服务器消息确认并更新费用/CD；本地“按钮可点”不等于服务器接受。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

@@ -1,0 +1,131 @@
+{
+  "line_color_change": {
+    "key": "line_color_change",
+    "value": [
+      0,
+      120,
+      180,
+      240
+    ]
+  },
+  "line_camera_expand_val": {
+    "key": "line_camera_expand_val",
+    "value": 1.5
+  },
+  "parabola_color_change_battle": {
+    "key": "parabola_color_change_battle",
+    "value": [
+      220000230
+    ]
+  },
+  "hit_teammate_skill_prototype_id": {
+    "key": "hit_teammate_skill_prototype_id",
+    "value": {
+      "333102": true,
+      "312104": true,
+      "332101": true,
+      "326102": true,
+      "334103": true
+    }
+  },
+  "line_max_power_rate": {
+    "key": "line_max_power_rate",
+    "value": 0.75
+  },
+  "line_camera_expand_range_max": {
+    "key": "line_camera_expand_range_max",
+    "value": 50
+  },
+  "line_max_power_rate_month": {
+    "key": "line_max_power_rate_month",
+    "value": 0.75
+  },
+  "line_min_power_base_month": {
+    "key": "line_min_power_base_month",
+    "value": 70
+  },
+  "parabola_distance_to_power_ranges": {
+    "key": "parabola_distance_to_power_ranges",
+    "value": [
+      [
+        0,
+        80,
+        10,
+        90
+      ],
+      [
+        80,
+        100,
+        90,
+        100
+      ]
+    ]
+  },
+  "parabola_unit_ellipse_portrait_raduis": {
+    "key": "parabola_unit_ellipse_portrait_raduis",
+    "value": 100
+  },
+  "line_max_power_base": {
+    "key": "line_max_power_base",
+    "value": 95
+  },
+  "line_cancel_range": {
+    "key": "line_cancel_range",
+    "value": 80
+  },
+  "parabola_unit_ellipse_horizontal_raduis": {
+    "key": "parabola_unit_ellipse_horizontal_raduis",
+    "value": 80
+  },
+  "soul_speed": {
+    "key": "soul_speed",
+    "value": 0.3
+  },
+  "line_max_length": {
+    "key": "line_max_length",
+    "value": 400
+  },
+  "line_max_power_base_month": {
+    "key": "line_max_power_base_month",
+    "value": 95
+  },
+  "line_min_power_base": {
+    "key": "line_min_power_base",
+    "value": 70
+  },
+  "parabola_angle_fix_range": {
+    "key": "parabola_angle_fix_range",
+    "value": 10
+  },
+  "line_camera_expand_time": {
+    "key": "line_camera_expand_time",
+    "value": 0.4
+  },
+  "line_camera_expand_range_min": {
+    "key": "line_camera_expand_range_min",
+    "value": 25
+  },
+  "line_min_power_rate": {
+    "key": "line_min_power_rate",
+    "value": 0.85
+  },
+  "parabola_touch_size": {
+    "key": "parabola_touch_size",
+    "value": [
+      800,
+      800
+    ]
+  },
+  "line_rate_change_max_per_angle": {
+    "key": "line_rate_change_max_per_angle",
+    "value": 0.01
+  },
+  "line_max_fire_range": {
+    "key": "line_max_fire_range",
+    "value": 380
+  },
+  "line_min_power_rate_month": {
+    "key": "line_min_power_rate_month",
+    "value": 0.85
+  }
+}

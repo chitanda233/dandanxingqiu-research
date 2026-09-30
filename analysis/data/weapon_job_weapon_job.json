@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "weapon_id": 2401010101,
+    "icon": "attack",
+    "name": "AUTO_GEN_weapon_job_weapon_job_name_1"
+  },
+  {
+    "id": 2,
+    "weapon_id": 1101011003,
+    "icon": "mobility",
+    "name": "AUTO_GEN_weapon_job_weapon_job_name_2"
+  },
+  {
+    "id": 3,
+    "weapon_id": 2401030101,
+    "icon": "healer",
+    "name": "AUTO_GEN_weapon_job_weapon_job_name_3"
+  },
+  {
+    "id": 4,
+    "weapon_id": 2401040101,
+    "icon": "defend",
+    "name": "AUTO_GEN_weapon_job_weapon_job_name_4"
+  }
+]

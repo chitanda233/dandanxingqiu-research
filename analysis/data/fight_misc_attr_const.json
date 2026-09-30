@@ -1,0 +1,1884 @@
+{
+  "monster_drop_gold_pos_range": {
+    "key": "monster_drop_gold_pos_range",
+    "value": 100
+  },
+  "pet_enter_effect": {
+    "key": "pet_enter_effect",
+    "value": [
+      602501,
+      602502,
+      602503,
+      602504,
+      602505,
+      602506,
+      602507,
+      ""
+    ]
+  },
+  "faction_restrain_list": {
+    "key": "faction_restrain_list",
+    "value": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "pow_k1": {
+    "key": "pow_k1",
+    "value": 0
+  },
+  "card_ext_lvl": {
+    "key": "card_ext_lvl",
+    "value": 0
+  },
+  "spec_bullet_speed_min": {
+    "key": "spec_bullet_speed_min",
+    "value": 1000
+  },
+  "card_time": {
+    "key": "card_time",
+    "value": 10
+  },
+  "skill_damage_button_color": {
+    "key": "skill_damage_button_color",
+    "value": [
+      [
+        1,
+        "common_tag2_red"
+      ],
+      [
+        2,
+        "common_tag2_purple"
+      ],
+      [
+        3,
+        "common_tag2_yellow"
+      ]
+    ]
+  },
+  "bullet_pursuit_effs": {
+    "key": "bullet_pursuit_effs",
+    "value": [
+      [
+        3,
+        10000009
+      ],
+      [
+        6,
+        10000010
+      ],
+      [
+        99,
+        10000011
+      ]
+    ]
+  },
+  "angle_30_powers": {
+    "key": "angle_30_powers",
+    "value": [
+      8,
+      15,
+      21,
+      26,
+      30,
+      34,
+      37,
+      40,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      58,
+      60,
+      62,
+      65,
+      67,
+      69
+    ]
+  },
+  "newbie_guide_delay": {
+    "key": "newbie_guide_delay",
+    "value": 1000
+  },
+  "battle_skill_show_max": {
+    "key": "battle_skill_show_max",
+    "value": 4
+  },
+  "min_dmg_pct_add_all": {
+    "key": "min_dmg_pct_add_all",
+    "value": 0.1
+  },
+  "ps_tips_offset_poses_left": {
+    "key": "ps_tips_offset_poses_left",
+    "value": [
+      [
+        1,
+        0.2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2.2,
+        0.2
+      ]
+    ]
+  },
+  "ps_tips_offset_poses_right": {
+    "key": "ps_tips_offset_poses_right",
+    "value": [
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        0.2
+      ],
+      [
+        -0.2,
+        2
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "weight_prop_ps_skill_list_limit": {
+    "key": "weight_prop_ps_skill_list_limit",
+    "value": [
+      1500,
+      [
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1019
+      ]
+    ]
+  },
+  "quick_reply_rewards": {
+    "key": "quick_reply_rewards",
+    "value": [
+      1001010001,
+      500
+    ]
+  },
+  "need_confirm_aimtype_battle": {
+    "key": "need_confirm_aimtype_battle",
+    "value": [
+      102030001
+    ]
+  },
+  "physics_obstacle_ke_factor": {
+    "key": "physics_obstacle_ke_factor",
+    "value": 500
+  },
+  "player_drop_gold_num": {
+    "key": "player_drop_gold_num",
+    "value": [
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "pla_item_offset": {
+    "key": "pla_item_offset",
+    "value": [
+      0,
+      0.45
+    ]
+  },
+  "summon_mon_do_not_drop_play": {
+    "key": "summon_mon_do_not_drop_play",
+    "value": [
+      206
+    ]
+  },
+  "drop_offset_max": {
+    "key": "drop_offset_max",
+    "value": 200
+  },
+  "soul_recover_valid_dis": {
+    "key": "soul_recover_valid_dis",
+    "value": 100
+  },
+  "dungeons_first_pass_open_roomview_select_pvp": {
+    "key": "dungeons_first_pass_open_roomview_select_pvp",
+    "value": {
+      "202010102": true,
+      "202010202": true
+    }
+  },
+  "interval_for_wait_to_play_sp_idle": {
+    "key": "interval_for_wait_to_play_sp_idle",
+    "value": {
+      "min": 1000,
+      "max": 11000
+    }
+  },
+  "weight_prop_ps_skill_list": {
+    "key": "weight_prop_ps_skill_list",
+    "value": [
+      1001,
+      1002,
+      1004,
+      1008,
+      1016,
+      1017
+    ]
+  },
+  "command_response_time": {
+    "key": "command_response_time",
+    "value": 10
+  },
+  "camera_follow_bullet_px": {
+    "key": "camera_follow_bullet_px",
+    "value": 1
+  },
+  "pet_summon_lvl_limit": {
+    "key": "pet_summon_lvl_limit",
+    "value": 10
+  },
+  "dungeons_first_pass_enter_next_dungeoon": {
+    "key": "dungeons_first_pass_enter_next_dungeoon",
+    "value": {
+      "202010101": true,
+      "202010103": true,
+      "20201010202": true,
+      "202010201": true
+    }
+  },
+  "bullet_water_self_fx": {
+    "key": "bullet_water_self_fx",
+    "value": [
+      400000
+    ]
+  },
+  "min_mon_power_k": {
+    "key": "min_mon_power_k",
+    "value": 0.8
+  },
+  "delay_time_k": {
+    "key": "delay_time_k",
+    "value": 8
+  },
+  "command_recoup_buff": {
+    "key": "command_recoup_buff",
+    "value": 39
+  },
+  "pursuit_cor": {
+    "key": "pursuit_cor",
+    "value": 0.2
+  },
+  "battle_ball_damping_scale": {
+    "key": "battle_ball_damping_scale",
+    "value": 5000
+  },
+  "wakan_area_allow_radius": {
+    "key": "wakan_area_allow_radius",
+    "value": 500
+  },
+  "monster_drop_gold_num": {
+    "key": "monster_drop_gold_num",
+    "value": [
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "soul_skill_round_max": {
+    "key": "soul_skill_round_max",
+    "value": 2
+  },
+  "water_resistance": {
+    "key": "water_resistance",
+    "value": 5000
+  },
+  "default_skill": {
+    "key": "default_skill"
+  },
+  "pet_damage_stat_show_battles": {
+    "key": "pet_damage_stat_show_battles",
+    "value": [
+      224100001
+    ]
+  },
+  "fr_dmg_k": {
+    "key": "fr_dmg_k",
+    "value": 0.9
+  },
+  "command_visible_detect_range": {
+    "key": "command_visible_detect_range",
+    "value": 75
+  },
+  "bullet_guide_eff_id": {
+    "key": "bullet_guide_eff_id",
+    "value": 800014
+  },
+  "recommend_power_range": {
+    "key": "recommend_power_range",
+    "value": 30
+  },
+  "use_skill_fx": {
+    "key": "use_skill_fx",
+    "value": 300001
+  },
+  "audio_die": {
+    "key": "audio_die",
+    "value": "sd_2009"
+  },
+  "pick_skill_animation_time": {
+    "key": "pick_skill_animation_time",
+    "value": 0.3
+  },
+  "skill_camera_fx": {
+    "key": "skill_camera_fx",
+    "value": 500001
+  },
+  "bullet_g": {
+    "key": "bullet_g",
+    "value": -172
+  },
+  "add_angle_speed": {
+    "key": "add_angle_speed",
+    "value": 25
+  },
+  "soul_scale": {
+    "key": "soul_scale",
+    "value": 70
+  },
+  "fly_move_delat_y": {
+    "key": "fly_move_delat_y",
+    "value": 50
+  },
+  "quick_reply_delay_range": {
+    "key": "quick_reply_delay_range",
+    "value": [
+      0.5,
+      4
+    ]
+  },
+  "newbie_equipshow_round_wait": {
+    "key": "newbie_equipshow_round_wait",
+    "value": [
+      206000001,
+      206000002,
+      206000003
+    ]
+  },
+  "wakan_limit": {
+    "key": "wakan_limit",
+    "value": 999
+  },
+  "pve_loading_random_bgs": {
+    "key": "pve_loading_random_bgs",
+    "value": [
+      "HDBG/pveprepare_random_loading13"
+    ]
+  },
+  "final_dmg_contk": {
+    "key": "final_dmg_contk",
+    "value": 1
+  },
+  "battle_attr_ctl_ps_list": {
+    "key": "battle_attr_ctl_ps_list",
+    "value": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1018,
+      1019,
+      10051,
+      600,
+      10061
+    ]
+  },
+  "dungeon_invade_model_replace_by_activity": {
+    "key": "dungeon_invade_model_replace_by_activity",
+    "value": [
+      [
+        2700,
+        [
+          "m031011",
+          "m031071"
+        ],
+        [
+          "m033011",
+          "m031081"
+        ],
+        [
+          "m034011",
+          "m031091"
+        ]
+      ]
+    ]
+  },
+  "robot_battle_power_range": {
+    "key": "robot_battle_power_range",
+    "value": [
+      9000,
+      11000
+    ]
+  },
+  "ghost_avatar_spine": {
+    "key": "ghost_avatar_spine",
+    "value": [
+      109001099020,
+      109001099020
+    ]
+  },
+  "robot_ban_passiveskill": {
+    "key": "robot_ban_passiveskill",
+    "value": [
+      [
+        0,
+        [
+          37,
+          110029,
+          110035,
+          43,
+          110020,
+          110040
+        ]
+      ]
+    ]
+  },
+  "eff_bear_harm": {
+    "key": "eff_bear_harm",
+    "value": 700001
+  },
+  "camera_max_hor": {
+    "key": "camera_max_hor",
+    "value": 1500
+  },
+  "fire_power_grow_speed": {
+    "key": "fire_power_grow_speed",
+    "value": 5500
+  },
+  "ui_quick_20_angle_2": {
+    "key": "ui_quick_20_angle_2",
+    "value": [
+      "20"
+    ]
+  },
+  "newbie_pvp_weapon_change": {
+    "key": "newbie_pvp_weapon_change",
+    "value": [
+      20,
+      [
+        102,
+        103
+      ],
+      1101015211,
+      [
+        [
+          1,
+          1101012211
+        ],
+        [
+          2,
+          1101013211
+        ],
+        [
+          3,
+          1101014211
+        ]
+      ]
+    ]
+  },
+  "camera_min_hor": {
+    "key": "camera_min_hor",
+    "value": 500
+  },
+  "robot_pvp_more_d": {
+    "key": "robot_pvp_more_d",
+    "value": 1300
+  },
+  "open_func_passive_skill": {
+    "key": "open_func_passive_skill",
+    "value": [
+      [
+        2231,
+        186
+      ],
+      [
+        2232,
+        187
+      ]
+    ]
+  },
+  "battle_unit_hp_offset": {
+    "key": "battle_unit_hp_offset",
+    "value": [
+      0,
+      -40,
+      0
+    ]
+  },
+  "eff_bear_born": {
+    "key": "eff_bear_born",
+    "value": 700002
+  },
+  "unit_move_vit_cost": {
+    "key": "unit_move_vit_cost",
+    "value": 1
+  },
+  "balance_speed_rand_server_list": {
+    "key": "balance_speed_rand_server_list",
+    "value": [
+      2345,
+      2355,
+      2365,
+      2405,
+      2410,
+      2415,
+      2420,
+      2425,
+      2430
+    ]
+  },
+  "shield_reversal_cor": {
+    "key": "shield_reversal_cor",
+    "value": 0.125
+  },
+  "season_battle_id_jump_to": {
+    "key": "season_battle_id_jump_to",
+    "value": {
+      "103010013": [
+        "MainView"
+      ],
+      "103010015": [
+        "MainView"
+      ]
+    }
+  },
+  "newbie_hide_task_min_dungeon": {
+    "key": "newbie_hide_task_min_dungeon",
+    "value": 206000003
+  },
+  "mdef_k": {
+    "key": "mdef_k",
+    "value": 1
+  },
+  "harm_perform_delay": {
+    "key": "harm_perform_delay",
+    "value": 200
+  },
+  "newbie_equip_autodecom_class": {
+    "key": "newbie_equip_autodecom_class",
+    "value": [
+      1,
+      2
+    ]
+  },
+  "fix_skills": {
+    "key": "fix_skills",
+    "value": [
+      1005,
+      1001
+    ]
+  },
+  "max_pct_par_2": {
+    "key": "max_pct_par_2",
+    "value": 1.5
+  },
+  "ultimate_model_bg_pos_enemy": {
+    "key": "ultimate_model_bg_pos_enemy",
+    "value": {
+      "y": -1.5,
+      "x": 1.5,
+      "z": 20
+    }
+  },
+  "throw_boom_path": {
+    "key": "throw_boom_path",
+    "value": "body/Rhand"
+  },
+  "drop_eff_common_scale": {
+    "key": "drop_eff_common_scale",
+    "value": 1.7
+  },
+  "battle_ball_stop_speed": {
+    "key": "battle_ball_stop_speed",
+    "value": 11
+  },
+  "lv_atk_k2": {
+    "key": "lv_atk_k2",
+    "value": 0.25
+  },
+  "break_def_min_par": {
+    "key": "break_def_min_par",
+    "value": 0.1
+  },
+  "player_default_height": {
+    "key": "player_default_height",
+    "value": 500
+  },
+  "unit_special_loop_anis": {
+    "key": "unit_special_loop_anis",
+    "value": {
+      "2300302": {
+        "hurt": true
+      },
+      "2300301": {
+        "hurt": true
+      },
+      "41301106": {
+        "skill5": true,
+        "skill4": true
+      }
+    }
+  },
+  "skill_background_fx": {
+    "key": "skill_background_fx",
+    "value": 500002
+  },
+  "model_zoom": {
+    "key": "model_zoom",
+    "value": 0.6
+  },
+  "base_delay": {
+    "key": "base_delay",
+    "value": 2000
+  },
+  "delay_atk_k": {
+    "key": "delay_atk_k",
+    "value": 0.1
+  },
+  "newbie_weapon_show_dungeon": {
+    "key": "newbie_weapon_show_dungeon",
+    "value": [
+      206000001,
+      206000002,
+      206000003,
+      206000004,
+      206000005
+    ]
+  },
+  "weapon_action_fx": {
+    "key": "weapon_action_fx",
+    "value": 500008
+  },
+  "round_friend_be_hurt_command_energy": {
+    "key": "round_friend_be_hurt_command_energy",
+    "value": 30
+  },
+  "ui_float_shield_offset": {
+    "key": "ui_float_shield_offset",
+    "value": [
+      [
+        -0.2,
+        0.1
+      ],
+      [
+        0.2,
+        0.2
+      ]
+    ]
+  },
+  "newbie_substitute_dungeon": {
+    "key": "newbie_substitute_dungeon",
+    "value": [
+      206000001,
+      206000002,
+      206000003
+    ]
+  },
+  "fire_will_hit_land_range": {
+    "key": "fire_will_hit_land_range",
+    "value": 70
+  },
+  "fr_dmg_spec_k": {
+    "key": "fr_dmg_spec_k",
+    "value": [
+      [
+        102030001,
+        0.1
+      ],
+      [
+        102030002,
+        0.1
+      ],
+      [
+        102030003,
+        0.1
+      ],
+      [
+        102030004,
+        0.1
+      ],
+      [
+        102030005,
+        0.1
+      ],
+      [
+        102030006,
+        0.1
+      ],
+      [
+        102030007,
+        0.1
+      ],
+      [
+        102030008,
+        0.1
+      ],
+      [
+        102030009,
+        0.1
+      ]
+    ]
+  },
+  "ai_reply_exclude": {
+    "key": "ai_reply_exclude",
+    "value": [
+      102030001,
+      102030002,
+      102030003,
+      102030004,
+      102030005,
+      102030006,
+      102030007,
+      102030008,
+      102030009,
+      102000013,
+      102000015,
+      102000020,
+      406000005
+    ]
+  },
+  "camera_follow_bullet_range": {
+    "key": "camera_follow_bullet_range",
+    "value": [
+      10,
+      5.64
+    ]
+  },
+  "fight_speed": {
+    "key": "fight_speed",
+    "value": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1.5
+      ],
+      [
+        3,
+        1.75
+      ]
+    ]
+  },
+  "gold_drop_ani_params": {
+    "key": "gold_drop_ani_params",
+    "value": [
+      2.5,
+      2,
+      6,
+      -9.8
+    ]
+  },
+  "battle_ball_speed_info": {
+    "key": "battle_ball_speed_info",
+    "value": [
+      99,
+      100
+    ]
+  },
+  "skill_order": {
+    "key": "skill_order",
+    "value": [
+      101,
+      103,
+      102,
+      109,
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  "player_drop_gold_pos_range": {
+    "key": "player_drop_gold_pos_range",
+    "value": 150
+  },
+  "fly_battle_tactic_list": {
+    "key": "fly_battle_tactic_list",
+    "value": [
+      11
+    ]
+  },
+  "camera_zoom_width_on_holding_fire": {
+    "key": "camera_zoom_width_on_holding_fire",
+    "value": 2000
+  },
+  "pow_k2": {
+    "key": "pow_k2",
+    "value": 0.001
+  },
+  "enhance_season_min_cup": {
+    "key": "enhance_season_min_cup",
+    "value": 500000
+  },
+  "bullet_r": {
+    "key": "bullet_r",
+    "value": 0.9
+  },
+  "min_pow_k": {
+    "key": "min_pow_k",
+    "value": 0.3
+  },
+  "skill_blow_up_g": {
+    "key": "skill_blow_up_g",
+    "value": -1200
+  },
+  "hole_deep_rate": {
+    "key": "hole_deep_rate",
+    "value": [
+      5000,
+      14000,
+      1
+    ]
+  },
+  "cal_angle_point_sample_count": {
+    "key": "cal_angle_point_sample_count",
+    "value": 20
+  },
+  "eff_energy_enough": {
+    "key": "eff_energy_enough",
+    "value": 10009
+  },
+  "fight_chat_open_dungeon": {
+    "key": "fight_chat_open_dungeon",
+    "value": 202010201
+  },
+  "wakan_cnt_limit": {
+    "key": "wakan_cnt_limit",
+    "value": 10
+  },
+  "black_hole_add_attr": {
+    "key": "black_hole_add_attr",
+    "value": {
+      "231": 5000
+    }
+  },
+  "normal_atk_delay": {
+    "key": "normal_atk_delay",
+    "value": 200
+  },
+  "OffsetDmgK1": {
+    "key": "OffsetDmgK1",
+    "value": 0.95
+  },
+  "ui_cure_floatblood_offset": {
+    "key": "ui_cure_floatblood_offset",
+    "value": [
+      [
+        -0.3,
+        0.05
+      ],
+      [
+        0.3,
+        0.3
+      ]
+    ]
+  },
+  "tempest_bullet_wait_born_time": {
+    "key": "tempest_bullet_wait_born_time",
+    "value": 1000
+  },
+  "min_player_power_k": {
+    "key": "min_player_power_k",
+    "value": 0.8
+  },
+  "drop_offset_gap": {
+    "key": "drop_offset_gap",
+    "value": 25
+  },
+  "max_round_cnt": {
+    "key": "max_round_cnt",
+    "value": 500
+  },
+  "quick_reply_reward_day_times": {
+    "key": "quick_reply_reward_day_times",
+    "value": 30
+  },
+  "ultimate_model_bg_pos_partner": {
+    "key": "ultimate_model_bg_pos_partner",
+    "value": {
+      "y": -1.5,
+      "x": -1.5,
+      "z": 20
+    }
+  },
+  "fire_max_force": {
+    "key": "fire_max_force",
+    "value": 100
+  },
+  "duel_battles": {
+    "key": "duel_battles",
+    "value": [
+      110000001,
+      110000002
+    ]
+  },
+  "total_damage_hide_delay": {
+    "key": "total_damage_hide_delay",
+    "value": 2000
+  },
+  "skin_delay_battle": {
+    "key": "skin_delay_battle",
+    "value": [
+      222000029,
+      222000030
+    ]
+  },
+  "practice_fly_skill": {
+    "key": "practice_fly_skill",
+    "value": 1005999
+  },
+  "max_walk_angle": {
+    "key": "max_walk_angle",
+    "value": 56
+  },
+  "OffsetDmgK2": {
+    "key": "OffsetDmgK2",
+    "value": 0.5
+  },
+  "probability_for_play_sp_idle": {
+    "key": "probability_for_play_sp_idle",
+    "value": 50
+  },
+  "player_drop_gold_collect": {
+    "key": "player_drop_gold_collect",
+    "value": [
+      [
+        1,
+        999
+      ]
+    ]
+  },
+  "command_cup_decay": {
+    "key": "command_cup_decay",
+    "value": [
+      7000,
+      7000
+    ]
+  },
+  "ui_quick_65_angle_2": {
+    "key": "ui_quick_65_angle_2",
+    "value": [
+      "65-wind*2"
+    ]
+  },
+  "unit_arrow_offset_y": {
+    "key": "unit_arrow_offset_y",
+    "value": 100
+  },
+  "base_arp_rate": {
+    "key": "base_arp_rate",
+    "value": 0
+  },
+  "balloon_point_max": {
+    "key": "balloon_point_max",
+    "value": [
+      [
+        107000001,
+        500
+      ]
+    ]
+  },
+  "suspended_ani_passive_skill_ids": {
+    "key": "suspended_ani_passive_skill_ids",
+    "value": {
+      "721044": true,
+      "721043": true,
+      "110051": true,
+      "1129903": true
+    }
+  },
+  "battle_title_show_limit": {
+    "key": "battle_title_show_limit",
+    "value": [
+      3,
+      3
+    ]
+  },
+  "speed_rand": {
+    "key": "speed_rand",
+    "value": [
+      0,
+      80
+    ]
+  },
+  "wakan_area_forbid_radius": {
+    "key": "wakan_area_forbid_radius",
+    "value": 300
+  },
+  "skill_forbid_repeat_round": {
+    "key": "skill_forbid_repeat_round",
+    "value": [
+      1001,
+      8
+    ]
+  },
+  "mon_add_delay": {
+    "key": "mon_add_delay",
+    "value": 900
+  },
+  "max_hole_par": {
+    "key": "max_hole_par",
+    "value": 1.5
+  },
+  "passive_skill_text_cd": {
+    "key": "passive_skill_text_cd",
+    "value": 2000
+  },
+  "player_drop_gold_units": {
+    "key": "player_drop_gold_units",
+    "value": [
+      1,
+      10
+    ]
+  },
+  "currency_rate_1": {
+    "key": "currency_rate_1",
+    "value": 2
+  },
+  "bullet_land_edge_offset": {
+    "key": "bullet_land_edge_offset",
+    "value": 100
+  },
+  "drop_pick_up_wait_time": {
+    "key": "drop_pick_up_wait_time",
+    "value": [
+      500,
+      500,
+      2500
+    ]
+  },
+  "add_angle_delay": {
+    "key": "add_angle_delay",
+    "value": 0.25
+  },
+  "gold_collect_ani_params": {
+    "key": "gold_collect_ani_params",
+    "value": [
+      1.2,
+      0.25,
+      0.5,
+      5,
+      18,
+      40,
+      1,
+      0.5
+    ]
+  },
+  "soul_speed": {
+    "key": "soul_speed",
+    "value": 0.3
+  },
+  "player_avatar_spine_scale": {
+    "key": "player_avatar_spine_scale",
+    "value": 0.55
+  },
+  "recommend_power_range2": {
+    "key": "recommend_power_range2",
+    "value": 15
+  },
+  "lv_boom_str": {
+    "key": "lv_boom_str",
+    "value": 0
+  },
+  "battle_trident_bullet_change_info": {
+    "key": "battle_trident_bullet_change_info",
+    "value": [
+      5,
+      0.9,
+      1.1
+    ]
+  },
+  "detector_base_radiu": {
+    "key": "detector_base_radiu",
+    "value": 100
+  },
+  "pet_attack_speed": {
+    "key": "pet_attack_speed",
+    "value": 12500
+  },
+  "bullet_t": {
+    "key": "bullet_t",
+    "value": 0.6
+  },
+  "soul_auto_skill_seq": {
+    "key": "soul_auto_skill_seq",
+    "value": [
+      80005,
+      80002,
+      80001
+    ]
+  },
+  "height_act_skill_list": {
+    "key": "height_act_skill_list",
+    "value": [
+      [
+        200,
+        1,
+        0
+      ],
+      [
+        200,
+        1,
+        0.01
+      ],
+      [
+        350,
+        1.02,
+        0.01
+      ],
+      [
+        500,
+        1.04,
+        0.005
+      ],
+      [
+        500,
+        1.05,
+        0
+      ]
+    ]
+  },
+  "round_action_time": {
+    "key": "round_action_time",
+    "value": 15
+  },
+  "currency_rate_2": {
+    "key": "currency_rate_2",
+    "value": 1.4
+  },
+  "line_base": {
+    "key": "line_base",
+    "value": 50
+  },
+  "def_k": {
+    "key": "def_k",
+    "value": 1
+  },
+  "pet_owner_round_limit_ps_type_list": {
+    "key": "pet_owner_round_limit_ps_type_list",
+    "value": [
+      66,
+      67
+    ]
+  },
+  "multi_fire_combo_level": {
+    "key": "multi_fire_combo_level",
+    "value": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1.2
+      ],
+      [
+        3,
+        1.5
+      ]
+    ]
+  },
+  "command_point_range": {
+    "key": "command_point_range",
+    "value": 100
+  },
+  "robot_pvp_power_limit": {
+    "key": "robot_pvp_power_limit",
+    "value": 1000
+  },
+  "round_friend_dmg_command_energy": {
+    "key": "round_friend_dmg_command_energy",
+    "value": 50
+  },
+  "ui_quick_50_angle_2": {
+    "key": "ui_quick_50_angle_2",
+    "value": [
+      "50-wind*2"
+    ]
+  },
+  "cur_hp_par_1": {
+    "key": "cur_hp_par_1",
+    "value": 0.1
+  },
+  "ui_quick_30_angle_1": {
+    "key": "ui_quick_30_angle_1",
+    "value": [
+      "30+wind"
+    ]
+  },
+  "max_command_energy": {
+    "key": "max_command_energy",
+    "value": 800
+  },
+  "commander_skill_ids": {
+    "key": "commander_skill_ids",
+    "value": [
+      [
+        80001,
+        1
+      ],
+      [
+        80002,
+        1
+      ],
+      [
+        80005,
+        1
+      ],
+      [
+        80009,
+        1
+      ],
+      [
+        80010,
+        1
+      ]
+    ]
+  },
+  "fly_skill": {
+    "key": "fly_skill",
+    "value": 1005001
+  },
+  "soul_auto_wait_time": {
+    "key": "soul_auto_wait_time",
+    "value": 1500
+  },
+  "move_suggest_limit3": {
+    "key": "move_suggest_limit3",
+    "value": 10
+  },
+  "battle_calc_dmg_immune_seq": {
+    "key": "battle_calc_dmg_immune_seq",
+    "value": {}
+  },
+  "unit_collision_size": {
+    "key": "unit_collision_size",
+    "value": {
+      "h_w": 25,
+      "h_h": 17
+    }
+  },
+  "battle_hide_ball_buff_cfg_id": {
+    "key": "battle_hide_ball_buff_cfg_id",
+    "value": 1002098
+  },
+  "pet_summon_cnt_limit": {
+    "key": "pet_summon_cnt_limit",
+    "value": 32
+  },
+  "move_suggest_limit1": {
+    "key": "move_suggest_limit1",
+    "value": 100
+  },
+  "fix_cd_skill_prototype": {
+    "key": "fix_cd_skill_prototype",
+    "value": {
+      "2139": true
+    }
+  },
+  "drop_common_scale": {
+    "key": "drop_common_scale",
+    "value": 0.5
+  },
+  "weapon_no_floatblood": {
+    "key": "weapon_no_floatblood",
+    "value": {
+      "1101011111": true,
+      "1101011112": true
+    }
+  },
+  "fly_skill_prototype": {
+    "key": "fly_skill_prototype",
+    "value": 1005
+  },
+  "hang_fx": {
+    "key": "hang_fx",
+    "value": 800039
+  },
+  "effect_quality_fight_item": {
+    "key": "effect_quality_fight_item",
+    "value": [
+      "Skill/fx_zb_glow_white",
+      "Skill/fx_zb_glow_green",
+      "Skill/fx_zb_glow_blue",
+      "Skill/fx_zb_glow_purple",
+      "Skill/fx_zb_glow_orange",
+      "Skill/fx_zb_glow_red"
+    ]
+  },
+  "ui_quick_50_angle_1": {
+    "key": "ui_quick_50_angle_1",
+    "value": [
+      "50+wind*2"
+    ]
+  },
+  "eff_bear_skill": {
+    "key": "eff_bear_skill",
+    "value": 700003
+  },
+  "ui_quick_20_angle_1": {
+    "key": "ui_quick_20_angle_1",
+    "value": [
+      "20"
+    ]
+  },
+  "min_heal_pct_add_all": {
+    "key": "min_heal_pct_add_all",
+    "value": 0.1
+  },
+  "bullet_grappling_hook_min_speed": {
+    "key": "bullet_grappling_hook_min_speed",
+    "value": 1200
+  },
+  "lv_boom_str2": {
+    "key": "lv_boom_str2",
+    "value": 0
+  },
+  "max_fight_time": {
+    "key": "max_fight_time",
+    "value": 3600
+  },
+  "guidance_bullet_speed_min": {
+    "key": "guidance_bullet_speed_min",
+    "value": 1200
+  },
+  "bullet_water_self_fx_path": {
+    "key": "bullet_water_self_fx_path",
+    "value": [
+      "Dummy001"
+    ]
+  },
+  "wakan_area_radius": {
+    "key": "wakan_area_radius",
+    "value": 200
+  },
+  "wind_area_force_to_bullet_rate": {
+    "key": "wind_area_force_to_bullet_rate",
+    "value": 102
+  },
+  "camera_follow_bullet_py": {
+    "key": "camera_follow_bullet_py",
+    "value": 1
+  },
+  "max_walk_height_diff": {
+    "key": "max_walk_height_diff",
+    "value": 10
+  },
+  "fight_fixed_deltatime": {
+    "key": "fight_fixed_deltatime",
+    "value": 40
+  },
+  "max_player_power_k": {
+    "key": "max_player_power_k",
+    "value": 1.1
+  },
+  "wakan_pickup_radius": {
+    "key": "wakan_pickup_radius",
+    "value": 50
+  },
+  "robot_tactic_initial": {
+    "key": "robot_tactic_initial",
+    "value": [
+      0,
+      12
+    ]
+  },
+  "hole_deep_rate_land": {
+    "key": "hole_deep_rate_land",
+    "value": [
+      3000,
+      8400,
+      0.6
+    ]
+  },
+  "dmg_random_r": {
+    "key": "dmg_random_r",
+    "value": 0.02
+  },
+  "bullet_critical_self_fx": {
+    "key": "bullet_critical_self_fx",
+    "value": [
+      400000
+    ]
+  },
+  "bullet_w": {
+    "key": "bullet_w",
+    "value": 5.87
+  },
+  "shield_dmg_min_k": {
+    "key": "shield_dmg_min_k",
+    "value": 0.1
+  },
+  "angle_20_powers": {
+    "key": "angle_20_powers",
+    "value": [
+      8,
+      16,
+      23,
+      28,
+      33,
+      37,
+      41,
+      45,
+      48,
+      51,
+      54,
+      57,
+      60,
+      63,
+      65,
+      68,
+      70,
+      72,
+      75,
+      77
+    ]
+  },
+  "dungeons_first_pass_special_victoryview": {
+    "key": "dungeons_first_pass_special_victoryview",
+    "value": {
+      "20201010202": true,
+      "202010102": true,
+      "202010103": true,
+      "202010201": true,
+      "202010101": true
+    }
+  },
+  "dungeons_first_pass_open_goldview": {
+    "key": "dungeons_first_pass_open_goldview"
+  },
+  "battle_fire_force_factor": {
+    "key": "battle_fire_force_factor",
+    "value": 20
+  },
+  "pet_spine_position": {
+    "key": "pet_spine_position",
+    "value": [
+      -80,
+      80
+    ]
+  },
+  "change_follow_bullet_interval": {
+    "key": "change_follow_bullet_interval",
+    "value": 0.3
+  },
+  "delay_agi_k2": {
+    "key": "delay_agi_k2",
+    "value": 1200
+  },
+  "title_zoom": {
+    "key": "title_zoom",
+    "value": 0.55
+  },
+  "unit_ani_to_eff": {
+    "key": "unit_ani_to_eff",
+    "value": {
+      "pet": {
+        "reborn": 700004
+      },
+      "role": {
+        "prop": 500006
+      }
+    }
+  },
+  "crit_dmg_max_k": {
+    "key": "crit_dmg_max_k",
+    "value": 2
+  },
+  "skill_hp_max_par_1": {
+    "key": "skill_hp_max_par_1",
+    "value": 1.4
+  },
+  "skill_forbid_need_support_weapon": {
+    "key": "skill_forbid_need_support_weapon",
+    "value": [
+      8050
+    ]
+  },
+  "ui_quick_30_angle_2": {
+    "key": "ui_quick_30_angle_2",
+    "value": [
+      "30-wind"
+    ]
+  },
+  "auto_reply_delay_range": {
+    "key": "auto_reply_delay_range",
+    "value": [
+      1,
+      4
+    ]
+  },
+  "delay_agi_k": {
+    "key": "delay_agi_k",
+    "value": 1200
+  },
+  "weapon_support_position": {
+    "key": "weapon_support_position",
+    "value": 5
+  },
+  "lv_atk_k1": {
+    "key": "lv_atk_k1",
+    "value": 0.005
+  },
+  "camera_follow_bullet_arg": {
+    "key": "camera_follow_bullet_arg",
+    "value": 0.01
+  },
+  "max_pct_par_1": {
+    "key": "max_pct_par_1",
+    "value": 1.5
+  },
+  "dungeon_main_show_as_trick": {
+    "key": "dungeon_main_show_as_trick",
+    "value": [
+      214250001
+    ]
+  },
+  "move_suggest_limit2": {
+    "key": "move_suggest_limit2",
+    "value": [
+      800,
+      200
+    ]
+  },
+  "battle_ball_fire_offset_pos": {
+    "key": "battle_ball_fire_offset_pos",
+    "value": [
+      0,
+      10
+    ]
+  },
+  "fire_pos_offset": {
+    "key": "fire_pos_offset",
+    "value": [
+      30,
+      20
+    ]
+  },
+  "season_not_title_num": {
+    "key": "season_not_title_num",
+    "value": 0
+  },
+  "base_dod_rate": {
+    "key": "base_dod_rate",
+    "value": 0
+  },
+  "bomb_buff_effect_weapon_type": {
+    "key": "bomb_buff_effect_weapon_type",
+    "value": [
+      3
+    ]
+  },
+  "bullet_critical_self_fx_path": {
+    "key": "bullet_critical_self_fx_path",
+    "value": [
+      "Dummy001"
+    ]
+  },
+  "skip_checkout": {
+    "key": "skip_checkout",
+    "value": [
+      103010011
+    ]
+  },
+  "min_dmg_k": {
+    "key": "min_dmg_k",
+    "value": 0.1
+  },
+  "soul_skill_ids": {
+    "key": "soul_skill_ids",
+    "value": [
+      [
+        80001,
+        1
+      ],
+      [
+        80002,
+        1
+      ],
+      [
+        80005,
+        1
+      ],
+      [
+        80009,
+        1
+      ],
+      [
+        80010,
+        1
+      ],
+      [
+        80013,
+        1
+      ]
+    ]
+  },
+  "angle_50_powers": {
+    "key": "angle_50_powers",
+    "value": [
+      9,
+      16,
+      21,
+      26,
+      30,
+      33,
+      36,
+      40,
+      42,
+      45,
+      48,
+      50,
+      53,
+      55,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68
+    ]
+  },
+  "battle_weapon_summon_born_find_height": {
+    "key": "battle_weapon_summon_born_find_height",
+    "value": 10
+  },
+  "battle_rate_resis_attr_list": {
+    "key": "battle_rate_resis_attr_list",
+    "value": [
+      431,
+      433,
+      435,
+      437,
+      439,
+      441,
+      127
+    ]
+  },
+  "gold_auto_collect_wait": {
+    "key": "gold_auto_collect_wait",
+    "value": 0.5
+  },
+  "split_dmg_main_obj_type_weight": {
+    "key": "split_dmg_main_obj_type_weight",
+    "value": {
+      "type_role": 999,
+      "type_place": 979,
+      "type_mon": 989
+    }
+  },
+  "crit_dmg_min_k": {
+    "key": "crit_dmg_min_k",
+    "value": 1.25
+  },
+  "audio_ko": {
+    "key": "audio_ko",
+    "value": "sd_2014"
+  },
+  "dungeons_lose_view_no_sure_btn": {
+    "key": "dungeons_lose_view_no_sure_btn",
+    "value": {
+      "20201010202": true,
+      "202010102": true,
+      "202010103": true,
+      "202010201": true,
+      "202010101": true
+    }
+  },
+  "bullet_pursuit_self_fx_path": {
+    "key": "bullet_pursuit_self_fx_path",
+    "value": [
+      "Dummy001"
+    ]
+  },
+  "camera_zoom_duration_on_holding_fire": {
+    "key": "camera_zoom_duration_on_holding_fire",
+    "value": 1500
+  },
+  "ui_quick_65_angle_1": {
+    "key": "ui_quick_65_angle_1",
+    "value": [
+      "65+wind*2"
+    ]
+  },
+  "battle_shift_limit_info": {
+    "key": "battle_shift_limit_info",
+    "value": [
+      [
+        206000003,
+        [
+          [
+            150,
+            450
+          ],
+          [
+            1100,
+            1250
+          ]
+        ]
+      ]
+    ]
+  },
+  "open_days_pvp_pos_balance": {
+    "key": "open_days_pvp_pos_balance",
+    "value": 2
+  },
+  "fight_power_glow_speed_default_rate_pvp": {
+    "key": "fight_power_glow_speed_default_rate_pvp",
+    "value": 100
+  },
+  "robot_ban_skill": {
+    "key": "robot_ban_skill"
+  },
+  "aim_type_buff": {
+    "key": "aim_type_buff",
+    "value": [
+      [
+        2,
+        111
+      ],
+      [
+        3,
+        112
+      ]
+    ]
+  },
+  "camera_follow_bullet_max_offset": {
+    "key": "camera_follow_bullet_max_offset",
+    "value": [
+      0,
+      0
+    ]
+  },
+  "skill_to_aim_type": {
+    "key": "skill_to_aim_type",
+    "value": [
+      [
+        1012,
+        1
+      ],
+      [
+        1013,
+        2
+      ],
+      [
+        1014,
+        3
+      ]
+    ]
+  },
+  "pve_spec_bullet_speed_min": {
+    "key": "pve_spec_bullet_speed_min",
+    "value": 800
+  },
+  "max_mon_power_k": {
+    "key": "max_mon_power_k",
+    "value": 1.3
+  },
+  "angle_65_powers": {
+    "key": "angle_65_powers",
+    "value": [
+      11,
+      19,
+      26,
+      31,
+      35,
+      39,
+      43,
+      47,
+      50,
+      54,
+      57,
+      60,
+      63,
+      66,
+      69,
+      72,
+      74,
+      77,
+      80,
+      82
+    ]
+  },
+  "dungeon_first_pass_open_genderview": {
+    "key": "dungeon_first_pass_open_genderview",
+    "value": 202010101
+  },
+  "show_result_delay": {
+    "key": "show_result_delay",
+    "value": 2500
+  },
+  "lv_dmg_k": {
+    "key": "lv_dmg_k",
+    "value": 0
+  },
+  "fight_power_glow_speed_default_rate_pve": {
+    "key": "fight_power_glow_speed_default_rate_pve",
+    "value": 120
+  },
+  "camera_follow_target_pos_offset": {
+    "key": "camera_follow_target_pos_offset",
+    "value": {
+      "y": 0.75,
+      "x": 0,
+      "z": 0
+    }
+  },
+  "fly_track_percent": {
+    "key": "fly_track_percent",
+    "value": 7500
+  },
+  "dungeons_first_pass_hide_resultview_win": {
+    "key": "dungeons_first_pass_hide_resultview_win"
+  }
+}

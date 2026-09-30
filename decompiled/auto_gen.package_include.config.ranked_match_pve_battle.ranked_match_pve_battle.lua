@@ -1,0 +1,27 @@
+local L0_0, L2_2 = L0_0, ".head"
+L0_0 = L0_0(L2_2)
+L2_2 = setmetatable
+;({}).damage_ratio = 5000
+;({}).__index, ({}).desc = {}, "AUTO_GEN_ranked_match_pve_battle_ranked_match_pve_battle_desc_1"
+;({}).id = 1
+;({}).name = "AUTO_GEN_ranked_match_pve_battle_ranked_match_pve_battle_name_1"
+;({}).banner = "UI/BigPic/SeasonV2/2v2_banner_wukong"
+;({}).battle_id = 217010001
+;({}).robot_id = 10016
+L0_0[1] = L2_2({}, {})
+;({}).id = 2
+;({}).name = "AUTO_GEN_ranked_match_pve_battle_ranked_match_pve_battle_name_2"
+;({}).banner = "UI/BigPic/SeasonV2/2v2_banner_tianxin"
+;({}).battle_id = 217010002
+;({}).robot_id = 10017
+L0_0[2] = L2_2({}, {})
+local L3_3 = L3_3
+;({}).id = 3
+;({}).name = "AUTO_GEN_ranked_match_pve_battle_ranked_match_pve_battle_name_3"
+;({}).banner = "UI/BigPic/SeasonV2/2v2_banner_adai"
+;({}).battle_id = 217010003
+;({}).robot_id = 10018
+local L4_4 = L4_4
+local L4_4, L5_5 = L4_4({}, L3_3), L5_5
+L0_0[3] = L4_4
+return L0_0

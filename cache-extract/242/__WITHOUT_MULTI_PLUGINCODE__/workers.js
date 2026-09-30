@@ -1,0 +1,5 @@
+
+	define("workers/response/index.js", function(require, module, exports, window,document,frames,self,location,navigator,localStorage,history,Caches,screen,alert,confirm,prompt,XMLHttpRequest,WebSocket,Reporter,webkit,WeixinJSCore){ 			
+"use strict";var e=worker.createSharedArrayBuffer,r=worker.getFileSystemManager,a=r?r():null;worker.onMessage(function(r){var t=r.type,o=r.payload;if(1===t){var s=o.filePath,i=o.data,f=o.isSharedBuffer,n=i;if(f&&(n=i.buffer),!a)return void console.error("getFileSystemManager不存在");a.writeFile({filePath:s,data:n,success:function(){worker.postMessage({type:1,payload:{isok:!0,filePath:s}})},fail:function(e){worker.postMessage({type:1,payload:{isok:!1,filePath:s,err:e}})}})}if(0===t){var p=o.systemInfo,l=p.platform,u=p.version,d="android"===l.toLocaleLowerCase(),y=u.split(".").map(function(e){return e.padStart(2,"0")}).join("")>="8.0.18".split(".").map(function(e){return e.padStart(2,"0")}).join("");worker.postMessage({type:0,payload:{supportWorkerFs:d&&!!a&&y,supportSharedBuffer:d&&!!e}})}}); 
+ 			});
+ 	

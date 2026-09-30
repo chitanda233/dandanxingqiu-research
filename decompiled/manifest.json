@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "auto_gen.package_include.config.exp.player",
+    "source": "lua0_573512\\auto_gen.package_include.config.exp.player_-7509012538849515948.bin",
+    "output": "auto_gen.package_include.config.exp.player.lua",
+    "status": "existing",
+    "bytes": 136477
+  },
+  {
+    "name": "auto_gen.package_include.config.battle.stake",
+    "source": "lua0_573512\\auto_gen.package_include.config.battle.stake_-6632736893720836983.bin",
+    "output": "auto_gen.package_include.config.battle.stake.lua",
+    "status": "existing",
+    "bytes": 2898
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank_reward.head",
+    "source": "lua0_573512\\auto_gen.package_include.config.ranked_match_rank_reward.head_-3581769974805057975.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank_reward.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank_reward.ranked_match_rank_reward",
+    "source": "lua0_573512\\auto_gen.package_include.config.ranked_match_rank_reward.ranked_match_rank_reward_3218506935727485782.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank_reward.ranked_match_rank_reward.lua",
+    "status": "existing",
+    "bytes": 1997
+  },
+  {
+    "name": "auto_gen.package_include.config.battle.head",
+    "source": "lua0_573512\\auto_gen.package_include.config.battle.head_3312478803543758683.bin",
+    "output": "auto_gen.package_include.config.battle.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_system.head",
+    "source": "lua0_573512\\auto_gen.package_include.config.rank_system.head_6109126440084193901.bin",
+    "output": "auto_gen.package_include.config.rank_system.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.exp.head",
+    "source": "lua0_573512\\auto_gen.package_include.config.exp.head_7149783334846796915.bin",
+    "output": "auto_gen.package_include.config.exp.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.battle.battle",
+    "source": "lua0_573512\\auto_gen.package_include.config.battle.battle_7650810913316125297.bin",
+    "output": "auto_gen.package_include.config.battle.battle.lua",
+    "status": "existing",
+    "bytes": 7158820
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_system.rank_system",
+    "source": "lua0_573512\\auto_gen.package_include.config.rank_system.rank_system_8362952471757844569.bin",
+    "output": "auto_gen.package_include.config.rank_system.rank_system.lua",
+    "status": "existing",
+    "bytes": 37822
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_robot.free_battle_robot",
+    "source": "lua10_573512\\auto_gen.package_include.config.free_battle_robot.free_battle_robot_-6766789023708836888.bin",
+    "output": "auto_gen.package_include.config.free_battle_robot.free_battle_robot.lua",
+    "status": "existing",
+    "bytes": 2160
+  },
+  {
+    "name": "auto_gen.package_include.config.season_rank.head",
+    "source": "lua10_573512\\auto_gen.package_include.config.season_rank.head_-6602533506736579677.bin",
+    "output": "auto_gen.package_include.config.season_rank.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.task_liveness.task_liveness",
+    "source": "lua10_573512\\auto_gen.package_include.config.task_liveness.task_liveness_-4493766599770351219.bin",
+    "output": "auto_gen.package_include.config.task_liveness.task_liveness.lua",
+    "status": "existing",
+    "bytes": 1984
+  },
+  {
+    "name": "auto_gen.package_include.config.season_rank.season_rank",
+    "source": "lua10_573512\\auto_gen.package_include.config.season_rank.season_rank_-4247833471120686611.bin",
+    "output": "auto_gen.package_include.config.season_rank.season_rank.lua",
+    "status": "existing",
+    "bytes": 12157
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_gain.battle_gain_type",
+    "source": "lua10_573512\\auto_gen.package_include.config.battle_gain.battle_gain_type_-2109321958129149471.bin",
+    "output": "auto_gen.package_include.config.battle_gain.battle_gain_type.lua",
+    "status": "existing",
+    "bytes": 911
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_robot.head",
+    "source": "lua10_573512\\auto_gen.package_include.config.free_battle_robot.head_-1775715328697503903.bin",
+    "output": "auto_gen.package_include.config.free_battle_robot.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_type.rank_type",
+    "source": "lua10_573512\\auto_gen.package_include.config.rank_type.rank_type_2074257995362935872.bin",
+    "output": "auto_gen.package_include.config.rank_type.rank_type.lua",
+    "status": "existing",
+    "bytes": 1827
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_gain.battle_gain",
+    "source": "lua10_573512\\auto_gen.package_include.config.battle_gain.battle_gain_2076194794762178917.bin",
+    "output": "auto_gen.package_include.config.battle_gain.battle_gain.lua",
+    "status": "existing",
+    "bytes": 8543
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_type.head",
+    "source": "lua10_573512\\auto_gen.package_include.config.rank_type.head_3688914656868857144.bin",
+    "output": "auto_gen.package_include.config.rank_type.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.task_liveness.head",
+    "source": "lua10_573512\\auto_gen.package_include.config.task_liveness.head_5207214857425423416.bin",
+    "output": "auto_gen.package_include.config.task_liveness.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_gain.head",
+    "source": "lua10_573512\\auto_gen.package_include.config.battle_gain.head_7143438165038273286.bin",
+    "output": "auto_gen.package_include.config.battle_gain.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.fight_misc.head",
+    "source": "lua11_573512\\auto_gen.package_include.config.fight_misc.head_-8223190797962892398.bin",
+    "output": "auto_gen.package_include.config.fight_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.open_func.manager.const",
+    "source": "lua11_573512\\game.module.open_func.manager.const_-7615485100624654982.bin",
+    "output": "game.module.open_func.manager.const.lua",
+    "status": "existing",
+    "bytes": 10900
+  },
+  {
+    "name": "auto_gen.package_include.config.team_target.main",
+    "source": "lua11_573512\\auto_gen.package_include.config.team_target.main_-7181414498054759974.bin",
+    "output": "auto_gen.package_include.config.team_target.main.lua",
+    "status": "existing",
+    "bytes": 90104
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_settlement.rank_settlement",
+    "source": "lua11_573512\\auto_gen.package_include.config.rank_settlement.rank_settlement_-5778753304383950131.bin",
+    "output": "auto_gen.package_include.config.rank_settlement.rank_settlement.lua",
+    "status": "existing",
+    "bytes": 12688
+  },
+  {
+    "name": "auto_gen.package_include.config.team_target.head",
+    "source": "lua11_573512\\auto_gen.package_include.config.team_target.head_-5635785733129012217.bin",
+    "output": "auto_gen.package_include.config.team_target.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_misc.head",
+    "source": "lua11_573512\\auto_gen.package_include.config.ranked_match_misc.head_-4660425882438658323.bin",
+    "output": "auto_gen.package_include.config.ranked_match_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.fight_misc.attr_parabola",
+    "source": "lua11_573512\\auto_gen.package_include.config.fight_misc.attr_parabola_-2399016759695687452.bin",
+    "output": "auto_gen.package_include.config.fight_misc.attr_parabola.lua",
+    "status": "existing",
+    "bytes": 3381
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_misc.ranked_match_misc",
+    "source": "lua11_573512\\auto_gen.package_include.config.ranked_match_misc.ranked_match_misc_-822219755955665551.bin",
+    "output": "auto_gen.package_include.config.ranked_match_misc.ranked_match_misc.lua",
+    "status": "existing",
+    "bytes": 4969
+  },
+  {
+    "name": "game.module.open_func.manager.core",
+    "source": "lua11_573512\\game.module.open_func.manager.core_32902049865450546.bin",
+    "output": "game.module.open_func.manager.core.lua",
+    "status": "existing",
+    "bytes": 13135
+  },
+  {
+    "name": "auto_gen.package_include.config.fight_misc.attr_const",
+    "source": "lua11_573512\\auto_gen.package_include.config.fight_misc.attr_const_5724182061044062260.bin",
+    "output": "auto_gen.package_include.config.fight_misc.attr_const.lua",
+    "status": "existing",
+    "bytes": 50743
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_settlement.head",
+    "source": "lua11_573512\\auto_gen.package_include.config.rank_settlement.head_8245188797717094119.bin",
+    "output": "auto_gen.package_include.config.rank_settlement.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.rank.manager.network.network",
+    "source": "lua12_573512\\game.module.rank.manager.network.network_-8838418246827054109.bin",
+    "output": "game.module.rank.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 8372
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_misc.head",
+    "source": "lua12_573512\\auto_gen.package_include.config.gacha_misc.head_-6038353291514531285.bin",
+    "output": "auto_gen.package_include.config.gacha_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.rank.manager.const",
+    "source": "lua12_573512\\game.module.rank.manager.const_-5329140751819637043.bin",
+    "output": "game.module.rank.manager.const.lua",
+    "status": "existing",
+    "bytes": 6999
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_season.head",
+    "source": "lua12_573512\\auto_gen.package_include.config.ranked_match_season.head_-4851108696344592849.bin",
+    "output": "auto_gen.package_include.config.ranked_match_season.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.game_room.manager.core",
+    "source": "lua12_573512\\game.module.game_room.manager.core_-3945612438549223856.bin",
+    "output": "game.module.game_room.manager.core.lua",
+    "status": "existing",
+    "bytes": 6864
+  },
+  {
+    "name": "game.module.game_room.manager.data.data",
+    "source": "lua12_573512\\game.module.game_room.manager.data.data_-3711311553700325735.bin",
+    "output": "game.module.game_room.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 4040
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank_type.ranked_match_rank_type",
+    "source": "lua12_573512\\auto_gen.package_include.config.ranked_match_rank_type.ranked_match_rank_type_-3414214067882069441.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank_type.ranked_match_rank_type.lua",
+    "status": "existing",
+    "bytes": 2061
+  },
+  {
+    "name": "game.module.game_room.manager.network.network",
+    "source": "lua12_573512\\game.module.game_room.manager.network.network_-2496698111912633287.bin",
+    "output": "game.module.game_room.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 759
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_season.ranked_match_season",
+    "source": "lua12_573512\\auto_gen.package_include.config.ranked_match_season.ranked_match_season_-2324044241028471887.bin",
+    "output": "auto_gen.package_include.config.ranked_match_season.ranked_match_season.lua",
+    "status": "existing",
+    "bytes": 31853
+  },
+  {
+    "name": "auto_gen.package_include.config.2v2_rank_reward.head",
+    "source": "lua12_573512\\auto_gen.package_include.config.2v2_rank_reward.head_-247742124558155842.bin",
+    "output": "auto_gen.package_include.config.2v2_rank_reward.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank_type.head",
+    "source": "lua12_573512\\auto_gen.package_include.config.ranked_match_rank_type.head_1591881637964494047.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank_type.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.2v2_rank_reward.2v2_rank_reward",
+    "source": "lua12_573512\\auto_gen.package_include.config.2v2_rank_reward.2v2_rank_reward_3475402978866769463.bin",
+    "output": "auto_gen.package_include.config.2v2_rank_reward.2v2_rank_reward.lua",
+    "status": "existing",
+    "bytes": 907
+  },
+  {
+    "name": "game.module.rank.manager.core",
+    "source": "lua12_573512\\game.module.rank.manager.core_4273978463143446940.bin",
+    "output": "game.module.rank.manager.core.lua",
+    "status": "existing",
+    "bytes": 21072
+  },
+  {
+    "name": "game.module.game_room.manager.const",
+    "source": "lua12_573512\\game.module.game_room.manager.const_6118344589205812065.bin",
+    "output": "game.module.game_room.manager.const.lua",
+    "status": "existing",
+    "bytes": 163
+  },
+  {
+    "name": "game.module.rank.manager.data.data",
+    "source": "lua12_573512\\game.module.rank.manager.data.data_6748633467195567718.bin",
+    "output": "game.module.rank.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 11903
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha_misc.gacha_misc",
+    "source": "lua12_573512\\auto_gen.package_include.config.gacha_misc.gacha_misc_7739475200575144929.bin",
+    "output": "auto_gen.package_include.config.gacha_misc.gacha_misc.lua",
+    "status": "existing",
+    "bytes": 2775
+  },
+  {
+    "name": "game.module.main_view.manager.config.right_up_config",
+    "source": "lua1_573660\\game.module.main_view.manager.config.right_up_config_-6643782486772910893.bin",
+    "output": "game.module.main_view.manager.config.right_up_config.lua",
+    "status": "existing",
+    "bytes": 3418
+  },
+  {
+    "name": "game.module.main_view.manager.config.bottom_btn_config",
+    "source": "lua1_573660\\game.module.main_view.manager.config.bottom_btn_config_-5200976639319226144.bin",
+    "output": "game.module.main_view.manager.config.bottom_btn_config.lua",
+    "status": "existing",
+    "bytes": 5886
+  },
+  {
+    "name": "game.module.main_view.manager.config.left_up_config",
+    "source": "lua1_573660\\game.module.main_view.manager.config.left_up_config_6661746105192273981.bin",
+    "output": "game.module.main_view.manager.config.left_up_config.lua",
+    "status": "existing",
+    "bytes": 17916
+  },
+  {
+    "name": "game.module.main_view.manager.config.pop_config",
+    "source": "lua1_573660\\game.module.main_view.manager.config.pop_config_7972878790509810748.bin",
+    "output": "game.module.main_view.manager.config.pop_config.lua",
+    "status": "existing",
+    "bytes": 1410
+  },
+  {
+    "name": "game.module.main_view.manager.core",
+    "source": "lua1_573660\\game.module.main_view.manager.core_8882655147855299729.bin",
+    "output": "game.module.main_view.manager.core.lua",
+    "status": "existing",
+    "bytes": 21844
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank.ranked_match_rank",
+    "source": "lua2_573512\\auto_gen.package_include.config.ranked_match_rank.ranked_match_rank_-9128246459267105443.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank.ranked_match_rank.lua",
+    "status": "existing",
+    "bytes": 4585
+  },
+  {
+    "name": "auto_gen.package_include.config.role_property.head",
+    "source": "lua2_573512\\auto_gen.package_include.config.role_property.head_-7011295140089607042.bin",
+    "output": "auto_gen.package_include.config.role_property.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.data",
+    "source": "lua2_573512\\game.module.main_weapon_develop.manager.data.data_-6123605392462771538.bin",
+    "output": "game.module.main_weapon_develop.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 58782
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.core",
+    "source": "lua2_573512\\game.module.main_weapon_develop.manager.core_-3848501736930548607.bin",
+    "output": "game.module.main_weapon_develop.manager.core.lua",
+    "status": "existing",
+    "bytes": 52868
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.network.network",
+    "source": "lua2_573512\\game.module.main_weapon_develop.manager.network.network_-2900653104787120745.bin",
+    "output": "game.module.main_weapon_develop.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 11532
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_rank.head",
+    "source": "lua2_573512\\auto_gen.package_include.config.ranked_match_rank.head_2135017895904858917.bin",
+    "output": "auto_gen.package_include.config.ranked_match_rank.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.role_property.role_property",
+    "source": "lua2_573512\\auto_gen.package_include.config.role_property.role_property_3276583221856764572.bin",
+    "output": "auto_gen.package_include.config.role_property.role_property.lua",
+    "status": "existing",
+    "bytes": 13681
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.const",
+    "source": "lua2_573512\\game.module.main_weapon_develop.manager.const_8548236632900169532.bin",
+    "output": "game.module.main_weapon_develop.manager.const.lua",
+    "status": "existing",
+    "bytes": 1901
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_level.head",
+    "source": "lua3_573410\\auto_gen.package_include.config.pet_level.head_-8294939611808522876.bin",
+    "output": "auto_gen.package_include.config.pet_level.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_env.head",
+    "source": "lua3_573410\\auto_gen.package_include.config.battle_env.head_-8028998171832921312.bin",
+    "output": "auto_gen.package_include.config.battle_env.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.gacha.manager.core",
+    "source": "lua3_573410\\game.module.gacha.manager.core_-7991379755632502889.bin",
+    "output": "game.module.gacha.manager.core.lua",
+    "status": "existing",
+    "bytes": 1097
+  },
+  {
+    "name": "auto_gen.package_include.config.season_gameplay.season_gameplay",
+    "source": "lua3_573410\\auto_gen.package_include.config.season_gameplay.season_gameplay_-6157689935830808387.bin",
+    "output": "auto_gen.package_include.config.season_gameplay.season_gameplay.lua",
+    "status": "existing",
+    "bytes": 19903
+  },
+  {
+    "name": "game.module.gacha.manager.data.data",
+    "source": "lua3_573410\\game.module.gacha.manager.data.data_-5810498089418738669.bin",
+    "output": "game.module.gacha.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 39410
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_env.battle_env",
+    "source": "lua3_573410\\auto_gen.package_include.config.battle_env.battle_env_-3304023530973351208.bin",
+    "output": "auto_gen.package_include.config.battle_env.battle_env.lua",
+    "status": "existing",
+    "bytes": 5704
+  },
+  {
+    "name": "game.module.gacha.manager.network.network",
+    "source": "lua3_573410\\game.module.gacha.manager.network.network_-1573414781650070484.bin",
+    "output": "game.module.gacha.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 7951
+  },
+  {
+    "name": "game.module.gacha.manager.const",
+    "source": "lua3_573410\\game.module.gacha.manager.const_1152134471846508827.bin",
+    "output": "game.module.gacha.manager.const.lua",
+    "status": "existing",
+    "bytes": 11756
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_star.weapon_star",
+    "source": "lua3_573410\\auto_gen.package_include.config.weapon_star.weapon_star_1240965334873867893.bin",
+    "output": "auto_gen.package_include.config.weapon_star.weapon_star.lua",
+    "status": "existing",
+    "bytes": 1425036
+  },
+  {
+    "name": "auto_gen.package_include.config.season_gameplay.head",
+    "source": "lua3_573410\\auto_gen.package_include.config.season_gameplay.head_1801474361053668407.bin",
+    "output": "auto_gen.package_include.config.season_gameplay.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_star.head",
+    "source": "lua3_573410\\auto_gen.package_include.config.weapon_star.head_3575088728667674099.bin",
+    "output": "auto_gen.package_include.config.weapon_star.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.pet_level.pet_level",
+    "source": "lua3_573410\\auto_gen.package_include.config.pet_level.pet_level_4282987421562277268.bin",
+    "output": "auto_gen.package_include.config.pet_level.pet_level.lua",
+    "status": "existing",
+    "bytes": 61853
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.trajectory",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.trajectory_-9147858616376267781.bin",
+    "output": "game.module.fight.manager.base.fighting.trajectory.lua",
+    "status": "existing",
+    "bytes": 16300
+  },
+  {
+    "name": "game.module.fight.manager.base.loading.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.loading.core_-8768151621593006875.bin",
+    "output": "game.module.fight.manager.base.loading.core.lua",
+    "status": "existing",
+    "bytes": 2627
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_strength.weapon_strength",
+    "source": "lua4_573711\\auto_gen.package_include.config.weapon_strength.weapon_strength_-7336743213344570781.bin",
+    "output": "auto_gen.package_include.config.weapon_strength.weapon_strength.lua",
+    "status": "existing",
+    "bytes": 2967
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.perform",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.round.perform_-6519626298272865860.bin",
+    "output": "game.module.fight.manager.base.fighting.round.perform.lua",
+    "status": "existing",
+    "bytes": 6205
+  },
+  {
+    "name": "game.module.team.manager.data.data",
+    "source": "lua4_573711\\game.module.team.manager.data.data_-6313624678480946928.bin",
+    "output": "game.module.team.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 104558
+  },
+  {
+    "name": "game.module.shop.manager.network.network",
+    "source": "lua4_573711\\game.module.shop.manager.network.network_-6234670059096265269.bin",
+    "output": "game.module.shop.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 3473
+  },
+  {
+    "name": "game.module.team.manager.core",
+    "source": "lua4_573711\\game.module.team.manager.core_-6168282266492146482.bin",
+    "output": "game.module.team.manager.core.lua",
+    "status": "existing",
+    "bytes": 17708
+  },
+  {
+    "name": "game.module.team.manager.network.network",
+    "source": "lua4_573711\\game.module.team.manager.network.network_-5480163981327235990.bin",
+    "output": "game.module.team.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 44993
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.bullet.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.bullet.core_-5333509529146673909.bin",
+    "output": "game.module.fight.manager.base.fighting.bullet.core.lua",
+    "status": "existing",
+    "bytes": 16166
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.core_-4563100994819139386.bin",
+    "output": "game.module.fight.manager.base.fighting.core.lua",
+    "status": "existing",
+    "bytes": 14927
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.timer",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.round.timer_-4305445045789317530.bin",
+    "output": "game.module.fight.manager.base.fighting.round.timer.lua",
+    "status": "existing",
+    "bytes": 2479
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.skill.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.skill.core_-3533888778887191997.bin",
+    "output": "game.module.fight.manager.base.fighting.skill.core.lua",
+    "status": "existing",
+    "bytes": 27954
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.fire.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.fire.core_-2051574499200700898.bin",
+    "output": "game.module.fight.manager.base.fighting.fire.core.lua",
+    "status": "existing",
+    "bytes": 35776
+  },
+  {
+    "name": "game.module.shop.manager.core",
+    "source": "lua4_573711\\game.module.shop.manager.core_-606477427032695712.bin",
+    "output": "game.module.shop.manager.core.lua",
+    "status": "existing",
+    "bytes": 52119
+  },
+  {
+    "name": "auto_gen.package_include.config.equip_strengthen.lv",
+    "source": "lua4_573711\\auto_gen.package_include.config.equip_strengthen.lv_807232781908740750.bin",
+    "output": "auto_gen.package_include.config.equip_strengthen.lv.lua",
+    "status": "existing",
+    "bytes": 1037120
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.round.core_1077894747532256780.bin",
+    "output": "game.module.fight.manager.base.fighting.round.core.lua",
+    "status": "existing",
+    "bytes": 33252
+  },
+  {
+    "name": "game.module.team.manager.const",
+    "source": "lua4_573711\\game.module.team.manager.const_2787929070977719809.bin",
+    "output": "game.module.team.manager.const.lua",
+    "status": "existing",
+    "bytes": 6899
+  },
+  {
+    "name": "game.module.shop.manager.const",
+    "source": "lua4_573711\\game.module.shop.manager.const_4617049706645367079.bin",
+    "output": "game.module.shop.manager.const.lua",
+    "status": "existing",
+    "bytes": 1494
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.recommand_force",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.recommand_force_5077466018360677482.bin",
+    "output": "game.module.fight.manager.base.fighting.recommand_force.lua",
+    "status": "existing",
+    "bytes": 34142
+  },
+  {
+    "name": "game.module.fight.manager.base.network",
+    "source": "lua4_573711\\game.module.fight.manager.base.network_5906234710675851519.bin",
+    "output": "game.module.fight.manager.base.network.lua",
+    "status": "existing",
+    "bytes": 9620
+  },
+  {
+    "name": "game.module.fight.manager.base.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.core_6254788570939879500.bin",
+    "output": "game.module.fight.manager.base.core.lua",
+    "status": "existing",
+    "bytes": 27967
+  },
+  {
+    "name": "game.module.team.manager.invite.core",
+    "source": "lua4_573711\\game.module.team.manager.invite.core_6781678252388602605.bin",
+    "output": "game.module.team.manager.invite.core.lua",
+    "status": "existing",
+    "bytes": 609
+  },
+  {
+    "name": "game.module.shop.manager.data.data",
+    "source": "lua4_573711\\game.module.shop.manager.data.data_6803844502123990562.bin",
+    "output": "game.module.shop.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 12625
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.gain",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.gain_6878632802039234221.bin",
+    "output": "game.module.fight.manager.base.fighting.gain.lua",
+    "status": "existing",
+    "bytes": 10658
+  },
+  {
+    "name": "game.module.fight.manager.base.reconnect",
+    "source": "lua4_573711\\game.module.fight.manager.base.reconnect_7042933419981054864.bin",
+    "output": "game.module.fight.manager.base.reconnect.lua",
+    "status": "existing",
+    "bytes": 17782
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.cmd.network",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.cmd.network_7374820635173247471.bin",
+    "output": "game.module.fight.manager.base.fighting.cmd.network.lua",
+    "status": "existing",
+    "bytes": 13984
+  },
+  {
+    "name": "game.module.fight.manager.base.ending.core",
+    "source": "lua4_573711\\game.module.fight.manager.base.ending.core_7665190083016571836.bin",
+    "output": "game.module.fight.manager.base.ending.core.lua",
+    "status": "existing",
+    "bytes": 14487
+  },
+  {
+    "name": "game.module.team.manager.target.core",
+    "source": "lua4_573711\\game.module.team.manager.target.core_7952869425509844944.bin",
+    "output": "game.module.team.manager.target.core.lua",
+    "status": "existing",
+    "bytes": 568
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.battle_env",
+    "source": "lua4_573711\\game.module.fight.manager.base.fighting.battle_env_8035900388301567358.bin",
+    "output": "game.module.fight.manager.base.fighting.battle_env.lua",
+    "status": "existing",
+    "bytes": 281
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_strength.head",
+    "source": "lua4_573711\\auto_gen.package_include.config.weapon_strength.head_8290628380516558546.bin",
+    "output": "auto_gen.package_include.config.weapon_strength.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.equip_strengthen.head",
+    "source": "lua4_573711\\auto_gen.package_include.config.equip_strengthen.head_9112704398858872784.bin",
+    "output": "auto_gen.package_include.config.equip_strengthen.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.season_rank_type.season_rank_type",
+    "source": "lua5_573650\\auto_gen.package_include.config.season_rank_type.season_rank_type_-8421797934682719457.bin",
+    "output": "auto_gen.package_include.config.season_rank_type.season_rank_type.lua",
+    "status": "existing",
+    "bytes": 1314
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_misc.battlepass_misc",
+    "source": "lua5_573650\\auto_gen.package_include.config.battlepass_misc.battlepass_misc_-8200650588084156186.bin",
+    "output": "auto_gen.package_include.config.battlepass_misc.battlepass_misc.lua",
+    "status": "existing",
+    "bytes": 740
+  },
+  {
+    "name": "game.module.task.manager.core",
+    "source": "lua5_573650\\game.module.task.manager.core_-8012914766709646150.bin",
+    "output": "game.module.task.manager.core.lua",
+    "status": "existing",
+    "bytes": 25661
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_misc.free_battle_misc",
+    "source": "lua5_573650\\auto_gen.package_include.config.free_battle_misc.free_battle_misc_-7309747630493934129.bin",
+    "output": "auto_gen.package_include.config.free_battle_misc.free_battle_misc.lua",
+    "status": "existing",
+    "bytes": 3661
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_misc.head",
+    "source": "lua5_573650\\auto_gen.package_include.config.battlepass_misc.head_-6815106807519627263.bin",
+    "output": "auto_gen.package_include.config.battlepass_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.gameplay.head",
+    "source": "lua5_573650\\auto_gen.package_include.config.gameplay.head_-3797962474916667104.bin",
+    "output": "auto_gen.package_include.config.gameplay.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.free_battle_misc.head",
+    "source": "lua5_573650\\auto_gen.package_include.config.free_battle_misc.head_3069674053489258194.bin",
+    "output": "auto_gen.package_include.config.free_battle_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.season_rank_type.head",
+    "source": "lua5_573650\\auto_gen.package_include.config.season_rank_type.head_3341458629866983444.bin",
+    "output": "auto_gen.package_include.config.season_rank_type.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.task.manager.data.data",
+    "source": "lua5_573650\\game.module.task.manager.data.data_3605310321850305500.bin",
+    "output": "game.module.task.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 34025
+  },
+  {
+    "name": "game.module.task.manager.network.network",
+    "source": "lua5_573650\\game.module.task.manager.network.network_7347662550331206628.bin",
+    "output": "game.module.task.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 10943
+  },
+  {
+    "name": "game.module.task.manager.const",
+    "source": "lua5_573650\\game.module.task.manager.const_7842214112707021901.bin",
+    "output": "game.module.task.manager.const.lua",
+    "status": "existing",
+    "bytes": 3165
+  },
+  {
+    "name": "auto_gen.package_include.config.gameplay.gameplay",
+    "source": "lua5_573650\\auto_gen.package_include.config.gameplay.gameplay_8702747091628045568.bin",
+    "output": "auto_gen.package_include.config.gameplay.gameplay.lua",
+    "status": "existing",
+    "bytes": 58015
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_pve_battle.ranked_match_pve_battle",
+    "source": "lua6_573512\\auto_gen.package_include.config.ranked_match_pve_battle.ranked_match_pve_battle_-8237240800902057786.bin",
+    "output": "auto_gen.package_include.config.ranked_match_pve_battle.ranked_match_pve_battle.lua",
+    "status": "existing",
+    "bytes": 960
+  },
+  {
+    "name": "auto_gen.package_include.config.ranked_match_pve_battle.head",
+    "source": "lua6_573512\\auto_gen.package_include.config.ranked_match_pve_battle.head_-218977707887461231.bin",
+    "output": "auto_gen.package_include.config.ranked_match_pve_battle.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "game.module.season.manager.const",
+    "source": "lua6_573512\\game.module.season.manager.const_973065331153122805.bin",
+    "output": "game.module.season.manager.const.lua",
+    "status": "existing",
+    "bytes": 6805
+  },
+  {
+    "name": "game.module.season.manager.core",
+    "source": "lua6_573512\\game.module.season.manager.core_5019881166741942368.bin",
+    "output": "game.module.season.manager.core.lua",
+    "status": "existing",
+    "bytes": 13964
+  },
+  {
+    "name": "game.module.season.manager.data.data",
+    "source": "lua6_573512\\game.module.season.manager.data.data_6804082855031542593.bin",
+    "output": "game.module.season.manager.data.data.lua",
+    "status": "existing",
+    "bytes": 2101
+  },
+  {
+    "name": "game.module.season.manager.network.network",
+    "source": "lua6_573512\\game.module.season.manager.network.network_8258935832480552082.bin",
+    "output": "game.module.season.manager.network.network.lua",
+    "status": "existing",
+    "bytes": 8983
+  },
+  {
+    "name": "auto_gen.package_include.config.title.title",
+    "source": "lua7_573533\\auto_gen.package_include.config.title.title_-8750175951285077619.bin",
+    "output": "auto_gen.package_include.config.title.title.lua",
+    "status": "existing",
+    "bytes": 86703
+  },
+  {
+    "name": "auto_gen.package_include.config.title.head",
+    "source": "lua7_573533\\auto_gen.package_include.config.title.head_-4278622828632386357.bin",
+    "output": "auto_gen.package_include.config.title.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_result_board.battle_result_board",
+    "source": "lua8_573660\\auto_gen.package_include.config.battle_result_board.battle_result_board_-7362712581938115206.bin",
+    "output": "auto_gen.package_include.config.battle_result_board.battle_result_board.lua",
+    "status": "existing",
+    "bytes": 2696
+  },
+  {
+    "name": "auto_gen.package_include.config.battle_result_board.head",
+    "source": "lua8_573660\\auto_gen.package_include.config.battle_result_board.head_3140956703792657479.bin",
+    "output": "auto_gen.package_include.config.battle_result_board.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2007",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2007_-9074943491176868336.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2007.lua",
+    "status": "existing",
+    "bytes": 17324
+  },
+  {
+    "name": "auto_gen.package_include.config.team_misc.team_misc",
+    "source": "lua9_573570\\auto_gen.package_include.config.team_misc.team_misc_-8532930946604725789.bin",
+    "output": "auto_gen.package_include.config.team_misc.team_misc.lua",
+    "status": "existing",
+    "bytes": 3179
+  },
+  {
+    "name": "auto_gen.package_include.config.team_misc.head",
+    "source": "lua9_573570\\auto_gen.package_include.config.team_misc.head_-8345482200522108255.bin",
+    "output": "auto_gen.package_include.config.team_misc.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.sever_open_func",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.sever_open_func_-6592154155625234423.bin",
+    "output": "auto_gen.package_include.config.open_func.sever_open_func.lua",
+    "status": "existing",
+    "bytes": 1453
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0",
+    "source": "lua9_573570\\auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0_-6383403709424737490.bin",
+    "output": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0.lua",
+    "status": "existing",
+    "bytes": 198983
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2119",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2119_-6319390820802924259.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2119.lua",
+    "status": "existing",
+    "bytes": 17490
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.brach",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.brach_-6009119079484648745.bin",
+    "output": "auto_gen.package_include.config.open_func.brach.lua",
+    "status": "existing",
+    "bytes": 33348
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2116",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2116_-5670263061614028487.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2116.lua",
+    "status": "existing",
+    "bytes": 4454
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_543",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_543_-5012888750475918977.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_543.lua",
+    "status": "existing",
+    "bytes": 17367
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2038",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2038_-4884054504882357239.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2038.lua",
+    "status": "existing",
+    "bytes": 25297
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2159",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2159_-4595191882827338781.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2159.lua",
+    "status": "existing",
+    "bytes": 17403
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2321",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2321_-4578616777123110832.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2321.lua",
+    "status": "existing",
+    "bytes": 4310
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.head",
+    "source": "lua9_573570\\auto_gen.package_include.config.skill_base_upgrade.head_-4314423995667435321.bin",
+    "output": "auto_gen.package_include.config.skill_base_upgrade.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_-4233286137592963730.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func.lua",
+    "status": "existing",
+    "bytes": 462807
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_3638",
+    "source": "lua9_573570\\auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_3638_-4145689464663556218.bin",
+    "output": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_3638.lua",
+    "status": "existing",
+    "bytes": 271474
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2963",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2963_-2210362899811739246.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2963.lua",
+    "status": "existing",
+    "bytes": 17287
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_543",
+    "source": "lua9_573570\\auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_543_-695300567749290133.bin",
+    "output": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_543.lua",
+    "status": "existing",
+    "bytes": 207170
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.head",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.head_3358971323303254090.bin",
+    "output": "auto_gen.package_include.config.open_func.head.lua",
+    "status": "existing",
+    "bytes": 36
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade",
+    "source": "lua9_573570\\auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_3998053040281171957.bin",
+    "output": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade.lua",
+    "status": "existing",
+    "bytes": 72
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2329",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2329_4847980766288970135.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2329.lua",
+    "status": "existing",
+    "bytes": 4657
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2000",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2000_6999529354914131677.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2000.lua",
+    "status": "existing",
+    "bytes": 17201
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_0",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_0_7787192126939727327.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_0.lua",
+    "status": "existing",
+    "bytes": 17274
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func_2008",
+    "source": "lua9_573570\\auto_gen.package_include.config.open_func.open_func_2008_8596349820111199156.bin",
+    "output": "auto_gen.package_include.config.open_func.open_func_2008.lua",
+    "status": "existing",
+    "bytes": 8021
+  }
+]

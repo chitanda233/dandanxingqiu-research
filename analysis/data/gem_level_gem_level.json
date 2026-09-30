@@ -1,5 +1,6 @@
 [
   {
+    "cost": {},
     "id": 1,
     "lv": 0,
     "role_lv": 0,
@@ -87,6 +88,8 @@
     "quality": 1
   },
   {
+    "role_lv": 20,
+    "quality": 1,
     "id": 7,
     "lv": 6,
     "cost": [
@@ -101,6 +104,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 1,
     "id": 8,
     "lv": 7,
     "cost": [
@@ -115,6 +120,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 1,
     "id": 9,
     "lv": 8,
     "cost": [
@@ -129,6 +136,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 1,
     "id": 10,
     "lv": 9,
     "cost": [
@@ -143,6 +152,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 1,
     "id": 11,
     "lv": 10,
     "attr_num": 1,
@@ -158,6 +169,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 1,
     "id": 12,
     "lv": 11,
     "cost": [
@@ -172,6 +185,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 1,
     "id": 13,
     "lv": 12,
     "cost": [
@@ -186,6 +201,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 1,
     "id": 14,
     "lv": 13,
     "cost": [
@@ -200,6 +217,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 1,
     "id": 15,
     "lv": 14,
     "cost": [
@@ -214,6 +233,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 1,
     "id": 16,
     "lv": 15,
     "attr_num": 1,
@@ -229,6 +250,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 1,
     "id": 17,
     "lv": 16,
     "cost": [
@@ -243,6 +266,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 1,
     "id": 18,
     "lv": 17,
     "cost": [
@@ -257,6 +282,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 1,
     "id": 19,
     "lv": 18,
     "cost": [
@@ -271,6 +298,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 1,
     "id": 20,
     "lv": 19,
     "cost": [
@@ -285,6 +314,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 1,
     "id": 21,
     "lv": 20,
     "attr_num": 1,
@@ -300,6 +331,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 1,
     "id": 22,
     "lv": 21,
     "cost": [
@@ -314,6 +347,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 1,
     "id": 23,
     "lv": 22,
     "cost": [
@@ -328,6 +363,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 1,
     "id": 24,
     "lv": 23,
     "cost": [
@@ -342,6 +379,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 1,
     "id": 25,
     "lv": 24,
     "cost": [
@@ -356,6 +395,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 1,
     "id": 26,
     "lv": 25,
     "attr_num": 1,
@@ -371,6 +412,7 @@
     ]
   },
   {
+    "cost": {},
     "id": 27,
     "lv": 0,
     "role_lv": 0,
@@ -458,6 +500,8 @@
     "quality": 2
   },
   {
+    "role_lv": 20,
+    "quality": 2,
     "id": 33,
     "lv": 6,
     "cost": [
@@ -472,6 +516,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 2,
     "id": 34,
     "lv": 7,
     "cost": [
@@ -486,6 +532,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 2,
     "id": 35,
     "lv": 8,
     "cost": [
@@ -500,6 +548,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 2,
     "id": 36,
     "lv": 9,
     "cost": [
@@ -514,6 +564,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 2,
     "id": 37,
     "lv": 10,
     "attr_num": 1,
@@ -529,6 +581,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 2,
     "id": 38,
     "lv": 11,
     "cost": [
@@ -543,6 +597,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 2,
     "id": 39,
     "lv": 12,
     "cost": [
@@ -557,6 +613,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 2,
     "id": 40,
     "lv": 13,
     "cost": [
@@ -571,6 +629,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 2,
     "id": 41,
     "lv": 14,
     "cost": [
@@ -585,6 +645,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 2,
     "id": 42,
     "lv": 15,
     "attr_num": 1,
@@ -600,6 +662,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 2,
     "id": 43,
     "lv": 16,
     "cost": [
@@ -614,6 +678,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 2,
     "id": 44,
     "lv": 17,
     "cost": [
@@ -628,6 +694,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 2,
     "id": 45,
     "lv": 18,
     "cost": [
@@ -642,6 +710,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 2,
     "id": 46,
     "lv": 19,
     "cost": [
@@ -656,6 +726,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 2,
     "id": 47,
     "lv": 20,
     "attr_num": 1,
@@ -671,6 +743,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 2,
     "id": 48,
     "lv": 21,
     "cost": [
@@ -685,6 +759,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 2,
     "id": 49,
     "lv": 22,
     "cost": [
@@ -699,6 +775,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 2,
     "id": 50,
     "lv": 23,
     "cost": [
@@ -713,6 +791,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 2,
     "id": 51,
     "lv": 24,
     "cost": [
@@ -727,6 +807,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 2,
     "id": 52,
     "lv": 25,
     "attr_num": 1,
@@ -742,6 +824,7 @@
     ]
   },
   {
+    "cost": {},
     "id": 53,
     "lv": 0,
     "role_lv": 0,
@@ -829,6 +912,8 @@
     "quality": 3
   },
   {
+    "role_lv": 20,
+    "quality": 3,
     "id": 59,
     "lv": 6,
     "cost": [
@@ -843,6 +928,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 3,
     "id": 60,
     "lv": 7,
     "cost": [
@@ -857,6 +944,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 3,
     "id": 61,
     "lv": 8,
     "cost": [
@@ -871,6 +960,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 3,
     "id": 62,
     "lv": 9,
     "cost": [
@@ -885,6 +976,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 3,
     "id": 63,
     "lv": 10,
     "attr_num": 1,
@@ -900,6 +993,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 3,
     "id": 64,
     "lv": 11,
     "cost": [
@@ -914,6 +1009,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 3,
     "id": 65,
     "lv": 12,
     "cost": [
@@ -928,6 +1025,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 3,
     "id": 66,
     "lv": 13,
     "cost": [
@@ -942,6 +1041,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 3,
     "id": 67,
     "lv": 14,
     "cost": [
@@ -956,6 +1057,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 3,
     "id": 68,
     "lv": 15,
     "attr_num": 1,
@@ -971,6 +1074,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 3,
     "id": 69,
     "lv": 16,
     "cost": [
@@ -985,6 +1090,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 3,
     "id": 70,
     "lv": 17,
     "cost": [
@@ -999,6 +1106,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 3,
     "id": 71,
     "lv": 18,
     "cost": [
@@ -1013,6 +1122,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 3,
     "id": 72,
     "lv": 19,
     "cost": [
@@ -1027,6 +1138,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 3,
     "id": 73,
     "lv": 20,
     "attr_num": 1,
@@ -1042,6 +1155,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 3,
     "id": 74,
     "lv": 21,
     "cost": [
@@ -1056,6 +1171,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 3,
     "id": 75,
     "lv": 22,
     "cost": [
@@ -1070,6 +1187,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 3,
     "id": 76,
     "lv": 23,
     "cost": [
@@ -1084,6 +1203,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 3,
     "id": 77,
     "lv": 24,
     "cost": [
@@ -1098,6 +1219,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 3,
     "id": 78,
     "lv": 25,
     "attr_num": 1,
@@ -1113,6 +1236,7 @@
     ]
   },
   {
+    "cost": {},
     "id": 79,
     "lv": 0,
     "role_lv": 0,
@@ -1201,6 +1325,8 @@
     "quality": 4
   },
   {
+    "role_lv": 20,
+    "quality": 4,
     "id": 85,
     "lv": 6,
     "cost": [
@@ -1215,6 +1341,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 4,
     "id": 86,
     "lv": 7,
     "cost": [
@@ -1229,6 +1357,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 4,
     "id": 87,
     "lv": 8,
     "cost": [
@@ -1243,6 +1373,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 4,
     "id": 88,
     "lv": 9,
     "cost": [
@@ -1257,6 +1389,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 4,
     "attr_num": 1,
     "cost": [
       [
@@ -1273,6 +1407,8 @@
     "passive_per": 300
   },
   {
+    "role_lv": 25,
+    "quality": 4,
     "id": 90,
     "lv": 11,
     "cost": [
@@ -1287,6 +1423,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 4,
     "id": 91,
     "lv": 12,
     "cost": [
@@ -1301,6 +1439,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 4,
     "id": 92,
     "lv": 13,
     "cost": [
@@ -1315,6 +1455,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 4,
     "id": 93,
     "lv": 14,
     "cost": [
@@ -1329,6 +1471,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 4,
     "attr_num": 1,
     "cost": [
       [
@@ -1345,6 +1489,8 @@
     "passive_per": 600
   },
   {
+    "role_lv": 30,
+    "quality": 4,
     "id": 95,
     "lv": 16,
     "cost": [
@@ -1359,6 +1505,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 4,
     "id": 96,
     "lv": 17,
     "cost": [
@@ -1373,6 +1521,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 4,
     "id": 97,
     "lv": 18,
     "cost": [
@@ -1387,6 +1537,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 4,
     "id": 98,
     "lv": 19,
     "cost": [
@@ -1401,6 +1553,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 4,
     "attr_num": 1,
     "cost": [
       [
@@ -1417,6 +1571,8 @@
     "passive_per": 1000
   },
   {
+    "role_lv": 35,
+    "quality": 4,
     "id": 100,
     "lv": 21,
     "cost": [
@@ -1431,6 +1587,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 4,
     "id": 101,
     "lv": 22,
     "cost": [
@@ -1445,6 +1603,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 4,
     "id": 102,
     "lv": 23,
     "cost": [
@@ -1459,6 +1619,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 4,
     "id": 103,
     "lv": 24,
     "cost": [
@@ -1473,6 +1635,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 4,
     "attr_num": 1,
     "cost": [
       [
@@ -1489,6 +1653,7 @@
     "passive_per": 400
   },
   {
+    "cost": {},
     "id": 105,
     "lv": 0,
     "role_lv": 0,
@@ -1577,6 +1742,8 @@
     "quality": 5
   },
   {
+    "role_lv": 20,
+    "quality": 5,
     "id": 111,
     "lv": 6,
     "cost": [
@@ -1591,6 +1758,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 5,
     "id": 112,
     "lv": 7,
     "cost": [
@@ -1605,6 +1774,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 5,
     "id": 113,
     "lv": 8,
     "cost": [
@@ -1619,6 +1790,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 5,
     "id": 114,
     "lv": 9,
     "cost": [
@@ -1633,6 +1806,8 @@
     ]
   },
   {
+    "role_lv": 20,
+    "quality": 5,
     "attr_num": 1,
     "cost": [
       [
@@ -1649,6 +1824,8 @@
     "passive_per": 200
   },
   {
+    "role_lv": 25,
+    "quality": 5,
     "id": 116,
     "lv": 11,
     "cost": [
@@ -1663,6 +1840,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 5,
     "id": 117,
     "lv": 12,
     "cost": [
@@ -1677,6 +1856,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 5,
     "id": 118,
     "lv": 13,
     "cost": [
@@ -1691,6 +1872,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 5,
     "id": 119,
     "lv": 14,
     "cost": [
@@ -1705,6 +1888,8 @@
     ]
   },
   {
+    "role_lv": 25,
+    "quality": 5,
     "attr_num": 1,
     "cost": [
       [
@@ -1721,6 +1906,8 @@
     "passive_per": 300
   },
   {
+    "role_lv": 30,
+    "quality": 5,
     "id": 121,
     "lv": 16,
     "cost": [
@@ -1735,6 +1922,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 5,
     "id": 122,
     "lv": 17,
     "cost": [
@@ -1749,6 +1938,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 5,
     "id": 123,
     "lv": 18,
     "cost": [
@@ -1763,6 +1954,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 5,
     "id": 124,
     "lv": 19,
     "cost": [
@@ -1777,6 +1970,8 @@
     ]
   },
   {
+    "role_lv": 30,
+    "quality": 5,
     "attr_num": 1,
     "cost": [
       [
@@ -1793,6 +1988,8 @@
     "passive_per": 500
   },
   {
+    "role_lv": 35,
+    "quality": 5,
     "id": 126,
     "lv": 21,
     "cost": [
@@ -1807,6 +2004,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 5,
     "id": 127,
     "lv": 22,
     "cost": [
@@ -1821,6 +2020,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 5,
     "id": 128,
     "lv": 23,
     "cost": [
@@ -1835,6 +2036,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 5,
     "id": 129,
     "lv": 24,
     "cost": [
@@ -1849,6 +2052,8 @@
     ]
   },
   {
+    "role_lv": 35,
+    "quality": 5,
     "attr_num": 1,
     "cost": [
       [

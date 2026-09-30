@@ -1,0 +1,95 @@
+{
+  "add_points_plan_max": {
+    "key": "add_points_plan_max",
+    "val": [
+      5
+    ]
+  },
+  "fight_plan_limit": {
+    "key": "fight_plan_limit",
+    "val": 5
+  },
+  "add_points_quick_num": {
+    "key": "add_points_quick_num",
+    "val": [
+      5
+    ]
+  },
+  "main_attr": {
+    "key": "main_attr",
+    "val": [
+      [
+        1,
+        [
+          11,
+          12,
+          1,
+          2,
+          13,
+          3
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          1,
+          2,
+          13,
+          3
+        ]
+      ],
+      [
+        3,
+        [
+          11,
+          12,
+          1,
+          2,
+          13,
+          3
+        ]
+      ]
+    ]
+  },
+  "reset_points_free_level": {
+    "key": "reset_points_free_level",
+    "val": [
+      30
+    ]
+  },
+  "add_points_second_attr_list": {
+    "key": "add_points_second_attr_list",
+    "val": [
+      1,
+      2,
+      11,
+      3,
+      71
+    ]
+  },
+  "reset_points_cost": {
+    "key": "reset_points_cost",
+    "val": {}
+  },
+  "add_point_attrs": {
+    "key": "add_point_attrs",
+    "val": [
+      62,
+      65,
+      61,
+      64
+    ]
+  },
+  "change_points_plan_cost": {
+    "key": "change_points_plan_cost",
+    "val": {}
+  },
+  "change_points_plan_free": {
+    "key": "change_points_plan_free",
+    "val": [
+      1
+    ]
+  }
+}

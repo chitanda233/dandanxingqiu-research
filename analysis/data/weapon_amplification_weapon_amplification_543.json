@@ -1,5 +1,16 @@
 [
   {
+    "server_days_limit": 6,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "cost": [
+      1210010001,
+      1
+    ],
+    "block_level_limit": 4,
+    "module_limit": 4,
     "attr": {
       "11": 63,
       "2": 4,
@@ -12,6 +23,17 @@
     "lv": 1
   },
   {
+    "server_days_limit": 6,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "cost": [
+      1210010001,
+      1
+    ],
+    "block_level_limit": 4,
+    "module_limit": 4,
     "attr": {
       "11": 126,
       "2": 8,
@@ -24,6 +46,18 @@
     "lv": 2
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 2,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
     "attr": {
       "11": 189,
       "2": 13,
@@ -35,6 +69,18 @@
     "exp": 300
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 2,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
     "attr": {
       "11": 252,
       "2": 17,
@@ -46,6 +92,18 @@
     "exp": 400
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 3,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
     "attr": {
       "11": 315,
       "2": 21,
@@ -57,6 +115,18 @@
     "exp": 500
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 3,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
     "attr": {
       "11": 360,
       "2": 24,
@@ -68,6 +138,19 @@
     "exp": 600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
+    "server_days_limit": 6,
+    "talent_num": 4,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 12,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 405,
       "2": 27,
@@ -78,6 +161,19 @@
     "exp": 700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 4,
+    "server_days_limit": 6,
+    "talent_num": 4,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 12,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 450,
       "2": 30,
@@ -88,6 +184,18 @@
     "exp": 800
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 5,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 13,
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 468,
       "2": 31,
@@ -99,6 +207,18 @@
     "exp": 900
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 5,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 13,
+    "block_level_limit": 4,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 486,
       "2": 32,
@@ -110,6 +230,19 @@
     "exp": 1000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 6,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 14,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 504,
       "2": 34,
@@ -120,6 +253,19 @@
     "exp": 1100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 6,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 14,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 522,
       "2": 35,
@@ -130,6 +276,19 @@
     "exp": 1200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 6,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 15,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 540,
       "2": 36,
@@ -140,6 +299,19 @@
     "exp": 1300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 6,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 15,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 558,
       "2": 37,
@@ -150,6 +322,19 @@
     "exp": 1400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 7,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 16,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 576,
       "2": 38,
@@ -160,6 +345,19 @@
     "exp": 1500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 7,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 16,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 594,
       "2": 40,
@@ -170,6 +368,19 @@
     "exp": 1600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 7,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 17,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 612,
       "2": 41,
@@ -180,6 +391,19 @@
     "exp": 1700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 5,
+    "server_days_limit": 6,
+    "talent_num": 7,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 17,
+    "block_level_limit": 4,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 630,
       "2": 42,
@@ -236,6 +460,19 @@
     ]
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 8,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 19,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 684,
       "2": 46,
@@ -246,6 +483,19 @@
     "exp": 2100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 8,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 19,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 702,
       "2": 47,
@@ -256,6 +506,19 @@
     "exp": 2200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 8,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 20,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 720,
       "2": 48,
@@ -266,6 +529,19 @@
     "exp": 2300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 8,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 20,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 738,
       "2": 49,
@@ -276,6 +552,19 @@
     "exp": 2400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 9,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 21,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 756,
       "2": 50,
@@ -286,6 +575,19 @@
     "exp": 2500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 9,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 21,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 774,
       "2": 52,
@@ -296,6 +598,20 @@
     "exp": 2600
   },
   {
+    "exp": 2700,
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 9,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 22,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 792,
       "2": 53,
@@ -305,6 +621,20 @@
     "lv": 27
   },
   {
+    "exp": 2700,
+    "module_limit": 6,
+    "server_days_limit": 6,
+    "talent_num": 9,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 22,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 810,
       "2": 54,
@@ -314,6 +644,18 @@
     "lv": 28
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 23,
+    "block_level_limit": 5,
+    "exp": 2800,
     "attr": {
       "11": 828,
       "2": 55,
@@ -325,6 +667,18 @@
     "module_limit": 6
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 23,
+    "block_level_limit": 5,
+    "exp": 2800,
     "attr": {
       "11": 846,
       "2": 56,
@@ -336,6 +690,20 @@
     "module_limit": 7
   },
   {
+    "exp": 2900,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 10,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 24,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 864,
       "2": 58,
@@ -345,6 +713,20 @@
     "lv": 31
   },
   {
+    "exp": 2900,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 10,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 24,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 882,
       "2": 59,
@@ -354,6 +736,20 @@
     "lv": 32
   },
   {
+    "exp": 3000,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 10,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 25,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 900,
       "2": 60,
@@ -363,6 +759,20 @@
     "lv": 33
   },
   {
+    "exp": 3000,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 10,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 25,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 918,
       "2": 61,
@@ -372,6 +782,20 @@
     "lv": 34
   },
   {
+    "exp": 3100,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 11,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 26,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 936,
       "2": 62,
@@ -381,6 +805,20 @@
     "lv": 35
   },
   {
+    "exp": 3100,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 11,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 26,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 954,
       "2": 64,
@@ -390,6 +828,20 @@
     "lv": 36
   },
   {
+    "exp": 3200,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 11,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 27,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 972,
       "2": 65,
@@ -399,6 +851,20 @@
     "lv": 37
   },
   {
+    "exp": 3200,
+    "module_limit": 7,
+    "server_days_limit": 6,
+    "talent_num": 11,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 27,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 990,
       "2": 66,
@@ -454,6 +920,19 @@
     ]
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 12,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 29,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1044,
       "2": 70,
@@ -464,6 +943,19 @@
     "exp": 3500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 12,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 29,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1062,
       "2": 71,
@@ -474,6 +966,19 @@
     "exp": 3600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 12,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 30,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1080,
       "2": 72,
@@ -484,6 +989,19 @@
     "exp": 3700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 12,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 30,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1098,
       "2": 73,
@@ -494,6 +1012,19 @@
     "exp": 3800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 13,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 31,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1116,
       "2": 74,
@@ -504,6 +1035,19 @@
     "exp": 3900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 8,
+    "server_days_limit": 6,
+    "talent_num": 13,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 31,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1134,
       "2": 76,
@@ -514,6 +1058,18 @@
     "exp": 4000
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 13,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 32,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1152,
       "2": 77,
@@ -525,6 +1081,18 @@
     "exp": 4100
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 13,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 32,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1170,
       "2": 78,
@@ -536,6 +1104,18 @@
     "exp": 4200
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 33,
+    "block_level_limit": 5,
+    "module_limit": 9,
     "attr": {
       "11": 1188,
       "2": 79,
@@ -547,6 +1127,18 @@
     "exp": 4300
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 33,
+    "block_level_limit": 5,
+    "module_limit": 9,
     "attr": {
       "11": 1206,
       "2": 80,
@@ -558,6 +1150,19 @@
     "exp": 4400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 9,
+    "server_days_limit": 6,
+    "talent_num": 14,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 34,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1224,
       "2": 82,
@@ -568,6 +1173,19 @@
     "exp": 4500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 9,
+    "server_days_limit": 6,
+    "talent_num": 14,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 34,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1242,
       "2": 83,
@@ -578,6 +1196,19 @@
     "exp": 4600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 9,
+    "server_days_limit": 6,
+    "talent_num": 14,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 35,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1260,
       "2": 84,
@@ -588,6 +1219,19 @@
     "exp": 4700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 9,
+    "server_days_limit": 6,
+    "talent_num": 14,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 35,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1278,
       "2": 85,
@@ -598,6 +1242,18 @@
     "exp": 4800
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 15,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 36,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1296,
       "2": 86,
@@ -609,6 +1265,18 @@
     "exp": 4900
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 15,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 36,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1314,
       "2": 88,
@@ -620,6 +1288,19 @@
     "exp": 5000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 10,
+    "server_days_limit": 6,
+    "talent_num": 15,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 37,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1332,
       "2": 89,
@@ -630,6 +1311,19 @@
     "exp": 5100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 10,
+    "server_days_limit": 6,
+    "talent_num": 15,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 37,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1350,
       "2": 90,
@@ -640,6 +1334,18 @@
     "exp": 5200
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 38,
+    "block_level_limit": 5,
+    "module_limit": 10,
     "attr": {
       "11": 1368,
       "2": 91,
@@ -651,6 +1357,18 @@
     "exp": 5300
   },
   {
+    "server_days_limit": 6,
+    "cost": [
+      1210010001,
+      1
+    ],
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 38,
+    "block_level_limit": 5,
+    "module_limit": 10,
     "attr": {
       "11": 1386,
       "2": 92,
@@ -662,6 +1380,19 @@
     "exp": 5400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 10,
+    "server_days_limit": 6,
+    "talent_num": 16,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 39,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1404,
       "2": 94,
@@ -672,6 +1403,19 @@
     "exp": 5500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 10,
+    "server_days_limit": 6,
+    "talent_num": 16,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 39,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1422,
       "2": 95,
@@ -682,6 +1426,18 @@
     "exp": 5600
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 16,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 40,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1440,
       "2": 96,
@@ -693,6 +1449,18 @@
     "exp": 5700
   },
   {
+    "server_days_limit": 6,
+    "talent_num": 16,
+    "weapon_class_limit": 0,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 40,
+    "block_level_limit": 5,
+    "cost": [
+      1210010001,
+      1
+    ],
     "attr": {
       "11": 1458,
       "2": 97,
@@ -704,6 +1472,19 @@
     "exp": 5800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 17,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 41,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1476,
       "2": 98,
@@ -714,6 +1495,19 @@
     "exp": 5900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 17,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 41,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1494,
       "2": 100,
@@ -724,6 +1518,19 @@
     "exp": 6000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 17,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 41,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1512,
       "2": 101,
@@ -734,6 +1541,19 @@
     "exp": 6100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 17,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 41,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1530,
       "2": 102,
@@ -744,6 +1564,19 @@
     "exp": 6200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 17,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 41,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1548,
       "2": 103,
@@ -754,6 +1587,19 @@
     "exp": 6300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 18,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 42,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1566,
       "2": 104,
@@ -764,6 +1610,19 @@
     "exp": 6400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 18,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 42,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1584,
       "2": 106,
@@ -774,6 +1633,19 @@
     "exp": 6500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 18,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 42,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1602,
       "2": 107,
@@ -784,6 +1656,19 @@
     "exp": 6600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 18,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 42,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1620,
       "2": 108,
@@ -794,6 +1679,19 @@
     "exp": 6700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 18,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 42,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1638,
       "2": 109,
@@ -804,6 +1702,19 @@
     "exp": 6800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 19,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 43,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1656,
       "2": 110,
@@ -814,6 +1725,19 @@
     "exp": 6900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 19,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 43,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1674,
       "2": 112,
@@ -824,6 +1748,19 @@
     "exp": 7000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 19,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 43,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1692,
       "2": 113,
@@ -834,6 +1771,19 @@
     "exp": 7100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 19,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 43,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1710,
       "2": 114,
@@ -844,6 +1794,19 @@
     "exp": 7200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 11,
+    "server_days_limit": 6,
+    "talent_num": 19,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 43,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1728,
       "2": 115,
@@ -854,6 +1817,19 @@
     "exp": 7300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 20,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 44,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1746,
       "2": 116,
@@ -864,6 +1840,19 @@
     "exp": 7400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 20,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 44,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1764,
       "2": 118,
@@ -874,6 +1863,19 @@
     "exp": 7500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 20,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 44,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1782,
       "2": 119,
@@ -884,6 +1886,19 @@
     "exp": 7600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 20,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 44,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1800,
       "2": 120,
@@ -894,6 +1909,19 @@
     "exp": 7700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 20,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 44,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1818,
       "2": 121,
@@ -904,6 +1932,19 @@
     "exp": 7800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 21,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 45,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1836,
       "2": 122,
@@ -914,6 +1955,19 @@
     "exp": 7900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 21,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 45,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1854,
       "2": 124,
@@ -924,6 +1978,19 @@
     "exp": 8000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 21,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 45,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1872,
       "2": 125,
@@ -934,6 +2001,19 @@
     "exp": 8100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 21,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 45,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1890,
       "2": 126,
@@ -944,6 +2024,19 @@
     "exp": 8200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 12,
+    "server_days_limit": 6,
+    "talent_num": 21,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 45,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1908,
       "2": 127,
@@ -954,6 +2047,19 @@
     "exp": 8300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 22,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 46,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1926,
       "2": 128,
@@ -964,6 +2070,19 @@
     "exp": 8400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 22,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 46,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1944,
       "2": 130,
@@ -974,6 +2093,19 @@
     "exp": 8500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 22,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 46,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1962,
       "2": 131,
@@ -984,6 +2116,19 @@
     "exp": 8600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 22,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 46,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1980,
       "2": 132,
@@ -994,6 +2139,19 @@
     "exp": 8700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 22,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 46,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 1998,
       "2": 133,
@@ -1004,6 +2162,19 @@
     "exp": 8800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 23,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 47,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2016,
       "2": 134,
@@ -1014,6 +2185,19 @@
     "exp": 8900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 23,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 47,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2034,
       "2": 136,
@@ -1024,6 +2208,19 @@
     "exp": 9000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 23,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 47,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2052,
       "2": 137,
@@ -1034,6 +2231,19 @@
     "exp": 9100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 23,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 47,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2070,
       "2": 138,
@@ -1044,6 +2254,19 @@
     "exp": 9200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 13,
+    "server_days_limit": 6,
+    "talent_num": 23,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 47,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2088,
       "2": 139,
@@ -1054,6 +2277,19 @@
     "exp": 9300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 24,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2106,
       "2": 140,
@@ -1064,6 +2300,19 @@
     "exp": 9400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 24,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2124,
       "2": 142,
@@ -1074,6 +2323,19 @@
     "exp": 9500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 24,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2142,
       "2": 143,
@@ -1084,6 +2346,19 @@
     "exp": 9600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 24,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2160,
       "2": 144,
@@ -1094,6 +2369,19 @@
     "exp": 9700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 24,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2178,
       "2": 145,
@@ -1104,6 +2392,19 @@
     "exp": 9800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 25,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2196,
       "2": 146,
@@ -1114,6 +2415,19 @@
     "exp": 9900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 25,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2214,
       "2": 148,
@@ -1124,6 +2438,19 @@
     "exp": 10000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 25,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2232,
       "2": 149,
@@ -1134,6 +2461,19 @@
     "exp": 10100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 25,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2250,
       "2": 150,
@@ -1144,6 +2484,19 @@
     "exp": 10200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 25,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2268,
       "2": 151,
@@ -1154,6 +2507,19 @@
     "exp": 10300
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 26,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2286,
       "2": 152,
@@ -1164,6 +2530,19 @@
     "exp": 10400
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 26,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2304,
       "2": 154,
@@ -1174,6 +2553,19 @@
     "exp": 10500
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 26,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2322,
       "2": 155,
@@ -1184,6 +2576,19 @@
     "exp": 10600
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 26,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2340,
       "2": 156,
@@ -1194,6 +2599,19 @@
     "exp": 10700
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 26,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2358,
       "2": 157,
@@ -1204,6 +2622,19 @@
     "exp": 10800
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 27,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2376,
       "2": 158,
@@ -1214,6 +2645,19 @@
     "exp": 10900
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 27,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2394,
       "2": 160,
@@ -1224,6 +2668,19 @@
     "exp": 11000
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 27,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2412,
       "2": 161,
@@ -1234,6 +2691,19 @@
     "exp": 11100
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 27,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2430,
       "2": 162,
@@ -1244,6 +2714,19 @@
     "exp": 11200
   },
   {
+    "cost": [
+      1210010001,
+      1
+    ],
+    "module_limit": 14,
+    "server_days_limit": 6,
+    "talent_num": 27,
+    "server_ids": [
+      543
+    ],
+    "unlock_formwork_num": 48,
+    "block_level_limit": 5,
+    "weapon_class_limit": 0,
     "attr": {
       "11": 2448,
       "2": 163,

@@ -1,0 +1,569 @@
+{
+  "scope": "Original client Lua bytecode with explicit battle, inventory, growth, reward and control stubs; not server behavior",
+  "sources": [
+    {
+      "name": "auto_gen.package_include.config.skill.skill",
+      "source": "lua10_573512/auto_gen.package_include.config.skill.skill_-3855228242822240957.bin",
+      "sha256": "c654950a7ebe384595fbbb7688c07ffe8ffb2685f7d93da912f9309bd5cdd761"
+    },
+    {
+      "name": "auto_gen.package_include.config.skill.const",
+      "source": "lua10_573512/auto_gen.package_include.config.skill.const_7364143781987737524.bin",
+      "sha256": "6257d755b96cca06abf42289364e518333c894cde5d3dc4b3c0046f47c9fad27"
+    },
+    {
+      "name": "auto_gen.package_include.config.fight_misc.attr_const",
+      "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_const_5724182061044062260.bin",
+      "sha256": "3b1b85bb3c8934755d1c70781c6cb13fce3bfeb76e7f84ee8a076d5304895309"
+    },
+    {
+      "name": "auto_gen.package_include.config.fight_misc.attr_parabola",
+      "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_parabola_-2399016759695687452.bin",
+      "sha256": "471651eeaf0ff7e1ae1eea7b34f1b26ed40b6e1b372e4895d6d5961997a24b26"
+    },
+    {
+      "name": "game.module.fight.manager.const",
+      "source": "lua4_573711/game.module.fight.manager.const_-4675006337339581731.bin",
+      "sha256": "07b2f0f3f3f110ca827a70409b2f1b27686366546d078c3efeff5f42b7352d4a"
+    },
+    {
+      "name": "game.module.fight.manager.base.fighting.skill.core",
+      "source": "lua4_573711/game.module.fight.manager.base.fighting.skill.core_-3533888778887191997.bin",
+      "sha256": "86497e646c7509cc45742b64c7dbe97a03a1c101756d213c3910416507664826"
+    },
+    {
+      "name": "game.module.pet.manager.data.data",
+      "source": "lua2_573512/game.module.pet.manager.data.data_-2860366180176707859.bin",
+      "sha256": "029f7deac6b3abe249eca88352f3ee15b776c17ff5a03d194c2733df9c7e8dea"
+    },
+    {
+      "name": "game.module.battle_pass.manager.core",
+      "source": "lua1_573660/game.module.battle_pass.manager.core_6719724894960869895.bin",
+      "sha256": "aa5bfaf332ab4759bfd8232cbcdd6db391b32b512d6316ca5b1d50bfb14c0cb2"
+    },
+    {
+      "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0",
+      "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0_-6383403709424737490.bin",
+      "sha256": "4d0c9f0040a58f5585f3f427cecacdbae2dd945163d91f8866161dc00b5dfd87"
+    },
+    {
+      "name": "game.module.skill.manager.core",
+      "source": "lua7_573533/game.module.skill.manager.core_-9150744112371628037.bin",
+      "sha256": "c5627a6c5721a3bc62a6c9d78fdcfc2665d08061e8c2d85a236d5831a478052c"
+    },
+    {
+      "name": "game.module.fight.manager.base.fighting.ui.core",
+      "source": "lua4_573711/game.module.fight.manager.base.fighting.ui.core_-4428100714137387026.bin",
+      "sha256": "b239653030b5450d813fea5aeaf3c084fffc94017838bc5e24a361b80f19b18f"
+    }
+  ],
+  "cases": [
+    {
+      "label": "正常冰冻可用",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": ""
+      },
+      "returned": [
+        true,
+        null
+      ]
+    },
+    {
+      "label": "非攻击状态",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "c.fight_state=\"watch\""
+      },
+      "returned": [
+        false,
+        "state"
+      ]
+    },
+    {
+      "label": "不是本回合行动者",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.is_cur_round_attacker=false"
+      },
+      "returned": [
+        false,
+        "not_round_attacker"
+      ]
+    },
+    {
+      "label": "已离开行动阶段",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.round_status=FIGHT.unit_round_status.watch"
+      },
+      "returned": [
+        false,
+        "fired"
+      ]
+    },
+    {
+      "label": "自动战斗禁止手动技能",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.role.is_auto_battle=true"
+      },
+      "returned": [
+        false,
+        "auto_battle"
+      ]
+    },
+    {
+      "label": "沉默",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "c.is_unit_buff_ban_skill=function() return true end"
+      },
+      "returned": [
+        false,
+        "silent"
+      ]
+    },
+    {
+      "label": "重复回合禁用冰冻",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "c.round.is_repeat_round=true"
+      },
+      "returned": [
+        false,
+        "repeat_ban_freeze"
+      ]
+    },
+    {
+      "label": "本回合次数耗尽",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.skill_cf_id_to_info[1001009].round_count=1"
+      },
+      "returned": [
+        false,
+        "turn max"
+      ]
+    },
+    {
+      "label": "本局次数耗尽",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.skill_cf_id_to_info[1001009].all_count=1"
+      },
+      "returned": [
+        false,
+        "match max"
+      ]
+    },
+    {
+      "label": "冷却未好",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.skill_cf_id_to_info[1001009].cd=1"
+      },
+      "returned": [
+        false,
+        "cd"
+      ]
+    },
+    {
+      "label": "禁用原型",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "c.is_unit_skill_forbid=function() return true end"
+      },
+      "returned": [
+        false,
+        "prototype_id_forbid"
+      ]
+    },
+    {
+      "label": "费用不足",
+      "inputs": {
+        "skill_id": 1001009,
+        "setup": "u.attrs.strength=-1"
+      },
+      "returned": [
+        false,
+        "strength"
+      ]
+    },
+    {
+      "label": "技能费用边界低于10000",
+      "inputs": {
+        "skill_id": 1011010,
+        "strength": 9999
+      },
+      "returned": [
+        false,
+        "strength"
+      ]
+    },
+    {
+      "label": "技能费用边界等于10000",
+      "inputs": {
+        "skill_id": 1011010,
+        "strength": 10000
+      },
+      "returned": [
+        true,
+        null
+      ]
+    },
+    {
+      "label": "普通冷却与回合次数重置",
+      "inputs": {
+        "skill_id": 1011010,
+        "cd_before": 3,
+        "round_count_before": 1
+      },
+      "returned": [
+        2,
+        0
+      ]
+    },
+    {
+      "label": "宠物衰减level30_角色50_暂停0",
+      "inputs": {
+        "pet_level": 30,
+        "player_level": 50,
+        "pause_level": 0
+      },
+      "returned": [
+        0.23076923076923073
+      ]
+    },
+    {
+      "label": "宠物衰减level30_角色30_暂停0",
+      "inputs": {
+        "pet_level": 30,
+        "player_level": 30,
+        "pause_level": 0
+      },
+      "returned": [
+        0.04761904761904767
+      ]
+    },
+    {
+      "label": "宠物衰减level30_角色50_暂停10",
+      "inputs": {
+        "pet_level": 30,
+        "player_level": 50,
+        "pause_level": 10
+      },
+      "returned": [
+        0.29824561403508776
+      ]
+    },
+    {
+      "label": "宠物衰减level100_角色133_暂停0",
+      "inputs": {
+        "pet_level": 100,
+        "player_level": 133,
+        "pause_level": 0
+      },
+      "returned": [
+        0
+      ]
+    },
+    {
+      "label": "通行证_免费已领取",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 5,
+        "paid": false,
+        "bought": false
+      },
+      "returned": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "label": "通行证_免费可领取",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 6,
+        "paid": false,
+        "bought": false
+      },
+      "returned": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "label": "通行证_等级未达",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 11,
+        "paid": false,
+        "bought": false
+      },
+      "returned": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "label": "通行证_付费未购",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 4,
+        "paid": true,
+        "bought": false
+      },
+      "returned": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "label": "通行证_付费已领取",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 3,
+        "paid": true,
+        "bought": true
+      },
+      "returned": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "label": "通行证_付费可领取",
+      "inputs": {
+        "current_level": 10,
+        "normal_claimed": 5,
+        "paid_claimed": 3,
+        "reward_level": 4,
+        "paid": true,
+        "bought": true
+      },
+      "returned": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "label": "技能槽默认与类别槽",
+      "inputs": {
+        "cached_skill_pos": false
+      },
+      "returned": [
+        5,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "20升21资源足",
+      "inputs": {
+        "skill_id": 1001,
+        "current_level": 20,
+        "player_level": 40,
+        "server_day": 10,
+        "skill_knowledge": 4000,
+        "gold": 90000
+      },
+      "returned": [
+        true
+      ]
+    },
+    {
+      "label": "20升21材料差1",
+      "inputs": {
+        "skill_id": 1001,
+        "current_level": 20,
+        "player_level": 40,
+        "server_day": 10,
+        "skill_knowledge": 3999,
+        "gold": 90000
+      },
+      "returned": [
+        false
+      ]
+    },
+    {
+      "label": "40升41角色未达",
+      "inputs": {
+        "skill_id": 1001,
+        "current_level": 40,
+        "player_level": 39,
+        "server_day": 10,
+        "skill_knowledge": 7500,
+        "gold": 150000
+      },
+      "returned": [
+        false
+      ]
+    },
+    {
+      "label": "40升41开服未达",
+      "inputs": {
+        "skill_id": 1001,
+        "current_level": 40,
+        "player_level": 40,
+        "server_day": 4,
+        "skill_knowledge": 7500,
+        "gold": 150000
+      },
+      "returned": [
+        false
+      ]
+    },
+    {
+      "label": "40升41满足门槛",
+      "inputs": {
+        "skill_id": 1001,
+        "current_level": 40,
+        "player_level": 40,
+        "server_day": 5,
+        "skill_knowledge": 7500,
+        "gold": 150000
+      },
+      "returned": [
+        true
+      ]
+    },
+    {
+      "label": "标准蓄力",
+      "inputs": {
+        "setting_percent": 100,
+        "aim_factor": 0,
+        "env_add_speed_rate": 0,
+        "buff_power_add_speed": 0
+      },
+      "returned": [
+        0.18181818181818182,
+        1818
+      ]
+    },
+    {
+      "label": "瞄准修正20%",
+      "inputs": {
+        "setting_percent": 100,
+        "aim_factor": 0.2,
+        "env_add_speed_rate": 0,
+        "buff_power_add_speed": 0
+      },
+      "returned": [
+        0.14545454545454548,
+        1455
+      ]
+    },
+    {
+      "label": "磁暴蓄力",
+      "inputs": {
+        "setting_percent": 100,
+        "aim_factor": 0,
+        "env_add_speed_rate": 18000,
+        "buff_power_add_speed": 0
+      },
+      "returned": [
+        0.509090909090909,
+        5091
+      ]
+    },
+    {
+      "label": "增益蓄力20%",
+      "inputs": {
+        "setting_percent": 100,
+        "aim_factor": 0,
+        "env_add_speed_rate": 0,
+        "buff_power_add_speed": 2000
+      },
+      "returned": [
+        0.21818181818181817,
+        2182
+      ]
+    }
+  ],
+  "enums": {
+    "const_attr_str": {
+      "1": "strength",
+      "2": "energy",
+      "4": "wakan",
+      "3": "anger"
+    },
+    "unit_round_status": {
+      "action": 1,
+      "power": 2,
+      "done": 6,
+      "watch": 3,
+      "fire_done": 4,
+      "pet_action": 5
+    },
+    "buff_states": {
+      "skill_unselectable": 20,
+      "cant_trigger_hit_fly_again": 10003,
+      "forbid_move": 31,
+      "power_blackbox": 43,
+      "imprison": 4,
+      "hide_hp": 10000,
+      "move_ground_paste": 27,
+      "be_taunted": 23,
+      "aim_type_no": 33,
+      "expel": 29,
+      "dizziness": 13,
+      "immobilized": 18,
+      "continue_fire": 41,
+      "charge": 9,
+      "avoid_hurt": 8,
+      "hit_fly_preview": 40,
+      "sound_wave": 10007,
+      "avoid_hole": 3,
+      "snowball_target": 10006,
+      "forbid_add_delay": 22,
+      "show_snowman_progress": 10005,
+      "freeze": 1,
+      "lock_updown": 10,
+      "fly_free": 39,
+      "immune_add_buff": 19,
+      "recommend_force_no_wind": 10001,
+      "avoid_skill": 24,
+      "fire_dance_shining": 37,
+      "butterfly": 10002,
+      "power_radar": 44,
+      "silent": 6,
+      "cant_trigger_hit_fly": 10004,
+      "forbid_recover_energy": 7,
+      "aim_type_2": 32,
+      "lock_target": 30,
+      "stealth": 2,
+      "move_lift": 26,
+      "black_hole": 21
+    },
+    "skill_proto_type": {
+      "max": 109,
+      "freeze": 1001,
+      "fly": 1005,
+      "clean": 1009
+    },
+    "skill_prototype": {
+      "fly": 1005,
+      "invisible_one": 1002,
+      "invisible_all": 1003,
+      "soul_fly": 8009
+    }
+  }
+}

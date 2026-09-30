@@ -22,15 +22,18 @@
 ## 仓库结构
 
 ```text
-analysis/                  分专题的人工分析报告（网页的唯一内容源）
-  data/                   79 张由原始字节码执行导出的配置 JSON 与来源哈希
+analysis/                  分专题的代码逆向策划案、规则正文与生成明细
+  design-details/         各模块深入规则正文；与有效配置自动合成专题
+  data/                   128 张由原始字节码执行导出的配置 JSON 与来源哈希
 docs/                      GitHub Pages 静态网页；每个专题一个页面
 raw/                       从本机缓存复制的原始 wxapkg 与 23 个 Lua AssetBundle
   manifest.json            每份原始文件的大小与 SHA-256
 reverse/                   从原始资源提取/反编译的研究材料
   unpacked-wxapkg/         微信包成员
   lua-bytecode/            8,272 个 Lua TextAsset 字节码与清单
-  lua-decompiled/          筛选出的 148 份尽力反编译 Lua 与清单
+  lua-decompiled/          148 份原 unluac 尽力反编译
+  lua-luadec/              第二套尽力反编译（保留错误提示）
+  lua-disassembled/        184 个模块原始指令、函数定位与来源哈希
 tools/                     提取、反编译、网页生成及校验脚本
 vendor/                    研究用工具二进制；临时试验仓库不纳入版本控制
 ```
@@ -46,6 +49,9 @@ python tools/extract_lua_assets.py raw/lua-bundles reverse/lua-bytecode
 python tools/decompile_selected.py reverse/lua-bytecode reverse/lua-decompiled --java java --jar vendor/unluac.jar
 python -m pip install -r requirements-research.txt
 python tools/extract_config_tables.py
+python tools/deep_decompile.py
+python tools/probe_client_rules.py
+python tools/build_design_appendices.py
 python tools/build_site.py
 python tools/check_site.py
 ```

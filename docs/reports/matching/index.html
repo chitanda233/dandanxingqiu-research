@@ -20,10 +20,12 @@
 <a href="#从建队到正式匹配的消息链">从建队到正式匹配的消息链</a>
 <a href="#配置值记录存在含义有限">配置值：记录存在，含义有限</a>
 <a href="#机器人与匹配算法的证据边界">机器人与匹配算法的证据边界</a>
-<a href="#模块策划案玩法目标与准入">模块策划案：玩法目标与准入</a>
-<a href="#模块策划案两条队列和结果处理">模块策划案：两条队列和结果处理</a>
-<a href="#模块策划案排位自由竞技与机器人入口">模块策划案：排位、自由竞技与机器人入口</a>
-<a href="#可复核的验收场景">可复核的验收场景</a></nav>
+<a href="#匹配准入设计开放时间养成与队伍">匹配准入设计：开放、时间、养成与队伍</a>
+<a href="#新手匹配设计场次预设与奖励展示">新手匹配设计：场次、预设与奖励展示</a>
+<a href="#两条队列的操作与状态契约">两条队列的操作与状态契约</a>
+<a href="#模式参数对匹配后体验的约束">模式参数对匹配后体验的约束</a>
+<a href="#服务端尚缺的设计部分">服务端尚缺的设计部分</a>
+<a href="#可查的配置明细">可查的配置明细</a></nav>
 <div class="sidebar-foot"><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/matching.md">原始 Markdown</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/raw">原始资源</a><a href="https://github.com/chitanda233/dandanxingqiu-research/tree/main/reverse">反编译内容</a></div></aside>
 <main class="report-main"><header class="report-header"><a class="back" href="../../index.html">← 返回研究门户</a><div class="eyebrow">研究专题 03 / 10 · 客户端源码</div><h1>匹配系统</h1><p>玩法目标、队伍状态和服务端边界</p><div class="meta"><span>缓存版本 242</span><span>2026-09-30</span><span>源码可回查</span></div></header>
 <article class="prose"><h1 id="匹配系统目标组队与成功回包">匹配系统：目标、组队与成功回包</h1>
@@ -133,48 +135,365 @@
 <p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.ranked_match_misc.ranked_match_misc.lua#L12"><code>ranked_match_misc</code></a>还含 2v2 跨服天数、3v3 目标开放、平衡属性等字段。它们可能影响模式入口或数值处理，但仍不能解释实际匹配池分层。排位 2v2/3v3 的队伍容量、跨服条件和当前开放日期都应在动态服务端数据里确认。</p>
 <h2 id="机器人与匹配算法的证据边界">机器人与匹配算法的证据边界</h2>
 <p>客户端确实存在 <code>team_add_bot_c2s</code>、机器人识别查询、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/auto_gen.package_include.config.free_battle_robot.free_battle_robot.lua#L4"><code>free_battle_robot</code> 配置</a>，但这组证据只能说明自定义/自由战斗等场景支持机器人对象。<strong>不能据此断言排位等待到某秒就填机器人</strong>。隐藏分、实力加权、扩圈半径、胜率控制、跨服池规则、是否允许人机混排均无可复原的服务端算法。能明确描述的仅是客户端“提交目标 → 状态/统计更新 → 成功或取消回包 → 载入战斗”的链路。</p>
-<h2 id="模块策划案玩法目标与准入">模块策划案：玩法目标与准入</h2>
-<p><strong>目标数据模型。</strong> 一次匹配选择保存 <code>type/target/arg</code>，先由 <code>team_target.main</code> 的主类、子目标决定入口与模式，再映射 <code>play_type</code> 去读 <code>gameplay</code>。目标行还含 <code>min_count/max_count</code>、<code>need_apply</code>、<code>open_func</code> 和展示字段。以主类 PvP 的子目标 2 为例，映射 <code>play_type=102</code>，人数为 1–2，配置 <code>need_apply=1</code>；这说明该入口支持单人或双人发起，但是否要等另一人、是否可补位仍看队伍和服务器规则。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/team_target_main.json">目标表</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/gameplay_gameplay.json">玩法表</a></p>
-<p><strong>玩家流程。</strong> 选目标时先做开放及人数校验；单人可直接进入正式匹配链，组队则先建队/入队、修改目标、邀请或招募、队员准备，再由队长开排。队伍处于 <code>recruiting</code> 时展示找人状态，<code>matching</code> 时展示排队并允许符合规则的取消，<code>fighting</code> 时转局内。身份 <code>captain</code> 与 <code>teammate</code> 要显示不同操作；队员“准备”只说明其个人状态，不能当作整个队伍匹配成功。队员退出、目标变更、队长转移都应使准备校验重新执行；具体强制取消结果由服务端回包确认。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.const.lua">队伍状态枚举</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua">队伍网络</a></p>
-<h2 id="模块策划案两条队列和结果处理">模块策划案：两条队列和结果处理</h2>
-<p><strong>队友补齐。</strong> <code>team_auto_match_c2s</code> 带目标和 <code>extend_type</code>，作用于当前队伍的补人过程；它可以和招募/申请并行，但回包仅能说明自动找队友的状态。<code>team_match_stat_c2s</code> 是人数/容量统计查询，不是加入队列操作。正式对战由 <code>team_open_match_c2s</code> 发起，并由停止请求、取消通知或成功回包结束。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L529">自动补人</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L741">人数统计</a></p>
-<p><strong>成功路径。</strong> 玩家点击开始 → 客户端发送目标三元组 → 队伍状态变为匹配中 → <code>season_match_succ_s2c</code> 打开匹配成功视图 → 战斗载入。成功前的重复点击应由本地状态防抖，成功后的载入失败/重连需交给战斗模块恢复，不能自行视作获胜或扣除对局次数。取消回包区分队长或队员取消并通知相应 UI。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.season.manager.network.network.lua#L174">赛季成功回包</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-decompiled/game.module.team.manager.network.network.lua#L1194">取消处理</a></p>
-<h2 id="模块策划案排位自由竞技与机器人入口">模块策划案：排位、自由竞技与机器人入口</h2>
+<blockquote>
+<p>本版按Lua元表展开有效默认值，并用原指令/受控执行复核关键分支。详细规则和全量明细在下方；当前服开放与服务器最终裁定不由静态表替代。</p>
+</blockquote>
+<!-- DESIGN_DETAIL_BEGIN -->
+
+<h2 id="匹配准入设计开放时间养成与队伍">匹配准入设计：开放、时间、养成与队伍</h2>
+<h3 id="目标对象与人数">目标对象与人数</h3>
+<p>队伍主类 <code>pvp=1/pve=2/season_2v2=10/season_3v3=13/custom=14</code>；主类和子目标必须联合解释。例如 <code>[type=1,target=2,arg=0]</code> 是普通 PvP 匹配目标，主类2的 target2不能据同一个数字解释成相同玩法。单人选择保存在本地目标；已组队变更发送 <code>team_update_target_c2s</code>。发起匹配、找队友和查询人数分别是三个请求。数据对象至少包括目标、本人身份、队伍状态、成员列表、准备状态、队伍条件和房间选项。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.const.txt">队伍常量原指令</a></p>
+<h3 id="排位时间限制不是一条统一禁排时段">排位时间限制不是一条统一禁排时段</h3>
+<p>原代码有两个独立检查：</p>
+<ol>
+<li><code>check_match_time_before_match</code>：完成新手配置最大场次后，在服务器时间 <strong>00:00–06:30（含端点）</strong> 返回提醒标记。外层 <code>_check_start_match</code> 收到该标记会广播在线人数较少提示，随后继续养成检查；它本身没有禁止请求。</li>
+<li><code>check_need_time_limit</code> 联合杯数和场次决定是否适用闭排；<code>check_is_in_time_limit</code> 再比较 <strong>04:30–05:30（含端点）</strong>。配置杯数阈值1600，单人需 <code>cup&gt;1600</code> 且 <code>fight_num≥新手最大场次</code>。组队逐成员读取资料，任一成员同时满足杯数和场次条件时即可适用。新服豁免比较的是“当天04:30−24小时”与服务器开服时间，不是随意按当前开服天数取整。</li>
+</ol>
+<p>示例：普通分片最大新手场次11，杯数1600的玩家不满足严格大于门槛；1601杯且fight_num11的老玩家可能适用凌晨闭排。00:30会进入低人数提醒，但不在04:30–05:30闭排区间。提醒与禁止必须在界面和请求流程中区分。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.target.pvp.txt#L838">提醒原指令</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.target.pvp.txt#L361">闭排资格原指令</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/rank_define_normal.json">时段配置</a></p>
+<h3 id="养成落后弹窗是可继续的软检查">养成落后弹窗是可继续的软检查</h3>
+<p><code>char_rating_check</code> 未开放，或正在使用演示构筑时，直接通过。其余遍历21条 <code>character_rating</code> 中 <code>is_pvp_suggest=1</code> 的条目；条件类型2传入功能ID调用 <code>is_server_day_open</code>，不是把第二项直接当“第几天”。取得当前评分及比较评分，type2还改用推荐评分接口。评分0进入“未激活养成”列表；非零但小于比较评分10%进入“大幅落后”列表。存在未激活项时优先展示它们，列表按sequence排序，弹窗有“继续”和“今日不再提示”，继续回调再发匹配请求。</p>
+<p>所以“某模块不足推荐值10%”不是强制匹配门槛，也不证明服务器隐藏分直接使用该评分。客户端的文案指向无法使用系统独有机制，解释了为什么即使存在公平属性，仍会提示补养成。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.target.pvp.txt#L932">实际判定</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/character_rating_character_rating.json">养成检查配置</a></p>
+<h2 id="新手匹配设计场次预设与奖励展示">新手匹配设计：场次、预设与奖励展示</h2>
+<p>客户端初始化队伍数据时取 <code>season_newbie</code> 所有有效行 <code>max</code> 的最大值，缓存为最大新手场数。普通分片11，543分片8；543另4条事件行的min/max均0，不会增加这个上限。</p>
+<p>下一场奖励显示使用 <code>fight_num+1</code> 和角色等级查新手行；查到就按 <code>preset_id</code> 读取 <code>preset_rank_battle.reward</code> 并追加经验资源，查不到则展示普通排位每日奖励。普通配置第8场是preset109、第9场是108，不能按行号直接拼preset编号；543的第1–8场是301–308，事件条目311–314分别关联1004/1002/1015/1016。下方列全场次、战斗组引用和资源名称。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.data.data.txt#L898">最大场次计算</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.team.manager.target.pvp.txt">排位奖励选择</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/preset_rank_battle_preset_rank_battle.json">57条预设战斗</a></p>
+<p>确定的是<strong>客户端有逐场预设与展示规则</strong>；不能据奖励显示函数认定新手11场全部是机器人，是否强制选预设、敌方身份和最终奖励仍由开排/战斗回包决定。旧 <code>the_first_X_ai_pvp=5</code> 是另一组参数，不应该覆盖这套实际被客户端调用的场次表。</p>
+<h2 id="两条队列的操作与状态契约">两条队列的操作与状态契约</h2>
 <table>
 <thead>
 <tr>
-<th>场景</th>
-<th>配置能直接说明</th>
-<th>匹配设计含义与缺口</th>
+<th>玩家操作</th>
+<th>请求含义</th>
+<th>状态结束点</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>排位 <code>play_type=102</code></td>
-<td><code>guaranteed_fire=0</code>，其余多数字段缺省</td>
-<td>不能从缺省字段认定不允许技能或自动战斗；实际规则必须和模式继承及服务端比对。</td>
+<td>自动找队友</td>
+<td><code>team_auto_match_c2s</code> 携目标与extend_type</td>
+<td>自动找人回包/停止自动找人</td>
 </tr>
 <tr>
-<td>3V3 排位 <code>103</code></td>
-<td><code>guaranteed_fire=1</code></td>
-<td>此模式配置了保证发炮，需在局内超时分支解释；不能推出机器人补位。</td>
+<td>正式开始比赛</td>
+<td><code>team_open_match_c2s</code> 携目标三元组</td>
+<td>成功、取消或失败通知</td>
 </tr>
 <tr>
-<td>自由竞技 <code>501</code></td>
-<td><code>time_limit=7200</code>、技能和自动战斗均为 1、不可调速</td>
-<td>与排位分属不同队列/房间玩法，战斗自动化不等于匹配自动补人。</td>
+<td>查询队伍量</td>
+<td><code>team_match_stat_c2s</code></td>
+<td>仅更新统计展示</td>
 </tr>
 <tr>
-<td>锦标赛海选 <code>502</code></td>
-<td><code>time_limit=3600</code>、技能 1、自动战斗 0、保证发炮 1</td>
-<td>赛事入口有更严格的自动战斗/超时设置；报名、轮次由赛事服务端决定。</td>
+<td>队员准备</td>
+<td><code>team_ready_c2s</code></td>
+<td>个人ready字段更新</td>
+</tr>
+<tr>
+<td>队长取消</td>
+<td><code>team_stop_match_c2s</code></td>
+<td>队伍matching退出的回包</td>
+</tr>
+<tr>
+<td>新手强开</td>
+<td><code>req_team_force_open_match_c2s</code></td>
+<td>特殊强开请求；客户端调用明确传<code>type=2,target=2,arg=0</code></td>
 </tr>
 </tbody>
 </table>
-<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/gameplay_gameplay.json">完整玩法配置</a>的缺省字段不能统一补 0。<code>season_misc</code> 的 <code>the_first_X_ai_pvp=5</code>、<code>newbie_match_time=[2500,5000]</code>、<code>pvp_match_fail_ai_time=180</code> 说明赛季另有新手 AI 和等待兜底参数，但缺少选择/计时执行器，无法形成“等 N 秒填机器人”的已验证规则。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/season_misc_season_misc.json">赛季参数</a></p>
-<h2 id="可复核的验收场景">可复核的验收场景</h2>
-<ol>
-<li>选择 102 单人/双人入口，核对 <code>type/target/arg</code> 和人数上下限；未开放或人数超限时不能发正式开排请求。</li>
-<li>队员未准备、队长取消、队员离队、目标变更，分别记录本地状态与 <code>s2c</code> 后的状态；不能靠按钮动画判定排队结果。</li>
-<li>实测首次 5 场与普通场的成功回包、等待时间和结算对象，才能确认 AI 参数是否在当前服启用；杯数必须区分机器人与真人专用字段。<a href="../robots/index.html">机器人专题</a></li>
-</ol></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>
+<p>新手强开是特殊接口；不能因为type2就把它和普通PvE目标处理合并。正式成功 <code>season_match_succ_s2c</code> 打开成功视图，局内开始另等战斗进入消息。取消动画、成员ready、队伍matching和场景已载入都不是同一状态。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-disassembled/game.module.season.manager.core.txt#L4235">新手强开</a>、<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/reverse/lua-luadec/game.module.team.manager.network.network.lua">网络处理</a></p>
+<h2 id="模式参数对匹配后体验的约束">模式参数对匹配后体验的约束</h2>
+<p>排位102的有效配置为技能1、自动战斗0、调速0、总时限3600、伙伴数0、MVP1、保证发炮0、quick_angle1、intelligent_force1；frame_rate60、show_result_delay500。此前“排位很多字段缺省”已被默认继承还原纠正。103保证发炮1，501自由竞技技能/自动1且时限7200，502海选技能1/自动0/保证发炮1。它们改变战斗操作与结束表现，不能直接推出服务端队列的扩圈算法。<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/gameplay_gameplay.json">有效玩法表</a></p>
+<h2 id="服务端尚缺的设计部分">服务端尚缺的设计部分</h2>
+<p>该缓存没有匹配池执行器，无法给出隐藏分权重、段位扩圈半径、排队每秒增量、连胜连败控制或机器人兜底命中率。本页已复原客户端具体准入、提示、场次查表和消息流程；原始等待参数放在机器人页，不用单位未闭合的180强写“180秒必补机器人”。</p>
+<h2 id="可查的配置明细">可查的配置明细</h2>
+<h3 id="新手场次与预设奖励分片0">新手场次与预设奖励：分片 0</h3>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/season_newbie_season_newbie_0.json">有效配置原表</a>。已展开元表默认值；“未配置”仅表示有效行仍无该字段。</p>
+<table>
+<thead>
+<tr>
+<th>行</th>
+<th>已配置场次范围</th>
+<th>角色等级</th>
+<th>预设</th>
+<th>弹弓预设</th>
+<th>玩法/战斗组/权重</th>
+<th>经验字段</th>
+<th>普通预设奖励</th>
+<th>事件条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1–1</td>
+<td>1–50</td>
+<td>101</td>
+<td>201</td>
+<td>[[102,10210,10000]]</td>
+<td>100</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2–2</td>
+<td>1–50</td>
+<td>102</td>
+<td>202</td>
+<td>[[102,10211,10000]]</td>
+<td>200</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3–3</td>
+<td>1–50</td>
+<td>103</td>
+<td>203</td>
+<td>[[102,10212,10000]]</td>
+<td>200</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4–4</td>
+<td>1–50</td>
+<td>104</td>
+<td>204</td>
+<td>[[102,10213,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5–5</td>
+<td>1–50</td>
+<td>105</td>
+<td>205</td>
+<td>[[102,10214,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6–6</td>
+<td>1–50</td>
+<td>106</td>
+<td>206</td>
+<td>[[102,10215,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7–7</td>
+<td>1–50</td>
+<td>107</td>
+<td>207</td>
+<td>[[406,40603,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8–8</td>
+<td>1–50</td>
+<td>109</td>
+<td>209</td>
+<td>[[102,10217,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>9</td>
+<td>9–9</td>
+<td>1–50</td>
+<td>108</td>
+<td>208</td>
+<td>[[102,10216,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10–10</td>
+<td>1–50</td>
+<td>110</td>
+<td>210</td>
+<td>[[102,10218,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11–11</td>
+<td>1–50</td>
+<td>111</td>
+<td>211</td>
+<td>[[406,40604,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="新手场次与预设奖励分片543">新手场次与预设奖励：分片 543</h3>
+<p><a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/season_newbie_season_newbie_543.json">有效配置原表</a>。已展开元表默认值；“未配置”仅表示有效行仍无该字段。</p>
+<table>
+<thead>
+<tr>
+<th>行</th>
+<th>已配置场次范围</th>
+<th>角色等级</th>
+<th>预设</th>
+<th>弹弓预设</th>
+<th>玩法/战斗组/权重</th>
+<th>经验字段</th>
+<th>普通预设奖励</th>
+<th>事件条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1–1</td>
+<td>1–50</td>
+<td>301</td>
+<td>401</td>
+<td>[[102,31001,10000]]</td>
+<td>100</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2–2</td>
+<td>1–50</td>
+<td>302</td>
+<td>402</td>
+<td>[[102,31002,10000]]</td>
+<td>200</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3–3</td>
+<td>1–50</td>
+<td>303</td>
+<td>403</td>
+<td>[[102,31003,10000]]</td>
+<td>300</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4–4</td>
+<td>1–50</td>
+<td>304</td>
+<td>404</td>
+<td>[[102,31004,10000]]</td>
+<td>500</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5–5</td>
+<td>1–50</td>
+<td>305</td>
+<td>405</td>
+<td>[[102,31005,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6–6</td>
+<td>1–50</td>
+<td>306</td>
+<td>406</td>
+<td>[[102,31006,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7–7</td>
+<td>1–50</td>
+<td>307</td>
+<td>407</td>
+<td>[[102,31007,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8–8</td>
+<td>1–50</td>
+<td>308</td>
+<td>408</td>
+<td>[[102,31008,10000]]</td>
+<td>1000</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>{}</td>
+</tr>
+<tr>
+<td>9</td>
+<td>0–0</td>
+<td>1–50</td>
+<td>311</td>
+<td>409</td>
+<td>[[102,31011,10000]]</td>
+<td>1500</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>[[1,1004]]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0–0</td>
+<td>1–50</td>
+<td>312</td>
+<td>410</td>
+<td>[[102,31012,10000]]</td>
+<td>1500</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>[[1,1002]]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>0–0</td>
+<td>1–50</td>
+<td>313</td>
+<td>411</td>
+<td>[[102,31013,10000]]</td>
+<td>1500</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>[[1,1015]]</td>
+</tr>
+<tr>
+<td>12</td>
+<td>0–0</td>
+<td>1–50</td>
+<td>314</td>
+<td>412</td>
+<td>[[102,31014,10000]]</td>
+<td>1500</td>
+<td>武器扭蛋币（1405020001）×1；弹弹积分（1010010001）×50</td>
+<td>[[1,1016]]</td>
+</tr>
+</tbody>
+</table>
+<p><code>gameplay_list</code> 第二项是战斗组引用；本表没有把它冒充 <code>battle.id</code>。弹弓预设奖励应再按其独立 preset ID 读取。关联表：<a href="https://github.com/chitanda233/dandanxingqiu-research/blob/main/analysis/data/preset_rank_battle_preset_rank_battle.json">有效配置原表</a>。</p></article><footer class="report-footer"><span>本报告基于本机客户端缓存；服务端规则和当前开放状态需另行核对。</span><a href="../../index.html">返回门户 ↑</a></footer></main></div></body></html>

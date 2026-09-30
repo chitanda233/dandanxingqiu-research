@@ -1,6 +1,10 @@
 {
   "560502": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560502,
+    "open_days": 6,
     "unlock_and": [
       [
         1,
@@ -18,18 +22,25 @@
         5605020001
       ]
     ],
+    "noOpenTips": "开服第6天且达到41级开启",
     "unlock_and_old": [
       [
         1,
         41
       ]
     ],
-    "open_days": 6,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第6天且达到41级开启",
-    "noOpenTips": "开服第6天且达到41级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "166": {
+    "plat": 1,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 166,
+    "noOpenTips": "角色达到10级开启",
     "unlock_and": [
       [
         1,
@@ -37,6 +48,7 @@
       ]
     ],
     "desc": "好友邀请",
+    "unlock_branch": {},
     "is_open": 1,
     "unlock_and_old": [
       [
@@ -44,17 +56,55 @@
         10
       ]
     ],
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "角色达到10级开启",
-    "noOpenTips": "角色达到10级开启",
-    "plat": 1
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "301": {
+    "unlock_branch": [
+      [
+        1,
+        3010001
+      ],
+      [
+        2,
+        3010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        13
+      ]
+    ],
+    "preview_desc": "AUTO_GEN_open_func_open_func_preview_desc_2000_301",
+    "isShow": 1,
+    "noOpenTips_old": "角色达到13级开启",
+    "unlock_and": [
+      [
+        1,
+        13
+      ]
+    ],
+    "noOpenTips": "角色达到13级开启",
     "id": 301,
+    "preview_reward": {},
     "desc": "集结令",
-    "is_open": 0
+    "is_open": 0,
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
+    "unlock_or_old": {},
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560302": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560302,
+    "open_days": 6,
     "unlock_and": [
       [
         1,
@@ -72,18 +122,37 @@
         5603020001
       ]
     ],
+    "noOpenTips": "开服第6天且达到41级开启",
     "unlock_and_old": [
       [
         1,
         41
       ]
     ],
-    "open_days": 6,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第6天且达到41级开启",
-    "noOpenTips": "开服第6天且达到41级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "5603": {
+    "is_open": 0,
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips_old": "角色达到25级开启",
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips": "角色达到25级开启",
     "id": 5603,
+    "preview_reward": {},
     "desc": "星图挑战（突击区域）",
     "unlock_branch": [
       [
@@ -94,19 +163,59 @@
         2,
         56030001
       ]
-    ]
+    ],
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
+    "unlock_or_old": {},
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "303": {
+    "unlock_branch": [
+      [
+        1,
+        3010001
+      ],
+      [
+        2,
+        3010001
+      ]
+    ],
+    "unlock_and_old": [
+      [
+        1,
+        13
+      ]
+    ],
+    "preview_desc": "AUTO_GEN_open_func_open_func_preview_desc_2000_301",
+    "isShow": 1,
+    "noOpenTips_old": "角色达到13级开启",
+    "unlock_and": [
+      [
+        1,
+        13
+      ]
+    ],
+    "noOpenTips": "角色达到13级开启",
     "show_ani_target_main_btns_key": "open_server_activity",
     "id": 303,
+    "show_ani_target_main_btns_paths": {},
+    "preview_reward": {},
     "desc": "新服攻略",
+    "showAtlas": "Icon/OpenFunc2",
     "is_open": 1,
     "showIcon": "openfunc_icon_jijieling",
+    "server_ids": {},
+    "unlock_or_old": {},
     "showFlag": 1,
-    "showAtlas": "Icon/OpenFunc2"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "319": {
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 319,
+    "noOpenTips": "活动已结束",
     "unlock_and": [
       [
         1,
@@ -114,6 +223,7 @@
       ]
     ],
     "desc": "周年H5",
+    "unlock_branch": {},
     "is_open": 1,
     "unlock_and_old": [
       [
@@ -121,11 +231,18 @@
         999
       ]
     ],
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "活动已结束",
-    "noOpenTips": "活动已结束"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560401": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560401,
+    "open_days": 3,
     "unlock_and": [
       [
         1,
@@ -143,18 +260,37 @@
         5604010001
       ]
     ],
+    "noOpenTips": "开服第3天且达到30级开启",
     "unlock_and_old": [
       [
         1,
         30
       ]
     ],
-    "open_days": 3,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第3天且达到30级开启",
-    "noOpenTips": "开服第3天且达到30级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "5604": {
+    "is_open": 0,
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips_old": "角色达到25级开启",
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips": "角色达到25级开启",
     "id": 5604,
+    "preview_reward": {},
     "desc": "星图挑战（异能区域）",
     "unlock_branch": [
       [
@@ -165,10 +301,19 @@
         2,
         56040001
       ]
-    ]
+    ],
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
+    "unlock_or_old": {},
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560201": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560201,
+    "open_days": 2,
     "unlock_and": [
       [
         1,
@@ -186,18 +331,25 @@
         5602010001
       ]
     ],
+    "noOpenTips": "开服第2天且达到25级开启",
     "unlock_and_old": [
       [
         1,
         25
       ]
     ],
-    "open_days": 2,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第2天且达到25级开启",
-    "noOpenTips": "开服第2天且达到25级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560202": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560202,
+    "open_days": 3,
     "unlock_and": [
       [
         1,
@@ -215,18 +367,25 @@
         5602020001
       ]
     ],
+    "noOpenTips": "开服第3天且达到30级开启",
     "unlock_and_old": [
       [
         1,
         30
       ]
     ],
-    "open_days": 3,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第3天且达到30级开启",
-    "noOpenTips": "开服第3天且达到30级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560203": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560203,
+    "open_days": 4,
     "unlock_and": [
       [
         1,
@@ -244,18 +403,24 @@
         5602030001
       ]
     ],
+    "noOpenTips": "开服第4天且达到35级开启",
     "unlock_and_old": [
       [
         1,
         35
       ]
     ],
-    "open_days": 4,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第4天且达到35级开启",
-    "noOpenTips": "开服第4天且达到35级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "314": {
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 314,
+    "noOpenTips": "敬请期待",
     "unlock_and": [
       [
         1,
@@ -263,6 +428,7 @@
       ]
     ],
     "desc": "春节H5",
+    "unlock_branch": {},
     "is_open": 1,
     "unlock_and_old": [
       [
@@ -270,15 +436,65 @@
         999
       ]
     ],
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "默认开启",
-    "noOpenTips": "敬请期待"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "5601": {
+    "unlock_branch": [
+      [
+        1,
+        56010001
+      ],
+      [
+        2,
+        56010001
+      ]
+    ],
+    "is_open": 0,
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips_old": "角色达到25级开启",
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips": "角色达到25级开启",
+    "preview_reward": {},
+    "show_ani_finish_local_offset": {},
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
     "id": 5601,
+    "unlock_or_old": {},
+    "unlock_or": {},
     "desc": "星图挑战系统"
   },
   "5605": {
+    "is_open": 0,
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips_old": "角色达到25级开启",
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips": "角色达到25级开启",
     "id": 5605,
+    "preview_reward": {},
     "desc": "星图挑战（工程区域）",
     "unlock_branch": [
       [
@@ -289,10 +505,19 @@
         2,
         56050001
       ]
-    ]
+    ],
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
+    "unlock_or_old": {},
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560301": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560301,
+    "open_days": 3,
     "unlock_and": [
       [
         1,
@@ -310,18 +535,25 @@
         5603010001
       ]
     ],
+    "noOpenTips": "开服第3天且达到30级开启",
     "unlock_and_old": [
       [
         1,
         30
       ]
     ],
-    "open_days": 3,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第3天且达到30级开启",
-    "noOpenTips": "开服第3天且达到30级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560402": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560402,
+    "open_days": 6,
     "unlock_and": [
       [
         1,
@@ -339,19 +571,25 @@
         5604020001
       ]
     ],
+    "noOpenTips": "开服第6天且达到41级开启",
     "unlock_and_old": [
       [
         1,
         41
       ]
     ],
-    "open_days": 6,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第6天且达到41级开启",
-    "noOpenTips": "开服第6天且达到41级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "305": {
-    "id": 305,
+    "preview_reward": {},
     "preview_desc": "AUTO_GEN_open_func_open_func_preview_desc_305",
+    "show_ani_target_main_btns_paths": {},
+    "id": 305,
+    "noOpenTips": "默认开启",
     "unlock_and": [
       [
         1,
@@ -359,6 +597,7 @@
       ]
     ],
     "desc": "七夕H5",
+    "unlock_branch": {},
     "is_open": 1,
     "unlock_and_old": [
       [
@@ -366,11 +605,18 @@
         1
       ]
     ],
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "默认开启",
-    "noOpenTips": "默认开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560501": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560501,
+    "open_days": 3,
     "unlock_and": [
       [
         1,
@@ -388,18 +634,25 @@
         5605010001
       ]
     ],
+    "noOpenTips": "开服第3天且达到30级开启",
     "unlock_and_old": [
       [
         1,
         30
       ]
     ],
-    "open_days": 3,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第3天且达到30级开启",
-    "noOpenTips": "开服第3天且达到30级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "560204": {
+    "is_open": 0,
+    "preview_reward": {},
+    "show_ani_target_main_btns_paths": {},
     "id": 560204,
+    "open_days": 5,
     "unlock_and": [
       [
         1,
@@ -417,18 +670,52 @@
         5602040001
       ]
     ],
+    "noOpenTips": "开服第5天且达到38级开启",
     "unlock_and_old": [
       [
         1,
         38
       ]
     ],
-    "open_days": 5,
+    "server_ids": {},
+    "unlock_or_old": {},
     "noOpenTips_old": "开服第5天且达到38级开启",
-    "noOpenTips": "开服第5天且达到38级开启"
+    "unlock_or": {},
+    "show_ani_finish_local_offset": {}
   },
   "5602": {
+    "unlock_branch": [
+      [
+        1,
+        56010001
+      ],
+      [
+        2,
+        56010001
+      ]
+    ],
+    "is_open": 0,
+    "unlock_and_old": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips_old": "角色达到25级开启",
+    "unlock_and": [
+      [
+        1,
+        25
+      ]
+    ],
+    "noOpenTips": "角色达到25级开启",
+    "preview_reward": {},
+    "show_ani_finish_local_offset": {},
+    "show_ani_target_main_btns_paths": {},
+    "server_ids": {},
     "id": 5602,
+    "unlock_or_old": {},
+    "unlock_or": {},
     "desc": "星图挑战（中心区）"
   }
 }

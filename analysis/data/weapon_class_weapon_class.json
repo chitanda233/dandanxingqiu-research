@@ -110,6 +110,60 @@
     "quality": 2
   },
   {
+    "weapon_inject_add_range": [
+      [
+        [
+          -500000,
+          0
+        ],
+        15000
+      ],
+      [
+        [
+          0,
+          1500
+        ],
+        13234
+      ],
+      [
+        [
+          1500,
+          2640
+        ],
+        10058
+      ],
+      [
+        [
+          2640,
+          7500
+        ],
+        6597
+      ],
+      [
+        [
+          7500,
+          8900
+        ],
+        3529
+      ],
+      [
+        [
+          8900,
+          9600
+        ],
+        2059
+      ],
+      [
+        [
+          9600,
+          10000
+        ],
+        941
+      ]
+    ],
+    "strengthen_max": 15,
+    "equip_attr_progress_adjust": 20000,
+    "suit": 0,
     "score": 9500,
     "open_server_limit": 124,
     "weapon_class_desc": "AUTO_GEN_weapon_class_weapon_class_weapon_class_desc_3",
@@ -118,6 +172,60 @@
     "quality": 3
   },
   {
+    "weapon_inject_add_range": [
+      [
+        [
+          -500000,
+          0
+        ],
+        15000
+      ],
+      [
+        [
+          0,
+          1500
+        ],
+        13234
+      ],
+      [
+        [
+          1500,
+          2640
+        ],
+        10058
+      ],
+      [
+        [
+          2640,
+          7500
+        ],
+        6597
+      ],
+      [
+        [
+          7500,
+          8900
+        ],
+        3529
+      ],
+      [
+        [
+          8900,
+          9600
+        ],
+        2059
+      ],
+      [
+        [
+          9600,
+          10000
+        ],
+        941
+      ]
+    ],
+    "strengthen_max": 15,
+    "equip_attr_progress_adjust": 20000,
+    "suit": 0,
     "score": 14500,
     "open_server_limit": 186,
     "weapon_class_desc": "AUTO_GEN_weapon_class_weapon_class_weapon_class_desc_4",
@@ -126,6 +234,61 @@
     "quality": 4
   },
   {
+    "equip_attr_progress_adjust": 20000,
+    "weapon_inject_add_range": [
+      [
+        [
+          -500000,
+          0
+        ],
+        15000
+      ],
+      [
+        [
+          0,
+          1500
+        ],
+        13234
+      ],
+      [
+        [
+          1500,
+          2640
+        ],
+        10058
+      ],
+      [
+        [
+          2640,
+          7500
+        ],
+        6597
+      ],
+      [
+        [
+          7500,
+          8900
+        ],
+        3529
+      ],
+      [
+        [
+          8900,
+          9600
+        ],
+        2059
+      ],
+      [
+        [
+          9600,
+          10000
+        ],
+        941
+      ]
+    ],
+    "strengthen_max": 15,
+    "suit": 0,
+    "quality": 5,
     "score": 19500,
     "open_server_limit": 248,
     "class": 5,
@@ -133,6 +296,61 @@
     "lv": 95
   },
   {
+    "equip_attr_progress_adjust": 20000,
+    "weapon_inject_add_range": [
+      [
+        [
+          -500000,
+          0
+        ],
+        15000
+      ],
+      [
+        [
+          0,
+          1500
+        ],
+        13234
+      ],
+      [
+        [
+          1500,
+          2640
+        ],
+        10058
+      ],
+      [
+        [
+          2640,
+          7500
+        ],
+        6597
+      ],
+      [
+        [
+          7500,
+          8900
+        ],
+        3529
+      ],
+      [
+        [
+          8900,
+          9600
+        ],
+        2059
+      ],
+      [
+        [
+          9600,
+          10000
+        ],
+        941
+      ]
+    ],
+    "strengthen_max": 15,
+    "suit": 0,
+    "quality": 5,
     "score": 24500,
     "open_server_limit": 310,
     "class": 6,

@@ -24,14 +24,17 @@
         "if_show": 1,
         "is_command": 0,
         "name": "AUTO_GEN_team_target_sub_pvp_name_2",
+        "same_guild_only": {},
         "target_win_desc": "AUTO_GEN_team_target_sub_pvp_target_win_desc_2",
         "target_desc": "AUTO_GEN_team_target_sub_pvp_target_desc_2",
         "icon": "team_img_xueyuanliansai",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1"
       }
     },
+    "pre_reward": {},
     "retrieve_id": 1006,
-    "icon": "team_img_xueyuanliansai"
+    "icon": "team_img_xueyuanliansai",
+    "cross_pre_reward": {}
   },
   {
     "tab": 2,
@@ -92,7 +95,8 @@
       ]
     ],
     "retrieve_id": 1001,
-    "is_public": 1
+    "is_public": 1,
+    "cross_pre_reward": {}
   },
   {
     "tab": 2,
@@ -114,6 +118,7 @@
         "min_count": 4,
         "need_apply": 1,
         "dungeon": 207000001,
+        "same_guild_only": {},
         "name": "AUTO_GEN_team_target_sub_star_dig_name_1",
         "need_robot": 1,
         "base_target_img": "team_banner_xunxingqiyu",
@@ -129,6 +134,7 @@
         "min_count": 4,
         "need_apply": 1,
         "dungeon": 207000002,
+        "same_guild_only": {},
         "name": "AUTO_GEN_team_target_sub_star_dig_name_2",
         "need_robot": 1,
         "base_target_img": "team_banner_xunxingqiyu",
@@ -164,7 +170,8 @@
       ]
     ],
     "retrieve_id": 1005,
-    "is_public": 1
+    "is_public": 1,
+    "cross_pre_reward": {}
   },
   {
     "tab": 3,
@@ -180,6 +187,7 @@
     "name": "AUTO_GEN_team_target_sub_pirate_island_name_1",
     "sub_target": [
       {
+        "same_guild_only": {},
         "max_count": 4,
         "recruit_time": 8,
         "play_type": 401,
@@ -216,7 +224,8 @@
       ]
     ],
     "retrieve_id": 1007,
-    "icon": "team_img_mengyantaofa"
+    "icon": "team_img_mengyantaofa",
+    "cross_pre_reward": {}
   },
   {
     "tab": 3,
@@ -272,7 +281,8 @@
         "need_robot": 1
       }
     ],
-    "is_public": 1
+    "is_public": 1,
+    "cross_pre_reward": {}
   },
   {
     "tab": 1,
@@ -311,17 +321,43 @@
         "recruit_time": 8,
         "play_type": 202,
         "id": 1,
-        "name": "AUTO_GEN_team_target_sub_dungeon_main_name_1",
+        "same_guild_only": {},
         "target_win_desc": "AUTO_GEN_team_target_sub_dungeon_main_target_win_desc_1",
+        "name": "AUTO_GEN_team_target_sub_dungeon_main_name_1",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "target_desc": "AUTO_GEN_team_target_sub_dungeon_main_target_desc_1",
+        "series": {},
         "base_target_img": "team_banner_zhuxian",
         "need_robot": 0
       }
     ],
-    "icon": "team_img_weigongjishe"
+    "icon": "team_img_weigongjishe",
+    "cross_pre_reward": {}
   },
   {
+    "is_open": 0,
+    "tab1": 2,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1010010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ],
+      [
+        1205010006,
+        1
+      ],
+      [
+        2001010002,
+        1
+      ]
+    ],
+    "tab3": 2,
+    "order": 3,
     "tab": 2,
     "macro_key": "sub_dungeon_star",
     "id": 7,
@@ -351,9 +387,33 @@
         "base_target_img": "team_banner_xingjituohuang",
         "need_robot": 1
       }
-    ]
+    ],
+    "cross_pre_reward": {}
   },
   {
+    "is_open": 0,
+    "tab1": 2,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1010010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ],
+      [
+        1205010006,
+        1
+      ],
+      [
+        2001010002,
+        1
+      ]
+    ],
+    "tab3": 2,
+    "order": 3,
     "open_func": 146,
     "tab2": 2,
     "name": "AUTO_GEN_team_target_sub_pve_material_hard_name_2",
@@ -381,7 +441,8 @@
         "base_target_img": "team_banner_xingjituohuang",
         "need_robot": 1
       }
-    ]
+    ],
+    "cross_pre_reward": {}
   },
   {
     "tab": 3,
@@ -425,6 +486,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 1,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_1",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -443,6 +505,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 2,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_2",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -461,6 +524,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 3,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_3",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -479,6 +543,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 4,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_4",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -497,6 +562,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 5,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_5",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -515,6 +581,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 6,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_6",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -533,6 +600,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 7,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_7",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -551,6 +619,7 @@
         "recruit_time": 10,
         "play_type": 209,
         "id": 8,
+        "rec_skill": {},
         "name": "AUTO_GEN_team_target_sub_tower_name_8",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1",
         "base_target_img": "team_banner_gongtadandui",
@@ -559,7 +628,8 @@
         "open_func": 7009
       }
     ],
-    "icon": "team_img_gongtadandui"
+    "icon": "team_img_gongtadandui",
+    "cross_pre_reward": {}
   },
   {
     "tab": 1,
@@ -604,15 +674,40 @@
         "if_show": 1,
         "is_command": 0,
         "name": "AUTO_GEN_team_target_sub_pvp_2v2_name_1",
+        "same_guild_only": {},
         "target_win_desc": "AUTO_GEN_team_target_sub_pvp_target_win_desc_2",
         "target_desc": "AUTO_GEN_team_target_sub_pvp_target_desc_2",
         "icon": "team_img_xueyuanliansai",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1"
       }
     ],
-    "icon": "team_img_xueyuanliansai"
+    "icon": "team_img_xueyuanliansai",
+    "cross_pre_reward": {}
   },
   {
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1010010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ],
+      [
+        1205010006,
+        1
+      ],
+      [
+        2001010002,
+        1
+      ]
+    ],
+    "tab3": 2,
+    "icon": "team_img_weigongjishe",
+    "tab1": 2,
     "tab": 2,
     "macro_key": "pve_material",
     "id": 11,
@@ -696,9 +791,33 @@
         "icon": "team_img_shayao",
         "play_type": 409
       }
-    ]
+    ],
+    "cross_pre_reward": {}
   },
   {
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1010010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ],
+      [
+        1205010006,
+        1
+      ],
+      [
+        2001010002,
+        1
+      ]
+    ],
+    "tab3": 2,
+    "icon": "team_img_weigongjishe",
+    "tab1": 2,
     "tab": 3,
     "macro_key": "pve_material_hard",
     "id": 12,
@@ -782,7 +901,8 @@
         "icon": "team_img_shayao",
         "play_type": 219
       }
-    ]
+    ],
+    "cross_pre_reward": {}
   },
   {
     "macro_key": "season_3v3",
@@ -826,12 +946,14 @@
         "base_target_img": "2v2_banner_2v2paiweisai",
         "name": "AUTO_GEN_team_target_sub_pvp_2v2_name_1",
         "is_command": 0,
+        "same_guild_only": {},
         "target_desc": "AUTO_GEN_team_target_sub_pvp_target_desc_2",
         "icon": "team_img_xueyuanliansai",
         "no_open_desc": "AUTO_GEN_team_target_sub_dungeon_main_no_open_desc_1"
       }
     ],
-    "is_public": 1
+    "is_public": 1,
+    "cross_pre_reward": {}
   },
   {
     "tab": 4,
@@ -842,6 +964,7 @@
     "is_open": 1,
     "name": "AUTO_GEN_team_target_sub_custom_name_1",
     "order": 2,
+    "pre_reward": {},
     "sub_target": [
       {
         "max_count": 8,
@@ -858,7 +981,8 @@
         "need_robot": 0
       }
     ],
-    "icon": "team_img_xueyuanliansai"
+    "icon": "team_img_xueyuanliansai",
+    "cross_pre_reward": {}
   },
   {
     "tab": 3,
@@ -2953,6 +3077,7 @@
     "open_func": 0,
     "is_open": 1,
     "name": "AUTO_GEN_team_target_sub_gve_invade_name_1",
+    "pre_reward": {},
     "sub_target": [
       {
         "max_count": 2,
@@ -2964,9 +3089,14 @@
         "need_apply": 1
       }
     ],
-    "is_public": 1
+    "is_public": 1,
+    "cross_pre_reward": {}
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 432,
     "pre_reward": [
       [
@@ -3094,6 +3224,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 112,
     "pre_reward": [
       [
@@ -3146,6 +3280,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 162,
     "pre_reward": [
       [
@@ -3226,6 +3364,29 @@
     ]
   },
   {
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1008010001,
+        1
+      ],
+      [
+        1404010001,
+        1
+      ]
+    ],
+    "order": 3,
+    "cross_pre_reward": [
+      [
+        1008010001,
+        1
+      ],
+      [
+        1404010001,
+        1
+      ]
+    ],
     "open_func": 0,
     "name": "AUTO_GEN_team_target_main_name_20",
     "macro_key": "air_race",
@@ -3251,6 +3412,29 @@
     ]
   },
   {
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1008010001,
+        1
+      ],
+      [
+        1404010001,
+        1
+      ]
+    ],
+    "order": 3,
+    "cross_pre_reward": [
+      [
+        1008010001,
+        1
+      ],
+      [
+        1404010001,
+        1
+      ]
+    ],
     "open_func": 8200,
     "name": "AUTO_GEN_team_target_sub_martial_marriage_name_1",
     "macro_key": "martial_marriage",
@@ -3259,6 +3443,7 @@
     "icon": "team_img_zhuwujie",
     "sub_target": [
       {
+        "common_reward": {},
         "max_count": 2,
         "recruit_time": 20,
         "play_type": 413,
@@ -3289,6 +3474,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 810,
     "pre_reward": [
       [
@@ -3365,6 +3554,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 8200,
     "pre_reward": [
       [
@@ -3416,6 +3609,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 189,
     "pre_reward": [
       [
@@ -3481,6 +3678,10 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "order": 3,
     "open_func": 309,
     "pre_reward": [
       [
@@ -3602,6 +3803,38 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1212010001,
+        1
+      ],
+      [
+        1213010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ]
+    ],
+    "order": 3,
+    "cross_pre_reward": [
+      [
+        1212010001,
+        1
+      ],
+      [
+        1213010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ]
+    ],
     "open_func": 227,
     "name": "AUTO_GEN_team_target_sub_javelin_name_1",
     "macro_key": "javelin",
@@ -3635,6 +3868,38 @@
     ]
   },
   {
+    "tab": 1,
+    "is_open": 1,
+    "is_public": 1,
+    "pre_reward": [
+      [
+        1212010001,
+        1
+      ],
+      [
+        1213010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ]
+    ],
+    "order": 3,
+    "cross_pre_reward": [
+      [
+        1212010001,
+        1
+      ],
+      [
+        1213010001,
+        1
+      ],
+      [
+        1001010004,
+        1
+      ]
+    ],
     "open_func": 8400,
     "name": "AUTO_GEN_team_target_sub_spring_line_game_name_1",
     "macro_key": "spring_line_game",

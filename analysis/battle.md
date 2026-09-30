@@ -20,7 +20,7 @@ ending（胜负、结果展示、MVP、退出）
 
 ## 玩法配置控制同一套基础流程
 
-[`gameplay` 配置](../reverse/lua-decompiled/auto_gen.package_include.config.gameplay.gameplay.lua#L24)可辨认 `partner_num`、`single_player`、`can_adjust_play_speed`、`time_limit`、`guaranteed_fire`、`use_skill`、`show_mvp`、`intelligent_force` 等字段。该表有默认值和多行玩法记录；不能把某一行的开关写成全模式规则。例如默认区块 `guaranteed_fire=0`，而战斗回合代码明确在特定模式 `guaranteed_fire==1` 时才尝试超时自动发射。因此局内“能否使用技能”“超时怎么办”“是否显示 MVP”“是否可调速”应按具体玩法读取。
+[`gameplay` 配置](../reverse/lua-decompiled/auto_gen.package_include.config.gameplay.gameplay.lua#L24)可辨认 `partner_num`、`single_player`、`can_adjust_play_speed`、`time_limit`、`guaranteed_fire`、`use_skill`、`show_mvp`、`intelligent_force` 等字段。该表有默认值和多行玩法记录，现已展开元表继承，70行有效矩阵见下方；不能把某一行的开关写成全模式规则。例如默认区块 `guaranteed_fire=0`，而战斗回合代码明确在特定模式 `guaranteed_fire==1` 时才尝试超时自动发射。因此局内“能否使用技能”“超时怎么办”“是否显示 MVP”“是否可调速”应按具体玩法读取。
 
 ## 新回合由服务器给出行动主体与时间
 
@@ -55,22 +55,134 @@ ending（胜负、结果展示、MVP、退出）
 
 本次已还原客户端普通抛物线与逐帧物理轨迹、默认行动时长配置和多个玩法覆盖项，详见[局内计算](combat-math.md)；服务端最终伤害、命中和胜负阈值仍未闭合。反编译部分函数有未定义临时变量，不将客户端预览公式当作权威判定。
 
-## 模块策划案：战斗进入和初始化
+> 本版按Lua元表展开有效默认值，并用原指令/受控执行复核关键分支。详细规则和全量明细在下方；当前服开放与服务器最终裁定不由静态表替代。
+<!-- DESIGN_DETAIL_BEGIN -->
 
-**输入契约。** 外围玩法提供 `room_id/play_type/cfg_battle_id`、玩法配置、环境、行动时长和客户端类型；进入时创建定时器、场景根、数据、物理与网络。`loading` 保留等待服务端进入回包的阶段，`battle_enter_s2c` 后才进入 `fighting` 并安装触摸输入。若结果消息在加载期已到，结束流程延后执行，不能让加载画面和结算画面互相覆盖。[战斗基类](../reverse/lua-decompiled/game.module.fight.manager.base.core.lua)、[结束模块](../reverse/lua-decompiled/game.module.fight.manager.base.ending.core.lua)
+## 一局的执行设计：状态与可操作权限
 
-**模式层。** `gameplay` 是同一局内基类的开关集，不能把 UI 体验写成统一标准。203 冒险车站：技能/自动战斗/调速为 1、保证发炮为 0；219 英雄材料副本：技能 0、自动战斗/调速 1；401 梦魇讨伐：时限 7200、技能/自动战斗/调速 1；502 全国锦标赛海选：时限 3600、技能 1、自动战斗 0、保证发炮 1、调速 0、展示 MVP 1。玩家进入前要按 `play_type` 组合技能按钮、自动战斗开关、倍速按钮和结果表现。[70 行玩法配置](../analysis/data/gameplay_gameplay.json)
+### 战斗对象的输入与生命周期
 
-## 模块策划案：一回合的可操作状态
+进入数据包含room_id、play_type、cfg_battle_id、玩法/关卡/环境配置、行动时长与客户端类型。room_id标识本次战斗，cfg_battle_id标识规则模板；同模板重复打不能复用上一局round/技能计数。进入时创建定时器、场景根、物理/表现时间线、网络并切loading；收到battle_enter后切fighting。fighting内部还区分预览、attack等状态，与外围队伍的fighting枚举是不同对象。
 
-**回合起点。** `battle_next_round_s2c` 带 `turn/round/round_stime/wind/action_list`。客户端用行动列表确定当前操作者，清上一回合表现，重置本回合发炮与技能状态，再依据服务器起始时间显示剩余行动时间。默认 `round_action_time=15` 仅为配置基线；房间自定义时长、玩法覆盖与服务器同步可能改实际倒计时。[回合逻辑](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua)、[默认常量](../analysis/data/fight_misc_attr_const.json)
+服务端在加载期就回结果时，客户端保留结果并延后stop_fight；结束不能抢在加载状态初始化前执行。重连走独立恢复模块而非假设第一回合，恢复时需使用已有回合与战斗快照。退出要拆UI、触摸、网络监听和定时器，不能只换场景。[原始基类指令](../reverse/lua-disassembled/game.module.fight.manager.base.core.txt)、[重连](../reverse/lua-disassembled/game.module.fight.manager.base.reconnect.txt)
 
-**可执行动作顺序。** 玩家可以调整位置/角度和目标，开启蓄力，选择技能，发炮或合法跳过。开始蓄力发送 `round/force_speed` 并停移动；取消蓄力单独发送 `is_cancel=true`。确认发炮时发送角度、力度、发射位置、原始位置、方向、力度类型、落点角度和增益位置。技能则走 `type=2/cf_skill_id`。本地 `round_fired` 在提交后改变，但伤害与击杀必须等服务器节点。[发射逻辑](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.fire.core.lua)、[命令网络](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua)
+### 回合开始的输入与重置
 
-**操作失败。** 非本人行动、回合阶段不允许、死亡/禁用、已经发射、技能 CD/费用/次数不足时不发请求或由回包拒绝。倒计时仅在当前可控单位且非挂机/自动战斗时显示。超时若 `guaranteed_fire=1` 且有可见敌方目标、单位可发射、未在蓄力与抛物线状态，客户端尝试计算推荐力度并保底发射；不满足时走跳过或等待服务器结束，不能把超时统一视为自动命中。[超时分支](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua#L941)
+`battle_next_round_s2c` 包含turn、round、round_stime、wind、action_list。turn/round分别保存，action_list决定可行动单位；客户端不能自行按阵营轮换。单位进入自己的行动回合后重置round_fired、发射信息、回合技能次数及普通技能CD；单局all_count保留。`round_stime` 与服务器时间用于时钟，倒计时不是从UI出现起另计15秒。
 
-## 模块策划案：表现队列、重连与结束
+默认行动参数15只是兜底；自由房可选10/15/20，战斗记录还可用act_time覆盖。示例battle102010001的act_time是30000、angle65、quit_type2、env_filter[8]，说明新手特例可以和普通默认不同。act_time在此保留原字段，不与time_limit3600混成一个倒计时。[回合](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.core.txt)、[战斗表](../analysis/data/battle_battle.json)
 
-**命令回包。** 服务端可以把一条行动拆成多个 `batch_index/batch_total` 批次；客户端需合并完整 `node_list`，再按发炮、技能、特殊弹体等类型解析，并按弹体飞行时间和顺序播放。这个设计让客户端负责可见轨迹、爆炸与伤害表现的时序，服务端负责行动结果。若少一批，客户端不能提前演出完整行动或据此给出结算。[节点解析](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua)
+## 发炮操作设计：开始、取消、提交、失败恢复
 
-**重连和结算。** 重连模块恢复战斗快照/阶段，不能用初次进入流程假设玩家处在第一回合。结束回包写入 `fight_result_msg`，客户端以 `win_camp_id==self_camp` 判胜负，随后根据模式决定结果页和 MVP。排位杯分、任务进度和奖励由外围回包另行更新，结果动画结束不是资源到账证明。[重连](../reverse/lua-decompiled/game.module.fight.manager.base.reconnect.lua)、[结束模块](../reverse/lua-decompiled/game.module.fight.manager.base.ending.core.lua)
+### 开始蓄力的六类检查
+
+`can_req_fire_start`依次检查当前行动者、非自动战斗、fight_state=attack、非下落，以及forbid_round_action_buff_states逐项禁止状态。通过后开始蓄力：停移动、round.oped=true、holding=true；请求带round、force_speed和is_cancel=false。取消蓄力走同一ready消息，is_cancel=true。[允许蓄力原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.core.txt#L780)
+
+“非下落”使单位落点/位置稳定成为输入前置；“当前行动者”和“attack阶段”区分了旁观与本回合操作。开始蓄力检查并不是所有发炮判定的全集：正式提交还要走其可发射检查和位置同步。
+
+### 发炮提交的本地状态
+
+正式req_fire先同步控制单位位置，触发before_send_fire_cmd效果和声波输入，再发指令；本地round_fired=true，保存fire_angle/fire_direction，将all_fire_msg_received设false。这里标记的是已提交等待结果，不是已命中。保持holding、停止移动与实际发炮是三个动作，不能把开始蓄力当一次攻击计数。[发射原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.core.txt)
+
+### 请求失败要撤销哪些状态
+
+失败恢复按固定顺序：round.oped=false→round_fired=false→清fire_angle和fire_direction→引导has_on_fired=false→取消holding动作→重新启动等待攻击计时器→发送ready取消，携当前round及重新计算的force_speed。
+
+示例：玩家在本回合提交了70力度/50°后请求失败，UI不应该永久锁在“已发炮”。客户端会清待攻击信息、恢复等待，但是否还剩行动时间仍由回合时间决定；失败恢复并没有重开一个完整回合。此分支也没有在本地伪造伤害或额外奖励。[完整失败恢复](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.core.txt#L455)
+
+## 一次行动如何变成表现队列
+
+指令s2c可以拆成batch_index/batch_total；客户端合并node_list，等全部批次收齐才解析。type1普通发炮、type2技能、type3特殊弹体、type100/101其他弹体事件进入不同处理器。弹体节点按bullet_fly_time和_order排序，再交给回合表现。
+
+这决定了“收到第一包”“看到子弹出膛”“命中动画”“生命同步”“当前行动结束”不能视为同一时间。分裂、连发、召唤和回弹可能形成多个节点，而不是点击一次只减一次HP。少一批时不能提前认为行动完整；最后一次爆炸动画结束也不能自行判胜。[命令原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.cmd.network.txt)、[回合表现](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.perform.txt)
+
+## 超时设计：保底发炮、跳过与自动战斗
+
+普通手动操作者才显示行动倒计时；自动/挂机条件另判。超时保底要求guaranteed_fire=1、开放功能满足、单位可发炮、不在抛物线发射态、没有holding或已有fire_angle。候选过滤死亡、隐藏、宠物、同阵营、隐身单位，再尝试推荐力度。没有合法候选/解时不能写成“自动必命中”。排位102保底0，103和锦标赛502保底1；这是明确模式差异。
+
+跳过使用unit_can_pass_round与req_pass_unit_round独立请求；自动战斗则用其状态/执行链。三者分别是主动放弃、超时补救、托管操作。不能让开启自动战斗后又允许普通手动技能重复抢操作。[超时与跳过](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.core.txt)、[技能手动限制](skills.md)
+
+## 结束设计：胜负、MVP、奖励与返回
+
+结果回包写fight_result_msg，停止战斗并切ending；胜负比较win_camp_id与self_camp。show_mvp、结果面板类型、show_result_delay与结束动作由play_type决定。排位102的result_board_type[7,8]、show_result_delay500、show_mvp1是有效继承值，不能因为行内未写就说不存在。
+
+MVP/结果页属于表现，金币、任务进度、宠物或杯数另等对应系统的更新。两个阵营都还有单位或本地HP暂未刷完时，也不能用画面抢先推翻已回的胜负。无法从客户端复原的仍是服务端最终结束条件和碰撞/伤害裁定；现有页把客户端完整生命周期与这些边界分开。
+
+## 可查的配置明细
+
+### 全部 70 个玩法的操作规则矩阵
+
+[有效配置原表](../analysis/data/gameplay_gameplay.json)。已展开元表默认值；“未配置”仅表示有效行仍无该字段。
+
+| 玩法 | 名称 | 伙伴数 | 技能 | 自动 | 保底发炮 | 调速 | 总时限原值 | MVP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 101 | pvp测试 | 0 | 1 | 1 | 1 | 0 | 36000 | 1 |
+| 102 | 排位赛 | 0 | 1 | 0 | 0 | 0 | 3600 | 1 |
+| 103 | 3V3排位赛 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 104 | 巅峰对决 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 105 | 地狱足球 | 0 | 1 | 0 | 0 | 0 | 3600 | 1 |
+| 106 | 公会讨伐-积分抢夺 | 0 | 1 | 0 | 0 | 1 | 7200 | 0 |
+| 107 | 气球竞赛 | 0 | 1 | 0 | 0 | 0 | 3600 | 1 |
+| 108 | 3V3排位赛-冠军赛 | 0 | 1 | 0 | 1 | 0 | 540 | 1 |
+| 109 | 农场驱逐 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 110 | 切磋 | 0 | 1 | 0 | 0 | 0 | 3600 | 0 |
+| 111 | 矿场争夺 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 112 | 常规锦标赛 | 0 | 1 | 0 | 1 | 0 | 360 | 1 |
+| 113 | 公会争霸赛 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 114 | 自定义战斗试玩 | 0 | 1 | 1 | 1 | 0 | 36000 | 1 |
+| 115 | 变身大作战 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 116 | 三角战线 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 117 | 真假童话 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 118 | 公会锦标赛单人对决 | 0 | 1 | 1 | 0 | 1 | 600 | 0 |
+| 119 | 冰火战歌 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 201 | pve测试 | 2 | 1 | 1 | 0 | 0 | 3600 | 0 |
+| 202 | 主线副本 | 2 | 1 | 0 | 0 | 0 | 3600 | 0 |
+| 203 | 冒险车站 | 0 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 204 | 训练副本 | 2 | 1 | 0 | 0 | 0 | 3600 | 0 |
+| 205 | 幻梦塔 | 2 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 206 | 三测新手主线 | 0 | 0 | 1 | 0 | 0 | 3600 | 0 |
+| 207 | 寻星奇遇 | 0 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 208 | 疯狂厨房 | 0 | 1 | 1 | 0 | 0 | 3600 | 0 |
+| 209 | 攻塔弹队 | 2 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 210 | 弹弹大闯关 | 2 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 211 | 金币副本 | 0 | 1 | 1 | 0 | 0 | 3600 | 0 |
+| 212 | 年兽大作战 | 2 | 1 | 1 | 0 | 0 | 3600 | 0 |
+| 213 | 四测新手战斗 | 0 | 0 | 1 | 0 | 1 | 3600 | 0 |
+| 214 | 四测主线副本(数值玩法） | 2 | 0 | 1 | 0 | 1 | 3600 | 0 |
+| 215 | 四测主线副本(技巧玩法） | 2 | 0 | 0 | 0 | 1 | 3600 | 0 |
+| 216 | 武器试用 | 2 | 0 | 0 | 0 | 1 | 3600 | 0 |
+| 217 | 2V2考核赛 | 0 | 0 | 1 | 0 | 1 | 7200 | 0 |
+| 218 | 木桩副本 | 0 | 0 | 1 | 0 | 1 | 7200 | 0 |
+| 219 | 英雄材料副本 | 0 | 0 | 1 | 0 | 1 | 3600 | 0 |
+| 220 | 头衔晋升副本 | 0 | 0 | 0 | 0 | 1 | 3600 | 0 |
+| 221 | 愤怒小鸟副本 | 0 | 0 | 0 | 0 | 1 | 3600 | 0 |
+| 222 | 多人小鸟 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 223 | 肉鸽玩法 | 0 | 0 | 1 | 0 | 1 | 7200 | 0 |
+| 224 | 机器人塔 | 0 | 0 | 1 | 0 | 1 | 7200 | 0 |
+| 225 | 雪球响叮当 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 301 | 公会锦标赛 | 未配置 | 1 | 1 | 0 | 0 | 7200 | 0 |
+| 302 | 空中派对 | 未配置 | 1 | 0 | 0 | 0 | 3600 | 0 |
+| 401 | 梦魇讨伐 | 0 | 1 | 1 | 0 | 1 | 7200 | 0 |
+| 402 | 公会讨伐 | 0 | 1 | 1 | 0 | 0 | 7200 | 0 |
+| 403 | 啵啵入侵 | 0 | 1 | 1 | 0 | 0 | 7200 | 0 |
+| 404 | 黄金矿工(小游戏) | 0 | 0 | 0 | 0 | 0 | 120 | 0 |
+| 405 | 公会紧急征召 | 0 | 1 | 1 | 0 | 0 | 7200 | 0 |
+| 406 | 飞行竞赛 | 0 | 1 | 0 | 0 | 0 | 7200 | 0 |
+| 407 | 公会讨伐-怪物讨伐 | 0 | 1 | 1 | 0 | 0 | 86400 | 0 |
+| 408 | 机关逃亡 | 0 | 1 | 0 | 0 | 0 | 7200 | 0 |
+| 409 | 普通材料副本 | 0 | 0 | 1 | 0 | 1 | 3600 | 0 |
+| 410 | 飞行小游戏 | 0 | 1 | 0 | 0 | 0 | 7200 | 0 |
+| 411 | 飞行小游戏新手 | 0 | 1 | 0 | 0 | 0 | 7200 | 0 |
+| 412 | 飞行小游戏联机 | 0 | 1 | 0 | 0 | 0 | 7200 | 0 |
+| 413 | 比武招亲 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 414 | 虹猫蓝兔剧情挑战 | 0 | 1 | 0 | 0 | 1 | 3600 | 0 |
+| 415 | 公会试炼 | 0 | 1 | 1 | 0 | 1 | 3600 | 0 |
+| 416 | 轻功大赛 | 0 | 1 | 0 | 0 | 0 | 3600 | 0 |
+| 417 | 岁岁相牵 | 0 | 0 | 0 | 0 | 0 | 120 | 0 |
+| 501 | 自由竞技 | 0 | 1 | 1 | 0 | 0 | 7200 | 0 |
+| 502 | 全国锦标赛-海选赛 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 503 | 全国锦标赛-淘汰赛 | 0 | 1 | 0 | 1 | 0 | 600 | 1 |
+| 504 | 全国锦标赛-巅峰赛 | 0 | 1 | 0 | 1 | 0 | 600 | 1 |
+| 601 | S3联赛-海选赛 | 0 | 1 | 0 | 1 | 0 | 3600 | 1 |
+| 602 | S3联赛-淘汰赛 | 0 | 1 | 0 | 1 | 0 | 600 | 1 |
+| 603 | S3联赛-巅峰赛 | 0 | 1 | 0 | 1 | 0 | 600 | 1 |

@@ -82,9 +82,37 @@ def main() -> None:
         if not output.is_file() or len(json.loads(output.read_text(encoding="utf-8"))) != item["rows"]:
             problems.append(f"Derived table row count mismatch: {item['name']}")
 
+    listings=json.loads((ROOT/'reverse/lua-disassembled/manifest.json').read_text(encoding='utf8'))
+    for item in listings:
+        source=ROOT/'reverse/lua-bytecode'/item['source']
+        if hashlib.sha256(source.read_bytes()).hexdigest()!=item['sha256']:
+            problems.append(f"Instruction source hash mismatch: {item['name']}")
+        listing=ROOT/item['lua-disassembled']
+        if not listing.is_file() or '; Function 0:' not in listing.read_text(encoding='utf8'):
+            problems.append(f"Invalid instruction listing: {item['name']}")
+    probes=json.loads((ROOT/'analysis/data/client_rule_probes.json').read_text(encoding='utf8'))
+    for item in probes['sources']:
+        source=ROOT/'reverse/lua-bytecode'/item['source']
+        if hashlib.sha256(source.read_bytes()).hexdigest()!=item['sha256']:
+            problems.append(f"Probe source hash mismatch: {item['name']}")
+    # These cases protect the newly recovered, planning-relevant branch boundaries.
+    expected={'20升21资源足':[True],'20升21材料差1':[False],
+              '40升41角色未达':[False],'40升41开服未达':[False],'40升41满足门槛':[True],
+              '技能槽默认与类别槽':[5,1,2], '通行证_免费可领取':[False,False,True],
+              '通行证_付费未购':[True,False,False], '普通冷却与回合次数重置':[2,0]}
+    found={c['label']:c['returned'] for c in probes['cases']}
+    for label,value in expected.items():
+        if found.get(label)!=value:problems.append(f"Recovered rule changed: {label}")
+    for slug in ['systems','growth','matching','battle','combat-math','skills','robots','growth-numbers','economy','design-spec']:
+        report=(ROOT/'analysis'/f'{slug}.md').read_text(encoding='utf8')
+        if report.count('<!-- DESIGN_DETAIL_BEGIN -->')!=1:
+            problems.append(f"Missing/duplicated design detail: {slug}")
+    if '当前行未列' in (ROOT/'analysis/growth-numbers.md').read_text(encoding='utf8'):
+        problems.append('Stale missing-default claim in growth numbers')
+
     if problems:
         raise SystemExit("\n".join(problems))
-    print(f"PASS: {len(pages)} pages, {checked} links, {len(manifest['files'])} originals, {len(derived)} derived tables checked")
+    print(f"PASS: {len(pages)} pages, {checked} links, {len(manifest['files'])} originals, {len(derived)} effective tables, {len(listings)} instruction sources, {len(probes['cases'])} original-function probes checked")
 
 
 if __name__ == "__main__":

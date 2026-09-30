@@ -6849,10 +6849,12 @@
   },
   {
     "part_id": 3,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -6880,7 +6882,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -6888,6 +6892,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -6915,7 +6920,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -6923,6 +6930,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -6950,7 +6958,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -6958,6 +6968,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -6985,7 +6996,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -6993,6 +7006,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7050,7 +7064,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7058,6 +7074,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7115,7 +7132,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7123,6 +7142,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7214,7 +7234,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7222,6 +7244,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7313,7 +7336,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7321,6 +7346,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7412,7 +7438,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7420,6 +7448,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7549,7 +7578,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7557,6 +7588,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7686,7 +7718,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7694,6 +7728,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -7865,7 +7900,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -7873,6 +7910,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8044,7 +8082,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8052,6 +8092,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8223,7 +8264,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8231,6 +8274,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8402,7 +8446,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8410,6 +8456,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8581,7 +8628,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8589,6 +8638,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8760,7 +8810,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8768,6 +8820,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -8939,7 +8992,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -8947,6 +9002,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -9118,7 +9174,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -9126,6 +9184,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -9297,7 +9356,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -9305,6 +9366,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -9476,7 +9538,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -9484,6 +9548,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -9655,7 +9720,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -9663,6 +9730,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -9834,7 +9902,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -9842,6 +9912,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10013,7 +10084,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10021,6 +10094,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10192,7 +10266,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10200,6 +10276,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10371,7 +10448,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10379,6 +10458,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10550,7 +10630,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10558,6 +10640,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10729,7 +10812,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10737,6 +10822,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -10908,7 +10994,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -10916,6 +11004,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11087,7 +11176,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11095,6 +11186,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11266,7 +11358,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11274,6 +11368,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11445,7 +11540,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11453,6 +11550,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11624,7 +11722,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11632,6 +11732,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11803,7 +11904,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11811,6 +11914,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -11982,7 +12086,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -11990,6 +12096,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -12161,7 +12268,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -12169,6 +12278,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -12340,7 +12450,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -12348,6 +12460,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -12519,7 +12632,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -12527,6 +12642,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -12698,7 +12814,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -12706,6 +12824,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -12877,7 +12996,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -12885,6 +13006,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13056,7 +13178,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13064,6 +13188,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13235,7 +13360,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13243,6 +13370,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13414,7 +13542,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13422,6 +13552,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13593,7 +13724,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13601,6 +13734,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13772,7 +13906,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13780,6 +13916,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -13951,7 +14088,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -13959,6 +14098,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14130,7 +14270,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14138,6 +14280,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14309,7 +14452,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14317,6 +14462,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14488,7 +14634,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14496,6 +14644,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14667,7 +14816,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14676,10 +14827,12 @@
   },
   {
     "part_id": 4,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14707,7 +14860,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14715,6 +14870,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14742,7 +14898,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14750,6 +14908,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14777,7 +14936,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14785,6 +14946,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14812,7 +14974,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14820,6 +14984,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14877,7 +15042,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14885,6 +15052,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -14942,7 +15110,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -14950,6 +15120,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15041,7 +15212,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15049,6 +15222,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15140,7 +15314,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15148,6 +15324,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15239,7 +15416,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15247,6 +15426,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15376,7 +15556,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15384,6 +15566,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15513,7 +15696,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15521,6 +15706,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15692,7 +15878,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15700,6 +15888,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -15871,7 +16060,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -15879,6 +16070,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16050,7 +16242,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16058,6 +16252,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16229,7 +16424,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16237,6 +16434,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16408,7 +16606,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16416,6 +16616,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16587,7 +16788,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16595,6 +16798,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16766,7 +16970,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16774,6 +16980,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -16945,7 +17152,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -16953,6 +17162,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -17124,7 +17334,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -17132,6 +17344,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -17303,7 +17516,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -17311,6 +17526,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -17482,7 +17698,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -17490,6 +17708,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -17661,7 +17880,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -17669,6 +17890,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -17840,7 +18062,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -17848,6 +18072,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18019,7 +18244,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18027,6 +18254,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18198,7 +18426,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18206,6 +18436,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18377,7 +18608,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18385,6 +18618,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18556,7 +18790,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18564,6 +18800,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18735,7 +18972,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18743,6 +18982,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -18914,7 +19154,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -18922,6 +19164,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19093,7 +19336,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19101,6 +19346,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19272,7 +19518,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19280,6 +19528,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19451,7 +19700,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19459,6 +19710,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19630,7 +19882,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19638,6 +19892,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19809,7 +20064,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19817,6 +20074,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -19988,7 +20246,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -19996,6 +20256,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -20167,7 +20428,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -20175,6 +20438,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -20346,7 +20610,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -20354,6 +20620,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -20525,7 +20792,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -20533,6 +20802,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -20704,7 +20974,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -20712,6 +20984,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -20883,7 +21156,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -20891,6 +21166,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21062,7 +21338,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21070,6 +21348,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21241,7 +21520,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21249,6 +21530,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21420,7 +21702,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21428,6 +21712,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21599,7 +21884,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21607,6 +21894,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21778,7 +22066,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21786,6 +22076,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -21957,7 +22248,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -21965,6 +22258,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22136,7 +22430,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22144,6 +22440,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22315,7 +22612,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22323,6 +22622,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22494,7 +22794,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22503,10 +22805,12 @@
   },
   {
     "part_id": 5,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22534,7 +22838,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22542,6 +22848,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22569,7 +22876,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22577,6 +22886,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22604,7 +22914,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22612,6 +22924,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22639,7 +22952,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22647,6 +22962,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22704,7 +23020,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22712,6 +23030,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22769,7 +23088,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22777,6 +23098,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22868,7 +23190,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22876,6 +23200,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -22967,7 +23292,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -22975,6 +23302,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23066,7 +23394,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23074,6 +23404,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23203,7 +23534,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23211,6 +23544,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23340,7 +23674,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23348,6 +23684,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23519,7 +23856,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23527,6 +23866,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23698,7 +24038,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23706,6 +24048,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -23877,7 +24220,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -23885,6 +24230,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24056,7 +24402,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24064,6 +24412,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24235,7 +24584,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24243,6 +24594,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24414,7 +24766,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24422,6 +24776,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24593,7 +24948,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24601,6 +24958,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24772,7 +25130,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24780,6 +25140,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -24951,7 +25312,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -24959,6 +25322,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -25130,7 +25494,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -25138,6 +25504,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -25309,7 +25676,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -25317,6 +25686,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -25488,7 +25858,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -25496,6 +25868,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -25667,7 +26040,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -25675,6 +26050,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -25846,7 +26222,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -25854,6 +26232,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26025,7 +26404,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26033,6 +26414,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26204,7 +26586,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26212,6 +26596,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26383,7 +26768,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26391,6 +26778,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26562,7 +26950,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26570,6 +26960,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26741,7 +27132,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26749,6 +27142,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -26920,7 +27314,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -26928,6 +27324,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27099,7 +27496,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -27107,6 +27506,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27278,7 +27678,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -27286,6 +27688,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27457,7 +27860,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -27465,6 +27870,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27636,7 +28042,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -27644,6 +28052,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27815,7 +28224,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -27823,6 +28234,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -27994,7 +28406,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28002,6 +28416,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -28173,7 +28588,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28181,6 +28598,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -28352,7 +28770,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28360,6 +28780,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -28531,7 +28952,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28539,6 +28962,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -28710,7 +29134,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28718,6 +29144,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -28889,7 +29316,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -28897,6 +29326,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29068,7 +29498,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29076,6 +29508,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29247,7 +29680,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29255,6 +29690,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29426,7 +29862,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29434,6 +29872,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29605,7 +30044,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29613,6 +30054,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29784,7 +30226,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29792,6 +30236,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -29963,7 +30408,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -29971,6 +30418,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30142,7 +30590,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30150,6 +30600,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30321,7 +30772,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30330,10 +30783,12 @@
   },
   {
     "part_id": 6,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30361,7 +30816,9 @@
           "13": 16
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30369,6 +30826,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30396,7 +30854,9 @@
           "13": 18
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30404,6 +30864,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30431,7 +30892,9 @@
           "13": 20
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30439,6 +30902,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30466,7 +30930,9 @@
           "13": 24
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30474,6 +30940,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30531,7 +30998,9 @@
           "13": 26
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30539,6 +31008,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30596,7 +31066,9 @@
           "13": 29
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30604,6 +31076,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30695,7 +31168,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30703,6 +31178,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30794,7 +31270,9 @@
           "13": 22
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30802,6 +31280,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -30893,7 +31372,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -30901,6 +31382,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31030,7 +31512,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31038,6 +31522,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31167,7 +31652,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31175,6 +31662,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31346,7 +31834,9 @@
           "13": 20
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31354,6 +31844,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31525,7 +32016,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31533,6 +32026,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31704,7 +32198,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31712,6 +32208,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -31883,7 +32380,9 @@
           "13": 14
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -31891,6 +32390,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32062,7 +32562,9 @@
           "13": 12
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32070,6 +32572,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32241,7 +32744,9 @@
           "13": 10
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32249,6 +32754,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32420,7 +32926,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32428,6 +32936,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32599,7 +33108,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32607,6 +33118,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32778,7 +33290,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32786,6 +33300,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -32957,7 +33472,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -32965,6 +33482,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -33136,7 +33654,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -33144,6 +33664,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -33315,7 +33836,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -33323,6 +33846,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -33494,7 +34018,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -33502,6 +34028,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -33673,7 +34200,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -33681,6 +34210,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -33852,7 +34382,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -33860,6 +34392,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34031,7 +34564,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34039,6 +34574,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34210,7 +34746,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34218,6 +34756,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34389,7 +34928,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34397,6 +34938,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34568,7 +35110,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34576,6 +35120,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34747,7 +35292,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34755,6 +35302,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -34926,7 +35474,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -34934,6 +35484,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -35105,7 +35656,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -35113,6 +35666,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -35284,7 +35838,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -35292,6 +35848,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -35463,7 +36020,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -35471,6 +36030,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -35642,7 +36202,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -35650,6 +36212,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -35821,7 +36384,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -35829,6 +36394,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36000,7 +36566,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36008,6 +36576,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36179,7 +36748,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36187,6 +36758,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36358,7 +36930,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36366,6 +36940,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36537,7 +37112,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36545,6 +37122,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36716,7 +37294,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36724,6 +37304,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -36895,7 +37476,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -36903,6 +37486,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37074,7 +37658,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37082,6 +37668,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37253,7 +37840,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37261,6 +37850,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37432,7 +38022,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37440,6 +38032,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37611,7 +38204,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37619,6 +38214,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37790,7 +38386,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37798,6 +38396,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -37969,7 +38568,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -37977,6 +38578,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38148,7 +38750,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38157,10 +38761,12 @@
   },
   {
     "part_id": 7,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38188,7 +38794,9 @@
           "13": 16
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38196,6 +38804,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38223,7 +38832,9 @@
           "13": 18
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38231,6 +38842,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38258,7 +38870,9 @@
           "13": 20
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38266,6 +38880,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38293,7 +38908,9 @@
           "13": 24
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38301,6 +38918,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38358,7 +38976,9 @@
           "13": 26
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38366,6 +38986,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38423,7 +39044,9 @@
           "13": 29
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38431,6 +39054,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38522,7 +39146,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38530,6 +39156,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38621,7 +39248,9 @@
           "13": 22
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38629,6 +39258,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38720,7 +39350,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38728,6 +39360,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38857,7 +39490,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -38865,6 +39500,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -38994,7 +39630,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39002,6 +39640,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -39173,7 +39812,9 @@
           "13": 20
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39181,6 +39822,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -39352,7 +39994,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39360,6 +40004,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -39531,7 +40176,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39539,6 +40186,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -39710,7 +40358,9 @@
           "13": 14
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39718,6 +40368,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -39889,7 +40540,9 @@
           "13": 12
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -39897,6 +40550,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40068,7 +40722,9 @@
           "13": 10
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40076,6 +40732,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40247,7 +40904,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40255,6 +40914,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40426,7 +41086,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40434,6 +41096,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40605,7 +41268,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40613,6 +41278,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40784,7 +41450,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40792,6 +41460,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -40963,7 +41632,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -40971,6 +41642,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -41142,7 +41814,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -41150,6 +41824,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -41321,7 +41996,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -41329,6 +42006,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -41500,7 +42178,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -41508,6 +42188,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -41679,7 +42360,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -41687,6 +42370,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -41858,7 +42542,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -41866,6 +42552,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42037,7 +42724,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42045,6 +42734,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42216,7 +42906,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42224,6 +42916,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42395,7 +43088,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42403,6 +43098,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42574,7 +43270,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42582,6 +43280,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42753,7 +43452,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42761,6 +43462,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -42932,7 +43634,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -42940,6 +43644,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -43111,7 +43816,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -43119,6 +43826,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -43290,7 +43998,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -43298,6 +44008,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -43469,7 +44180,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -43477,6 +44190,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -43648,7 +44362,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -43656,6 +44372,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -43827,7 +44544,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -43835,6 +44554,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44006,7 +44726,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44014,6 +44736,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44185,7 +44908,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44193,6 +44918,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44364,7 +45090,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44372,6 +45100,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44543,7 +45272,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44551,6 +45282,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44722,7 +45454,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44730,6 +45464,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -44901,7 +45636,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -44909,6 +45646,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45080,7 +45818,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45088,6 +45828,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45259,7 +46000,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45267,6 +46010,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45438,7 +46182,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45446,6 +46192,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45617,7 +46364,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45625,6 +46374,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45796,7 +46546,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45804,6 +46556,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -45975,7 +46728,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -45984,10 +46739,12 @@
   },
   {
     "part_id": 8,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46015,7 +46772,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46023,6 +46782,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46050,7 +46810,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46058,6 +46820,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46085,7 +46848,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46093,6 +46858,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46120,7 +46886,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46128,6 +46896,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46185,7 +46954,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46193,6 +46964,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46250,7 +47022,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46258,6 +47032,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46349,7 +47124,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46357,6 +47134,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46448,7 +47226,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46456,6 +47236,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46547,7 +47328,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46555,6 +47338,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46684,7 +47468,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46692,6 +47478,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -46821,7 +47608,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -46829,6 +47618,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47000,7 +47790,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47008,6 +47800,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47179,7 +47972,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47187,6 +47982,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47358,7 +48154,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47366,6 +48164,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47537,7 +48336,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47545,6 +48346,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47716,7 +48518,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47724,6 +48528,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -47895,7 +48700,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -47903,6 +48710,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48074,7 +48882,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48082,6 +48892,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48253,7 +49064,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48261,6 +49074,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48432,7 +49246,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48440,6 +49256,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48611,7 +49428,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48619,6 +49438,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48790,7 +49610,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48798,6 +49620,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -48969,7 +49792,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -48977,6 +49802,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -49148,7 +49974,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -49156,6 +49984,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -49327,7 +50156,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -49335,6 +50166,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -49506,7 +50338,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -49514,6 +50348,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -49685,7 +50520,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -49693,6 +50530,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -49864,7 +50702,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -49872,6 +50712,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50043,7 +50884,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50051,6 +50894,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50222,7 +51066,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50230,6 +51076,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50401,7 +51248,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50409,6 +51258,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50580,7 +51430,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50588,6 +51440,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50759,7 +51612,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50767,6 +51622,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -50938,7 +51794,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -50946,6 +51804,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -51117,7 +51976,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -51125,6 +51986,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -51296,7 +52158,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -51304,6 +52168,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -51475,7 +52340,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -51483,6 +52350,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -51654,7 +52522,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -51662,6 +52532,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -51833,7 +52704,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -51841,6 +52714,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52012,7 +52886,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52020,6 +52896,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52191,7 +53068,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52199,6 +53078,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52370,7 +53250,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52378,6 +53260,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52549,7 +53432,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52557,6 +53442,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52728,7 +53614,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52736,6 +53624,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -52907,7 +53796,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -52915,6 +53806,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53086,7 +53978,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53094,6 +53988,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53265,7 +54160,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53273,6 +54170,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53444,7 +54342,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53452,6 +54352,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53623,7 +54524,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53631,6 +54534,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53802,7 +54706,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53811,10 +54717,12 @@
   },
   {
     "part_id": 9,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53842,7 +54750,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53850,6 +54760,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53877,7 +54788,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53885,6 +54798,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53912,7 +54826,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53920,6 +54836,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -53947,7 +54864,9 @@
           "99": 0
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -53955,6 +54874,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54012,7 +54932,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54020,6 +54942,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54077,7 +55000,9 @@
           "99": 0
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54085,6 +55010,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54176,7 +55102,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54184,6 +55112,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54275,7 +55204,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54283,6 +55214,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54374,7 +55306,9 @@
           "99": 0
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54382,6 +55316,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54511,7 +55446,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54519,6 +55456,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54648,7 +55586,9 @@
           "99": 0
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54656,6 +55596,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -54827,7 +55768,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -54835,6 +55778,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55006,7 +55950,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55014,6 +55960,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55185,7 +56132,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55193,6 +56142,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55364,7 +56314,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55372,6 +56324,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55543,7 +56496,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55551,6 +56506,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55722,7 +56678,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55730,6 +56688,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -55901,7 +56860,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -55909,6 +56870,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56080,7 +57042,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56088,6 +57052,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56259,7 +57224,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56267,6 +57234,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56438,7 +57406,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56446,6 +57416,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56617,7 +57588,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56625,6 +57598,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56796,7 +57770,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56804,6 +57780,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -56975,7 +57952,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -56983,6 +57962,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -57154,7 +58134,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -57162,6 +58144,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -57333,7 +58316,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -57341,6 +58326,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -57512,7 +58498,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -57520,6 +58508,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -57691,7 +58680,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -57699,6 +58690,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -57870,7 +58862,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -57878,6 +58872,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58049,7 +59044,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58057,6 +59054,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58228,7 +59226,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58236,6 +59236,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58407,7 +59408,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58415,6 +59418,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58586,7 +59590,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58594,6 +59600,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58765,7 +59772,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58773,6 +59782,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -58944,7 +59954,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -58952,6 +59964,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -59123,7 +60136,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -59131,6 +60146,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -59302,7 +60318,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -59310,6 +60328,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -59481,7 +60500,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -59489,6 +60510,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -59660,7 +60682,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -59668,6 +60692,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -59839,7 +60864,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -59847,6 +60874,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60018,7 +61046,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60026,6 +61056,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60197,7 +61228,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60205,6 +61238,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60376,7 +61410,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60384,6 +61420,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60555,7 +61592,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60563,6 +61602,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60734,7 +61774,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60742,6 +61784,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -60913,7 +61956,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -60921,6 +61966,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61092,7 +62138,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61100,6 +62148,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61271,7 +62320,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61279,6 +62330,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61450,7 +62502,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61458,6 +62512,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61629,7 +62684,9 @@
           "99": 0
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61638,10 +62695,12 @@
   },
   {
     "part_id": 10,
+    "strengthen_cost": {},
     "strengthen_info": [
       {
         "idx": 1,
         "luck_max": 8,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61669,7 +62728,9 @@
           "13": 16
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 1,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61677,6 +62738,7 @@
       {
         "idx": 3,
         "luck_max": 12,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61704,7 +62766,9 @@
           "13": 18
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 2,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61712,6 +62776,7 @@
       {
         "idx": 5,
         "luck_max": 16,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61739,7 +62804,9 @@
           "13": 20
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 3,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61747,6 +62814,7 @@
       {
         "idx": 7,
         "luck_max": 20,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61774,7 +62842,9 @@
           "13": 24
         },
         "grade": 1,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 4,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61782,6 +62852,7 @@
       {
         "idx": 9,
         "luck_max": 24,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61839,7 +62910,9 @@
           "13": 26
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 5,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61847,6 +62920,7 @@
       {
         "idx": 12,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -61904,7 +62978,9 @@
           "13": 29
         },
         "grade": 2,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 6,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -61912,6 +62988,7 @@
       {
         "idx": 15,
         "luck_max": 28,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62003,7 +63080,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 7,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62011,6 +63090,7 @@
       {
         "idx": 19,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62102,7 +63182,9 @@
           "13": 22
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 8,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62110,6 +63192,7 @@
       {
         "idx": 23,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62201,7 +63284,9 @@
           "13": 23
         },
         "grade": 3,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 9,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62209,6 +63294,7 @@
       {
         "idx": 27,
         "luck_max": 40,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62338,7 +63424,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 10,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62346,6 +63434,7 @@
       {
         "idx": 32,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62475,7 +63564,9 @@
           "13": 16
         },
         "grade": 4,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 11,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62483,6 +63574,7 @@
       {
         "idx": 37,
         "luck_max": 36,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62654,7 +63746,9 @@
           "13": 20
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 12,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62662,6 +63756,7 @@
       {
         "idx": 43,
         "luck_max": 42,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -62833,7 +63928,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 13,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -62841,6 +63938,7 @@
       {
         "idx": 49,
         "luck_max": 48,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63012,7 +64110,9 @@
           "13": 16
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 14,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63020,6 +64120,7 @@
       {
         "idx": 55,
         "luck_max": 54,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63191,7 +64292,9 @@
           "13": 14
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 15,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63199,6 +64302,7 @@
       {
         "idx": 61,
         "luck_max": 66,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63370,7 +64474,9 @@
           "13": 12
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 16,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63378,6 +64484,7 @@
       {
         "idx": 67,
         "luck_max": 78,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63549,7 +64656,9 @@
           "13": 10
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 17,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63557,6 +64666,7 @@
       {
         "idx": 73,
         "luck_max": 96,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63728,7 +64838,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 18,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63736,6 +64848,7 @@
       {
         "idx": 79,
         "luck_max": 108,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -63907,7 +65020,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 19,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -63915,6 +65030,7 @@
       {
         "idx": 85,
         "luck_max": 126,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64086,7 +65202,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 20,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64094,6 +65212,7 @@
       {
         "idx": 91,
         "luck_max": 144,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64265,7 +65384,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 21,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64273,6 +65394,7 @@
       {
         "idx": 97,
         "luck_max": 168,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64444,7 +65566,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 22,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64452,6 +65576,7 @@
       {
         "idx": 103,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64623,7 +65748,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 23,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64631,6 +65758,7 @@
       {
         "idx": 109,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64802,7 +65930,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 24,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64810,6 +65940,7 @@
       {
         "idx": 115,
         "luck_max": 192,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -64981,7 +66112,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 25,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -64989,6 +66122,7 @@
       {
         "idx": 121,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -65160,7 +66294,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 26,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -65168,6 +66304,7 @@
       {
         "idx": 127,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -65339,7 +66476,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 27,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -65347,6 +66486,7 @@
       {
         "idx": 133,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -65518,7 +66658,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 28,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -65526,6 +66668,7 @@
       {
         "idx": 139,
         "luck_max": 216,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -65697,7 +66840,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 29,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -65705,6 +66850,7 @@
       {
         "idx": 145,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -65876,7 +67022,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 30,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -65884,6 +67032,7 @@
       {
         "idx": 151,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66055,7 +67204,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 31,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66063,6 +67214,7 @@
       {
         "idx": 157,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66234,7 +67386,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 32,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66242,6 +67396,7 @@
       {
         "idx": 163,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66413,7 +67568,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 33,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66421,6 +67578,7 @@
       {
         "idx": 169,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66592,7 +67750,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 34,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66600,6 +67760,7 @@
       {
         "idx": 175,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66771,7 +67932,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 35,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66779,6 +67942,7 @@
       {
         "idx": 181,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -66950,7 +68114,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 36,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -66958,6 +68124,7 @@
       {
         "idx": 187,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -67129,7 +68296,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 37,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -67137,6 +68306,7 @@
       {
         "idx": 193,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -67308,7 +68478,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 38,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -67316,6 +68488,7 @@
       {
         "idx": 199,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -67487,7 +68660,9 @@
           "13": 8
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 39,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -67495,6 +68670,7 @@
       {
         "idx": 205,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -67666,7 +68842,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 40,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -67674,6 +68852,7 @@
       {
         "idx": 211,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -67845,7 +69024,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 41,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -67853,6 +69034,7 @@
       {
         "idx": 217,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68024,7 +69206,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 42,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68032,6 +69216,7 @@
       {
         "idx": 223,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68203,7 +69388,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 43,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68211,6 +69398,7 @@
       {
         "idx": 229,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68382,7 +69570,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 44,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68390,6 +69580,7 @@
       {
         "idx": 235,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68561,7 +69752,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 45,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68569,6 +69762,7 @@
       {
         "idx": 241,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68740,7 +69934,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 46,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68748,6 +69944,7 @@
       {
         "idx": 247,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -68919,7 +70116,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 47,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -68927,6 +70126,7 @@
       {
         "idx": 253,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -69098,7 +70298,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 48,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -69106,6 +70308,7 @@
       {
         "idx": 259,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -69277,7 +70480,9 @@
           "13": 6
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 49,
         "percent": 100,
         "luck_display_conversion": 5000
@@ -69285,6 +70490,7 @@
       {
         "idx": 265,
         "luck_max": 240,
+        "properties": {},
         "grade": 0,
         "item": [
           [
@@ -69456,7 +70662,9 @@
           "13": 7
         },
         "grade": 5,
+        "item": {},
         "suggest_point": 0,
+        "rate": {},
         "lv": 50,
         "percent": 100,
         "luck_display_conversion": 5000

@@ -1,107 +1,364 @@
 {
   "1031012": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 12,
     "target_num": 4,
     "id": 1031012,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030012",
-    "open_func": 26,
-    "name": "AUTO_GEN_tasks_tasks_name_1030012",
     "icon_info": [
       "Icon/Item_access",
       "MoonBoxMainView"
     ],
-    "jump_id": "MoonBoxMainView"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030012",
+    "open_func": 26,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030012",
+    "server_ids": {},
+    "jump_id": "MoonBoxMainView",
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031013": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 13,
     "target_num": 1,
     "id": 1031013,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030013",
-    "open_func": 6,
-    "name": "AUTO_GEN_tasks_tasks_name_1103804",
-    "condition_args": {
-      "cid": 401
-    },
     "icon_info": [
       "Icon/Item_access",
       "Alliance_Tour"
     ],
-    "jump_id": "AllianceDungeonTeamEntryView"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030013",
+    "open_func": 6,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103804",
+    "server_ids": {},
+    "jump_id": "AllianceDungeonTeamEntryView",
+    "fetch_talk": {},
+    "condition_args": {
+      "cid": 401
+    },
+    "pre_task": {}
   },
   "1031014": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 14,
     "jump_id": "RankView",
     "id": 1031014,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030014",
-    "open_func": 1901,
-    "open_cond": 10,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
     "icon_info": [
       "Icon/Item_access",
       "Alliance_ranking"
-    ]
+    ],
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030014",
+    "open_func": 1901,
+    "open_cond": 10,
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "131103": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "target_num": 1,
+    "special_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "task_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "liveness": 1,
+    "task_tp": 4,
+    "task_talk": {},
+    "jump_arg": {},
     "jump_id": "StoryLevel23",
     "id": 131103,
     "desc": "AUTO_GEN_tasks_tasks_desc_131103",
+    "server_ids": {},
+    "fetch_talk": {},
+    "guide_talk": {},
     "condition_args": {
       "star": 1,
       "cid": 18203004
     }
   },
   "1031015": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 15,
     "jump_id": "SocialFriendView",
     "id": 1031015,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030015",
-    "open_func": 33,
-    "open_cond": 999,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
     "icon_info": [
       "Icon/Item_access",
       "shitu"
-    ]
+    ],
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030015",
+    "open_func": 33,
+    "open_cond": 999,
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1031016": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 16,
     "jump_id": "ChatGuildView",
     "id": 1031016,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030016",
     "open_func": 6,
+    "next_task": {},
+    "icon_info": [
+      "Icon/Item_access",
+      "shejiao"
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "chat_type": 1,
       "type": 2
     },
-    "icon_info": [
-      "Icon/Item_access",
-      "shejiao"
-    ]
+    "pre_task": {}
   },
   "1031017": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 17,
     "jump_id": "SocialFriendView",
     "id": 1031017,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030017",
     "open_func": 4,
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "receive_libao_b01"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030002": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 2,
     "jump_id": "TreasureMainView",
     "id": 1030002,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030002",
-    "open_func": 4201,
-    "name": "AUTO_GEN_tasks_tasks_name_1103801",
     "icon_info": [
       "Icon/Item_access",
       "DigTreasureView"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030002",
+    "open_func": 4201,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103801",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "131104": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "target_num": 1,
+    "special_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "task_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "liveness": 1,
+    "task_tp": 4,
+    "task_talk": {},
     "jump_arg": {
       "handler_args": {
         "force_top_id": 10101069
@@ -110,6 +367,9 @@
     "jump_id": "ShopView_11",
     "id": 131104,
     "desc": "AUTO_GEN_tasks_tasks_desc_131104",
+    "server_ids": {},
+    "fetch_talk": {},
+    "guide_talk": {},
     "condition_args": {
       "cid": [
         10101069
@@ -117,305 +377,968 @@
     }
   },
   "1030003": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 3,
     "jump_id": "AllianceBusiness",
     "id": 1030003,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030003",
-    "open_func": 426,
-    "name": "AUTO_GEN_tasks_tasks_name_1030003",
     "icon_info": [
       "Icon/Item_access",
       "Alliance_Task"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030003",
+    "open_func": 426,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030003",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030004": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "DigStarView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 4701,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 4,
     "target_num": 1,
     "id": 1030004,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030004"
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030004",
+    "next_task": {},
+    "icon_info": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030005": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "DigStarView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 4701,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 5,
     "target_num": 2,
     "id": 1030005,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030005"
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030005",
+    "next_task": {},
+    "icon_info": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030006": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 6,
     "jump_id": "PirateIsland",
     "id": 1030006,
+    "icon_info": {},
+    "guide_talk": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030006",
     "open_func": 3130,
     "open_cond": 999,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002"
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030007": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 7,
     "jump_id": "DungeonMaterialView",
     "id": 1030007,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030007",
     "open_func": 9,
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "DungeonTeamEntryView"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030008": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 8,
     "jump_id": "EVENT_DUP_START_TOWER",
     "id": 1030008,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030008",
     "open_func": 4501,
-    "condition_args": {
-      "type": 4
-    },
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "DungeonTowerView"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {
+      "type": 4
+    },
+    "pre_task": {}
   },
   "1030009": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
+    "icon_info": [
+      "Icon/Item_access",
+      "Wujinshilian"
+    ],
     "sub_task_tp": 9,
     "jump_id": "DungeonRogue",
     "id": 1030009,
+    "guide_talk": {},
+    "condition_args": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030009",
     "open_func": 9,
     "open_cond": 35,
     "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030009",
-    "icon_info": [
-      "Icon/Item_access",
-      "Wujinshilian"
-    ]
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030010": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
+    "icon_info": [
+      "Icon/Item_access",
+      "4V4RoomView"
+    ],
     "sub_task_tp": 10,
     "jump_id": "4V4RoomView",
     "id": 1030010,
+    "guide_talk": {},
+    "condition_args": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030010",
     "open_func": 7,
     "open_cond": 10,
     "name": "AUTO_GEN_tasks_tasks_name_1030010",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
-    "icon_info": [
-      "Icon/Item_access",
-      "4V4RoomView"
-    ]
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030011": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 11,
     "target_num": 1,
     "id": 1030011,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030011",
-    "open_func": 6,
-    "name": "AUTO_GEN_tasks_tasks_name_1103803",
     "icon_info": [
       "Icon/Item_access",
       "bobo"
     ],
-    "jump_id": "TaskAllianceInvade"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030011",
+    "open_func": 6,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103803",
+    "server_ids": {},
+    "jump_id": "TaskAllianceInvade",
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030012": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 12,
     "target_num": 4,
     "id": 1030012,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030012",
-    "open_func": 26,
-    "name": "AUTO_GEN_tasks_tasks_name_1030012",
     "icon_info": [
       "Icon/Item_access",
       "MoonBoxMainView"
     ],
-    "jump_id": "MoonBoxMainView"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030012",
+    "open_func": 26,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030012",
+    "server_ids": {},
+    "jump_id": "MoonBoxMainView",
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030013": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 13,
     "target_num": 1,
     "id": 1030013,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030013",
-    "open_func": 6,
-    "name": "AUTO_GEN_tasks_tasks_name_1103804",
-    "condition_args": {
-      "cid": 401
-    },
     "icon_info": [
       "Icon/Item_access",
       "Alliance_Tour"
     ],
-    "jump_id": "TaskAllianceParty"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030013",
+    "open_func": 6,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103804",
+    "server_ids": {},
+    "jump_id": "TaskAllianceParty",
+    "fetch_talk": {},
+    "condition_args": {
+      "cid": 401
+    },
+    "pre_task": {}
   },
   "1030014": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 14,
     "jump_id": "RankView",
     "id": 1030014,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030014",
-    "open_func": 1901,
-    "open_cond": 10,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
     "icon_info": [
       "Icon/Item_access",
       "Alliance_ranking"
-    ]
+    ],
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030014",
+    "open_func": 1901,
+    "open_cond": 10,
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030015": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 15,
     "jump_id": "SocialFriendView",
     "id": 1030015,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030015",
-    "open_func": 33,
-    "open_cond": 999,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
     "icon_info": [
       "Icon/Item_access",
       "shitu"
-    ]
+    ],
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030015",
+    "open_func": 33,
+    "open_cond": 999,
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030016": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 16,
     "jump_id": "ChatGuildView",
     "id": 1030016,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030016",
     "open_func": 6,
+    "next_task": {},
+    "icon_info": [
+      "Icon/Item_access",
+      "shejiao"
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "chat_type": 1,
       "type": 2
     },
-    "icon_info": [
-      "Icon/Item_access",
-      "shejiao"
-    ]
+    "pre_task": {}
   },
   "1030017": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 17,
     "jump_id": "SocialFriendView",
     "id": 1030017,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030017",
     "open_func": 4,
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "receive_libao_b01"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030018": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 18,
     "jump_id": "AllianceGuide",
     "id": 1030018,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030018",
-    "open_func": 6201,
-    "name": "AUTO_GEN_tasks_tasks_name_1030014",
     "icon_info": [
       "Icon/Item_access",
       "chigua"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030018",
+    "open_func": 6201,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030019": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3701,
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 19,
     "jump_id": "OfflineMainView",
     "id": 1030019,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030019",
-    "name": "AUTO_GEN_tasks_tasks_name_1030019",
     "icon_info": [
       "Icon/Item_access",
       "OfflineOrderViewOffline"
-    ]
+    ],
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030019",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030020": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3701,
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 20,
     "jump_id": "OfflineOrderViewOrder",
     "id": 1030020,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030020",
-    "name": "AUTO_GEN_tasks_tasks_name_1030020",
     "icon_info": [
       "Icon/Item_access",
       "OfflineOrderViewOrder"
-    ]
+    ],
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030020",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030021": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 21,
     "jump_id": "TutorTask",
     "id": 1030021,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030021",
-    "open_func": 2901,
-    "name": "AUTO_GEN_tasks_tasks_name_1030014",
     "icon_info": [
       "Icon/Item_access",
       "shitu"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030021",
+    "open_func": 2901,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030022": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 22,
     "jump_id": "ShopView_11",
     "id": 1030022,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030022",
-    "open_func": 4601,
-    "name": "AUTO_GEN_tasks_tasks_name_1030022",
     "icon_info": [
       "Icon/Item_access",
       "Shopping_mall"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030022",
+    "open_func": 4601,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030023": {
-    "sub_task_tp": 23,
-    "jump_id": "ChatCircleView",
-    "id": 1030023,
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "liveness": 20,
+    "task_tp": 3,
     "icon_info": [
       "Icon/Item_access",
       "shejiao"
     ],
+    "task_priority": 100,
+    "sub_task_tp": 23,
+    "jump_id": "ChatCircleView",
+    "id": 1030023,
+    "guide_talk": {},
+    "condition_args": {
+      "type": 5
+    },
     "desc": "AUTO_GEN_tasks_tasks_desc_1030023",
     "open_func": 33,
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030014",
-    "condition_args": {
-      "type": 5
-    },
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "task_priority": 100
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1030024": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 24,
     "jump_id": "StoryLevel",
     "id": 1030024,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030024",
-    "name": "AUTO_GEN_tasks_tasks_name_1030007",
-    "condition_args": {
-      "star": 1
-    },
-    "task_priority": 1000,
     "icon_info": [
       "Icon/Item_access",
       "DungeonMainEntryView"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030024",
+    "task_priority": 1000,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {
+      "star": 1
+    },
+    "pre_task": {}
   },
   "1030025": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 25,
     "jump_id": "PetMainView",
     "id": 1030025,
-    "desc": "AUTO_GEN_tasks_tasks_desc_103001138",
-    "name": "AUTO_GEN_tasks_tasks_name_1030025",
-    "task_priority": 100,
     "icon_info": [
       "Icon/Item_access",
       "chongwu"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_103001138",
+    "task_priority": 100,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030026": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "PVPSingleDrillView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "open_func": 9001,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 26,
     "target_num": 3,
     "id": 1030026,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030026"
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030026",
+    "next_task": {},
+    "icon_info": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030027": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "PVPSingleDrillView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "open_func": 9001,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 27,
     "target_num": 1,
     "id": 1030027,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030027",
-    "name": "AUTO_GEN_tasks_tasks_name_1030010",
-    "task_priority": 1000,
     "icon_info": [
       "Icon/Item_access",
       "pvp_rank_access"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030027",
+    "task_priority": 1000,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030010",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030028": {
     "task_award": [
@@ -433,38 +1356,109 @@
         10000
       ]
     ],
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1030028,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "tiejiangpu"
     ],
+    "task_priority": 100,
+    "id": 1030028,
+    "guide_talk": {},
+    "jump_id": "TaskClickTriggerEVENT_ROLE_EQUIP_SHOP_FORGE",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030028",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "TaskClickTriggerEVENT_ROLE_EQUIP_SHOP_FORGE",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "1030029": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "icon_info": [
+      "Icon/Item_access",
+      "niudan"
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3601,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 29,
     "jump_id": "GachaWeaponView",
     "id": 1030029,
     "desc": "AUTO_GEN_tasks_tasks_desc_101219",
+    "next_task": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "type": 1
-    }
+    },
+    "pre_task": {}
   },
   "1030030": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "icon_info": [
+      "Icon/Item_access",
+      "niudan"
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3601,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 30,
     "jump_id": "GachaPetView",
     "id": 1030030,
     "desc": "AUTO_GEN_tasks_tasks_desc_101322",
+    "next_task": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "type": 2
-    }
+    },
+    "pre_task": {}
   },
   "1030031": {
     "task_award": [
@@ -483,26 +1477,47 @@
       ]
     ],
     "open_func": 2238,
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1030031,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "jinglian"
     ],
+    "task_priority": 100,
+    "id": 1030031,
+    "guide_talk": {},
+    "jump_id": "EquipEffectBuildView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030031",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "EquipEffectBuildView",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "202010001": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "task_tp": 202,
+    "task_talk": {},
+    "task_award": {},
+    "pre_task": {},
     "target_num": 10,
     "id": 202010001,
+    "icon_info": {},
+    "special_award": {},
+    "guide_talk": {},
+    "next_task": {},
+    "jump_id": "TaskClickTriggerEVENT_SEASON_JOIN_FIGHT2",
+    "server_ids": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_2008_202010001",
-    "jump_id": "TaskClickTriggerEVENT_SEASON_JOIN_FIGHT2"
+    "fetch_talk": {},
+    "condition_args": {},
+    "open_cond2": {}
   },
   "1030032": {
     "task_award": [
@@ -520,57 +1535,114 @@
         10000
       ]
     ],
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1030032,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "ExchangeCoins"
     ],
+    "task_priority": 100,
+    "id": 1030032,
+    "guide_talk": {},
+    "jump_id": "EquipForgeShopView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030032",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "EquipForgeShopView",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "1030033": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "jump_id": "ShopView",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 33,
     "id": 1030033,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030033",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "ExchangePoints"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030034": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "jump_id": "ShopView",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 34,
     "id": 1030034,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030034",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "Recharge"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "132303": {
-    "task_award": [
-      [
-        1405010001,
-        3
-      ],
-      [
-        1001010004,
-        10
-      ],
-      [
-        1605010130,
-        1
-      ]
-    ],
+    "task_talk": {},
+    "jump_arg": {},
     "sub_task_tp": 2,
     "target_num": 4,
     "id": 132303,
+    "guide_talk": {},
+    "condition_args": {
+      "quality": 3
+    },
     "special_award": [
       [
         1405010001,
@@ -585,63 +1657,203 @@
         1
       ]
     ],
-    "open_cond": 1,
-    "jump_id": "PetMainView1",
-    "condition_args": {
-      "quality": 3
-    },
     "desc": "AUTO_GEN_tasks_tasks_desc_131403",
+    "open_cond": 1,
+    "task_award": [
+      [
+        1405010001,
+        3
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1605010130,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "jump_id": "PetMainView1",
+    "fetch_talk": {},
     "liveness": 1,
     "task_tp": 4
   },
   "202010002": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "task_tp": 202,
+    "task_talk": {},
+    "task_award": {},
+    "pre_task": {},
     "target_num": 20,
     "id": 202010002,
+    "icon_info": {},
+    "special_award": {},
+    "guide_talk": {},
+    "next_task": {},
+    "jump_id": "ItemAccessView1002010004",
+    "server_ids": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_202010002",
-    "jump_id": "ItemAccessView1002010004"
+    "fetch_talk": {},
+    "condition_args": {},
+    "open_cond2": {}
   },
   "1031027": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 27,
     "jump_id": "PVPSingleDrillView",
     "id": 1031027,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030027",
-    "open_func": 9001,
-    "name": "AUTO_GEN_tasks_tasks_name_1030010",
-    "task_priority": 1000,
     "icon_info": [
       "Icon/Item_access",
       "pvp_rank_access"
-    ]
+    ],
+    "task_priority": 1000,
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030027",
+    "open_func": 9001,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030010",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031038": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "Farm",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 29,
+    "name": "AUTO_GEN_tasks_tasks_name_1031036",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1031036",
+    "open_func": 9801,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 39,
     "target_num": 3,
     "id": 1031038,
     "desc": "AUTO_GEN_tasks_tasks_desc_1031038",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "jiaoshui"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031037": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "Farm",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 29,
+    "name": "AUTO_GEN_tasks_tasks_name_1031036",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1031036",
+    "open_func": 9801,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 38,
     "target_num": 6,
     "id": 1031037,
     "desc": "AUTO_GEN_tasks_tasks_desc_1031037",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "shouhuo"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031036": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "jump_id": "Farm",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 29,
+    "name": "AUTO_GEN_tasks_tasks_name_1031036",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1031036",
+    "open_func": 9801,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 36,
     "target_num": 3,
     "id": 1031036,
     "desc": "AUTO_GEN_tasks_tasks_desc_1031036",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "toucai"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031035": {
     "task_award": [
@@ -660,38 +1872,103 @@
       ]
     ],
     "open_func": 427,
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1031035,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "Market"
     ],
+    "task_priority": 1000,
+    "id": 1031035,
+    "guide_talk": {},
+    "jump_id": "AllianceShopView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1031035",
     "extra_target": "1",
     "open_cond": 20,
     "name": "AUTO_GEN_tasks_tasks_name_1031035",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1031035",
-    "jump_id": "AllianceShopView",
-    "task_priority": 1000,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "1031034": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "jump_id": "ShopView",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 34,
     "id": 1031034,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030034",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "Recharge"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031033": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "jump_id": "ShopView",
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 33,
     "id": 1031033,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030033",
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "ExchangePoints"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031032": {
     "task_award": [
@@ -709,20 +1986,27 @@
         3000
       ]
     ],
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1031032,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "ExchangeCoins"
     ],
+    "task_priority": 100,
+    "id": 1031032,
+    "guide_talk": {},
+    "jump_id": "EquipForgeShopView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030032",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "EquipForgeShopView",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "1031031": {
     "task_award": [
@@ -741,38 +2025,109 @@
       ]
     ],
     "open_func": 2238,
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1031031,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "jinglian"
     ],
+    "task_priority": 100,
+    "id": 1031031,
+    "guide_talk": {},
+    "jump_id": "EquipEffectBuildView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030031",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "EquipEffectBuildView",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "1031030": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "icon_info": [
+      "Icon/Item_access",
+      "niudan"
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3601,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 30,
     "jump_id": "GachaPetView",
     "id": 1031030,
     "desc": "AUTO_GEN_tasks_tasks_desc_101322",
+    "next_task": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "type": 2
-    }
+    },
+    "pre_task": {}
   },
   "1031029": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "icon_info": [
+      "Icon/Item_access",
+      "niudan"
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3601,
+    "task_priority": 100,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 29,
     "jump_id": "GachaWeaponView",
     "id": 1031029,
     "desc": "AUTO_GEN_tasks_tasks_desc_101219",
+    "next_task": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
     "condition_args": {
       "type": 1
-    }
+    },
+    "pre_task": {}
   },
   "1031028": {
     "task_award": [
@@ -790,82 +2145,206 @@
         3000
       ]
     ],
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1031028,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "tiejiangpu"
     ],
+    "task_priority": 100,
+    "id": 1031028,
+    "guide_talk": {},
+    "jump_id": "TaskClickTriggerEVENT_ROLE_EQUIP_SHOP_FORGE",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030028",
     "extra_target": "1",
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "jump_id": "TaskClickTriggerEVENT_ROLE_EQUIP_SHOP_FORGE",
-    "task_priority": 100,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "202010003": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "task_tp": 202,
+    "task_talk": {},
+    "task_award": {},
+    "pre_task": {},
     "target_num": 4,
     "id": 202010003,
+    "icon_info": {},
+    "special_award": {},
+    "guide_talk": {},
+    "next_task": {},
+    "jump_id": "TaskClickTriggerEVENT_LABEL_UP2",
+    "server_ids": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_202010003",
-    "jump_id": "TaskClickTriggerEVENT_LABEL_UP2"
+    "fetch_talk": {},
+    "condition_args": {},
+    "open_cond2": {}
   },
   "1031025": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 25,
     "jump_id": "PetMainView",
     "id": 1031025,
-    "desc": "AUTO_GEN_tasks_tasks_desc_103001138",
-    "name": "AUTO_GEN_tasks_tasks_name_1030025",
-    "task_priority": 100,
     "icon_info": [
       "Icon/Item_access",
       "chongwu"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_103001138",
+    "task_priority": 100,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030025",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031001": {
-    "sub_task_tp": 1,
-    "jump_id": "AllianceDonate",
-    "id": 1031001,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030001",
-    "open_func": 6,
-    "open_cond": 10,
-    "name": "AUTO_GEN_tasks_tasks_name_1030001",
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "liveness": 20,
+    "task_tp": 3,
     "icon_info": [
       "Icon/Item_access",
       "Alliance_Task"
     ],
-    "task_priority": 100
+    "task_priority": 100,
+    "sub_task_tp": 1,
+    "jump_id": "AllianceDonate",
+    "id": 1031001,
+    "guide_talk": {},
+    "condition_args": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030001",
+    "open_func": 6,
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030001",
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1031024": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 10,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 24,
     "jump_id": "StoryLevel",
     "id": 1031024,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030024",
-    "name": "AUTO_GEN_tasks_tasks_name_1030007",
-    "condition_args": {
-      "star": 1
-    },
-    "task_priority": 1000,
     "icon_info": [
       "Icon/Item_access",
       "DungeonMainEntryView"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030024",
+    "task_priority": 1000,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {
+      "star": 1
+    },
+    "pre_task": {}
   },
   "1031002": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 2,
     "jump_id": "TreasureMainView",
     "id": 1031002,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030002",
-    "open_func": 4201,
-    "name": "AUTO_GEN_tasks_tasks_name_1103801",
     "icon_info": [
       "Icon/Item_access",
       "DigTreasureView"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030002",
+    "open_func": 4201,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103801",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "192245": {
+    "task_talk": {},
     "task_award": [
       [
         1002010010,
@@ -881,75 +2360,239 @@
         60
       ]
     ],
-    "desc": "AUTO_GEN_tasks_tasks_desc_192245",
+    "guide_talk": {},
     "jump_id": "TaskClickTriggerEVENT_DUP_START_MATERIAL_HERO1",
+    "server_ids": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_192245",
+    "fetch_talk": {},
+    "condition_args": {},
     "task_tp": 22
   },
   "1031003": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 3,
     "jump_id": "AllianceBusiness",
     "id": 1031003,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030003",
-    "open_func": 426,
-    "name": "AUTO_GEN_tasks_tasks_name_1030003",
     "icon_info": [
       "Icon/Item_access",
       "Alliance_Task"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030003",
+    "open_func": 426,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030003",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031023": {
-    "sub_task_tp": 23,
-    "jump_id": "ChatCircleView",
-    "id": 1031023,
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "liveness": 20,
+    "task_tp": 3,
     "icon_info": [
       "Icon/Item_access",
       "shejiao"
     ],
+    "task_priority": 100,
+    "sub_task_tp": 23,
+    "jump_id": "ChatCircleView",
+    "id": 1031023,
+    "guide_talk": {},
+    "condition_args": {
+      "type": 5
+    },
     "desc": "AUTO_GEN_tasks_tasks_desc_1030023",
     "open_func": 33,
     "open_cond": 999,
     "name": "AUTO_GEN_tasks_tasks_name_1030014",
-    "condition_args": {
-      "type": 5
-    },
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
-    "task_priority": 100
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1031004": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "jump_id": "DigStarView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 4701,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 4,
     "target_num": 1,
     "id": 1031004,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030004"
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030004",
+    "next_task": {},
+    "icon_info": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031022": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 22,
     "jump_id": "ShopView_11",
     "id": 1031022,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030022",
-    "open_func": 4601,
-    "name": "AUTO_GEN_tasks_tasks_name_1030022",
     "icon_info": [
       "Icon/Item_access",
       "Shopping_mall"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030022",
+    "open_func": 4601,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030022",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031005": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "jump_id": "DigStarView",
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 4701,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 5,
     "target_num": 2,
     "id": 1031005,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030005"
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030005",
+    "next_task": {},
+    "icon_info": {},
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031021": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 21,
     "jump_id": "TutorTask",
     "id": 1031021,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030021",
-    "open_func": 2901,
-    "name": "AUTO_GEN_tasks_tasks_name_1030014",
     "icon_info": [
       "Icon/Item_access",
       "shitu"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030021",
+    "open_func": 2901,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031006": {
     "task_award": [
@@ -968,33 +2611,33 @@
       ]
     ],
     "open_func": 3130,
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
+    "task_talk": {},
     "id": 1031006,
+    "icon_info": {},
+    "guide_talk": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030006",
     "extra_target": "1",
     "open_cond": 999,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
     "jump_id": "PirateIsland",
-    "liveness": 20
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "131101": {
-    "task_award": [
-      [
-        1213010002,
-        5
-      ],
-      [
-        1001010004,
-        10
-      ],
-      [
-        1101014221,
-        1
-      ]
-    ],
+    "task_talk": {},
+    "jump_arg": {},
     "sub_task_tp": 1,
     "target_num": 1,
     "id": 131101,
+    "guide_talk": {},
+    "condition_args": {
+      "cid": 27
+    },
     "special_award": [
       [
         1213010002,
@@ -1009,83 +2652,257 @@
         1
       ]
     ],
-    "open_cond": 1,
-    "jump_id": "StrengthSynthesis12",
-    "condition_args": {
-      "cid": 27
-    },
     "desc": "AUTO_GEN_tasks_tasks_desc_131101",
+    "open_cond": 1,
+    "task_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1101014221,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "jump_id": "StrengthSynthesis12",
+    "fetch_talk": {},
     "liveness": 1,
     "task_tp": 4
   },
   "1031007": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 7,
     "jump_id": "DungeonMaterialView",
     "id": 1031007,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030007",
     "open_func": 9,
+    "next_task": {},
     "icon_info": [
       "Icon/Item_access",
       "DungeonTeamEntryView"
-    ]
+    ],
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031020": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3701,
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 20,
     "jump_id": "OfflineOrderViewOrder",
     "id": 1031020,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030020",
-    "name": "AUTO_GEN_tasks_tasks_name_1030020",
     "icon_info": [
       "Icon/Item_access",
       "OfflineOrderViewOrder"
-    ]
+    ],
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030020",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031008": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "open_cond": 10,
+    "name": "AUTO_GEN_tasks_tasks_name_1030007",
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 8,
     "jump_id": "EVENT_DUP_START_TOWER",
     "id": 1031008,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030008",
-    "extra_target": "1",
-    "condition_args": {
-      "type": 4
-    },
     "icon_info": [
       "Icon/Item_access",
       "DungeonTowerView"
     ],
-    "open_func": 4501
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030008",
+    "extra_target": "1",
+    "next_task": {},
+    "guide_talk": {},
+    "server_ids": {},
+    "open_func": 4501,
+    "fetch_talk": {},
+    "condition_args": {
+      "type": 4
+    },
+    "pre_task": {}
   },
   "1031019": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "open_func": 3701,
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 19,
     "jump_id": "OfflineMainView",
     "id": 1031019,
     "desc": "AUTO_GEN_tasks_tasks_desc_1030019",
-    "name": "AUTO_GEN_tasks_tasks_name_1030019",
     "icon_info": [
       "Icon/Item_access",
       "OfflineOrderViewOffline"
-    ]
+    ],
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030019",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031009": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 9,
     "jump_id": "DungeonRogue",
     "id": 1031009,
+    "icon_info": {},
+    "guide_talk": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030009",
     "open_func": 9,
     "open_cond": 35,
-    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030009"
+    "condition_args": {},
+    "server_ids": {},
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030009",
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   },
   "1031018": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 18,
     "jump_id": "AllianceGuide",
     "id": 1031018,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030018",
-    "open_func": 6201,
-    "name": "AUTO_GEN_tasks_tasks_name_1030014",
     "icon_info": [
       "Icon/Item_access",
       "chigua"
-    ]
+    ],
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030018",
+    "open_func": 6201,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1030014",
+    "server_ids": {},
+    "guide_talk": {},
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1031010": {
     "task_award": [
@@ -1104,51 +2921,148 @@
       ]
     ],
     "open_func": 7,
+    "next_task": {},
+    "condition_args": {},
     "task_tp": 3,
-    "id": 1031010,
+    "task_talk": {},
     "icon_info": [
       "Icon/Item_access",
       "4V4RoomView"
     ],
+    "task_priority": 1000,
+    "id": 1031010,
+    "guide_talk": {},
+    "jump_id": "4V4RoomView",
     "desc": "AUTO_GEN_tasks_tasks_desc_1030010",
     "extra_target": "1",
     "open_cond": 10,
     "name": "AUTO_GEN_tasks_tasks_name_1030010",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
-    "jump_id": "4V4RoomView",
-    "task_priority": 1000,
-    "liveness": 20
+    "fetch_talk": {},
+    "liveness": 20,
+    "pre_task": {}
   },
   "131102": {
+    "open_cond": 1,
+    "sub_task_tp": 1,
+    "target_num": 1,
+    "special_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "task_award": [
+      [
+        1213010002,
+        5
+      ],
+      [
+        1001010004,
+        10
+      ],
+      [
+        1405020001,
+        3
+      ]
+    ],
+    "liveness": 1,
+    "task_tp": 4,
+    "task_talk": {},
+    "jump_arg": {},
     "jump_id": "TaskClickTriggerSevenDayMainView",
     "id": 131102,
-    "desc": "AUTO_GEN_tasks_tasks_desc_131102"
+    "desc": "AUTO_GEN_tasks_tasks_desc_131102",
+    "server_ids": {},
+    "fetch_talk": {},
+    "guide_talk": {},
+    "condition_args": {}
   },
   "1031011": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        3000
+      ]
+    ],
+    "extra_target": "1",
+    "open_cond": 999,
+    "desc2": "AUTO_GEN_tasks_tasks_desc2_1030002",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
     "sub_task_tp": 11,
     "target_num": 1,
     "id": 1031011,
-    "desc": "AUTO_GEN_tasks_tasks_desc_1030011",
-    "open_func": 6,
-    "name": "AUTO_GEN_tasks_tasks_name_1103803",
     "icon_info": [
       "Icon/Item_access",
       "bobo"
     ],
-    "jump_id": "TaskAllianceInvade"
+    "guide_talk": {},
+    "desc": "AUTO_GEN_tasks_tasks_desc_1030011",
+    "open_func": 6,
+    "next_task": {},
+    "name": "AUTO_GEN_tasks_tasks_name_1103803",
+    "server_ids": {},
+    "jump_id": "TaskAllianceInvade",
+    "fetch_talk": {},
+    "condition_args": {},
+    "pre_task": {}
   },
   "1030001": {
+    "task_talk": {},
+    "task_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "target_num": 1,
+    "lock_jump": "ItemAccessView1002010001",
+    "special_award": [
+      [
+        1002010004,
+        10000
+      ]
+    ],
+    "extra_target": "1",
+    "task_priority": 1000,
+    "liveness": 20,
+    "task_tp": 3,
+    "icon_info": [
+      "Icon/Item_access",
+      "Alliance_Task"
+    ],
     "sub_task_tp": 1,
     "jump_id": "AllianceDonate",
     "id": 1030001,
+    "guide_talk": {},
+    "condition_args": {},
     "desc": "AUTO_GEN_tasks_tasks_desc_1030001",
     "open_func": 6,
     "open_cond": 10,
     "name": "AUTO_GEN_tasks_tasks_name_1030001",
+    "server_ids": {},
     "desc2": "AUTO_GEN_tasks_tasks_desc2_1030001",
-    "icon_info": [
-      "Icon/Item_access",
-      "Alliance_Task"
-    ]
+    "fetch_talk": {},
+    "next_task": {},
+    "pre_task": {}
   }
 }

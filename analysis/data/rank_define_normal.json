@@ -1,0 +1,958 @@
+{
+  "new_match_time": {
+    "key": "new_match_time",
+    "val": [
+      1000,
+      5000
+    ]
+  },
+  "old_server_days": {
+    "key": "old_server_days",
+    "val": 7
+  },
+  "pvp_fundmental_exp": {
+    "key": "pvp_fundmental_exp",
+    "val": [
+      [
+        3,
+        2735
+      ],
+      [
+        8,
+        641
+      ],
+      [
+        20,
+        103
+      ]
+    ]
+  },
+  "stake_scene_role_3": {
+    "key": "stake_scene_role_3",
+    "val": [
+      1,
+      1,
+      "悟空",
+      [
+        109042001007,
+        109042001001,
+        109042001011,
+        109042001201,
+        109042001202
+      ]
+    ]
+  },
+  "battle_report_win_hp_per": {
+    "key": "battle_report_win_hp_per",
+    "val": 5000
+  },
+  "new_match_level_range": {
+    "key": "new_match_level_range",
+    "val": 1
+  },
+  "robot_quit2": {
+    "key": "robot_quit2",
+    "val": 8
+  },
+  "negative_reputation_cut": {
+    "key": "negative_reputation_cut",
+    "val": 5
+  },
+  "newbie_match_time": {
+    "key": "newbie_match_time",
+    "val": [
+      2500,
+      5000
+    ]
+  },
+  "stake_scene_role_1": {
+    "key": "stake_scene_role_1",
+    "val": [
+      2,
+      0,
+      "甜心",
+      [
+        109007000001,
+        109007000007,
+        109007000202
+      ]
+    ]
+  },
+  "ai_name": {
+    "key": "ai_name",
+    "val": [
+      "弹弹人",
+      "阿弹",
+      "爆弹",
+      "冷弹",
+      "热诚弹",
+      "伊利弹",
+      "坏弹"
+    ]
+  },
+  "match_not_good_cup_calculate": {
+    "val": [
+      [
+        -5000,
+        -3000,
+        0
+      ],
+      [
+        -3000,
+        -2000,
+        0
+      ],
+      [
+        -2000,
+        -1000,
+        0
+      ],
+      [
+        -1000,
+        1000,
+        0
+      ],
+      [
+        1000,
+        2000,
+        0
+      ],
+      [
+        2000,
+        3000,
+        0
+      ],
+      [
+        3000,
+        5000,
+        0
+      ]
+    ],
+    "key": "match_not_good_cup_calculate"
+  },
+  "restrain_relation": {
+    "key": "restrain_relation",
+    "val": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "partitioned_star": {
+    "key": "partitioned_star",
+    "val": 25
+  },
+  "stake_return_rate_min": {
+    "key": "stake_return_rate_min",
+    "val": 12500
+  },
+  "server_open_time_ignore_time_limit": {
+    "key": "server_open_time_ignore_time_limit",
+    "val": 24
+  },
+  "immunity_card": {
+    "key": "immunity_card",
+    "val": 1424010001
+  },
+  "cup_passives_open_func": {
+    "key": "cup_passives_open_func",
+    "val": [
+      17,
+      18
+    ]
+  },
+  "robot_open_func": {
+    "key": "robot_open_func",
+    "val": 110
+  },
+  "pvp_elo_Y": {
+    "key": "pvp_elo_Y",
+    "val": 500
+  },
+  "robot_quit": {
+    "key": "robot_quit",
+    "val": 2
+  },
+  "battle_report_min_cup": {
+    "key": "battle_report_min_cup",
+    "val": [
+      [
+        1,
+        5,
+        2000
+      ],
+      [
+        5,
+        10,
+        3000
+      ],
+      [
+        10,
+        99999,
+        5000
+      ]
+    ]
+  },
+  "stake_win_rate": {
+    "key": "stake_win_rate",
+    "val": [
+      [
+        500,
+        2.5
+      ],
+      [
+        1000,
+        5
+      ],
+      [
+        1500,
+        7.5
+      ],
+      [
+        2000,
+        10
+      ],
+      [
+        2500,
+        12.5
+      ],
+      [
+        3000,
+        15
+      ],
+      [
+        3500,
+        17.5
+      ],
+      [
+        4000,
+        20
+      ],
+      [
+        4500,
+        22.5
+      ],
+      [
+        5000,
+        25
+      ],
+      [
+        5500,
+        27.5
+      ],
+      [
+        6000,
+        30
+      ],
+      [
+        6500,
+        32.5
+      ],
+      [
+        7000,
+        35
+      ],
+      [
+        7500,
+        37.5
+      ],
+      [
+        8000,
+        40
+      ],
+      [
+        8500,
+        42.5
+      ],
+      [
+        9000,
+        45
+      ],
+      [
+        9500,
+        47.5
+      ],
+      [
+        10000,
+        50
+      ]
+    ]
+  },
+  "battle_report_atk_per": {
+    "key": "battle_report_atk_per",
+    "val": 2000
+  },
+  "stake_return_prop": {
+    "key": "stake_return_prop",
+    "val": 10000
+  },
+  "warrior_add_max": {
+    "key": "warrior_add_max",
+    "val": 5
+  },
+  "attr_balance_speed": {
+    "key": "attr_balance_speed",
+    "val": [
+      9600,
+      10400
+    ]
+  },
+  "activity_cup_add": {
+    "key": "activity_cup_add",
+    "val": [
+      [
+        [
+          1,
+          2
+        ],
+        5000
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        10000
+      ]
+    ]
+  },
+  "cup_compensation": {
+    "key": "cup_compensation",
+    "val": [
+      [
+        3000,
+        20
+      ],
+      [
+        4000,
+        30
+      ],
+      [
+        5000,
+        40
+      ],
+      [
+        8000,
+        50
+      ]
+    ]
+  },
+  "pvp_forbid_reputation": {
+    "key": "pvp_forbid_reputation",
+    "val": 90
+  },
+  "robot_invitation_time": {
+    "key": "robot_invitation_time",
+    "val": 20000
+  },
+  "rank_lose_buff": {
+    "key": "rank_lose_buff",
+    "val": 0
+  },
+  "lang_match_time_range": {
+    "key": "lang_match_time_range",
+    "val": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        30,
+        0
+      ]
+    ]
+  },
+  "the_first_X_games_robot_D_value": {
+    "key": "the_first_X_games_robot_D_value",
+    "val": [
+      1000
+    ]
+  },
+  "rec_angle_effect": {
+    "key": "rec_angle_effect",
+    "val": 510005
+  },
+  "rank_list_entry_position": {
+    "key": "rank_list_entry_position",
+    "val": 300
+  },
+  "the_first_X_ai_pvp": {
+    "key": "the_first_X_ai_pvp",
+    "val": 5
+  },
+  "match_time_tips_interval": {
+    "key": "match_time_tips_interval",
+    "val": 30
+  },
+  "rec_angle_icon": {
+    "key": "rec_angle_icon",
+    "val": [
+      "Icon/Skill/1/110023"
+    ]
+  },
+  "reward_times_max": {
+    "key": "reward_times_max",
+    "val": 21
+  },
+  "pvp_reputation_max": {
+    "key": "pvp_reputation_max",
+    "val": 100
+  },
+  "attr_balance_type": {
+    "key": "attr_balance_type",
+    "val": [
+      61,
+      62,
+      64,
+      65
+    ]
+  },
+  "pvp_reward_times_daily": {
+    "key": "pvp_reward_times_daily",
+    "val": 3
+  },
+  "camp_fixed_buff_server": {
+    "key": "camp_fixed_buff_server",
+    "val": [
+      2485,
+      2490,
+      2495,
+      2500,
+      2505,
+      2510
+    ]
+  },
+  "ai_battle_power": {
+    "key": "ai_battle_power",
+    "val": [
+      [
+        11,
+        5000
+      ],
+      [
+        1,
+        5000
+      ],
+      [
+        2,
+        5000
+      ],
+      [
+        3,
+        5000
+      ],
+      [
+        4,
+        5000
+      ],
+      [
+        5,
+        5000
+      ],
+      [
+        71,
+        5000
+      ],
+      [
+        73,
+        5000
+      ],
+      [
+        74,
+        5000
+      ]
+    ]
+  },
+  "lose_cup_fixed": {
+    "key": "lose_cup_fixed",
+    "val": [
+      900,
+      2
+    ]
+  },
+  "win_cup_fixed": {
+    "key": "win_cup_fixed",
+    "val": [
+      1000,
+      4
+    ]
+  },
+  "rec_angle_dec": {
+    "key": "rec_angle_dec",
+    "val": [
+      "使用<color=#ff0000>推荐角度</color>发射，提升攻击力和地形破坏力"
+    ]
+  },
+  "stake_scene_role_2": {
+    "key": "stake_scene_role_2",
+    "val": [
+      3,
+      1,
+      "阿呆",
+      [
+        109029001001,
+        109029001201,
+        109029001202,
+        109029001007
+      ]
+    ]
+  },
+  "report_times": {
+    "key": "report_times",
+    "val": 2
+  },
+  "demo_total_limit_cnt": {
+    "key": "demo_total_limit_cnt",
+    "val": 20
+  },
+  "reward_times": {
+    "key": "reward_times",
+    "val": 3
+  },
+  "unreasonable_combination_buff": {
+    "key": "unreasonable_combination_buff",
+    "val": [
+      [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          101
+        ]
+      ]
+    ]
+  },
+  "battle_balance_attr_limit": {
+    "key": "battle_balance_attr_limit",
+    "val": [
+      [
+        12,
+        9600
+      ],
+      [
+        13,
+        9600
+      ],
+      [
+        16,
+        9600
+      ],
+      [
+        17,
+        9600
+      ],
+      [
+        14,
+        9600
+      ],
+      [
+        15,
+        9600
+      ],
+      [
+        131,
+        9600
+      ],
+      [
+        134,
+        9600
+      ],
+      [
+        139,
+        9600
+      ],
+      [
+        141,
+        9600
+      ],
+      [
+        143,
+        9600
+      ],
+      [
+        145,
+        9600
+      ]
+    ]
+  },
+  "season_cup_maxrank": {
+    "key": "season_cup_maxrank",
+    "val": [
+      [
+        1,
+        3100
+      ],
+      [
+        2,
+        3800
+      ],
+      [
+        3,
+        4600
+      ],
+      [
+        4,
+        5000
+      ]
+    ]
+  },
+  "report_reward": {
+    "key": "report_reward",
+    "val": [
+      [
+        1001010004,
+        10
+      ]
+    ]
+  },
+  "demo_daily_limit_cnt": {
+    "key": "demo_daily_limit_cnt",
+    "val": 5
+  },
+  "the_first_2_ai_pvp_battle": {
+    "key": "the_first_2_ai_pvp_battle",
+    "val": [
+      102010001,
+      102010002
+    ]
+  },
+  "extra_cup_calculate": {
+    "val": [
+      [
+        -5000,
+        -3000,
+        0
+      ],
+      [
+        -3000,
+        -2000,
+        0
+      ],
+      [
+        -2000,
+        -1000,
+        0
+      ],
+      [
+        -1000,
+        1000,
+        0
+      ],
+      [
+        1000,
+        2000,
+        0
+      ],
+      [
+        2000,
+        3000,
+        0
+      ],
+      [
+        3000,
+        5000,
+        0
+      ]
+    ],
+    "key": "extra_cup_calculate"
+  },
+  "cup_passives": {
+    "key": "cup_passives",
+    "val": [
+      [
+        0,
+        1,
+        171
+      ]
+    ]
+  },
+  "real_match_win_count": {
+    "key": "real_match_win_count",
+    "val": 15
+  },
+  "out_of_line_pvp": {
+    "key": "out_of_line_pvp",
+    "val": 4
+  },
+  "unreasonable_combination": {
+    "key": "unreasonable_combination",
+    "val": [
+      [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    ]
+  },
+  "pvp_not_open_time_cup": {
+    "key": "pvp_not_open_time_cup",
+    "val": 1600
+  },
+  "friendly_hurt_rule": {
+    "key": "friendly_hurt_rule",
+    "val": 7000
+  },
+  "the_first_X_games_ai": {
+    "key": "the_first_X_games_ai",
+    "val": [
+      5,
+      1,
+      1
+    ]
+  },
+  "max_lv_gap": {
+    "key": "max_lv_gap",
+    "val": [
+      26,
+      20
+    ]
+  },
+  "negative_game_rule": {
+    "key": "negative_game_rule",
+    "val": 500
+  },
+  "balancetips_show_condition": {
+    "key": "balancetips_show_condition",
+    "val": 16
+  },
+  "match_rank_limit": {
+    "key": "match_rank_limit",
+    "val": 0
+  },
+  "combat_value_attr": {
+    "key": "combat_value_attr",
+    "val": [
+      11,
+      1,
+      2,
+      3,
+      4,
+      5,
+      12,
+      13,
+      131,
+      132
+    ]
+  },
+  "stake_item_shop_id": {
+    "key": "stake_item_shop_id",
+    "val": 10101084
+  },
+  "stake_item_count_limit": {
+    "key": "stake_item_count_limit",
+    "val": 3
+  },
+  "stake_item_value": {
+    "key": "stake_item_value",
+    "val": [
+      [
+        1001010004,
+        15
+      ]
+    ]
+  },
+  "daily_reward": {
+    "key": "daily_reward",
+    "val": [
+      [
+        10201030031,
+        1
+      ]
+    ]
+  },
+  "first_battle_env_wight": {
+    "key": "first_battle_env_wight",
+    "val": 10000
+  },
+  "pvp_elo_X": {
+    "key": "pvp_elo_X",
+    "val": 10
+  },
+  "init_battle_list": {
+    "key": "init_battle_list",
+    "val": [
+      102000001,
+      102000004,
+      102000009,
+      102000033,
+      406000005,
+      406000006
+    ]
+  },
+  "stake_return_rate_max": {
+    "key": "stake_return_rate_max",
+    "val": 50000
+  },
+  "fight_win_rate": {
+    "key": "fight_win_rate",
+    "val": [
+      [
+        500,
+        3
+      ],
+      [
+        1000,
+        6
+      ],
+      [
+        1500,
+        9
+      ],
+      [
+        2000,
+        12
+      ],
+      [
+        2500,
+        15
+      ]
+    ]
+  },
+  "restrain_condition": {
+    "key": "restrain_condition",
+    "val": [
+      1,
+      45
+    ]
+  },
+  "weapon_balance_ps_skill": {
+    "key": "weapon_balance_ps_skill",
+    "val": 601
+  },
+  "demo_cost_item": {
+    "key": "demo_cost_item",
+    "val": 1401010008
+  },
+  "pvp_match_fail_ai_time": {
+    "key": "pvp_match_fail_ai_time",
+    "val": 180
+  },
+  "suggestion_for_pvp": {
+    "key": "suggestion_for_pvp",
+    "val": [
+      [
+        "在排位赛中，戒骄戒躁往往能有更好的表现"
+      ],
+      [
+        "与队友良好的沟通是赢下比赛胜利的关键"
+      ]
+    ]
+  },
+  "robot_quit_messege": {
+    "key": "robot_quit_messege",
+    "val": [
+      "新人锦标赛开了，我去看看哦~"
+    ]
+  },
+  "init_rank": {
+    "key": "init_rank",
+    "val": 101
+  },
+  "stake_return_rate_fix": {
+    "key": "stake_return_rate_fix",
+    "val": 50
+  },
+  "second_ai_pvp_task": {
+    "key": "second_ai_pvp_task",
+    "val": 100101
+  },
+  "initial_elo": {
+    "key": "initial_elo",
+    "val": 1000
+  },
+  "cross_server_days": {
+    "key": "cross_server_days",
+    "val": 1
+  },
+  "battle_report_battle_round": {
+    "key": "battle_report_battle_round",
+    "val": [
+      2,
+      20
+    ]
+  },
+  "init_cup": {
+    "key": "init_cup",
+    "val": 800
+  },
+  "robot_role_list": {
+    "key": "robot_role_list",
+    "val": [
+      2188
+    ]
+  },
+  "not_answer_pvp": {
+    "key": "not_answer_pvp",
+    "val": 2
+  },
+  "pvp_not_open_time": {
+    "key": "pvp_not_open_time",
+    "val": [
+      [
+        4,
+        30,
+        0
+      ],
+      [
+        5,
+        30,
+        0
+      ]
+    ]
+  },
+  "init_env_list": {
+    "key": "init_env_list",
+    "val": 6
+  }
+}

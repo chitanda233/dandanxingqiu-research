@@ -1,0 +1,348 @@
+{
+  "3001": {
+    "gacha_type": 2,
+    "title_resource": "gacha_txt_mengdanji01",
+    "reward_item_list": [
+      [
+        1001010005,
+        1
+      ]
+    ],
+    "open_cond": [
+      [
+        1,
+        999,
+        999
+      ],
+      [
+        2,
+        999,
+        999
+      ]
+    ],
+    "ultra_reward_rule": [
+      1,
+      2,
+      3
+    ],
+    "free_cd": 8,
+    "bg": "gacha_bg_mengdanji2",
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "gacha_bg": "gacha_img_mengdanji2",
+    "type": 1,
+    "pool_list_branch": {},
+    "id": 3001,
+    "item_type": 1,
+    "cost_item_list": [
+      [
+        1405020001,
+        1
+      ]
+    ],
+    "wish_bg": "gacha_img_xinyuandan2",
+    "bg_resource": {},
+    "name": "心愿测试1",
+    "server_ids": {},
+    "pool_list": [
+      3001
+    ],
+    "sort": 2,
+    "icon": "gacha_icon_wuqi1",
+    "touying": "gacha_img_mengdanji_touying2"
+  },
+  "101": {
+    "gacha_type": 1,
+    "touying": "gacha_img_mengdanji_touying",
+    "max_wish": 7,
+    "bg_resource": {},
+    "item_type": 1,
+    "bg": "gacha_bg_mengdanji1",
+    "gacha_bg": "gacha_img_mengdanji",
+    "type": 1,
+    "pool_list_branch": [
+      [
+        1,
+        10101
+      ],
+      [
+        2,
+        101
+      ]
+    ],
+    "ultra_reward_rule": [
+      8,
+      7
+    ],
+    "id": 101,
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "icon": "gacha_togbtn_manghe",
+    "cost_item_list": [
+      [
+        1405020001,
+        1
+      ]
+    ],
+    "reward_item_list": {},
+    "open_cond": [
+      [
+        1,
+        0,
+        999
+      ],
+      [
+        2,
+        1,
+        999
+      ]
+    ],
+    "name": "武器扭蛋",
+    "server_ids": {},
+    "pool_list": [
+      101
+    ],
+    "sort": 1,
+    "title_resource": "gacha_txt_mengdanji",
+    "wish_bg": "gacha_img_xinyuandan"
+  },
+  "5001": {
+    "gacha_type": 4,
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        5,
+        30
+      ]
+    ],
+    "bg_resource": {},
+    "item_type": 1,
+    "free_cd": 8,
+    "bg": "gacha_manghe_background",
+    "type": 5,
+    "pool_list_branch": {},
+    "id": 5001,
+    "cost_item_list": [
+      [
+        1405020001,
+        1
+      ]
+    ],
+    "ultra_reward_rule": [
+      4,
+      5,
+      6
+    ],
+    "open_cond": [
+      [
+        1,
+        999,
+        999
+      ],
+      [
+        2,
+        999,
+        999
+      ]
+    ],
+    "name": "预告奖池",
+    "server_ids": {},
+    "icon": "gacha_icon_mengya",
+    "reward_item_list": {},
+    "pool_list": [
+      5001
+    ],
+    "sort": 4
+  },
+  "6001": {
+    "gacha_type": 5,
+    "touying": "gacha_img_mengdanji_touying",
+    "wish_bg": "gacha_img_xinyuandan",
+    "bg_resource": {},
+    "item_type": 1,
+    "bg": "gacha_bg_mengdanji1",
+    "gacha_bg": "gacha_img_mengdanji",
+    "type": 1,
+    "pool_list_branch": {},
+    "ultra_reward_rule": [
+      9,
+      10
+    ],
+    "id": 6001,
+    "switch_day": 3,
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "cost_item_list": [
+      [
+        1405040001,
+        1
+      ]
+    ],
+    "icon": "gacha_togbtn_manghe",
+    "open_cond": [
+      [
+        1,
+        2,
+        999
+      ],
+      [
+        2,
+        1,
+        999
+      ]
+    ],
+    "name": "up奖池",
+    "server_ids": {},
+    "reward_item_list": {},
+    "pool_list": [
+      6001,
+      6002,
+      6003
+    ],
+    "sort": 5,
+    "title_resource": "gacha_txt_mengdanji"
+  },
+  "4001": {
+    "gacha_type": 2,
+    "title_resource": "gacha_txt_mengdanji01",
+    "reward_item_list": [
+      [
+        1001010005,
+        1
+      ]
+    ],
+    "open_cond": [
+      [
+        1,
+        999,
+        999
+      ],
+      [
+        2,
+        999,
+        999
+      ]
+    ],
+    "ultra_reward_rule": [
+      1,
+      2,
+      3
+    ],
+    "free_cd": 8,
+    "bg": "gacha_bg_mengdanji2",
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "gacha_bg": "gacha_img_mengdanji3",
+    "type": 3,
+    "pool_list_branch": {},
+    "id": 4001,
+    "item_type": 4,
+    "cost_item_list": [
+      [
+        1405010001,
+        1
+      ]
+    ],
+    "wish_bg": "gacha_img_xinyuandan3",
+    "bg_resource": {},
+    "name": "心愿测试2",
+    "server_ids": {},
+    "pool_list": [
+      4001
+    ],
+    "sort": 3,
+    "icon": "gacha_icon_mengya",
+    "touying": "gacha_img_mengdanji_touying3"
+  },
+  "1001": {
+    "gacha_type": 2,
+    "touying": "gacha_img_mengdanji_touying2",
+    "wish_bg": "gacha_img_xinyuandan2",
+    "bg_resource": {},
+    "item_type": 3,
+    "bg": "gacha_bg_mengdanji2",
+    "gacha_bg": "gacha_img_mengdanji2",
+    "type": 2,
+    "pool_list_branch": {},
+    "id": 1001,
+    "ultra_reward_rule": [
+      3
+    ],
+    "act_type": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "cost_item_list": [
+      [
+        1405010001,
+        1
+      ]
+    ],
+    "icon": "gacha_togbtn_normal",
+    "open_cond": [
+      [
+        1,
+        2,
+        999
+      ],
+      [
+        2,
+        25,
+        999
+      ]
+    ],
+    "name": "宠物扭蛋",
+    "server_ids": {},
+    "reward_item_list": {},
+    "pool_list": [
+      1001
+    ],
+    "sort": 1,
+    "title_resource": "gacha_txt_mengdanji02"
+  }
+}

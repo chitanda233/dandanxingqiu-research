@@ -1,5 +1,11 @@
 {
   "3": {
+    "sign_type": 1,
+    "type": 2,
+    "server_ids": [
+      543
+    ],
+    "reward_tag": 0,
     "open_func": 1003,
     "day": 3,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_3",
@@ -21,6 +27,12 @@
     ]
   },
   "4": {
+    "sign_type": 1,
+    "type": 2,
+    "server_ids": [
+      543
+    ],
+    "reward_tag": 0,
     "open_func": 1004,
     "day": 4,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_4",
@@ -42,6 +54,12 @@
     ]
   },
   "5": {
+    "sign_type": 1,
+    "type": 2,
+    "server_ids": [
+      543
+    ],
+    "reward_tag": 0,
     "open_func": 1005,
     "day": 5,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_5",

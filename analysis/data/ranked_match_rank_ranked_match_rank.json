@@ -1,5 +1,9 @@
 {
   "103": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "next_season_id": 101,
+    "rank_id": 1,
     "next_id": 201,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_103",
     "icon_num": "Ⅲ",
@@ -77,6 +81,10 @@
     "last_id": 103
   },
   "101": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "next_season_id": 101,
+    "rank_id": 1,
     "next_id": 102,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_101",
     "icon_num": "I",
@@ -120,6 +128,10 @@
     "last_id": 202
   },
   "102": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "next_season_id": 101,
+    "rank_id": 1,
     "next_id": 103,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_102",
     "icon_num": "Ⅱ",
@@ -128,6 +140,9 @@
     "last_id": 101
   },
   "302": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "rank_id": 3,
     "next_id": 303,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_302",
     "icon_num": "I",
@@ -137,6 +152,9 @@
     "last_id": 203
   },
   "303": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "rank_id": 3,
     "next_id": 304,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_303",
     "icon_num": "Ⅱ",
@@ -146,6 +164,9 @@
     "last_id": 302
   },
   "304": {
+    "lose_protect_daily": 3,
+    "star": 1,
+    "rank_id": 3,
     "next_id": 403,
     "name": "AUTO_GEN_ranked_match_rank_ranked_match_rank_name_304",
     "icon_num": "Ⅲ",

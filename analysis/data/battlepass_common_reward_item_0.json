@@ -1,0 +1,1091 @@
+{
+  "242": {
+    "reward_id": 3,
+    "unlock_cond": 4001010,
+    "pay_reward": [
+      [
+        1405030001,
+        4
+      ],
+      [
+        1201010001,
+        20
+      ]
+    ],
+    "server_ids": {},
+    "id": 242,
+    "lv": 2,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_242",
+    "free_reward": [
+      [
+        1405030001,
+        2
+      ]
+    ]
+  },
+  "243": {
+    "reward_id": 3,
+    "unlock_cond": 4001020,
+    "pay_reward": [
+      [
+        1405030001,
+        6
+      ],
+      [
+        1201010001,
+        25
+      ]
+    ],
+    "server_ids": {},
+    "id": 243,
+    "lv": 3,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_243",
+    "free_reward": [
+      [
+        1405030001,
+        3
+      ]
+    ]
+  },
+  "244": {
+    "reward_id": 3,
+    "unlock_cond": 4001025,
+    "pay_reward": [
+      [
+        1405030001,
+        8
+      ],
+      [
+        1201010001,
+        30
+      ]
+    ],
+    "server_ids": {},
+    "id": 244,
+    "lv": 4,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_244",
+    "free_reward": [
+      [
+        1405030001,
+        4
+      ]
+    ]
+  },
+  "245": {
+    "reward_id": 3,
+    "unlock_cond": 4001030,
+    "sp_lv": 1,
+    "pay_reward": [
+      [
+        1405030001,
+        10
+      ],
+      [
+        1201010001,
+        35
+      ]
+    ],
+    "server_ids": {},
+    "id": 245,
+    "lv": 5,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_245",
+    "free_reward": [
+      [
+        1405030001,
+        5
+      ]
+    ]
+  },
+  "246": {
+    "reward_id": 3,
+    "unlock_cond": 4001035,
+    "pay_reward": [
+      [
+        1405030001,
+        12
+      ],
+      [
+        1201010001,
+        40
+      ]
+    ],
+    "server_ids": {},
+    "id": 246,
+    "lv": 6,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_246",
+    "free_reward": [
+      [
+        1405030001,
+        6
+      ]
+    ]
+  },
+  "247": {
+    "reward_id": 3,
+    "unlock_cond": 4001040,
+    "pay_reward": [
+      [
+        1405030001,
+        14
+      ],
+      [
+        1201010001,
+        45
+      ]
+    ],
+    "server_ids": {},
+    "id": 247,
+    "lv": 7,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_247",
+    "free_reward": [
+      [
+        1405030001,
+        7
+      ]
+    ]
+  },
+  "248": {
+    "pay_reward": [
+      [
+        1405030001,
+        16
+      ],
+      [
+        1201010001,
+        50
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        8
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 248,
+    "lv": 8,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_248",
+    "unlock_cond": 4001050
+  },
+  "249": {
+    "pay_reward": [
+      [
+        1405030001,
+        16
+      ],
+      [
+        1201010001,
+        50
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        8
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 249,
+    "lv": 9,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_249",
+    "unlock_cond": 4001060
+  },
+  "250": {
+    "sp_lv": 1,
+    "id": 250,
+    "unlock_cond": 4001070,
+    "reward_id": 3,
+    "server_ids": {},
+    "pay_reward": [
+      [
+        1405030001,
+        20
+      ],
+      [
+        1201010001,
+        50
+      ]
+    ],
+    "lv": 10,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_250",
+    "free_reward": [
+      [
+        1405030001,
+        10
+      ]
+    ]
+  },
+  "251": {
+    "unlock_cond": 4001090,
+    "pay_reward": [
+      [
+        1405030001,
+        20
+      ],
+      [
+        1201010001,
+        60
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 251,
+    "lv": 11,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_251",
+    "free_reward": [
+      [
+        1405030001,
+        10
+      ]
+    ]
+  },
+  "252": {
+    "pay_reward": [
+      [
+        1405030001,
+        24
+      ],
+      [
+        1201010001,
+        60
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        12
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 252,
+    "lv": 12,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_252",
+    "unlock_cond": 4001100
+  },
+  "221": {
+    "unlock_cond": 1,
+    "pay_reward": [
+      [
+        1205010003,
+        2
+      ],
+      [
+        1001010003,
+        680
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 221,
+    "lv": 1,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_221",
+    "free_reward": [
+      [
+        1205010001,
+        4
+      ]
+    ]
+  },
+  "253": {
+    "pay_reward": [
+      [
+        1405030001,
+        24
+      ],
+      [
+        1201010001,
+        60
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        12
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 253,
+    "lv": 13,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_253",
+    "unlock_cond": 4001110
+  },
+  "222": {
+    "free_reward": [
+      [
+        1205010002,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010003,
+        3
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 222,
+    "lv": 2,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_222",
+    "unlock_cond": 2
+  },
+  "254": {
+    "pay_reward": [
+      [
+        1405030001,
+        30
+      ],
+      [
+        1201010001,
+        80
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        15
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 254,
+    "lv": 14,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_254",
+    "unlock_cond": 4001130
+  },
+  "223": {
+    "free_reward": [
+      [
+        1205010002,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010003,
+        4
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 223,
+    "lv": 3,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_223",
+    "unlock_cond": 3
+  },
+  "255": {
+    "pay_reward": [
+      [
+        1405030001,
+        30
+      ],
+      [
+        1201010001,
+        80
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        15
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 255,
+    "lv": 15,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_255",
+    "unlock_cond": 4001150
+  },
+  "224": {
+    "free_reward": [
+      [
+        1205010002,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "sp_lv": 1,
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 224,
+    "lv": 4,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_224",
+    "unlock_cond": 4
+  },
+  "256": {
+    "pay_reward": [
+      [
+        1405030001,
+        40
+      ],
+      [
+        1201010001,
+        80
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        20
+      ]
+    ],
+    "reward_id": 3,
+    "sp_lv": 1,
+    "server_ids": {},
+    "id": 256,
+    "lv": 16,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_256",
+    "unlock_cond": 4001160
+  },
+  "225": {
+    "unlock_cond": 5,
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        2
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 225,
+    "lv": 5,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_225",
+    "free_reward": [
+      [
+        1207010001,
+        1
+      ]
+    ]
+  },
+  "258": {
+    "unlock_cond": 4001190,
+    "pay_reward": [
+      [
+        1405030001,
+        50
+      ],
+      [
+        1201010001,
+        80
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 258,
+    "lv": 18,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_258",
+    "free_reward": [
+      [
+        1405030001,
+        25
+      ]
+    ]
+  },
+  "226": {
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010002,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 226,
+    "lv": 6,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_226",
+    "unlock_cond": 6
+  },
+  "260": {
+    "sp_lv": 1,
+    "id": 260,
+    "unlock_cond": 4001220,
+    "reward_id": 3,
+    "server_ids": {},
+    "pay_reward": [
+      [
+        1405030001,
+        60
+      ],
+      [
+        1201010002,
+        20
+      ]
+    ],
+    "lv": 20,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_260",
+    "free_reward": [
+      [
+        1405030001,
+        30
+      ]
+    ]
+  },
+  "227": {
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010002,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 227,
+    "lv": 7,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_227",
+    "unlock_cond": 7
+  },
+  "262": {
+    "unlock_cond": 4001260,
+    "pay_reward": [
+      [
+        1405030001,
+        80
+      ],
+      [
+        1201010002,
+        28
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 262,
+    "lv": 22,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_262",
+    "free_reward": [
+      [
+        1405030001,
+        40
+      ]
+    ]
+  },
+  "228": {
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 228,
+    "lv": 8,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_228",
+    "unlock_cond": 8
+  },
+  "264": {
+    "reward_id": 3,
+    "unlock_cond": 4001300,
+    "pay_reward": [
+      [
+        1405030001,
+        100
+      ],
+      [
+        1201010002,
+        32
+      ]
+    ],
+    "server_ids": {},
+    "id": 264,
+    "lv": 24,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_264",
+    "free_reward": [
+      [
+        1405030001,
+        50
+      ]
+    ]
+  },
+  "229": {
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 229,
+    "lv": 9,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_229",
+    "unlock_cond": 9
+  },
+  "230": {
+    "sp_lv": 1,
+    "id": 230,
+    "unlock_cond": 10,
+    "reward_id": 2,
+    "server_ids": {},
+    "pay_reward": [
+      [
+        1205010005,
+        1
+      ],
+      [
+        1207010001,
+        2
+      ]
+    ],
+    "lv": 10,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_230",
+    "free_reward": [
+      [
+        1207010001,
+        1
+      ]
+    ]
+  },
+  "231": {
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 231,
+    "lv": 11,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_231",
+    "unlock_cond": 11
+  },
+  "232": {
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 232,
+    "lv": 12,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_232",
+    "unlock_cond": 12
+  },
+  "233": {
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010004,
+        1
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 233,
+    "lv": 13,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_233",
+    "unlock_cond": 13
+  },
+  "234": {
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "server_ids": {},
+    "id": 234,
+    "lv": 14,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_234",
+    "unlock_cond": 14
+  },
+  "235": {
+    "sp_lv": 1,
+    "id": 235,
+    "unlock_cond": 15,
+    "reward_id": 2,
+    "server_ids": {},
+    "pay_reward": [
+      [
+        1205010005,
+        1
+      ],
+      [
+        1207010001,
+        2
+      ]
+    ],
+    "lv": 15,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_235",
+    "free_reward": [
+      [
+        1207010001,
+        1
+      ]
+    ]
+  },
+  "236": {
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 236,
+    "lv": 16,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_236",
+    "unlock_cond": 16
+  },
+  "237": {
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 237,
+    "lv": 17,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_237",
+    "unlock_cond": 17
+  },
+  "265": {
+    "reward_id": 3,
+    "unlock_cond": 4001320,
+    "sp_lv": 1,
+    "pay_reward": [
+      [
+        1405030001,
+        140
+      ],
+      [
+        1201010002,
+        64
+      ]
+    ],
+    "server_ids": {},
+    "id": 265,
+    "lv": 25,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_265",
+    "free_reward": [
+      [
+        1405030001,
+        70
+      ]
+    ]
+  },
+  "238": {
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 238,
+    "lv": 18,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_238",
+    "unlock_cond": 18
+  },
+  "263": {
+    "unlock_cond": 4001280,
+    "pay_reward": [
+      [
+        1405030001,
+        80
+      ],
+      [
+        1201010002,
+        32
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 263,
+    "lv": 23,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_263",
+    "free_reward": [
+      [
+        1405030001,
+        40
+      ]
+    ]
+  },
+  "239": {
+    "pay_reward": [
+      [
+        1205010004,
+        2
+      ],
+      [
+        1207010001,
+        1
+      ]
+    ],
+    "free_reward": [
+      [
+        1205010003,
+        1
+      ]
+    ],
+    "reward_id": 2,
+    "server_ids": {},
+    "id": 239,
+    "lv": 19,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_239",
+    "unlock_cond": 19
+  },
+  "261": {
+    "unlock_cond": 4001240,
+    "pay_reward": [
+      [
+        1405030001,
+        60
+      ],
+      [
+        1201010002,
+        24
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 261,
+    "lv": 21,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_261",
+    "free_reward": [
+      [
+        1405030001,
+        30
+      ]
+    ]
+  },
+  "240": {
+    "sp_lv": 1,
+    "id": 240,
+    "unlock_cond": 20,
+    "reward_id": 2,
+    "server_ids": {},
+    "pay_reward": [
+      [
+        1205010005,
+        1
+      ],
+      [
+        1207010001,
+        4
+      ]
+    ],
+    "lv": 20,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_240",
+    "free_reward": [
+      [
+        1207010001,
+        1
+      ]
+    ]
+  },
+  "259": {
+    "unlock_cond": 4001200,
+    "pay_reward": [
+      [
+        1405030001,
+        50
+      ],
+      [
+        1201010002,
+        20
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 259,
+    "lv": 19,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_259",
+    "free_reward": [
+      [
+        1405030001,
+        25
+      ]
+    ]
+  },
+  "241": {
+    "reward_id": 3,
+    "unlock_cond": 4001005,
+    "pay_reward": [
+      [
+        1405030001,
+        2
+      ],
+      [
+        1201010001,
+        10
+      ]
+    ],
+    "server_ids": {},
+    "id": 241,
+    "lv": 1,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_241",
+    "free_reward": [
+      [
+        1405030001,
+        1
+      ]
+    ]
+  },
+  "257": {
+    "pay_reward": [
+      [
+        1405030001,
+        40
+      ],
+      [
+        1201010001,
+        80
+      ]
+    ],
+    "free_reward": [
+      [
+        1405030001,
+        20
+      ]
+    ],
+    "reward_id": 3,
+    "server_ids": {},
+    "id": 257,
+    "lv": 17,
+    "unlock_desc": "AUTO_GEN_battlepass_common_reward_item_unlock_desc_257",
+    "unlock_cond": 4001180
+  }
+}

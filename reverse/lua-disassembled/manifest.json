@@ -1,0 +1,1479 @@
+[
+  {
+    "name": "auto_gen.package_include.config.season_new.init",
+    "source": "lua0_573512/auto_gen.package_include.config.season_new.init_8263965664458233357.bin",
+    "sha256": "36f208b1ea2a7aa500313eb32312820e01cf1a6e33438d7db5e9db6b2053e151",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.season_new.init.txt",
+    "lua-luadec": "reverse/lua-luadec/auto_gen.package_include.config.season_new.init.lua"
+  },
+  {
+    "name": "auto_gen.package_include.config.skill.const",
+    "source": "lua10_573512/auto_gen.package_include.config.skill.const_7364143781987737524.bin",
+    "sha256": "6257d755b96cca06abf42289364e518333c894cde5d3dc4b3c0046f47c9fad27",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.skill.const.txt",
+    "lua-luadec": "reverse/lua-luadec/auto_gen.package_include.config.skill.const.lua"
+  },
+  {
+    "name": "auto_gen.package_include.config.init",
+    "source": "lua10_573512/auto_gen.package_include.config.init_8322147166850252353.bin",
+    "sha256": "f722fec221514cfe1785d1c12e23c6bc789e9880ec7bf5701c901571e7d92b6c",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.init.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.open_func.manager.const",
+    "source": "lua11_573512/game.module.open_func.manager.const_-7615485100624654982.bin",
+    "sha256": "d3daad2249d68c9d9348ffebab405e683bff2e7b9e0bdbc8940f728961c5d5c5",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.open_func.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.open_func.manager.const.lua"
+  },
+  {
+    "name": "game.module.open_func.manager.event",
+    "source": "lua11_573512/game.module.open_func.manager.event_-3774931681805327859.bin",
+    "sha256": "b7719326b3f0e8d446017089e586af7be415a91a720ac89dba6a6bcf2931046c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.open_func.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.open_func.manager.event.lua"
+  },
+  {
+    "name": "game.module.open_func.manager.core",
+    "source": "lua11_573512/game.module.open_func.manager.core_32902049865450546.bin",
+    "sha256": "b62549f309179616d551d82cb8b01f36438f3557a232d28ecbcbc43c11a0a170",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.open_func.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.open_func.manager.network.network",
+    "source": "lua11_573512/game.module.open_func.manager.network.network_2511858066701623407.bin",
+    "sha256": "d9dae42d1f518aaa31598b7601575d30de093413af12629a53a171f63c5b9c47",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.open_func.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.open_func.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.open_func.manager.data.data",
+    "source": "lua11_573512/game.module.open_func.manager.data.data_4241039344027210586.bin",
+    "sha256": "63453ff445d523c69dbbf4e69f1b0c8b71f3b6662246f903c564ab327e7156a1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.open_func.manager.data.data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.open_func.manager.data.data.lua"
+  },
+  {
+    "name": "game.module.data.manager.core",
+    "source": "lua1_573660/game.module.data.manager.core_-8079988276809789893.bin",
+    "sha256": "9f017b18dd02b0bb27ff04c9b9cac80d19ee536f22ab9812419779d821dea39b",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.data.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.battle_pass.manager.network.network",
+    "source": "lua1_573660/game.module.battle_pass.manager.network.network_-6727519831356728346.bin",
+    "sha256": "6bfbf32eafe573c106205c75ee66b0e0e347239cb3775c5c6e04d728e86d1061",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.battle_pass.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.battle_pass.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.main_view.manager.config.right_up_config",
+    "source": "lua1_573660/game.module.main_view.manager.config.right_up_config_-6643782486772910893.bin",
+    "sha256": "9127da977b559f519d52d678edce362c75d800d507832c9cfe2130072ee52d98",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_view.manager.config.right_up_config.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_view.manager.config.right_up_config.lua"
+  },
+  {
+    "name": "game.module.main_view.manager.config.bottom_btn_config",
+    "source": "lua1_573660/game.module.main_view.manager.config.bottom_btn_config_-5200976639319226144.bin",
+    "sha256": "02c70e823232a88981aa56dff02b020e22b4885512063f63b3c501940a8f1546",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_view.manager.config.bottom_btn_config.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_view.manager.config.bottom_btn_config.lua"
+  },
+  {
+    "name": "game.module.battle_pass.manager.data.data",
+    "source": "lua1_573660/game.module.battle_pass.manager.data.data_-4034539622551295233.bin",
+    "sha256": "038f625a19de5ef60177cacaa9b8562af4022ca8b885fe2627727f3b23be1235",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.battle_pass.manager.data.data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.battle_pass.manager.data.data.lua"
+  },
+  {
+    "name": "game.module.data.manager.player.local_player",
+    "source": "lua1_573660/game.module.data.manager.player.local_player_-3483996038065972559.bin",
+    "sha256": "c0bd27f3cafd1c6f466ca59de67bb37f8a398f221b534f89f61890677405d6bd",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.data.manager.player.local_player.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.data.manager.player.local_player.lua"
+  },
+  {
+    "name": "game.module.battle_pass.manager.event",
+    "source": "lua1_573660/game.module.battle_pass.manager.event_3647449558721488390.bin",
+    "sha256": "6534395e1acf89932b941489f73592f0594bbe0f569497714185995cec7536e9",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.battle_pass.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.battle_pass.manager.event.lua"
+  },
+  {
+    "name": "game.module.battle_pass.manager.const",
+    "source": "lua1_573660/game.module.battle_pass.manager.const_5064127223299831189.bin",
+    "sha256": "081a00b272133a4a78cb8cb5a1be8e38f3572a257152c7c84d516a7980dca343",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.battle_pass.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.battle_pass.manager.const.lua"
+  },
+  {
+    "name": "game.module.battle_pass.manager.core",
+    "source": "lua1_573660/game.module.battle_pass.manager.core_6719724894960869895.bin",
+    "sha256": "aa5bfaf332ab4759bfd8232cbcdd6db391b32b512d6316ca5b1d50bfb14c0cb2",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.battle_pass.manager.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.battle_pass.manager.core.lua"
+  },
+  {
+    "name": "game.module.data.manager.player.player",
+    "source": "lua1_573660/game.module.data.manager.player.player_7736660477828576056.bin",
+    "sha256": "e7d46233330b83bbcdcffee9f192da699772c4bd4651e95767b8c49750d24470",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.data.manager.player.player.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.data.manager.network",
+    "source": "lua1_573660/game.module.data.manager.network_9034702300918916594.bin",
+    "sha256": "ff8cfdbeea6be0b6b6fc22afc8f156f5c3b4655655704ede0b7366e7e3fb7883",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.data.manager.network.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.weapon_master_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.weapon_master_data_-7465481303732579791.bin",
+    "sha256": "970abc9b6c176ef06d1804d13137070f41d0a07ace2004819c6cd8c787090817",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.weapon_master_data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.data.sub_data.weapon_master_data.lua"
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.network.plan_network",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.network.plan_network_-6671897728407966381.bin",
+    "sha256": "68e22806e654d683691e5e4b012f6d5ef573c5914195aaa720b9e63415119984",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.network.plan_network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.network.plan_network.lua"
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.data_-6123605392462771538.bin",
+    "sha256": "3fe87958d196d82da37bcea0e58ec31c0f7d4cd29c4acd341b838c38f055d189",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.strength_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.strength_data_-5134243639248569394.bin",
+    "sha256": "bb23980b7b7b0dab9eeca78e75f9a7e17bc3befc988a7413f1c0d41f25c8be4d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.strength_data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.core",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.core_-3848501736930548607.bin",
+    "sha256": "89842b2e918cef5f21a31a0cc60efedf4d5accbd6cccd3902c46b2555ad0a721",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.network.network",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.network.network_-2900653104787120745.bin",
+    "sha256": "9b589d50bfa6fa9892094ce44afec9feb605cd4cf7e83259b3eb7b426e1cccf1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.pet.manager.data.data",
+    "source": "lua2_573512/game.module.pet.manager.data.data_-2860366180176707859.bin",
+    "sha256": "029f7deac6b3abe249eca88352f3ee15b776c17ff5a03d194c2733df9c7e8dea",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.pet.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.suit_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.suit_data_-174706930059992740.bin",
+    "sha256": "3ba240e91ed7bf41bbeef21e88552bb9ae0dd0674d68e029a0185b72b4c05cad",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.suit_data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.star_up_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.star_up_data_472156858373551325.bin",
+    "sha256": "b3296f588f2b8baa36ab6f1b4181b3f21e7f52b25197fc6e9537f538fa36d801",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.star_up_data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.event",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.event_588359995676275734.bin",
+    "sha256": "d06e9c177fe085add9ece3b57c94b537dc70830c4c8d2a3cca57f4b3b5f6e90b",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.event.lua"
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.plan_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.plan_data_954002986694927584.bin",
+    "sha256": "8fe76e95ee9cdaa22a4b7d9a51e0b88836785ef9118c6071f7317c9d96adcdb4",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.plan_data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.pet.manager.core",
+    "source": "lua2_573512/game.module.pet.manager.core_3054873267038669806.bin",
+    "sha256": "1935be98c35541ee3875933a03f6934bef676db840b4bf2096b2594622868946",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.pet.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.suggest_plan_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.suggest_plan_data_5755681963300996801.bin",
+    "sha256": "0c5ab579ccce6c3842112c2aafa20b0e8d59d241a35af25b50b0ff4c9988fd97",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.suggest_plan_data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.data.sub_data.suggest_plan_data.lua"
+  },
+  {
+    "name": "game.module.pet.manager.const",
+    "source": "lua2_573512/game.module.pet.manager.const_7110416959179061418.bin",
+    "sha256": "a047fe8168ecc736b8b36749cca52ab3429c20dd2f927d09d6739304a0dd1b1a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.pet.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.pet.manager.const.lua"
+  },
+  {
+    "name": "game.module.pet.manager.network.network",
+    "source": "lua2_573512/game.module.pet.manager.network.network_7403608515343570065.bin",
+    "sha256": "6782e0a301a89e18bad8938f4e7bac6af9c7a006c878c38e36f3b15de627e0bc",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.pet.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.pet.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.const",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.const_8548236632900169532.bin",
+    "sha256": "dd5b8e078766303eefcf69892c551e895f37daf314825eb98d304c08d63d2d53",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.const.lua"
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.bond_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.bond_data_8615207934230809467.bin",
+    "sha256": "ee1b095512c977bc67b46e8b4565f3e241a3128ca8777871076337e61b2b454a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.bond_data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.main_weapon_develop.manager.data.sub_data.strength_return_data",
+    "source": "lua2_573512/game.module.main_weapon_develop.manager.data.sub_data.strength_return_data_9097778585980925591.bin",
+    "sha256": "9c83d13bc2bad9ac38bc152a4975708aa62c3e42f6a2750a8157f7d8c2fe2cd6",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.main_weapon_develop.manager.data.sub_data.strength_return_data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.main_weapon_develop.manager.data.sub_data.strength_return_data.lua"
+  },
+  {
+    "name": "game.module.gacha.manager.core",
+    "source": "lua3_573410/game.module.gacha.manager.core_-7991379755632502889.bin",
+    "sha256": "03c028db0f93426fc44093a0f2f546c196ca8e3a07e80db19760553070158d16",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.gacha.manager.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.gacha.manager.core.lua"
+  },
+  {
+    "name": "game.module.gacha.manager.data.data",
+    "source": "lua3_573410/game.module.gacha.manager.data.data_-5810498089418738669.bin",
+    "sha256": "b93a675bab2f89de5942ca51f209673c7aac9b0fbda3fcc791bda3b2a01c71ab",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.gacha.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.equip.manager.event",
+    "source": "lua3_573410/game.module.equip.manager.event_-5610160336876194429.bin",
+    "sha256": "0d06b9de835f55dceab112978d07351363d012ef4c7f43f9cab69946f5b76f02",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.equip.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.equip.manager.event.lua"
+  },
+  {
+    "name": "game.module.gacha.manager.network.network",
+    "source": "lua3_573410/game.module.gacha.manager.network.network_-1573414781650070484.bin",
+    "sha256": "6e5cda7dca43e54955f3dc2cef1c7e0317707f51348cb6f6ec10c3a01333e5f2",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.gacha.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.gacha.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.gacha.manager.auto_filter",
+    "source": "lua3_573410/game.module.gacha.manager.auto_filter_-860041647448066814.bin",
+    "sha256": "a0827336e756d322ae7a7e0284ee6d26053c2b63b8dbbef931a9125becc77528",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.gacha.manager.auto_filter.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.gacha.manager.auto_filter.lua"
+  },
+  {
+    "name": "game.module.equip.manager.core",
+    "source": "lua3_573410/game.module.equip.manager.core_-524715592526275731.bin",
+    "sha256": "1cb2cb86e1c1144e62ef2758fb4773f1d8a31ac4e451cfef271766d372316ba1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.equip.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "auto_gen.package_include.config.season_newbie.init",
+    "source": "lua3_573410/auto_gen.package_include.config.season_newbie.init_-398093148849730766.bin",
+    "sha256": "264a8fc1ad4f9f54d4a8069ad65b7e4334b80650d808996f6c77466ca6bf35be",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.season_newbie.init.txt",
+    "lua-luadec": "reverse/lua-luadec/auto_gen.package_include.config.season_newbie.init.lua"
+  },
+  {
+    "name": "game.module.equip.manager.const",
+    "source": "lua3_573410/game.module.equip.manager.const_-209453403701527242.bin",
+    "sha256": "03ea0ed3235a25f790784516ec3d73f46644193971661a87a85f3066a548881a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.equip.manager.const.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.gacha.manager.const",
+    "source": "lua3_573410/game.module.gacha.manager.const_1152134471846508827.bin",
+    "sha256": "544859036208afee6b5ed8c92dc9bf0c27b14f82f4071bed6b8ea5c3002932ed",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.gacha.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.gacha.manager.const.lua"
+  },
+  {
+    "name": "game.module.equip.manager.network.network",
+    "source": "lua3_573410/game.module.equip.manager.network.network_1276696993033617756.bin",
+    "sha256": "89e5fb1093e385f4f8979fb251b2cd5de0bd791f9b3a3e39c29c20e9bdd0b728",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.equip.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.equip.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.equip.manager.data.data",
+    "source": "lua3_573410/game.module.equip.manager.data.data_1879363490057496144.bin",
+    "sha256": "a9138197eed905d8dcc49621af249d5ba8435b455e61f5d703df605a73bcc942",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.equip.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.season_2v2",
+    "source": "lua4_573711/game.module.team.manager.target.season_2v2_-9194463836191210867.bin",
+    "sha256": "0461041700b2ee4c0cffe256ad2b3d627ed02f49ef82bc04d6f79f8eee252c8f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.season_2v2.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.season_2v2.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve_material",
+    "source": "lua4_573711/game.module.team.manager.target.pve_material_-9187211700753863828.bin",
+    "sha256": "ce26388c9a4265e8c00e88cc78c50fc3314f6a0d383a01c0219c22a9e213a0d6",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_material.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_material.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.trajectory",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.trajectory_-9147858616376267781.bin",
+    "sha256": "854788c5b6791ba1b89aca5cc3c83b47a9189f09c1145b39b465ae422124a517",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.trajectory.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.trajectory.lua"
+  },
+  {
+    "name": "game.module.shop.manager.black_market",
+    "source": "lua4_573711/game.module.shop.manager.black_market_-8825925870182411331.bin",
+    "sha256": "5571f1b7dc232ee34db24d71e0f841e0e0a9e196d3d69e5f672fd6ae2732ea92",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.black_market.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.shop.manager.black_market.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve_star_dig",
+    "source": "lua4_573711/game.module.team.manager.target.pve_star_dig_-8792082500739670946.bin",
+    "sha256": "e7e309c722bae5219b24b2aabc25338f5f5d4a27e664e179cd246b0ef37e845c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_star_dig.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_star_dig.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.round_status",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.round_status_-8744964262973727156.bin",
+    "sha256": "7454a6f37d419309755bdf338d45898e351d3421f8a1756705ccacb4bfcda464",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.round_status.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.round_status.lua"
+  },
+  {
+    "name": "game.module.shop.manager.data.black_market_data",
+    "source": "lua4_573711/game.module.shop.manager.data.black_market_data_-8639582007996104789.bin",
+    "sha256": "31c02d394b19b1dd86aa72c4f3507a938e74a2349b6af9dc12a5378cc027ca81",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.data.black_market_data.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.shop.manager.data.black_market_data.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.expel",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.expel_-8207034470611245119.bin",
+    "sha256": "13917dd85e9d791a1edf65bcaae77a2c604871a1d5e11dc5c8bf6c5fb4d96c88",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.expel.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.expel.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.cmd.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.cmd.core_-7985747361060097774.bin",
+    "sha256": "45600b2a9734bc330a540110f34b49ab4b718ca7814c7120feb20f59227ff722",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.cmd.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.javelin",
+    "source": "lua4_573711/game.module.team.manager.target.javelin_-7700779638162381526.bin",
+    "sha256": "0f80fe0d55dfa78ee2e380279c79b7a41bf61ababa7e50b0631a1d240ebe35b1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.javelin.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.sub_dungeon_star_hard",
+    "source": "lua4_573711/game.module.team.manager.target.sub_dungeon_star_hard_-7317234041428023301.bin",
+    "sha256": "50619d8f1dba913614b53af2d94de0119996a58d6dc3e72c40e920b1a723d0e6",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.sub_dungeon_star_hard.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.sub_dungeon_star_hard.lua"
+  },
+  {
+    "name": "game.module.team.manager.invite.season_league_team_invite",
+    "source": "lua4_573711/game.module.team.manager.invite.season_league_team_invite_-7046906363298244654.bin",
+    "sha256": "301a6d41ceb9edf12b1186f469c45dd169a299b901481bb3b05a723c24485579",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.season_league_team_invite.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.season_league_team_invite.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.fly_free",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.fly_free_-6910042175340343475.bin",
+    "sha256": "ad6b63f9d2eaff3ebe9a83f47433ac7e839e03a1aecd5d5605973e0c8d15e77a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.fly_free.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.fly_free.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.attrs",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.attrs_-6891889581371411036.bin",
+    "sha256": "5ce733f6024e68950b45ac4e8aa4b300cf508a6432bd36e14178497eaa61b12a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.attrs.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.attrs.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.sub_dungeon_star",
+    "source": "lua4_573711/game.module.team.manager.target.sub_dungeon_star_-6641137023807980324.bin",
+    "sha256": "f0898d655ca40bfa1db6d5de82a8640d610a8a42f34d2f45a6e79bbabe504199",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.sub_dungeon_star.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.sub_dungeon_star.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.perform",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.round.perform_-6519626298272865860.bin",
+    "sha256": "eb21e11221a7c955f979bc23601556f5f6a55dd8c2ed2fef93dce7fbeec79bf4",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.perform.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.round.perform.lua"
+  },
+  {
+    "name": "game.module.team.manager.data.data",
+    "source": "lua4_573711/game.module.team.manager.data.data_-6313624678480946928.bin",
+    "sha256": "99ebf9793cab7a8d4ed88765eee1991c9eb2a5d8f58edaeddd0afdf75865455e",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.events",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.events_-6242005080134283354.bin",
+    "sha256": "56de131c24bebeb767f33ccdc0b5de3b247286d878a4e9efddfaf08e0145df30",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.events.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.shop.manager.network.network",
+    "source": "lua4_573711/game.module.shop.manager.network.network_-6234670059096265269.bin",
+    "sha256": "87a42a49dba78fd694d8803cd65caf4ec5168d671dc62eaf61f61084dc0e6709",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.shop.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.team.manager.core",
+    "source": "lua4_573711/game.module.team.manager.core_-6168282266492146482.bin",
+    "sha256": "7ffecfe1b9c23e36724b53aa59c4f2c9fbb4686f7c5b9684f1ae90da0a77d117",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.pve_hard",
+    "source": "lua4_573711/game.module.team.manager.target.pve_hard_-6032796066760019451.bin",
+    "sha256": "ac0a1516c047bb9612f67bd27e9a954fd1764bccd9d3b3421f8ef2302add1cb7",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_hard.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_hard.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.die",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.die_-5868418002861275661.bin",
+    "sha256": "7e607cfb54c3d5e2932197bb534698ff7b2a78f6bb1529a06021928c452f00ee",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.die.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.die.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.lock_target",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.lock_target_-5712498272944212665.bin",
+    "sha256": "1793533965a58c7d61b58340817052124373813d8294e59db1645f17a636350f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.lock_target.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.lock_target.lua"
+  },
+  {
+    "name": "game.module.team.manager.network.network",
+    "source": "lua4_573711/game.module.team.manager.network.network_-5480163981327235990.bin",
+    "sha256": "6eb84c58a7d6a5601e5de31b9afc362d5ef6d453a8fcaa347bf61ea257398551",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.area",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.area_-5271478798672979604.bin",
+    "sha256": "3baf277af43568de83fe6cadf53b14e4754016e73a70a6badf9678ec730ccf12",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.area.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.alliance_trial",
+    "source": "lua4_573711/game.module.team.manager.target.alliance_trial_-4947767525399406346.bin",
+    "sha256": "4081b8dd9b228fcc257651ac55deedb188be51a296d27a330c6ba971a2f9d30e",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.alliance_trial.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.alliance_trial.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.touch",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.touch_-4936954064824169068.bin",
+    "sha256": "6224c7d5650901df27cf337c2fe2e6c4e892dd979d89a69874b3cf379c4dca62",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.touch.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.touch.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.morph",
+    "source": "lua4_573711/game.module.team.manager.target.morph_-4827592058654006077.bin",
+    "sha256": "69ec4c31afbb89370697786e1f30a88dc417f399c7a2f39c37063c0515c72e1a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.morph.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.morph.lua"
+  },
+  {
+    "name": "game.module.fight.manager.const",
+    "source": "lua4_573711/game.module.fight.manager.const_-4675006337339581731.bin",
+    "sha256": "07b2f0f3f3f110ca827a70409b2f1b27686366546d078c3efeff5f42b7352d4a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.const.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pvp_alliance_pk",
+    "source": "lua4_573711/game.module.team.manager.target.pvp_alliance_pk_-4659230093056601861.bin",
+    "sha256": "681c9b24bd75bd69c647cdbefb1d06c775e5674bc7dec6223294e9afa6dde1ad",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pvp_alliance_pk.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pvp_alliance_pk.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.hit_fly_preview",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.hit_fly_preview_-4533880242312617653.bin",
+    "sha256": "9108bb85d97e151f86dd49021e83adf352a37699196168fb1af43c067250e844",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.hit_fly_preview.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.hit_fly_preview.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.ui.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.ui.core_-4428100714137387026.bin",
+    "sha256": "b239653030b5450d813fea5aeaf3c084fffc94017838bc5e24a361b80f19b18f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.ui.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state_-4390725589744456449.bin",
+    "sha256": "3afc5d2d61555f431ff96b19fb5a2b30132374ad01bf0ced1c59586fda20bc30",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.timer",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.round.timer_-4305445045789317530.bin",
+    "sha256": "9caaa11ba2d008f519953af9e8f304c0b8c9d2525b9ad58ccfd942ea80ffd8fa",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.timer.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.round.timer.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.hit_area_show",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.hit_area_show_-4136316148944008147.bin",
+    "sha256": "07f0b5f8a8a1b6a38fad11fe9a526bf4d885eac94387baa19ee42047598634ee",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.hit_area_show.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.move.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.move.core_-3964286075077599580.bin",
+    "sha256": "f1e25277ca01d0db81486a36857a849a08ad0f0fbbb9166657be9b3c32119fcb",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.move.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.move.core.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.sword_fly",
+    "source": "lua4_573711/game.module.team.manager.target.sword_fly_-3704134022514061780.bin",
+    "sha256": "4e335bd9a090bd3e2a0a1480bf411c608ee16a1466c6cbf76114013f7d9369ac",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.sword_fly.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.sword_fly.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.brawl",
+    "source": "lua4_573711/game.module.team.manager.target.brawl_-3666069800429024640.bin",
+    "sha256": "26e9f4a65f0644ecb82bd7d386cd30796fa4c21032481e0abb2ca8e0460eb65d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.brawl.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.skill.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.skill.core_-3533888778887191997.bin",
+    "sha256": "86497e646c7509cc45742b64c7dbe97a03a1c101756d213c3910416507664826",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.skill.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.recommend_force_no_wind",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.recommend_force_no_wind_-3463959290716847027.bin",
+    "sha256": "5413c8466aba475e3f66aa981d00781c784e41e2ebef413a7ac373c025bd74db",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.recommend_force_no_wind.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.recommend_force_no_wind.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.sound_wave",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.sound_wave_-3432508161459119096.bin",
+    "sha256": "4398e1b7161a5f9756eacf5c268137f56ae784c2e6b0d466a86f8e6006b1c1d2",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.sound_wave.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.extra_hit_area",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.extra_hit_area_-3145557070561309176.bin",
+    "sha256": "3c4526e22090a4c81fa9c9d5ca082ad06e472a5ec57cba11ba972e041d41c7ae",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.extra_hit_area.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.extra_hit_area.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.fire.parabola_free",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.fire.parabola_free_-3035762584269890196.bin",
+    "sha256": "b13807b406b5f4130428180b1c4ac05da0ff39a0b4dbc7040a350d630b90a3e9",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.parabola_free.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.skin",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.skin_-2724036867508629601.bin",
+    "sha256": "4b25e8c2cfe0b524c9800bf0da824a29a69b9df3155b04504e1235d617b7058d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.skin.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.pvp_season_league",
+    "source": "lua4_573711/game.module.team.manager.target.pvp_season_league_-2436430337016446828.bin",
+    "sha256": "4b74ab84d454d32ea1f255a8923ffaafa8dace113e59c2a5b1114ab32bf5b1ca",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pvp_season_league.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pvp_season_league.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.fire.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.fire.core_-2051574499200700898.bin",
+    "sha256": "bc1b388ef71ec61d13961a07082db4f6385c434bef88e536cba591ebc805ab57",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.event",
+    "source": "lua4_573711/game.module.team.manager.event_-1853657815938994125.bin",
+    "sha256": "11598fbe42d847240399a06ebac3520b4290c7f0242c783304b5c3e54897c5d6",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.event.lua"
+  },
+  {
+    "name": "game.module.team.manager.invite.marriage",
+    "source": "lua4_573711/game.module.team.manager.invite.marriage_-1559282295151813444.bin",
+    "sha256": "e5ec1a84a3dd01e9cea5ab9a7cc0f09ce1838fe3311c39a18bb1d6ad7abdb41b",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.marriage.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.marriage.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.state",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.state_-1315870785431661937.bin",
+    "sha256": "2c4b066d3a114d02425e67256c4ce02a79b2a08c671f3c0b51e0ddbdf9059a64",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.state.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.state.lua"
+  },
+  {
+    "name": "game.module.shop.manager.core",
+    "source": "lua4_573711/game.module.shop.manager.core_-606477427032695712.bin",
+    "sha256": "e3bdaab049a262d07ec14da15b2362a6e4985174fc5f5013124f38a76ba79db2",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.air_race",
+    "source": "lua4_573711/game.module.team.manager.target.air_race_-571052718900742292.bin",
+    "sha256": "3b1a536e2bf2581786ef80383c68e34fe99791aabe9a2a75f914ef41bbbe1f29",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.air_race.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.air_race.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.skill.effect",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.skill.effect_-391659209237891624.bin",
+    "sha256": "c20cf3ff9d41ad05e3743c3e1c47c0d00daf5ed6111d1bfaac7ed1cca3b3553c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.skill.effect.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly_-307330877713708404.bin",
+    "sha256": "c14be22fc121874564c8c8ba40e02f98d7faf75ca7698dd8cff488f2852eb649",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly.lua"
+  },
+  {
+    "name": "game.module.team.manager.invite.base",
+    "source": "lua4_573711/game.module.team.manager.invite.base_-160198768679745823.bin",
+    "sha256": "b3f38500b7b9bf54b4970c64e97828427f8ece5040dfd8aa56992219f437c912",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.base.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.base.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.other",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.other_-131278467041784522.bin",
+    "sha256": "863fee2ff0ac85810f84c6b1b323d69e87e6677a22a2e723519cdfe3a99a13ce",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.other.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.skill.select",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.skill.select_42900279918834501.bin",
+    "sha256": "71bc144f8d53b9fbb1998e2242413964d755fe5405d8c587d5146f968d5251a2",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.skill.select.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.timer",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.timer_156545776232081799.bin",
+    "sha256": "7b15a57b6ff50ca15df17c37f83d9928b68001c7ca29e037d665d430a9eb67a4",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.timer.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.timer.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve_dungeon_main",
+    "source": "lua4_573711/game.module.team.manager.target.pve_dungeon_main_319126051688290665.bin",
+    "sha256": "f285448d1de2c941ed078ec185204c48dd851c75b75ff80f76ad564e3732a78b",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_dungeon_main.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_dungeon_main.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.destroy",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.destroy_411884009361193884.bin",
+    "sha256": "0ec728fa7071e14826c8e0caa56a21cc407fd01c1182b80182fb36aab88c82e3",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.destroy.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.destroy.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pvp_nat_champion",
+    "source": "lua4_573711/game.module.team.manager.target.pvp_nat_champion_774257338760555916.bin",
+    "sha256": "9c62db9fcec93598c584c61fd80c918b3e456a405942bda8ef590f0a8c52a9fb",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pvp_nat_champion.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pvp_nat_champion.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.move_lift",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.move_lift_1015273902192923029.bin",
+    "sha256": "810fdad50b4374fe223767395635b8ecbfe301d3d2aaec9406b878fcab0548d4",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.move_lift.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.move_lift.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.round.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.round.core_1077894747532256780.bin",
+    "sha256": "355064b8654c60a0f00d09a4f748372e2f54b03df1a892afa8af1f946ab4b4ac",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.round.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.custom",
+    "source": "lua4_573711/game.module.team.manager.target.custom_1475855929656852861.bin",
+    "sha256": "517f52f5c75273629ef005fc5770cc3f9cff8975a30a5919a9aef196f1ff5957",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.custom.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.custom.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.appear",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.appear_1661930536747532334.bin",
+    "sha256": "4489886cab8ba3fb925ad931383ac64a1ba512e13401e4f5952c5747c6e65076",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.appear.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.pve_material_hard",
+    "source": "lua4_573711/game.module.team.manager.target.pve_material_hard_1864138655619293233.bin",
+    "sha256": "f7eeb48508d8f7439290cee146044ddbdd36dd28b3bf2f9b4a133ee17f5d2a22",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_material_hard.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_material_hard.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.base",
+    "source": "lua4_573711/game.module.team.manager.target.base_1882381723874612233.bin",
+    "sha256": "97e62443c5ec181ffa0979db065f700592ae6646733eb8e2a72bc00b6c208771",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.base.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.effect.common",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.effect.common_2201567412361471459.bin",
+    "sha256": "e5b5041cf0c1739c1b43ed40feea35c82e85b2137aaef6fb2ff5eb3f90444367",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.effect.common.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.effect.common.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pvp",
+    "source": "lua4_573711/game.module.team.manager.target.pvp_2618032798309447470.bin",
+    "sha256": "7f95caceead8d61554d49d3aa0172a963c58208df6af93f217f988d03026c352",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pvp.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pvp.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.animation",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.animation_2711413189864627951.bin",
+    "sha256": "9d76d16b4ccbebfd336e8c9cd07e3dd655b788be8b74ab65175236c1533ef5b0",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.animation.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.animation.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve_pirate_island",
+    "source": "lua4_573711/game.module.team.manager.target.pve_pirate_island_2737343690678154145.bin",
+    "sha256": "80817a92c1327692ff4ac0862ad6b6684671d180a07e1f92946e58bea8785600",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_pirate_island.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve_pirate_island.lua"
+  },
+  {
+    "name": "game.module.team.manager.const",
+    "source": "lua4_573711/game.module.team.manager.const_2787929070977719809.bin",
+    "sha256": "87ddd9275215e71dd8daf3f036de0bfd776f8dd751d15471a68aa41a5c3ddbdd",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.const.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.core_3055581963710017009.bin",
+    "sha256": "b963ec1874352cd7d090ef8de1029b75cc26e35acb4dc76da231578595edd285",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.move.move",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.move.move_3294585529448214748.bin",
+    "sha256": "536f89a9d3866e6c5d4f7518377dd923bbe75aa387c6f27b088b6cc608bcb249",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.move.move.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.season_3v3",
+    "source": "lua4_573711/game.module.team.manager.target.season_3v3_3387615155219091600.bin",
+    "sha256": "42777aa29f29c13bf6971a8c99f8e73bfe9acd700fe3febf7216cda9ce0627e9",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.season_3v3.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.season_3v3.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve_tower",
+    "source": "lua4_573711/game.module.team.manager.target.pve_tower_3827870111532687118.bin",
+    "sha256": "2526b8a648123c16013da6092567ecfef0ef1836f267c32db81a5c85541b3656",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve_tower.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.stack_count",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.stack_count_3947469040785240344.bin",
+    "sha256": "6f1be2a5287f0664751737c8c479040a842b7a8af56f72856c40d02869669c0b",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.stack_count.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.stack_count.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.placement_radar",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.placement_radar_4110049648502398089.bin",
+    "sha256": "ed62ef288907f75423056e00d5ee9a0fb6333081e90f4d034c1288d2639a6c61",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.placement_radar.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.placement_radar.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.martial_marriage",
+    "source": "lua4_573711/game.module.team.manager.target.martial_marriage_4348373059379382338.bin",
+    "sha256": "1ba9f56b99683d0c143df3c2c77e883500c113a5a51626f93f8825191a3bcc71",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.martial_marriage.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.martial_marriage.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.pve",
+    "source": "lua4_573711/game.module.team.manager.target.pve_4484793919154627548.bin",
+    "sha256": "cfe20fb40cf322a0698a6fd7ffb98e4dd92b5a9e1b8ad92b7509c69a7d8c604d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.pve.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.pve.lua"
+  },
+  {
+    "name": "game.module.shop.manager.const",
+    "source": "lua4_573711/game.module.shop.manager.const_4617049706645367079.bin",
+    "sha256": "3dafea026bdb943225ed5606bcdbf893d1c08f8a9ff1056e69e1d460d8d2b1c7",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.shop.manager.const.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.stealth",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.stealth_4686208220502475319.bin",
+    "sha256": "e809c5ed714c3cc36d84fad36c79d5ec4b026d29edc8afcc62af00cb23cd93a9",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.stealth.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.stealth.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.spring_line_game",
+    "source": "lua4_573711/game.module.team.manager.target.spring_line_game_5018621374976623821.bin",
+    "sha256": "ec1c41594f5feede04a64aa3816dc5b9e6e2f8de2f80f2462a230c04d690d780",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.spring_line_game.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.support_rank",
+    "source": "lua4_573711/game.module.team.manager.target.support_rank_5041115333585832744.bin",
+    "sha256": "9ae0e3f6f70aa27866c10ed60c67855517954ed7fc2dd41b80e8c6afa0d2e7d6",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.support_rank.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.support_rank.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.recommand_force",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.recommand_force_5077466018360677482.bin",
+    "sha256": "cd4fa1428b541eb1572bdb8a9133f793fd62745c7e5e3453715e0c61c013c23d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.recommand_force.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.fire.parabola",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.fire.parabola_5193939062883712203.bin",
+    "sha256": "a87df39b06c71cd645958c645be5e912f57f88a18c8444a4a577fd0cfba710a5",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.parabola.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.target.gve_story",
+    "source": "lua4_573711/game.module.team.manager.target.gve_story_5742028712629610153.bin",
+    "sha256": "c81b8dd98086161dd5fcc4154763fdc95eefc105b5287665647d01c565268915",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.gve_story.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.gve_story.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.move.direction",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.move.direction_5835144460373031733.bin",
+    "sha256": "e70fe0c833466391caa56e51d121d428a6028390991abb1dddbf0a231b67f145",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.move.direction.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.unit.move.direction.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.network",
+    "source": "lua4_573711/game.module.fight.manager.base.network_5906234710675851519.bin",
+    "sha256": "a5fc9468b6154923f0efe247e83fcd7fdd701b392017544d925aabb549091164",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.network.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.butterfly",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.butterfly_6158203079429086359.bin",
+    "sha256": "da4d312ba07e8a1d3cd03c576360939cb38858f90f41888baada46bb61280344",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.butterfly.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.butterfly.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.core",
+    "source": "lua4_573711/game.module.fight.manager.base.core_6254788570939879500.bin",
+    "sha256": "c94f1e1deabb6d2fe21b3d813f25c3d51d783e53ab860c2fcb8f653fd790024f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.invite.core",
+    "source": "lua4_573711/game.module.team.manager.invite.core_6781678252388602605.bin",
+    "sha256": "716eb408b68ee34e2d5570fe5f98e6bf14deb52288a1802baef21c90286eef16",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.core.lua"
+  },
+  {
+    "name": "game.module.shop.manager.data.data",
+    "source": "lua4_573711/game.module.shop.manager.data.data_6803844502123990562.bin",
+    "sha256": "dbaffad33d430fa6cdd4863e4700badbf217eb9c0fd1a2b78c4045fdf0884ed1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.invite.season_league_team_invite_fight",
+    "source": "lua4_573711/game.module.team.manager.invite.season_league_team_invite_fight_7006492373671617639.bin",
+    "sha256": "aabc8169a0a30a0d90fc15b1f3bc062d953956b72a6e5c2b83b58e205519808f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.season_league_team_invite_fight.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.season_league_team_invite_fight.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.reconnect",
+    "source": "lua4_573711/game.module.fight.manager.base.reconnect_7042933419981054864.bin",
+    "sha256": "45a0991888ec87f5747e2698798a78585aad38f531287d6027d25b877251fe0c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.reconnect.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.core",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.core_7272499947804274124.bin",
+    "sha256": "79df7b1848b46bac29dd5c511265f37621fc3ad2c46a204df01f429745d61a5a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.core.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.unit.shield",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.shield_7308248758146886574.bin",
+    "sha256": "8e25021f183740e884982b8f6bed0b07763759718caf9da70079999bb6db9c59",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.shield.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.cmd.network",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.cmd.network_7374820635173247471.bin",
+    "sha256": "45138d9e3134c8dfd77fa20d3255874ca9a3f788346319a88c5205bbffe6ace0",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.cmd.network.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.invite.team",
+    "source": "lua4_573711/game.module.team.manager.invite.team_7406190794892166361.bin",
+    "sha256": "f9bb2d8dd78a3cca86bcea7ad795a7390c5aaab4813131f8504fa616bb83d4e8",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.team.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.team.lua"
+  },
+  {
+    "name": "game.module.team.manager.invite.nat_champion_fight",
+    "source": "lua4_573711/game.module.team.manager.invite.nat_champion_fight_7605602232777236060.bin",
+    "sha256": "172590e8f3ba54a20788026cf990e27ea3eede5a954c718949dadfffb5a5bcdb",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.nat_champion_fight.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.nat_champion_fight.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.ending.core",
+    "source": "lua4_573711/game.module.fight.manager.base.ending.core_7665190083016571836.bin",
+    "sha256": "6726f24ac0448127fc6641134ea50ae76d11e42e1f41fa889954d11756af3f48",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.ending.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.team.manager.invite.qixi",
+    "source": "lua4_573711/game.module.team.manager.invite.qixi_7784907361020511140.bin",
+    "sha256": "63ddc144b2efa6f52a48ceba899b6501e409c31db330e25e5494e78585ad9c71",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.qixi.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.qixi.lua"
+  },
+  {
+    "name": "game.module.team.manager.target.core",
+    "source": "lua4_573711/game.module.team.manager.target.core_7952869425509844944.bin",
+    "sha256": "7861221a0e9b72bbda063b0862041b62c08f4e24106d3e3d24a3cb8517b84046",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.target.core.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.target.core.lua"
+  },
+  {
+    "name": "game.module.team.manager.invite.nat_champion",
+    "source": "lua4_573711/game.module.team.manager.invite.nat_champion_8018661173929533147.bin",
+    "sha256": "2facb709d7e14ca437e39f1f325d9134be5af480534c4c9465826ca215ead19e",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.team.manager.invite.nat_champion.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.team.manager.invite.nat_champion.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.battle_env",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.battle_env_8035900388301567358.bin",
+    "sha256": "45219089ef25f05bde74f31a8eb95804c1cafdd77526a4f5c8d224e6e31421de",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.battle_env.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.fire.action",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.fire.action_8233120917423957862.bin",
+    "sha256": "b0c485481625dd1355b8dc34c6bbec7b03cc37e15d61559006a00a08894e1861",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.action.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.fire.action.lua"
+  },
+  {
+    "name": "game.module.shop.manager.network.black_market_network",
+    "source": "lua4_573711/game.module.shop.manager.network.black_market_network_8604744803887145362.bin",
+    "sha256": "b7b411a3131c909d98738edb1e1921d8383053bdc7e37ec99e2cca426248fe7e",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.shop.manager.network.black_market_network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.shop.manager.network.black_market_network.lua"
+  },
+  {
+    "name": "game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly_again",
+    "source": "lua4_573711/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly_again_8738472335358933138.bin",
+    "sha256": "d8351ba4bb4e64ecab3630480609d30cfad939ea162a5e7f80679eb9841adf23",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly_again.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.fight.manager.base.fighting.buff.state.cant_trigger_hit_fly_again.lua"
+  },
+  {
+    "name": "game.module.task.manager.data.data_daily_task",
+    "source": "lua5_573650/game.module.task.manager.data.data_daily_task_-8554669163478059890.bin",
+    "sha256": "0dc151a1a2a55c13e59a3ff46f5b01b4cb59e448fbd2a81487f54cac10d8ed9d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.data.data_daily_task.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.task.manager.data.data_daily_task.lua"
+  },
+  {
+    "name": "game.module.task.manager.core",
+    "source": "lua5_573650/game.module.task.manager.core_-8012914766709646150.bin",
+    "sha256": "d060f8cfd93ca3c5a19fd38dee8c6f40212c964aa8e83020164f0800d2abc384",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.task.manager.state_handler",
+    "source": "lua5_573650/game.module.task.manager.state_handler_-3211410094775480611.bin",
+    "sha256": "7800c7b33e40bc26eccac45d5a33cf095029dbc4863a62c908559374bb0a9359",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.state_handler.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.task.manager.state_handler.lua"
+  },
+  {
+    "name": "game.module.task.manager.data.data",
+    "source": "lua5_573650/game.module.task.manager.data.data_3605310321850305500.bin",
+    "sha256": "04267f03e85b31ebe69de35d2710d81706e499ec0f0884073df1bbb254797618",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.task.manager.daily_task",
+    "source": "lua5_573650/game.module.task.manager.daily_task_3643346376771459253.bin",
+    "sha256": "48f338c497b1bb0cfb0717b4505c5b4f5f4a7d97dfa15376941c563d452fa23a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.daily_task.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.task.manager.utils",
+    "source": "lua5_573650/game.module.task.manager.utils_5553715991808469646.bin",
+    "sha256": "2b6f74e3fcab8c0265f204aa660843d90adc69d41078be95a7368e394736cd1f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.utils.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.task.manager.network.network",
+    "source": "lua5_573650/game.module.task.manager.network.network_7347662550331206628.bin",
+    "sha256": "c4acffc8eed80b789ad9c106faceba169fccb8ce71f7690f9023196772f3456a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.task.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.task.manager.const",
+    "source": "lua5_573650/game.module.task.manager.const_7842214112707021901.bin",
+    "sha256": "5ec800f27d67ba87cc087566e026f08ad9f7217e406af56bb315a28f977b261d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.task.manager.const.lua"
+  },
+  {
+    "name": "game.module.task.manager.event.event",
+    "source": "lua5_573650/game.module.task.manager.event.event_8047768586117321933.bin",
+    "sha256": "22dbd919c130e2c656e22bff0df13bdad6a3b8b3b1571ca35a6ec8ace1d6941c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.task.manager.event.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.task.manager.event.event.lua"
+  },
+  {
+    "name": "game.module.season.manager.pve",
+    "source": "lua6_573512/game.module.season.manager.pve_-3188936527630195404.bin",
+    "sha256": "f9d1dc8875033fb931cd40bd13bba153772bb8b0fed22d46265d9abf52cf3c7f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.pve.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.pve.lua"
+  },
+  {
+    "name": "game.module.season.manager.network.network_pve",
+    "source": "lua6_573512/game.module.season.manager.network.network_pve_-3087170141190071276.bin",
+    "sha256": "1e012b9670ee27fc1d8558f3714c1a93945f04d6fe22e2598927fa5b7126f074",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.network.network_pve.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.network.network_pve.lua"
+  },
+  {
+    "name": "game.module.season.manager.actions",
+    "source": "lua6_573512/game.module.season.manager.actions_-1500853916411865609.bin",
+    "sha256": "65c5ca66b62701be6d356f2179ed807ff10638c747e1400c36e04f863480382c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.actions.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.actions.lua"
+  },
+  {
+    "name": "game.module.season.manager.network.network_2v2",
+    "source": "lua6_573512/game.module.season.manager.network.network_2v2_-241261701606697360.bin",
+    "sha256": "24f9db9448c92836d3881e2e9cfa5fee95377c29d0fd497ee5e49875d75a3d90",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.network.network_2v2.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.network.network_2v2.lua"
+  },
+  {
+    "name": "game.module.season.manager.network.network_3v3",
+    "source": "lua6_573512/game.module.season.manager.network.network_3v3_550342646532033637.bin",
+    "sha256": "2fb3dd59375fee8b4ebc28fc348c0d08f61fa51e6fd4425dc7bd1d6f447a2720",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.network.network_3v3.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.network.network_3v3.lua"
+  },
+  {
+    "name": "game.module.season.manager.data.data_3v3",
+    "source": "lua6_573512/game.module.season.manager.data.data_3v3_829726415761633321.bin",
+    "sha256": "0bf0a796181c006c8f5bce3bbd57bed8580ea9b9d12fec8592d211c8ddc85f72",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.data.data_3v3.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.data.data_3v3.lua"
+  },
+  {
+    "name": "game.module.season.manager.const",
+    "source": "lua6_573512/game.module.season.manager.const_973065331153122805.bin",
+    "sha256": "9bd342e0e206609e44eb09f09a626701f3e5d830b0226d170481e64e8edcf202",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.const.lua"
+  },
+  {
+    "name": "game.module.season.manager.data.data_2v2",
+    "source": "lua6_573512/game.module.season.manager.data.data_2v2_2774413361337026110.bin",
+    "sha256": "86bdb2fa786f3a122a7692f5c0039a9918d801bfb997c9f41f561c4a5e765674",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.data.data_2v2.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.season.manager.season_2v2",
+    "source": "lua6_573512/game.module.season.manager.season_2v2_4169251372180117176.bin",
+    "sha256": "fe293b021e10a88b87306c920a0bf1c80659e9287a40d77749130774352d5147",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.season_2v2.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.season.manager.core",
+    "source": "lua6_573512/game.module.season.manager.core_5019881166741942368.bin",
+    "sha256": "900599211b15a23947907181140a242689169ad75f681d8409a91bc7714af921",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.season.manager.event",
+    "source": "lua6_573512/game.module.season.manager.event_5537342405571045365.bin",
+    "sha256": "03ee3d4ce224ae1add57d1b1d6c6e117c5ce332fd722bcfc22514c184dd6ef7d",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.event.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.event.lua"
+  },
+  {
+    "name": "game.module.season.manager.data.data",
+    "source": "lua6_573512/game.module.season.manager.data.data_6804082855031542593.bin",
+    "sha256": "2951c6a3c0ca097e4b57a44e38181e66333f841195d1683ad43677ff69052757",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.season.manager.network.network",
+    "source": "lua6_573512/game.module.season.manager.network.network_8258935832480552082.bin",
+    "sha256": "0d520c11fe83b88f7b4678b9d07fdd9964a21ad6356d181b499839bcc508c05a",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.network.network.lua"
+  },
+  {
+    "name": "game.module.season.manager.data.data_pve",
+    "source": "lua6_573512/game.module.season.manager.data.data_pve_9111794210503480157.bin",
+    "sha256": "55d22a007f01e248df5bba1a91f2e5ef1ba5f40285bddbc1b6dcd5368d07894f",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.season.manager.data.data_pve.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.season.manager.data.data_pve.lua"
+  },
+  {
+    "name": "game.module.skill.manager.core",
+    "source": "lua7_573533/game.module.skill.manager.core_-9150744112371628037.bin",
+    "sha256": "c5627a6c5721a3bc62a6c9d78fdcfc2665d08061e8c2d85a236d5831a478052c",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.skill.manager.core.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "game.module.skill.manager.network.network",
+    "source": "lua7_573533/game.module.skill.manager.network.network_-7219182476719539519.bin",
+    "sha256": "585e7458395fd91b1ce82aabc8548b02f59b755a7df4c4b88c768c41fe875ee4",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.skill.manager.network.network.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.skill.manager.network.network.lua"
+  },
+  {
+    "name": "auto_gen.package_include.config.attr_trans.init",
+    "source": "lua7_573533/auto_gen.package_include.config.attr_trans.init_358450473000837389.bin",
+    "sha256": "cfa9a2896791acbf0588de1c1f2ec164c9dfb25d25b3236f50b59094be82cf29",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.attr_trans.init.txt",
+    "lua-luadec": "reverse/lua-luadec/auto_gen.package_include.config.attr_trans.init.lua"
+  },
+  {
+    "name": "game.module.skill.manager.const",
+    "source": "lua7_573533/game.module.skill.manager.const_6256423771080968315.bin",
+    "sha256": "2e965e9e161599aaec2fa6034b71a2098cd5ea1a1bffc06daff14afe76ba4cce",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.skill.manager.const.txt",
+    "lua-luadec": "reverse/lua-luadec/game.module.skill.manager.const.lua"
+  },
+  {
+    "name": "game.module.skill.manager.data.data",
+    "source": "lua7_573533/game.module.skill.manager.data.data_8335767702823773669.bin",
+    "sha256": "66d72ca80a359ba27edfba5a2e8d9c25e007769d367491a3882b1417f743a5a1",
+    "lua-disassembled": "reverse/lua-disassembled/game.module.skill.manager.data.data.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.init",
+    "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.init_-882770105648515288.bin",
+    "sha256": "1c079b0c1f04646ecab7ba113c78eb1f4e56c80441db6dedfa8fa9adfb08cb6a",
+    "lua-disassembled": "reverse/lua-disassembled/auto_gen.package_include.config.skill_base_upgrade.init.txt",
+    "lua-luadec_error": {
+      "exit": 3221225477,
+      "stderr": ""
+    }
+  }
+]

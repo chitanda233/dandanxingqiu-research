@@ -1,0 +1,123 @@
+[
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 1,
+    "sling_shot_preset_id": 201,
+    "server_ids": {},
+    "id": 1,
+    "start_condition": {},
+    "preset_id": 101,
+    "max": 1
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 2,
+    "sling_shot_preset_id": 202,
+    "server_ids": {},
+    "id": 2,
+    "start_condition": {},
+    "preset_id": 102,
+    "max": 2
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 3,
+    "sling_shot_preset_id": 203,
+    "server_ids": {},
+    "id": 3,
+    "start_condition": {},
+    "preset_id": 103,
+    "max": 3
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 4,
+    "sling_shot_preset_id": 204,
+    "server_ids": {},
+    "id": 4,
+    "start_condition": {},
+    "preset_id": 104,
+    "max": 4
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 5,
+    "sling_shot_preset_id": 205,
+    "server_ids": {},
+    "id": 5,
+    "start_condition": {},
+    "preset_id": 105,
+    "max": 5
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 6,
+    "sling_shot_preset_id": 206,
+    "server_ids": {},
+    "id": 6,
+    "start_condition": {},
+    "preset_id": 106,
+    "max": 6
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 7,
+    "sling_shot_preset_id": 207,
+    "server_ids": {},
+    "id": 7,
+    "start_condition": {},
+    "preset_id": 107,
+    "max": 7
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 8,
+    "sling_shot_preset_id": 209,
+    "server_ids": {},
+    "id": 8,
+    "start_condition": {},
+    "preset_id": 109,
+    "max": 8
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 9,
+    "sling_shot_preset_id": 208,
+    "server_ids": {},
+    "id": 9,
+    "start_condition": {},
+    "preset_id": 108,
+    "max": 9
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 10,
+    "sling_shot_preset_id": 210,
+    "server_ids": {},
+    "id": 10,
+    "start_condition": {},
+    "preset_id": 110,
+    "max": 10
+  },
+  {
+    "min_lv": 1,
+    "max_lv": 50,
+    "min": 11,
+    "sling_shot_preset_id": 211,
+    "server_ids": {},
+    "id": 11,
+    "start_condition": {},
+    "preset_id": 111,
+    "max": 11
+  }
+]

@@ -2,15 +2,19 @@
   {
     "type": 1,
     "desc": "每10抽必定获得紫色品质及以上组件",
+    "value": {},
     "id": 1,
     "loop_num": 10,
+    "unlock": {},
     "quality": 4
   },
   {
     "type": 1,
     "desc": "每80抽必定获得橙色品质及以上组件",
+    "value": {},
     "id": 2,
     "loop_num": 80,
+    "unlock": {},
     "quality": 5
   },
   {
@@ -22,6 +26,7 @@
     ],
     "id": 3,
     "loop_num": 80,
+    "unlock": {},
     "quality": 5
   },
   {
@@ -33,6 +38,7 @@
     ],
     "id": 4,
     "loop_num": 3,
+    "unlock": {},
     "quality": 3
   },
   {
@@ -44,6 +50,7 @@
     ],
     "id": 5,
     "loop_num": 3,
+    "unlock": {},
     "quality": 4
   },
   {
@@ -55,12 +62,14 @@
     ],
     "id": 6,
     "loop_num": 3,
+    "unlock": {},
     "quality": 5
   },
   {
+    "desc": "再抽%d抽必定获得神器之心",
     "type": 1,
     "next_desc": "下一抽必定获得神器之心",
-    "desc": "再抽%d抽必定获得神器之心",
+    "value": {},
     "id": 7,
     "loop_num": 200,
     "unlock": [
@@ -72,9 +81,10 @@
     "quality": 6
   },
   {
+    "desc": "再抽%d抽必定获得红武",
     "type": 1,
     "next_desc": "下一抽必定获得红武",
-    "desc": "再抽%d抽必定获得红武",
+    "value": {},
     "id": 8,
     "loop_num": 60,
     "unlock": [
@@ -86,9 +96,10 @@
     "quality": 5
   },
   {
+    "desc": "再抽%d抽必定获得神器之心",
     "type": 1,
     "next_desc": "下一抽必定获得神器之心",
-    "desc": "再抽%d抽必定获得神器之心",
+    "value": {},
     "id": 9,
     "loop_num": 200,
     "unlock": [
@@ -100,9 +111,10 @@
     "quality": 6
   },
   {
+    "desc": "再抽%d抽必定获得红武",
     "type": 1,
     "next_desc": "下一抽必定获得红武",
-    "desc": "再抽%d抽必定获得红武",
+    "value": {},
     "id": 10,
     "loop_num": 40,
     "unlock": [

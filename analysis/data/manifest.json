@@ -4,552 +4,1023 @@
     "source": "lua2_573512/auto_gen.package_include.config.ai.ai_-5381264594366544858.bin",
     "sha256": "4b6f1d4c539033e2e3086200010bd83a95cb4dbc8a9877ea56a4008a881d476d",
     "output": "ai_ai.json",
-    "rows": 23
+    "rows": 23,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.ai_misc.ai_misc",
     "source": "lua2_573512/auto_gen.package_include.config.ai_misc.ai_misc_-1907924138369248362.bin",
     "sha256": "fed1d74f32160fc8fdd534806b54e3e92e963dbc227cd8a8337a5d6a02bbba73",
     "output": "ai_misc_ai_misc.json",
-    "rows": 11
+    "rows": 11,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.attr.attr",
     "source": "lua10_573512/auto_gen.package_include.config.attr.attr_6524379194116250538.bin",
     "sha256": "33b50e4f7f03b857f559e4c1419f0f7bc3ee954c6c038f1de4c03ae5c89c3246",
     "output": "attr_attr.json",
-    "rows": 319
+    "rows": 319,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.attr_rules.attr_rules",
     "source": "lua0_573512/auto_gen.package_include.config.attr_rules.attr_rules_-3170846133696051336.bin",
     "sha256": "16e25793ced43305c61b627cdcf5242b48b4f174ac36803b1e6b5d1f82881fa7",
     "output": "attr_rules_attr_rules.json",
-    "rows": 8
+    "rows": 8,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.battle.battle",
     "source": "lua0_573512/auto_gen.package_include.config.battle.battle_7650810913316125297.bin",
     "sha256": "d5c79d9be832b293433a53f53c6227bb79ee8f8d9de94c5e8a6b72e60b3e4d64",
     "output": "battle_battle.json",
-    "rows": 4652
+    "rows": 4652,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.battle_env.battle_env",
     "source": "lua3_573410/auto_gen.package_include.config.battle_env.battle_env_-3304023530973351208.bin",
     "sha256": "1840417f13ab9db6f2f36740285decd6f8e669036ab8de7a712c1b314beea707",
     "output": "battle_env_battle_env.json",
-    "rows": 17
+    "rows": 17,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.battle_gain.battle_gain",
     "source": "lua10_573512/auto_gen.package_include.config.battle_gain.battle_gain_2076194794762178917.bin",
     "sha256": "13d8bea3a97d5f112e79587395b1ed165cc34de1fc858a4e5fd122e33c3da035",
     "output": "battle_gain_battle_gain.json",
-    "rows": 19
+    "rows": 19,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.fight_misc.attr_const",
     "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_const_5724182061044062260.bin",
     "sha256": "3b1b85bb3c8934755d1c70781c6cb13fce3bfeb76e7f84ee8a076d5304895309",
     "output": "fight_misc_attr_const.json",
-    "rows": 279
+    "rows": 279,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.fight_misc.attr_parabola",
     "source": "lua11_573512/auto_gen.package_include.config.fight_misc.attr_parabola_-2399016759695687452.bin",
     "sha256": "471651eeaf0ff7e1ae1eea7b34f1b26ed40b6e1b372e4895d6d5961997a24b26",
     "output": "fight_misc_attr_parabola.json",
-    "rows": 25
+    "rows": 25,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.free_battle_misc.free_battle_misc",
     "source": "lua5_573650/auto_gen.package_include.config.free_battle_misc.free_battle_misc_-7309747630493934129.bin",
     "sha256": "d5a3644d2428c9d8f9604ad7f7d167e6ae19b36cee31621131acb217b2c3f755",
     "output": "free_battle_misc_free_battle_misc.json",
-    "rows": 6
+    "rows": 6,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.free_battle_robot.free_battle_robot",
     "source": "lua10_573512/auto_gen.package_include.config.free_battle_robot.free_battle_robot_-6766789023708836888.bin",
     "sha256": "69b88c8c9ef5167a272017bf63dca531dd029f43926f5ef08481895f1bc0e7b3",
     "output": "free_battle_robot_free_battle_robot.json",
-    "rows": 18
+    "rows": 18,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.ranked_match_misc.ranked_match_misc",
     "source": "lua11_573512/auto_gen.package_include.config.ranked_match_misc.ranked_match_misc_-822219755955665551.bin",
     "sha256": "c2f2c94b0adc6a47f8d66ec1187c5f89273c56b8f62f34e7871beb73550356ff",
     "output": "ranked_match_misc_ranked_match_misc.json",
-    "rows": 29
+    "rows": 29,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.ranked_match_balance.ranked_match_balance",
     "source": "lua6_573512/auto_gen.package_include.config.ranked_match_balance.ranked_match_balance_6186293995520560723.bin",
     "sha256": "747881a33c79386a7927ee68d84d9528d544e550396a2034f0bdd3975380cde5",
     "output": "ranked_match_balance_ranked_match_balance.json",
-    "rows": 288
+    "rows": 288,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.ranked_match_rank.ranked_match_rank",
     "source": "lua2_573512/auto_gen.package_include.config.ranked_match_rank.ranked_match_rank_-9128246459267105443.bin",
     "sha256": "4d46648bf5ecefb7ac1238afc19d933cf3ff4995806cf7baee0815945a8c5bcb",
     "output": "ranked_match_rank_ranked_match_rank.json",
-    "rows": 16
+    "rows": 16,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.team_misc.team_misc",
     "source": "lua9_573570/auto_gen.package_include.config.team_misc.team_misc_-8532930946604725789.bin",
     "sha256": "3a54b259b05e26abee4a9359c200ae78fd992d2a60e76bf1f3cee206f7d393e5",
     "output": "team_misc_team_misc.json",
-    "rows": 28
+    "rows": 28,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.team_robot_misc.team_robot_misc",
     "source": "lua11_573512/auto_gen.package_include.config.team_robot_misc.team_robot_misc_-8467507881855056319.bin",
     "sha256": "b8c35df35d864c30852a0774e7862cb0f7e45e0829cef392201ac6c8f7d29247",
     "output": "team_robot_misc_team_robot_misc.json",
-    "rows": 10
+    "rows": 10,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.team_robot_invite.team_robot_invite",
     "source": "lua9_573570/auto_gen.package_include.config.team_robot_invite.team_robot_invite_3751808160450960170.bin",
     "sha256": "a1fb8eeefb883ac9f23ec62906cf02c860a6f6e4fd5a598269f43ca029c20433",
     "output": "team_robot_invite_team_robot_invite.json",
-    "rows": 1
+    "rows": 1,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.robot.robot",
     "source": "lua9_573570/auto_gen.package_include.config.robot.robot_-6740468885951201188.bin",
     "sha256": "347419da678a85e3548c194081cadd7dedb58c991c1dac04874f9d0ff70b708d",
     "output": "robot_robot.json",
-    "rows": 196
+    "rows": 196,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.robot_plan.robot_plan",
     "source": "lua8_573660/auto_gen.package_include.config.robot_plan.robot_plan_-102460580707331558.bin",
     "sha256": "7278fdd82e7ef2bf7fcf1488487fe1f709e5644fc866e2eb5f07b922e54f43cb",
     "output": "robot_plan_robot_plan.json",
-    "rows": 91
+    "rows": 91,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.robot_role.robot_role",
     "source": "lua4_573711/auto_gen.package_include.config.robot_role.robot_role_-5484900240321383016.bin",
     "sha256": "d0ac4efb7236da739e3999cffa3c87851ef378a4c6e174004780de650f1bde19",
     "output": "robot_role_robot_role.json",
-    "rows": 606
+    "rows": 606,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.robot_tactic.robot_tactic",
     "source": "lua12_573512/auto_gen.package_include.config.robot_tactic.robot_tactic_4276629167782459560.bin",
     "sha256": "c4bafa94ea1639dc426ab332368a1d43e6d9265f6450c1c316b756020416012d",
     "output": "robot_tactic_robot_tactic.json",
-    "rows": 60
+    "rows": 60,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.robot_tactic.talk_trigger",
     "source": "lua12_573512/auto_gen.package_include.config.robot_tactic.talk_trigger_3910488443506788739.bin",
     "sha256": "7e59b7868fc272ff402f736513754428abe41ea26f74f29b4be07b115c3845f5",
     "output": "robot_tactic_talk_trigger.json",
-    "rows": 210
+    "rows": 210,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.skill.skill",
     "source": "lua10_573512/auto_gen.package_include.config.skill.skill_-3855228242822240957.bin",
     "sha256": "c654950a7ebe384595fbbb7688c07ffe8ffb2685f7d93da912f9309bd5cdd761",
     "output": "skill_skill.json",
-    "rows": 8237
+    "rows": 8237,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.passive_skill.passive_skill",
     "source": "lua12_573512/auto_gen.package_include.config.passive_skill.passive_skill_-4447547219151491031.bin",
     "sha256": "1e47483db5e16c3f978b1bd03c4521ad215288ca77b3c60a3e8c72a66fbd5137",
     "output": "passive_skill_passive_skill.json",
-    "rows": 8932
+    "rows": 8932,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon.weapon",
     "source": "lua9_573570/auto_gen.package_include.config.weapon.weapon_3281451056893447273.bin",
     "sha256": "d22d05922a0e41588180cce711c100b89088ad024e6c183b956296378e0bbfd4",
     "output": "weapon_weapon.json",
-    "rows": 440
+    "rows": 440,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_job.weapon_job",
     "source": "lua0_573512/auto_gen.package_include.config.weapon_job.weapon_job_-54631368008830260.bin",
     "sha256": "a65062a2bb13169d737e2b7ee96accb20ef3347bd9d51d5aee7c5ca2d8b3316c",
     "output": "weapon_job_weapon_job.json",
-    "rows": 4
+    "rows": 4,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_class.weapon_class",
     "source": "lua12_573512/auto_gen.package_include.config.weapon_class.weapon_class_2355488305658436498.bin",
     "sha256": "38b23c634b77fa49d459d045704812207561980f3cee503b9e57c2f3615e020f",
     "output": "weapon_class_weapon_class.json",
-    "rows": 6
+    "rows": 6,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_strength.weapon_strength",
     "source": "lua4_573711/auto_gen.package_include.config.weapon_strength.weapon_strength_-7336743213344570781.bin",
     "sha256": "a53f578340cf893a09c43474d0e52ca156339bed569608cccc1f85e2b0f80f1a",
     "output": "weapon_strength_weapon_strength.json",
-    "rows": 30
+    "rows": 30,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_injection.weapon_injection",
     "source": "lua4_573711/auto_gen.package_include.config.weapon_injection.weapon_injection_-8470079135605492675.bin",
     "sha256": "9e4e1daab52d11fab2c3f494a12049b395e4a5425bed7f14716fd9721aaae345",
     "output": "weapon_injection_weapon_injection.json",
-    "rows": 7
+    "rows": 7,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_amplification.weapon_amplification_0",
     "source": "lua1_573660/auto_gen.package_include.config.weapon_amplification.weapon_amplification_0_-8844530509440086220.bin",
     "sha256": "c5c92022f96a94040e372971019fe3f27b235b1032ece1c3cd24499e3b84441a",
     "output": "weapon_amplification_weapon_amplification_0.json",
-    "rows": 120
+    "rows": 120,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_amplification.weapon_amplification_543",
     "source": "lua1_573660/auto_gen.package_include.config.weapon_amplification.weapon_amplification_543_-1414624496891253848.bin",
     "sha256": "51b25801871a892efb82aff8ea8a6752c9ab0a937a93c1b739918ccd144749ea",
     "output": "weapon_amplification_weapon_amplification_543.json",
-    "rows": 120
+    "rows": 120,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_enchant.weapon_enchant",
     "source": "lua1_573660/auto_gen.package_include.config.weapon_enchant.weapon_enchant_6485705223544607537.bin",
     "sha256": "3ed31c112e855a15b3b0a19e3da05f2b3d3fb7bb0ae96978e7885ce828de228e",
     "output": "weapon_enchant_weapon_enchant.json",
-    "rows": 12
+    "rows": 12,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_master.weapon_master",
     "source": "lua11_573512/auto_gen.package_include.config.weapon_master.weapon_master_1027369716023637734.bin",
     "sha256": "2dcf9c87facbd796d42e53720a5e44704a199b6ef31f3b0b7dd2824b55a09e74",
     "output": "weapon_master_weapon_master.json",
-    "rows": 25
+    "rows": 25,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.weapon_star.weapon_star",
     "source": "lua3_573410/auto_gen.package_include.config.weapon_star.weapon_star_1240965334873867893.bin",
     "sha256": "0779988f308fac0b2286308595051b7b5996f999203f1d794f1e3359901d58e0",
     "output": "weapon_star_weapon_star.json",
-    "rows": 3664
+    "rows": 3664,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet.pet",
     "source": "lua8_573660/auto_gen.package_include.config.pet.pet_-6265611510653387117.bin",
     "sha256": "1f3a0c2f0c8b5ae809292278dc3b1cadf2eca72c6e09042c3a40c0284a96bb4f",
     "output": "pet_pet.json",
-    "rows": 47
+    "rows": 47,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet_level.pet_level",
     "source": "lua3_573410/auto_gen.package_include.config.pet_level.pet_level_4282987421562277268.bin",
     "sha256": "50b94f87a1d3c3693ae860220eb27899814274a1dd674c5d502c169705e06bc3",
     "output": "pet_level_pet_level.json",
-    "rows": 100
+    "rows": 100,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet_evo.pet_evo",
     "source": "lua10_573512/auto_gen.package_include.config.pet_evo.pet_evo_-7908387268857994304.bin",
     "sha256": "fa04fc014f887d550c0412c9f2ffed87fb2d042869d692f6682a6ddb09caf302",
     "output": "pet_evo_pet_evo.json",
-    "rows": 621
+    "rows": 621,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet_talent.pet_talent",
     "source": "lua10_573512/auto_gen.package_include.config.pet_talent.pet_talent_-5615147974342739067.bin",
     "sha256": "42f4a7e1178bd737bcde3201e8f8375a8948f2188f21f177171db30fee285711",
     "output": "pet_talent_pet_talent.json",
-    "rows": 188
+    "rows": 188,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet_misc.pet_misc",
     "source": "lua1_573660/auto_gen.package_include.config.pet_misc.pet_misc_7925444442480200700.bin",
     "sha256": "02fd91ded131ed2d3764a963c494b234e1777900e3640bbf52017c760d6af2d7",
     "output": "pet_misc_pet_misc.json",
-    "rows": 78
+    "rows": 78,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.pet_skill_learn.pet_skill_learn",
     "source": "lua6_573512/auto_gen.package_include.config.pet_skill_learn.pet_skill_learn_6691653643631672638.bin",
     "sha256": "c716954aadfda6a0a9627eebff130ec6018ce2a85989d5ba033fb045c709e6ac",
     "output": "pet_skill_learn_pet_skill_learn.json",
-    "rows": 169
+    "rows": 169,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gem_level.gem_level",
     "source": "lua5_573650/auto_gen.package_include.config.gem_level.gem_level_-545740469871129031.bin",
     "sha256": "5f13e6ceb4e8eacc8dd29e3763e71f7e5fafee23ca678dee8771567f6364b88d",
     "output": "gem_level_gem_level.json",
-    "rows": 130
+    "rows": 130,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gem_synthesis.gem_synthesis",
     "source": "lua1_573660/auto_gen.package_include.config.gem_synthesis.gem_synthesis_8577003611203595421.bin",
     "sha256": "44703550b5cfcc4a845f8ef59bf125707ae159c61fd7328e0abb3c0651e59d72",
     "output": "gem_synthesis_gem_synthesis.json",
-    "rows": 1
+    "rows": 1,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gem_skill.gem_skill",
     "source": "lua10_573512/auto_gen.package_include.config.gem_skill.gem_skill_-281791411628058003.bin",
     "sha256": "eaa48f38dbec1581d3f25bc96e7a275ebb1b2707d85a740a314e8a5c6988fd60",
     "output": "gem_skill_gem_skill.json",
-    "rows": 555
+    "rows": 555,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.equip_strengthen.lv",
     "source": "lua4_573711/auto_gen.package_include.config.equip_strengthen.lv_807232781908740750.bin",
     "sha256": "f63d0fdcbe1f4258325ffe396f7082c232f99f5acfbad4e15277c36a30544471",
     "output": "equip_strengthen_lv.json",
-    "rows": 10
+    "rows": 10,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.equip_skill_level.equip_skill_level_0",
     "source": "lua6_573512/auto_gen.package_include.config.equip_skill_level.equip_skill_level_0_-6945334963495948057.bin",
     "sha256": "f59b5cf7a5d837d2f2f3b7c7f51f348b7fd70a2fac1cb256d33dcdbbbbc86807",
     "output": "equip_skill_level_equip_skill_level_0.json",
-    "rows": 968
+    "rows": 968,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.equip_skill_level.equip_skill_level_543",
     "source": "lua6_573512/auto_gen.package_include.config.equip_skill_level.equip_skill_level_543_506787438065231238.bin",
     "sha256": "3f989e224050c3f0136466e1c94b5a1cd4adaae0a26c1f87f7e883e25acdda8c",
     "output": "equip_skill_level_equip_skill_level_543.json",
-    "rows": 968
+    "rows": 968,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.exp.player",
     "source": "lua0_573512/auto_gen.package_include.config.exp.player_-7509012538849515948.bin",
     "sha256": "8dae2f866223dc8f8769e3df5fa05005c8edf953bd20f8e982873c03334da52e",
     "output": "exp_player.json",
-    "rows": 133
+    "rows": 133,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.team_target.main",
     "source": "lua11_573512/auto_gen.package_include.config.team_target.main_-7181414498054759974.bin",
     "sha256": "7f7a3f0b90aca17230cabc019970362c4c509fc2cf2f0a81bf839901268968a3",
     "output": "team_target_main.json",
-    "rows": 28
+    "rows": 28,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.language_define.skill",
     "source": "lua1_573660/auto_gen.package_include.config.language_define.skill_8141256517666560569.bin",
     "sha256": "d3770631f8cd67be72cd61201f1544091948c61852d80ab5e35b80bc82909e1c",
     "output": "language_define_skill.json",
-    "rows": 4572
+    "rows": 4572,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.language_define.passive_skill",
     "source": "lua1_573660/auto_gen.package_include.config.language_define.passive_skill_6504865317392990820.bin",
     "sha256": "1bbeba67a70d89103c7b35c11e47a6ccce7222031a46cbb9428baca8f5dc5ed8",
     "output": "language_define_passive_skill.json",
-    "rows": 6966
+    "rows": 6966,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.language_define.attr",
     "source": "lua1_573660/auto_gen.package_include.config.language_define.attr_5636121154245280958.bin",
     "sha256": "b05cbaaac1df439aa5cddbfa6ec53a2c48ef329caf914c04bddba12ad938bb5e",
     "output": "language_define_attr.json",
-    "rows": 463
+    "rows": 463,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.language_define.battle_env",
     "source": "lua1_573660/auto_gen.package_include.config.language_define.battle_env_-144790164303758964.bin",
     "sha256": "320b830f5ab42c168870ffae6d08c7cbc105db024e26a118098db981f2e7a094",
     "output": "language_define_battle_env.json",
-    "rows": 29
+    "rows": 29,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.language_define.weapon_class",
     "source": "lua1_573660/auto_gen.package_include.config.language_define.weapon_class_948409280418659139.bin",
     "sha256": "0c98d12164ba52979113dd9dd8c2a1f6068d6a7c395ee7a6acf66a8fd5fe7852",
     "output": "language_define_weapon_class.json",
-    "rows": 12
+    "rows": 12,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha_misc.gacha_misc",
     "source": "lua12_573512/auto_gen.package_include.config.gacha_misc.gacha_misc_7739475200575144929.bin",
     "sha256": "438040ef6dc3e645ab7823511f8259a67f7c7a2065ad9e0418ebfbf7905d287f",
     "output": "gacha_misc_gacha_misc.json",
-    "rows": 14
+    "rows": 14,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha_guarantee.gacha_guarantee",
     "source": "lua11_573512/auto_gen.package_include.config.gacha_guarantee.gacha_guarantee_-7575259529417761934.bin",
     "sha256": "7af82a31f63eac3cfc76dd68c8a549f39a438936fb7b63a0ae751d1e14d3c808",
     "output": "gacha_guarantee_gacha_guarantee.json",
-    "rows": 10
+    "rows": 10,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha_pool.gacha_pool",
     "source": "lua4_573711/auto_gen.package_include.config.gacha_pool.gacha_pool_-7935424634148655449.bin",
     "sha256": "5a768ed24fa10ac94bb8fd0d1c9358581d2c2c528e7c965c6d32df1d1850bfd1",
     "output": "gacha_pool_gacha_pool.json",
-    "rows": 200
+    "rows": 200,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha.gacha_0",
     "source": "lua4_573711/auto_gen.package_include.config.gacha.gacha_0_604700157264528603.bin",
     "sha256": "4be87baaa10ed8ea34432b6a8abcdc82c47cedc0ca784fe940e0737e11b3c2d8",
     "output": "gacha_gacha_0.json",
-    "rows": 1
+    "rows": 1,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha.gacha_543",
     "source": "lua4_573711/auto_gen.package_include.config.gacha.gacha_543_-2867609434655422984.bin",
     "sha256": "e457610491fbe96255d903b259c6067fe68049207e764c536ceb73dbc2b1eda8",
     "output": "gacha_gacha_543.json",
-    "rows": 1
+    "rows": 1,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gacha_wish.gacha_wish",
     "source": "lua5_573650/auto_gen.package_include.config.gacha_wish.gacha_wish_5239760701562676389.bin",
     "sha256": "d7b93b1f37c86fe6ef3f620f5626ef8f4d53bd3a586ff35f013a3d0e6be22c28",
     "output": "gacha_wish_gacha_wish.json",
-    "rows": 7
+    "rows": 7,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.shop.shop_0",
     "source": "lua8_573660/auto_gen.package_include.config.shop.shop_0_-3211099693395847770.bin",
     "sha256": "33ab88a84f87903ca31e8ba05f4fd8f74d812b5becdcf2ae46a129a4d30d450e",
     "output": "shop_shop_0.json",
-    "rows": 23
+    "rows": 23,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.shop.shop_543",
     "source": "lua8_573660/auto_gen.package_include.config.shop.shop_543_3326241323951293059.bin",
     "sha256": "5539b42e6953b14bf0c6ce4e9ed497c8a583acebc20aa0aa7904f25bcef350f6",
     "output": "shop_shop_543.json",
-    "rows": 28
+    "rows": 28,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.shop_class.shop_class",
     "source": "lua11_573512/auto_gen.package_include.config.shop_class.shop_class_-3406478644912893761.bin",
     "sha256": "960977cdc512a187e2915139211daed8fb7a6e23f931ab416f46b1cea96787e2",
     "output": "shop_class_shop_class.json",
-    "rows": 46
+    "rows": 46,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.seven_sign.seven_sign_0",
     "source": "lua8_573660/auto_gen.package_include.config.seven_sign.seven_sign_0_-7569516695107156289.bin",
     "sha256": "b3d18be55e898aa8a1cd3dba9c71af6a723ff13de3430c137391c0296c1d9ae2",
     "output": "seven_sign_seven_sign_0.json",
-    "rows": 5
+    "rows": 5,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.seven_sign.seven_sign_543",
     "source": "lua8_573660/auto_gen.package_include.config.seven_sign.seven_sign_543_7454392523392418410.bin",
     "sha256": "847c4fddfe40bae6e7a77992725c4d2cbf3ddc50593f898fc3628d57e91ed80f",
     "output": "seven_sign_seven_sign_543.json",
-    "rows": 5
+    "rows": 5,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.task_liveness.task_liveness",
     "source": "lua10_573512/auto_gen.package_include.config.task_liveness.task_liveness_-4493766599770351219.bin",
     "sha256": "f8aed4f160e687c2190e98ea7aff85e1c30eff966bacab2964be42a16ef95f4b",
     "output": "task_liveness_task_liveness.json",
-    "rows": 5
+    "rows": 5,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.tasks.tasks_0",
     "source": "lua7_573533/auto_gen.package_include.config.tasks.tasks_0_4849879193151581229.bin",
     "sha256": "1bb5b6e9f70ffdb591635bd8364bea92bd9d1c40c4172cf5a6affd485e7657f9",
     "output": "tasks_tasks_0.json",
-    "rows": 80
+    "rows": 80,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.tasks.tasks_543",
     "source": "lua7_573533/auto_gen.package_include.config.tasks.tasks_543_5065045647889641194.bin",
     "sha256": "5ee0b11c4af1911de2423105bc51051bba6cb645d89ee9d241364e3edb0c9e85",
     "output": "tasks_tasks_543.json",
-    "rows": 80
+    "rows": 80,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.battlepass_misc.battlepass_misc",
     "source": "lua5_573650/auto_gen.package_include.config.battlepass_misc.battlepass_misc_-8200650588084156186.bin",
     "sha256": "7dffad6fa586e304cff7a335747ac5782c8a869e6fef5591b33aa78fd113ccf6",
     "output": "battlepass_misc_battlepass_misc.json",
-    "rows": 7
+    "rows": 7,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.battlepass_common.battlepass_common",
     "source": "lua5_573650/auto_gen.package_include.config.battlepass_common.battlepass_common_3662703076486911480.bin",
     "sha256": "007a2cea2287c624880978f796a18251e694f45f489783a364820164d43b793c",
     "output": "battlepass_common_battlepass_common.json",
-    "rows": 17
+    "rows": 17,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_misc.season_misc",
     "source": "lua4_573711/auto_gen.package_include.config.season_misc.season_misc_3946440141446785915.bin",
     "sha256": "ac1b3d29c0e08ed6737964e3c41e844ae8ea8982513a0e13ecdb6cb067c6456c",
     "output": "season_misc_season_misc.json",
-    "rows": 62
+    "rows": 62,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_reset.season_reset",
     "source": "lua6_573512/auto_gen.package_include.config.season_reset.season_reset_1292712693523699504.bin",
     "sha256": "325d642afeb4a90d1073d82ccb417d6180361c9baf730848101b5671fcbdf991",
     "output": "season_reset_season_reset.json",
-    "rows": 4
+    "rows": 4,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_rank.season_rank",
     "source": "lua10_573512/auto_gen.package_include.config.season_rank.season_rank_-4247833471120686611.bin",
     "sha256": "f8738dd4e216e54b2b0f84799f4534b72f0e73ade68a181eb711985b12f74bec",
     "output": "season_rank_season_rank.json",
-    "rows": 27
+    "rows": 27,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_cup.season_cup",
     "source": "lua10_573512/auto_gen.package_include.config.season_cup.season_cup_-522318371118045844.bin",
     "sha256": "dc5d6b6e51ace334f8a81c1efa9a0bc2b0495779723305220bad36b992abc9a0",
     "output": "season_cup_season_cup.json",
-    "rows": 53
+    "rows": 53,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_cultivate.season_cultivate",
     "source": "lua7_573533/auto_gen.package_include.config.season_cultivate.season_cultivate_-2409590241630127749.bin",
     "sha256": "9dd87f52e8e53086446cf5a9918b80e8eac2bf197cc289b1241e4de413300871",
     "output": "season_cultivate_season_cultivate.json",
-    "rows": 30
+    "rows": 30,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.season_pvp_elo.pvp_elo",
     "source": "lua7_573533/auto_gen.package_include.config.season_pvp_elo.pvp_elo_614984319525012012.bin",
     "sha256": "b17bd26e6a76675bd51e6d6f4d812e1e6d230620c7953568c59183a9db74ab85",
     "output": "season_pvp_elo_pvp_elo.json",
-    "rows": 16
+    "rows": 16,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.open_func.open_func_0",
     "source": "lua9_573570/auto_gen.package_include.config.open_func.open_func_0_7787192126939727327.bin",
     "sha256": "989ae67fe72f9b65d9931c49107e68c3ab7d5d6883be465259045e5536d55611",
     "output": "open_func_open_func_0.json",
-    "rows": 21
+    "rows": 21,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.open_func.open_func_543",
     "source": "lua9_573570/auto_gen.package_include.config.open_func.open_func_543_-5012888750475918977.bin",
     "sha256": "2801b789661d93b0f39d226431786633a19bebd7132546b37c0bac1c8c177a23",
     "output": "open_func_open_func_543.json",
-    "rows": 21
+    "rows": 21,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.gameplay.gameplay",
     "source": "lua5_573650/auto_gen.package_include.config.gameplay.gameplay_8702747091628045568.bin",
     "sha256": "ee6e507a5de50fd29f68efd37f460fd698cd846d8103d5c961a70c2c71406e65",
     "output": "gameplay_gameplay.json",
-    "rows": 70
+    "rows": 70,
+    "resolved_table_defaults": true
   },
   {
     "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0",
     "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_0_-6383403709424737490.bin",
     "sha256": "4d0c9f0040a58f5585f3f427cecacdbae2dd945163d91f8866161dc00b5dfd87",
     "output": "skill_base_upgrade_skill_base_upgrade_0.json",
-    "rows": 905
+    "rows": 905,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.item.item",
+    "source": "lua9_573570/auto_gen.package_include.config.item.item_345242282481572702.bin",
+    "sha256": "02f16018a68c07dfb474e8b88985f3aefa91fc9247f2bb5a65ece02ca13451c1",
+    "output": "item_item.json",
+    "rows": 17446,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.item.item_0",
+    "source": "lua9_573570/auto_gen.package_include.config.item.item_0_-5186396712822035356.bin",
+    "sha256": "afd3d01d69bcf964b5fc59e8e49910e87da2c9055c8cb1ecf4640f74fc316389",
+    "output": "item_item_0.json",
+    "rows": 4,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.item.item_543",
+    "source": "lua9_573570/auto_gen.package_include.config.item.item_543_4563851810915497386.bin",
+    "sha256": "809c1ea1ada3849e2473e271c6ace207615c63971de0e2b1c158dc02d3c5788a",
+    "output": "item_item_543.json",
+    "rows": 4,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.item",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.item_9082349422518302249.bin",
+    "sha256": "562d209b3196327b93dd9ae5cfd3826d73b4c6d66103d3c145a9a7b59a8bd565",
+    "output": "language_define_item.json",
+    "rows": 7310,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.buff.buff",
+    "source": "lua4_573711/auto_gen.package_include.config.buff.buff_-2424187949957385523.bin",
+    "sha256": "e468cd3063ffc0f99ff8ec77f354b7062c35453fc6689d7a008bdede3eb6138c",
+    "output": "buff_buff.json",
+    "rows": 4333,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.buff",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.buff_-357087016320119169.bin",
+    "sha256": "dd84bfd9eec6c0780b7df186ce415cc287efb8402affd9ff6b5510734fdde5e6",
+    "output": "language_define_buff.json",
+    "rows": 1229,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.weapon_class_up.weapon_class_up",
+    "source": "lua2_573512/auto_gen.package_include.config.weapon_class_up.weapon_class_up_-8224307310403580397.bin",
+    "sha256": "fa31b908b9f15ad1c93a73b4b536d23965f8609cb6cd37197dd0b1f121da149f",
+    "output": "weapon_class_up_weapon_class_up.json",
+    "rows": 6,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.gem_misc.gem_misc",
+    "source": "lua7_573533/auto_gen.package_include.config.gem_misc.gem_misc_-4886370302971755314.bin",
+    "sha256": "348966d0e4abcd386564dd7255a27a77a51b5230066d36b3358bbae26283953d",
+    "output": "gem_misc_gem_misc.json",
+    "rows": 10,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.equip.equip",
+    "source": "lua5_573650/auto_gen.package_include.config.equip.equip_-1274546644007650304.bin",
+    "sha256": "e12d3d0aea30497d8d84f31099a7a78e04582da93bb79f7977e04ece0193ce0d",
+    "output": "equip_equip.json",
+    "rows": 8707,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.equip.equip_0",
+    "source": "lua5_573650/auto_gen.package_include.config.equip.equip_0_-3141657346167522060.bin",
+    "sha256": "48b497c8b12e076ed87d94be30209768c430c94ed9505513b92bac4be46e36da",
+    "output": "equip_equip_0.json",
+    "rows": 2160,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.equip.equip_543",
+    "source": "lua5_573650/auto_gen.package_include.config.equip.equip_543_1872876464965594967.bin",
+    "sha256": "01fd25a7024651aa4a0585fc172901602cf0fa30bebb8019ada3b13c07ab7c7f",
+    "output": "equip_equip_543.json",
+    "rows": 2160,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.equip.attr_library",
+    "source": "lua5_573650/auto_gen.package_include.config.equip.attr_library_-1424497233251181580.bin",
+    "sha256": "24429690b26aaef5d0cf2d052246346faacd1913f735538aa7310dee0be48b92",
+    "output": "equip_attr_library.json",
+    "rows": 8,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.season_gameplay.season_gameplay",
+    "source": "lua3_573410/auto_gen.package_include.config.season_gameplay.season_gameplay_-6157689935830808387.bin",
+    "sha256": "2613be05601d00f5d102fff0374b63d6f03468ce5e3f4c0cc600e7de34977a21",
+    "output": "season_gameplay_season_gameplay.json",
+    "rows": 48,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.season_new.season_new_0",
+    "source": "lua0_573512/auto_gen.package_include.config.season_new.season_new_0_2536671806179019523.bin",
+    "sha256": "bead30576780e78ca1f4caa3e6676ab61ce9b38fbe69bc27b160f88559c2b24d",
+    "output": "season_new_season_new_0.json",
+    "rows": 10,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.season_new.season_new_543",
+    "source": "lua0_573512/auto_gen.package_include.config.season_new.season_new_543_-8233568531571360303.bin",
+    "sha256": "33960c0f0c3deab5965c2c95f504ae93b56d1ae17f72067219640ce3caa19b13",
+    "output": "season_new_season_new_543.json",
+    "rows": 10,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.season_newbie.season_newbie_0",
+    "source": "lua3_573410/auto_gen.package_include.config.season_newbie.season_newbie_0_-6609890540229553948.bin",
+    "sha256": "ca10ed62ceb49edd31fa734f614dc9beff6dd8cf172600107e3038675dd00b5f",
+    "output": "season_newbie_season_newbie_0.json",
+    "rows": 11,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.season_newbie.season_newbie_543",
+    "source": "lua3_573410/auto_gen.package_include.config.season_newbie.season_newbie_543_6815041756381592210.bin",
+    "sha256": "c893ca6a4f3ea175c5114707633a2f3505683a1435e888e13b4965bd31b8126d",
+    "output": "season_newbie_season_newbie_543.json",
+    "rows": 12,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_season.battlepass_season",
+    "source": "lua4_573711/auto_gen.package_include.config.battlepass_season.battlepass_season_-2420286698488912828.bin",
+    "sha256": "cdd85ae87f951be2f9fe693d44faa8964b32f984168cb2144086ebd6762a41a2",
+    "output": "battlepass_season_battlepass_season.json",
+    "rows": 32,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_reward.item_0",
+    "source": "lua6_573512/auto_gen.package_include.config.battlepass_reward.item_0_6443944354430793164.bin",
+    "sha256": "90c2adb699455f06e4b4c327777444f044ac96bf82c83968bf431a12d446f6b4",
+    "output": "battlepass_reward_item_0.json",
+    "rows": 50,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_reward.item_543",
+    "source": "lua6_573512/auto_gen.package_include.config.battlepass_reward.item_543_8876887089987514940.bin",
+    "sha256": "dd6e6bc4245fecaf0fa4ea9deba8163fbdfc33ae0cba6ca68a69bdb770a8b9c1",
+    "output": "battlepass_reward_item_543.json",
+    "rows": 50,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_common_reward.item_0",
+    "source": "lua9_573570/auto_gen.package_include.config.battlepass_common_reward.item_0_-7900976980135426344.bin",
+    "sha256": "62468ac24d03f12710732b4b63b6ab98fcc1a7885418c75f5827754d8a3b83a7",
+    "output": "battlepass_common_reward_item_0.json",
+    "rows": 45,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.battlepass_common_reward.item_543",
+    "source": "lua9_573570/auto_gen.package_include.config.battlepass_common_reward.item_543_3330274395553661630.bin",
+    "sha256": "181c977d5f0cdfd8eb1f6e299c816bc8a3e447e25eb1363a8b76564579bb66aa",
+    "output": "battlepass_common_reward_item_543.json",
+    "rows": 45,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.battlepass",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.battlepass_3092629685067676880.bin",
+    "sha256": "7ffa102529f025fa5dcf1742b0757ee5657800ead3cb0f816f05a96a6cef6445",
+    "output": "language_define_battlepass.json",
+    "rows": 12,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.battlepass_common_reward",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.battlepass_common_reward_5330262526774466910.bin",
+    "sha256": "56e018424d85196fb84bf64f8e66b4fa1830f296250d2f808057ae5ed5328417",
+    "output": "language_define_battlepass_common_reward.json",
+    "rows": 121,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.open_func.open_func",
+    "source": "lua9_573570/auto_gen.package_include.config.open_func.open_func_-4233286137592963730.bin",
+    "sha256": "ad402ca619ed07b5f5174b222c0dadf65155b2668e31b6f153d363eb2757d48a",
+    "output": "open_func_open_func.json",
+    "rows": 707,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.gacha.gacha",
+    "source": "lua4_573711/auto_gen.package_include.config.gacha.gacha_1091583176161625311.bin",
+    "sha256": "b2224a6805317462203d7e62754f8606e0f0396a85fee7c54efac97e496daea8",
+    "output": "gacha_gacha.json",
+    "rows": 6,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.shop.shop",
+    "source": "lua8_573660/auto_gen.package_include.config.shop.shop_-5040313086352065343.bin",
+    "sha256": "3e68e76d125337e2fdd31e6cadf7072c7284c8ecd8a947acae76b87782a9e98f",
+    "output": "shop_shop.json",
+    "rows": 2529,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.tasks.tasks",
+    "source": "lua7_573533/auto_gen.package_include.config.tasks.tasks_-5101264681372913329.bin",
+    "sha256": "e5cfc59fc1340a4fb53e1c13832081cb020ca0ebaf53f2542711397b1a0d99a0",
+    "output": "tasks_tasks.json",
+    "rows": 7004,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade",
+    "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_3998053040281171957.bin",
+    "sha256": "56952e85c7d122fd737dc87108927a4c9bc658fcb31f7ea153ae667f5599839d",
+    "output": "skill_base_upgrade_skill_base_upgrade.json",
+    "rows": 0,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_543",
+    "source": "lua9_573570/auto_gen.package_include.config.skill_base_upgrade.skill_base_upgrade_543_-695300567749290133.bin",
+    "sha256": "a42c4bce9ac531ceb570aa89b2c050228787bee9ab8257c2ea3c7072a16f1eb1",
+    "output": "skill_base_upgrade_skill_base_upgrade_543.json",
+    "rows": 905,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.tasks",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.tasks_-4756353471488107377.bin",
+    "sha256": "ff55a17179fecbd5b51e06b7e59876a35a1dd20623bbf2d72453965b9aadfb40",
+    "output": "language_define_tasks.json",
+    "rows": 3536,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.pet",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.pet_-2294726981045820911.bin",
+    "sha256": "a1e5948456d35196d679a03d183ead80c06fed4b07ecba63f3041217ecc642df",
+    "output": "language_define_pet.json",
+    "rows": 103,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.weapon",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.weapon_-3507861508924744641.bin",
+    "sha256": "3bebbe90111bd59546d3059787dd9cd95643fae849376b558aadfd9159debdef",
+    "output": "language_define_weapon.json",
+    "rows": 404,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.open_func",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.open_func_-894159875743220702.bin",
+    "sha256": "bfbd0359fe0ac1e0bd51527486b48bb8cfbed036e1aaae13edd024c5074dbee7",
+    "output": "language_define_open_func.json",
+    "rows": 47,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.preset_rank_battle.preset_rank_battle",
+    "source": "lua4_573711/auto_gen.package_include.config.preset_rank_battle.preset_rank_battle_5744864833447993190.bin",
+    "sha256": "f56638ef78efb0540d4aacc16947ca658da369c0dba5027528e2c2be6f944184",
+    "output": "preset_rank_battle_preset_rank_battle.json",
+    "rows": 57,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.rank_define.normal",
+    "source": "lua9_573570/auto_gen.package_include.config.rank_define.normal_732703874455507463.bin",
+    "sha256": "3d6f821241d48188af9f0d660a0bdc945b7fc70682c5e949df70155a5a8d2a04",
+    "output": "rank_define_normal.json",
+    "rows": 97,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.character_rating.character_rating",
+    "source": "lua3_573410/auto_gen.package_include.config.character_rating.character_rating_6586892050381988857.bin",
+    "sha256": "5c5c4941bf02f3c56aa1009c67f4d49b2b33150e81812fb1720720f0e812b6c4",
+    "output": "character_rating_character_rating.json",
+    "rows": 21,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.recommend_rating.character_rating",
+    "source": "lua12_573512/auto_gen.package_include.config.recommend_rating.character_rating_628950009799163753.bin",
+    "sha256": "6fb0dee307b76d5bffd46bd801cbd56354d1bbfba56ba77279627eadc9ae7fc9",
+    "output": "recommend_rating_character_rating.json",
+    "rows": 320,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.demo_plan.demo_plan",
+    "source": "lua3_573410/auto_gen.package_include.config.demo_plan.demo_plan_-8202401119221229926.bin",
+    "sha256": "9725d41049370e0ecd2e01dda68564011741160c1b128f1fa6abe7805a1b4e44",
+    "output": "demo_plan_demo_plan.json",
+    "rows": 198,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.misc.skill",
+    "source": "lua0_573512/auto_gen.package_include.config.misc.skill_-1832432380759154564.bin",
+    "sha256": "2804f88804f72f64d3fe79011421373c998f60dc703a8ca110419ee83b6ce05a",
+    "output": "misc_skill.json",
+    "rows": 4,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.misc.attr",
+    "source": "lua0_573512/auto_gen.package_include.config.misc.attr_-258815118515844867.bin",
+    "sha256": "5c33bbbb6cfe5fb2b0bb1a06fbe00c174eb0c96fd2a56991a764861a10d79a4e",
+    "output": "misc_attr.json",
+    "rows": 10,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.misc.task",
+    "source": "lua0_573512/auto_gen.package_include.config.misc.task_-295498289969200611.bin",
+    "sha256": "377af30d695ef0426407e80b298ae3ca0252ca2abe0f7b9cd6bff072105fc146",
+    "output": "misc_task.json",
+    "rows": 20,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.misc.equip",
+    "source": "lua0_573512/auto_gen.package_include.config.misc.equip_-2892614794661475319.bin",
+    "sha256": "0f823f6deb087d1d7b73480c9c4a7477120e19e88a3351bc1727422630e2b7e0",
+    "output": "misc_equip.json",
+    "rows": 83,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.misc.season",
+    "source": "lua0_573512/auto_gen.package_include.config.misc.season_1641997697153099043.bin",
+    "sha256": "3bc108d8255118f50578443a96e39cbac277e2644638135765850e94fb72394b",
+    "output": "misc_season.json",
+    "rows": 2,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.attr_trans.pet",
+    "source": "lua7_573533/auto_gen.package_include.config.attr_trans.pet_-4255163358964703862.bin",
+    "sha256": "f9699476e5c21c08548df152df060b952c6a5d479e8d81692cdf6ca5caba508f",
+    "output": "attr_trans_pet.json",
+    "rows": 6,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.attr_trans.attr_trans",
+    "source": "lua7_573533/auto_gen.package_include.config.attr_trans.attr_trans_3647163062863864362.bin",
+    "sha256": "41dfcb1ed32c38de091f4490f7eb9bc3b1e952a13153890ac3aab660f9828fc2",
+    "output": "attr_trans_attr_trans.json",
+    "rows": 9,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.attr_trans_pet.attr_trans_pet",
+    "source": "lua10_573512/auto_gen.package_include.config.attr_trans_pet.attr_trans_pet_8922154940508817437.bin",
+    "sha256": "9372a4677168ffe6304f5ffd3400fae4bbf0cbe035cdeaa586a406e7a67c42db",
+    "output": "attr_trans_pet_attr_trans_pet.json",
+    "rows": 13,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.seven_sign.seven_sign",
+    "source": "lua8_573660/auto_gen.package_include.config.seven_sign.seven_sign_-7848078464472201132.bin",
+    "sha256": "498bb54edee43c0707c4951cee6928052e5d05de467fd9a483a4c665906f9d8f",
+    "output": "seven_sign_seven_sign.json",
+    "rows": 9,
+    "resolved_table_defaults": true
+  },
+  {
+    "name": "auto_gen.package_include.config.language_define.seven_sign",
+    "source": "lua1_573660/auto_gen.package_include.config.language_define.seven_sign_-2893506384705879795.bin",
+    "sha256": "6c08bd22884d45a3d66524572eb73ff8a807d199ff404f0154b1ad42dde7f437",
+    "output": "language_define_seven_sign.json",
+    "rows": 17,
+    "resolved_table_defaults": true
   }
 ]

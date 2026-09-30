@@ -1,0 +1,393 @@
+[
+  {
+    "type": 2,
+    "sequence": 50,
+    "red_point": "stone_red_point",
+    "id": 1,
+    "condition": [
+      2,
+      2302
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_1",
+    "is_pvp_suggest": 1,
+    "jumpto": "StoneSubView",
+    "is_lose_suggest": 1,
+    "icon": "baozhu",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 30,
+    "red_point": "weapon_sub_equip_red_point",
+    "id": 2,
+    "condition": [
+      2,
+      2299
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_2",
+    "is_pvp_suggest": 1,
+    "jumpto": "EquipView",
+    "is_lose_suggest": 1,
+    "icon": "zhuangbei",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 10,
+    "red_point": "weapon_sub_weapon_red_point",
+    "id": 3,
+    "condition": [
+      1,
+      1
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_3",
+    "is_pvp_suggest": 1,
+    "jumpto": "WeaponSubView",
+    "is_lose_suggest": 1,
+    "icon": "tianfu",
+    "tag": [
+      7000,
+      8500,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 100,
+    "red_point": "season_cultivate_main_redpoint",
+    "id": 4,
+    "condition": [
+      2,
+      28
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_4",
+    "jumpto": "CultivationView",
+    "is_lose_suggest": 1,
+    "icon": "xiulian",
+    "tag": [
+      7000,
+      8500,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 110,
+    "red_point": "weapon_sub_skill_red_point",
+    "id": 5,
+    "condition": [
+      2,
+      5
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_5",
+    "jumpto": "SkillSubView",
+    "icon": "jineng",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "hint": "AUTO_GEN_character_rating_character_rating_hint_6",
+    "type": 2,
+    "name": "AUTO_GEN_character_rating_character_rating_name_6",
+    "condition": [
+      3
+    ],
+    "id": 6,
+    "sequence": 120,
+    "icon": "wenjianjia",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "jumpto": "ToyGeneralView",
+    "type": 1,
+    "name": "AUTO_GEN_character_rating_character_rating_name_7",
+    "condition": [
+      1,
+      9999
+    ],
+    "id": 7,
+    "sequence": 80,
+    "icon": "wanju",
+    "tag": [
+      7000,
+      8000,
+      9000
+    ]
+  },
+  {
+    "is_lose_suggest": 1,
+    "type": 2,
+    "condition": [
+      2,
+      2204
+    ],
+    "jumpto": "EquipStrengthenView",
+    "name": "AUTO_GEN_character_rating_character_rating_name_8",
+    "red_point": "equip_strength_red_point",
+    "id": 8,
+    "sequence": 40,
+    "icon": "zhuangbeiqianghua",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "is_lose_suggest": 1,
+    "type": 2,
+    "condition": [
+      2,
+      2208
+    ],
+    "jumpto": "WeaponDevelopViewStrength",
+    "name": "AUTO_GEN_character_rating_character_rating_name_9",
+    "red_point": "main_weapon_develop_strength_entrance_red_point",
+    "id": 9,
+    "sequence": 20,
+    "icon": "wuqiqianghua",
+    "tag": [
+      7000,
+      8500,
+      9000
+    ]
+  },
+  {
+    "is_lose_suggest": 1,
+    "type": 2,
+    "condition": [
+      2,
+      6701
+    ],
+    "jumpto": "CardMainView",
+    "name": "AUTO_GEN_character_rating_character_rating_name_10",
+    "red_point": "card_red_point",
+    "id": 10,
+    "sequence": 70,
+    "icon": "kapai",
+    "tag": [
+      6000,
+      8000,
+      9000
+    ]
+  },
+  {
+    "is_lose_suggest": 1,
+    "type": 2,
+    "sequence": 90,
+    "red_point": "main_view_block_btn",
+    "id": 11,
+    "condition": [
+      2,
+      2201
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_11",
+    "jumpto": "BlockMainView",
+    "is_pvp_suggest": 1,
+    "icon": "tianfujimu",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 1,
+    "sequence": 130,
+    "red_point": "player_portrait_type_red_4",
+    "id": 12,
+    "condition": [
+      2,
+      5401
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_12",
+    "jumpto": "TitleMainView",
+    "icon": "chenghao",
+    "tag": [
+      4000,
+      6000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 140,
+    "red_point": "pictorial_type_red_point1",
+    "id": 13,
+    "condition": [
+      2,
+      7505
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_13",
+    "jumpto": "PictorialWeaponView",
+    "icon": "wuqitujian",
+    "tag": [
+      7000,
+      8500,
+      9000
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 60,
+    "red_point": "equip_effect_build_toggle",
+    "id": 14,
+    "condition": [
+      2,
+      2238
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_14",
+    "is_pvp_suggest": 1,
+    "jumpto": "EquipRefineView",
+    "is_lose_suggest": 1,
+    "icon": "jinglian",
+    "tag": [
+      6500,
+      8500,
+      9000
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 150,
+    "red_point": "pet_toggle_red_point",
+    "id": 15,
+    "condition": [
+      2,
+      1801
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_15",
+    "is_pvp_suggest": 1,
+    "jumpto": "PetSubView",
+    "is_lose_suggest": 1,
+    "icon": "chongwujineng",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 160,
+    "red_point": "farm_main_red_point",
+    "id": 16,
+    "condition": [
+      2,
+      9801
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_16",
+    "jumpto": "Farm",
+    "icon": "qita",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 1,
+    "sequence": 145,
+    "red_point": "pictorial_type_red_point2",
+    "id": 17,
+    "condition": [
+      2,
+      7504
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_17",
+    "jumpto": "PictorialSkinView",
+    "icon": "shizhuangtujian",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 1,
+    "sequence": 5,
+    "red_point": "label_level_red_point",
+    "id": 18,
+    "condition": [
+      2,
+      7601
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_18",
+    "jumpto": "LabelMainView",
+    "is_lose_suggest": 1,
+    "icon": "touxian",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 105,
+    "red_point": "alliance_equip_better_red_point",
+    "id": 19,
+    "condition": [
+      2,
+      701
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_19",
+    "jumpto": "AllianceEquipView",
+    "icon": "luopan",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "sequence": 106,
+    "red_point": "alliance_equip_strengthen_red_point",
+    "id": 20,
+    "condition": [
+      2,
+      702
+    ],
+    "name": "AUTO_GEN_character_rating_character_rating_name_20",
+    "jumpto": "AllianceEquipStrengthView",
+    "is_lose_suggest": 1,
+    "icon": "huangjin",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  },
+  {
+    "type": 2,
+    "name": "AUTO_GEN_character_rating_character_rating_name_21",
+    "condition": [
+      2,
+      168
+    ],
+    "id": 21,
+    "sequence": 107,
+    "icon": "huangjin",
+    "tag": [
+      7000,
+      9000,
+      9500
+    ]
+  }
+]

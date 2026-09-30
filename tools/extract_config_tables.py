@@ -51,18 +51,47 @@ NAMES = [
     "season_pvp_elo.pvp_elo",
     "open_func.open_func_0", "open_func.open_func_543",
     "gameplay.gameplay", "skill_base_upgrade.skill_base_upgrade_0",
+    "item.item", "item.item_0", "item.item_543", "language_define.item",
+    "buff.buff", "language_define.buff",
+    "weapon_class_up.weapon_class_up", "gem_misc.gem_misc",
+    "equip.equip", "equip.equip_0", "equip.equip_543", "equip.attr_library",
+    "season_gameplay.season_gameplay", "season_new.season_new_0", "season_new.season_new_543",
+    "season_newbie.season_newbie_0", "season_newbie.season_newbie_543",
+    "battlepass_season.battlepass_season", "battlepass_reward.item_0", "battlepass_reward.item_543",
+    "battlepass_common_reward.item_0", "battlepass_common_reward.item_543",
+    "language_define.battlepass", "language_define.battlepass_common_reward",
+    "open_func.open_func", "gacha.gacha", "shop.shop", "tasks.tasks",
+    "skill_base_upgrade.skill_base_upgrade", "skill_base_upgrade.skill_base_upgrade_543",
+    "language_define.tasks", "language_define.pet", "language_define.weapon", "language_define.open_func",
+    "preset_rank_battle.preset_rank_battle", "rank_define.normal",
+    "character_rating.character_rating", "recommend_rating.character_rating", "demo_plan.demo_plan",
+    "misc.skill", "misc.attr", "misc.task", "misc.equip", "misc.season",
+    "attr_trans.pet", "attr_trans.attr_trans", "attr_trans_pet.attr_trans_pet",
+    "seven_sign.seven_sign", "language_define.seven_sign",
 ]
 
 
-def convert(value, table_type):
+def convert(value, table_type, get_metatable, depth=0, inherited_table=False):
+    if depth > 100:
+        raise ValueError("Cyclic/deep config table")
     if isinstance(value, bytes):
         return value.decode("utf-8", "replace")
     if isinstance(value, table_type):
-        pairs = list(value.items())
+        meta = get_metatable(value)
+        index = meta[b"__index"] if isinstance(meta, table_type) else None
+        inherited = {}
+        if isinstance(index, table_type):
+            converted_index = convert(index, table_type, get_metatable, depth + 1, True)
+            inherited = converted_index if isinstance(converted_index, dict) else {
+                str(i): v for i, v in enumerate(converted_index, 1)}
+        pairs = [(key, item) for key, item in value.items()
+                 if not (inherited_table and key in {b"__index", b"__newindex", b"__metatable"})]
         keys = {key for key, _ in pairs}
-        if pairs and all(isinstance(key, int) for key, _ in pairs) and keys == set(range(1, len(pairs) + 1)):
-            return [convert(value[index], table_type) for index in range(1, len(pairs) + 1)]
-        return {str(convert(key, table_type)): convert(item, table_type) for key, item in pairs}
+        if not inherited and pairs and all(isinstance(key, int) for key, _ in pairs) and keys == set(range(1, len(pairs) + 1)):
+            return [convert(value[index], table_type, get_metatable, depth+1) for index in range(1, len(pairs) + 1)]
+        inherited.update({str(convert(key, table_type, get_metatable, depth+1)):
+                          convert(item, table_type, get_metatable, depth+1) for key, item in pairs})
+        return inherited
     return value
 
 
@@ -83,13 +112,18 @@ def main() -> None:
         globals_ = runtime.globals()
         for forbidden in ("os", "io", "package", "debug", "require", "dofile", "loadfile", "loadstring"):
             globals_[forbidden.encode()] = None
-        globals_[b"import"] = lambda _: runtime.table()
-        data = convert(runtime.execute(repack(original)), table_type)
+        # Config chunks reference config.head.et, the shared empty table. An
+        # entirely blank import stub turns intentional empty defaults into nil.
+        config_head = runtime.table()
+        config_head[b"et"] = runtime.table()
+        module_head = runtime.table()
+        globals_[b"import"] = lambda name: config_head if name == b"..head" else module_head
+        data = convert(runtime.execute(repack(original)), table_type, runtime.eval(b"getmetatable"))
         target = OUTPUT / (short_name.replace(".", "_") + ".json")
         target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         provenance.append({
             "name": name, "source": entry["file"], "sha256": hashlib.sha256(original).hexdigest(),
-            "output": target.name, "rows": len(data),
+            "output": target.name, "rows": len(data), "resolved_table_defaults": True,
         })
         print(f"{short_name}: {len(data)} rows")
     (OUTPUT / "manifest.json").write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

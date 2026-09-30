@@ -283,87 +283,105 @@
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_7"
   },
   "106": {
+    "shop_show": 0,
     "type": 106,
     "open_id": 9801,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_106"
   },
   "122": {
+    "shop_show": 0,
     "type": 122,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_122",
     "act_cid": 2701
   },
   "107": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_107",
     "type": 107
   },
   "123": {
+    "shop_show": 0,
     "type": 123,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_123",
     "act_cid": 3004
   },
   "108": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_108",
     "type": 108
   },
   "124": {
+    "shop_show": 0,
     "type": 124,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_124",
     "act_cid": 3006
   },
   "109": {
+    "shop_show": 0,
     "type": 109,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_109",
     "act_cid": 2001
   },
   "125": {
+    "shop_show": 0,
     "type": 125,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_125",
     "act_cid": 2904
   },
   "110": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_110",
     "type": 110
   },
   "126": {
+    "shop_show": 0,
     "type": 126,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_126",
     "act_cid": 2907
   },
   "111": {
+    "shop_show": 0,
     "type": 111,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_111",
     "act_cid": 2109
   },
   "127": {
+    "shop_show": 0,
     "type": 127,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_127",
     "act_cid": 3204
   },
   "112": {
+    "shop_show": 0,
     "type": 112,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_112",
     "act_cid": 2113
   },
   "128": {
+    "shop_show": 0,
     "type": 128,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_128",
     "act_cid": 3205
   },
   "129": {
+    "shop_show": 0,
     "type": 129,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_129",
     "act_cid": 3304
   },
   "113": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_113",
     "type": 113
   },
   "130": {
+    "shop_show": 0,
     "type": 130,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_130",
     "act_cid": 3308
   },
   "131": {
+    "shop_show": 0,
     "type": 131,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_131",
     "act_cid": 3305
@@ -374,64 +392,77 @@
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_114"
   },
   "132": {
+    "shop_show": 0,
     "type": 132,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_132",
     "act_cid": 3702
   },
   "133": {
+    "shop_show": 0,
     "type": 133,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_133",
     "act_cid": 3706
   },
   "115": {
+    "shop_show": 0,
     "type": 115,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_115",
     "act_cid": 2116
   },
   "134": {
+    "shop_show": 0,
     "type": 134,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_134",
     "act_cid": 3704
   },
   "100": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_100",
     "type": 100
   },
   "116": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_116",
     "type": 116
   },
   "136": {
+    "shop_show": 0,
     "type": 136,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_136",
     "act_cid": 3905
   },
   "101": {
+    "shop_show": 0,
     "type": 101,
     "open_id": 2002,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_101"
   },
   "117": {
+    "shop_show": 0,
     "type": 117,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_117",
     "act_cid": 2303
   },
   "138": {
+    "shop_show": 0,
     "type": 138,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_138",
     "act_cid": 4212
   },
   "102": {
+    "shop_show": 0,
     "type": 102,
     "open_id": 2003,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_102"
   },
   "118": {
+    "shop_show": 0,
     "type": 118,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_118",
     "act_cid": 2304
   },
   "103": {
+    "shop_show": 0,
     "type": 103,
     "open_id": 2004,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_103"
@@ -442,6 +473,7 @@
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_119"
   },
   "104": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_104",
     "type": 104
   },
@@ -453,6 +485,7 @@
     "act_cid": 2406
   },
   "105": {
+    "shop_show": 0,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_105",
     "type": 105
   },
@@ -462,11 +495,13 @@
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_121"
   },
   "137": {
+    "shop_show": 0,
     "type": 137,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_137",
     "act_cid": 4204
   },
   "135": {
+    "shop_show": 0,
     "type": 135,
     "tab_name": "AUTO_GEN_shop_class_shop_class_tab_name_135",
     "act_cid": 3904

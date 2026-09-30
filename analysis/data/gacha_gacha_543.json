@@ -3,7 +3,7 @@
     "gacha_type": 3,
     "touying": "gacha_img_mengdanji_touying3",
     "wish_bg": "gacha_txt_mengdanji04",
-    "sort": 1,
+    "bg_resource": {},
     "item_type": 2,
     "bg": "gacha_bg_mengdanji5",
     "gacha_bg": "gacha_img_mengdanji3",
@@ -18,14 +18,9 @@
         102
       ]
     ],
-    "id": 102,
     "gacha_desc": "AUTO_GEN_gacha_gacha_gacha_desc_102",
-    "cost_item_list": [
-      [
-        1405030001,
-        1
-      ]
-    ],
+    "id": 102,
+    "ultra_reward_rule": {},
     "act_type": [
       [
         1,
@@ -44,6 +39,13 @@
         50
       ]
     ],
+    "cost_item_list": [
+      [
+        1405030001,
+        1
+      ]
+    ],
+    "icon": "gacha_togbtn_teshu",
     "open_cond": [
       [
         2,
@@ -55,10 +57,11 @@
     "server_ids": [
       543
     ],
-    "icon": "gacha_togbtn_teshu",
+    "reward_item_list": {},
     "pool_list": [
       102
     ],
+    "sort": 1,
     "title_resource": "gacha_txt_mengdanji01"
   }
 }

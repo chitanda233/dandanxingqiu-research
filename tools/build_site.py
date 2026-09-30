@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from pathlib import Path
 
@@ -47,7 +48,7 @@ def report_page(slug: str, title: str, subtitle: str, number: str) -> str:
     md_source = (ROOT / "analysis" / f"{slug}.md").read_text(encoding="utf-8")
     body = markdown.markdown(
         replace_links(md_source),
-        extensions=["tables", "fenced_code", TocExtension(slugify=lambda value, separator: re.sub(r"[^\w-]", "", value).lower())],
+        extensions=["tables", "fenced_code", "md_in_html", TocExtension(slugify=lambda value, separator: re.sub(r"[^\w-]", "", value).lower())],
     )
     headings = re.findall(r"<h2 id=\"([^\"]+)\">(.*?)</h2>", body)
     toc = "\n".join(f'<a href="#{html.escape(anchor)}">{label}</a>' for anchor, label in headings)
@@ -69,6 +70,8 @@ def report_page(slug: str, title: str, subtitle: str, number: str) -> str:
 
 
 def home_page() -> str:
+    table_count=len(json.loads((ROOT / 'analysis/data/manifest.json').read_text(encoding='utf8')))
+    probe_count=len(json.loads((ROOT / 'analysis/data/client_rule_probes.json').read_text(encoding='utf8'))['cases'])
     cards = "\n".join(
         f'<a class="topic" href="reports/{key}/index.html"><span class="topic-num">{num} / {len(REPORTS):02d}</span><h2>{title}</h2><p>{description}</p><span class="topic-link">阅读专题 ↗</span></a>'
         for key, title, description, num in REPORTS
@@ -77,7 +80,7 @@ def home_page() -> str:
 <meta name="description" content="《弹弹星球》微信小游戏逆向策划设计案：单局计算、技能、成长、匹配机器人与经济循环。">
 <title>弹弹星球 · 代码研究门户</title><link rel="stylesheet" href="assets/site.css"></head><body class="home">
 <header class="home-top"><div class="wordmark">弹弹星球 <span>/ CODE RESEARCH</span></div><a href="{REPO}">GitHub 仓库 ↗</a></header>
-<main class="home-main"><div class="home-hero"><div class="eyebrow">WECHAT MINI GAME / UNITY + LUA / SNAPSHOT 242</div><h1>从代码反推<br><em>弹弹星球</em>的策划设计</h1><p>把战斗操作、技能数值、成长节奏、赛季匹配和机器人安排连成一套可复核的设计案。每个专题都给出入口、状态、操作、数值、异常与证据边界。</p><div class="hero-meta"><span>2026.09.30 采集</span><span>23 个 Lua AssetBundle</span><span>8,272 个 Lua 字节码</span><span>79 张配置表</span></div></div>
+<main class="home-main"><div class="home-hero"><div class="eyebrow">WECHAT MINI GAME / UNITY + LUA / SNAPSHOT 242</div><h1>从代码反推<br><em>弹弹星球</em>的策划设计</h1><p>把战斗操作、技能数值、成长节奏、赛季匹配和机器人安排连成一套可复核的设计案。每个专题都给出入口、状态、操作、数值、异常与证据边界。</p><div class="hero-meta"><span>2026.09.30 采集</span><span>23 个 Lua AssetBundle</span><span>8,272 个 Lua 字节码</span><span>{table_count} 张有效配置表</span><span>{probe_count} 个原函数验证场景</span></div></div>
 <div class="section-label">十个研究专题 <span>SELECT A REPORT</span></div><div class="topic-grid">{cards}</div>
 <section class="home-note"><div><div class="eyebrow">证据与边界</div><h2>读配置，也读它的限制</h2><p>客户端代码能说明入口、字段、请求和表现链；不能单独证明当前服是否开放、匹配池算法、抽取概率或服务器最终结算。反编译内容有局部失真，正文已标出推断与未验证部分。</p></div><div class="resource-list"><a href="{REPO}/blob/main/analysis/README.md">研究口径与证据等级 ↗</a><a href="{REPO}/blob/main/raw/manifest.json">原始包哈希清单 ↗</a><a href="{REPO}/tree/main/reverse">提取与反编译目录 ↗</a><a href="{REPO}/tree/main/tools">复现工具 ↗</a></div></section>
 </main><footer class="home-footer">《弹弹星球》本机缓存研究 · AppID wx64969d55b91a6963 · 包目录 242</footer></body></html>"""

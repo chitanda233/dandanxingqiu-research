@@ -1,0 +1,198 @@
+{
+  "1432010002": {
+    "atlas": "Icon/Item/15",
+    "can_sale": 0,
+    "bag_type": 2,
+    "server_ids": [
+      543
+    ],
+    "item_type": 14,
+    "bag_filtrate": 4,
+    "overlap": 0,
+    "item_sub_type": 32,
+    "auction_system_price": {},
+    "optional": {},
+    "syn_effect": {},
+    "trade_order": 1800,
+    "id": 1432010002,
+    "img": "1432010002",
+    "desc": "AUTO_GEN_item_item_desc_1432010002",
+    "name": "AUTO_GEN_item_item_name_1432010002",
+    "auction_price": {},
+    "quality": 4,
+    "come_from": [
+      [
+        144,
+        1
+      ],
+      [
+        320004,
+        1
+      ],
+      [
+        320006,
+        1
+      ],
+      [
+        320008,
+        1
+      ],
+      [
+        310009,
+        1
+      ],
+      [
+        320010,
+        1
+      ],
+      [
+        310011,
+        1
+      ],
+      [
+        320012,
+        1
+      ],
+      120069,
+      [
+        120021,
+        2,
+        10701112
+      ],
+      154,
+      120040,
+      180002,
+      1432010002
+    ],
+    "dec_effect": [
+      [
+        1432010001,
+        1
+      ]
+    ],
+    "use": {}
+  },
+  "1432010000": {
+    "atlas": "Icon/Item/15",
+    "can_sale": 0,
+    "bag_type": 2,
+    "server_ids": [
+      543
+    ],
+    "item_type": 14,
+    "bag_filtrate": 4,
+    "overlap": 0,
+    "item_sub_type": 32,
+    "auction_system_price": {},
+    "optional": {},
+    "syn_effect": {},
+    "id": 1432010000,
+    "img": "1432010000",
+    "desc": "AUTO_GEN_item_item_desc_1432010000",
+    "name": "AUTO_GEN_item_item_name_1432010000",
+    "auction_price": {},
+    "quality": 2,
+    "come_from": [
+      144,
+      310001
+    ],
+    "dec_effect": {},
+    "use": {}
+  },
+  "1402020006": {
+    "auction_system_price": {},
+    "img": "1402020006",
+    "item_type": 10,
+    "bag_filtrate": 4,
+    "quality": 4,
+    "optional": {},
+    "syn_effect": {},
+    "id": 1402020006,
+    "auction_price": {},
+    "bag_type": 1,
+    "atlas": "Icon/Item/13",
+    "desc": "AUTO_GEN_item_item_desc_1402020006",
+    "name": "AUTO_GEN_item_item_name_1402020006",
+    "server_ids": [
+      543
+    ],
+    "come_from": [
+      310003
+    ],
+    "dec_effect": {},
+    "use": {},
+    "item_sub_type": 1
+  },
+  "1432010001": {
+    "atlas": "Icon/Item/15",
+    "can_sale": 0,
+    "bag_type": 2,
+    "server_ids": [
+      543
+    ],
+    "item_type": 14,
+    "bag_filtrate": 4,
+    "overlap": 0,
+    "item_sub_type": 32,
+    "auction_system_price": {},
+    "optional": {},
+    "syn_effect": {},
+    "trade_order": 1700,
+    "id": 1432010001,
+    "img": "1432010001",
+    "desc": "AUTO_GEN_item_item_desc_1432010001",
+    "name": "AUTO_GEN_item_item_name_1432010001",
+    "auction_price": {},
+    "quality": 3,
+    "come_from": [
+      [
+        144,
+        1
+      ],
+      [
+        310002,
+        1
+      ],
+      [
+        320001,
+        1
+      ],
+      [
+        310004,
+        1
+      ],
+      [
+        310005,
+        1
+      ],
+      [
+        310006,
+        1
+      ],
+      [
+        310007,
+        1
+      ],
+      [
+        120069,
+        1
+      ],
+      152,
+      [
+        120021,
+        2,
+        10701111
+      ],
+      154,
+      120040,
+      180001
+    ],
+    "dec_effect": [
+      [
+        1001010001,
+        1200000
+      ]
+    ],
+    "use": {}
+  }
+}

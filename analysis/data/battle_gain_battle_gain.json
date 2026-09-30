@@ -2,7 +2,9 @@
   "502": {
     "type": 5,
     "atlas": "Icon/Skill/3",
+    "effect": {},
     "id": 502,
+    "display_args": {},
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_502",
     "core": 0,
     "name": "AUTO_GEN_battle_gain_battle_gain_name_502",
@@ -18,6 +20,7 @@
       ]
     },
     "id": 301,
+    "display_args": {},
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_301",
     "core": 1,
     "name": "AUTO_GEN_battle_gain_battle_gain_name_301",
@@ -25,6 +28,9 @@
     "icon": "120301"
   },
   "402": {
+    "core": 0,
+    "type": 4,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_ps": [
         1120402
@@ -33,10 +39,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_402",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_402",
     "id": 402,
+    "display_args": {},
     "icon": "120402",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_402"
   },
   "302": {
+    "core": 0,
+    "type": 3,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_create_placement_pskill": {
         "2300305": [
@@ -53,10 +63,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_302",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_302",
     "id": 302,
+    "display_args": {},
     "icon": "120302",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_302"
   },
   "403": {
+    "core": 0,
+    "type": 4,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_ps": [
         1120403
@@ -65,6 +79,7 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_403",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_403",
     "id": 403,
+    "display_args": {},
     "icon": "120403",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_403"
   },
@@ -82,6 +97,7 @@
       ]
     },
     "id": 101,
+    "display_args": {},
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_101",
     "core": 1,
     "name": "AUTO_GEN_battle_gain_battle_gain_name_101",
@@ -89,6 +105,9 @@
     "icon": "120101"
   },
   "303": {
+    "core": 0,
+    "type": 3,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_placement_suicide_create": {
         "2300305": [
@@ -107,10 +126,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_303",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_303",
     "id": 303,
+    "display_args": {},
     "icon": "120303",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_303"
   },
   "404": {
+    "core": 0,
+    "type": 4,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_buff": [
         1120104
@@ -122,10 +145,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_404",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_404",
     "id": 404,
+    "display_args": {},
     "icon": "120404",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc2_404"
   },
   "304": {
+    "core": 0,
+    "type": 3,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_create_placement_replace": {
         "2300305": 2300306
@@ -137,10 +164,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_304",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_304",
     "id": 304,
+    "display_args": {},
     "icon": "120304",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_304"
   },
   "405": {
+    "core": 0,
+    "type": 4,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_reset_ultimate_cd": {
         "count": 31
@@ -149,10 +180,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_405",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_405",
     "id": 405,
+    "display_args": {},
     "icon": "120405",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_405"
   },
   "203": {
+    "core": 0,
+    "type": 2,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_ps": [
         1120203
@@ -161,10 +196,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_203",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_203",
     "id": 203,
+    "display_args": {},
     "icon": "120203",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_203"
   },
   "103": {
+    "core": 0,
+    "type": 1,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_shield": [
         {
@@ -190,6 +229,9 @@
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_103"
   },
   "102": {
+    "core": 0,
+    "type": 1,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_shield": [
         {
@@ -215,6 +257,9 @@
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_102"
   },
   "204": {
+    "core": 0,
+    "type": 2,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_repeat_mon": {
         "mon_attrs_k": {
@@ -231,6 +276,7 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_204",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_204",
     "id": 204,
+    "display_args": {},
     "icon": "120204",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_204"
   },
@@ -243,6 +289,7 @@
       }
     },
     "id": 501,
+    "display_args": {},
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_501",
     "core": 0,
     "name": "AUTO_GEN_battle_gain_battle_gain_name_501",
@@ -250,6 +297,9 @@
     "icon": "120501"
   },
   "104": {
+    "core": 0,
+    "type": 1,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_shield": [
         {
@@ -280,6 +330,7 @@
       ]
     },
     "id": 201,
+    "display_args": {},
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_201",
     "core": 1,
     "name": "AUTO_GEN_battle_gain_battle_gain_name_201",
@@ -287,6 +338,9 @@
     "icon": "120201"
   },
   "401": {
+    "core": 0,
+    "type": 4,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_ps": [
         1120401
@@ -304,10 +358,14 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_401",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_401",
     "id": 401,
+    "display_args": {},
     "icon": "120401",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_401"
   },
   "202": {
+    "core": 0,
+    "type": 2,
+    "atlas": "Icon/Skill/3",
     "effect": {
       "gain_add_ps": [
         1120202
@@ -316,6 +374,7 @@
     "name": "AUTO_GEN_battle_gain_battle_gain_name_202",
     "desc2": "AUTO_GEN_battle_gain_battle_gain_desc2_202",
     "id": 202,
+    "display_args": {},
     "icon": "120202",
     "desc": "AUTO_GEN_battle_gain_battle_gain_desc_202"
   }

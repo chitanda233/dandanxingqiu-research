@@ -11,9 +11,29 @@
 | 推断 | 从字段名、入口关系或多个模块交叉分析所得；不把推断写成服务器规则。 |
 | 未验证 | 客户端无法得知，或反编译损坏导致具体分支不可靠。 |
 
-`reverse/lua-decompiled/` 使用 unluac 尽力还原剥离调试信息的 Lua。配置表有些嵌套字面量被还原为 `({})`，部分核心函数可能出现未定义的 `Lx_x` 临时变量。为修复这个问题，现用 [Lua 5.1 字节码结构转换器](../tools/repack_lua51.py) 将原包 32 位 `size_t` 转为本机 64 位 Lua 5.1 可读取格式，在关闭文件、系统和包 API 的 Lua 运行时执行**白名单静态配置模块**，导出 [79 张配置 JSON 与哈希清单](data/manifest.json)。其中含服务器分片 `_0` / `_543` 等；聚合入口若单独执行会返回空表，故分别导出分片。原始字节码不变，完整配置行可复查；战斗算法仍需以反编译代码与服务端边界交叉确认。
+`reverse/lua-decompiled/` 使用 unluac 尽力还原剥离调试信息的 Lua。配置表有些嵌套字面量被还原为 `({})`，部分核心函数可能出现未定义的 `Lx_x` 临时变量。为修复这个问题，现用 [Lua 5.1 字节码结构转换器](../tools/repack_lua51.py) 将原包 32 位 `size_t` 转为本机 64 位 Lua 5.1 可读取格式，在关闭文件、系统和包 API 的 Lua 运行时执行**白名单静态配置模块**，导出 [128 张配置 JSON 与哈希清单](data/manifest.json)。其中含服务器分片 `_0` / `_543` 等；聚合入口若单独执行会返回空表，故分别导出分片。原始字节码不变，完整配置行可复查；战斗算法仍需以反编译代码与服务端边界交叉确认。
 
-复现：`python -m pip install -r requirements-research.txt`，再运行 `python tools/extract_config_tables.py`。该脚本只读取白名单配置名，逐项计算原始字节码 SHA-256；`analysis/data/manifest.json` 记录每张表的来源和行数。执行外来 Lua 字节码仍应在隔离环境中进行。
+## 本轮关键修正与验证
+
+配置行通过元表 `__index` 继承默认字段。导出器现在递归合并默认值与行内覆盖，每张表清单标记 `resolved_table_defaults=true`。此前把技能40级费用、角色60级经验、排位操作开关、武器高阶品质当成缺失，是导出方法错误，现已纠正。基础表与服务器覆盖片段分别保存；仅导出覆盖片段不能描述完整任务、商店或功能开放系统。
+
+新增 [184个模块原始指令列表](../reverse/lua-disassembled/manifest.json)，保留函数入口、操作数、常量、跳转目标与原字节码哈希。这是字节码证据，不是无误的高层Lua源码。第二套LuaDec输出在 `reverse/lua-luadec`，保留其错误提示；空输出和工具崩溃记录在指令清单，不宣称184份均成功高层反编译。
+
+[35个原函数受控执行场景](data/client_rule_probes.json)覆盖：局内技能状态/费用/次数/CD、局外技能升级门槛与资源边界、技能槽、宠物等级差衰减、通行证双轨领取、环境与buff蓄力公式。运行的是原始字节码，外部账号、设置、回合和库存使用明确桩输入；结果不等同于在线服务器实测。每个场景保留输入与返回，来源保留哈希。
+
+## 可复现的报告流水线
+
+```powershell
+python -m pip install -r requirements-research.txt
+python tools/extract_config_tables.py
+python tools/deep_decompile.py
+python tools/probe_client_rules.py
+python tools/build_design_appendices.py
+python tools/build_site.py
+python tools/check_site.py
+```
+
+`deep_decompile.py` 调用仓库中的Windows LuaDec二进制；原指令解码由Python脚本完成。`analysis/design-details` 是可编辑规则正文，`build_design_appendices.py` 将它与有效配置合成专题Markdown，长表不靠手抄。网页读取合成后的报告。校验包括611以上链接、26份原包哈希、128配置来源/行数、184指令来源和35原函数结果，不以页面能打开代替内容验证。
 
 ## 专题路径
 

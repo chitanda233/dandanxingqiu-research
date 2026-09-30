@@ -1,0 +1,263 @@
+{
+  "week_schedule": {
+    "key": "week_schedule",
+    "val": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "task_type_desc": {
+    "key": "task_type_desc",
+    "val": [
+      "TID_misc_task_maintask_type_tips",
+      "TID_misc_task_branchtask_type_tips",
+      "TID_misc_task_dailytask_type_tips"
+    ]
+  },
+  "weekly_bounce_limit": {
+    "key": "weekly_bounce_limit",
+    "val": 15000
+  },
+  "daily_bounce_limit": {
+    "key": "daily_bounce_limit",
+    "val": 60000
+  },
+  "task_al_trust_reward": {
+    "key": "task_al_trust_reward",
+    "val": [
+      [
+        1,
+        120020001
+      ],
+      [
+        2,
+        120020331
+      ],
+      [
+        3,
+        120020381
+      ],
+      [
+        6,
+        120020431
+      ],
+      [
+        10,
+        120020481
+      ],
+      [
+        14,
+        120020531
+      ],
+      [
+        21,
+        120020581
+      ],
+      [
+        43,
+        120020681
+      ]
+    ]
+  },
+  "main_task_index_refer_num": {
+    "key": "main_task_index_refer_num",
+    "val": 5
+  },
+  "main_task_index_max_num": {
+    "key": "main_task_index_max_num",
+    "val": [
+      5,
+      200,
+      98
+    ]
+  },
+  "game_club_first_reward": {
+    "key": "game_club_first_reward",
+    "val": [
+      [
+        1001010004,
+        100
+      ],
+      [
+        1001010001,
+        1000000
+      ]
+    ]
+  },
+  "career_switch_extra_main_task1": {
+    "key": "career_switch_extra_main_task1",
+    "val": [
+      [
+        103011001,
+        103011002,
+        103011003
+      ],
+      [
+        103011004,
+        103011005,
+        103011006
+      ]
+    ]
+  },
+  "task_rand_daily_num": {
+    "key": "task_rand_daily_num",
+    "val": 1
+  },
+  "game_club_first_like": {
+    "key": "game_club_first_like",
+    "val": 2
+  },
+  "liveness_task_show_lvl": {
+    "key": "liveness_task_show_lvl",
+    "val": [
+      30
+    ]
+  },
+  "task_rand_daily_list": {
+    "key": "task_rand_daily_list",
+    "val": [
+      1030014,
+      1030015,
+      1030016,
+      1030017
+    ]
+  },
+  "task_type_icon": {
+    "key": "task_type_icon",
+    "val": [
+      "task_type_icon_zhu",
+      "task_type_icon_zhi",
+      "task_type_icon_chang"
+    ]
+  },
+  "weekly_bounce_acc_limit": {
+    "key": "weekly_bounce_acc_limit",
+    "val": 30000
+  },
+  "career_switch_extra_main_task2": {
+    "key": "career_switch_extra_main_task2",
+    "val": [
+      [
+        103012001,
+        103012002,
+        103012003
+      ],
+      [
+        103012004,
+        103012005,
+        103012006
+      ]
+    ]
+  },
+  "newbie_first_day_tasks": {
+    "key": "newbie_first_day_tasks",
+    "val": [
+      [
+        1,
+        [
+          1031010,
+          1031008,
+          1031014,
+          1031022,
+          1031024
+        ]
+      ],
+      [
+        2,
+        [
+          1031024,
+          1031008,
+          1031014,
+          1031022,
+          1031010
+        ]
+      ]
+    ]
+  },
+  "career_switch_extra_limit": {
+    "key": "career_switch_extra_limit",
+    "val": [
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "weekly_bounce_reward": {
+    "key": "weekly_bounce_reward",
+    "val": [
+      [
+        1,
+        3000,
+        [
+          [
+            1001010004,
+            200
+          ]
+        ]
+      ],
+      [
+        2,
+        5000,
+        [
+          [
+            1412010001,
+            2
+          ]
+        ]
+      ],
+      [
+        3,
+        7000,
+        [
+          [
+            1447010001,
+            2
+          ]
+        ]
+      ],
+      [
+        4,
+        9000,
+        [
+          [
+            1611010001,
+            3
+          ]
+        ]
+      ]
+    ]
+  },
+  "dungeon_show_task_condition": {
+    "key": "dungeon_show_task_condition",
+    "val": [
+      100508
+    ]
+  }
+}

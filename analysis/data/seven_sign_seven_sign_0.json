@@ -1,8 +1,12 @@
 {
   "3": {
+    "sign_type": 1,
+    "type": 2,
+    "reward_tag": 0,
     "open_func": 1003,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_3",
     "day": 3,
+    "server_ids": {},
     "id": 3,
     "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_3",
     "reward": [
@@ -21,9 +25,13 @@
     ]
   },
   "4": {
+    "sign_type": 1,
+    "type": 2,
+    "reward_tag": 0,
     "open_func": 1004,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_4",
     "day": 4,
+    "server_ids": {},
     "id": 4,
     "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_4",
     "reward": [
@@ -42,9 +50,13 @@
     ]
   },
   "5": {
+    "sign_type": 1,
+    "type": 2,
+    "reward_tag": 0,
     "open_func": 1005,
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_5",
     "day": 5,
+    "server_ids": {},
     "id": 5,
     "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_5",
     "reward": [
@@ -65,6 +77,7 @@
   "6": {
     "type": 2,
     "id": 6,
+    "reward_tag": 3,
     "sign_type": 1,
     "reward": [
       [
@@ -77,7 +90,7 @@
       ]
     ],
     "day": 6,
-    "reward_tag": 3,
+    "server_ids": {},
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_6",
     "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_6",
     "open_func": 1006,
@@ -89,6 +102,7 @@
   "7": {
     "type": 3,
     "id": 7,
+    "reward_tag": 2,
     "sign_type": 1,
     "reward": [
       [
@@ -101,7 +115,7 @@
       ]
     ],
     "day": 7,
-    "reward_tag": 2,
+    "server_ids": {},
     "reward_name": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_6",
     "preview_desc": "AUTO_GEN_seven_sign_seven_sign_reward_name_543_6",
     "open_func": 1007,

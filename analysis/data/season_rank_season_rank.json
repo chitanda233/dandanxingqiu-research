@@ -1,11 +1,115 @@
 {
   "802": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        5
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        20
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 8,
+    "score_max": 240,
     "id": 802,
     "next_id": 803,
     "name": "AUTO_GEN_season_rank_season_rank_name_802",
     "last_id": 801
   },
   "201": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 2,
+    "score_max": 240,
     "next_id": 202,
     "name": "AUTO_GEN_season_rank_season_rank_name_201",
     "id": 201,
@@ -30,6 +134,51 @@
     "last_id": 103
   },
   "402": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 4,
+    "score_max": 240,
     "next_id": 403,
     "name": "AUTO_GEN_season_rank_season_rank_name_402",
     "id": 402,
@@ -54,6 +203,51 @@
     "last_id": 304
   },
   "503": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 5,
+    "score_max": 240,
     "next_id": 504,
     "name": "AUTO_GEN_season_rank_season_rank_name_503",
     "id": 503,
@@ -66,12 +260,116 @@
     "last_id": 404
   },
   "603": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        5
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        10
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 6,
+    "score_max": 240,
     "id": 603,
     "next_id": 604,
     "name": "AUTO_GEN_season_rank_season_rank_name_603",
     "last_id": 505
   },
   "302": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 3,
+    "score_max": 240,
     "next_id": 303,
     "name": "AUTO_GEN_season_rank_season_rank_name_302",
     "id": 302,
@@ -96,6 +394,51 @@
     "last_id": 203
   },
   "403": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 4,
+    "score_max": 240,
     "next_id": 404,
     "name": "AUTO_GEN_season_rank_season_rank_name_403",
     "id": 403,
@@ -120,6 +463,51 @@
     "last_id": 402
   },
   "504": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 5,
+    "score_max": 240,
     "next_id": 505,
     "name": "AUTO_GEN_season_rank_season_rank_name_504",
     "id": 504,
@@ -200,6 +588,51 @@
     "score_max": 240
   },
   "303": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 3,
+    "score_max": 240,
     "next_id": 304,
     "name": "AUTO_GEN_season_rank_season_rank_name_303",
     "id": 303,
@@ -220,6 +653,51 @@
     "last_id": 302
   },
   "404": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 4,
+    "score_max": 240,
     "next_id": 503,
     "name": "AUTO_GEN_season_rank_season_rank_name_404",
     "id": 404,
@@ -240,6 +718,51 @@
     "last_id": 403
   },
   "505": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 5,
+    "score_max": 240,
     "next_id": 603,
     "name": "AUTO_GEN_season_rank_season_rank_name_505",
     "id": 505,
@@ -264,6 +787,51 @@
     "last_id": 504
   },
   "304": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 3,
+    "score_max": 240,
     "next_id": 402,
     "name": "AUTO_GEN_season_rank_season_rank_name_304",
     "id": 304,
@@ -276,6 +844,51 @@
     "last_id": 303
   },
   "701": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 7,
+    "score_max": 240,
     "next_id": 702,
     "name": "AUTO_GEN_season_rank_season_rank_name_701",
     "id": 701,
@@ -300,6 +913,51 @@
     "last_id": 605
   },
   "702": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 7,
+    "score_max": 240,
     "next_id": 703,
     "name": "AUTO_GEN_season_rank_season_rank_name_702",
     "id": 702,
@@ -324,6 +982,51 @@
     "last_id": 701
   },
   "203": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 2,
+    "score_max": 240,
     "next_id": 302,
     "name": "AUTO_GEN_season_rank_season_rank_name_203",
     "id": 203,
@@ -336,6 +1039,51 @@
     "last_id": 202
   },
   "703": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 7,
+    "score_max": 240,
     "next_id": 801,
     "name": "AUTO_GEN_season_rank_season_rank_name_703",
     "id": 703,
@@ -356,30 +1104,122 @@
     "last_id": 702
   },
   "901": {
+    "gameplay_list": {},
     "name": "AUTO_GEN_season_rank_season_rank_name_901",
+    "fight_reward": {},
     "id": 901,
+    "first_reward": {},
     "rank_id": 9,
     "last_id": 805
   },
   "805": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 8,
+    "score_max": 240,
     "next_id": 901,
     "name": "AUTO_GEN_season_rank_season_rank_name_805",
+    "gameplay_list": {},
     "id": 805,
+    "first_reward": {},
+    "fight_reward": {},
     "last_id": 804
   },
   "804": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 8,
+    "score_max": 240,
     "next_id": 805,
     "name": "AUTO_GEN_season_rank_season_rank_name_804",
+    "gameplay_list": {},
     "id": 804,
+    "first_reward": {},
+    "fight_reward": {},
     "last_id": 803
   },
   "102": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        3
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        4
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 1,
+    "score_max": 240,
     "id": 102,
     "next_id": 103,
     "name": "AUTO_GEN_season_rank_season_rank_name_102",
     "last_id": 101
   },
   "803": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 8,
+    "score_max": 240,
     "reward_battle_group": 99901,
     "next_id": 804,
     "name": "AUTO_GEN_season_rank_season_rank_name_803",
@@ -441,30 +1281,311 @@
     "last_id": 802
   },
   "604": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        5
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        10
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 6,
+    "score_max": 240,
     "id": 604,
     "next_id": 605,
     "name": "AUTO_GEN_season_rank_season_rank_name_604",
     "last_id": 603
   },
   "605": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        5
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        10
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 6,
+    "score_max": 240,
     "id": 605,
     "next_id": 701,
     "name": "AUTO_GEN_season_rank_season_rank_name_605",
     "last_id": 604
   },
   "801": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        5
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        20
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 1,
+    "star": 5,
+    "rank_id": 8,
+    "score_max": 240,
     "id": 801,
     "next_id": 802,
     "name": "AUTO_GEN_season_rank_season_rank_name_801",
     "last_id": 703
   },
   "103": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "first_reward": [
+      [
+        1405020001,
+        3
+      ],
+      [
+        1001010007,
+        25
+      ],
+      [
+        1437010001,
+        4
+      ]
+    ],
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 1,
+    "score_max": 240,
     "id": 103,
     "next_id": 201,
     "name": "AUTO_GEN_season_rank_season_rank_name_103",
     "last_id": 102
   },
   "202": {
+    "score_cost": 80,
+    "lose_star_pro": 0,
+    "reward_battle_group": 99901,
+    "win_star": 2,
+    "win_star_pro": 4,
+    "gameplay_list": [
+      [
+        102,
+        10201,
+        8500
+      ],
+      [
+        406,
+        40601,
+        500
+      ],
+      [
+        408,
+        40801,
+        1000
+      ],
+      [
+        107,
+        10701,
+        1000
+      ]
+    ],
+    "fight_reward": [
+      [
+        10201030002,
+        1
+      ],
+      [
+        1001010007,
+        50
+      ],
+      [
+        1001010004,
+        20
+      ]
+    ],
+    "lose_star": 0,
+    "star": 5,
+    "rank_id": 2,
+    "score_max": 240,
     "next_id": 203,
     "name": "AUTO_GEN_season_rank_season_rank_name_202",
     "id": 202,

@@ -319,7 +319,8 @@
     "value": 5000
   },
   "default_skill": {
-    "key": "default_skill"
+    "key": "default_skill",
+    "value": {}
   },
   "pet_damage_stat_show_battles": {
     "key": "pet_damage_stat_show_battles",
@@ -1495,6 +1496,13 @@
     }
   },
   "dungeons_first_pass_open_goldview": {
+    "value": {
+      "20201010202": true,
+      "202010102": true,
+      "202010103": true,
+      "202010201": true,
+      "202010101": true
+    },
     "key": "dungeons_first_pass_open_goldview"
   },
   "battle_fire_force_factor": {
@@ -1778,7 +1786,8 @@
     "value": 100
   },
   "robot_ban_skill": {
-    "key": "robot_ban_skill"
+    "key": "robot_ban_skill",
+    "value": {}
   },
   "aim_type_buff": {
     "key": "aim_type_buff",
@@ -1879,6 +1888,13 @@
     "value": 7500
   },
   "dungeons_first_pass_hide_resultview_win": {
+    "value": {
+      "20201010202": true,
+      "202010102": true,
+      "202010103": true,
+      "202010201": true,
+      "202010101": true
+    },
     "key": "dungeons_first_pass_hide_resultview_win"
   }
 }

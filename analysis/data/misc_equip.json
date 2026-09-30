@@ -1,0 +1,1875 @@
+{
+  "auto_equip_forge_show_left_bottom_btns": {
+    "server_ids": {},
+    "key": "auto_equip_forge_show_left_bottom_btns",
+    "val": {
+      "seven_day": true,
+      "seven_day_sign": true,
+      "first_charge": true,
+      "welfare": true
+    }
+  },
+  "equip_skill_split": {
+    "server_ids": {},
+    "key": "equip_skill_split",
+    "val": {
+      "3": [
+        1217010010,
+        5
+      ],
+      "6": [
+        1217010010,
+        1500
+      ],
+      "4": [
+        1217010010,
+        30
+      ],
+      "5": [
+        1217010010,
+        400
+      ]
+    }
+  },
+  "weapon_strengthen_green_point": {
+    "server_ids": {},
+    "key": "weapon_strengthen_green_point",
+    "val": [
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      10000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      8000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000,
+      6000
+    ]
+  },
+  "weapon_inject_add_range": {
+    "server_ids": {},
+    "key": "weapon_inject_add_range",
+    "val": [
+      [
+        [
+          0,
+          5000
+        ],
+        15250
+      ],
+      [
+        [
+          5000,
+          8000
+        ],
+        5719
+      ],
+      [
+        [
+          8000,
+          8700
+        ],
+        3558
+      ],
+      [
+        [
+          8700,
+          9400
+        ],
+        2669
+      ],
+      [
+        [
+          9400,
+          10000
+        ],
+        1678
+      ]
+    ]
+  },
+  "forge_waiting_time": {
+    "server_ids": {},
+    "key": "forge_waiting_time",
+    "val": 1000
+  },
+  "auto_equip_forge_time": {
+    "server_ids": {},
+    "key": "auto_equip_forge_time",
+    "val": 800
+  },
+  "weapon_job_icon": {
+    "server_ids": {},
+    "key": "weapon_job_icon",
+    "val": [
+      "weapon_img_magic",
+      "weapon_img_physics",
+      "weapon_img_physics",
+      "weapon_img_physics",
+      "weapon_img_magic",
+      "weapon_img_physics",
+      "weapon_img_physics",
+      "weapon_img_magic",
+      "weapon_img_magic"
+    ]
+  },
+  "weapon_break_duration": {
+    "server_ids": {},
+    "key": "weapon_break_duration",
+    "val": 336
+  },
+  "strengthen_special_stone_transform": {
+    "server_ids": {},
+    "key": "strengthen_special_stone_transform",
+    "val": [
+      [
+        1205010011,
+        1
+      ],
+      [
+        1205010012,
+        4
+      ],
+      [
+        1205010013,
+        16
+      ],
+      [
+        1205010014,
+        64
+      ],
+      [
+        1205010015,
+        256
+      ],
+      [
+        1205010016,
+        1024
+      ]
+    ]
+  },
+  "auto_equip_forge_attr_list": {
+    "server_ids": {},
+    "key": "auto_equip_forge_attr_list",
+    "val": [
+      [
+        411,
+        413,
+        451,
+        421,
+        443,
+        445,
+        447,
+        449,
+        412
+      ],
+      [
+        465,
+        467,
+        469,
+        471,
+        473,
+        115,
+        474,
+        475
+      ]
+    ]
+  },
+  "equip_skill_forge_empty_position_limit": {
+    "server_ids": {},
+    "key": "equip_skill_forge_empty_position_limit",
+    "val": 9
+  },
+  "normal_strengthen_stone": {
+    "server_ids": {},
+    "key": "normal_strengthen_stone",
+    "val": [
+      1205010001,
+      1205010002,
+      1205010003,
+      1205010004,
+      1205010005,
+      1205010006
+    ]
+  },
+  "weapon_amplification_attr_name": {
+    "server_ids": {},
+    "key": "weapon_amplification_attr_name",
+    "val": [
+      [
+        61,
+        "weapon_amplification_attr_name_1"
+      ],
+      [
+        62,
+        "weapon_amplification_attr_name_2"
+      ],
+      [
+        63,
+        "weapon_amplification_attr_name_3"
+      ],
+      [
+        64,
+        "weapon_amplification_attr_name_4"
+      ],
+      [
+        65,
+        "weapon_amplification_attr_name_5"
+      ]
+    ]
+  },
+  "weapon_module_bag_volume": {
+    "server_ids": {},
+    "key": "weapon_module_bag_volume",
+    "val": 100
+  },
+  "weapon_talent_reset_item": {
+    "server_ids": {},
+    "key": "weapon_talent_reset_item",
+    "val": [
+      1001010001,
+      100000
+    ]
+  },
+  "weapon_permanent_attr_icon": {
+    "server_ids": {},
+    "key": "weapon_permanent_attr_icon",
+    "val": [
+      1207010999
+    ]
+  },
+  "equip_skill_forge_remake_quality": {
+    "server_ids": {},
+    "key": "equip_skill_forge_remake_quality",
+    "val": 4
+  },
+  "lucky_item_id": {
+    "server_ids": {},
+    "key": "lucky_item_id",
+    "val": [
+      1207010001
+    ]
+  },
+  "block_refresh_value": {
+    "server_ids": {},
+    "key": "block_refresh_value",
+    "val": 10
+  },
+  "weapon_job_name": {
+    "server_ids": {},
+    "key": "weapon_job_name",
+    "val": [
+      "工程召唤",
+      "工程盾击",
+      "工程挖坑",
+      "突击连击",
+      "突击豹速",
+      "突击追击",
+      "异能流血",
+      "异能感电",
+      "异能灼烧"
+    ]
+  },
+  "equip_skill_quality": {
+    "server_ids": {},
+    "key": "equip_skill_quality",
+    "val": [
+      4,
+      5
+    ]
+  },
+  "equip_strength_item_id_2": {
+    "server_ids": {},
+    "key": "equip_strength_item_id_2",
+    "val": 1205010998
+  },
+  "equip_attr_progress_adjust": {
+    "server_ids": {},
+    "key": "equip_attr_progress_adjust",
+    "val": 5000
+  },
+  "max_forge": {
+    "server_ids": {},
+    "key": "max_forge",
+    "val": [
+      500
+    ]
+  },
+  "equip_block_item_id": {
+    "server_ids": {},
+    "key": "equip_block_item_id",
+    "val": 1504040999
+  },
+  "attr_show": {
+    "server_ids": {},
+    "key": "attr_show",
+    "val": [
+      11,
+      1,
+      2,
+      3
+    ]
+  },
+  "temporary_forge_bag_limit": {
+    "server_ids": {},
+    "key": "temporary_forge_bag_limit",
+    "val": [
+      200
+    ]
+  },
+  "equip_strengthen_success_remind": {
+    "server_ids": {},
+    "key": "equip_strengthen_success_remind",
+    "val": [
+      [
+        1,
+        5000
+      ],
+      [
+        2,
+        5000
+      ],
+      [
+        3,
+        5000
+      ],
+      [
+        4,
+        6000
+      ],
+      [
+        5,
+        5000
+      ],
+      [
+        6,
+        5000
+      ],
+      [
+        7,
+        5000
+      ],
+      [
+        8,
+        5000
+      ],
+      [
+        9,
+        5000
+      ],
+      [
+        10,
+        5000
+      ],
+      [
+        11,
+        5000
+      ],
+      [
+        12,
+        3000
+      ],
+      [
+        13,
+        2000
+      ],
+      [
+        14,
+        1500
+      ],
+      [
+        15,
+        1000
+      ],
+      [
+        16,
+        500
+      ],
+      [
+        17,
+        500
+      ],
+      [
+        18,
+        500
+      ],
+      [
+        19,
+        500
+      ],
+      [
+        20,
+        500
+      ],
+      [
+        21,
+        500
+      ],
+      [
+        22,
+        500
+      ],
+      [
+        23,
+        500
+      ],
+      [
+        24,
+        500
+      ],
+      [
+        25,
+        500
+      ]
+    ]
+  },
+  "equip_inheritance_weight": {
+    "server_ids": {},
+    "key": "equip_inheritance_weight",
+    "val": [
+      [
+        1,
+        8000
+      ],
+      [
+        2,
+        10000
+      ]
+    ]
+  },
+  "extra_inheritance_consume": {
+    "server_ids": {},
+    "key": "extra_inheritance_consume",
+    "val": [
+      [
+        1001010001,
+        10000
+      ]
+    ]
+  },
+  "single_equip_power_pct": {
+    "server_ids": {},
+    "key": "single_equip_power_pct",
+    "val": [
+      5000
+    ]
+  },
+  "lucky_item_limit": {
+    "server_ids": {},
+    "key": "lucky_item_limit",
+    "val": 9
+  },
+  "defult_quick_decompose": {
+    "server_ids": {},
+    "key": "defult_quick_decompose",
+    "val": [
+      2,
+      3
+    ]
+  },
+  "strengthen_return_limit": {
+    "server_ids": {},
+    "key": "strengthen_return_limit",
+    "val": 1000
+  },
+  "block_reset_consume": {
+    "server_ids": {},
+    "key": "block_reset_consume",
+    "val": [
+      [
+        1001010001,
+        1000000
+      ]
+    ]
+  },
+  "new_equip_bag_attr_list": {
+    "server_ids": {},
+    "key": "new_equip_bag_attr_list",
+    "val": [
+      411,
+      413,
+      451,
+      421,
+      443,
+      445,
+      447,
+      449,
+      412,
+      465,
+      467,
+      469,
+      471,
+      473,
+      115,
+      474,
+      475
+    ]
+  },
+  "block_refresh_reward": {
+    "server_ids": {},
+    "key": "block_refresh_reward",
+    "val": [
+      1212030001,
+      1
+    ]
+  },
+  "equip_strength_item_id": {
+    "server_ids": {},
+    "key": "equip_strength_item_id",
+    "val": 1205010999
+  },
+  "weapon_injection_item_list": {
+    "server_ids": {},
+    "key": "weapon_injection_item_list",
+    "val": [
+      1209010001,
+      1209020001,
+      1209030001,
+      1209040001,
+      1209050001
+    ]
+  },
+  "equip_bag_full_mention_rate": {
+    "server_ids": {},
+    "key": "equip_bag_full_mention_rate",
+    "val": 80
+  },
+  "red_point_equip_class": {
+    "server_ids": {},
+    "key": "red_point_equip_class",
+    "val": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "block_max_weight_limit": {
+    "server_ids": {},
+    "key": "block_max_weight_limit",
+    "val": [
+      [
+        62,
+        6000
+      ]
+    ]
+  },
+  "equip_forge_cost": {
+    "server_ids": {},
+    "key": "equip_forge_cost",
+    "val": [
+      1203010101,
+      1
+    ]
+  },
+  "equip_attr_color_rule": {
+    "server_ids": {},
+    "key": "equip_attr_color_rule",
+    "val": [
+      [
+        3000,
+        "8df19e"
+      ],
+      [
+        6000,
+        "83ccff"
+      ],
+      [
+        7500,
+        "d1afff"
+      ],
+      [
+        8500,
+        "ffab47"
+      ],
+      [
+        9500,
+        "ff665a"
+      ]
+    ]
+  },
+  "block_special_refresh_item_list": {
+    "server_ids": {},
+    "key": "block_special_refresh_item_list",
+    "val": [
+      1212040001,
+      1212050001,
+      1212050002
+    ]
+  },
+  "equip_skill_forge_bonus": {
+    "server_ids": {},
+    "key": "equip_skill_forge_bonus",
+    "val": [
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        2,
+        10,
+        4
+      ],
+      [
+        3,
+        10,
+        4
+      ],
+      [
+        4,
+        10,
+        4
+      ],
+      [
+        5,
+        10,
+        4
+      ],
+      [
+        6,
+        10,
+        4
+      ],
+      [
+        7,
+        10,
+        4
+      ],
+      [
+        8,
+        10,
+        4
+      ],
+      [
+        11,
+        50,
+        5
+      ],
+      [
+        12,
+        50,
+        5
+      ],
+      [
+        13,
+        50,
+        5
+      ],
+      [
+        14,
+        50,
+        5
+      ],
+      [
+        15,
+        50,
+        5
+      ],
+      [
+        16,
+        50,
+        5
+      ],
+      [
+        17,
+        50,
+        5
+      ],
+      [
+        18,
+        50,
+        5
+      ],
+      [
+        101,
+        30,
+        5
+      ],
+      [
+        102,
+        30,
+        5
+      ],
+      [
+        103,
+        30,
+        5
+      ],
+      [
+        104,
+        30,
+        5
+      ],
+      [
+        105,
+        30,
+        5
+      ],
+      [
+        106,
+        30,
+        5
+      ],
+      [
+        107,
+        30,
+        5
+      ],
+      [
+        108,
+        30,
+        5
+      ],
+      [
+        109,
+        30,
+        5
+      ],
+      [
+        110,
+        30,
+        5
+      ],
+      [
+        111,
+        30,
+        5
+      ],
+      [
+        112,
+        30,
+        5
+      ],
+      [
+        113,
+        30,
+        5
+      ],
+      [
+        114,
+        30,
+        5
+      ],
+      [
+        115,
+        30,
+        5
+      ],
+      [
+        201,
+        30,
+        5
+      ],
+      [
+        202,
+        30,
+        5
+      ],
+      [
+        203,
+        30,
+        5
+      ],
+      [
+        204,
+        30,
+        5
+      ],
+      [
+        205,
+        30,
+        5
+      ],
+      [
+        206,
+        30,
+        5
+      ],
+      [
+        207,
+        30,
+        5
+      ],
+      [
+        208,
+        30,
+        5
+      ],
+      [
+        209,
+        30,
+        5
+      ],
+      [
+        210,
+        30,
+        5
+      ],
+      [
+        211,
+        30,
+        5
+      ],
+      [
+        212,
+        30,
+        5
+      ],
+      [
+        213,
+        30,
+        5
+      ],
+      [
+        301,
+        30,
+        5
+      ],
+      [
+        302,
+        30,
+        5
+      ],
+      [
+        303,
+        30,
+        5
+      ],
+      [
+        304,
+        30,
+        5
+      ],
+      [
+        305,
+        30,
+        5
+      ],
+      [
+        306,
+        30,
+        5
+      ],
+      [
+        307,
+        30,
+        5
+      ],
+      [
+        308,
+        30,
+        5
+      ],
+      [
+        309,
+        30,
+        5
+      ],
+      [
+        310,
+        30,
+        5
+      ],
+      [
+        311,
+        30,
+        5
+      ],
+      [
+        312,
+        30,
+        5
+      ],
+      [
+        313,
+        30,
+        5
+      ],
+      [
+        314,
+        30,
+        5
+      ],
+      [
+        401,
+        30,
+        5
+      ],
+      [
+        402,
+        30,
+        5
+      ],
+      [
+        403,
+        30,
+        5
+      ],
+      [
+        404,
+        30,
+        5
+      ],
+      [
+        405,
+        30,
+        5
+      ],
+      [
+        406,
+        30,
+        5
+      ],
+      [
+        407,
+        30,
+        5
+      ],
+      [
+        408,
+        30,
+        5
+      ],
+      [
+        409,
+        30,
+        5
+      ],
+      [
+        501,
+        30,
+        5
+      ],
+      [
+        502,
+        30,
+        5
+      ],
+      [
+        503,
+        30,
+        5
+      ],
+      [
+        504,
+        30,
+        5
+      ],
+      [
+        505,
+        30,
+        5
+      ],
+      [
+        506,
+        30,
+        5
+      ],
+      [
+        507,
+        30,
+        5
+      ],
+      [
+        508,
+        30,
+        5
+      ],
+      [
+        601,
+        30,
+        5
+      ],
+      [
+        602,
+        30,
+        5
+      ],
+      [
+        603,
+        30,
+        5
+      ],
+      [
+        604,
+        30,
+        5
+      ],
+      [
+        605,
+        30,
+        5
+      ],
+      [
+        606,
+        30,
+        5
+      ],
+      [
+        607,
+        30,
+        5
+      ],
+      [
+        608,
+        30,
+        5
+      ],
+      [
+        609,
+        30,
+        5
+      ],
+      [
+        610,
+        30,
+        5
+      ],
+      [
+        611,
+        30,
+        5
+      ],
+      [
+        612,
+        30,
+        5
+      ],
+      [
+        613,
+        30,
+        5
+      ],
+      [
+        614,
+        30,
+        5
+      ],
+      [
+        615,
+        30,
+        5
+      ],
+      [
+        616,
+        30,
+        5
+      ],
+      [
+        617,
+        30,
+        5
+      ],
+      [
+        701,
+        30,
+        5
+      ],
+      [
+        702,
+        30,
+        5
+      ],
+      [
+        703,
+        30,
+        5
+      ],
+      [
+        704,
+        30,
+        5
+      ],
+      [
+        705,
+        30,
+        5
+      ],
+      [
+        706,
+        30,
+        5
+      ],
+      [
+        707,
+        30,
+        5
+      ],
+      [
+        708,
+        30,
+        5
+      ],
+      [
+        709,
+        30,
+        5
+      ],
+      [
+        801,
+        30,
+        5
+      ],
+      [
+        802,
+        30,
+        5
+      ],
+      [
+        803,
+        30,
+        5
+      ],
+      [
+        804,
+        30,
+        5
+      ],
+      [
+        805,
+        30,
+        5
+      ],
+      [
+        806,
+        30,
+        5
+      ],
+      [
+        807,
+        30,
+        5
+      ],
+      [
+        808,
+        30,
+        5
+      ],
+      [
+        809,
+        30,
+        5
+      ]
+    ]
+  },
+  "equip_skill_forge_bonus_hidden": {
+    "server_ids": {},
+    "key": "equip_skill_forge_bonus_hidden",
+    "val": [
+      [
+        1,
+        100,
+        5
+      ],
+      [
+        2,
+        100,
+        5
+      ],
+      [
+        3,
+        100,
+        5
+      ],
+      [
+        4,
+        100,
+        5
+      ],
+      [
+        5,
+        100,
+        5
+      ],
+      [
+        6,
+        100,
+        5
+      ],
+      [
+        7,
+        100,
+        5
+      ],
+      [
+        8,
+        100,
+        5
+      ],
+      [
+        11,
+        333,
+        6
+      ],
+      [
+        12,
+        333,
+        6
+      ],
+      [
+        13,
+        333,
+        6
+      ],
+      [
+        14,
+        333,
+        6
+      ],
+      [
+        15,
+        333,
+        6
+      ],
+      [
+        16,
+        333,
+        6
+      ],
+      [
+        17,
+        333,
+        6
+      ],
+      [
+        18,
+        333,
+        6
+      ]
+    ]
+  },
+  "weapon_amplification_daily_addition": {
+    "server_ids": {},
+    "key": "weapon_amplification_daily_addition",
+    "val": [
+      0,
+      0
+    ]
+  },
+  "auto_equip_forge_show_right_up_btns": {
+    "server_ids": {},
+    "key": "auto_equip_forge_show_right_up_btns",
+    "val": {
+      "equip_right_down": -1,
+      "bag_right_down": 1,
+      "toy_right_down": 1,
+      "equip_forge_down": 1,
+      "pet_right_down": 1,
+      "weapon_right_down": 1,
+      "skill_right_down": 1,
+      "dress_up_right_down": 1,
+      "pictorial_right_down": -1
+    }
+  },
+  "weapon_tips_limit_icon": {
+    "server_ids": {},
+    "key": "weapon_tips_limit_icon",
+    "val": [
+      [
+        1,
+        101001
+      ],
+      [
+        2,
+        101002
+      ]
+    ]
+  },
+  "weapon_icon_limit_icon": {
+    "server_ids": {},
+    "key": "weapon_icon_limit_icon",
+    "val": [
+      [
+        1,
+        101001
+      ],
+      [
+        2,
+        101002
+      ],
+      [
+        3,
+        101003
+      ]
+    ]
+  },
+  "weapon_talent_refresh_item": {
+    "server_ids": {},
+    "key": "weapon_talent_refresh_item",
+    "val": [
+      1211020001,
+      1
+    ]
+  },
+  "auto_equip_forge_time3": {
+    "server_ids": {},
+    "key": "auto_equip_forge_time3",
+    "val": [
+      [
+        0,
+        920
+      ],
+      [
+        1,
+        1920
+      ],
+      [
+        2,
+        2920
+      ],
+      [
+        3,
+        3920
+      ],
+      [
+        4,
+        4920
+      ],
+      [
+        5,
+        5920
+      ],
+      [
+        6,
+        6920
+      ],
+      [
+        7,
+        7920
+      ],
+      [
+        8,
+        8920
+      ]
+    ]
+  },
+  "strength_guarantee": {
+    "server_ids": {},
+    "key": "strength_guarantee",
+    "val": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ]
+    ]
+  },
+  "weapon_talent_plan_unlock_cost": {
+    "server_ids": {},
+    "key": "weapon_talent_plan_unlock_cost",
+    "val": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1001010001,
+        500000
+      ],
+      [
+        3,
+        1001010001,
+        1200000
+      ]
+    ]
+  },
+  "weapon_module_merge_config": {
+    "server_ids": {},
+    "key": "weapon_module_merge_config",
+    "val": [
+      [
+        1,
+        3000,
+        2
+      ],
+      [
+        2,
+        2000,
+        3
+      ],
+      [
+        3,
+        2000,
+        4
+      ],
+      [
+        4,
+        2000,
+        5
+      ]
+    ]
+  },
+  "strengthen_return_merge_limit": {
+    "server_ids": {},
+    "key": "strengthen_return_merge_limit",
+    "val": 30
+  },
+  "auto_equip_forge_default_quailty": {
+    "server_ids": {},
+    "key": "auto_equip_forge_default_quailty",
+    "val": 0
+  },
+  "weapon_level_text_color": {
+    "server_ids": {},
+    "key": "weapon_level_text_color",
+    "val": [
+      "FFFFFF",
+      "FFFFFF",
+      "FFFFFF",
+      "FFFFFF",
+      "FFDC66",
+      "FFDC66",
+      "FFDC66",
+      "FFDC66",
+      "FFDC66"
+    ]
+  },
+  "weapon_talent_reset_item_num": {
+    "server_ids": {},
+    "key": "weapon_talent_reset_item_num",
+    "val": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        12,
+        6
+      ]
+    ]
+  },
+  "equip_skill_type_icon": {
+    "server_ids": {},
+    "key": "equip_skill_type_icon",
+    "val": [
+      101,
+      102
+    ]
+  },
+  "block_refresh_limit": {
+    "server_ids": {},
+    "key": "block_refresh_limit",
+    "val": 100
+  },
+  "weapon_best_quality_judge": {
+    "server_ids": {},
+    "key": "weapon_best_quality_judge",
+    "val": [
+      [
+        4,
+        9500
+      ],
+      [
+        5,
+        8000
+      ]
+    ]
+  },
+  "equip_skill_forge_warning": {
+    "server_ids": {},
+    "key": "equip_skill_forge_warning",
+    "val": 4
+  },
+  "tradeble_probability": {
+    "server_ids": {},
+    "key": "tradeble_probability",
+    "val": [
+      5,
+      2500,
+      [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  },
+  "equip_skill_limit": {
+    "server_ids": {},
+    "key": "equip_skill_limit",
+    "val": [
+      0
+    ]
+  },
+  "strengthen_task_num_limit": {
+    "server_ids": {},
+    "key": "strengthen_task_num_limit",
+    "val": 3
+  },
+  "best_quality_judge": {
+    "server_ids": {},
+    "key": "best_quality_judge",
+    "val": [
+      [
+        5,
+        0,
+        1,
+        2
+      ],
+      [
+        5,
+        0,
+        1,
+        1
+      ],
+      [
+        5,
+        0,
+        0,
+        2
+      ],
+      [
+        5,
+        1,
+        0,
+        2
+      ],
+      [
+        5,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "strengthen_stone_transform": {
+    "server_ids": {},
+    "key": "strengthen_stone_transform",
+    "val": [
+      [
+        1205010001,
+        1
+      ],
+      [
+        1205010002,
+        4
+      ],
+      [
+        1205010003,
+        16
+      ],
+      [
+        1205010004,
+        64
+      ],
+      [
+        1205010005,
+        256
+      ],
+      [
+        1205010006,
+        1024
+      ]
+    ]
+  },
+  "equip_enchant_item_id": {
+    "server_ids": {},
+    "key": "equip_enchant_item_id",
+    "val": 1208010999
+  },
+  "equip_skill_forge_empty_position_default": {
+    "server_ids": {},
+    "key": "equip_skill_forge_empty_position_default",
+    "val": 3
+  },
+  "strength_icon": {
+    "server_ids": {},
+    "key": "strength_icon",
+    "val": [
+      [
+        1,
+        "strength_1"
+      ],
+      [
+        2,
+        "strength_2"
+      ],
+      [
+        3,
+        "strength_3"
+      ],
+      [
+        4,
+        "strength_4"
+      ],
+      [
+        5,
+        "strength_5"
+      ],
+      [
+        6,
+        "strength_6"
+      ],
+      [
+        7,
+        "strength_7"
+      ],
+      [
+        8,
+        "strength_8"
+      ],
+      [
+        9,
+        "strength_9"
+      ],
+      [
+        10,
+        "strength_10"
+      ],
+      [
+        11,
+        "strength_11"
+      ],
+      [
+        12,
+        "strength_12"
+      ],
+      [
+        13,
+        "strength_13"
+      ],
+      [
+        14,
+        "strength_14"
+      ],
+      [
+        15,
+        "strength_15"
+      ]
+    ]
+  },
+  "weapon_renew_cost_item_bg": {
+    "server_ids": {},
+    "key": "weapon_renew_cost_item_bg",
+    "val": {
+      "168": "weapon_bg_xufei1",
+      "720": "weapon_bg_xufei2",
+      "0": "weapon_bg_xufei3"
+    }
+  },
+  "equip_forge_shop_upgrade_jump": {
+    "server_ids": {},
+    "key": "equip_forge_shop_upgrade_jump",
+    "val": [
+      "TaskClickTriggerCloseView"
+    ]
+  },
+  "artifact_exchange_item": {
+    "server_ids": {},
+    "key": "artifact_exchange_item",
+    "val": 1429010001
+  },
+  "multiple_forge_cond": {
+    "server_ids": {},
+    "key": "multiple_forge_cond",
+    "val": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        16
+      ]
+    ]
+  },
+  "auto_equip_forge_time2": {
+    "server_ids": {},
+    "key": "auto_equip_forge_time2",
+    "val": [
+      [
+        0,
+        900
+      ],
+      [
+        1,
+        1900
+      ],
+      [
+        2,
+        2900
+      ],
+      [
+        3,
+        3900
+      ],
+      [
+        4,
+        4900
+      ],
+      [
+        5,
+        5900
+      ],
+      [
+        6,
+        6900
+      ],
+      [
+        7,
+        7900
+      ],
+      [
+        8,
+        8900
+      ]
+    ]
+  },
+  "special_strengthen_stone": {
+    "server_ids": {},
+    "key": "special_strengthen_stone",
+    "val": [
+      1205010011,
+      1205010012,
+      1205010013,
+      1205010014,
+      1205010015,
+      1205010016
+    ]
+  },
+  "block_board_plan_max": {
+    "server_ids": {},
+    "key": "block_board_plan_max",
+    "val": 5
+  },
+  "equip_skill_forge_empty_position_item": {
+    "server_ids": {},
+    "key": "equip_skill_forge_empty_position_item",
+    "val": [
+      1439010001,
+      1
+    ]
+  },
+  "high_lucky_item_id": {
+    "server_ids": {},
+    "key": "high_lucky_item_id",
+    "val": 1207010002
+  },
+  "artifact_exchange_item2": {
+    "server_ids": {},
+    "key": "artifact_exchange_item2",
+    "val": [
+      [
+        5,
+        1429010003
+      ],
+      [
+        6,
+        1429010002
+      ]
+    ]
+  },
+  "equip_forge_tips_limit": {
+    "server_ids": {},
+    "key": "equip_forge_tips_limit",
+    "val": 38
+  }
+}

@@ -40,41 +40,52 @@
     "desc": "AUTO_GEN_battle_env_battle_env_desc_2"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_3",
     "tip_img": "UI/BigPic/Fight/env/fight_env_3",
     "id": 3,
+    "env_arg": {},
     "banner": "fightroom_img_map_heavy_fog",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_3"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_4",
     "tip_img": "UI/BigPic/Fight/env/fight_env_4",
     "id": 4,
+    "env_arg": {},
     "banner": "fightroom_img_map_time_bomb",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_4"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_5",
     "tip_img": "UI/BigPic/Fight/env/fight_env_5",
     "id": 5,
+    "env_arg": {},
     "banner": "fightroom_img_map_black_hole",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_5"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_6",
     "tip_img": "UI/BigPic/Fight/env/fight_env_6",
     "id": 6,
+    "env_arg": {},
     "banner": "special_weather_yangguangmingmei",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_6"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_7",
     "tip_img": "UI/BigPic/Fight/env/fight_env_7",
     "id": 7,
+    "env_arg": {},
     "banner": "special_weather_kongtou",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_7"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_8",
     "tip_img": "UI/BigPic/Fight/env/fight_env_8",
     "id": 8,
@@ -90,32 +101,38 @@
     "desc": "AUTO_GEN_battle_env_battle_env_desc_8"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_4",
     "tip_img": "UI/BigPic/Fight/env/fight_env_4",
     "id": 9,
+    "env_arg": {},
     "banner": "fightroom_img_map_time_bomb",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_4"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_7",
     "tip_img": "UI/BigPic/Fight/env/fight_env_7",
     "id": 10,
+    "env_arg": {},
     "banner": "special_weather_kongtou",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_10"
   },
   {
-    "name": "AUTO_GEN_battle_env_battle_env_name_11",
-    "tip_img": "UI/BigPic/Fight/env/fight_env_11",
-    "id": 11,
     "effect": {
       "eff_id": 800058,
       "add_on_prepare": true,
       "is_ui_eff": true
     },
+    "name": "AUTO_GEN_battle_env_battle_env_name_11",
+    "tip_img": "UI/BigPic/Fight/env/fight_env_11",
+    "id": 11,
+    "env_arg": {},
     "banner": "special_weather_leiyu",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_11"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_12",
     "tip_img": "UI/BigPic/Fight/env/fight_env_12",
     "id": 12,
@@ -128,19 +145,34 @@
     "desc": "AUTO_GEN_battle_env_battle_env_desc_12"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_13",
     "tip_img": "UI/BigPic/Fight/env/fight_env_13",
     "id": 13,
+    "env_arg": {},
     "banner": "special_weather_jingxihezi",
     "desc": "AUTO_GEN_battle_env_battle_env_desc_13"
   },
   {
-    "id": 14
+    "name": "AUTO_GEN_battle_env_battle_env_name_14",
+    "tip_img": "UI/BigPic/Fight/env/fight_env_14",
+    "banner": "special_weather_chuansongmen",
+    "desc": "AUTO_GEN_battle_env_battle_env_desc_14",
+    "id": 14,
+    "effect": {},
+    "env_arg": {}
   },
   {
-    "id": 15
+    "name": "AUTO_GEN_battle_env_battle_env_name_14",
+    "tip_img": "UI/BigPic/Fight/env/fight_env_14",
+    "banner": "special_weather_chuansongmen",
+    "desc": "AUTO_GEN_battle_env_battle_env_desc_14",
+    "id": 15,
+    "effect": {},
+    "env_arg": {}
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_16",
     "tip_img": "UI/BigPic/Fight/env/fight_env_16",
     "id": 16,
@@ -153,6 +185,7 @@
     "desc": "AUTO_GEN_battle_env_battle_env_desc_16"
   },
   {
+    "effect": {},
     "name": "AUTO_GEN_battle_env_battle_env_name_17",
     "tip_img": "UI/BigPic/Fight/env/fight_env_17",
     "id": 17,

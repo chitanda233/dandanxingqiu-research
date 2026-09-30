@@ -1,8 +1,10 @@
 {
   "1": {
+    "btn_desc": "AUTO_GEN_battlepass_common_battlepass_common_btn_desc_1",
     "type": 1,
     "unlock_type": 2,
     "pay_id": 0,
+    "price": {},
     "desc": "AUTO_GEN_battlepass_common_battlepass_common_desc_1",
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_1",
     "open_id": 8001,
@@ -10,9 +12,11 @@
     "disable": 1
   },
   "2": {
+    "btn_desc": "AUTO_GEN_battlepass_common_battlepass_common_btn_desc_1",
     "type": 2,
     "unlock_type": 10,
     "pay_id": 8,
+    "price": {},
     "hint_show": "award_weapon_funditon_rule",
     "desc": "AUTO_GEN_battlepass_common_battlepass_common_desc_2",
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_2",
@@ -39,19 +43,27 @@
     "open_id": 8003
   },
   "206": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 206,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_206",
     "pay_id": 17
   },
   "207": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 207,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_207",
     "pay_id": 18
   },
   "301": {
+    "btn_desc": "AUTO_GEN_battlepass_common_battlepass_common_btn_desc_1",
     "type": 301,
     "unlock_type": 3,
     "pay_id": 12,
+    "price": {},
     "hint_show": "award_level_funditon_rule",
     "desc": "AUTO_GEN_battlepass_common_battlepass_common_desc_2",
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_301",
@@ -60,11 +72,16 @@
     "open_id": 8001
   },
   "208": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 208,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_208",
     "pay_id": 19
   },
   "201": {
+    "open_id": 0,
+    "unlock_type": 1,
     "price": [
       [
         1001010003,
@@ -76,28 +93,42 @@
     "pay_id": 0
   },
   "209": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 209,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_209",
     "pay_id": 20
   },
   "202": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 202,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_202",
     "pay_id": 13
   },
   "210": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 210,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_210",
     "pay_id": 21
   },
   "203": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 203,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_203",
     "pay_id": 14
   },
   "102": {
+    "btn_desc": "AUTO_GEN_battlepass_common_battlepass_common_btn_desc_1",
     "type": 102,
     "unlock_type": 9,
+    "price": {},
     "single_reward": 2,
     "desc": "AUTO_GEN_battlepass_common_battlepass_common_desc_102",
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_102",
@@ -107,6 +138,9 @@
     "disable": 1
   },
   "204": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 204,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_204",
     "pay_id": 15
@@ -116,11 +150,15 @@
     "type": 101,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_101",
     "title": "AUTO_GEN_battlepass_common_battlepass_common_title_101",
+    "price": {},
     "single_reward": 1,
     "open_id": 8004,
     "disable": 1
   },
   "205": {
+    "open_id": 0,
+    "unlock_type": 1,
+    "price": {},
     "type": 205,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_205",
     "pay_id": 16
@@ -130,6 +168,7 @@
     "type": 100,
     "name": "AUTO_GEN_battlepass_common_battlepass_common_name_100",
     "title": "AUTO_GEN_battlepass_common_battlepass_common_title_100",
+    "price": {},
     "single_reward": 1,
     "open_id": 8004,
     "disable": 1

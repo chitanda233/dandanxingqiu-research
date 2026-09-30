@@ -14,7 +14,7 @@
 | --- | ---: | --- |
 | `round_action_time` | 15 | 默认行动时间配置，不等于所有模式真实回合时长。 |
 | `fire_max_force` | 100 | 力度上限常量。 |
-| `fire_power_grow_speed` | 5500 | 蓄力增长参数，单位及最终换算须看调用处。 |
+| `fire_power_grow_speed` | 5500 | 蓄力公式分母参数，完整公式和上传换算见下方。 |
 | `battle_fire_force_factor` | 20 | 发射力度系数。 |
 | `recommend_power_range` / `range2` | 30 / 15 | 推荐力度范围参数。 |
 | `max_walk_angle` | 56 | 移动坡角相关阈值。 |
@@ -62,18 +62,73 @@
 
 施法前客户端检查：战斗状态 `attack`、当前行动者、`round_status.action`、自动战斗状态、沉默/禁用、固定与重复回合限制、每回合和每场次数、冷却以及费用。冰冻原型在重复回合被禁止；固定 1005 位移技能在定身时被拒。[技能校验](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.skill.core.lua#L177) 成功请求后仍要等待服务器消息确认并更新费用/CD；本地“按钮可点”不等于服务器接受。
 
-## 模块策划案：瞄准与推荐力度
+> 本版按Lua元表展开有效默认值，并用原指令/受控执行复核关键分支。详细规则和全量明细在下方；当前服开放与服务器最终裁定不由静态表替代。
+<!-- DESIGN_DETAIL_BEGIN -->
 
-**输入。** 操作者位置与朝向、目标位置、武器/弹体、角度、当前风和环境系数共同决定本地推荐轨迹。快捷角度表中的 20°、30°、50°、65° 各有 20 个力度样本，是给玩家的速查提示；真正的推荐力度函数会在 0–100 区间模拟落点并二分搜索。因此“选 30° 第五格力度”与“点击推荐力度”属于两个算法入口。[角度样本](../analysis/data/fight_misc_attr_parabola.json)、[推荐求解](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1188)
+## 操作数值设计：蓄力速度公式已闭合
 
-**模拟顺序。** 先把服务端风值乘 0.1，再乘战斗关卡的 `wind_power_factor` 和 `weather_factor`；建立弹体初速、重力项 `battle.gravity×bullet.gravity_factor×bullet.mass` 和阻力；若弹体为普通抛物线，按 `floor(x0+v0x·t+½ax·t²)`、`floor(y0+v0y·t+½ay·t²)` 计算位置。逐帧物理分支则先以速度推进位置，再以加速度推进速度，横向加速度含 `(外力−阻力×vx)/质量`，并保留三位小数。推荐解再比较模拟落点与目标，缩小力度区间；传送门场景另尝试入口/出口。具体离散步长与二分误差阈值在反编译中缺失，不应声称可逐像素重现客户端准星。[轨迹](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.trajectory.lua)、[推荐入口](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.recommand_force.lua#L1144)
+### 原始函数与量纲
 
-**操作实例。** 假设某战斗行 `wind_power_factor=240/weather_factor=1`，本回合 `wind=10`，客户端将 `cur_wind` 置为 1，形成 `wind_factor=240`。这是对该字段链的算例，不能理解成物理横向加速度恒为 240；还要看弹体、环境和方向如何使用该因子。玩家把力度调到 70、角度调到 50° 后，发炮消息提交的就是当前 `angle/force` 及位置等输入；服务器返回节点决定真实落点、受击者和伤害。即使本地推荐线穿过目标，客户端也不能预先扣目标生命。[回合风换算](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.round.core.lua#L384)、[发炮协议](../reverse/lua-decompiled/game.module.fight.manager.base.fighting.cmd.network.lua#L18)
+`get_unit_power_add_speed` 的原指令给出以下计算，随后ready请求把结果乘10000并round为force_speed。
 
-## 模块策划案：弹道类型、天气与伤害流水线
+```text
+A = unit.attrs.aim_factor，缺省0
+P = 玩家对应蓄力速度设置，缺省setting.const.power_add_speed_min
+E = 环境env_arg.add_speed_rate，未配置时无此乘项
+B = 单位所有power_add_speed buff效果合计
+S = (1000 / fire_power_grow_speed) × (1−A) × (P×0.01)
+S = S × (1+E×0.0001) × (1+B×0.0001)
+上传force_speed = round(S×10000)
+```
 
-**弹道类型。** 轨迹代码有普通抛物线、逐帧受力、直线、贝塞尔和自由落体路径。武器与技能必须先指定弹体类型和参数，才可能选正确预测器；把普通抛物线公式用于所有攻击会错判传送、分裂和自由落体。环境 1 磁暴提供 `parabola_change_rate=2/add_speed_rate=18000`；环境 2 狂风提供普通风 `[40,60]`、狂风 `[80,100]`、`wild_wind_round=3`。这些决定潜在修正，但 `wild_wind_rate=2000` 的概率量纲仍未闭合。[战场环境表](../analysis/data/battle_env_battle_env.json)
+fight_misc的fire_power_grow_speed=5500，因此它出现在分母，不能直译“每秒增加5500力度”。PVE/PVP使用不同设置键。这里的S是原函数返回量，时间单位需跟力度控件的update换算一起解释；本页不把S强加成每秒显示力度。[原始公式](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.ui.core.txt#L2258)、[上传换算](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.fire.core.txt#L455)
 
-**权威伤害阶段。** 可以确认的数据入口是攻击、防御、最大生命、伤害/减伤、暴击率与暴伤、抗暴、物理/法术增伤等属性，以及 `dmg_random_r=.02`、暴伤系数范围 1.25–2、最低伤害系数 .1。不能确认的阶段是命中碰撞、技能倍率应用顺序、穿防、护盾吸收、暴击抽样、随机因子、减伤叠加、逐次取整。策划实现若要复刻，应把这些列为服务端待还原接口，而不是用一条看似完整的乘法式填补空缺。生命同步模块只把显示值限制在 `0..max_hp`，不证明伤害公式。[属性定义](../analysis/data/attr_attr.json)、[战斗常量](../analysis/data/fight_misc_attr_const.json)
+| 明确输入 | S，原始函数返回 | 上传force_speed | 相对标准 |
+| --- | ---: | ---: | ---: |
+| P100，A0，环境0，buff0 | 0.181818 | 1818 | 1 |
+| 同上，A0.2 | 0.145455 | 1455 | 0.8 |
+| 同上，磁暴E18000 | 0.509091 | 5091 | 2.8 |
+| 同上，buff2000 | 0.218182 | 2182 | 1.2 |
 
-**验收边界。** 同角度/力度在无风与有风环境、普通弹体与特殊弹体、传送门有无、玩家主动发射与超时保底发射四组条件下记录发炮 c2s、节点 s2c 和落点。只有拿到服务端节点与配置联动，才能把本页的预测公式升级为完整的数值设计案；当前本页准确描述的是客户端如何生成输入和表现。
+以上四例已直接执行原始字节码。磁暴字段18000经`1+E/10000`得到2.8倍，不是1.8倍；环境与buff分别相乘，也不是简单把18000和2000相加后一次修正。[可复跑输入](../analysis/data/client_rule_probes.json)
+
+## 弹道预测设计：输入、求解和轨迹类型
+
+### 发炮输入是一个操作快照
+
+客户端提交round、angle、force、pos、from_pos、direction、force_type、land_angle、fire_buff_pos和force_aim_type。round防止把旧回合动作放进新回合；pos与from_pos区分当前位置和起点信息；angle/force与direction联合解释朝向；力度类型/瞄准类型决定输入路径。记录发炮时只留“70力度”无法重现当局操作，至少还要保留位置、朝向、角度、风、弹体、技能与环境。
+
+开始蓄力的force_speed与最终发炮的force是两个字段：前者描述增长速度，后者是提交时力度值。技能请求type2也不能假装是type1附加一个伤害倍数。[命令网络原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.cmd.network.txt)
+
+### 推荐力度与快捷角度是两套辅助
+
+快捷角度表20/30/50/65°各20个样本，偏风提示使用30°±风、50/65°±2×风。推荐求解则以0–100为候选力度区间，模拟落点并二分缩界；目标、武器、风和传送门位置进入求解，不能按样本格直接取“保证命中力度”。候选没有合法解时应保留失败结果，不夹成100强行当推荐。
+
+这两种辅助都只预测落点，不授权本地扣血；跟踪目标后的位置变化、特殊弹体和服务器输入校验可以使预览与最终节点不同。[推荐指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.recommand_force.txt)
+
+### 两条已能写公式的轨迹
+
+普通抛物线先按时间计算连续位移，再floor到格点：
+
+```text
+x(t)=floor(x0+vx0·t+0.5·ax·t²)
+y(t)=floor(y0+vy0·t+0.5·ay·t²)
+```
+
+算例x0=100，y0=80，vx0=20，vy0=30，ax=2，ay=−10，t=1，得到x121、y105；t=2得到x144、y120。输入是示例坐标单位，不能据它推游戏米/秒。floor的位置也必须保留，先取整速度再积分会产生不同结果。
+
+逐帧受力分支则先pos+=v·dt，再更新v+=a·dt；横向加速度含`(外力−阻力×vx)/质量`并保留三位小数。它与闭式抛物线不是在任意步长下等价。模块还列直线、贝塞尔、分步自由落体、ground_rolling和ground_paste，最后两类是地面相关移动；特定武器必须先查实际弹体/轨迹类型。[轨迹原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.trajectory.txt)
+
+## 风与天气的计算位置
+
+回包wind先×0.1为cur_wind，再×战斗wind_power_factor×weather_factor为wind_factor。例如wind10、因子240/1得cur_wind1和wind_factor240；它不是未经质量/阻力处理后的最终横向加速度。部分推荐入口重力项使用battle.gravity×bullet.gravity_factor×bullet.mass，应沿具体轨迹分支使用。
+
+磁暴的add_speed_rate已在上述蓄力公式闭合；parabola_change_rate2仍是另一弹道参数。狂风提供普通风40–60、狂风80–100、持续字段3、概率候选2000，这些不能仅凭与万分值相似就认定每回合20%狂风。天气附加被动ID需按被动触发链处理。[环境配置](../analysis/data/battle_env_battle_env.json)
+
+## 伤害与生命的数值契约
+
+技能effect倍率、固定值，单位攻击/防御、暴击/抗暴、物理/法术增伤和模式平衡是输入层。配置给随机扰动.02、暴伤下限1.25/上限2、最低伤害与护盾相关阈值.1；缓存缺服务器函数，不能据此闭合乘区与先后取整。
+
+已经能准确写出的客户端生命维护：加血`min(max_hp,hp+Δ)`，减血`max(0,hp−Δ)`，然后进入update/perform显示链。示例hp90/max100加30显示100，hp10减50显示0。此夹取是同步状态维护，不证明治疗计算已经先乘最大生命，更不证明盾在防御前扣。[生命原指令](../reverse/lua-disassembled/game.module.fight.manager.base.fighting.unit.attrs.txt#L115)
+
+服务端节点分别提供行为和属性结果，多弹体技能不能把文本总倍率相加后只减一次HP。复原数值案目前可执行的是输入换算、蓄力公式、预测轨迹、状态夹取；伤害结算执行器仍应列为独立缺口，不能用常见弹弹类公式补空白。

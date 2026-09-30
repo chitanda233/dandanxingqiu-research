@@ -22,8 +22,10 @@
     ],
     "id": 1,
     "hint_show": "1",
+    "unlock": {},
     "wish_num": 1,
     "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_1",
+    "wish_up_percent": 10000,
     "profession_type": [
       1,
       2,
@@ -32,7 +34,7 @@
     ],
     "wish_quality": 5,
     "profession_num": 4,
-    "wish_up_percent": 10000,
+    "preview": {},
     "num": 2,
     "select_wish_num": 2
   },
@@ -52,8 +54,10 @@
     ],
     "id": 2,
     "hint_show": "1",
+    "unlock": {},
     "wish_num": 1,
     "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_2",
+    "wish_up_percent": 5000,
     "profession_type": [
       1,
       2,
@@ -61,7 +65,7 @@
     ],
     "wish_quality": 6,
     "profession_num": 2,
-    "wish_up_percent": 5000,
+    "preview": {},
     "num": 1,
     "select_wish_num": 1
   },
@@ -76,14 +80,16 @@
     ],
     "id": 3,
     "hint_show": "1",
+    "unlock": {},
     "wish_num": 8,
     "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_3",
+    "wish_up_percent": 5000,
     "profession_type": [
       1
     ],
     "wish_quality": 4,
     "profession_num": 1,
-    "wish_up_percent": 5000,
+    "preview": {},
     "num": 16,
     "select_wish_num": 2
   },
@@ -117,6 +123,7 @@
     "select_wish_num": 1,
     "is_back": 0,
     "type": 2,
+    "default_wish": {},
     "id": 4,
     "wish_num": 1,
     "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_4",
@@ -127,27 +134,75 @@
     "num": 1
   },
   {
+    "is_back": 0,
+    "type": 2,
+    "wish_type": 2,
+    "hint_show": "gacha_weapon_wish_rule",
+    "wish_num_type1": 2,
+    "wish_num": 1,
+    "wish_quality": 5,
+    "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_5",
+    "num": 2,
+    "desc2": "AUTO_GEN_gacha_wish_gacha_wish_desc2_5",
+    "profession_num": 3,
+    "wish_up_percent": 10000,
+    "select_wish_num": 4,
     "profession_type": [
       4,
       5,
       6
     ],
-    "id": 5
+    "default_wish": {},
+    "id": 5,
+    "preview": {},
+    "unlock": {}
   },
   {
+    "is_back": 0,
+    "type": 2,
+    "wish_type": 2,
+    "hint_show": "gacha_weapon_wish_rule",
+    "wish_num_type1": 2,
+    "wish_num": 1,
+    "wish_quality": 5,
+    "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_5",
+    "num": 2,
+    "desc2": "AUTO_GEN_gacha_wish_gacha_wish_desc2_5",
+    "profession_num": 3,
+    "wish_up_percent": 10000,
+    "select_wish_num": 4,
     "profession_type": [
       7,
       8,
       9
     ],
-    "id": 6
+    "default_wish": {},
+    "id": 6,
+    "preview": {},
+    "unlock": {}
   },
   {
+    "is_back": 0,
+    "type": 2,
+    "wish_type": 2,
+    "hint_show": "gacha_weapon_wish_rule",
+    "wish_num_type1": 2,
+    "wish_num": 1,
+    "wish_quality": 5,
+    "desc": "AUTO_GEN_gacha_wish_gacha_wish_desc_5",
+    "num": 2,
+    "desc2": "AUTO_GEN_gacha_wish_gacha_wish_desc2_5",
+    "profession_num": 3,
+    "wish_up_percent": 10000,
+    "select_wish_num": 4,
     "profession_type": [
       1,
       2,
       3
     ],
-    "id": 7
+    "default_wish": {},
+    "id": 7,
+    "preview": {},
+    "unlock": {}
   }
 ]

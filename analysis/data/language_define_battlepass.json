@@ -1,0 +1,50 @@
+{
+  "lan_battlepass_tower_closed": {
+    "key": "lan_battlepass_tower_closed",
+    "1": "活动已结束"
+  },
+  "lan_battlepass_buy_lv_1": {
+    "key": "lan_battlepass_buy_lv_1",
+    "1": "升级至<color=#E55348>%s级</color>，可获得以下奖励"
+  },
+  "lan_battlepass_title": {
+    "key": "lan_battlepass_title",
+    "1": "完成任务可获取战令积分"
+  },
+  "lan_battlepass_buy_tips_2": {
+    "key": "lan_battlepass_buy_tips_2",
+    "1": "解锁典藏奖励可领取"
+  },
+  "lan_battlepass_buy_1": {
+    "key": "lan_battlepass_buy_1",
+    "1": "剩余时间不足%s天，现在购买可能无法获得全部奖励，是否仍要购买？"
+  },
+  "lan_battlepass_closed": {
+    "key": "lan_battlepass_closed",
+    "1": "本期战令已结束，敬请期待下一期"
+  },
+  "lan_battlepass_exp_limit": {
+    "key": "lan_battlepass_exp_limit",
+    "1": "本周积分已达上限"
+  },
+  "lan_battlepass_not_open": {
+    "key": "lan_battlepass_not_open",
+    "1": "学院战令尚未开启"
+  },
+  "lan_battlepass_lv_max": {
+    "key": "lan_battlepass_lv_max",
+    "1": "你的战令等级已达上限"
+  },
+  "lan_battlepass_buy_tips_3": {
+    "key": "lan_battlepass_buy_tips_3",
+    "1": "解锁典藏奖励可领取"
+  },
+  "lan_battlepass_buy_lv_2": {
+    "key": "lan_battlepass_buy_lv_2",
+    "1": "购买<color=#F48A06>%s级</color>，升至<color=#E55348>%s级</color>"
+  },
+  "lan_battlepass_buy_tips_1": {
+    "key": "lan_battlepass_buy_tips_1",
+    "1": "解锁典藏奖励可领取"
+  }
+}

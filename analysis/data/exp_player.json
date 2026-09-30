@@ -1,5 +1,8 @@
 [
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 5,
     "base_attrs": {
       "2": 4,
@@ -64,6 +67,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 10,
     "base_attrs": {
       "2": 4,
@@ -128,6 +134,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 15,
     "base_attrs": {
       "2": 8,
@@ -192,6 +201,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 20,
     "base_attrs": {
       "2": 12,
@@ -256,6 +268,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 25,
     "base_attrs": {
       "2": 16,
@@ -320,6 +335,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 30,
     "base_attrs": {
       "2": 20,
@@ -384,6 +402,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 35,
     "base_attrs": {
       "2": 24,
@@ -448,6 +469,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 1500,
+    "day_max_exp": 45000,
     "attr_points": 40,
     "level": 8,
     "base_attrs": {
@@ -511,6 +536,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 1500,
+    "day_max_exp": 45000,
     "attr_points": 45,
     "level": 9,
     "base_attrs": {
@@ -574,6 +603,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 1500,
+    "day_max_exp": 45000,
     "attr_points": 50,
     "level": 10,
     "base_attrs": {
@@ -637,6 +670,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 55,
     "base_attrs": {
       "2": 40,
@@ -701,6 +737,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 60,
     "base_attrs": {
       "2": 44,
@@ -765,6 +804,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 65,
     "base_attrs": {
       "2": 48,
@@ -829,6 +871,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 70,
     "base_attrs": {
       "2": 52,
@@ -893,6 +938,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 75,
     "base_attrs": {
       "2": 56,
@@ -957,6 +1005,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 80,
     "base_attrs": {
       "2": 60,
@@ -1021,6 +1072,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 85,
     "base_attrs": {
       "2": 64,
@@ -1085,6 +1139,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 90,
     "base_attrs": {
       "2": 68,
@@ -1149,6 +1206,9 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "day_max_exp": 45000,
     "attr_points": 95,
     "base_attrs": {
       "2": 72,
@@ -1213,6 +1273,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 100,
     "level": 20,
     "base_attrs": {
@@ -1276,6 +1340,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 105,
     "level": 21,
     "base_attrs": {
@@ -1339,6 +1407,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 110,
     "level": 22,
     "base_attrs": {
@@ -1402,6 +1474,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 115,
     "level": 23,
     "base_attrs": {
@@ -1465,6 +1541,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 120,
     "level": 24,
     "base_attrs": {
@@ -1528,6 +1608,10 @@
     ]
   },
   {
+    "level_exp_coef": 0.6,
+    "extra_attr_points": 50,
+    "exp": 2700,
+    "day_max_exp": 45000,
     "attr_points": 125,
     "level": 25,
     "base_attrs": {
@@ -1591,6 +1675,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 71473,
     "attr_points": 130,
     "base_attrs": {
       "2": 84,
@@ -1656,6 +1742,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 71473,
     "attr_points": 135,
     "base_attrs": {
       "2": 84,
@@ -1721,6 +1809,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 71473,
     "attr_points": 140,
     "base_attrs": {
       "2": 84,
@@ -1786,6 +1876,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 71473,
     "attr_points": 145,
     "base_attrs": {
       "2": 84,
@@ -1851,6 +1943,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 71473,
     "attr_points": 150,
     "base_attrs": {
       "2": 84,
@@ -1916,6 +2010,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 122966,
     "attr_points": 155,
     "base_attrs": {
       "2": 84,
@@ -1981,6 +2077,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 122966,
     "attr_points": 160,
     "base_attrs": {
       "2": 84,
@@ -2046,6 +2144,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 122966,
     "attr_points": 165,
     "base_attrs": {
       "2": 84,
@@ -2111,6 +2211,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 122966,
     "attr_points": 170,
     "base_attrs": {
       "2": 84,
@@ -2176,6 +2278,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 122966,
     "attr_points": 175,
     "base_attrs": {
       "2": 84,
@@ -2241,6 +2345,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 154551,
     "attr_points": 180,
     "base_attrs": {
       "2": 84,
@@ -2306,6 +2412,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 154551,
     "attr_points": 185,
     "base_attrs": {
       "2": 84,
@@ -2371,6 +2479,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 154551,
     "attr_points": 190,
     "base_attrs": {
       "2": 84,
@@ -2436,6 +2546,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 178914,
     "attr_points": 195,
     "base_attrs": {
       "2": 84,
@@ -2501,6 +2613,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 178914,
     "attr_points": 200,
     "base_attrs": {
       "2": 84,
@@ -2566,6 +2680,8 @@
     ]
   },
   {
+    "extra_attr_points": 50,
+    "day_max_exp": 178914,
     "attr_points": 205,
     "base_attrs": {
       "2": 84,
@@ -3234,6 +3350,10 @@
     "day_max_exp": 205246
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 255,
     "level": 51,
     "base_attrs": {
@@ -3297,6 +3417,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 260,
     "level": 52,
     "base_attrs": {
@@ -3360,6 +3484,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 265,
     "level": 53,
     "base_attrs": {
@@ -3423,6 +3551,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 270,
     "level": 54,
     "base_attrs": {
@@ -3486,6 +3618,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 275,
     "level": 55,
     "base_attrs": {
@@ -3549,6 +3685,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 280,
     "level": 56,
     "base_attrs": {
@@ -3612,6 +3752,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 285,
     "level": 57,
     "base_attrs": {
@@ -3675,6 +3819,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 290,
     "level": 58,
     "base_attrs": {
@@ -3738,6 +3886,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 295,
     "level": 59,
     "base_attrs": {
@@ -3801,6 +3953,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 300,
     "level": 60,
     "base_attrs": {
@@ -3864,6 +4020,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 305,
     "level": 61,
     "base_attrs": {
@@ -3927,6 +4087,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 310,
     "level": 62,
     "base_attrs": {
@@ -3990,6 +4154,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 315,
     "level": 63,
     "base_attrs": {
@@ -4053,6 +4221,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 320,
     "level": 64,
     "base_attrs": {
@@ -4116,6 +4288,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 325,
     "level": 65,
     "base_attrs": {
@@ -4179,6 +4355,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 330,
     "level": 66,
     "base_attrs": {
@@ -4242,6 +4422,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 335,
     "level": 67,
     "base_attrs": {
@@ -4305,6 +4489,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 340,
     "level": 68,
     "base_attrs": {
@@ -4368,6 +4556,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 345,
     "level": 69,
     "base_attrs": {
@@ -4431,6 +4623,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 350,
     "level": 70,
     "base_attrs": {
@@ -4494,6 +4690,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 355,
     "level": 71,
     "base_attrs": {
@@ -4557,6 +4757,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 360,
     "level": 72,
     "base_attrs": {
@@ -4620,6 +4824,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 365,
     "level": 73,
     "base_attrs": {
@@ -4683,6 +4891,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 370,
     "level": 74,
     "base_attrs": {
@@ -4746,6 +4958,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 375,
     "level": 75,
     "base_attrs": {
@@ -4809,6 +5025,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 380,
     "level": 76,
     "base_attrs": {
@@ -4872,6 +5092,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 385,
     "level": 77,
     "base_attrs": {
@@ -4935,6 +5159,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 390,
     "level": 78,
     "base_attrs": {
@@ -4998,6 +5226,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 395,
     "level": 79,
     "base_attrs": {
@@ -5061,6 +5293,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 400,
     "level": 80,
     "base_attrs": {
@@ -5124,6 +5360,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 405,
     "level": 81,
     "base_attrs": {
@@ -5187,6 +5427,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 410,
     "level": 82,
     "base_attrs": {
@@ -5250,6 +5494,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 415,
     "level": 83,
     "base_attrs": {
@@ -5313,6 +5561,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 420,
     "level": 84,
     "base_attrs": {
@@ -5376,6 +5628,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 425,
     "level": 85,
     "base_attrs": {
@@ -5439,6 +5695,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 430,
     "level": 86,
     "base_attrs": {
@@ -5502,6 +5762,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 435,
     "level": 87,
     "base_attrs": {
@@ -5565,6 +5829,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 440,
     "level": 88,
     "base_attrs": {
@@ -5628,6 +5896,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 445,
     "level": 89,
     "base_attrs": {
@@ -5691,6 +5963,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 450,
     "level": 90,
     "base_attrs": {
@@ -5754,6 +6030,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 455,
     "level": 91,
     "base_attrs": {
@@ -5817,6 +6097,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 460,
     "level": 92,
     "base_attrs": {
@@ -5880,6 +6164,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 465,
     "level": 93,
     "base_attrs": {
@@ -5943,6 +6231,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 470,
     "level": 94,
     "base_attrs": {
@@ -6006,6 +6298,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 475,
     "level": 95,
     "base_attrs": {
@@ -6069,6 +6365,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 480,
     "level": 96,
     "base_attrs": {
@@ -6132,6 +6432,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 485,
     "level": 97,
     "base_attrs": {
@@ -6195,6 +6499,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 490,
     "level": 98,
     "base_attrs": {
@@ -6258,6 +6566,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 495,
     "level": 99,
     "base_attrs": {
@@ -6321,6 +6633,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 500,
     "level": 100,
     "base_attrs": {
@@ -6384,6 +6700,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 505,
     "level": 101,
     "base_attrs": {
@@ -6447,6 +6767,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 510,
     "level": 102,
     "base_attrs": {
@@ -6510,6 +6834,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 515,
     "level": 103,
     "base_attrs": {
@@ -6573,6 +6901,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 520,
     "level": 104,
     "base_attrs": {
@@ -6636,6 +6968,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 525,
     "level": 105,
     "base_attrs": {
@@ -6699,6 +7035,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 530,
     "level": 106,
     "base_attrs": {
@@ -6762,6 +7102,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 535,
     "level": 107,
     "base_attrs": {
@@ -6825,6 +7169,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 540,
     "level": 108,
     "base_attrs": {
@@ -6888,6 +7236,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 545,
     "level": 109,
     "base_attrs": {
@@ -6951,6 +7303,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 550,
     "level": 110,
     "base_attrs": {
@@ -7014,6 +7370,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 555,
     "level": 111,
     "base_attrs": {
@@ -7077,6 +7437,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 560,
     "level": 112,
     "base_attrs": {
@@ -7140,6 +7504,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 565,
     "level": 113,
     "base_attrs": {
@@ -7203,6 +7571,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 570,
     "level": 114,
     "base_attrs": {
@@ -7266,6 +7638,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 575,
     "level": 115,
     "base_attrs": {
@@ -7329,6 +7705,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 580,
     "level": 116,
     "base_attrs": {
@@ -7392,6 +7772,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 585,
     "level": 117,
     "base_attrs": {
@@ -7455,6 +7839,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 590,
     "level": 118,
     "base_attrs": {
@@ -7518,6 +7906,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 595,
     "level": 119,
     "base_attrs": {
@@ -7581,6 +7973,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 600,
     "level": 120,
     "base_attrs": {
@@ -7644,6 +8040,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 605,
     "level": 121,
     "base_attrs": {
@@ -7707,6 +8107,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 610,
     "level": 122,
     "base_attrs": {
@@ -7770,6 +8174,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 615,
     "level": 123,
     "base_attrs": {
@@ -7833,6 +8241,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 620,
     "level": 124,
     "base_attrs": {
@@ -7896,6 +8308,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 625,
     "level": 125,
     "base_attrs": {
@@ -7959,6 +8375,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 630,
     "level": 126,
     "base_attrs": {
@@ -8022,6 +8442,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 635,
     "level": 127,
     "base_attrs": {
@@ -8085,6 +8509,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 640,
     "level": 128,
     "base_attrs": {
@@ -8148,6 +8576,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 645,
     "level": 129,
     "base_attrs": {
@@ -8211,6 +8643,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 650,
     "level": 130,
     "base_attrs": {
@@ -8274,6 +8710,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 655,
     "level": 131,
     "base_attrs": {
@@ -8337,6 +8777,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 660,
     "level": 132,
     "base_attrs": {
@@ -8400,6 +8844,10 @@
     ]
   },
   {
+    "level_exp_coef": 2.9537,
+    "extra_attr_points": 50,
+    "exp": 4104920,
+    "day_max_exp": 205246,
     "attr_points": 665,
     "level": 133,
     "base_attrs": {

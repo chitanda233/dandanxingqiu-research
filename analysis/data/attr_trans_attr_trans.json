@@ -1,0 +1,108 @@
+{
+  "61": {
+    "id": 61,
+    "trans_values": [
+      [
+        11,
+        28
+      ],
+      [
+        2,
+        0.3
+      ],
+      [
+        3,
+        0.3
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "63": {
+    "id": 63,
+    "trans_values": [
+      [
+        4,
+        2.5
+      ],
+      [
+        5,
+        1.67
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "81": {
+    "id": 81,
+    "trans_values": [
+      [
+        11,
+        5
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "82": {
+    "id": 82,
+    "trans_values": [
+      [
+        1,
+        1
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "62": {
+    "id": 62,
+    "trans_values": [
+      [
+        1,
+        1
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "64": {
+    "id": 64,
+    "trans_values": [
+      [
+        11,
+        12
+      ],
+      [
+        2,
+        0.7
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "83": {
+    "id": 83,
+    "trans_values": [
+      [
+        4,
+        1
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "65": {
+    "id": 65,
+    "trans_values": [
+      [
+        3,
+        1
+      ]
+    ],
+    "level_trans_values": {}
+  },
+  "84": {
+    "id": 84,
+    "trans_values": [
+      [
+        2,
+        1
+      ]
+    ],
+    "level_trans_values": {}
+  }
+}

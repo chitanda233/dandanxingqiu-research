@@ -1,0 +1,117 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：行为节点、蓄力、三种弹道与HP边界"><title>战斗与操作 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="02-combat" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item active" href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>战斗与操作</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 02 / REVERSE ENGINEERING</div><h1>战斗与操作</h1><p>行为节点、蓄力、三种弹道与HP边界</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">战斗对象与生命周期</h2>
+<p>入场数据建立玩法、地图、阵营和单位；单位含实例标识、位置、基础属性、技能列表、被动、Buff、角色/宠物信息和托管状态。客户端依赖服务器的行动列表确定当前单位及回合时钟。<code>object_id</code>、角色 ID、宠物实例 ID、技能配置 ID 不可混用。</p>
+<p>典型链条为：建立战斗 → 分配行动 → 可操作检查 → 移动/技能/蓄力发炮 → 收到分批行为节点 → 播放弹体及效果 → 更新属性与 Buff → 当前行动结束 → 下一行动或胜负回包 → 结果页 → 各业务模块更新奖励。战斗结果展示、背包奖励和杯数变化是不同更新链。<a href="evidence.html?module=game.module.fight.manager.base.fighting.round.core&amp;function=">回合流程</a> <a href="evidence.html?module=game.module.fight.manager.base.fighting.cmd.network&amp;function=">节点接收</a></p>
+<h2 id="_2">行为节点不是一次点击的一条伤害</h2>
+<p>服务端节点可包含弹体、技能、属性处理、Buff、被动提示、分裂与连发。同一发炮可能生成多批 <code>node_list</code>。全部批次到齐后才能完成该段表现；第一个命中动画结束不代表整个行动已结束。反过来，本地尚有动画也不能推翻服务端已明确返回的胜负。<a href="evidence.html?module=game.module.fight.manager.base.fighting.round.perform&amp;function=">表现执行</a></p>
+<p>旧缓存还存在预览/演示战斗记录，它们有 <code>battle_enter_s2c</code>、<code>battle_next_round_s2c</code>、<code>battle_seq_cmd_s2c</code>、<code>battle_round_finish_s2c</code> 等字段样本。这些样本可用于理解数据形状，不能当本次实时服抓包，更不能据一次示例复原概率和最终伤害公式。</p>
+<h2 id="_3">操作资格与资源</h2>
+<p>移动、普通发炮、手动技能、跳过、超时处理和自动战斗具有不同入口。技能还检查使用次数、CD、资源、Buff/特殊状态、重复行动限制和当前模式。资源包括 strength、energy、anger、wakan；有些仅特定玩法使用。托管不是在普通操作之外再并行触发一次手动操作。</p>
+<p>比赛配置的 <code>use_skill</code>、<code>auto_battle</code>、<code>can_adjust_play_speed</code>、<code>guaranteed_fire</code>、<code>intelligent_force</code>、<code>soul</code> 等开关不同。排位 102 自动战斗为 0，3V3 排位 103 保证发炮为 1，自由竞技 501 自动为 1；不能把大厅看见的操作按钮统一套在所有模式。<a href="configs.html?table=gameplay.gameplay&amp;q=">模式对照</a></p>
+<h2 id="_4">蓄力换算：经过原函数验证的公式</h2>
+<p>在对应实现中，输入蓄力百分值 P、瞄准因子 A、环境加成 E、Buff 加成 B 时：</p>
+<pre><code class="language-text">S = (1000 / 5500) × (1 − A) × (P / 100)
+    × (1 + E / 10000) × (1 + B / 10000)
+上传值 = round(S × 10000)
+</code></pre>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th style="text-align: right;">P</th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">E</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">S</th>
+<th style="text-align: right;">上传值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.181818…</td>
+<td style="text-align: right;">1818</td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.145454…</td>
+<td style="text-align: right;">1455</td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">18000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.509090…</td>
+<td style="text-align: right;">5091</td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">0.218181…</td>
+<td style="text-align: right;">2182</td>
+</tr>
+</tbody>
+</table></div>
+<p>环境 18000 对应乘 <strong>2.8</strong>，因为公式有 <code>1+</code>；不能写成 1.8 倍。该式确认数值换算，不单独证明 UI 蓄力实际秒数；需要把显示循环和时钟一起闭合。原有 35 个用例中的四组蓄力案例已复跑。<a href="evidence.html?module=game.module.fight.manager.base.fighting.ui.core&amp;function=">操作原指令</a></p>
+<h2 id="_5">三种位移实现必须分开</h2>
+<p>标准抛物线先累加 <code>fly_time</code>，再计算 <code>floor(from + v0×t + 0.5×a×t²)</code>；负坐标也向下取整，例如 −0.1 得到 −1。逐步阻力积分使用 <code>R3</code> 保留三位精度，先位置、再速度、最后加速度：</p>
+<pre><code class="language-text">x = R3(x + vx × dt)       y = R3(y + vy × dt)
+vx = R3(vx + ax × dt)     vy = R3(vy + ay × dt)
+ax = R3((wind − resistance × vx) / mass)
+ay = R3((g_resistance − resistance × vy) / mass)
+</code></pre>
+<p>直线只更新 <code>R3(position + velocity×dt)</code>。不能用同一闭式抛物线替代三者，也不能交换更新顺序。原函数算例：初速 (10,20)、初始加速度 (2,−10)、mass=2、resistance=1、wind=6、g_resistance=−20，dt=1；阻力积分第一步位置 (10,20)、速度 (12,10)、加速度 (−3,−15)，第二步位置 (22,30)。标准抛物线相同初速与初始加速度在 t=1 得到 (11,15)。<a href="evidence.html?module=game.module.fight.manager.base.fighting.trajectory&amp;function=move_target_along_parabola">轨迹原函数</a></p>
+<p>这是客户端运动/预测的已证实行为。引擎碰撞、地形变形和服务器命中裁定仍不能由这些公式单独还原。</p>
+<h2 id="hp">HP 复查：不存在统一双边钳制</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>函数</th>
+<th>原规则</th>
+<th>验证例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>add_unit_hp</code></td>
+<td><code>min(max_hp, hp+delta)</code></td>
+<td>90+30→100；10+(−30)→−20</td>
+</tr>
+<tr>
+<td><code>dec_unit_hp</code></td>
+<td><code>max(0, hp−delta)</code></td>
+<td>10−30→0；90−(−30)→120</td>
+</tr>
+<tr>
+<td><code>update_unit_hp</code></td>
+<td>直接赋值后更新表现</td>
+<td>传 120 得 120；传 −20 得 −20</td>
+</tr>
+<tr>
+<td>最大生命更新</td>
+<td>当前 HP 与新上限取 min</td>
+<td>不构成通用伤害公式</td>
+</tr>
+<tr>
+<td>strength / energy 更新</td>
+<td>上下限均钳制</td>
+<td>−10→0，120→100（上限 100）</td>
+</tr>
+</tbody>
+</table></div>
+<p>负输入案例用于确认契约，不表示线上服务器会发送这些值。生命显示、伤害数字和护盾数字也可能来自同一节点的不同字段，不应把显示层钳制当最终数值结算。<a href="evidence.html?module=game.module.fight.manager.base.fighting.unit.attrs&amp;function=update_unit_hp">属性原函数</a></p>
+<h2 id="_6">伤害与异常的证据边界</h2>
+<p>客户端存在攻击、防御、暴击、范围衰减、盾、伤害类型等字段，但没有足够证据闭合服务端最终乘区、取整、减伤叠加、随机种子和盾优先级。本报告不使用通用弹弹类公式填补缺口。</p>
+<p>请求失败应恢复发炮状态、取消 holding 并保留服务器行动时钟；掉线重入则需恢复单位、回合和节点状态。多弹体、重复行动、召唤、回弹和先表现后属性更新是复刻时最容易失真的组合。验证面板可查看所有已执行案例的输入、返回值与断言。</p><nav class="chapter-pager"><a href="01-product.html">← 产品结构与循环</a><a href="03-skills.html">技能与Buff →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">战斗对象与生命周期</a><a href="#_2">行为节点不是一次点击的一条伤害</a><a href="#_3">操作资格与资源</a><a href="#_4">蓄力换算：经过原函数验证的公式</a><a href="#_5">三种位移实现必须分开</a><a href="#hp">HP 复查：不存在统一双边钳制</a><a href="#_6">伤害与异常的证据边界</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

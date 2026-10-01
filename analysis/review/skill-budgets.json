@@ -1,0 +1,3236 @@
+{
+  "source": "skill_base_upgrade.skill_base_upgrade_0",
+  "rule": "cost is CURRENT level row; cumulative sums rows 0 through L-1. No server discounts or additional rewards.",
+  "rows": [
+    {
+      "skill_id": 1001,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402020003,
+          1
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 22,
+      "open_day": 0
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 1,
+      "spent_to_reach_current": [
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 22,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 22,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 22,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1001,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        },
+        {
+          "id": 1402020003,
+          "name": "技能书·冰冻",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402020008,
+          1
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 28,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 1,
+      "spent_to_reach_current": [
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 28,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 28,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 28,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1002,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        },
+        {
+          "id": 1402020008,
+          "name": "技能书·隐身",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402020005,
+          1
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 0
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 1,
+      "spent_to_reach_current": [
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1004,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        },
+        {
+          "id": 1402020005,
+          "name": "技能书·制导",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1005,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1005,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 0
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1006,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402020006,
+          1
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 24,
+      "open_day": 0
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 1,
+      "spent_to_reach_current": [
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 24,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 24,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 24,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1007,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        },
+        {
+          "id": 1402020006,
+          "name": "技能书·群疗",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402020007,
+          1
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 26,
+      "open_day": 0
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 1,
+      "spent_to_reach_current": [
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 26,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 26,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 26,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1009,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        },
+        {
+          "id": 1402020007,
+          "name": "技能书·净化",
+          "count": 1
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1012,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1012,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1013,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1013,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1014,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1014,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1015,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1015,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1016,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1016,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1020,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 25,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 25,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 25,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 25,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1021,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1022,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 35,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 35,
+      "open_day": 3
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 35,
+      "open_day": 3
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 35,
+      "open_day": 3
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 35,
+      "open_day": 3
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1023,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1024,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1024,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": false,
+      "require_player_level": 1,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 0,
+      "spent_to_reach_current": [],
+      "next_step_cost": {},
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 1,
+      "spent_to_reach_current": [],
+      "next_step_cost": [
+        [
+          1402010001,
+          25
+        ],
+        [
+          1001010001,
+          1000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 10,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 33000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 1275
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          400
+        ],
+        [
+          1001010001,
+          10000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 20,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 433000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 17675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          4000
+        ],
+        [
+          1001010001,
+          90000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 20,
+      "open_day": 1
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 30,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 1723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 78675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 30,
+      "open_day": 2
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 40,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 3223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 153675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 40,
+      "open_day": 5
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 50,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 4723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 228675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 45,
+      "open_day": 7
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 60,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 6223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 303675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 15
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 70,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 7723000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 378675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": true,
+      "require_player_level": 50,
+      "open_day": 40
+    },
+    {
+      "skill_id": 1026,
+      "current_level": 80,
+      "spent_to_reach_current": [
+        {
+          "id": 1001010001,
+          "name": "金币",
+          "count": 9223000
+        },
+        {
+          "id": 1402010001,
+          "name": "技能知识",
+          "count": 453675
+        }
+      ],
+      "next_step_cost": [
+        [
+          1402010001,
+          7500
+        ],
+        [
+          1001010001,
+          150000
+        ]
+      ],
+      "next_step_exists": false,
+      "require_player_level": 50,
+      "open_day": 40
+    }
+  ]
+}

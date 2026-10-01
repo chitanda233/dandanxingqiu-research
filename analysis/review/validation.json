@@ -1,0 +1,12 @@
+{
+  "bytecode_sources": 8272,
+  "config_exports": 1555,
+  "config_failures": 7,
+  "legacy_config_parity": 128,
+  "instruction_files": 3088,
+  "new_assertions": 97,
+  "legacy_replays": 35,
+  "report_chapters": 18,
+  "namespace_catalog": 189,
+  "passed": true
+}

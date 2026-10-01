@@ -1,0 +1,1 @@
+{"7012001":{"ball_name":"普通球","id":7012001,"trail_fx_id":"fx_normal_ball_fly","hit_radius":20,"ball_desc":"默认普通球","ball_type":"普通球","base_damage":1,"effect":{},"ball_material":"normal_ball"},"7012002":{"ball_name":"大力球","id":7012002,"trail_fx_id":"fx_strong_ball_fly","hit_radius":20,"ball_desc":"伤害更高","ball_type":"伤害球","base_damage":2,"effect":{},"ball_material":"strong_ball"}}

@@ -1,0 +1,1 @@
+{"root":0,"title":"camera_btree_6_3","nodes":{"0":{"name":"Parallel","children":[1,2]},"2":{"name":"MemSequence","children":[3,4]},"3":{"name":"CheckObjPosChanged","params":{"id":-4003}},"1":{"name":"CameraWait","params":{"time":1}},"4":{"name":"CameraFocusPosition","params":{"y":-2.8,"x":2.29,"time":1.5}}}}

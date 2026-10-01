@@ -1,0 +1,1 @@
+{"get_config":{"$lua_function":true},"get_all_config":{"$lua_function":true}}

@@ -1,0 +1,83 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：槽位、使用资格、CD和每步升级预算"><title>技能与Buff · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="03-skills" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item active" href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>技能与Buff</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 03 / REVERSE ENGINEERING</div><h1>技能与Buff</h1><p>槽位、使用资格、CD和每步升级预算</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="id">四个 ID 层次</h2>
+<p>玩家养成的基础技能 ID、某等级转换出的战斗技能 ID、主动技能原型和被动技能配置属于不同对象。通用槽位、武器授予技能、宠物技能和特殊玩法技能还带来源、位置、品质、使用回合和累计次数。按中文名字合并记录会丢失等级与来源差异。</p>
+<p>本次扫描得到主动配置 8,237 行、被动配置 8,932 行，主动原型 518 种；这些是快照中的配置变体统计，不是 17,169 个独立可学技能。<a href="configs.html?table=skill.skill&amp;q=">主动技能表</a> <a href="configs.html?table=passive_skill.passive_skill&amp;q=">被动技能表</a></p>
+<h2 id="_1">槽位与出战计划</h2>
+<p>通用技能五个槽位 ID 为 1、2、3、100、101；类型定义主动=1、被动=2。不能将“五槽”直接描述为“五个常规主动技能”。技能穿戴与计划切换独立于等级培养；进入战斗时再转换成具体配置 ID。当前玩法可以套用对应构筑，而不是始终沿用大厅最后一次穿戴顺序。<a href="evidence.html?module=game.module.skill.manager.core&amp;function=">技能管理器</a></p>
+<h2 id="_2">使用资格是多条件交集</h2>
+<p>完整资格要考虑：玩法允许技能、当前是否可控制、是否手动可用、技能已持有、次数限制、CD、资源、状态禁用和技能特殊例外。次数可能分全局累计 <code>all_count</code> 与回合累计 <code>round_count</code>。服务端更新 <code>use_round</code> 和所属单位 <code>round_count</code>，不能把显示 CD 全按真实秒数递减。</p>
+<p>CD 在所属单位行动回合推进；某些特殊原型有独立处理，例如 2139 的例外。重复行动、冻结等状态也会影响可用性。具体技能有是否取消普通发炮的字段，因此“释放任何技能都消耗一次攻击”不是正确概括。<a href="evidence.html?module=game.module.fight.manager.base.fighting.skill.core&amp;function=">局内技能原指令</a></p>
+<h2 id="_3">以冰冻和净化解释机制差异</h2>
+<p>冰冻 1001009 的匹配限制为最多 1 次、CD 4，并配置取消普通攻击；1001049 则是最多 3 次、CD 3，不能只用“冰冻”一条规则概括所有等级/变体。净化对应分支不替代普通攻击。描述文本、参数和客户端资格要交叉核对：文本表达效果，字段决定客户端提示和操作，服务器最终执行仍需权威链条。</p>
+<p>Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID；被动另有触发和效果次数。显示图标消失、Buff 节点删除、技能 CD 变化不是同一事件。多段弹体可能多次触发被动，也可能由服务器限制次数，不能仅相加描述中的倍率。</p>
+<h2 id="_4">培养费用查当前级</h2>
+<p>升级函数查当前等级费用，下一等级行用来判定还能继续。检查顺序包含角色等级、功能开放、其他已培养技能数量、任务完成状态 5、开服天数、下一行存在和材料余额。0→1 是解锁，通常与后续升级材料不同。<a href="evidence.html?module=game.module.skill.manager.core&amp;function=can_upgrade_skill_lvl">培养原函数</a> <a href="configs.html?table=skill_base_upgrade.skill_base_upgrade_0&amp;q=">升级有效表</a></p>
+<p>冰冻基础技能 1001：0→1 要技能书·冰冻 <code>1402020003×1</code>；1→2 要知识 25、金币 1,000；10→11 要知识 400、金币 10,000；20→21 要知识 4,000、金币 90,000；40→41 要知识 7,500、金币 150,000，且角色 40 级、开服 5 天。材料 3,999/4,000、角色 39/40、开服 4/5 天的边界均已在原有用例中复核。</p>
+<h2 id="_5">单次成本与累计预算</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th style="text-align: right;">到达技能等级</th>
+<th style="text-align: right;">累计知识</th>
+<th style="text-align: right;">累计金币</th>
+<th>另外需要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1,275</td>
+<td style="text-align: right;">33,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">17,675</td>
+<td style="text-align: right;">433,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">78,675</td>
+<td style="text-align: right;">1,723,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">153,675</td>
+<td style="text-align: right;">3,223,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">228,675</td>
+<td style="text-align: right;">4,723,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">303,675</td>
+<td style="text-align: right;">6,223,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">378,675</td>
+<td style="text-align: right;">7,723,000</td>
+<td>解锁书 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">453,675</td>
+<td style="text-align: right;">9,223,000</td>
+<td>解锁书 1</td>
+</tr>
+</tbody>
+</table></div>
+<p>累计只加 0～目标级−1 的行；当前级费用是下一步，不能提前计入。80 级行有费用但缺下一行，不能认定可升级至 81。交互计算器支持选择技能和任意当前/目标级，输出按物品分列的成本；不代替资格判断，也不计算服务器折扣。</p>
+<h2 id="_6">设计分析与复刻要求</h2>
+<p>技能构筑由用途、使用频率、资源与攻击替代关系共同决定；仅用 DPS 排名会忽略控制、解控、辅助和回合节奏。养成门槛同时绑定时间、等级和其他培养进度，形成多轴推进。复刻至少需要：基础技能实例、具体战斗配置映射、槽位方案、每步成本、资格原因、CD/次数、状态禁用、服务端失败处理。尚未证实的服务器效果应保留为待补项。</p><nav class="chapter-pager"><a href="02-combat.html">← 战斗与操作</a><a href="04-growth.html">角色与养成 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#id">四个 ID 层次</a><a href="#_1">槽位与出战计划</a><a href="#_2">使用资格是多条件交集</a><a href="#_3">以冰冻和净化解释机制差异</a><a href="#_4">培养费用查当前级</a><a href="#_5">单次成本与累计预算</a><a href="#_6">设计分析与复刻要求</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

@@ -1,0 +1,1 @@
+{"root":0,"title":"camera_btree_4_4_1","nodes":{"0":{"name":"Parallel","children":[1,2]},"2":{"name":"Sequence","children":[3,4,5]},"3":{"name":"CheckObjDie","params":{"id":-4001}},"1":{"name":"CameraWait","params":{"time":1}},"4":{"name":"CameraFocusPosition","params":{"y":-2.23,"x":1.59,"time":1.5}},"5":{"name":"ClearObjDie","params":{"id":-4001}}}}

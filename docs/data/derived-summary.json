@@ -1,0 +1,21 @@
+{
+  "exports": 1555,
+  "pure_tables": 1552,
+  "nonempty_pure_tables": 1534,
+  "exported_rows_including_shards": 263128,
+  "localization_keys": 54065,
+  "items_with_name": 17450,
+  "gameplay_modes": 70,
+  "pinball_layouts": 50,
+  "pinball_target_range": [
+    367,
+    2560
+  ],
+  "active_skill_rows": 8237,
+  "passive_skill_rows": 8932,
+  "active_skill_prototypes": 518,
+  "weapon_rows": 440,
+  "weapon_groups": 85,
+  "pet_rows": 47,
+  "pet_types": 19
+}

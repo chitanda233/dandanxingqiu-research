@@ -1,0 +1,1 @@
+[{"id":1,"type":1,"resource":"match_flour","score":1},{"id":2,"type":1,"resource":"match_water","score":1},{"id":3,"type":1,"resource":"match_egg","score":1},{"id":4,"type":1,"resource":"match_meat","score":1},{"id":5,"type":2,"resource":"match_star","score":10},{"id":6,"type":3,"score":5},{"id":7,"type":4,"score":5},{"id":8,"type":4,"score":5}]

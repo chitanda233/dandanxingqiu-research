@@ -1,0 +1,3555 @@
+{
+  "scope": "50 ORIGINAL layout chunks plus stage config. HP sum counts all initial and later units; no inferred achievable score.",
+  "rows": [
+    {
+      "stage_id": 70101001,
+      "name": "第1关",
+      "target_score": 367,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": null,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 5,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 6,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 3,
+      "hp_sum": 334,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 63
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 78
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 79
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101001_2460645630556558811.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101001",
+      "sha256": "75c53ad5db71957608bb349af30529d80375bd5bd71700bedb12af466086e90c"
+    },
+    {
+      "stage_id": 70101002,
+      "name": "第2关",
+      "target_score": 380,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101001,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 5,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 6,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 372,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 70
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 80
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 93
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101002_-8028758287323935178.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101002",
+      "sha256": "090ffebfc0026bc169537e043331dc6fdb62cd3fea70547b06a2e86d0033b9bd"
+    },
+    {
+      "stage_id": 70101003,
+      "name": "第3关",
+      "target_score": 385,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101002,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 5,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 6,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 352,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 83
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 70
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 93
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101003_8223260712308418086.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101003",
+      "sha256": "8c62f066f8236772d1140a247d47a80e659c569adea861fbf3f8b9ebab6ca70e"
+    },
+    {
+      "stage_id": 70101004,
+      "name": "第4关",
+      "target_score": 390,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101003,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 5,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 6,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 346,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 62
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 75
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 85
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101004_3359517033857661917.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101004",
+      "sha256": "62616137d069dae1529dcdb7412943e3372a799add1e19fe35026317997f4d89"
+    },
+    {
+      "stage_id": 70101005,
+      "name": "第5关",
+      "target_score": 405,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101004,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 5,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 6,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 3,
+      "hp_sum": 354,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 82
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 80
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 79
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101005_1702733023674114538.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101005",
+      "sha256": "77d31b23cd648252feec2192331e7c06175f5f8401c486616188c85d3b78f04c"
+    },
+    {
+      "stage_id": 70101006,
+      "name": "第6关",
+      "target_score": 410,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101005,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 7,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 355,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 71
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 69
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 84
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101006_-5218013088399759338.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101006",
+      "sha256": "f269fbc13d2814e39cd1efc5a90503723540d42ffc027d99099ff53853f51664"
+    },
+    {
+      "stage_id": 70101007,
+      "name": "第7关",
+      "target_score": 415,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101006,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 7,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 421,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 88
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 93
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 104
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101007_1011853238181794134.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101007",
+      "sha256": "8e030ddd40b1c01a9d5ca37d42f573d57db75b51732e2e3f7186ea1b1b45b559"
+    },
+    {
+      "stage_id": 70101008,
+      "name": "第8关",
+      "target_score": 420,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101007,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 7,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 373,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 67
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 78
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 87
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101008_-1405458589967108546.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101008",
+      "sha256": "0c1767a1a2267d356a3843eb626e051b97fc7812b830cd5f7c0583ae4f612f2c"
+    },
+    {
+      "stage_id": 70101009,
+      "name": "第9关",
+      "target_score": 425,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101008,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 7,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 3,
+      "hp_sum": 423,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 87
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 85
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 114
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101009_2870200543003767096.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101009",
+      "sha256": "ae74a2e8aad4438bd04e25303dfab5b7df9f5f867edebeabcb5bb685a9b8e6e4"
+    },
+    {
+      "stage_id": 70101010,
+      "name": "第10关",
+      "target_score": 430,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101009,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 1,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 7,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 401,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 97
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 87
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 91
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101010_2671474373230988473.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101010",
+      "sha256": "547359204c7408cf278493411eb7dda9c9a3d957c9ed94f6271746b2a19a8657"
+    },
+    {
+      "stage_id": 70101011,
+      "name": "第11关",
+      "target_score": 435,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101010,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 8,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 349,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 66
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 80
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 84
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101011_-2599139415451002587.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101011",
+      "sha256": "b6951c7150b617977b9bba9fa6b4f49c7213de9bc1da4d82a3bb5624989be2c3"
+    },
+    {
+      "stage_id": 70101012,
+      "name": "第12关",
+      "target_score": 440,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101011,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 8,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 5,
+      "waves": 3,
+      "unit_count": 15,
+      "props": 2,
+      "hp_sum": 387,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 99
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 82
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 98
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101012_-5158937332495647995.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101012",
+      "sha256": "71f4925cb7e5a566f8931c00fd7480eb0301c6c4aefce90fa90ee086985c3184"
+    },
+    {
+      "stage_id": 70101013,
+      "name": "第13关",
+      "target_score": 745,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101012,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 8,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 848,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 113
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 186
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 216
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 97
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101013_-3272316126012507225.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101013",
+      "sha256": "78a1849f875c269c8e0e8259ecfc7c9778b71bb83832b241e6a6ea81205141b1"
+    },
+    {
+      "stage_id": 70101014,
+      "name": "第14关",
+      "target_score": 755,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101013,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 8,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 843,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 119
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 181
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 157
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 154
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101014_-1815815503839858818.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101014",
+      "sha256": "d3ced7efad964ba7c9b8d30024391e0f87bc7b00d2a49d24cb90fd75e54ef045"
+    },
+    {
+      "stage_id": 70101015,
+      "name": "第15关",
+      "target_score": 765,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101014,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 6,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 8,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 852,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 116
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 195
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 219
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 42
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101015_2287325168835771714.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101015",
+      "sha256": "d913e0cf83b3e76e12060afbf69fc642a29a3f78eebf9b3a9e9a44a7f26cd47d"
+    },
+    {
+      "stage_id": 70101016,
+      "name": "第16关",
+      "target_score": 775,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101015,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 7,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 9,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 858,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 125
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 190
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 217
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 50
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101016_-6239598075664751809.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101016",
+      "sha256": "14b1fd0f78e0c030c0e10873e499d22b85f1118caf1d4dab32d750b9b7f0e043"
+    },
+    {
+      "stage_id": 70101017,
+      "name": "第17关",
+      "target_score": 785,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101016,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 7,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 9,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 941,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 111
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 252
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 158
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 100
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101017_-1816891177516977712.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101017",
+      "sha256": "e9432f6b59203991e001657da541cd1863075664e3caf79a23b7dc15e48374f3"
+    },
+    {
+      "stage_id": 70101018,
+      "name": "第18关",
+      "target_score": 795,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101017,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 7,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 9,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 909,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 126
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 143
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 238
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 102
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101018_906517529708756214.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101018",
+      "sha256": "620e141eaba8a6c37221f7abb3903d15d58475e4667bd6022481f49ffb865b8a"
+    },
+    {
+      "stage_id": 70101019,
+      "name": "第19关",
+      "target_score": 805,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101018,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 7,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 9,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 978,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 124
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 157
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 250
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 162
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101019_-6528160812373239814.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101019",
+      "sha256": "eacfec5eedddec42d9749a758bbf871d9aa979de94232e36d20679c98d18fd45"
+    },
+    {
+      "stage_id": 70101020,
+      "name": "第20关",
+      "target_score": 815,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101019,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 7,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 9,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 983,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 128
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 165
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 243
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 172
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101020_80898159283382901.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101020",
+      "sha256": "2da16445131e0ef310456160a11b8cb8a1562da959e65fba73e96ed5f2547a32"
+    },
+    {
+      "stage_id": 70101021,
+      "name": "第21关",
+      "target_score": 825,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101020,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 10,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 6,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 856,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 127
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 150
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 199
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 152
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101021_-6125371727484902091.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101021",
+      "sha256": "db9c4d19208cb9dd72369114dfdfa2f19f089aff52e362eae1689ad5216e226a"
+    },
+    {
+      "stage_id": 70101022,
+      "name": "第22关",
+      "target_score": 835,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101021,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 10,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 909,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 139
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 134
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 237
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 107
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101022_5394997378381539965.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101022",
+      "sha256": "1a8d99c649be91c31ab67c0ae12ad794395f7b197c495b7c1d384cb99377b19f"
+    },
+    {
+      "stage_id": 70101023,
+      "name": "第23关",
+      "target_score": 845,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101022,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 10,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 880,
+      "prop_counts": {
+        "7011002": 1,
+        "7011003": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 120
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 154
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 165
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 151
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101023_-7928584445803640525.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101023",
+      "sha256": "1a2f290181ac68be501725fd5fa2a3eae64d188cc253139d6b2398d898c9cc19"
+    },
+    {
+      "stage_id": 70101024,
+      "name": "第24关",
+      "target_score": 855,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101023,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 10,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 2,
+      "hp_sum": 872,
+      "prop_counts": {
+        "7011003": 1,
+        "7011002": 1
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 123
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 143
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 168
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 155
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101024_-598171876922583717.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101024",
+      "sha256": "f842dadba663d62d03eb39475fef3f951b14066fd694d49a520bb122decd6311"
+    },
+    {
+      "stage_id": 70101025,
+      "name": "第25关",
+      "target_score": 865,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101024,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 2,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 10,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 19,
+      "props": 4,
+      "hp_sum": 902,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 120
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 156
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 172
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 157
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101025_-9189073232026247249.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101025",
+      "sha256": "cde215e320bbcb77a97e4bfda12165b4a41eb00d2c16892884e39f73b82d76e9"
+    },
+    {
+      "stage_id": 70101026,
+      "name": "第26关",
+      "target_score": 1200,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101025,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 12,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1520,
+      "prop_counts": {
+        "7011003": 2,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 279
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 236
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 363
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 105
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101026_-9081296248707726406.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101026",
+      "sha256": "90ff77c8a02bbd3f57016bb1d63ac067f874a90d10fd5f5ba223120c9b0b4371"
+    },
+    {
+      "stage_id": 70101027,
+      "name": "第27关",
+      "target_score": 1220,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101026,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 12,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1608,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 272
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 311
+        },
+        {
+          "wave": 3,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 426
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 76
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101027_-7172071534242979239.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101027",
+      "sha256": "ae81590561e8ee911233cc6fb22e2fefc457daa09ab88aba1fc7b9e1bdb0a930"
+    },
+    {
+      "stage_id": 70101028,
+      "name": "第28关",
+      "target_score": 1240,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101027,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 12,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1571,
+      "prop_counts": {
+        "7011003": 2,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 265
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 260
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 380
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 171
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101028_-7052877293521139474.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101028",
+      "sha256": "33736fde6747df51516b5f212dd4c35fb38a15dd75708061e2a774be35d279cf"
+    },
+    {
+      "stage_id": 70101029,
+      "name": "第29关",
+      "target_score": 1260,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101028,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 12,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1617,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 1,
+          "hp_sum": 377
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 451
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 260
+        },
+        {
+          "wave": 4,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101029_515458201900648073.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101029",
+      "sha256": "d8f49675c50e6037695513f4169a7491c26ef3d5d6f41a649a4afd318ef8c5e5"
+    },
+    {
+      "stage_id": 70101030,
+      "name": "第30关",
+      "target_score": 1280,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101029,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 12,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1629,
+      "prop_counts": {
+        "7011003": 2,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 1,
+          "hp_sum": 381
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 456
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 271
+        },
+        {
+          "wave": 4,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101030_-2893136751079575270.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101030",
+      "sha256": "7e581581338636924279fa050c9f31fa3f7b27cd509a576aa4d304870d659973"
+    },
+    {
+      "stage_id": 70101031,
+      "name": "第31关",
+      "target_score": 1300,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101030,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 13,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1537,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 235
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 394
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 360
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 107
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101031_-3445295904959444874.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101031",
+      "sha256": "8afce0c6802f536aab86504411b9777f9c693dd4d62c1d305ef9703834aaeff3"
+    },
+    {
+      "stage_id": 70101032,
+      "name": "第32关",
+      "target_score": 1320,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101031,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 13,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1593,
+      "prop_counts": {
+        "7011003": 2,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 234
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 327
+        },
+        {
+          "wave": 3,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 447
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 107
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101032_-6061011275560842599.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101032",
+      "sha256": "bf8c7e80a2ef2ca3aae23ce1f6d15b3c13239a78fc496b61cec381468cd2b446"
+    },
+    {
+      "stage_id": 70101033,
+      "name": "第33关",
+      "target_score": 1340,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101032,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 13,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 7,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1554,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 1,
+          "hp_sum": 198
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 253
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 369
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 249
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101033_-1195672355153276188.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101033",
+      "sha256": "31bd311a0bc1b5ea50205a52c37ab6b342fae6bef15c66349315f68355e3fd4e"
+    },
+    {
+      "stage_id": 70101034,
+      "name": "第34关",
+      "target_score": 1360,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101033,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 13,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1495,
+      "prop_counts": {
+        "7011003": 2,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 282
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 320
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 276
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 79
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101034_-2397388121416435957.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101034",
+      "sha256": "74ad2b1ea241307dfd0441d20b5538b19a81cd82e52ded268338c70bf1d8d44b"
+    },
+    {
+      "stage_id": 70101035,
+      "name": "第35关",
+      "target_score": 1380,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101034,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 13,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 4,
+      "hp_sum": 1511,
+      "prop_counts": {
+        "7011002": 2,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 300
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 337
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 255
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 78
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101035_6877208624128325521.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101035",
+      "sha256": "8e1e63a1a13326fe70e7848e6d50b9524300c3da9448a79af268a9d9d907d095"
+    },
+    {
+      "stage_id": 70101036,
+      "name": "第36关",
+      "target_score": 1390,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101035,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 6,
+      "hp_sum": 1544,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 3
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 1,
+          "hp_sum": 288
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 342
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 266
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 107
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101036_-5908687195029242645.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101036",
+      "sha256": "59fb14e3ffefb8d452de09470aade62250a55ddaf83a58d65409b1a8ed56a1af"
+    },
+    {
+      "stage_id": 70101037,
+      "name": "第37关",
+      "target_score": 1400,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101036,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 6,
+      "hp_sum": 1623,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 3
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 1,
+          "hp_sum": 409
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 248
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 276
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 85
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101037_3198813187873700773.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101037",
+      "sha256": "a301573986880ad759b377437fb8896741eee570f34cb075ac9646b3a6076441"
+    },
+    {
+      "stage_id": 70101038,
+      "name": "第38关",
+      "target_score": 1410,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101037,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 4,
+      "unit_count": 20,
+      "props": 6,
+      "hp_sum": 1580,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 3
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 1,
+          "hp_sum": 357
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 270
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 292
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 91
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101038_5919477222757882360.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101038",
+      "sha256": "c6c676f602b58eb2dbbc9897a493d3cc07a0ce9483e8312c2637766fdf3f9a3b"
+    },
+    {
+      "stage_id": 70101039,
+      "name": "第39关",
+      "target_score": 2340,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101038,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2908,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 6,
+          "props": 0,
+          "hp_sum": 824
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 667
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 549
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 176
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101039_-5542526078189673829.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101039",
+      "sha256": "48334a459eebc7809e16b19a03b774d7bae86f5cadb2d0ce6d666e4e652763d8"
+    },
+    {
+      "stage_id": 70101040,
+      "name": "第40关",
+      "target_score": 2360,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101039,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 4,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2996,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 6,
+          "props": 0,
+          "hp_sum": 796
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 612
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 619
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 2,
+          "hp_sum": 373
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101040_-7086916977977951347.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101040",
+      "sha256": "c8c1ad889de76eb82c1ce9953ae731c48c9b20fffdf525cd2711154156b37ee7"
+    },
+    {
+      "stage_id": 70101041,
+      "name": "第41关",
+      "target_score": 2380,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101040,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 5,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 14,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2662,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 606
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 516
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 489
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 447
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101041_5736105629518891467.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101041",
+      "sha256": "f31b7d34e086263a3b02c0d9ae751e5053aaefb5f08c24c9d2d78d31ab53ba16"
+    },
+    {
+      "stage_id": 70101042,
+      "name": "第42关",
+      "target_score": 2400,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101041,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 8,
+          "ball_id": 7012001
+        },
+        {
+          "count": 7,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 15,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2862,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 519
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 711
+        },
+        {
+          "wave": 3,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 653
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 422
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101042_8927707670932921143.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101042",
+      "sha256": "f8764cd0a53a76d02a4e78045066e79931e232dddb46044bcbfb8b55d1da4104"
+    },
+    {
+      "stage_id": 70101043,
+      "name": "第43关",
+      "target_score": 2420,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101042,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 17,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2709,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 484
+        },
+        {
+          "wave": 2,
+          "units": 6,
+          "props": 2,
+          "hp_sum": 828
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 434
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 2,
+          "hp_sum": 352
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101043_-8325249789225119823.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101043",
+      "sha256": "7be7b48adbcefacc4c04f335b8069a3655b1ab926d0bdc80414976fe1b6fad62"
+    },
+    {
+      "stage_id": 70101044,
+      "name": "第44关",
+      "target_score": 2440,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101043,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 17,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2831,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 339
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 559
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 448
+        },
+        {
+          "wave": 4,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 613
+        },
+        {
+          "wave": 5,
+          "units": 2,
+          "props": 0,
+          "hp_sum": 317
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101044_530681834975875448.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101044",
+      "sha256": "2a6e8a0665506a795b80931674a100ac5cc2173fd6588e09eb132e46a152fdc2"
+    },
+    {
+      "stage_id": 70101045,
+      "name": "第45关",
+      "target_score": 2460,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101044,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 9,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 17,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2784,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 6,
+          "props": 0,
+          "hp_sum": 732
+        },
+        {
+          "wave": 2,
+          "units": 6,
+          "props": 2,
+          "hp_sum": 840
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 495
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 164
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101045_8505611320164302968.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101045",
+      "sha256": "55c7afa8a2319c80dd6b43e991336e66a5a4a6fb6846dd45f967956226cfc264"
+    },
+    {
+      "stage_id": 70101046,
+      "name": "第46关",
+      "target_score": 2480,
+      "reward": [
+        [
+          1205010002,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101045,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 18,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2721,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 6,
+          "props": 0,
+          "hp_sum": 713
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 739
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 451
+        },
+        {
+          "wave": 4,
+          "units": 1,
+          "props": 2,
+          "hp_sum": 176
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101046_-7321869926951394379.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101046",
+      "sha256": "bec0ea43b59490c65e8e61ae0b470cd32eb6e2b90b679a89e976b40af4714f23"
+    },
+    {
+      "stage_id": 70101047,
+      "name": "第47关",
+      "target_score": 2500,
+      "reward": [
+        [
+          1201010001,
+          8
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101046,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 18,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 3037,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 687
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 715
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 462
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 570
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101047_2552328688943871354.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101047",
+      "sha256": "e71428283cef69dcd8aacc903920bf5c1f004341cf7abccf7f0e6ae8416440c4"
+    },
+    {
+      "stage_id": 70101048,
+      "name": "第48关",
+      "target_score": 2520,
+      "reward": [
+        [
+          1405030001,
+          5
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101047,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 18,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 2778,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 627
+        },
+        {
+          "wave": 2,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 734
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 449
+        },
+        {
+          "wave": 4,
+          "units": 2,
+          "props": 2,
+          "hp_sum": 316
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101048_4526667272452436415.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101048",
+      "sha256": "181f57a8993a060dacd7e7866a02d2795537c5faaa25c0400bef00a829579fe0"
+    },
+    {
+      "stage_id": 70101049,
+      "name": "第49关",
+      "target_score": 2540,
+      "reward": [
+        [
+          1405020001,
+          2
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101048,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 18,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 8,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 3111,
+      "prop_counts": {
+        "7011002": 3,
+        "7011003": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 4,
+          "props": 0,
+          "hp_sum": 517
+        },
+        {
+          "wave": 2,
+          "units": 4,
+          "props": 2,
+          "hp_sum": 633
+        },
+        {
+          "wave": 3,
+          "units": 5,
+          "props": 0,
+          "hp_sum": 792
+        },
+        {
+          "wave": 4,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 549
+        },
+        {
+          "wave": 5,
+          "units": 0,
+          "props": 0,
+          "hp_sum": 0
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101049_-4104368850227875297.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101049",
+      "sha256": "b1b38bec6506cc3a6e9de5d13a8208208e6b6b9e3ce2966a47b1523b65698137"
+    },
+    {
+      "stage_id": 70101050,
+      "name": "第50关",
+      "target_score": 2560,
+      "reward": [
+        [
+          1001010004,
+          30
+        ],
+        [
+          1001010001,
+          50000
+        ]
+      ],
+      "pre_dup": 70101049,
+      "configured_ball_count": 8,
+      "layout_init_balls": [
+        {
+          "count": 10,
+          "ball_id": 7012001
+        },
+        {
+          "count": 8,
+          "ball_id": 7012002
+        }
+      ],
+      "layout_ball_count": 18,
+      "canvas": {
+        "height": 2400,
+        "unit": "px",
+        "width": 1080
+      },
+      "initial_units": 9,
+      "waves": 5,
+      "unit_count": 24,
+      "props": 5,
+      "hp_sum": 3068,
+      "prop_counts": {
+        "7011003": 3,
+        "7011002": 2
+      },
+      "wave_summaries": [
+        {
+          "wave": 1,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 397
+        },
+        {
+          "wave": 2,
+          "units": 3,
+          "props": 2,
+          "hp_sum": 438
+        },
+        {
+          "wave": 3,
+          "units": 3,
+          "props": 0,
+          "hp_sum": 536
+        },
+        {
+          "wave": 4,
+          "units": 5,
+          "props": 2,
+          "hp_sum": 828
+        },
+        {
+          "wave": 5,
+          "units": 1,
+          "props": 0,
+          "hp_sum": 197
+        }
+      ],
+      "source": "lua0_573512/game.module.pin_ball_game.stage_config.pinball-stage-70101050_4426345065095865259.bin",
+      "source_name": "game.module.pin_ball_game.stage_config.pinball-stage-70101050",
+      "sha256": "44a989dd75422a3e812315658aed7ce976883b075c86bd6a187c7bf2ab25b13f"
+    }
+  ]
+}

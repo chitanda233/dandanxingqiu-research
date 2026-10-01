@@ -1,0 +1,103 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：独立50关、布局球组、计分与提交"><title>弹球闯关 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="08-pinball" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item active" href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>弹球闯关</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 08 / REVERSE ENGINEERING</div><h1>弹球闯关</h1><p>独立50关、布局球组、计分与提交</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">为什么需要独立成章</h2>
+<p><code>pin_ball_game</code> 不只是普通战斗的一个玩法标签：它有自己的 Unity 控制器桥接、球配置、道具、50 个独立布局脚本、分数、波次、球数、结果界面和网络提交。旧报告基本遗漏了这套机制。本次逐一执行 50 个原布局字节码，并验证加载和结算关键分支。</p>
+<p>运行时入口 <code>is_runtime_available</code> 通过 <code>pcall(typeof(PinBallGameController))</code> 判断类型是否存在，<code>is_feature_available</code> 调用同一检查。类型可用不等于当前服务器开放；类型缺失时会提示“当前客户端版本暂不支持该玩法”。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=is_runtime_available">入口原函数</a></p>
+<h2 id="_2">关卡数据由两层组合</h2>
+<p>关卡配置 ID 70101001～70101050，保存目标、前置、默认球数和奖励。布局脚本保存 canvas、init_balls、initial_units、initial_props 和后续 waves。<code>load_stage_layout</code> 取根对象的 layout，并在需要时合并根对象的 canvas/init_balls；不能只读取 layout 子对象而漏掉球数。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=load_stage_layout">布局加载</a> <a href="configs.html?table=pinball_stage.pinball_stage&amp;q=">关卡表</a></p>
+<p>全部画布以配置中的像素坐标呈现；首关为 1080×2400。网站提供初始布局和各个后续波次的 SVG 示意：标注单位 HP、道具 ID、位置与大小。它是布局数据可视化，不是游戏截图或碰撞模拟。</p>
+<h2 id="8-8">默认 8 球不等于实际 8 球</h2>
+<p><code>build_initial_ball_loadout</code> 优先采用有效非空的布局球列表；检查球 ID 存在、数量有效且大于 0。空列表或未知球 ID 会回退到配置 <code>init_ball_count</code>。首关布局 5 普通+1 强力，实际初始 6 球；末关 10 普通+8 强力，实际 18 球；两者配置默认均是 8。四种分支已执行原函数验证。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=build_initial_ball_loadout">球组装</a></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>球</th>
+<th style="text-align: right;">ID</th>
+<th style="text-align: right;">base_damage</th>
+<th style="text-align: right;">hit_radius</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通球</td>
+<td style="text-align: right;">7012001</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>大力球</td>
+<td style="text-align: right;">7012002</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">20</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些是配置基础值；不能在未验证控制器碰撞调用时把 hit_radius 直接当世界单位或计算精确击杀次数。前文“强力球”指配置正式名“大力球”。<a href="configs.html?table=pinball_ball.pinball_ball&amp;q=">球表</a></p>
+<h2 id="_3">障碍、增球与爆炸道具</h2>
+<p>共有 6 条 prop 配置。圆形7011001、三角形7011004、正方形7011005、五边形7011006都是prop_type1，hit_score1、death_score10、move_distance216。增球7011002为prop_type2，hit/death_score都0、move_distance216、add_ball1，描述明确为“下一回合小球数量+1”；炸弹7011003为prop_type2，hit/death_score都0、move_distance0、boom_effect50、effect_r300。不同几何、角度、HP 和位置提供反弹/命中路线的布局差异。<a href="configs.html?table=pinball_prop.pinball_prop&amp;q=">道具表</a></p>
+<p><code>on_kill</code> 把 active_unit_count 下限钳为 0，并累加死亡分数；死亡计数原为 0 的测试仍保持 0，并获得配置死亡分10。<code>on_hit/on_kill</code>通过未命名的0.44函数加分：base_score非0时，增加<code>base_score×max(1,tonumber(回调第二参数)或1)</code>。这能确认客户端倍率处理，但第二参数的游戏语义仍需控制器证据，不能自行称为完整“连击倍率”。命中、死亡和倍率参数来自控制器回调；不能在缺完整 C# 桥接语义时宣称任意关卡理论最高分。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=on_hit">命中与计分原指令</a></p>
+<h2 id="50">50 关的可量化内容</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指标</th>
+<th style="text-align: right;">第 1 关</th>
+<th style="text-align: right;">第 50 关</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目标分数</td>
+<td style="text-align: right;">367</td>
+<td style="text-align: right;">2560</td>
+</tr>
+<tr>
+<td>初始球数</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>初始单位</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td>后续波次</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>全部波次单位总数</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>全部单位 HP 总和</td>
+<td style="text-align: right;">334</td>
+<td style="text-align: right;">3068</td>
+</tr>
+<tr>
+<td>道具总数</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>奖励</td>
+<td style="text-align: right;">强化石×2、金币50,000</td>
+<td style="text-align: right;">蓝钻×30、金币50,000</td>
+</tr>
+</tbody>
+</table></div>
+<p>50 关目标范围 367～2560。HP 总和只汇总配置中初始与后续单位，不等于目标分数，也不能当难度的唯一指标。增球、炸弹、布局和强力球比例都会改变过程。交互曲线分别画目标分与 HP 总和，避免用同一含义解释。</p>
+<h2 id="_4">关卡曲线存在三次结构跃迁</h2>
+<p>第12→13关目标440→745、HP387→848、单位15→19、后续波次3→4，但球组仍为6普通+2大力。第25→26关目标865→1200、HP902→1520、单位19→20，同时大力球2→4，普通球保持8。第38→39关目标1410→2340、HP1580→2908、单位20→24、波次4→5，球组仍10普通+4大力。</p>
+<p>目标增幅分别约69.3%、38.7%、66.0%，HP增幅约119.1%、68.5%、84.1%。这些是配置差值，不是实测难度增幅。第13和39关同时加内容但未增加初始球，值得作为体验测试的重点；第26关增加大力球可提供部分补偿。整个50关更适合按1～12、13～25、26～38、39～50四段讨论，而不是假设每关线性增长。仍需碰撞、道具触发和通关记录判断是否存在真实卡点。</p>
+<h2 id="_5">达标、结束和结果提交</h2>
+<p><code>is_stage_target_reached</code> 在 score≥target 时返回真，目标≤0也为真。<code>on_round_end</code> 重置当轮球计数，并在达标后调用控制器 <code>RequestFinishAfterRoundEnd</code>。因此玩法存在“达到目标后在回合末结束”的路径，不必笼统写成“清空所有障碍才获胜”。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=is_stage_target_reached">达标</a> <a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=on_round_end">回合末</a></p>
+<p><code>on_stage_finished</code> 用分数是否达标判 win1/lose2，结果只展示一次。只有获胜且该关尚未完成时发送 <code>pinball_submit_result</code>；已通过的重玩和失败不走同一提交分支。四种组合已验证。网络包装发送 <code>{dup_id,type}</code>，没有 score 字段；这仅描述客户端接口，不证明服务器会信任任意构造结果。<a href="evidence.html?module=game.module.pin_ball_game.manager.core&amp;function=on_stage_finished">结束原函数</a> <a href="evidence.html?module=game.module.pin_ball_game.manager.network.network&amp;function=">网络封装</a></p>
+<h2 id="_6">解锁、奖励与继续挑战</h2>
+<p>进度由 max_pass_stage_id 等回复刷新，下一关依 <code>pre_dup</code> 关系查找；请求成功再更新入口红点、待展示奖励和关卡列表。结果页支持下一关、重试、返回，且下一关还要过解锁检查。首次奖励与重玩必须分离，不能因为本地 show_result 就再次增加背包。</p>
+<p>本次证明的是客户端布局、状态与提交条件；碰撞判定、反弹参数、道具实际触发次数和服务端奖励校验尚待完整 Unity 桥接或实际运行记录补齐。</p><nav class="chapter-pager"><a href="07-rogue.html">← 肉鸽挑战</a><a href="09-guild.html">公会与团体战 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">为什么需要独立成章</a><a href="#_2">关卡数据由两层组合</a><a href="#8-8">默认 8 球不等于实际 8 球</a><a href="#_3">障碍、增球与爆炸道具</a><a href="#50">50 关的可量化内容</a><a href="#_4">关卡曲线存在三次结构跃迁</a><a href="#_5">达标、结束和结果提交</a><a href="#_6">解锁、奖励与继续挑战</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

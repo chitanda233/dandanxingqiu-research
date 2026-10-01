@@ -36,6 +36,8 @@ def replace_links(source: str) -> str:
             return f"]({REPO}/blob/main/{path[3:]}{fragment})"
         if path == "README.md":
             return "](../../index.html)"
+        if path.startswith("review/reports/") and path.endswith(".md"):
+            return f"](../../review/{Path(path).stem}.html{fragment})"
         name = path.removesuffix(".md")
         if name in {item[0] for item in REPORTS}:
             return f"](../{name}/index.html{fragment})"
@@ -95,6 +97,11 @@ def main() -> None:
     (DOCS / "index.html").write_text(home_page(), encoding="utf-8")
     (DOCS / ".nojekyll").touch()
     print(f"Built docs/index.html and {len(REPORTS)} topic pages")
+    if (ROOT / "analysis/review/reports/00-review.md").is_file():
+        from build_review_site import main as build_review
+        # Preserve the legacy portal while the review becomes the main entry.
+        (DOCS / "legacy.html").write_text(home_page(), encoding="utf-8")
+        build_review(include_legacy=False)
 
 
 if __name__ == "__main__":

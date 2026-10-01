@@ -1,0 +1,108 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：已能复原的规格、优先级和真实缺口"><title>评估与复原建议 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="17-assessment" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item active" href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>评估与复原建议</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 17 / REVERSE ENGINEERING</div><h1>评估与复原建议</h1><p>已能复原的规格、优先级和真实缺口</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">本次已经可以交付的功能规格</h2>
+<p>已有证据足以编写客户端层面的：模式开关矩阵、技能槽与费用、培养资格、弹道三分支、HP更新边界、匹配前检查、剧情星奖/速通、爬塔噩梦系数、材料奖励次数、肉鸽难度/节点、弹球球组/布局/结果、农场操作、公会权限、月卡/广告/通行证状态。</p>
+<p>这些章节不仅列模块，还给输入、状态、条件、输出、费用方向与例外。功能目录补全189个命名空间，配置浏览器覆盖1555份成功输出；未深入验证的模块保留“结构索引”，便于后续研究而不夸大完成度。</p>
+<h2 id="_2">产品结构的主要特点</h2>
+<p><strong>操作与构筑共存</strong>：蓄力、角度、风和弹道决定操作，武器、技能、宠物与模式平衡决定构筑。<strong>多套PVE并行</strong>：关卡、塔、材料奖励、肉鸽选择和弹球布局分别提供不同推进对象。<strong>社交进入资源循环</strong>：公会愿望、共享订单、家园帮助、师徒任务与婚姻培养连接关系和成长。<strong>活动与商业化横跨系统</strong>：月卡、抽取、通行证、商店和节日活动投放不同资源。</p>
+<p>这些判断来自功能依赖；不等于已测量哪些系统最受欢迎、付费最强或留存最高。</p>
+<h2 id="_3">按证据可用性安排复原</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>交付内容</th>
+<th>原因与依赖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P0</td>
+<td>数据加载、有效配置、ID映射、时间层、请求状态、失败处理</td>
+<td>后续功能共同基础；默认值错会污染数值</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>模式矩阵、技能计划/升级预算、关卡与领奖、农场资格、月卡/通行证</td>
+<td>客户端原函数已有可验证条件，适合先复原规则</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>弹球关卡查看器与状态逻辑</td>
+<td>布局完整50关，计分/提交流程清楚；物理桥接另补</td>
+</tr>
+<tr>
+<td>P2</td>
+<td>公会权限、家园方案、好友/师徒/婚姻流程</td>
+<td>多状态、异步与关系依赖，需要更大数据模型</td>
+</tr>
+<tr>
+<td>P2</td>
+<td>战斗表现、弹体预测、Buff与分批节点</td>
+<td>客户端结构清楚，但依赖Unity引擎和协议回放</td>
+</tr>
+<tr>
+<td>P3</td>
+<td>最终伤害、碰撞、匹配选择器、掉落概率执行器</td>
+<td>缺服务端/引擎权威实现，不能靠常见公式补齐</td>
+</tr>
+</tbody>
+</table></div>
+<p>优先级是工程建议，不是开发工时估计；没有工作量和团队信息时不编造“几天复刻完整游戏”。</p>
+<h2 id="_4">数值设计应避免的错误</h2>
+<ol>
+<li>直接把配置行数当玩法数量，忽略分片和等级变体。</li>
+<li>把字段缺省当0，漏掉Lua元表默认继承。</li>
+<li>看到百分比常量就除100或10000，未检查调用单位。</li>
+<li>将当前级费用计为升到当前级的费用，累计多算一步。</li>
+<li>用普通面板换算代替公平模式属性替换。</li>
+<li>用推荐战力/软提醒实现硬禁入。</li>
+<li>预览候选直接覆盖实例，漏掉确认/取消。</li>
+<li>每次重玩都按首通奖励到账，漏掉已领/已完成状态。</li>
+</ol>
+<h2 id="_5">战斗与玩法设计应避免的错误</h2>
+<p>技能CD不是秒数；一次发炮不是单节点单伤害；HP直接同步没有统一双边钳制；阻力弹道不是标准闭式抛物线；剧情下一关逻辑被固定开关关闭；弹球布局球数覆盖默认球数；PVE奖励额度不是挑战资格；肉鸽未完成节点不能提前跳下一节点。</p>
+<p>这些具体差异有原指令或测试支撑，属于可以立即修正的规格问题。负数边界用例不证明线上漏洞，也不应该写成玩家可执行的作弊流程。</p>
+<h2 id="_6">下一步真正需要的新证据</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>缺口</th>
+<th>需要的证据</th>
+<th>可以回答的问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>最终伤害与碰撞</td>
+<td>权威执行器或足够完整的可控战斗回放/引擎桥接</td>
+<td>乘区、盾优先级、取整、实际命中</td>
+</tr>
+<tr>
+<td>匹配与机器人投放</td>
+<td>选择器、服务端文档或可控样本</td>
+<td>扩圈、隐藏分、等待阈值</td>
+</tr>
+<tr>
+<td>抽取概率</td>
+<td>完整池权重与选择器、保底重置链</td>
+<td>单抽/十连概率与期望</td>
+</tr>
+<tr>
+<td>当前开放状态</td>
+<td>当前服务器/账号功能列表、云开关与活动回复</td>
+<td>哪些缓存功能真正在线</td>
+</tr>
+<tr>
+<td>真实经济与体验</td>
+<td>当前价格、收益、玩法统计与实际UI流程</td>
+<td>最优投入、效率、留存与体验负担</td>
+</tr>
+</tbody>
+</table></div>
+<p>本次已经完成离线缓存所能支撑的复查与详细Web交付；以上缺口不能通过继续堆客户端表格诚实解决。</p>
+<h2 id="_7">交付资料如何继续使用</h2>
+<p>章节Markdown可以作为策划/工程规格草稿；配置查询可下载有效JSON；原指令查询提供模块、函数、原文件与SHA；测试面板保留输入、返回、断言及桩范围；工具可重新生成报告。后续新增证据应以相同口径补充，明确它改变的是候选配置、客户端分支还是服务器事实。</p><nav class="chapter-pager"><a href="16-platform.html">← 技术与平台</a><span></span></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">本次已经可以交付的功能规格</a><a href="#_2">产品结构的主要特点</a><a href="#_3">按证据可用性安排复原</a><a href="#_4">数值设计应避免的错误</a><a href="#_5">战斗与玩法设计应避免的错误</a><a href="#_6">下一步真正需要的新证据</a><a href="#_7">交付资料如何继续使用</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

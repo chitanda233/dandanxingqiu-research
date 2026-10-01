@@ -1,0 +1,122 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：本次补漏、纠错、证据口径与覆盖范围"><title>复查结论 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="00-review" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item active" href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>复查结论</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 00 / REVERSE ENGINEERING</div><h1>复查结论</h1><p>本次补漏、纠错、证据口径与覆盖范围</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><p>这是一份基于《弹弹星球》本机缓存的功能逆向报告。采集时间为 2026-09-30，微信 AppID 为 <code>wx64969d55b91a6963</code>，包目录版本为 242。研究对象是 Unity 客户端中的 Lua 5.1 字节码、配置、网络封装和表现流程。复查时间为 2026-10-01。</p>
+<h2 id="_1">本次比旧报告补了什么</h2>
+<p>旧报告的战斗、技能、匹配和经济专题有不少有效分析，但覆盖面和证据可用性不足：大量功能没有展开；正文后的完整配置表缺乏业务解释；函数名、静态配置与可达行为有时混用；部分概括过宽。此次先重新检查提取物，再执行原始函数验证关键分支，最后把功能说明、配置查询和原指令放在同一网站。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>复查项</th>
+<th>结果</th>
+<th>正确读法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原始 Lua AssetBundle</td>
+<td>23 个全部重新读取</td>
+<td>与已提取的 8,272 个 TextAsset 逐字节一致</td>
+</tr>
+<tr>
+<td>字节码结构解析</td>
+<td>8,272 / 8,272 成功</td>
+<td>可遍历函数与常量；不等于全部反编译成可靠源码</td>
+</tr>
+<tr>
+<td><code>game.module</code> 命名空间</td>
+<td>189 个</td>
+<td>包含配置、框架和占位根模块，不能宣传成 189 个已开放玩法</td>
+</tr>
+<tr>
+<td>配置候选执行</td>
+<td>1,562 个候选，1,555 个成功返回表</td>
+<td>其中 1,552 个纯数据表；1,534 个非空纯数据表</td>
+</tr>
+<tr>
+<td>导出记录</td>
+<td>263,128 条，包含分服分片</td>
+<td>不同后缀版本重复计数，不能当独立游戏内容数量</td>
+</tr>
+<tr>
+<td>旧 128 表复核</td>
+<td>全部与新导出相等</td>
+<td>已正确恢复元表默认字段；未发现本次新旧值差异</td>
+</tr>
+<tr>
+<td>原指令证据</td>
+<td>3,088 个文件</td>
+<td>管理器与战斗模块优先；保留 PC 跳转而不伪造控制流源码</td>
+</tr>
+<tr>
+<td>原函数执行验证</td>
+<td>新增 97 个，原有 35 个复跑通过</td>
+<td>合计 132 个场景；使用明确的账号、引擎、时钟等桩对象</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="_2">需要改写或补上的结论</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>旧问题</th>
+<th>本次结论</th>
+<th>对功能理解的影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“HP 更新都限制在 0～最大生命”</td>
+<td>加血只钳上限，减血只钳下限，直接同步不钳</td>
+<td>必须按具体函数说明边界，不能套统一规则</td>
+</tr>
+<tr>
+<td>只写两类弹道</td>
+<td>标准抛物线、逐步阻力积分、直线有不同实现</td>
+<td>更新顺序和取整方式会改变预测位置</td>
+</tr>
+<tr>
+<td>未覆盖弹球玩法</td>
+<td>独立 50 关布局、球种、道具、计分与提交流程</td>
+<td>不能把整个产品缩成回合弹射战斗</td>
+</tr>
+<tr>
+<td>看配置球数会得到首关 8 球</td>
+<td>布局有效球列表优先；首关 6 球、末关 18 球</td>
+<td>静态默认值不一定是运行时生效值</td>
+</tr>
+<tr>
+<td>函数名像是支持剧情连续挑战</td>
+<td><code>can_auto_fight_next</code> 开头固定返回关闭</td>
+<td>下游逻辑存在不代表本版本能进入</td>
+</tr>
+<tr>
+<td>贸易参数只保留 1000</td>
+<td>原函数除以 10000，得到 10%</td>
+<td>单位由调用链确认；不能看所有 1000 都自行换算</td>
+</tr>
+<tr>
+<td>月卡特权函数像布尔判断</td>
+<td><code>is_has_privilege</code> 累加有效特权的参数</td>
+<td>非零能作为真假，但原值是数量/系数</td>
+</tr>
+<tr>
+<td>多张爬塔表容易相加成总楼层</td>
+<td><code>_0</code>、<code>_543</code> 等是不同配置分片</td>
+<td>必须先确认当前选择分支再统计内容</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="_3">四种证据，四种表述</h2>
+<p><strong>配置事实</strong>：原表包含字段、值和候选奖励。例如弹球目标分数、技能当前级费用。<strong>代码事实</strong>：原指令能确认条件与调用顺序。例如只在首次胜利时提交弹球结果。<strong>执行事实</strong>：在明确输入和桩对象下执行原函数，返回值符合断言。例如月卡到期时间等于服务器时间即不激活。<strong>设计分析</strong>：从上述事实解释系统作用，属于推导，不是运营方确认的设计意图。</p>
+<p>网站将功能标为“原函数验证”“指令复核”或“结构索引”。结构索引表示已扫描函数和请求符号，但没有把该模块全部分支逐一跑过。这里没有用“全量扫描”冒充“所有功能全部动态验证”。</p>
+<h2 id="_4">配置完整性的具体限制</h2>
+<p>导出执行真实配置字节码及其 <code>import</code> 依赖，读取行元表 <code>__index</code> 默认值；因此空白字段不会被误当成缺失。每表记录原文件 SHA-256、依赖和行数。<code>hook.buy_init</code>、<code>hook.hook_init</code>、<code>hook.buff_init</code> 有 Lua 函数值，以标记对象保存，不能当完全序列化的数据执行器。</p>
+<p>七个候选没有返回可导出的表：<code>fight_map.editor.editor3</code>～<code>editor7</code>、<code>fight_map.normal</code>、<code>fight_scene.normal</code>。它们明确列为未成功导出；没有补造数据。语言表还原 54,065 个中文键；物品名称索引 17,450 个，只辅助阅读，不证明全量配置分支已在某账号合并生效。</p>
+<h2 id="_5">不能由这个缓存回答的问题</h2>
+<p>服务器最终伤害公式、碰撞裁定、匹配池扩圈、隐藏 MMR、机器人选择器、抽取随机种子及完整概率执行器没有闭合证据。当前区服是否开放、账号余额和活动排期也不是本地缓存能决定的。客户端请求字段可以说明交互契约，但服务端可能进一步检查、拒绝或补发结果。</p>
+<p>本次未进行在线游戏操作、账号消费或实时服测试；132 个验证场景都在离线 Lua 环境中运行。负数 HP 等边界输入用于辨明函数契约，不能作为“线上可利用漏洞”的结论。</p>
+<h2 id="_6">如何阅读这份报告</h2>
+<p>先读产品循环，再读战斗、技能和养成；PVE、肉鸽、弹球、公会、家园、农场分别说明独立规则。经济与商业化集中解释资源产生、消耗和领取状态。遇到疑问，可从章节里的“原函数”和“配置”链接直接打开证据；功能目录可搜英文模块、中文系统名和请求符号。</p><nav class="chapter-pager"><span></span><a href="01-product.html">产品结构与循环 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">本次比旧报告补了什么</a><a href="#_2">需要改写或补上的结论</a><a href="#_3">四种证据，四种表述</a><a href="#_4">配置完整性的具体限制</a><a href="#_5">不能由这个缓存回答的问题</a><a href="#_6">如何阅读这份报告</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

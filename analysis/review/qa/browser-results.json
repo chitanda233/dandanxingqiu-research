@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    "Home loads",
+    "Global Chinese full text search",
+    "Catalog filter and function detail",
+    "Config query, full record and pagination",
+    "Evidence module/function jump and instruction search",
+    "Actual current-level cost aggregation and invalid range",
+    "Mode field comparison",
+    "All-stage selection, layout ball override and wave rendering",
+    "New and legacy test suites, result expansion",
+    "24 mobile pages without horizontal overflow and mobile menu"
+  ],
+  "javascript_errors": [],
+  "desktop_viewport": [
+    1440,
+    1000
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ]
+}

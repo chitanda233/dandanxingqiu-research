@@ -1,0 +1,441 @@
+[
+  {
+    "label": "正常冰冻可用",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": ""
+    },
+    "returned": [
+      true,
+      null
+    ]
+  },
+  {
+    "label": "非攻击状态",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "c.fight_state=\"watch\""
+    },
+    "returned": [
+      false,
+      "state"
+    ]
+  },
+  {
+    "label": "不是本回合行动者",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.is_cur_round_attacker=false"
+    },
+    "returned": [
+      false,
+      "not_round_attacker"
+    ]
+  },
+  {
+    "label": "已离开行动阶段",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.round_status=FIGHT.unit_round_status.watch"
+    },
+    "returned": [
+      false,
+      "fired"
+    ]
+  },
+  {
+    "label": "自动战斗禁止手动技能",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.role.is_auto_battle=true"
+    },
+    "returned": [
+      false,
+      "auto_battle"
+    ]
+  },
+  {
+    "label": "沉默",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "c.is_unit_buff_ban_skill=function() return true end"
+    },
+    "returned": [
+      false,
+      "silent"
+    ]
+  },
+  {
+    "label": "重复回合禁用冰冻",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "c.round.is_repeat_round=true"
+    },
+    "returned": [
+      false,
+      "repeat_ban_freeze"
+    ]
+  },
+  {
+    "label": "本回合次数耗尽",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.skill_cf_id_to_info[1001009].round_count=1"
+    },
+    "returned": [
+      false,
+      "turn max"
+    ]
+  },
+  {
+    "label": "本局次数耗尽",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.skill_cf_id_to_info[1001009].all_count=1"
+    },
+    "returned": [
+      false,
+      "match max"
+    ]
+  },
+  {
+    "label": "冷却未好",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.skill_cf_id_to_info[1001009].cd=1"
+    },
+    "returned": [
+      false,
+      "cd"
+    ]
+  },
+  {
+    "label": "禁用原型",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "c.is_unit_skill_forbid=function() return true end"
+    },
+    "returned": [
+      false,
+      "prototype_id_forbid"
+    ]
+  },
+  {
+    "label": "费用不足",
+    "inputs": {
+      "skill_id": 1001009,
+      "setup": "u.attrs.strength=-1"
+    },
+    "returned": [
+      false,
+      "strength"
+    ]
+  },
+  {
+    "label": "技能费用边界低于10000",
+    "inputs": {
+      "skill_id": 1011010,
+      "strength": 9999
+    },
+    "returned": [
+      false,
+      "strength"
+    ]
+  },
+  {
+    "label": "技能费用边界等于10000",
+    "inputs": {
+      "skill_id": 1011010,
+      "strength": 10000
+    },
+    "returned": [
+      true,
+      null
+    ]
+  },
+  {
+    "label": "普通冷却与回合次数重置",
+    "inputs": {
+      "skill_id": 1011010,
+      "cd_before": 3,
+      "round_count_before": 1
+    },
+    "returned": [
+      2,
+      0
+    ]
+  },
+  {
+    "label": "宠物衰减level30_角色50_暂停0",
+    "inputs": {
+      "pet_level": 30,
+      "player_level": 50,
+      "pause_level": 0
+    },
+    "returned": [
+      0.23076923076923073
+    ]
+  },
+  {
+    "label": "宠物衰减level30_角色30_暂停0",
+    "inputs": {
+      "pet_level": 30,
+      "player_level": 30,
+      "pause_level": 0
+    },
+    "returned": [
+      0.04761904761904767
+    ]
+  },
+  {
+    "label": "宠物衰减level30_角色50_暂停10",
+    "inputs": {
+      "pet_level": 30,
+      "player_level": 50,
+      "pause_level": 10
+    },
+    "returned": [
+      0.29824561403508776
+    ]
+  },
+  {
+    "label": "宠物衰减level100_角色133_暂停0",
+    "inputs": {
+      "pet_level": 100,
+      "player_level": 133,
+      "pause_level": 0
+    },
+    "returned": [
+      0
+    ]
+  },
+  {
+    "label": "通行证_免费已领取",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 5,
+      "paid": false,
+      "bought": false
+    },
+    "returned": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "label": "通行证_免费可领取",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 6,
+      "paid": false,
+      "bought": false
+    },
+    "returned": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "label": "通行证_等级未达",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 11,
+      "paid": false,
+      "bought": false
+    },
+    "returned": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "label": "通行证_付费未购",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 4,
+      "paid": true,
+      "bought": false
+    },
+    "returned": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "label": "通行证_付费已领取",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 3,
+      "paid": true,
+      "bought": true
+    },
+    "returned": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "label": "通行证_付费可领取",
+    "inputs": {
+      "current_level": 10,
+      "normal_claimed": 5,
+      "paid_claimed": 3,
+      "reward_level": 4,
+      "paid": true,
+      "bought": true
+    },
+    "returned": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "label": "技能槽默认与类别槽",
+    "inputs": {
+      "cached_skill_pos": false
+    },
+    "returned": [
+      5,
+      1,
+      2
+    ]
+  },
+  {
+    "label": "20升21资源足",
+    "inputs": {
+      "skill_id": 1001,
+      "current_level": 20,
+      "player_level": 40,
+      "server_day": 10,
+      "skill_knowledge": 4000,
+      "gold": 90000
+    },
+    "returned": [
+      true
+    ]
+  },
+  {
+    "label": "20升21材料差1",
+    "inputs": {
+      "skill_id": 1001,
+      "current_level": 20,
+      "player_level": 40,
+      "server_day": 10,
+      "skill_knowledge": 3999,
+      "gold": 90000
+    },
+    "returned": [
+      false
+    ]
+  },
+  {
+    "label": "40升41角色未达",
+    "inputs": {
+      "skill_id": 1001,
+      "current_level": 40,
+      "player_level": 39,
+      "server_day": 10,
+      "skill_knowledge": 7500,
+      "gold": 150000
+    },
+    "returned": [
+      false
+    ]
+  },
+  {
+    "label": "40升41开服未达",
+    "inputs": {
+      "skill_id": 1001,
+      "current_level": 40,
+      "player_level": 40,
+      "server_day": 4,
+      "skill_knowledge": 7500,
+      "gold": 150000
+    },
+    "returned": [
+      false
+    ]
+  },
+  {
+    "label": "40升41满足门槛",
+    "inputs": {
+      "skill_id": 1001,
+      "current_level": 40,
+      "player_level": 40,
+      "server_day": 5,
+      "skill_knowledge": 7500,
+      "gold": 150000
+    },
+    "returned": [
+      true
+    ]
+  },
+  {
+    "label": "标准蓄力",
+    "inputs": {
+      "setting_percent": 100,
+      "aim_factor": 0,
+      "env_add_speed_rate": 0,
+      "buff_power_add_speed": 0
+    },
+    "returned": [
+      0.18181818181818182,
+      1818
+    ]
+  },
+  {
+    "label": "瞄准修正20%",
+    "inputs": {
+      "setting_percent": 100,
+      "aim_factor": 0.2,
+      "env_add_speed_rate": 0,
+      "buff_power_add_speed": 0
+    },
+    "returned": [
+      0.14545454545454548,
+      1455
+    ]
+  },
+  {
+    "label": "磁暴蓄力",
+    "inputs": {
+      "setting_percent": 100,
+      "aim_factor": 0,
+      "env_add_speed_rate": 18000,
+      "buff_power_add_speed": 0
+    },
+    "returned": [
+      0.509090909090909,
+      5091
+    ]
+  },
+  {
+    "label": "增益蓄力20%",
+    "inputs": {
+      "setting_percent": 100,
+      "aim_factor": 0,
+      "env_add_speed_rate": 0,
+      "buff_power_add_speed": 2000
+    },
+    "returned": [
+      0.21818181818181817,
+      2182
+    ]
+  }
+]

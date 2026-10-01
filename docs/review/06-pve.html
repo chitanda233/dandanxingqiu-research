@@ -1,0 +1,78 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：剧情、组队、噩梦系数和材料奖励"><title>副本与爬塔 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="06-pve" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item active" href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>副本与爬塔</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 06 / REVERSE ENGINEERING</div><h1>副本与爬塔</h1><p>剧情、组队、噩梦系数和材料奖励</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="pve">PVE 不是一个总进度条</h2>
+<p>主线、剧情关卡、多人剧情、组队普通/英雄副本、材料本、塔、组队塔、单人 Boss、木桩和机关/机器人塔等各有配置和进度。主线表 1,600 行、60 章；剧情 <code>_0</code> 与 <code>_543</code> 各 241 行，另有关卡/章节表。不能将它们相加为同一条主线关卡数。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>系统</th>
+<th>资格或推进</th>
+<th>奖励状态</th>
+<th>主要差异</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主线</td>
+<td>可挑战、前置通过</td>
+<td>通关/进度回包</td>
+<td>与剧情关卡模块分离</td>
+</tr>
+<tr>
+<td>剧情</td>
+<td>难度开放、关卡锁定、星数</td>
+<td>章节星奖、难度奖</td>
+<td>首通、速通和自动下一关分开</td>
+</tr>
+<tr>
+<td>组队副本</td>
+<td>自己与队友资格、队伍目标</td>
+<td>翻牌、每日经验、周额度</td>
+<td>普通与英雄额度不同</td>
+</tr>
+<tr>
+<td>塔</td>
+<td>层数、等级、战力、功能开关</td>
+<td>层数奖、阶段奖、每日/挂机</td>
+<td>Buff、自动、速通与噩梦系数</td>
+</tr>
+<tr>
+<td>材料本</td>
+<td>系列、挑战进度、次数</td>
+<td>次数奖、回合奖、队伍排名奖</td>
+<td>助力分支会改变奖励额度显示</td>
+</tr>
+<tr>
+<td>单人 Boss</td>
+<td>Boss 任务、天赋与次数</td>
+<td>速战次数、天赋/任务奖</td>
+<td>普通与全局任务位不同</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="_1">剧情：星数奖励与可挑战状态</h2>
+<p>章节奖励先看是否已领取；未领取时比较章节总星与 <code>奖励档位×dungeon_star_max</code>，返回可领或锁定。困难难度先查难度开放，再查关卡锁定。章节奖、关卡通过和难度解锁不是同一布尔值。<a href="evidence.html?module=game.module.story_level.manager.core&amp;function=get_story_level_chapter_award_state">剧情函数</a></p>
+<p>速通 <code>can_crush_level</code> 要求功能开放、关卡尚未通过、存在推荐战力，且实际战力达到推荐战力乘指定系数；进入战斗和速通是不同请求。特别需要纠正：<code>can_auto_fight_next</code> 的开头固定开关为 false，原函数直接返回 false，后面的找下一关逻辑在此版本不可达。已通过离线执行验证，未调用任何下游桩函数。<a href="evidence.html?module=game.module.story_level.manager.core&amp;function=can_crush_level">速通</a> <a href="evidence.html?module=game.module.story_level.manager.core&amp;function=can_auto_fight_next">连续挑战</a></p>
+<p>多人剧情读取章节、关卡、个人积分、目标达成、奖励领取和固定推荐战力，有独立 <code>req_gve_story_info_c2s</code>；不要用个人剧情星数覆盖多人积分。</p>
+<h2 id="_2">组队副本：资格与奖励额度分开</h2>
+<p><code>check_self_dungeon_unlock</code>、<code>check_other_dungeon_unlock</code> 分别检查自己和队友；目标改变、组队邀请、退出/建队有独立流程。翻牌是否显示、额外普通奖励、英雄周奖励数量和每日经验奖励都读各自的数据。一次通关可以推进副本进度，却不一定剩余所有奖励额度。<a href="evidence.html?module=game.module.dungeon_team.manager.core&amp;function=">组队原函数</a></p>
+<h2 id="buff">爬塔：Buff、挂机、自动与速通</h2>
+<p>塔模块维护目标层、最高可挑战层、阶段领奖、好友信息、Buff 装备/选择次数、自动状态、挂机奖励与速通。<code>can_get_daily</code> 要 daily_reward=0 且 <code>can_show_daily</code> 满足；不满足可能返回 nil，而不是统一显式 false。</p>
+<p><code>can_crush</code> 要下一层存在且能挑战，不能带 <code>cant_crush&gt;0</code>，速通功能开放，战力达到 <code>press_power</code>。噩梦分支把门槛调整为 <code>press_power×(1+max(噩梦速通系数,0)/10000)</code>。因此同一层在不同开服天数可能有不同速通要求。<a href="evidence.html?module=game.module.dungeon_tower.manager.core&amp;function=can_crush">塔原函数</a></p>
+<pre><code class="language-text">是否噩梦 = open_day × 10000 &lt; night_mare_coeff[1]
+怪物系数 = (night_mare_coeff[1] − open_day × 10000)
+           × night_mare_coeff[2] / 10000
+速通系数 = (night_mare_coeff[1] − open_day × 10000)
+           × nightmare_press_power / 10000
+</code></pre>
+<p>函数本身可能返回负系数；速通使用处再钳非负。测试阈值 100000、怪物系数项 5000、速通项 2000：第 9 天返回 true/5000/2000，第 10 天 false/0/0，第 11 天 false/−5000/−2000。不要在 getter 层擅自加 clamp。<a href="evidence.html?module=game.module.dungeon_tower.manager.core&amp;function=get_nightmare_mon_coef">噩梦函数</a></p>
+<p>塔配置 <code>_0/_543/_993</code> 各 1,200 行，<code>_2000</code> 1,000、<code>_2008</code> 30，是不同分片，不等于一个服共 4,630 层。实际选择配置和客户端开放条件需要运行上下文。<a href="configs.html?table=tower.tower_0&amp;q=">塔分片</a></p>
+<h2 id="_3">材料本：奖励次数不是挑战次数</h2>
+<p>系列表 10 条，普通/英雄分组；关卡 <code>_0/_543</code> 各 30 条，回合奖励 15 条。正常 <code>award_left=reward_limit_cnt−reward_cur_cnt</code>，同时返回上限；当 <code>sprouts_rate&gt;0</code>，剩余显示被压成有额度 1、无额度 0，上限为 1。测试 limit7/used2 正常返回 5/7，助力返回 1/1，used7 返回 0/1。<a href="evidence.html?module=game.module.dungeon_material.manager.data.data&amp;function=get_award_left_times">额度原函数</a></p>
+<p>回合奖要求未领、pass_round&gt;0 且 pass_round≤finish_round，体现“在指定回合内完成”。例如 finish4，pass4可领、pass5和pass0不可领，已领取亦不可领。排名奖另用 team_rank_cnt 与已领列表判断；不能把回合奖与排名奖合成同一个按钮状态。<a href="evidence.html?module=game.module.dungeon_material.manager.data.data&amp;function=get_round_reward_can_get_by_id">回合奖</a></p>
+<h2 id="boss">单人 Boss 与复刻清单</h2>
+<p>单人 Boss 模块区分单 Boss 任务、全局 Boss 任务、天赋完成位、速战次数和限时 Boss 表现；有 12 条 Boss 条目。这里对入口和状态做结构复核，尚未动态执行完整 Boss 战斗或天赋计算。</p>
+<p>完整 PVE 复刻应保存前置关系、玩法 ID、推荐/强制战力、奖励次数、首次/重复奖励、回合/星数条件、队友资格、已领取标志和服务器失败结果。难度、关卡、楼层、奖励进度不能共享一条通用状态。</p><nav class="chapter-pager"><a href="05-match.html">← PVP与匹配</a><a href="07-rogue.html">肉鸽挑战 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#pve">PVE 不是一个总进度条</a><a href="#_1">剧情：星数奖励与可挑战状态</a><a href="#_2">组队副本：资格与奖励额度分开</a><a href="#buff">爬塔：Buff、挂机、自动与速通</a><a href="#_3">材料本：奖励次数不是挑战次数</a><a href="#boss">单人 Boss 与复刻清单</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

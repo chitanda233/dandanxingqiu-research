@@ -1,0 +1,1924 @@
+{
+  "scope": "Original client bytecode with explicit account/engine/UI/time/network stubs. No server or UI playtest.",
+  "sources": [
+    {
+      "name": "kernel.utils.math",
+      "source": "lua5_573650/kernel.utils.math_8912256128880820141.bin",
+      "sha256": "ee53a054bba87798051ecc2be8f6964c53897c86381981e2e6759b641598f987"
+    },
+    {
+      "name": "game.module.fight.manager.base.fighting.unit.attrs",
+      "source": "lua4_573711/game.module.fight.manager.base.fighting.unit.attrs_-6891889581371411036.bin",
+      "sha256": "5ce733f6024e68950b45ac4e8aa4b300cf508a6432bd36e14178497eaa61b12a"
+    },
+    {
+      "name": "game.module.fight.manager.base.fighting.trajectory",
+      "source": "lua4_573711/game.module.fight.manager.base.fighting.trajectory_-9147858616376267781.bin",
+      "sha256": "854788c5b6791ba1b89aca5cc3c83b47a9189f09c1145b39b465ae422124a517"
+    },
+    {
+      "name": "game.module.farm.manager.const",
+      "source": "lua6_573512/game.module.farm.manager.const_6267748049116757388.bin",
+      "sha256": "c1aceb4eb44b51af80d96c631b09e8a16ebd00a600feadee5e82b4f3e1e2820e"
+    },
+    {
+      "name": "game.module.farm.manager.core",
+      "source": "lua6_573512/game.module.farm.manager.core_470083712864501745.bin",
+      "sha256": "15e1a77244c5d7a337ca0bc7ff8ca31136514eef07bed07dbbfcf236dafd995a"
+    },
+    {
+      "name": "game.module.rogue.manager.const",
+      "source": "lua3_573410/game.module.rogue.manager.const_-8091625066620667031.bin",
+      "sha256": "cf533fa586a0d39f970ad51360bb30b53c6e22f2cbf05c92f0a58246a08d7de7"
+    },
+    {
+      "name": "game.module.rogue.manager.core",
+      "source": "lua3_573410/game.module.rogue.manager.core_-6505183067779324842.bin",
+      "sha256": "f345fca5691c28984728c759c62f07c1b14160212cd25b929db8f2e87bc14050"
+    },
+    {
+      "name": "game.module.home.manager.core",
+      "source": "lua5_573650/game.module.home.manager.core_-338104451869689548.bin",
+      "sha256": "89ddfb39631ff4f38dfbb29cc496c9dec8164a7ea3015fa1e81368bc9671d436"
+    },
+    {
+      "name": "game.module.advertisement.manager.core",
+      "source": "lua10_573512/game.module.advertisement.manager.core_2404504172575431007.bin",
+      "sha256": "36ad9ef97d29fbed7444788ff1446253ff3d2557222a751df92324e5ac759cef"
+    },
+    {
+      "name": "game.module.month_card.manager.core",
+      "source": "lua7_573533/game.module.month_card.manager.core_-3868206484368354341.bin",
+      "sha256": "75a9ef223964dde417929f3700f020d17d7a4735082027cf5c97a2fa8b354604"
+    },
+    {
+      "name": "game.module.dungeon_material.manager.data.data",
+      "source": "lua4_573711/game.module.dungeon_material.manager.data.data_-635798554567140637.bin",
+      "sha256": "549673f5f72cf6745d6178ee0074e1ee5afacd849cc2d56b8123a9a19b69d040"
+    },
+    {
+      "name": "game.module.pin_ball_game.manager.core",
+      "source": "lua7_573533/game.module.pin_ball_game.manager.core_-8310338923582486066.bin",
+      "sha256": "296f32a0a50cb653996455037fc9343ef091f0b6e47c5f716f1dd246d161ecdf"
+    },
+    {
+      "name": "game.module.alliance.manager.core.core",
+      "source": "lua5_573650/game.module.alliance.manager.core.core_-8848898085318266851.bin",
+      "sha256": "fb7b09f0177653d09e532bf2f00b646bbb47ede544764d3511602f3ba73bb7e7"
+    },
+    {
+      "name": "game.module.story_level.manager.core",
+      "source": "lua0_573512/game.module.story_level.manager.core_3061737180559320571.bin",
+      "sha256": "7c2a4c064297070f37b776e08af91d48e014d53195e24cf6d91b32d35d13823f"
+    },
+    {
+      "name": "game.module.battle_pass.manager.core",
+      "source": "lua1_573660/game.module.battle_pass.manager.core_6719724894960869895.bin",
+      "sha256": "aa5bfaf332ab4759bfd8232cbcdd6db391b32b512d6316ca5b1d50bfb14c0cb2"
+    },
+    {
+      "name": "game.module.trade.manager.core",
+      "source": "lua9_573570/game.module.trade.manager.core_3678238324799302794.bin",
+      "sha256": "ec06a55de2edfb3db5036c7c310618c7673a4f5f077b1d688baeb18d273a9911"
+    },
+    {
+      "name": "game.module.dungeon_tower.manager.core",
+      "source": "lua12_573512/game.module.dungeon_tower.manager.core_-6694214873465388977.bin",
+      "sha256": "5cca59d37cc39b6755a027ec2f6464e7851f4c82cf27ad8236428c375cb82ce2"
+    }
+  ],
+  "configs": [
+    {
+      "name": "farm_misc.farm_misc",
+      "sha256": "de0ac6b6f3f598ad80817553b08784e2e4e4b59333a3747a5aaab85fafb35979"
+    },
+    {
+      "name": "rogue_hard.rogue_hard",
+      "sha256": "b9747df768cda794289c8a0c8a07441dc63b4b0f177510c2c20767ce795ad598"
+    },
+    {
+      "name": "dungeon_material_series.dungeon_material_series",
+      "sha256": "76f017d9e71f0e0f99c919b8304d71486013f83a8feb4f0db4b928075f839c37"
+    },
+    {
+      "name": "dungeon_material_reward.dungeon_material_reward",
+      "sha256": "b31a260e0dd30efb959f50986f703cc78e6b21ab8534ce4fcdd1b4ecda7b7c0c"
+    },
+    {
+      "name": "pinball_stage.pinball_stage",
+      "sha256": "ff4438eb692c850f6f9348f58275c74d1145a8bf523d1042fcec670d64ad8bb7"
+    },
+    {
+      "name": "pinball_prop.pinball_prop",
+      "sha256": "808c8d71846d65bd6b78cadf7a15bddaf1ea068cda5f1f3aee86df5ef860fd67"
+    },
+    {
+      "name": "pinball_ball.pinball_ball",
+      "sha256": "6ba5301a4a9544b6ca37952ea76ee02fe742dccecccfa53f40a31d2748e8cdaa"
+    },
+    {
+      "name": "alliance_misc.alliance_misc",
+      "sha256": "0771766b43166d9c525baa3088c97c78e98ddeb5c60e3f35b9143316f12e26cd"
+    },
+    {
+      "name": "alliance_status.alliance_status",
+      "sha256": "8a9491d9d12c31d8b104f986b4a2add3023a9a6ff469b42bc9d9bdb4c41370e6"
+    },
+    {
+      "name": "trade_misc.trade_misc",
+      "sha256": "5f31d957e0725be10ad8e2d089414e9924b46bef5dfbc0e81f9572fe0e7b14ee"
+    }
+  ],
+  "cases": [
+    {
+      "topic": "combat",
+      "label": "治疗超上限",
+      "inputs": {
+        "function": "add_unit_hp",
+        "hp": 90,
+        "value": 30,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=90,max_hp=100}};BASE.add_unit_hp(CTX,u,30);return u.attrs.hp",
+      "returned": [
+        100
+      ],
+      "expected": [
+        100
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "治疗负量",
+      "inputs": {
+        "function": "add_unit_hp",
+        "hp": 10,
+        "value": -30,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=10,max_hp=100}};BASE.add_unit_hp(CTX,u,-30);return u.attrs.hp",
+      "returned": [
+        -20
+      ],
+      "expected": [
+        -20
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "伤害超当前",
+      "inputs": {
+        "function": "dec_unit_hp",
+        "hp": 10,
+        "value": 30,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=10,max_hp=100}};BASE.dec_unit_hp(CTX,u,30);return u.attrs.hp",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "负伤害",
+      "inputs": {
+        "function": "dec_unit_hp",
+        "hp": 90,
+        "value": -30,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=90,max_hp=100}};BASE.dec_unit_hp(CTX,u,-30);return u.attrs.hp",
+      "returned": [
+        120
+      ],
+      "expected": [
+        120
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "直接生命过上限",
+      "inputs": {
+        "function": "update_unit_hp",
+        "hp": 10,
+        "value": 120,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=10,max_hp=100}};BASE.update_unit_hp(CTX,u,120);return u.attrs.hp",
+      "returned": [
+        120
+      ],
+      "expected": [
+        120
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "直接负生命",
+      "inputs": {
+        "function": "update_unit_hp",
+        "hp": 10,
+        "value": -20,
+        "max_hp": 100
+      },
+      "code": "local u={attrs={hp=10,max_hp=100}};BASE.update_unit_hp(CTX,u,-20);return u.attrs.hp",
+      "returned": [
+        -20
+      ],
+      "expected": [
+        -20
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "strength边界-10",
+      "inputs": {
+        "value": -10,
+        "maximum": 100
+      },
+      "code": "local u={attrs={strength=0,max_strength=100}};BASE.update_unit_strength(CTX,u,-10);return u.attrs.strength",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "strength边界50",
+      "inputs": {
+        "value": 50,
+        "maximum": 100
+      },
+      "code": "local u={attrs={strength=0,max_strength=100}};BASE.update_unit_strength(CTX,u,50);return u.attrs.strength",
+      "returned": [
+        50
+      ],
+      "expected": [
+        50
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "strength边界120",
+      "inputs": {
+        "value": 120,
+        "maximum": 100
+      },
+      "code": "local u={attrs={strength=0,max_strength=100}};BASE.update_unit_strength(CTX,u,120);return u.attrs.strength",
+      "returned": [
+        100
+      ],
+      "expected": [
+        100
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "energy边界-10",
+      "inputs": {
+        "value": -10,
+        "maximum": 100
+      },
+      "code": "local u={attrs={energy=0,max_energy=100}};BASE.update_unit_energy(CTX,u,-10);return u.attrs.energy",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "energy边界50",
+      "inputs": {
+        "value": 50,
+        "maximum": 100
+      },
+      "code": "local u={attrs={energy=0,max_energy=100}};BASE.update_unit_energy(CTX,u,50);return u.attrs.energy",
+      "returned": [
+        50
+      ],
+      "expected": [
+        50
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "energy边界120",
+      "inputs": {
+        "value": 120,
+        "maximum": 100
+      },
+      "code": "local u={attrs={energy=0,max_energy=100}};BASE.update_unit_energy(CTX,u,120);return u.attrs.energy",
+      "returned": [
+        100
+      ],
+      "expected": [
+        100
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "标准抛物线1秒",
+      "inputs": {
+        "v0": [
+          10,
+          20
+        ],
+        "a": [
+          2,
+          -10
+        ],
+        "dt": 1
+      },
+      "code": "local p=projectile();BASE.move_target_along_normal_parabola(TCTX,p,1);return p.pos.x,p.pos.y,p.fly_time",
+      "returned": [
+        11,
+        15,
+        1
+      ],
+      "expected": [
+        11,
+        15,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "阻力逐步积分一步",
+      "inputs": {
+        "v": [
+          10,
+          20
+        ],
+        "a": [
+          2,
+          -10
+        ],
+        "dt": 1,
+        "wind": 6,
+        "mass": 2,
+        "resistance": 1,
+        "g_resistance": -20
+      },
+      "code": "local p=projectile();BASE.move_target_along_parabola(TCTX,p,1,6);return p.pos.x,p.pos.y,p.v_x,p.v_y,p.a_x,p.a_y",
+      "returned": [
+        10,
+        20,
+        12,
+        10,
+        -3,
+        -15
+      ],
+      "expected": [
+        10,
+        20,
+        12,
+        10,
+        -3,
+        -15
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "阻力逐步积分二步",
+      "inputs": {
+        "steps": 2,
+        "dt": 1,
+        "wind": 6
+      },
+      "code": "local p=projectile();BASE.move_target_along_parabola(TCTX,p,1,6);BASE.move_target_along_parabola(TCTX,p,1,6);return p.pos.x,p.pos.y,p.v_x,p.v_y,p.a_x,p.a_y",
+      "returned": [
+        22,
+        30,
+        9,
+        -5,
+        -1.5,
+        -7.5
+      ],
+      "expected": [
+        22,
+        30,
+        9,
+        -5,
+        -1.5,
+        -7.5
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "直线位移",
+      "inputs": {
+        "v": [
+          10,
+          20
+        ],
+        "dt": 0.5
+      },
+      "code": "local p=projectile();BASE.move_target_along_line(TCTX,p,0.5);return p.pos.x,p.pos.y,p.v_x,p.v_y",
+      "returned": [
+        5,
+        10,
+        10,
+        20
+      ],
+      "expected": [
+        5,
+        10,
+        10,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "topic": "combat",
+      "label": "负坐标floor边界",
+      "inputs": {
+        "v0_x": -0.1,
+        "dt": 1
+      },
+      "code": "local p=projectile();p.v0_x=-0.1;p.v0_y=0;p.a_x=0;p.a_y=0;BASE.move_target_along_normal_parabola(TCTX,p,1);return p.pos.x,p.pos.y",
+      "returned": [
+        -1,
+        0
+      ],
+      "expected": [
+        -1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "播种owner1_cropFalse",
+      "inputs": {
+        "owner": 1,
+        "has_crop": false
+      },
+      "code": "return FARM.can_sow({crop=nil},1)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "播种owner2_cropFalse",
+      "inputs": {
+        "owner": 2,
+        "has_crop": false
+      },
+      "code": "return FARM.can_sow({crop=nil},2)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "播种owner1_cropTrue",
+      "inputs": {
+        "owner": 1,
+        "has_crop": true
+      },
+      "code": "return FARM.can_sow({crop={}},1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "收获stage10_thief0_owner1",
+      "inputs": {
+        "stage": 10,
+        "active_thief": 0,
+        "owner": 1
+      },
+      "code": "return FARM.can_harvest({crop={stage=10},active_thief=0},1)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "收获stage9_thief0_owner1",
+      "inputs": {
+        "stage": 9,
+        "active_thief": 0,
+        "owner": 1
+      },
+      "code": "return FARM.can_harvest({crop={stage=9},active_thief=0},1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "收获stage10_thief2_owner1",
+      "inputs": {
+        "stage": 10,
+        "active_thief": 2,
+        "owner": 1
+      },
+      "code": "return FARM.can_harvest({crop={stage=10},active_thief=2},1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "收获stage10_thief0_owner2",
+      "inputs": {
+        "stage": 10,
+        "active_thief": 0,
+        "owner": 2
+      },
+      "code": "return FARM.can_harvest({crop={stage=10},active_thief=0},2)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "正常浇水",
+      "inputs": {
+        "stage": 1,
+        "owner": 2,
+        "used": 0,
+        "already_watered": false
+      },
+      "code": "WATER_USED=0;local ok=FARM.can_watering({crop={stage=1,watered_roles={}}},2,false);return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "不能给自己浇水",
+      "inputs": {
+        "stage": 1,
+        "owner": 1,
+        "used": 0,
+        "already_watered": false
+      },
+      "code": "WATER_USED=0;local ok=FARM.can_watering({crop={stage=1,watered_roles={}}},1,false);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "成熟不可浇水",
+      "inputs": {
+        "stage": 10,
+        "owner": 2,
+        "used": 0,
+        "already_watered": false
+      },
+      "code": "WATER_USED=0;local ok=FARM.can_watering({crop={stage=10,watered_roles={}}},2,false);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "浇水次数达到上限",
+      "inputs": {
+        "stage": 1,
+        "owner": 2,
+        "used": 5,
+        "already_watered": false
+      },
+      "code": "WATER_USED=5;local ok=FARM.can_watering({crop={stage=1,watered_roles={}}},2,false);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "同株已浇水",
+      "inputs": {
+        "stage": 1,
+        "owner": 2,
+        "used": 0,
+        "already_watered": true
+      },
+      "code": "WATER_USED=0;local ok=FARM.can_watering({crop={stage=1,watered_roles={1}}},2,false);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "正常偷菜",
+      "inputs": {
+        "stage": 10,
+        "thief": 0,
+        "same_alliance": false,
+        "used": 0,
+        "stolen_roles": []
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=10,stolen_roles={}},active_thief=0},2);return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "未成熟不能偷",
+      "inputs": {
+        "stage": 1,
+        "thief": 0,
+        "same_alliance": false,
+        "used": 0,
+        "stolen_roles": []
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=1,stolen_roles={}},active_thief=0},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "正在被偷不能偷",
+      "inputs": {
+        "stage": 10,
+        "thief": 2,
+        "same_alliance": false,
+        "used": 0,
+        "stolen_roles": []
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=10,stolen_roles={}},active_thief=2},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "同公会不能偷",
+      "inputs": {
+        "stage": 10,
+        "thief": 0,
+        "same_alliance": true,
+        "used": 0,
+        "stolen_roles": []
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=true;local ok=FARM.can_steal({crop={stage=10,stolen_roles={}},active_thief=0},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "每日次数用完",
+      "inputs": {
+        "stage": 10,
+        "thief": 0,
+        "same_alliance": false,
+        "used": 10,
+        "stolen_roles": []
+      },
+      "code": "STEAL_USED=10;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=10,stolen_roles={}},active_thief=0},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "第三次偷后封顶",
+      "inputs": {
+        "stage": 10,
+        "thief": 0,
+        "same_alliance": false,
+        "used": 0,
+        "stolen_roles": [
+          3,
+          4,
+          5
+        ]
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=10,stolen_roles={3,4,5}},active_thief=0},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "自己已偷过",
+      "inputs": {
+        "stage": 10,
+        "thief": 0,
+        "same_alliance": false,
+        "used": 0,
+        "stolen_roles": [
+          1
+        ]
+      },
+      "code": "STEAL_USED=0;SAME_ALLIANCE=false;local ok=FARM.can_steal({crop={stage=10,stolen_roles={1}},active_thief=0},2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽解锁难度1_通过0_openTrue",
+      "inputs": {
+        "difficulty": 1,
+        "pass_hard": 0,
+        "open": true
+      },
+      "code": "PASSED=0;OPEN=true;local ok=ROGUE.is_rouge_difficulty_open(1);return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽解锁难度2_通过0_openTrue",
+      "inputs": {
+        "difficulty": 2,
+        "pass_hard": 0,
+        "open": true
+      },
+      "code": "PASSED=0;OPEN=true;local ok=ROGUE.is_rouge_difficulty_open(2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽解锁难度2_通过1_openTrue",
+      "inputs": {
+        "difficulty": 2,
+        "pass_hard": 1,
+        "open": true
+      },
+      "code": "PASSED=1;OPEN=true;local ok=ROGUE.is_rouge_difficulty_open(2);return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽解锁难度3_通过1_openTrue",
+      "inputs": {
+        "difficulty": 3,
+        "pass_hard": 1,
+        "open": true
+      },
+      "code": "PASSED=1;OPEN=true;local ok=ROGUE.is_rouge_difficulty_open(3);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽解锁难度2_通过2_openFalse",
+      "inputs": {
+        "difficulty": 2,
+        "pass_hard": 2,
+        "open": false
+      },
+      "code": "PASSED=2;OPEN=false;local ok=ROGUE.is_rouge_difficulty_open(2);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽节点状态1",
+      "inputs": {
+        "hard": 2,
+        "node": 3,
+        "state": 1
+      },
+      "code": "NODESTATE=1;return ROGUE.get_next_challenge_info()",
+      "returned": [
+        2,
+        3
+      ],
+      "expected": [
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽节点状态2",
+      "inputs": {
+        "hard": 2,
+        "node": 3,
+        "state": 2
+      },
+      "code": "NODESTATE=2;return ROGUE.get_next_challenge_info()",
+      "returned": [
+        2,
+        3
+      ],
+      "expected": [
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "肉鸽节点状态3",
+      "inputs": {
+        "hard": 2,
+        "node": 3,
+        "state": 3
+      },
+      "code": "NODESTATE=3;return ROGUE.get_next_challenge_info()",
+      "returned": [
+        2,
+        4
+      ],
+      "expected": [
+        2,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "topic": "rogue",
+      "label": "不能跨节点选择事件",
+      "inputs": {
+        "expected_next": [
+          2,
+          4
+        ]
+      },
+      "code": "NODESTATE=3;return ROGUE.can_select_event(2,4),ROGUE.can_select_event(2,5),ROGUE.can_select_event(1,4)",
+      "returned": [
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "home",
+      "label": "魅力奖charm99_claimedFalse",
+      "inputs": {
+        "charm": 99,
+        "threshold": 100,
+        "claimed": []
+      },
+      "code": "HOM.data.charm_value=99;HOM.data.fetched_charm_stage={};return HOM.get_charm_reward_state({id=1,charm_value=100})",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "home",
+      "label": "魅力奖charm100_claimedFalse",
+      "inputs": {
+        "charm": 100,
+        "threshold": 100,
+        "claimed": []
+      },
+      "code": "HOM.data.charm_value=100;HOM.data.fetched_charm_stage={};return HOM.get_charm_reward_state({id=1,charm_value=100})",
+      "returned": [
+        1
+      ],
+      "expected": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "home",
+      "label": "魅力奖charm100_claimedTrue",
+      "inputs": {
+        "charm": 100,
+        "threshold": 100,
+        "claimed": [
+          1
+        ]
+      },
+      "code": "HOM.data.charm_value=100;HOM.data.fetched_charm_stage={1};return HOM.get_charm_reward_state({id=1,charm_value=100})",
+      "returned": [
+        2
+      ],
+      "expected": [
+        2
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "广告次数0/2_time129",
+      "inputs": {
+        "used": 0,
+        "total": 2,
+        "pre_time": 100,
+        "interval": 30,
+        "now": 129
+      },
+      "code": "NOW=129;ADINFO={daily_cnt=0,daily_all_cnt=2,pre_time=100,view_interval=30};return AD.get_advert_watch_state(1).state",
+      "returned": [
+        1
+      ],
+      "expected": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "广告次数0/2_time130",
+      "inputs": {
+        "used": 0,
+        "total": 2,
+        "pre_time": 100,
+        "interval": 30,
+        "now": 130
+      },
+      "code": "NOW=130;ADINFO={daily_cnt=0,daily_all_cnt=2,pre_time=100,view_interval=30};return AD.get_advert_watch_state(1).state",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "广告次数2/2_time140",
+      "inputs": {
+        "used": 2,
+        "total": 2,
+        "pre_time": 100,
+        "interval": 30,
+        "now": 140
+      },
+      "code": "NOW=140;ADINFO={daily_cnt=2,daily_all_cnt=2,pre_time=100,view_interval=30};return AD.get_advert_watch_state(1).state",
+      "returned": [
+        -1
+      ],
+      "expected": [
+        -1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "无广告信息的本地状态",
+      "inputs": {
+        "info": null
+      },
+      "code": "ADINFO=nil;return AD.get_advert_watch_state(1).state",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "月卡openTrue_expiry101",
+      "inputs": {
+        "open": true,
+        "expired_time": 101,
+        "server_time": 100
+      },
+      "code": "OPEN=true;NOW=100;MCINFO={expired_time=101};return MC.is_month_card_activated(9)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "月卡openTrue_expiry100",
+      "inputs": {
+        "open": true,
+        "expired_time": 100,
+        "server_time": 100
+      },
+      "code": "OPEN=true;NOW=100;MCINFO={expired_time=100};return MC.is_month_card_activated(9)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "月卡openTrue_expiry99",
+      "inputs": {
+        "open": true,
+        "expired_time": 99,
+        "server_time": 100
+      },
+      "code": "OPEN=true;NOW=100;MCINFO={expired_time=99};return MC.is_month_card_activated(9)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "月卡openFalse_expiry101",
+      "inputs": {
+        "open": false,
+        "expired_time": 101,
+        "server_time": 100
+      },
+      "code": "OPEN=false;NOW=100;MCINFO={expired_time=101};return MC.is_month_card_activated(9)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料奖励额度7_2_助力0",
+      "inputs": {
+        "limit": 7,
+        "used": 2,
+        "sprouts_rate": 0
+      },
+      "code": "MAT.series_info={[101]={reward_limit_cnt=7,reward_cur_cnt=2,sprouts_rate=0}};return MAT.get_award_left_times(101)",
+      "returned": [
+        5,
+        7
+      ],
+      "expected": [
+        5,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料奖励额度7_2_助力1",
+      "inputs": {
+        "limit": 7,
+        "used": 2,
+        "sprouts_rate": 1
+      },
+      "code": "MAT.series_info={[101]={reward_limit_cnt=7,reward_cur_cnt=2,sprouts_rate=1}};return MAT.get_award_left_times(101)",
+      "returned": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料奖励额度7_7_助力1",
+      "inputs": {
+        "limit": 7,
+        "used": 7,
+        "sprouts_rate": 1
+      },
+      "code": "MAT.series_info={[101]={reward_limit_cnt=7,reward_cur_cnt=7,sprouts_rate=1}};return MAT.get_award_left_times(101)",
+      "returned": [
+        0,
+        1
+      ],
+      "expected": [
+        0,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料回合奖pass4_claimedFalse",
+      "inputs": {
+        "pass_round": 4,
+        "finish_round": 4,
+        "claimed": false
+      },
+      "code": "CLAIMED=false;MAT.series_info={[201]={pass_round=4}};return MAT.get_round_reward_can_get_by_id(201,20104)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料回合奖pass5_claimedFalse",
+      "inputs": {
+        "pass_round": 5,
+        "finish_round": 4,
+        "claimed": false
+      },
+      "code": "CLAIMED=false;MAT.series_info={[201]={pass_round=5}};return MAT.get_round_reward_can_get_by_id(201,20104)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料回合奖pass0_claimedFalse",
+      "inputs": {
+        "pass_round": 0,
+        "finish_round": 4,
+        "claimed": false
+      },
+      "code": "CLAIMED=false;MAT.series_info={[201]={pass_round=0}};return MAT.get_round_reward_can_get_by_id(201,20104)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "材料回合奖pass4_claimedTrue",
+      "inputs": {
+        "pass_round": 4,
+        "finish_round": 4,
+        "claimed": true
+      },
+      "code": "CLAIMED=true;MAT.series_info={[201]={pass_round=4}};return MAT.get_round_reward_can_get_by_id(201,20104)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "布局优先6球",
+      "inputs": {
+        "layout_balls": "{{ball_id=7012001,count=5},{ball_id=7012002,count=1}}",
+        "configured_ball_count": 8
+      },
+      "code": "local loadout,n=PB.build_initial_ball_loadout({init_balls={{ball_id=7012001,count=5},{ball_id=7012002,count=1}}},{init_ball_count=8});return n",
+      "returned": [
+        6
+      ],
+      "expected": [
+        6
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "布局优先18球",
+      "inputs": {
+        "layout_balls": "{{ball_id=7012001,count=10},{ball_id=7012002,count=8}}",
+        "configured_ball_count": 8
+      },
+      "code": "local loadout,n=PB.build_initial_ball_loadout({init_balls={{ball_id=7012001,count=10},{ball_id=7012002,count=8}}},{init_ball_count=8});return n",
+      "returned": [
+        18
+      ],
+      "expected": [
+        18
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "空布局退回8球",
+      "inputs": {
+        "layout_balls": "{}",
+        "configured_ball_count": 8
+      },
+      "code": "local loadout,n=PB.build_initial_ball_loadout({init_balls={}},{init_ball_count=8});return n",
+      "returned": [
+        8
+      ],
+      "expected": [
+        8
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "未知球ID退回8球",
+      "inputs": {
+        "layout_balls": "{{ball_id=999,count=3}}",
+        "configured_ball_count": 8
+      },
+      "code": "local loadout,n=PB.build_initial_ball_loadout({init_balls={{ball_id=999,count=3}}},{init_ball_count=8});return n",
+      "returned": [
+        8
+      ],
+      "expected": [
+        8
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球分数744_目标745",
+      "inputs": {
+        "score": 744,
+        "target": 745
+      },
+      "code": "PB.data.score=744;PB.data.target_score=745;return PB.is_stage_target_reached()",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球分数745_目标745",
+      "inputs": {
+        "score": 745,
+        "target": 745
+      },
+      "code": "PB.data.score=745;PB.data.target_score=745;return PB.is_stage_target_reached()",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球分数746_目标745",
+      "inputs": {
+        "score": 746,
+        "target": 745
+      },
+      "code": "PB.data.score=746;PB.data.target_score=745;return PB.is_stage_target_reached()",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球分数0_目标0",
+      "inputs": {
+        "score": 0,
+        "target": 0
+      },
+      "code": "PB.data.score=0;PB.data.target_score=0;return PB.is_stage_target_reached()",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "死亡计数不为负",
+      "inputs": {
+        "active_before": 0,
+        "death_score": 10
+      },
+      "code": "PB.data.active_unit_count=0;PB.data.score=0;PB.get_unit_prop_cfg=function() return {death_score=10} end;PB.on_kill(1,1);return PB.data.active_unit_count,PB.data.score",
+      "returned": [
+        0,
+        10
+      ],
+      "expected": [
+        0,
+        10
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球上报winTrue_passedFalse",
+      "inputs": {
+        "win": true,
+        "already_completed": false
+      },
+      "code": "SUBMIT_N=0;PB.data.result_shown=false;PB.data.stage_id=70101013;PB.data.score=745;PB.data.target_score=745;PB.is_stage_completed=function() return false end;PB.on_stage_finished();return SUBMIT_N",
+      "returned": [
+        1
+      ],
+      "expected": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球上报winTrue_passedTrue",
+      "inputs": {
+        "win": true,
+        "already_completed": true
+      },
+      "code": "SUBMIT_N=0;PB.data.result_shown=false;PB.data.stage_id=70101013;PB.data.score=745;PB.data.target_score=745;PB.is_stage_completed=function() return true end;PB.on_stage_finished();return SUBMIT_N",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球上报winFalse_passedTrue",
+      "inputs": {
+        "win": false,
+        "already_completed": true
+      },
+      "code": "SUBMIT_N=0;PB.data.result_shown=false;PB.data.stage_id=70101013;PB.data.score=744;PB.data.target_score=745;PB.is_stage_completed=function() return true end;PB.on_stage_finished();return SUBMIT_N",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pinball",
+      "label": "弹球上报winFalse_passedFalse",
+      "inputs": {
+        "win": false,
+        "already_completed": false
+      },
+      "code": "SUBMIT_N=0;PB.data.result_shown=false;PB.data.stage_id=70101013;PB.data.score=744;PB.data.target_score=745;PB.is_stage_completed=function() return false end;PB.on_stage_finished();return SUBMIT_N",
+      "returned": [
+        0
+      ],
+      "expected": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位1_权限1",
+      "inputs": {
+        "position": 1,
+        "permission": 1
+      },
+      "code": "return GUILD.has_right_for_operate(1,1)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位2_权限1",
+      "inputs": {
+        "position": 2,
+        "permission": 1
+      },
+      "code": "return GUILD.has_right_for_operate(2,1)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位4_权限1",
+      "inputs": {
+        "position": 4,
+        "permission": 1
+      },
+      "code": "return GUILD.has_right_for_operate(4,1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位4_权限4",
+      "inputs": {
+        "position": 4,
+        "permission": 4
+      },
+      "code": "return GUILD.has_right_for_operate(4,4)",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位10_权限3",
+      "inputs": {
+        "position": 10,
+        "permission": 3
+      },
+      "code": "return GUILD.has_right_for_operate(10,3)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "guild",
+      "label": "公会职位999_权限1",
+      "inputs": {
+        "position": 999,
+        "permission": 1
+      },
+      "code": "return GUILD.has_right_for_operate(999,1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "剧情连续自动挑战被固定开关关闭",
+      "inputs": {
+        "dungeon_id": 1,
+        "downstream_functions": "unconfigured: must not be called"
+      },
+      "code": "return STORY.can_auto_fight_next(1)",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取9/5_购买False_目标11_付费轨False",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 9,
+        "advanced_claimed_level": 5,
+        "bought": false,
+        "target": 11,
+        "paid_track": false
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=9;BP.data.advance_level=5;BOUGHT=false;return BP.get_item_is_lock(11,false),BP.get_item_is_got(11,false),BP.get_item_can_get(11,false)",
+      "returned": [
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取9/5_购买False_目标10_付费轨False",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 9,
+        "advanced_claimed_level": 5,
+        "bought": false,
+        "target": 10,
+        "paid_track": false
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=9;BP.data.advance_level=5;BOUGHT=false;return BP.get_item_is_lock(10,false),BP.get_item_is_got(10,false),BP.get_item_can_get(10,false)",
+      "returned": [
+        false,
+        false,
+        true
+      ],
+      "expected": [
+        false,
+        false,
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取10/5_购买False_目标10_付费轨False",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 10,
+        "advanced_claimed_level": 5,
+        "bought": false,
+        "target": 10,
+        "paid_track": false
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=10;BP.data.advance_level=5;BOUGHT=false;return BP.get_item_is_lock(10,false),BP.get_item_is_got(10,false),BP.get_item_can_get(10,false)",
+      "returned": [
+        false,
+        true,
+        false
+      ],
+      "expected": [
+        false,
+        true,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取9/5_购买False_目标6_付费轨True",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 9,
+        "advanced_claimed_level": 5,
+        "bought": false,
+        "target": 6,
+        "paid_track": true
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=9;BP.data.advance_level=5;BOUGHT=false;return BP.get_item_is_lock(6,true),BP.get_item_is_got(6,true),BP.get_item_can_get(6,true)",
+      "returned": [
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取9/5_购买True_目标6_付费轨True",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 9,
+        "advanced_claimed_level": 5,
+        "bought": true,
+        "target": 6,
+        "paid_track": true
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=9;BP.data.advance_level=5;BOUGHT=true;return BP.get_item_is_lock(6,true),BP.get_item_is_got(6,true),BP.get_item_can_get(6,true)",
+      "returned": [
+        false,
+        false,
+        true
+      ],
+      "expected": [
+        false,
+        false,
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证等级10_领取9/6_购买True_目标6_付费轨True",
+      "inputs": {
+        "level": 10,
+        "normal_claimed_level": 9,
+        "advanced_claimed_level": 6,
+        "bought": true,
+        "target": 6,
+        "paid_track": true
+      },
+      "code": "BP.data.level=10;BP.data.normal_level=9;BP.data.advance_level=6;BOUGHT=true;return BP.get_item_is_lock(6,true),BP.get_item_is_got(6,true),BP.get_item_can_get(6,true)",
+      "returned": [
+        false,
+        true,
+        false
+      ],
+      "expected": [
+        false,
+        true,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证周经验99/100",
+      "inputs": {
+        "week_exp": 99,
+        "week_exp_limit": 100
+      },
+      "code": "BP.data.week_exp=99;BP.data.week_exp_limit=100;return BP.get_is_exp_limit()",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证周经验100/100",
+      "inputs": {
+        "week_exp": 100,
+        "week_exp_limit": 100
+      },
+      "code": "BP.data.week_exp=100;BP.data.week_exp_limit=100;return BP.get_is_exp_limit()",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "monetization",
+      "label": "通行证周经验101/100",
+      "inputs": {
+        "week_exp": 101,
+        "week_exp_limit": 100
+      },
+      "code": "BP.data.week_exp=101;BP.data.week_exp_limit=100;return BP.get_is_exp_limit()",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易比例按万分单位换算",
+      "inputs": {
+        "raw_tax": 1000,
+        "raw_premium": 1000,
+        "raw_limit_up": 1000,
+        "raw_limit_down": 1000
+      },
+      "code": "return TRADE.get_trade_shop_system_tax_rate(),TRADE.get_trade_shop_price_increase_premium(),TRADE.get_trade_shop_limit_up_ratio(),TRADE.get_trade_shop_limit_down_ratio()",
+      "returned": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "expected": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易涨跌显示向下截一位小数",
+      "inputs": {
+        "ratio": [
+          0.02349,
+          -0.02349
+        ],
+        "display_multiplier": 100
+      },
+      "code": "return TRADE.get_ratio_keep_one_decimal_digit(0.02349,100),TRADE.get_ratio_keep_one_decimal_digit(-0.02349,100)",
+      "returned": [
+        "2.3%",
+        "-2.4%"
+      ],
+      "expected": [
+        "2.3%",
+        "-2.4%"
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "噩梦爬塔开服第9天",
+      "inputs": {
+        "open_day": 9,
+        "threshold": 100000,
+        "coefficient": 5000,
+        "press_coefficient": 2000
+      },
+      "code": "OPEN_DAY=9;return TOWER.is_nightmare_floor(1),TOWER.get_nightmare_mon_coef(1),TOWER.get_nightmare_mon_crush_coef(1)",
+      "returned": [
+        true,
+        5000,
+        2000
+      ],
+      "expected": [
+        true,
+        5000,
+        2000
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "噩梦爬塔开服第10天",
+      "inputs": {
+        "open_day": 10,
+        "threshold": 100000,
+        "coefficient": 5000,
+        "press_coefficient": 2000
+      },
+      "code": "OPEN_DAY=10;return TOWER.is_nightmare_floor(1),TOWER.get_nightmare_mon_coef(1),TOWER.get_nightmare_mon_crush_coef(1)",
+      "returned": [
+        false,
+        0,
+        0
+      ],
+      "expected": [
+        false,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "pve",
+      "label": "噩梦爬塔开服第11天",
+      "inputs": {
+        "open_day": 11,
+        "threshold": 100000,
+        "coefficient": 5000,
+        "press_coefficient": 2000
+      },
+      "code": "OPEN_DAY=11;return TOWER.is_nightmare_floor(1),TOWER.get_nightmare_mon_coef(1),TOWER.get_nightmare_mon_crush_coef(1)",
+      "returned": [
+        false,
+        -5000,
+        -2000
+      ],
+      "expected": [
+        false,
+        -5000,
+        -2000
+      ],
+      "passed": true
+    }
+  ]
+}

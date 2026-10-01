@@ -1,0 +1,3 @@
+-r requirements-research.txt
+UnityPy>=1.24,<2
+playwright>=1.50,<2

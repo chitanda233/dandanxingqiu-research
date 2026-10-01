@@ -1,0 +1,71 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：从登录、开放状态到玩法与资源回流"><title>产品结构与循环 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="01-product" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item active" href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>产品结构与循环</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 01 / REVERSE ENGINEERING</div><h1>产品结构与循环</h1><p>从登录、开放状态到玩法与资源回流</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">产品由哪些层组成</h2>
+<p>客户端同时承载回合弹射、竞技匹配、多种 PVE、肉鸽、独立弹球、多人场景、公会组织、家园生产和活动商业化。它更接近长期运营的社交养成产品，而不是单一战斗小游戏。这是按模块、配置和请求关系得出的产品结构分析。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>层</th>
+<th>主要对象</th>
+<th>玩家操作</th>
+<th>状态回流</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>操作战斗</td>
+<td>角色、宠物、弹体、回合、Buff</td>
+<td>移动、蓄力、发炮、技能、跳过</td>
+<td>行为节点、属性、胜负</td>
+</tr>
+<tr>
+<td>构筑养成</td>
+<td>武器、技能、装备、宠物、宝石、卡牌</td>
+<td>穿戴、培养、确认洗练、切换方案</td>
+<td>实例属性、解锁、评分</td>
+</tr>
+<tr>
+<td>对抗与挑战</td>
+<td>排位、组队副本、塔、材料本、肉鸽</td>
+<td>匹配、组队、挑战、扫荡、领奖</td>
+<td>杯数、进度、次数、货币</td>
+</tr>
+<tr>
+<td>组织与关系</td>
+<td>公会、好友、师徒、婚姻</td>
+<td>申请、审批、协作、聊天、赠送</td>
+<td>权限、亲密度、任务、组织奖励</td>
+</tr>
+<tr>
+<td>生产和表达</td>
+<td>家园、农场、装扮、照片</td>
+<td>布置、制造、种植、帮助、访问</td>
+<td>魅力、订单、生产物、互动记录</td>
+</tr>
+<tr>
+<td>活动和付费</td>
+<td>日常、通行证、抽取、商店、月卡</td>
+<td>任务、兑换、购买、领取</td>
+<td>库存、奖励、期限、活动积分</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="_2">一次正常会话的依赖链</h2>
+<p>登录平台取得身份 → 请求服务器列表和验证 → 连接游戏服务器 → 登录/创建角色 → 初始化玩家数据和开服时间 → 功能开放与云配置准备 → 拉取已开放模块 → 展示入口、任务和红点。网络断开、维护、封禁、SDK 切换与缓存切换都有独立处理，不能将“打开首页”视作数据已完整初始化。<a href="evidence.html?module=game.module.login.manager.core&amp;function=game_login">登录原函数</a></p>
+<p>选择模式后，队伍目标、玩法参数和构筑方案影响入场；战斗结果又驱动任务、资源、竞技进度及活动积分。养成产生新战斗能力，家园和公会提供另一条资源与关系循环。网站首页的循环图是依赖关系示意，不是逐帧还原游戏真实 UI。</p>
+<h2 id="_3">功能入口如何开放</h2>
+<p><code>open_func</code> 有 707 条定义，但有效开放需同时满足服务器下发状态、云开关和平台条件。缓存有定义、模块有 view、首页有按钮，是不同层次的事实。初始化还会等待云数据；不能在云开关未就绪时把所有功能判成永久关闭。<a href="evidence.html?module=game.module.open_func.manager.core&amp;function=is_open">入口规则</a> <a href="configs.html?table=open_func.open_func&amp;q=">功能定义</a></p>
+<p>因此评估一个功能至少要查四件事：是否有配置；是否有客户端处理链；当前构建是否提供依赖的 Unity/SDK 类型；当前服务器和账号是否允许使用。弹球的运行时检查、充值审核云开关、区服配置后缀分别处在不同层。</p>
+<h2 id="_4">时间不是同一把钟</h2>
+<p>战斗回合时钟、客户端动画时间、服务器 Unix 时间、开服天数、日/周刷新、活动结束时间有不同用途。广告冷却读服务器时间；月卡激活要求到期时间严格大于服务器时间；噩梦塔系数读开服天数；技能 CD 按所属单位行动回合维护。不能把 <code>time_limit=3600</code>、<code>open_day=5</code>、<code>cd=4</code> 当同一单位。</p>
+<h2 id="_5">请求、回复与成功状态</h2>
+<p>点击按钮一般只是发送请求。穿戴、升级、购买、领取、领奖通常等待模块回包更新，随后广播事件刷新 UI 和红点。洗练还分“候选产生”和“确认接受/取消”。服务器推送可能先于某页面打开；页面关闭也不代表持久数据撤回。</p>
+<p>复刻功能流程时应保留：资格检查 → 成本/风险展示 → 请求中 → 成功回包更新 → 结果表现 → 红点重算；失败码、取消、超时和断线恢复单独处理。不能直接让按钮点击修改金币、星级或已领取标志。</p>
+<h2 id="_6">红点是提醒，不是统一资格判定</h2>
+<p>很多模块将可领奖、可升级、更高评分物品、未读邀请、一次性查看标志分开为红点或绿点。评分更高不一定适合当前构筑；入口红点消失也不意味着功能永久不可用。公会申请、家园照片、通行证领取进度都有自己的本地查看与服务端状态。</p>
+<h2 id="_7">资源和关系的闭环</h2>
+<p>日常任务产生通用资源，副本和活动投放专属材料；培养与兑换消耗这些资源；竞技和组织系统再产生周/赛季目标。家园帮助、公会愿望、共享订单、师徒任务将个人成长接入关系网络。从功能耦合看，留存来自日/周额度、长期构筑、组织协作、活动轮换和外观表达共同作用，不能仅用“体力限制”概括。</p>
+<p>当前付费转化率、用户留存、玩法使用频次无法从代码推出。本文讨论的是系统提供的机制及可能作用，不是经营指标测量。</p><nav class="chapter-pager"><a href="00-review.html">← 复查结论</a><a href="02-combat.html">战斗与操作 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">产品由哪些层组成</a><a href="#_2">一次正常会话的依赖链</a><a href="#_3">功能入口如何开放</a><a href="#_4">时间不是同一把钟</a><a href="#_5">请求、回复与成功状态</a><a href="#_6">红点是提醒，不是统一资格判定</a><a href="#_7">资源和关系的闭环</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

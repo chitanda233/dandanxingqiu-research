@@ -115,6 +115,24 @@ def main():
         code=f'STEAL_USED={used};SAME_ALLIANCE={str(same).lower()};local ok=FARM.can_steal({{crop={{stage={stage},stolen_roles={{{",".join(map(str,roles))}}}}},active_thief={thief}}},2);return ok'
         case('farm',label,code,{'stage':stage,'thief':thief,'same_alliance':same,'used':used,'stolen_roles':roles},[exp])
 
+    lua.execute(b'''FARM.data.get_order_commit_times=function() return ORDER_LEFT end
+    FARM.data.get_order_info=function() return {cid=1} end
+    FARM.data.get_shareable_order=function() return {cid=1} end
+    FARM.data.get_share_order_commit_times=function() return SHARE_USED end
+    DataConfigs.farm_order.get_cfg_by_id=function() return {accept_cost_item_list=ORDER_COST} end
+    DataConfigs.item.get_item=function() return {bag_type=1} end
+    Game.module.bag.get_bag_item_count_by_cid=function() return ORDER_INVENTORY end
+    ''')
+    for label,left,inventory,cost,shared,used,expected in [
+        ('订单普通额度用完',0,2,'{{1001,2}}',False,0,False),
+        ('订单材料恰好足够',1,2,'{{1001,2}}',False,0,True),
+        ('订单材料不足',1,1,'{{1001,2}}',False,0,False),
+        ('订单空消耗表不可提交',1,2,'{}',False,0,False),
+        ('共享订单额度2of3',1,2,'{{1001,2}}',True,2,True),
+        ('共享订单额度3of3',1,2,'{{1001,2}}',True,3,False)]:
+        call='FARM.can_commit_share_order()' if shared else 'FARM.can_commit_order(1)'
+        case('farm',label,f'ORDER_LEFT={left};ORDER_INVENTORY={inventory};ORDER_COST={cost};SHARE_USED={used};local ok={call};return ok',{'ordinary_remaining':left,'inventory':inventory,'cost':cost,'shared':shared,'shared_used':used,'shared_limit':3},[expected])
+
     rogue=lua.globals()[b'Game'][b'module'][b'rogue'];config('rogue_hard.rogue_hard');load('game.module.rogue.manager.const',rogue);load('game.module.rogue.manager.core',rogue);lua.globals()[b'ROGUE']=rogue
     lua.execute(b'Game.module.open_func.is_open=function() return OPEN end;Game.module.open_func.get_no_open_tips=function() return "closed" end;ROGUE.data.get_rogue_info=function() return {pass_hard=PASSED} end')
     for h,passed,op,exp in [(1,0,True,True),(2,0,True,False),(2,1,True,True),(3,1,True,False),(2,2,False,False)]:
@@ -177,6 +195,18 @@ def main():
     lua.execute(b'imports["auto_gen.package_include.config.trade_misc.head"]=DataConfigs.trade_misc;imports["auto_gen.package_include.config.trade_misc.body"]={}')
     case('economy','贸易比例按万分单位换算','return TRADE.get_trade_shop_system_tax_rate(),TRADE.get_trade_shop_price_increase_premium(),TRADE.get_trade_shop_limit_up_ratio(),TRADE.get_trade_shop_limit_down_ratio()',{'raw_tax':1000,'raw_premium':1000,'raw_limit_up':1000,'raw_limit_down':1000},[0.1,0.1,0.1,0.1])
     case('economy','贸易涨跌显示向下截一位小数','return TRADE.get_ratio_keep_one_decimal_digit(0.02349,100),TRADE.get_ratio_keep_one_decimal_digit(-0.02349,100)',{'ratio':[0.02349,-0.02349],'display_multiplier':100},['2.3%','-2.4%'])
+    lua.execute(b'''TRADE.get_shop_item_data=function() return TRADE_ITEM end
+    TRADE.get_trade_shop_cfg=function() return {buy_limit=2,stock=1,currency_type=1} end''')
+    for label,ratio,present,expected in [
+        ('贸易涨停前不加溢价',10999,True,[101,101,2]),
+        ('贸易涨停点加溢价并floor',11000,True,[101,111,2]),
+        ('贸易超过涨停仍走溢价分支',11001,True,[101,111,2]),
+        ('贸易缺比例按基准处理',None,True,[101,101,2]),
+        ('贸易缺商品返回零值',10000,False,[0,0,0])]:
+        ratio_field='' if ratio is None else ',ratio='+str(ratio)
+        item='{price=101,number=7'+ratio_field+'}' if present else 'nil'
+        case('economy',label,f'TRADE_ITEM={item};local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit',{'server_price':101,'ratio':ratio,'item_present':present,'premium':0.1},expected)
+    case('economy','贸易比例基准10000与百分比换算','return TRADE.get_abs_change_ratio({ratio=11000}),TRADE.get_abs_change_ratio({ratio=9900}),TRADE.get_abs_change_ratio({})',{'ratios':[11000,9900,None]},[10,1,0])
 
     tower=lua.globals()[b'Game'][b'module'][b'dungeon_tower'];load('game.module.dungeon_tower.manager.core',tower);lua.globals()[b'TOWER']=tower
     lua.execute(b'Game.server_time.get_server_open_day=function() return OPEN_DAY end;DataConfigs.tower.get_tower_cfg=function() return {night_mare_coeff={100000,5000},nightmare_press_power=2000} end')

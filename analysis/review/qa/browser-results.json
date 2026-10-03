@@ -9,7 +9,7 @@
     "Actual current-level cost aggregation and invalid range",
     "Mode field comparison",
     "All-stage selection, layout ball override and wave rendering",
-    "New and legacy test suites, result expansion",
+    "Rule assertions and behavior records, result expansion",
     "24 mobile pages without horizontal overflow and mobile menu"
   ],
   "javascript_errors": [],

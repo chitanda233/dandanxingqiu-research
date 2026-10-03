@@ -1,77 +1,43 @@
-# 《弹弹星球》本机代码研究
+# 《弹弹星球》游戏功能与系统设计研究报告
 
-研究对象：微信小游戏 `wx64969d55b91a6963`，本机缓存包目录版本 `242`，采集日期 2026-09-30。研究方法是读取本机缓存中的 wxapkg 和 Unity Lua AssetBundle；未用游戏 UI 验证服务器实时状态。
+以 Unity 资源、Lua 5.1 字节码、有效配置和原函数执行分析游戏的操作、养成、挑战、组织、生产、经济与运营机制。
 
-## 阅读报告
+[在线研究报告](https://chitanda233.github.io/dandanxingqiu-research/) · [完整 Markdown](analysis/review/full-report.md) · [研究资料与复现](analysis/review/README.md)
 
-### 2026-10-01 深度复查版
+## 报告内容
 
-[新版Web入口](docs/index.html) · [完整18章报告](analysis/review/full-report.md) · [专题与复现目录](analysis/review/README.md)
+18 章涵盖研究摘要、产品循环、战斗、技能、角色养成、竞技匹配、PVE、肉鸽、50 关弹球、公会、社交、家园、农场、经济、商业化、活动、技术架构与综合结论。
 
-本轮重新核对23个原始Lua Bundle与8,272份字节码，扩展为1,555份配置导出和189个命名空间目录，新增97个原函数断言，复跑35个旧场景。报告补齐副本、肉鸽、50关弹球、公会、社交、家园、农场、交易和商业化；纠正HP边界、剧情连续挑战、默认球数和参数单位的误读。
+研究对象为微信小游戏 AppID `wx64969d55b91a6963`，缓存目录版本 242，采集日期 2026-09-30。资料包含 23 个 Lua AssetBundle、8,272 份字节码、1,555 份有效配置导出、3,088 份原指令及 144 个原函数执行场景。189 个命名空间包含业务与基础设施，配置行数包含等级和分片变体。
 
-Web支持全站搜索、功能筛选、配置分页查询、原指令/函数定位、技能预算、模式对照、弹球关卡布局与验证记录。新版在本地完成；下方线上链接是已有发布地址。
+Web 提供全文搜索、功能目录、配置分页查询、函数定位、技能预算、模式对照、弹球布局与执行记录。具体结论链接到来源文件、函数、字段和输入返回。
+
+## 本地阅读
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 ```
 
-浏览器打开 `http://127.0.0.1:8765/`。配置与证据按需加载，直接双击HTML可能受浏览器文件访问限制。
-
-### 早期十篇报告
-
-| 专题 | 主要回答 |
-| --- | --- |
-| [逆向策划设计案](analysis/design-spec.md) | 主循环、单局决策、成长、AI 匹配与资源回流如何组成产品设计 |
-| [外围系统](analysis/systems.md) | 主界面入口、功能开放、任务、活跃度、商店、扭蛋、赛季的关系 |
-| [成长系统](analysis/growth.md) | 角色等级与属性、武器升星/强化、技能/宠物、段位和战令 |
-| [匹配系统](analysis/matching.md) | 单人/组队、招募补人、准备、发起/取消匹配、成功回包 |
-| [局内流程](analysis/battle.md) | 加载、回合下发、蓄力发射/技能、服务端节点、超时、结算 |
-| [局内计算与操作](analysis/combat-math.md) | 发炮字段、推荐力度搜索、轨迹与天气 |
-| [技能与数值](analysis/skills.md) | 技能效果、费用、冷却、限次、文字与配置冲突 |
-| [机器人与 AI](analysis/robots.md) | 新人 AI、等待兜底、人机杯分、配装与行为样本 |
-| [局外成长数值](analysis/growth-numbers.md) | 角色、宠物、武器、宝石及 PVP 平衡表 |
-| [局外经济与留存](analysis/economy.md) | 活跃度、抽取保底、商店、签到与通行证 |
-
-[在线网页报告](https://chitanda233.github.io/dandanxingqiu-research/) · [网页源文件](docs/index.html) · [研究口径与证据目录](analysis/README.md)
+打开 http://127.0.0.1:8765/。资料按需加载，HTTP 服务用于读取配置与证据 JSON。
 
 ## 仓库结构
 
-```text
-analysis/                  分专题的代码逆向策划案、规则正文与生成明细
-  design-details/         各模块深入规则正文；与有效配置自动合成专题
-  data/                   128 张由原始字节码执行导出的配置 JSON 与来源哈希
-docs/                      GitHub Pages 静态网页；每个专题一个页面
-raw/                       从本机缓存复制的原始 wxapkg 与 23 个 Lua AssetBundle
-  manifest.json            每份原始文件的大小与 SHA-256
-reverse/                   从原始资源提取/反编译的研究材料
-  unpacked-wxapkg/         微信包成员
-  lua-bytecode/            8,272 个 Lua TextAsset 字节码与清单
-  lua-decompiled/          148 份原 unluac 尽力反编译
-  lua-luadec/              第二套尽力反编译（保留错误提示）
-  lua-disassembled/        184 个模块原始指令、函数定位与来源哈希
-tools/                     提取、反编译、网页生成及校验脚本
-vendor/                    研究用工具二进制；临时试验仓库不纳入版本控制
-```
+| 目录 | 内容 |
+| --- | --- |
+| analysis/review/reports | 18 章报告的可编辑正文 |
+| analysis/review/full-report.md | 合成的完整研究报告 |
+| analysis/review/configs | 有效配置、默认字段与分片 |
+| analysis/review | 来源清单、功能目录、派生数据和执行记录 |
+| docs | 从 main/docs 发布的 GitHub Pages 网站 |
+| docs/data | 按需加载的配置、指令和搜索数据 |
+| raw | 原始 wxapkg、wasm 包和 Lua AssetBundle |
+| reverse/lua-bytecode | 原始字节码提取物与定位清单 |
+| reverse/review-disassembled | 3,088 份原指令列表 |
+| reverse/lua-decompiled、reverse/lua-luadec | 高层反编译材料 |
+| tools | 提取、分析、原函数执行、建站与验证工具 |
 
-新版另增`analysis/review/`（18篇专题、全量索引、配置、验证）和`reverse/review-disassembled/`（3,088份原指令）；`docs/review/`提供专题与5个交互工具，`docs/data/`保存按需加载的证据。
+## 研究方法
 
-原始资源与反编译文件可能来自第三方作品，仅用于本次研究。报告将“客户端代码确认”“客户端配置值”“依据名称推断”“需服务端验证”分开书写。反编译代码存在临时变量丢失或重建错误；阅读规则时优先看配置字段、协议名称和多个调用点是否一致。
+配置执行真实字节码及 import 依赖，解析元表默认字段；关键分支按原指令和受控执行确认。服务器持久状态、客户端派生状态、展示缓存与引擎状态分别说明。最终伤害、碰撞、匹配选择器、完整抽取概率和当前开放状态的结论以相应执行证据为范围。
 
-## 复现
-
-```powershell
-python -m pip install -r requirements.txt
-python tools/inspect_wxapkg.py raw/wechat-packages/__WITHOUT_MULTI_PLUGINCODE__.wxapkg --appid wx64969d55b91a6963 --since 2026-09-01
-python tools/extract_lua_assets.py raw/lua-bundles reverse/lua-bytecode
-python tools/decompile_selected.py reverse/lua-bytecode reverse/lua-decompiled --java java --jar vendor/unluac.jar
-python -m pip install -r requirements-research.txt
-python tools/extract_config_tables.py
-python tools/deep_decompile.py
-python tools/probe_client_rules.py
-python tools/build_design_appendices.py
-python tools/build_site.py
-python tools/check_site.py
-```
-
-若需要核对本机快照，先检查 [原始资源清单](raw/manifest.json) 的 SHA-256。GitHub Pages 从 `main/docs` 发布；建站命令只读取 `analysis/`，不会改动原始资源。
+建站及验证流程见[研究资料说明](analysis/review/README.md)。原始文件哈希保存在[原始资源清单](raw/manifest.json)，报告生成不修改原始资产。

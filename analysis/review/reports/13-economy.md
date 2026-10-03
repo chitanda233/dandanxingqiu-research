@@ -36,7 +36,22 @@
 
 `auction_misc` 29项含 tax[1000]、cool_time[30]、extend_time[300]、截止23:00、系统竞价22:00、start[[21,0],[24,0]]等原值。它们属于不同活动对象/时段；完整日程、时间单位与成交税仍应跟具体使用函数闭合，本报告不把它们拼成所有拍卖统一开放时间。[拍卖杂项](config:auction_misc.auction_misc) [交易管理器](evidence:game.module.trade.manager.core)
 
-## 经济分析的结论边界
+## 动态价格、涨停与购买溢价
+
+贸易商品 ratio 以 10000 为中性基准。get_abs_change_ratio 返回 abs(ratio−10000)/100，因此 11000 表示相对基准的 10 个百分点，9900 表示 1 个百分点的绝对变化。ratio 缺失时该查询返回 0。[涨跌计算](evidence:game.module.trade.manager.core#get_abs_change_ratio)
+
+is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+1000。达到 11000 后，get_trade_shop_price 把服务器当前 price 乘 (1+0.1) 并 floor，得到购买调整价；低于阈值保持当前 price。原函数示例：
+
+| 服务器 price | ratio | 当前价格返回 | 调整买价返回 |
+| ---: | ---: | ---: | ---: |
+| 101 | 10999 | 101 | 101 |
+| 101 | 11000 | 101 | 111 |
+| 101 | 11001 | 101 | 111 |
+| 101 | 缺失 | 101 | 101 |
+
+函数同时返回限购、number、库存相关标志与货币类型；商品不存在时返回零值分支。购买调整价和涨跌展示采用不同计算，服务器确认值仍参与交易请求。[涨停判断](evidence:game.module.trade.manager.core#is_limit_up_ratio) [价格查询](evidence:game.module.trade.manager.core#get_trade_shop_price)
+
+## 资源结构与经济结论
 
 已确认多种通用/专用货币、日周额度、随机获得、直购、交易税与动态货架共同构成资源产生和消耗。抽取、培养、外观、家园与活动竞争同一部分资源，可通过配置做静态成本对比。
 

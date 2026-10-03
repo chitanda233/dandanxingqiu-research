@@ -40,7 +40,7 @@ $('global-search').addEventListener('input',debounce(async()=>{
 async function catalogPage(){
  const rows=await fetchData('catalog.json');const cats=[...new Set(rows.map(r=>r.category))];$('catalog-category').innerHTML+='<option>'+cats.map(esc).join('</option><option>')+'</option>';
  $('catalog-search').value=query.get('q')||'';
- const levelClass=l=>l==='有原函数验证'?'':l==='指令复核'?'amber':'gray';
+ const levelClass=l=>l==='有原函数验证'?'':l==='指令分析'?'amber':'gray';
  function render(){const q=$('catalog-search').value.trim().toLowerCase(),cat=$('catalog-category').value,lv=$('catalog-level').value;const rs=rows.filter(r=>(!cat||r.category===cat)&&(!lv||r.level===lv)&&(!q||(r.label+' '+r.id+' '+r.messages.join(' ')+' '+r.functions.map(f=>f.name).join(' ')).toLowerCase().includes(q)));
   $('catalog-status').textContent=`${rs.length} / ${rows.length} 个命名空间`;
   $('catalog-list').innerHTML=rs.length?rs.map(r=>`<button class="module-card" data-module="${esc(r.id)}"><span class="badge ${levelClass(r.level)}">${esc(r.level)}</span><span class="badge gray">${esc(r.category)}</span><h3>${esc(r.label)} <span>↗</span></h3><small>${esc(r.id)}</small><p>${r.chunks} 份字节码 · ${r.functions.length} 个命名函数引用<br>${r.messages.length} 个请求/消息符号</p></button>`).join(''):'<div class="empty">没有匹配项。可换用英文模块名或更短的关键词。</div>';
@@ -83,9 +83,9 @@ async function evidencePage(){
 
 async function testsPage(){
  const [fresh,old]=await Promise.all([fetchData('probes.json'),fetchData('legacy-probes.json')]);const rows=[...fresh.cases.map(c=>({...c,suite:'review'})),...old.cases.map(c=>({...c,suite:'legacy'}))];
- $('test-stats').innerHTML=`<div><b>97</b><span>新增场景 · 显式断言通过</span></div><div><b>35</b><span>旧场景 · 复跑记录一致</span></div><div><b>${fresh.sources.length}</b><span>新增套件原字节码来源</span></div><div><b>离线</b><span>无游戏服务器调用</span></div>`;
- function render(){const q=$('test-search').value.toLowerCase(),suite=$('test-suite').value;const rs=rows.filter(c=>(!suite||c.suite===suite)&&(!q||JSON.stringify(c).toLowerCase().includes(q)));$('test-status').textContent=`${rs.length} / 132 个场景`;
-  $('test-list').innerHTML=rs.map(c=>`<details class="test-row"><summary><span class="pass-badge">${c.suite==='review'?'✓ 断言通过':'✓ 复跑一致'}</span><strong>${esc(c.label)}</strong><span class="suite">${c.suite==='review'?'新增 · '+c.topic:'原有套件'}</span></summary><div class="test-detail"><h4>输入与桩设置</h4><pre class="json-code">${esc(json(c.inputs))}</pre><h4>原函数返回</h4><pre class="json-code">${esc(json(c.returned))}</pre>${c.expected?'<h4>显式预期断言</h4><pre class="json-code">'+esc(json(c.expected))+'</pre>':'<p class="muted">旧套件JSON保留运行返回值。本次以采集的返回快照复跑对比，不将它等同新增显式规则断言。</p>'}${c.code?'<h4>测试调用代码（逻辑来自原字节码）</h4><pre class="json-code">'+esc(c.code)+'</pre>':''}</div></details>`).join('')||'<div class="empty">没有匹配场景。</div>';
+ $('test-stats').innerHTML=`<div><b>${fresh.cases.length}</b><span>规则断言 · 预期与返回一致</span></div><div><b>${old.cases.length}</b><span>行为记录 · 输入与返回</span></div><div><b>${fresh.sources.length}</b><span>规则断言字节码来源</span></div><div><b>离线</b><span>无游戏服务器调用</span></div>`;
+ function render(){const q=$('test-search').value.toLowerCase(),suite=$('test-suite').value;const rs=rows.filter(c=>(!suite||c.suite===suite)&&(!q||JSON.stringify(c).toLowerCase().includes(q)));$('test-status').textContent=`${rs.length} / ${rows.length} 个场景`;
+  $('test-list').innerHTML=rs.map(c=>`<details class="test-row"><summary><span class="pass-badge">${c.suite==='review'?'✓ 断言通过':'✓ 返回记录'}</span><strong>${esc(c.label)}</strong><span class="suite">${c.suite==='review'?'规则断言 · '+c.topic:'行为记录'}</span></summary><div class="test-detail"><h4>输入与桩设置</h4><pre class="json-code">${esc(json(c.inputs))}</pre><h4>原函数返回</h4><pre class="json-code">${esc(json(c.returned))}</pre>${c.expected?'<h4>显式预期断言</h4><pre class="json-code">'+esc(json(c.expected))+'</pre>':'<p class="muted">此类场景保留输入与原函数返回，并与记录快照核对一致；没有单独的显式预期规则断言。</p>'}${c.code?'<h4>测试调用代码（逻辑来自原字节码）</h4><pre class="json-code">'+esc(c.code)+'</pre>':''}</div></details>`).join('')||'<div class="empty">没有匹配场景。</div>';
  }
  $('test-search').addEventListener('input',debounce(render));$('test-suite').addEventListener('change',render);render();
 }

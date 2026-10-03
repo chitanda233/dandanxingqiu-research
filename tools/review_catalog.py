@@ -224,7 +224,7 @@ def main():
      for n in f['names']:funcs.append({'name':n,'source':r['name'],'path':f['path'],'instructions':f['instructions'],'evidence':r['name'] in evidence})
   symbols=sorted({m for r in rs for m in r['messages'] if re.fullmatch(r'[a-z][a-z0-9_]*_(?:c2s|s2c)',m) and not m.startswith(('on_','on_msg_','after_'))})
   report=DEEP.get(module)
-  rows.append({'id':module,'label':labels.get(module,module),'category':categories.get(module,'平台与基础'),'chunks':len(rs),'functions':funcs,'messages':symbols,'level':'有原函数验证' if module in tested else '指令复核' if report else '结构索引','report':report,'sources':[r['name'] for r in rs if r['name'] in evidence]})
+  rows.append({'id':module,'label':labels.get(module,module),'category':categories.get(module,'平台与基础'),'chunks':len(rs),'functions':funcs,'messages':symbols,'level':'有原函数验证' if module in tested else '指令分析' if report else '结构索引','report':report,'sources':[r['name'] for r in rs if r['name'] in evidence]})
  (OUT/'feature-catalog.json').write_text(json.dumps(rows,ensure_ascii=False,separators=(',',':'))+'\n')
  print(f'Catalog: {len(rows)} namespaces; {len(tests["cases"])+len(old["cases"])} cases across both suites')
 if __name__=='__main__':main()

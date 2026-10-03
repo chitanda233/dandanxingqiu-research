@@ -4,7 +4,7 @@
   "config_failures": 7,
   "legacy_config_parity": 128,
   "instruction_files": 3088,
-  "new_assertions": 97,
+  "new_assertions": 109,
   "legacy_replays": 35,
   "report_chapters": 18,
   "namespace_catalog": 189,

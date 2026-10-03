@@ -1,25 +1,68 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：提取链、Unity桥接、分片和数据同步"><title>技术与平台 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
-<body data-page="16-platform" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item active" href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>技术与平台</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
-<header class="page-heading"><div class="eyebrow">功能专题 · 16 / REVERSE ENGINEERING</div><h1>技术与平台</h1><p>提取链、Unity桥接、分片和数据同步</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
-<div class="reading-layout"><article class="prose"><h2 id="_1">原始包与提取链</h2>
-<p>原始资料26份：主wxapkg、两份wasm包、23份Lua AssetBundle。UnityPy重新读取23份Bundle的TextAsset，对8272份字节码逐字节核对，未发现差异。26份原始资料的旧哈希校验也通过。本次没有改写原始缓存文件。</p>
-<p>字节码为Lua5.1，包名并不等于语义版本。文件名带Unity对象path_id，它用于定位资产，不是业务ID。原字节码SHA与配置导出SHA分开记录，避免把二者混成同一校验值。</p>
-<h2 id="_2">执行与反汇编方法</h2>
-<p>结构读取器解析常量、嵌套函数、指令和原行号，3,088份管理器/战斗原指令保留PC跳转。名称识别根据闭包赋值，部分局部函数没有可靠名字，保留函数路径如0.44，不伪造源码函数名。</p>
-<p>执行使用Lua5.1运行时，对size_t宽度做结构重打包后在内存加载，原文件不变。配置执行设内存和指令预算，并移除IO/系统接口；真实相对import依赖与元表默认值会被解析。原函数测试使用明确桩对象；未配置的外部函数调用会报错，避免把缺依赖静默吞掉。</p>
-<h2 id="_3">为什么没有依赖旧反编译源码来下结论</h2>
-<p>仓库既有unluac、LuaDec输出与原指令，LuaDec部分控制流和命名存在失真。旧工具还含Windows路径，本机无可用Java运行时。本次复查关键分支以原指令和实际执行为准，新增流程可用Python在macOS复现；不需要为了阅读报告安装游戏或Java。</p>
-<h2 id="unity">Unity桥接与运行时类型</h2>
-<p>Lua调用UI、声音、场景、时间、渲染与SDK等Unity/平台对象。完整Lua配置不代表C#控制器或wasm里的物理代码已经恢复。弹球入口检查控制器类型就是明确例子；战斗碰撞、相机表现和头像LOD同样涉及引擎层。</p>
-<p>因此报告可以给出逻辑和数据契约，但不声称产出已能运行的完整游戏复刻源码。引擎桥接缺口在相应章节列出。</p>
-<h2 id="_4">平台与云开关</h2>
-<p>微信、字节/小游戏、快手、游戏俱乐部、订阅消息、邀请分享、实名认证/SDK登录、充值审核等有不同分支。<code>cloud_data</code>提供按玩家/日期格式化的键、保存/删除/读取、开关状态和充值审核关闭判断。云初始数据尚未返回时，需要保留等待状态。<a href="evidence.html?module=game.module.cloud_data.manager.core&amp;function=">云数据</a> <a href="evidence.html?module=game.module.login.manager.core&amp;function=">平台登录</a></p>
-<p><code>_0</code>、<code>_543</code>、<code>_3638</code>等配置后缀不能未经选择器解释就命名为具体平台或区服。“基础+分片覆写”也不是对所有表通用的合并顺序。网站把各份表独立显示，跨表中文名称仅作搜索辅助。</p>
-<h2 id="_5">客户端状态分层</h2>
-<p>服务器持久数据：余额、实例等级、成员关系、通关和领取记录。客户端派生数据：红点、排序、按钮资格、推荐方案。展示缓存：待弹结果、预览、已查看标志。引擎瞬态数据：动画、弹体、控制器、相机。混用这四层会造成重复领奖、预览当保存、掉线丢状态或错误清红点。</p>
-<p>网络封装中可能同一协议有req_包装、注册回调、on_回调等多个字符串。本次目录称“请求/消息符号”，不把5741个宽松扫描符号误称真实独立API数。</p>
-<h2 id="web">本地Web报告的实现</h2>
-<p>所有页面为静态HTML/CSS/JavaScript，不依赖远端CDN。配置和证据按需加载，避免首次下载87MB配置和44MB原指令。可以用仓库内工具启动本地HTTP服务；直接双击file页面时浏览器可能限制JSON读取，页面会给出明确提示。</p>
-<p>网站没有后端、没有GitHub或游戏账号令牌、不会调用游戏接口。局部配置查询和原函数搜索只读取本报告内的静态资料。复现步骤和依赖写在review README中。</p><nav class="chapter-pager"><a href="15-liveops.html">← 活动与留存</a><a href="17-assessment.html">评估与复原建议 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">原始包与提取链</a><a href="#_2">执行与反汇编方法</a><a href="#_3">为什么没有依赖旧反编译源码来下结论</a><a href="#unity">Unity桥接与运行时类型</a><a href="#_4">平台与云开关</a><a href="#_5">客户端状态分层</a><a href="#web">本地Web报告的实现</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
-<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：资产提取、字节码、Unity桥接与数据同步"><title>技术架构与研究方法 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="16-platform" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>研究摘要与核心结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">架构与结论</div><a class="nav-item active" href="../review/16-platform.html"><span>16</span>技术架构与研究方法</a><a class="nav-item " href="../review/17-assessment.html"><span>17</span>综合结论与系统设计</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>原函数执行记录</a><div class="sidebar-foot">采集 2026.09.30 / 报告 2026.10.03<br><a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>技术架构与研究方法</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 16 / REVERSE ENGINEERING</div><h1>技术架构与研究方法</h1><p>资产提取、字节码、Unity桥接与数据同步</p><div class="meta-row"><span>版本 242</span><span>2026.10.03 报告</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">资产与代码组织</h2>
+<p>原始资料由主 wxapkg、两份 wasm 包和 23 份 Lua AssetBundle 组成。Unity TextAsset 包含 8,272 份 Lua 5.1 字节码，全部可解析函数原型、常量、嵌套函数、指令和行号。Bundle 载荷与提取文件逐字节一致，来源清单记录 SHA-256。</p>
+<p>Unity 提供场景、UI、对象类型、渲染、声音和平台桥接；Lua 管理业务数据、状态、配置与交互。缓存目录版本 242 是包目录标识。资产 path_id 定位 Unity 对象，业务 ID 索引角色、技能、道具与关卡。</p>
+<h2 id="_2">业务模块分层</h2>
+<p>game.module 命名空间组织业务，常见结构包含 manager、data、network、const、event 与 view。管理器处理资格、入口和红点；数据层维护回复和派生状态；网络层包装请求及注册回调；界面层读取这些对象构造交互。</p>
+<p>多个功能共享账号、背包、时钟、活动和开放状态。农场监听公会关系，家园监听活动与库存，商业化读取开放状态，战斗读取玩法和养成数据。模块通过请求回复与事件连接。</p>
+<h2 id="_3">反编译与指令分析</h2>
+<p>高层反编译辅助阅读调用关系与变量用途；原指令确认条件方向、提前返回、取整、赋值及闭包捕获。3,088 份管理器和战斗指令列表保留 PC 与跳转目标。闭包名称根据赋值识别，缺少可靠名称的函数以 0.44 等原型路径定位。</p>
+<p>LuaDec、unluac 对复杂控制流及缺少调试信息的函数可能出现结构恢复误差。具体规则由原指令、配置与执行结果交叉确认。剧情连续挑战的固定返回、贸易涨停价格和 HP 边界均可直接定位原函数。</p>
+<h2 id="_4">有效配置恢复</h2>
+<p>配置执行真实字节码和相对 import 依赖。元表 __index 默认字段与本行覆盖字段共同构成有效记录。基础、区服和等级分片独立保存，选择和合并顺序取决于业务加载器。</p>
+<p>1,555 份导出中有 1,552 份纯数据表、1,534 份非空纯数据表。hook.buy_init、hook.hook_init、hook.buff_init 含函数值，以标记保存。fight_map.editor.editor3～editor7、fight_map.normal、fight_scene.normal 共 7 个候选未返回可导出表。</p>
+<p>执行器设置内存与指令预算，隔离文件、系统和 Python 接口。size_t 宽度进行结构重打包后在内存加载，源文件保留原始字节序列。</p>
+<h2 id="_5">原函数受控执行</h2>
+<p>144 个场景覆盖战斗属性与轨迹、技能、宠物、剧情与塔、肉鸽、弹球、农场、公会、家园和商业化。109 个场景保留显式预期断言，35 个保留输入与返回记录。</p>
+<p>账号、引擎、库存、时钟与网络依赖以明确替代对象注入，实际条件和计算运行原始字节码。未配置外部调用会报错。结果说明给定输入下的客户端契约，线上账号与服务器属于另一层证据。</p>
+<h2 id="_6">四层状态及权威来源</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>状态层</th>
+<th>对象</th>
+<th>更新方式</th>
+<th>业务作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>服务器持久状态</td>
+<td>余额、实例等级、关系、进度、领取记录</td>
+<td>回复与推送</td>
+<td>所有权、成本与最终奖励</td>
+</tr>
+<tr>
+<td>客户端派生状态</td>
+<td>红点、排序、推荐、按钮资格</td>
+<td>对数据和配置求值</td>
+<td>操作入口与提醒</td>
+</tr>
+<tr>
+<td>展示缓存</td>
+<td>候选预览、待弹奖励、已查看标志</td>
+<td>页面及表现流程</td>
+<td>确认、展示与通知</td>
+</tr>
+<tr>
+<td>引擎瞬态状态</td>
+<td>弹体、动画、控制器、相机</td>
+<td>场景及逐帧更新</td>
+<td>表现和运动</td>
+</tr>
+</tbody>
+</table></div>
+<p>宠物洗练、家园预览和抽取待展示结果体现持久状态与展示缓存的区分。战斗节点连接服务器结果与引擎表现，直接 HP 同步由这一契约解释。</p>
+<h2 id="_7">平台、云配置与开放状态</h2>
+<p>登录、分享、订阅、邀请、实名与充值包含微信、字节小游戏、快手等平台分支。cloud_data 处理按玩家或日期组织的云键、读写与开关，包含充值审核判断；云数据加载和业务初始化存在先后依赖。<a href="evidence.html?module=game.module.cloud_data.manager.core&amp;function=">云配置</a> <a href="evidence.html?module=game.module.login.manager.core&amp;function=">登录</a></p>
+<p>可用性由配置、服务器状态、平台条件和运行时依赖共同决定。弹球检查 PinBallGameController 类型，充值读取审核开关，分片后缀由选择器解释。网络字符串包含协议、包装与回调，作为定位索引使用。</p>
+<h2 id="_8">引擎与服务器边界</h2>
+<p>Lua 说明输入、状态、布局和回调计分；Unity 控制器执行碰撞与部分场景行为。弹球 hit_radius、炸弹范围与反弹布局需要结合控制器确定实际物理语义。</p>
+<p>服务器最终伤害、匹配池选择、机器人投放、随机抽取与奖励发放不包含在这些客户端业务函数中。报告记录已确认接口、参数和结果字段。</p>
+<h2 id="_9">报告与数据查询</h2>
+<p>网页采用静态 HTML、CSS、JavaScript，配置和指令按需加载。章节链接定位模块、函数、配置表及记录；技能预算、模式对照和弹球布局使用同一份有效数据。哈希、执行输入与返回提供可追溯性。</p>
+<p><strong>技术结论：Unity 表现层、Lua 业务层与服务器持久状态分工。数据驱动配置、事件更新和分层状态使大量玩法共享基础设施，同时保持各自的资格、额度与结果契约。</strong></p><nav class="chapter-pager"><a href="15-liveops.html">← 活动与留存</a><a href="17-assessment.html">综合结论与系统设计 →</a></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">资产与代码组织</a><a href="#_2">业务模块分层</a><a href="#_3">反编译与指令分析</a><a href="#_4">有效配置恢复</a><a href="#_5">原函数受控执行</a><a href="#_6">四层状态及权威来源</a><a href="#_7">平台、云配置与开放状态</a><a href="#_8">引擎与服务器边界</a><a href="#_9">报告与数据查询</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>版本 242 客户端研究 · 字节码、有效配置与原函数证据。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
 <dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

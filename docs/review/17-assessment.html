@@ -1,108 +1,121 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：已能复原的规格、优先级和真实缺口"><title>评估与复原建议 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
-<body data-page="17-assessment" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>复查结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">证据与评估</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术与平台</a><a class="nav-item active" href="../review/17-assessment.html"><span>17</span>评估与复原建议</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>验证记录</a><div class="sidebar-foot">采集 2026.09.30 / 复查 2026.10.01<br><a href="../legacy.html">早期十篇报告</a> · <a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>评估与复原建议</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
-<header class="page-heading"><div class="eyebrow">功能专题 · 17 / REVERSE ENGINEERING</div><h1>评估与复原建议</h1><p>已能复原的规格、优先级和真实缺口</p><div class="meta-row"><span>版本 242</span><span>2026.10.01 复查</span><span>原文件可追溯</span></div></header>
-<div class="reading-layout"><article class="prose"><h2 id="_1">本次已经可以交付的功能规格</h2>
-<p>已有证据足以编写客户端层面的：模式开关矩阵、技能槽与费用、培养资格、弹道三分支、HP更新边界、匹配前检查、剧情星奖/速通、爬塔噩梦系数、材料奖励次数、肉鸽难度/节点、弹球球组/布局/结果、农场操作、公会权限、月卡/广告/通行证状态。</p>
-<p>这些章节不仅列模块，还给输入、状态、条件、输出、费用方向与例外。功能目录补全189个命名空间，配置浏览器覆盖1555份成功输出；未深入验证的模块保留“结构索引”，便于后续研究而不夸大完成度。</p>
-<h2 id="_2">产品结构的主要特点</h2>
-<p><strong>操作与构筑共存</strong>：蓄力、角度、风和弹道决定操作，武器、技能、宠物与模式平衡决定构筑。<strong>多套PVE并行</strong>：关卡、塔、材料奖励、肉鸽选择和弹球布局分别提供不同推进对象。<strong>社交进入资源循环</strong>：公会愿望、共享订单、家园帮助、师徒任务与婚姻培养连接关系和成长。<strong>活动与商业化横跨系统</strong>：月卡、抽取、通行证、商店和节日活动投放不同资源。</p>
-<p>这些判断来自功能依赖；不等于已测量哪些系统最受欢迎、付费最强或留存最高。</p>
-<h2 id="_3">按证据可用性安排复原</h2>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="弹弹星球功能逆向研究：操作、成长、社交、经济与运营的整体分析"><title>综合结论与系统设计 · 弹弹星球研究</title><link rel="stylesheet" href="../assets/review.css"><script defer src="../assets/review.js"></script></head>
+<body data-page="17-assessment" data-root="../"><a class="skip" href="#content">跳至正文</a><aside class="sidebar" id="sidebar"><a class="brand" href="../index.html"><span class="brand-mark">弹</span><span><b>弹弹星球</b><small>功能逆向研究 / 242</small></span></a><button class="search-open" type="button"><span>搜索报告与功能</span><kbd>⌘ K</kbd></button><a class="nav-home " href="../index.html">研究首页 <span>↗</span></a><div class="nav-label">研究总览</div><a class="nav-item " href="../review/00-review.html"><span>00</span>研究摘要与核心结论</a><a class="nav-item " href="../review/01-product.html"><span>01</span>产品结构与循环</a><div class="nav-label">战斗与构筑</div><a class="nav-item " href="../review/02-combat.html"><span>02</span>战斗与操作</a><a class="nav-item " href="../review/03-skills.html"><span>03</span>技能与Buff</a><a class="nav-item " href="../review/04-growth.html"><span>04</span>角色与养成</a><a class="nav-item " href="../review/05-match.html"><span>05</span>PVP与匹配</a><div class="nav-label">挑战玩法</div><a class="nav-item " href="../review/06-pve.html"><span>06</span>副本与爬塔</a><a class="nav-item " href="../review/07-rogue.html"><span>07</span>肉鸽挑战</a><a class="nav-item " href="../review/08-pinball.html"><span>08</span>弹球闯关</a><div class="nav-label">社交与生产</div><a class="nav-item " href="../review/09-guild.html"><span>09</span>公会与团体战</a><a class="nav-item " href="../review/10-social.html"><span>10</span>社交与互动</a><a class="nav-item " href="../review/11-home.html"><span>11</span>家园与职业</a><a class="nav-item " href="../review/12-farm.html"><span>12</span>农场与订单</a><div class="nav-label">经济与运营</div><a class="nav-item " href="../review/13-economy.html"><span>13</span>经济与交易</a><a class="nav-item " href="../review/14-monetization.html"><span>14</span>商业化功能</a><a class="nav-item " href="../review/15-liveops.html"><span>15</span>活动与留存</a><div class="nav-label">架构与结论</div><a class="nav-item " href="../review/16-platform.html"><span>16</span>技术架构与研究方法</a><a class="nav-item active" href="../review/17-assessment.html"><span>17</span>综合结论与系统设计</a><div class="nav-label">研究工具</div><a class="nav-item " href="../review/catalog.html"><span>◌</span>功能目录</a><a class="nav-item " href="../review/configs.html"><span>◌</span>配置浏览器</a><a class="nav-item " href="../review/evidence.html"><span>◌</span>原指令查询</a><a class="nav-item " href="../review/labs.html"><span>◌</span>交互实验室</a><a class="nav-item " href="../review/tests.html"><span>◌</span>原函数执行记录</a><div class="sidebar-foot">采集 2026.09.30 / 报告 2026.10.03<br><a href="../data/review-report.md" download>完整 Markdown ↓</a></div></aside><div class="workspace"><header class="topbar"><button class="menu-button" aria-label="展开导航" aria-controls="sidebar" aria-expanded="false">☰</button><span>CLIENT RESEARCH <i>/</i> <b>综合结论与系统设计</b></span><div><span class="snapshot">缓存快照 242</span><button class="search-icon search-open" aria-label="搜索">⌕</button><button class="print-button" title="打印本页" aria-label="打印本页">↥</button></div></header><main id="content" class="page-main">
+<header class="page-heading"><div class="eyebrow">功能专题 · 17 / REVERSE ENGINEERING</div><h1>综合结论与系统设计</h1><p>操作、成长、社交、经济与运营的整体分析</p><div class="meta-row"><span>版本 242</span><span>2026.10.03 报告</span><span>原文件可追溯</span></div></header>
+<div class="reading-layout"><article class="prose"><h2 id="_1">一、操作、构筑与长期进度共同组成产品核心</h2>
+<p>单局决策包含位置、角度、力度、风、技能资源和行动时机。构筑由武器、技能、宠物、装备及模式平衡组成。培养结果进入战斗配置，战斗与挑战结果再进入资源、任务和赛季进度。</p>
+<p>这条链使短期操作与长期投资持续相连。竞技中的属性替换限制普通面板直接迁移，技能来源、武器机制和宠物选择仍形成差异。竞争条件是模式规则、属性处理和构筑选择的组合。</p>
+<h2 id="_2">二、玩法通过不同的状态对象产生差异</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>优先级</th>
-<th>交付内容</th>
-<th>原因与依赖</th>
+<th>玩法</th>
+<th>推进对象</th>
+<th>核心决策</th>
+<th>收益约束</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>P0</td>
-<td>数据加载、有效配置、ID映射、时间层、请求状态、失败处理</td>
-<td>后续功能共同基础；默认值错会污染数值</td>
+<td>竞技</td>
+<td>队伍、比赛、杯数和赛季</td>
+<td>配合、构筑、操作与目标选择</td>
+<td>模式收益、保护及赛季状态</td>
 </tr>
 <tr>
-<td>P1</td>
-<td>模式矩阵、技能计划/升级预算、关卡与领奖、农场资格、月卡/通行证</td>
-<td>客户端原函数已有可验证条件，适合先复原规则</td>
+<td>剧情与组队副本</td>
+<td>关卡、难度、星数和队伍资格</td>
+<td>挑战、速通与协作</td>
+<td>首通、星奖、日周额度</td>
 </tr>
 <tr>
-<td>P1</td>
-<td>弹球关卡查看器与状态逻辑</td>
-<td>布局完整50关，计分/提交流程清楚；物理桥接另补</td>
+<td>塔</td>
+<td>楼层、战力、Buff、自动和挂机</td>
+<td>层数推进与速通条件</td>
+<td>层奖、阶段奖与开服天数</td>
 </tr>
 <tr>
-<td>P2</td>
-<td>公会权限、家园方案、好友/师徒/婚姻流程</td>
-<td>多状态、异步与关系依赖，需要更大数据模型</td>
+<td>材料本</td>
+<td>系列、完成回合和奖励次数</td>
+<td>资源目标与回合效率</td>
+<td>次数奖、回合奖及排名奖</td>
 </tr>
 <tr>
-<td>P2</td>
-<td>战斗表现、弹体预测、Buff与分批节点</td>
-<td>客户端结构清楚，但依赖Unity引擎和协议回放</td>
+<td>肉鸽</td>
+<td>当前轮、节点、事件和愿望</td>
+<td>临时构筑、购买与事件选择</td>
+<td>日周收益和愿望保存条件</td>
 </tr>
 <tr>
-<td>P3</td>
-<td>最终伤害、碰撞、匹配选择器、掉落概率执行器</td>
-<td>缺服务端/引擎权威实现，不能靠常见公式补齐</td>
+<td>弹球</td>
+<td>球组、布局、波次与目标分</td>
+<td>路径和道具利用</td>
+<td>分段内容曲线与首次胜利提交</td>
 </tr>
 </tbody>
 </table></div>
-<p>优先级是工程建议，不是开发工时估计；没有工作量和团队信息时不编造“几天复刻完整游戏”。</p>
-<h2 id="_4">数值设计应避免的错误</h2>
+<p>各玩法通过不同状态和目标提供内容层次。胜利、完成推进、拥有领取资格和实际收到奖励是独立事件，客户端分别处理。</p>
+<h2 id="_3">三、成长使用多条门槛共同控制节奏</h2>
+<p>技能培养同时受材料、角色等级、任务、其他技能培养与开服天数限制。武器高阶要求账号等级与长期开服条件；宠物学习槽按等级逐步开放并消耗不同数量材料。由此形成资源、个人进度与服务器进度三条约束轴。</p>
+<p>冰冻技能 40→80 的每十级配置成本均为知识 75,000、金币 1,500,000；该段占满级累计知识约 66.1%、金币约 65.1%。高等级阶段以稳定的边际消耗维持资源需求，角色与开服条件调节可进入该阶段的时间。</p>
+<p><strong>结论：成长曲线采用阶段门槛和持续消耗。静态预算能够确定培养成本，毕业时间还取决于实际收入与其他系统的竞争消耗。</strong></p>
+<h2 id="_4">四、社交通过资格、协作与资源关系进入游戏</h2>
+<p>公会职位包含权限、名额和收益参数；农场偷取排除同公会对象，浇水和共享订单提供协作行为；家园职业、制造帮助、照片与布局复制连接生产和表达；师徒、婚姻维护专门的关系任务与培养状态。</p>
+<p>社交参与资源流与操作资格。公会、好友、临时队伍各自维护身份和权限，组织奖励与个人背包使用不同账本。成员关系变化会触发其他系统重新计算资格和提醒。</p>
+<p><strong>结论：关系网络扩大日常目标来源，并把个人成长连接到集体协作。功能代码确认机制与依赖关系，实际协作频率属于玩家行为数据。</strong></p>
+<h2 id="_5">五、经济采用资源入口、持续消耗与周期额度组合</h2>
+<p>通用货币在多个培养系统之间竞争，专属材料引导玩家进入相应挑战和活动。抽取将消耗、池选择、保底和愿望组合；商店读取动态库存与限购；贸易提供价格波动、涨停溢价及税率参数；拍卖维护独立对象、通知和成交流程。</p>
+<p>月卡产生按日期领取的资源流，广告以次数和冷却提供短周期补充，通行证连接经验、购买资格及双轨领取。首购与季节奖励各有状态。</p>
+<p><strong>结论：商业化接入资源、效率和周期目标。经济控制分布在货币、次数、库存与领取条件中，完整投入回报需要真实收入、概率、价格和账号资格。</strong></p>
+<h2 id="_6">六、运营结构叠加多种时间尺度</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>时间尺度</th>
+<th>主要机制</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>回合与单局</td>
+<td>行动时钟、技能 CD、波次和节点</td>
+<td>组织操作顺序与局内资源</td>
+</tr>
+<tr>
+<td>日常</td>
+<td>广告、任务、浇水、偷取与领奖额度</td>
+<td>形成重复会话和资源入口</td>
+</tr>
+<tr>
+<td>周期</td>
+<td>材料额度、肉鸽、通行证经验与团队活动</td>
+<td>提供中期目标与共同进度</td>
+</tr>
+<tr>
+<td>赛季与活动</td>
+<td>段位、通行证、节日兑换与排行</td>
+<td>调整目标、奖励与竞争范围</td>
+</tr>
+<tr>
+<td>开服生命周期</td>
+<td>技能、武器门槛与噩梦塔系数</td>
+<td>调节服务器成长阶段</td>
+</tr>
+</tbody>
+</table></div>
+<p>服务器时间用于期限与周期判定；活动入口、任务、兑换和排行可以分别开放。红点由可操作、可领取、未查看等状态派生，构成跨系统日常引导。</p>
+<h2 id="_7">七、技术结构决定规则的表达方式</h2>
+<p>服务器维护权威持久状态，Lua 处理资格、数据和业务流程，Unity 执行场景与表现。战斗使用分批节点，培养使用请求回包，洗练使用候选确认，家园使用预览和保存，奖励使用达成、可领与已领状态。</p>
+<p>字段含义由调用链确定：技能费用查当前级，下一行判定可继续；贸易比例以 10000 为基准；弹球初始球列表优先于默认数量；HP 同步直接赋值。这些都是具体对象的运行契约。</p>
+<h2 id="_8">八、最终研究结论</h2>
 <ol>
-<li>直接把配置行数当玩法数量，忽略分片和等级变体。</li>
-<li>把字段缺省当0，漏掉Lua元表默认继承。</li>
-<li>看到百分比常量就除100或10000，未检查调用单位。</li>
-<li>将当前级费用计为升到当前级的费用，累计多算一步。</li>
-<li>用普通面板换算代替公平模式属性替换。</li>
-<li>用推荐战力/软提醒实现硬禁入。</li>
-<li>预览候选直接覆盖实例，漏掉确认/取消。</li>
-<li>每次重玩都按首通奖励到账，漏掉已领/已完成状态。</li>
+<li><strong>核心体验由操作与构筑共同驱动。</strong> 回合弹射提供位置、角度、力度和时机决策；养成与模式规则提供能力差异。</li>
+<li><strong>内容层次由独立推进模型组成。</strong> 竞技、关卡、楼层、肉鸽节点和弹球布局使用不同目标、状态与收益条件。</li>
+<li><strong>成长同时受资源、账号和服务器时间约束。</strong> 多培养轴竞争资源，阶段门槛控制开放，持续成本维持长期需求。</li>
+<li><strong>社交与生产参与核心资源流。</strong> 权限、关系、协作和共享进度连接个人目标与成员行为。</li>
+<li><strong>商业化与运营横跨成长、效率和周期奖励。</strong> 月卡、广告、抽取、商店与通行证通过独立账本和资格状态共同工作。</li>
+<li><strong>权威结果与客户端表现分层。</strong> 客户端业务契约能够从反编译确认，服务器伤害、匹配、概率和引擎碰撞需要相应执行证据。</li>
 </ol>
-<h2 id="_5">战斗与玩法设计应避免的错误</h2>
-<p>技能CD不是秒数；一次发炮不是单节点单伤害；HP直接同步没有统一双边钳制；阻力弹道不是标准闭式抛物线；剧情下一关逻辑被固定开关关闭；弹球布局球数覆盖默认球数；PVE奖励额度不是挑战资格；肉鸽未完成节点不能提前跳下一节点。</p>
-<p>这些具体差异有原指令或测试支撑，属于可以立即修正的规格问题。负数边界用例不证明线上漏洞，也不应该写成玩家可执行的作弊流程。</p>
-<h2 id="_6">下一步真正需要的新证据</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>缺口</th>
-<th>需要的证据</th>
-<th>可以回答的问题</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>最终伤害与碰撞</td>
-<td>权威执行器或足够完整的可控战斗回放/引擎桥接</td>
-<td>乘区、盾优先级、取整、实际命中</td>
-</tr>
-<tr>
-<td>匹配与机器人投放</td>
-<td>选择器、服务端文档或可控样本</td>
-<td>扩圈、隐藏分、等待阈值</td>
-</tr>
-<tr>
-<td>抽取概率</td>
-<td>完整池权重与选择器、保底重置链</td>
-<td>单抽/十连概率与期望</td>
-</tr>
-<tr>
-<td>当前开放状态</td>
-<td>当前服务器/账号功能列表、云开关与活动回复</td>
-<td>哪些缓存功能真正在线</td>
-</tr>
-<tr>
-<td>真实经济与体验</td>
-<td>当前价格、收益、玩法统计与实际UI流程</td>
-<td>最优投入、效率、留存与体验负担</td>
-</tr>
-</tbody>
-</table></div>
-<p>本次已经完成离线缓存所能支撑的复查与详细Web交付；以上缺口不能通过继续堆客户端表格诚实解决。</p>
-<h2 id="_7">交付资料如何继续使用</h2>
-<p>章节Markdown可以作为策划/工程规格草稿；配置查询可下载有效JSON；原指令查询提供模块、函数、原文件与SHA；测试面板保留输入、返回、断言及桩范围；工具可重新生成报告。后续新增证据应以相同口径补充，明确它改变的是候选配置、客户端分支还是服务器事实。</p><nav class="chapter-pager"><a href="16-platform.html">← 技术与平台</a><span></span></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">本次已经可以交付的功能规格</a><a href="#_2">产品结构的主要特点</a><a href="#_3">按证据可用性安排复原</a><a href="#_4">数值设计应避免的错误</a><a href="#_5">战斗与玩法设计应避免的错误</a><a href="#_6">下一步真正需要的新证据</a><a href="#_7">交付资料如何继续使用</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
-<footer class="footer"><span>本机缓存与离线验证。服务器规则、当前开放及实际体验以另行核对为准。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
+<p>《弹弹星球》的系统结构可概括为：<strong>回合操作产生战斗结果，多轴构筑推动长期成长，挑战与活动供给资源，组织与生产连接关系，周期额度和商业化调节推进节奏。</strong> 明确规则、公式与配置均有证据入口；系统设计判断由功能依赖推导。</p><nav class="chapter-pager"><a href="16-platform.html">← 技术架构与研究方法</a><span></span></nav></article><aside class="page-toc"><div>本页目录</div><a href="#_1">一、操作、构筑与长期进度共同组成产品核心</a><a href="#_2">二、玩法通过不同的状态对象产生差异</a><a href="#_3">三、成长使用多条门槛共同控制节奏</a><a href="#_4">四、社交通过资格、协作与资源关系进入游戏</a><a href="#_5">五、经济采用资源入口、持续消耗与周期额度组合</a><a href="#_6">六、运营结构叠加多种时间尺度</a><a href="#_7">七、技术结构决定规则的表达方式</a><a href="#_8">八、最终研究结论</a><a class="to-top" href="#content">返回顶部 ↑</a></aside></div>
+<footer class="footer"><span>版本 242 客户端研究 · 字节码、有效配置与原函数证据。</span><a href="../data/review-report.md" download>下载完整报告 ↓</a></footer></main></div>
 <dialog id="search-dialog" aria-label="全站搜索"><div class="dialog-bar"><input id="global-search" aria-label="搜索关键词" placeholder="搜索功能、规则、模块或请求…" autocomplete="off"><button id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"><p class="muted">输入关键词，搜索专题正文和功能目录。</p></div></dialog></body></html>

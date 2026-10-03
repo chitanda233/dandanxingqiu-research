@@ -10,13 +10,13 @@
 
 服务端节点可包含弹体、技能、属性处理、Buff、被动提示、分裂与连发。同一发炮可能生成多批 `node_list`。全部批次到齐后才能完成该段表现；第一个命中动画结束不代表整个行动已结束。反过来，本地尚有动画也不能推翻服务端已明确返回的胜负。[表现执行](evidence:game.module.fight.manager.base.fighting.round.perform)
 
-旧缓存还存在预览/演示战斗记录，它们有 `battle_enter_s2c`、`battle_next_round_s2c`、`battle_seq_cmd_s2c`、`battle_round_finish_s2c` 等字段样本。这些样本可用于理解数据形状，不能当本次实时服抓包，更不能据一次示例复原概率和最终伤害公式。
+缓存中还存在预览/演示战斗记录，它们有 `battle_enter_s2c`、`battle_next_round_s2c`、`battle_seq_cmd_s2c`、`battle_round_finish_s2c` 等字段样本。这些演示样本用于分析字段结构；概率与伤害结算需要相应执行器。
 
 ## 操作资格与资源
 
 移动、普通发炮、手动技能、跳过、超时处理和自动战斗具有不同入口。技能还检查使用次数、CD、资源、Buff/特殊状态、重复行动限制和当前模式。资源包括 strength、energy、anger、wakan；有些仅特定玩法使用。托管不是在普通操作之外再并行触发一次手动操作。
 
-比赛配置的 `use_skill`、`auto_battle`、`can_adjust_play_speed`、`guaranteed_fire`、`intelligent_force`、`soul` 等开关不同。排位 102 自动战斗为 0，3V3 排位 103 保证发炮为 1，自由竞技 501 自动为 1；不能把大厅看见的操作按钮统一套在所有模式。[模式对照](config:gameplay.gameplay)
+比赛配置的 `use_skill`、`auto_battle`、`can_adjust_play_speed`、`guaranteed_fire`、`intelligent_force`、`soul` 等开关不同。排位 102 自动战斗为 0，3V3 排位 103 保证发炮为 1，自由竞技 501 自动为 1；模式开关决定各入口的操作集合。[模式对照](config:gameplay.gameplay)
 
 ## 蓄力换算：经过原函数验证的公式
 
@@ -35,7 +35,7 @@ S = (1000 / 5500) × (1 − A) × (P / 100)
 | 100 | 0 | 18000 | 0 | 0.509090… | 5091 |
 | 100 | 0 | 0 | 2000 | 0.218181… | 2182 |
 
-环境 18000 对应乘 **2.8**，因为公式有 `1+`；不能写成 1.8 倍。该式确认数值换算，不单独证明 UI 蓄力实际秒数；需要把显示循环和时钟一起闭合。原有 35 个用例中的四组蓄力案例已复跑。[操作原指令](evidence:game.module.fight.manager.base.fighting.ui.core)
+环境 18000 对应乘 **2.8**，Buff 2000 对应乘 1.2；两项同时存在时为 2.8×1.2=3.36 倍。四组蓄力输入已执行原函数验证。S 是内部返回量，UI 的实际时间尺度取决于力度控件更新。[操作原指令](evidence:game.module.fight.manager.base.fighting.ui.core)
 
 ## 三种位移实现必须分开
 
@@ -48,11 +48,11 @@ ax = R3((wind − resistance × vx) / mass)
 ay = R3((g_resistance − resistance × vy) / mass)
 ```
 
-直线只更新 `R3(position + velocity×dt)`。不能用同一闭式抛物线替代三者，也不能交换更新顺序。原函数算例：初速 (10,20)、初始加速度 (2,−10)、mass=2、resistance=1、wind=6、g_resistance=−20，dt=1；阻力积分第一步位置 (10,20)、速度 (12,10)、加速度 (−3,−15)，第二步位置 (22,30)。标准抛物线相同初速与初始加速度在 t=1 得到 (11,15)。[轨迹原函数](evidence:game.module.fight.manager.base.fighting.trajectory#move_target_along_parabola)
+直线只更新 `R3(position + velocity×dt)`。各分支按自己的积分与取整顺序推进。原函数算例：初速 (10,20)、初始加速度 (2,−10)、mass=2、resistance=1、wind=6、g_resistance=−20，dt=1；阻力积分第一步位置 (10,20)、速度 (12,10)、加速度 (−3,−15)，第二步位置 (22,30)。标准抛物线相同初速与初始加速度在 t=1 得到 (11,15)。[轨迹原函数](evidence:game.module.fight.manager.base.fighting.trajectory#move_target_along_parabola)
 
 这是客户端运动/预测的已证实行为。引擎碰撞、地形变形和服务器命中裁定仍不能由这些公式单独还原。
 
-## HP 复查：不存在统一双边钳制
+## 生命与资源的更新契约
 
 | 函数 | 原规则 | 验证例 |
 | --- | --- | --- |
@@ -66,6 +66,16 @@ ay = R3((g_resistance − resistance × vy) / mass)
 
 ## 伤害与异常的证据边界
 
-客户端存在攻击、防御、暴击、范围衰减、盾、伤害类型等字段，但没有足够证据闭合服务端最终乘区、取整、减伤叠加、随机种子和盾优先级。本报告不使用通用弹弹类公式填补缺口。
+客户端存在攻击、防御、暴击、范围衰减、盾、伤害类型等字段，但没有足够证据闭合服务端最终乘区、取整、减伤叠加、随机种子和盾优先级。这些字段属于伤害输入与同步结果，完整执行顺序以服务器为依据。
 
-请求失败应恢复发炮状态、取消 holding 并保留服务器行动时钟；掉线重入则需恢复单位、回合和节点状态。多弹体、重复行动、召唤、回弹和先表现后属性更新是复刻时最容易失真的组合。验证面板可查看所有已执行案例的输入、返回值与断言。
+## 发炮快照、辅助瞄准与风
+
+发炮请求包含 round、angle、force、pos、from_pos、direction、force_type、land_angle、fire_buff_pos 与 force_aim_type。开始蓄力的 force_speed 表示增长速度，最终发炮的 force 表示提交力度；round 关联当前行动。位置、朝向与角度联合确定输入语义。[发炮消息](evidence:game.module.fight.manager.base.fighting.cmd.network)
+
+快捷角度提供 20／30／50／65° 的样本，偏风提示包含 30°±风、50／65°±2×风。推荐力度在 0～100 区间模拟落点并二分缩界，目标、武器、风和传送门进入求解。合法解、落点预测与服务器命中分别属于不同结果。[力度求解](evidence:game.module.fight.manager.base.fighting.recommand_force)
+
+风回包先乘 0.1 得 cur_wind，再乘 wind_power_factor 和 weather_factor 得 wind_factor。例如 wind=10、两因子为 240 和 1，结果为 1 与 240。轨迹还处理质量和阻力，因此该中间风因子与最终横向加速度不同。
+
+## 战斗系统结论
+
+战斗分为输入、预测、节点、表现和属性更新五层。位置、角度、力度和技能决定操作输入；环境与 Buff 改变蓄力；轨迹类型决定位置更新；服务器节点驱动结果。多弹体、重复行动与召唤增加表现顺序的复杂度。已确定的客户端公式覆盖输入与运动，伤害和碰撞以权威执行链为依据。

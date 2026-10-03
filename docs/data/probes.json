@@ -814,6 +814,126 @@
       "passed": true
     },
     {
+      "topic": "farm",
+      "label": "订单普通额度用完",
+      "inputs": {
+        "ordinary_remaining": 0,
+        "inventory": 2,
+        "cost": "{{1001,2}}",
+        "shared": false,
+        "shared_used": 0,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=0;ORDER_INVENTORY=2;ORDER_COST={{1001,2}};SHARE_USED=0;local ok=FARM.can_commit_order(1);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "订单材料恰好足够",
+      "inputs": {
+        "ordinary_remaining": 1,
+        "inventory": 2,
+        "cost": "{{1001,2}}",
+        "shared": false,
+        "shared_used": 0,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=1;ORDER_INVENTORY=2;ORDER_COST={{1001,2}};SHARE_USED=0;local ok=FARM.can_commit_order(1);return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "订单材料不足",
+      "inputs": {
+        "ordinary_remaining": 1,
+        "inventory": 1,
+        "cost": "{{1001,2}}",
+        "shared": false,
+        "shared_used": 0,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=1;ORDER_INVENTORY=1;ORDER_COST={{1001,2}};SHARE_USED=0;local ok=FARM.can_commit_order(1);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "订单空消耗表不可提交",
+      "inputs": {
+        "ordinary_remaining": 1,
+        "inventory": 2,
+        "cost": "{}",
+        "shared": false,
+        "shared_used": 0,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=1;ORDER_INVENTORY=2;ORDER_COST={};SHARE_USED=0;local ok=FARM.can_commit_order(1);return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "共享订单额度2of3",
+      "inputs": {
+        "ordinary_remaining": 1,
+        "inventory": 2,
+        "cost": "{{1001,2}}",
+        "shared": true,
+        "shared_used": 2,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=1;ORDER_INVENTORY=2;ORDER_COST={{1001,2}};SHARE_USED=2;local ok=FARM.can_commit_share_order();return ok",
+      "returned": [
+        true
+      ],
+      "expected": [
+        true
+      ],
+      "passed": true
+    },
+    {
+      "topic": "farm",
+      "label": "共享订单额度3of3",
+      "inputs": {
+        "ordinary_remaining": 1,
+        "inventory": 2,
+        "cost": "{{1001,2}}",
+        "shared": true,
+        "shared_used": 3,
+        "shared_limit": 3
+      },
+      "code": "ORDER_LEFT=1;ORDER_INVENTORY=2;ORDER_COST={{1001,2}};SHARE_USED=3;local ok=FARM.can_commit_share_order();return ok",
+      "returned": [
+        false
+      ],
+      "expected": [
+        false
+      ],
+      "passed": true
+    },
+    {
       "topic": "rogue",
       "label": "肉鸽解锁难度1_通过0_openTrue",
       "inputs": {
@@ -1851,6 +1971,139 @@
       "expected": [
         "2.3%",
         "-2.4%"
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易涨停前不加溢价",
+      "inputs": {
+        "server_price": 101,
+        "ratio": 10999,
+        "item_present": true,
+        "premium": 0.1
+      },
+      "code": "TRADE_ITEM={price=101,number=7,ratio=10999};local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit",
+      "returned": [
+        101,
+        101,
+        2
+      ],
+      "expected": [
+        101,
+        101,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易涨停点加溢价并floor",
+      "inputs": {
+        "server_price": 101,
+        "ratio": 11000,
+        "item_present": true,
+        "premium": 0.1
+      },
+      "code": "TRADE_ITEM={price=101,number=7,ratio=11000};local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit",
+      "returned": [
+        101,
+        111,
+        2
+      ],
+      "expected": [
+        101,
+        111,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易超过涨停仍走溢价分支",
+      "inputs": {
+        "server_price": 101,
+        "ratio": 11001,
+        "item_present": true,
+        "premium": 0.1
+      },
+      "code": "TRADE_ITEM={price=101,number=7,ratio=11001};local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit",
+      "returned": [
+        101,
+        111,
+        2
+      ],
+      "expected": [
+        101,
+        111,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易缺比例按基准处理",
+      "inputs": {
+        "server_price": 101,
+        "ratio": null,
+        "item_present": true,
+        "premium": 0.1
+      },
+      "code": "TRADE_ITEM={price=101,number=7};local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit",
+      "returned": [
+        101,
+        101,
+        2
+      ],
+      "expected": [
+        101,
+        101,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易缺商品返回零值",
+      "inputs": {
+        "server_price": 101,
+        "ratio": 10000,
+        "item_present": false,
+        "premium": 0.1
+      },
+      "code": "TRADE_ITEM=nil;local base,adjusted,limit=TRADE.get_trade_shop_price(1);return base,adjusted,limit",
+      "returned": [
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "topic": "economy",
+      "label": "贸易比例基准10000与百分比换算",
+      "inputs": {
+        "ratios": [
+          11000,
+          9900,
+          null
+        ]
+      },
+      "code": "return TRADE.get_abs_change_ratio({ratio=11000}),TRADE.get_abs_change_ratio({ratio=9900}),TRADE.get_abs_change_ratio({})",
+      "returned": [
+        10,
+        1,
+        0
+      ],
+      "expected": [
+        10,
+        1,
+        0
       ],
       "passed": true
     },

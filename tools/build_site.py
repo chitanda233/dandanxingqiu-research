@@ -99,8 +99,7 @@ def main() -> None:
     print(f"Built docs/index.html and {len(REPORTS)} topic pages")
     if (ROOT / "analysis/review/reports/00-review.md").is_file():
         from build_review_site import main as build_review
-        # Preserve the legacy portal while the review becomes the main entry.
-        (DOCS / "legacy.html").write_text(home_page(), encoding="utf-8")
+        # Build the formal report as the published entry point.
         build_review(include_legacy=False)
 
 

@@ -97,7 +97,9 @@ def main(include_legacy=True):
  t=read('translations');dump(DOCS/'data/labels.json',{k:v for k,v in t.items() if len(v)<240})
  search=[]; combined=[]
  for slug,title,desc,g in CHAPTERS:
-  src=(REVIEW/'reports'/(slug+'.md')).read_text();combined.append(src)
+  src=(REVIEW/'reports'/(slug+'.md')).read_text()
+  # Standalone downloads keep working evidence and chapter links.
+  combined.append(re.sub(r'\]\(([\w-]+\.html[^\)]*)\)',r'](https://chitanda233.github.io/dandanxingqiu-research/review/\1)',links(src)))
   md=markdown.Markdown(extensions=['tables','fenced_code',TocExtension(permalink=False)])
   body=md.convert(links(re.sub(r'^# .*\n','',src,count=1)))
   # Make wide tables scroll independently on phones.

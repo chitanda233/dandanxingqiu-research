@@ -23,7 +23,7 @@
 
 客户端收集移动、角度、蓄力和技能输入，处理分批节点、轨迹、动画、单位属性和结果页面。一次发炮可以产生多个弹体和多批节点。行动结束受回合及节点状态约束，表现完成与权威结算属于不同阶段。
 
-蓄力换算包含瞄准因子、个人设置、环境与 Buff；环境和 Buff 分别相乘。已确认标准抛物线、逐步阻力积分和直线三种位移实现。HP 函数分别采用加血钳上限、减血钳下限、直接同步赋值。[战斗分析](02-combat.md)
+蓄力换算包含瞄准因子、个人设置、环境与 Buff；环境和 Buff 分别相乘。已确认标准抛物线、逐步阻力积分和直线三种位移实现。HP 函数分别采用加血钳上限、减血钳下限、直接同步赋值。[战斗分析](https://chitanda233.github.io/dandanxingqiu-research/review/02-combat.html)
 
 **结论：操作难度、构筑差异和服务器裁定同时存在。客户端公式解释输入与运动表现，最终伤害和命中以权威执行数据为依据。**
 
@@ -31,7 +31,7 @@
 
 角色等级、武器阶级与星级、宠物突破、技能等级和装备词条各有数据对象与请求。技能培养同时受材料、角色等级、开服天数、任务、其他技能培养和下一等级存在性约束。
 
-冰冻基础技能从 0 到 40 级累计需要知识 153,675、金币 3,223,000 及解锁书；到 80 级累计需要知识 453,675、金币 9,223,000。40→80 的知识和金币分别占全程约 66.1% 和 65.1%，高等级阶段形成持续材料消耗。竞技另有属性替换与转换配置。[技能分析](03-skills.md) [成长分析](04-growth.md)
+冰冻基础技能从 0 到 40 级累计需要知识 153,675、金币 3,223,000 及解锁书；到 80 级累计需要知识 453,675、金币 9,223,000。40→80 的知识和金币分别占全程约 66.1% 和 65.1%，高等级阶段形成持续材料消耗。竞技另有属性替换与转换配置。[技能分析](https://chitanda233.github.io/dandanxingqiu-research/review/03-skills.html) [成长分析](https://chitanda233.github.io/dandanxingqiu-research/review/04-growth.html)
 
 **结论：成长同时依赖资源、账号进度和服务器生命周期；公平模式通过独立属性规则调节竞争条件，构筑选择仍然保留。**
 
@@ -39,13 +39,13 @@
 
 剧情以关卡、星数与难度组织推进；塔以楼层、战力、Buff、挂机和速通组织推进；材料本按奖励额度及回合目标分配收益；肉鸽按挑战状态、节点状态和事件选择维护一轮构筑。
 
-独立弹球含 50 关布局。第 1／50 关初始球组分别为 6／18 球，目标分数为 367／2560；达标后可在回合末结束，首次胜利进入相应结果提交路径。曲线在第 13、26、39 关出现分段跃迁。[PVE 分析](06-pve.md) [肉鸽分析](07-rogue.md) [弹球分析](08-pinball.md)
+独立弹球含 50 关布局。第 1／50 关初始球组分别为 6／18 球，目标分数为 367／2560；达标后可在回合末结束，首次胜利进入相应结果提交路径。曲线在第 13、26、39 关出现分段跃迁。[PVE 分析](https://chitanda233.github.io/dandanxingqiu-research/review/06-pve.html) [肉鸽分析](https://chitanda233.github.io/dandanxingqiu-research/review/07-rogue.html) [弹球分析](https://chitanda233.github.io/dandanxingqiu-research/review/08-pinball.html)
 
 **结论：挑战通过关卡成绩、持续层数、有限奖励、局内选择和空间布局提供不同目标；通关、资格与奖励领取分别保存状态。**
 
 ## 五、社交关系直接参与资源和操作资格
 
-公会职位通过 rights 列表分配权限，并关联名额、分红参数和战斗 Buff。家园职业、制造帮助、布局复制和魅力奖励形成生产与表达流程。农场结合成熟状态、归属与互动记录判定操作；共享订单叠加普通订单资格与独立额度。[公会分析](09-guild.md) [家园分析](11-home.md) [农场分析](12-farm.md)
+公会职位通过 rights 列表分配权限，并关联名额、分红参数和战斗 Buff。家园职业、制造帮助、布局复制和魅力奖励形成生产与表达流程。农场结合成熟状态、归属与互动记录判定操作；共享订单叠加普通订单资格与独立额度。[公会分析](https://chitanda233.github.io/dandanxingqiu-research/review/09-guild.html) [家园分析](https://chitanda233.github.io/dandanxingqiu-research/review/11-home.html) [农场分析](https://chitanda233.github.io/dandanxingqiu-research/review/12-farm.html)
 
 **结论：好友、婚姻、师徒与公会构成资格和协作网络，生产收益和关系行为通过业务状态连接。**
 
@@ -53,7 +53,7 @@
 
 资源来源包含任务、挑战、生产、活动、抽取与购买；消耗包含培养、制造、兑换、交易与外观。抽取池、保底与愿望分别维护。贸易比例使用万分单位，涨停溢价分支按当前价格乘 1.1 后向下取整。
 
-月卡以服务器到期时间判定激活，广告按额度和冷却返回状态，通行证分别保存等级、购买资格与双轨领取进度。充值订单、平台回调和物品到账也是独立阶段。[经济分析](13-economy.md) [商业化分析](14-monetization.md)
+月卡以服务器到期时间判定激活，广告按额度和冷却返回状态，通行证分别保存等级、购买资格与双轨领取进度。充值订单、平台回调和物品到账也是独立阶段。[经济分析](https://chitanda233.github.io/dandanxingqiu-research/review/13-economy.html) [商业化分析](https://chitanda233.github.io/dandanxingqiu-research/review/14-monetization.html)
 
 **结论：经济结构具有多货币、多额度和多领取状态特征。商业化覆盖资源获得、日常效率、周期奖励与表达内容。**
 
@@ -94,13 +94,13 @@
 
 ## 一次正常会话的依赖链
 
-登录平台取得身份 → 请求服务器列表和验证 → 连接游戏服务器 → 登录/创建角色 → 初始化玩家数据和开服时间 → 功能开放与云配置准备 → 拉取已开放模块 → 展示入口、任务和红点。网络断开、维护、封禁、SDK 切换与缓存切换都有独立处理，不能将“打开首页”视作数据已完整初始化。[登录原函数](evidence:game.module.login.manager.core#game_login)
+登录平台取得身份 → 请求服务器列表和验证 → 连接游戏服务器 → 登录/创建角色 → 初始化玩家数据和开服时间 → 功能开放与云配置准备 → 拉取已开放模块 → 展示入口、任务和红点。网络断开、维护、封禁、SDK 切换与缓存切换都有独立处理，不能将“打开首页”视作数据已完整初始化。[登录原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.login.manager.core&function=game_login)
 
 选择模式后，队伍目标、玩法参数和构筑方案影响入场；战斗结果又驱动任务、资源、竞技进度及活动积分。养成产生新战斗能力，家园和公会提供另一条资源与关系循环。网站首页的循环图是依赖关系示意，不是逐帧还原游戏真实 UI。
 
 ## 功能入口如何开放
 
-`open_func` 有 707 条定义，但有效开放需同时满足服务器下发状态、云开关和平台条件。缓存有定义、模块有 view、首页有按钮，是不同层次的事实。初始化还会等待云数据；不能在云开关未就绪时把所有功能判成永久关闭。[入口规则](evidence:game.module.open_func.manager.core#is_open) [功能定义](config:open_func.open_func)
+`open_func` 有 707 条定义，但有效开放需同时满足服务器下发状态、云开关和平台条件。缓存有定义、模块有 view、首页有按钮，是不同层次的事实。初始化还会等待云数据；不能在云开关未就绪时把所有功能判成永久关闭。[入口规则](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.open_func.manager.core&function=is_open) [功能定义](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=open_func.open_func&q=)
 
 功能可用性由配置、客户端处理链、Unity/SDK 依赖与服务器／账号资格共同决定。弹球的运行时检查、充值审核云开关、区服配置后缀分别处在不同层。
 
@@ -133,11 +133,11 @@
 
 入场数据建立玩法、地图、阵营和单位；单位含实例标识、位置、基础属性、技能列表、被动、Buff、角色/宠物信息和托管状态。客户端依赖服务器的行动列表确定当前单位及回合时钟。`object_id`、角色 ID、宠物实例 ID、技能配置 ID 不可混用。
 
-典型链条为：建立战斗 → 分配行动 → 可操作检查 → 移动/技能/蓄力发炮 → 收到分批行为节点 → 播放弹体及效果 → 更新属性与 Buff → 当前行动结束 → 下一行动或胜负回包 → 结果页 → 各业务模块更新奖励。战斗结果展示、背包奖励和杯数变化是不同更新链。[回合流程](evidence:game.module.fight.manager.base.fighting.round.core) [节点接收](evidence:game.module.fight.manager.base.fighting.cmd.network)
+典型链条为：建立战斗 → 分配行动 → 可操作检查 → 移动/技能/蓄力发炮 → 收到分批行为节点 → 播放弹体及效果 → 更新属性与 Buff → 当前行动结束 → 下一行动或胜负回包 → 结果页 → 各业务模块更新奖励。战斗结果展示、背包奖励和杯数变化是不同更新链。[回合流程](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.round.core&function=) [节点接收](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.cmd.network&function=)
 
 ## 行为节点不是一次点击的一条伤害
 
-服务端节点可包含弹体、技能、属性处理、Buff、被动提示、分裂与连发。同一发炮可能生成多批 `node_list`。全部批次到齐后才能完成该段表现；第一个命中动画结束不代表整个行动已结束。反过来，本地尚有动画也不能推翻服务端已明确返回的胜负。[表现执行](evidence:game.module.fight.manager.base.fighting.round.perform)
+服务端节点可包含弹体、技能、属性处理、Buff、被动提示、分裂与连发。同一发炮可能生成多批 `node_list`。全部批次到齐后才能完成该段表现；第一个命中动画结束不代表整个行动已结束。反过来，本地尚有动画也不能推翻服务端已明确返回的胜负。[表现执行](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.round.perform&function=)
 
 缓存中还存在预览/演示战斗记录，它们有 `battle_enter_s2c`、`battle_next_round_s2c`、`battle_seq_cmd_s2c`、`battle_round_finish_s2c` 等字段样本。这些演示样本用于分析字段结构；概率与伤害结算需要相应执行器。
 
@@ -145,7 +145,7 @@
 
 移动、普通发炮、手动技能、跳过、超时处理和自动战斗具有不同入口。技能还检查使用次数、CD、资源、Buff/特殊状态、重复行动限制和当前模式。资源包括 strength、energy、anger、wakan；有些仅特定玩法使用。托管不是在普通操作之外再并行触发一次手动操作。
 
-比赛配置的 `use_skill`、`auto_battle`、`can_adjust_play_speed`、`guaranteed_fire`、`intelligent_force`、`soul` 等开关不同。排位 102 自动战斗为 0，3V3 排位 103 保证发炮为 1，自由竞技 501 自动为 1；模式开关决定各入口的操作集合。[模式对照](config:gameplay.gameplay)
+比赛配置的 `use_skill`、`auto_battle`、`can_adjust_play_speed`、`guaranteed_fire`、`intelligent_force`、`soul` 等开关不同。排位 102 自动战斗为 0，3V3 排位 103 保证发炮为 1，自由竞技 501 自动为 1；模式开关决定各入口的操作集合。[模式对照](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=gameplay.gameplay&q=)
 
 ## 蓄力换算：经过原函数验证的公式
 
@@ -164,7 +164,7 @@ S = (1000 / 5500) × (1 − A) × (P / 100)
 | 100 | 0 | 18000 | 0 | 0.509090… | 5091 |
 | 100 | 0 | 0 | 2000 | 0.218181… | 2182 |
 
-环境 18000 对应乘 **2.8**，Buff 2000 对应乘 1.2；两项同时存在时为 2.8×1.2=3.36 倍。四组蓄力输入已执行原函数验证。S 是内部返回量，UI 的实际时间尺度取决于力度控件更新。[操作原指令](evidence:game.module.fight.manager.base.fighting.ui.core)
+环境 18000 对应乘 **2.8**，Buff 2000 对应乘 1.2；两项同时存在时为 2.8×1.2=3.36 倍。四组蓄力输入已执行原函数验证。S 是内部返回量，UI 的实际时间尺度取决于力度控件更新。[操作原指令](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.ui.core&function=)
 
 ## 三种位移实现必须分开
 
@@ -177,7 +177,7 @@ ax = R3((wind − resistance × vx) / mass)
 ay = R3((g_resistance − resistance × vy) / mass)
 ```
 
-直线只更新 `R3(position + velocity×dt)`。各分支按自己的积分与取整顺序推进。原函数算例：初速 (10,20)、初始加速度 (2,−10)、mass=2、resistance=1、wind=6、g_resistance=−20，dt=1；阻力积分第一步位置 (10,20)、速度 (12,10)、加速度 (−3,−15)，第二步位置 (22,30)。标准抛物线相同初速与初始加速度在 t=1 得到 (11,15)。[轨迹原函数](evidence:game.module.fight.manager.base.fighting.trajectory#move_target_along_parabola)
+直线只更新 `R3(position + velocity×dt)`。各分支按自己的积分与取整顺序推进。原函数算例：初速 (10,20)、初始加速度 (2,−10)、mass=2、resistance=1、wind=6、g_resistance=−20，dt=1；阻力积分第一步位置 (10,20)、速度 (12,10)、加速度 (−3,−15)，第二步位置 (22,30)。标准抛物线相同初速与初始加速度在 t=1 得到 (11,15)。[轨迹原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.trajectory&function=move_target_along_parabola)
 
 这是客户端运动/预测的已证实行为。引擎碰撞、地形变形和服务器命中裁定仍不能由这些公式单独还原。
 
@@ -191,7 +191,7 @@ ay = R3((g_resistance − resistance × vy) / mass)
 | 最大生命更新 | 当前 HP 与新上限取 min | 不构成通用伤害公式 |
 | strength / energy 更新 | 上下限均钳制 | −10→0，120→100（上限 100） |
 
-负输入案例用于确认契约，不表示线上服务器会发送这些值。生命显示、伤害数字和护盾数字也可能来自同一节点的不同字段，不应把显示层钳制当最终数值结算。[属性原函数](evidence:game.module.fight.manager.base.fighting.unit.attrs#update_unit_hp)
+负输入案例用于确认契约，不表示线上服务器会发送这些值。生命显示、伤害数字和护盾数字也可能来自同一节点的不同字段，不应把显示层钳制当最终数值结算。[属性原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.unit.attrs&function=update_unit_hp)
 
 ## 伤害与异常的证据边界
 
@@ -199,9 +199,9 @@ ay = R3((g_resistance − resistance × vy) / mass)
 
 ## 发炮快照、辅助瞄准与风
 
-发炮请求包含 round、angle、force、pos、from_pos、direction、force_type、land_angle、fire_buff_pos 与 force_aim_type。开始蓄力的 force_speed 表示增长速度，最终发炮的 force 表示提交力度；round 关联当前行动。位置、朝向与角度联合确定输入语义。[发炮消息](evidence:game.module.fight.manager.base.fighting.cmd.network)
+发炮请求包含 round、angle、force、pos、from_pos、direction、force_type、land_angle、fire_buff_pos 与 force_aim_type。开始蓄力的 force_speed 表示增长速度，最终发炮的 force 表示提交力度；round 关联当前行动。位置、朝向与角度联合确定输入语义。[发炮消息](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.cmd.network&function=)
 
-快捷角度提供 20／30／50／65° 的样本，偏风提示包含 30°±风、50／65°±2×风。推荐力度在 0～100 区间模拟落点并二分缩界，目标、武器、风和传送门进入求解。合法解、落点预测与服务器命中分别属于不同结果。[力度求解](evidence:game.module.fight.manager.base.fighting.recommand_force)
+快捷角度提供 20／30／50／65° 的样本，偏风提示包含 30°±风、50／65°±2×风。推荐力度在 0～100 区间模拟落点并二分缩界，目标、武器、风和传送门进入求解。合法解、落点预测与服务器命中分别属于不同结果。[力度求解](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.recommand_force&function=)
 
 风回包先乘 0.1 得 cur_wind，再乘 wind_power_factor 和 weather_factor 得 wind_factor。例如 wind=10、两因子为 240 和 1，结果为 1 与 240。轨迹还处理质量和阻力，因此该中间风因子与最终横向加速度不同。
 
@@ -218,17 +218,17 @@ ay = R3((g_resistance − resistance × vy) / mass)
 
 玩家养成的基础技能 ID、某等级转换出的战斗技能 ID、主动技能原型和被动技能配置属于不同对象。通用槽位、武器授予技能、宠物技能和特殊玩法技能还带来源、位置、品质、使用回合和累计次数。按中文名字合并记录会丢失等级与来源差异。
 
-有效配置包含主动配置 8,237 行、被动配置 8,932 行，主动原型 518 种；这些是快照中的配置变体统计，不是 17,169 个独立可学技能。[主动技能表](config:skill.skill) [被动技能表](config:passive_skill.passive_skill)
+有效配置包含主动配置 8,237 行、被动配置 8,932 行，主动原型 518 种；这些是快照中的配置变体统计，不是 17,169 个独立可学技能。[主动技能表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=skill.skill&q=) [被动技能表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=passive_skill.passive_skill&q=)
 
 ## 槽位与出战计划
 
-通用技能五个槽位 ID 为 1、2、3、100、101；类型定义主动=1、被动=2。五槽包含不同类型，实际主动／被动分配由槽位定义确定。技能穿戴与计划切换独立于等级培养；进入战斗时再转换成具体配置 ID。当前玩法可以套用对应构筑，而不是始终沿用大厅最后一次穿戴顺序。[技能管理器](evidence:game.module.skill.manager.core)
+通用技能五个槽位 ID 为 1、2、3、100、101；类型定义主动=1、被动=2。五槽包含不同类型，实际主动／被动分配由槽位定义确定。技能穿戴与计划切换独立于等级培养；进入战斗时再转换成具体配置 ID。当前玩法可以套用对应构筑，而不是始终沿用大厅最后一次穿戴顺序。[技能管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.skill.manager.core&function=)
 
 ## 使用资格是多条件交集
 
 完整资格要考虑：玩法允许技能、当前是否可控制、是否手动可用、技能已持有、次数限制、CD、资源、状态禁用和技能特殊例外。次数可能分全局累计 `all_count` 与回合累计 `round_count`。服务端更新 `use_round` 和所属单位 `round_count`，CD 按所属单位行动回合维护。
 
-CD 在所属单位行动回合推进；某些特殊原型有独立处理，例如 2139 的例外。重复行动、冻结等状态也会影响可用性。具体技能有是否取消普通发炮的字段，因此“释放任何技能都消耗一次攻击”不是正确概括。[局内技能原指令](evidence:game.module.fight.manager.base.fighting.skill.core)
+CD 在所属单位行动回合推进；某些特殊原型有独立处理，例如 2139 的例外。重复行动、冻结等状态也会影响可用性。具体技能有是否取消普通发炮的字段，因此“释放任何技能都消耗一次攻击”不是正确概括。[局内技能原指令](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.fight.manager.base.fighting.skill.core&function=)
 
 ## 以冰冻和净化解释机制差异
 
@@ -238,7 +238,7 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 培养费用查当前级
 
-升级函数查当前等级费用，下一等级行用来判定还能继续。检查顺序包含角色等级、功能开放、其他已培养技能数量、任务完成状态 5、开服天数、下一行存在和材料余额。0→1 是解锁，通常与后续升级材料不同。[培养原函数](evidence:game.module.skill.manager.core#can_upgrade_skill_lvl) [升级有效表](config:skill_base_upgrade.skill_base_upgrade_0)
+升级函数查当前等级费用，下一等级行用来判定还能继续。检查顺序包含角色等级、功能开放、其他已培养技能数量、任务完成状态 5、开服天数、下一行存在和材料余额。0→1 是解锁，通常与后续升级材料不同。[培养原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.skill.manager.core&function=can_upgrade_skill_lvl) [升级有效表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=skill_base_upgrade.skill_base_upgrade_0&q=)
 
 冰冻基础技能 1001：0→1 要技能书·冰冻 `1402020003×1`；1→2 要知识 25、金币 1,000；10→11 要知识 400、金币 10,000；20→21 要知识 4,000、金币 90,000；40→41 要知识 7,500、金币 150,000，且角色 40 级、开服 5 天。材料 3,999/4,000、角色 39/40、开服 4/5 天的边界均经原函数验证。
 
@@ -274,43 +274,43 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 角色等级与配点
 
-`exp.player` 有 133 级有效行。点数配置为等级×5，五项基础上限为等级×3；额外点字段 50 来自元表默认值，其到账方式取决于实例数据。50 级基础点预算 250、单项上限 150，配点需要分散到多项。未分配余额及额外来源仍读角色实例。[角色表](config:exp.player)
+`exp.player` 有 133 级有效行。点数配置为等级×5，五项基础上限为等级×3；额外点字段 50 来自元表默认值，其到账方式取决于实例数据。50 级基础点预算 250、单项上限 150，配点需要分散到多项。未分配余额及额外来源仍读角色实例。[角色表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=exp.player&q=)
 
-基础生命在 1/30/50/60 级为 40/120/120/280，呈分段变化。普通转换体质 61→生命 28/防御 0.3/速度 0.3，力量 62→攻击 1；排位有单独转换与属性替换。经验高等级重复值来自有效行继承，不是自动认定导出失败。[转换表](config:attr_trans.attr_trans)
+基础生命在 1/30/50/60 级为 40/120/120/280，呈分段变化。普通转换体质 61→生命 28/防御 0.3/速度 0.3，力量 62→攻击 1；排位有单独转换与属性替换。经验高等级重复值来自有效行继承，不是自动认定导出失败。[转换表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=attr_trans.attr_trans&q=)
 
 ## 武器有多条培养轴
 
-武器表 440 行、85 组，包含等级/品质等变体。穿戴请求按位置和列表处理，移除按 pos；成功回包更新默认方案、推荐/热门方案及评分。强化提交材料、使用模式等，回复更新强化结果和返还数量。升星按武器 ID 与星级查碎片、货币、属性、主动/被动和特性。[武器网络](evidence:game.module.main_weapon_develop.manager.network.network) [武器表](config:weapon.weapon)
+武器表 440 行、85 组，包含等级/品质等变体。穿戴请求按位置和列表处理，移除按 pos；成功回包更新默认方案、推荐/热门方案及评分。强化提交材料、使用模式等，回复更新强化结果和返还数量。升星按武器 ID 与星级查碎片、货币、属性、主动/被动和特性。[武器网络](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.main_weapon_develop.manager.network.network&function=) [武器表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=weapon.weapon&q=)
 
 升星表 3,664 行；例如 1101011011 的部分初期行配置碎片 10、金币 5,000。该例不是所有武器统一成本。精通、羁绊、阵营、装备模式和计划另有管理器分支；升星可能改变技能，而非只加评分。
 
-武器阶级 5/6 的 quality 均为 5，等级门槛 95/105、开服 248/310 天、score 19,500/24,500；class 和 quality 不一一对应。六阶 `strengthen_max=15` 与另一张 30 级强化门槛是不同对象，不能拼接成一条曲线。`weapon_class_up` 的 6 条示例门槛含开服 99999、角色 999，属于缓存存在且常规条件不可达的配置。[阶级](config:weapon_class.weapon_class) [转换](config:weapon_class_up.weapon_class_up)
+武器阶级 5/6 的 quality 均为 5，等级门槛 95/105、开服 248/310 天、score 19,500/24,500；class 和 quality 不一一对应。六阶 `strengthen_max=15` 与另一张 30 级强化门槛是不同对象，不能拼接成一条曲线。`weapon_class_up` 的 6 条示例门槛含开服 99999、角色 999，属于缓存存在且常规条件不可达的配置。[阶级](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=weapon_class.weapon_class&q=) [转换](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=weapon_class_up.weapon_class_up&q=)
 
 ## 宠物：升级、突破、候选确认与配点
 
-47 条宠物模板、19 种类型不是 47 个账号已拥有实例。`pet_id` 是实例，`c_id` 是品种配置。升级和突破分开请求：品种 10010 在 times0 上限 20，times1 上限 25；突破同时改变属性和技能候选。分解返还与升级喂料分开计算。[宠物网络](evidence:game.module.pet.manager.network.network) [突破](config:pet_evo.pet_evo)
+47 条宠物模板、19 种类型不是 47 个账号已拥有实例。`pet_id` 是实例，`c_id` 是品种配置。升级和突破分开请求：品种 10010 在 times0 上限 20，times1 上限 25；突破同时改变属性和技能候选。分解返还与升级喂料分开计算。[宠物网络](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pet.manager.network.network&function=) [突破](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=pet_evo.pet_evo&q=)
 
 洗练先产生候选，再确认接受或取消；学习技能也有独立确认接口。五个学习槽要求等级 10/20/30/40/50，解锁材料 `1618010001` 数量 1/2/3/4/5。达到 50 级不等于免费打开全部槽。技能书品质、互斥类型、替换规则应按确切 ID 解释。
 
-宠物支持多配点方案、设置/切换/重置/重命名。`point2attr` 同时加固定转换和等级曲线转换，并乘全局 69 号转换因子以及目标属性加减因子；函数没有额外逐项 floor。例 100 点体质、固定转换 5、全局 1.1、目标加成 1.1 得贡献生命 605，这不是整只宠物最终 HP。[点转换](evidence:game.module.pet.manager.core#point2attr)
+宠物支持多配点方案、设置/切换/重置/重命名。`point2attr` 同时加固定转换和等级曲线转换，并乘全局 69 号转换因子以及目标属性加减因子；函数没有额外逐项 floor。例 100 点体质、固定转换 5、全局 1.1、目标加成 1.1 得贡献生命 605，这不是整只宠物最终 HP。[点转换](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pet.manager.core&function=point2attr)
 
-等级差衰减函数：宠物 100 级返回 0；否则 `max(1−(pet.level+50)/(player.level+pause_level+54),0)`。宠物 30、角色 50、pause0 返回约 23.0769%；pause10 约 29.8246%。它返回比例，不证明最终伤害在哪一步应用。[衰减原函数](evidence:game.module.pet.manager.data.data#get_pet_weaken_rate)
+等级差衰减函数：宠物 100 级返回 0；否则 `max(1−(pet.level+50)/(player.level+pause_level+54),0)`。宠物 30、角色 50、pause0 返回约 23.0769%；pause10 约 29.8246%。它返回比例，不证明最终伤害在哪一步应用。[衰减原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pet.manager.data.data&function=get_pet_weaken_rate)
 
 ## 装备、宝石与石头系统
 
-装备有部位、基础属性、附加词条、继承、强化、方案和洗练确认。强化 `success_max`、`luck_max`、`luck_display_conversion` 是进度或显示参数，不能把 900 自动解读为 90% 成功率。不同部位强化结构也有差异。[装备管理器](evidence:game.module.equip.manager.core)
+装备有部位、基础属性、附加词条、继承、强化、方案和洗练确认。强化 `success_max`、`luck_max`、`luck_display_conversion` 是进度或显示参数，不能把 900 自动解读为 90% 成功率。不同部位强化结构也有差异。[装备管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.equip.manager.core&function=)
 
-宝石按品质与等级联合索引：130 行；品质 5 等级 25 的角色门槛 35、材料 45、金币 45,000，`attr_num=1`、`passive_per=1000`。品质 5 合成行另有 num4、week_count20、open_func2302。`stone` 模块还管理穿戴、套装激活、自动分解筛选和继承；不能因中文同称“石头”把所有系统合并。[宝石升级](config:gem_level.gem_level) [石头管理器](evidence:game.module.stone.manager.core)
+宝石按品质与等级联合索引：130 行；品质 5 等级 25 的角色门槛 35、材料 45、金币 45,000，`attr_num=1`、`passive_per=1000`。品质 5 合成行另有 num4、week_count20、open_func2302。`stone` 模块还管理穿戴、套装激活、自动分解筛选和继承；不能因中文同称“石头”把所有系统合并。[宝石升级](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=gem_level.gem_level&q=) [石头管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.stone.manager.core&function=)
 
 ## 卡牌、玩具、魔方与其他成长
 
-卡牌按组、部位、品质维护激活、升级、图鉴属性、组合技能和分解，可交易资格也单独判断。玩具有主/副技能、组合、天赋树、总点数及副位解锁。魔方有激活、增强、超频分支；神宠有获取/旅行任务和稀有品种入口；声望、境界、称号、外观分别有自己的数据层。[卡牌](evidence:game.module.card.manager.core) [玩具](evidence:game.module.toy.manager.core) [魔方](evidence:game.module.cube.manager.core)
+卡牌按组、部位、品质维护激活、升级、图鉴属性、组合技能和分解，可交易资格也单独判断。玩具有主/副技能、组合、天赋树、总点数及副位解锁。魔方有激活、增强、超频分支；神宠有获取/旅行任务和稀有品种入口；声望、境界、称号、外观分别有自己的数据层。[卡牌](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.card.manager.core&function=) [玩具](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.toy.manager.core&function=) [魔方](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.cube.manager.core&function=)
 
 卡牌、玩具、魔方等外围分支由模块入口、数据对象和请求链确认。功能目录提供精确函数及来源；具体培养公式的确定程度按各条证据说明。
 
 ## 公平模式保留什么
 
-288 条排位平衡候选按 level/faction/open_day 区分，字段包括角色替换、加成、宠物替换、PVP 点转换和额外属性。首行角色生命/攻击/防御为 1568/570/335，宠物 297/614/346，并含暴伤等字段。竞技按对应行替换与转换属性，同时保留武器、宠物和技能构筑的对象与机制。[平衡表](config:ranked_match_balance.ranked_match_balance)
+288 条排位平衡候选按 level/faction/open_day 区分，字段包括角色替换、加成、宠物替换、PVP 点转换和额外属性。首行角色生命/攻击/防御为 1568/570/335，宠物 297/614/346，并含暴伤等字段。竞技按对应行替换与转换属性，同时保留武器、宠物和技能构筑的对象与机制。[平衡表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=ranked_match_balance.ranked_match_balance&q=)
 
 从设计结构看，长线养成与竞技平衡并存。当前账号具体选择哪一行、最后入场属性和评分权重仍由实际回包确定。
 
@@ -321,7 +321,7 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 模式先于匹配规则
 
-缓存有 70 条玩法定义，含测试和历史候选。模式决定是否单人、是否技能、自动、倍速、保底发炮、智能力度、灵魂、时间限制、跨服和观战延迟；不是同一套竞技规则换不同标题。交互实验室可同时对比两种模式。[玩法表](config:gameplay.gameplay)
+缓存有 70 条玩法定义，含测试和历史候选。模式决定是否单人、是否技能、自动、倍速、保底发炮、智能力度、灵魂、时间限制、跨服和观战延迟；不是同一套竞技规则换不同标题。交互实验室可同时对比两种模式。[玩法表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=gameplay.gameplay&q=)
 
 | 模式 | ID | 自动 | 保证发炮 | 智能力度 | 时间限制原值 |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 匹配前的硬门槛与软提醒
 
-客户端有队伍状态、成员资格、目标玩法和特殊时段检查。00:00～06:30 的夜间分支在超出新手场数后提示，但属于可继续的软提醒。04:30～05:30 的另一分支对杯数大于 1600 且达到新手最大场数的对象关闭；队伍中任一适用成员可能触发。另有新服豁免，必须跟开服时钟一起判断。[匹配管理器](evidence:game.module.match.manager.manager)
+客户端有队伍状态、成员资格、目标玩法和特殊时段检查。00:00～06:30 的夜间分支在超出新手场数后提示，但属于可继续的软提醒。04:30～05:30 的另一分支对杯数大于 1600 且达到新手最大场数的对象关闭；队伍中任一适用成员可能触发。另有新服豁免，必须跟开服时钟一起判断。[匹配管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.match.manager.manager&function=)
 
 养成建议对 score0 或低于推荐值约 10% 的情况提示。匹配前检查包含禁入、可继续的确认及文本建议三种结果；战力建议属于提示层。
 
@@ -344,7 +344,7 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 杯、星与 ELO 是不同轴
 
-杯数表 53 个节点，段位/星表 27 个节点，ELO 表 16 个节点。各自保存胜负收益、节点继承、首达奖励、K 值或赛季重置。这三表共存不代表所有竞技入口都会叠算三套分数。[杯数](config:season_cup.season_cup) [ELO](config:season_pvp_elo.pvp_elo)
+杯数表 53 个节点，段位/星表 27 个节点，ELO 表 16 个节点。各自保存胜负收益、节点继承、首达奖励、K 值或赛季重置。这三表共存不代表所有竞技入口都会叠算三套分数。[杯数](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=season_cup.season_cup&q=) [ELO](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=season_pvp_elo.pvp_elo&q=)
 
 | 杯数节点 | 真人胜 / 负原值 | 机器人胜 / 负原值 |
 | ---: | ---: | ---: |
@@ -359,7 +359,7 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 练习模式的机器人配置、AI 战术计划、邀请型队友模板、自动补位许可是不同对象。练习约 18 条，AI 方案相关表 91 条；邀请队友配置 2,189 条；`is_add_robot` 默认 1 仅说明允许相关流程，不是已生成机器人。
 
-机器人可有装备、技能、阵营、杯数、外观和行为计划。邀请触发的 `[[1,1,8]]` 是条件原值，未闭合条件解释器时不可自行翻译为“第 8 场必补位”。同样，客户端有 AI 战术不代表排位匹配服务端使用相同决策器。[练习](evidence:game.module.practice.manager.core) [队伍](evidence:game.module.team.manager.core)
+机器人可有装备、技能、阵营、杯数、外观和行为计划。邀请触发的 `[[1,1,8]]` 是条件原值，未闭合条件解释器时不可自行翻译为“第 8 场必补位”。同样，客户端有 AI 战术不代表排位匹配服务端使用相同决策器。[练习](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.practice.manager.core&function=) [队伍](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.team.manager.core&function=)
 
 ## 观战、锦标赛和跨服竞技
 
@@ -391,21 +391,21 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
 
 ## 剧情：星数奖励与可挑战状态
 
-章节奖励先看是否已领取；未领取时比较章节总星与 `奖励档位×dungeon_star_max`，返回可领或锁定。困难难度先查难度开放，再查关卡锁定。章节奖、关卡通过和难度解锁不是同一布尔值。[剧情函数](evidence:game.module.story_level.manager.core#get_story_level_chapter_award_state)
+章节奖励先看是否已领取；未领取时比较章节总星与 `奖励档位×dungeon_star_max`，返回可领或锁定。困难难度先查难度开放，再查关卡锁定。章节奖、关卡通过和难度解锁不是同一布尔值。[剧情函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.story_level.manager.core&function=get_story_level_chapter_award_state)
 
-速通 `can_crush_level` 要求功能开放、关卡尚未通过、存在推荐战力，且实际战力达到推荐战力乘指定系数；进入战斗和速通是不同请求。`can_auto_fight_next` 的开头固定开关为 false，原函数直接返回 false，后面的找下一关逻辑在此版本不可达。已通过离线执行验证，未调用任何下游桩函数。[速通](evidence:game.module.story_level.manager.core#can_crush_level) [连续挑战](evidence:game.module.story_level.manager.core#can_auto_fight_next)
+速通 `can_crush_level` 要求功能开放、关卡尚未通过、存在推荐战力，且实际战力达到推荐战力乘指定系数；进入战斗和速通是不同请求。`can_auto_fight_next` 的开头固定开关为 false，原函数直接返回 false，后面的找下一关逻辑在此版本不可达。已通过离线执行验证，未调用任何下游桩函数。[速通](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.story_level.manager.core&function=can_crush_level) [连续挑战](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.story_level.manager.core&function=can_auto_fight_next)
 
 多人剧情读取章节、关卡、个人积分、目标达成、奖励领取和固定推荐战力，有独立 `req_gve_story_info_c2s`；多人积分与个人剧情星数分别维护。
 
 ## 组队副本：资格与奖励额度分开
 
-`check_self_dungeon_unlock`、`check_other_dungeon_unlock` 分别检查自己和队友；目标改变、组队邀请、退出/建队有独立流程。翻牌是否显示、额外普通奖励、英雄周奖励数量和每日经验奖励都读各自的数据。一次通关可以推进副本进度，却不一定剩余所有奖励额度。[组队原函数](evidence:game.module.dungeon_team.manager.core)
+`check_self_dungeon_unlock`、`check_other_dungeon_unlock` 分别检查自己和队友；目标改变、组队邀请、退出/建队有独立流程。翻牌是否显示、额外普通奖励、英雄周奖励数量和每日经验奖励都读各自的数据。一次通关可以推进副本进度，却不一定剩余所有奖励额度。[组队原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.dungeon_team.manager.core&function=)
 
 ## 爬塔：Buff、挂机、自动与速通
 
 塔模块维护目标层、最高可挑战层、阶段领奖、好友信息、Buff 装备/选择次数、自动状态、挂机奖励与速通。`can_get_daily` 要 daily_reward=0 且 `can_show_daily` 满足；不满足可能返回 nil，而不是统一显式 false。
 
-`can_crush` 要下一层存在且能挑战，要求 `cant_crush≤0`，速通功能开放，战力达到 `press_power`。噩梦分支把门槛调整为 `press_power×(1+max(噩梦速通系数,0)/10000)`。因此同一层在不同开服天数可能有不同速通要求。[塔原函数](evidence:game.module.dungeon_tower.manager.core#can_crush)
+`can_crush` 要下一层存在且能挑战，要求 `cant_crush≤0`，速通功能开放，战力达到 `press_power`。噩梦分支把门槛调整为 `press_power×(1+max(噩梦速通系数,0)/10000)`。因此同一层在不同开服天数可能有不同速通要求。[塔原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.dungeon_tower.manager.core&function=can_crush)
 
 ```text
 是否噩梦 = open_day × 10000 < night_mare_coeff[1]
@@ -415,15 +415,15 @@ Buff 有持有、有效回合、结束回合、层数、来源单位与配置 ID
            × nightmare_press_power / 10000
 ```
 
-函数本身可能返回负系数；速通使用处再钳非负。测试阈值 100000、怪物系数项 5000、速通项 2000：第 9 天返回 true/5000/2000，第 10 天 false/0/0，第 11 天 false/−5000/−2000。getter 返回原系数，速通使用处再执行非负处理。[噩梦函数](evidence:game.module.dungeon_tower.manager.core#get_nightmare_mon_coef)
+函数本身可能返回负系数；速通使用处再钳非负。测试阈值 100000、怪物系数项 5000、速通项 2000：第 9 天返回 true/5000/2000，第 10 天 false/0/0，第 11 天 false/−5000/−2000。getter 返回原系数，速通使用处再执行非负处理。[噩梦函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.dungeon_tower.manager.core&function=get_nightmare_mon_coef)
 
-塔配置 `_0/_543/_993` 各 1,200 行，`_2000` 1,000、`_2008` 30，是不同分片，不等于一个服共 4,630 层。实际选择配置和客户端开放条件需要运行上下文。[塔分片](config:tower.tower_0)
+塔配置 `_0/_543/_993` 各 1,200 行，`_2000` 1,000、`_2008` 30，是不同分片，不等于一个服共 4,630 层。实际选择配置和客户端开放条件需要运行上下文。[塔分片](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=tower.tower_0&q=)
 
 ## 材料本：奖励次数不是挑战次数
 
-系列表 10 条，普通/英雄分组；关卡 `_0/_543` 各 30 条，回合奖励 15 条。正常 `award_left=reward_limit_cnt−reward_cur_cnt`，同时返回上限；当 `sprouts_rate>0`，剩余显示被压成有额度 1、无额度 0，上限为 1。测试 limit7/used2 正常返回 5/7，助力返回 1/1，used7 返回 0/1。[额度原函数](evidence:game.module.dungeon_material.manager.data.data#get_award_left_times)
+系列表 10 条，普通/英雄分组；关卡 `_0/_543` 各 30 条，回合奖励 15 条。正常 `award_left=reward_limit_cnt−reward_cur_cnt`，同时返回上限；当 `sprouts_rate>0`，剩余显示被压成有额度 1、无额度 0，上限为 1。测试 limit7/used2 正常返回 5/7，助力返回 1/1，used7 返回 0/1。[额度原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.dungeon_material.manager.data.data&function=get_award_left_times)
 
-回合奖要求未领、pass_round>0 且 pass_round≤finish_round，体现“在指定回合内完成”。例如 finish4，pass4可领、pass5和pass0不可领，已领取亦不可领。排名奖另用 team_rank_cnt 与已领列表判断；不能把回合奖与排名奖合成同一个按钮状态。[回合奖](evidence:game.module.dungeon_material.manager.data.data#get_round_reward_can_get_by_id)
+回合奖要求未领、pass_round>0 且 pass_round≤finish_round，体现“在指定回合内完成”。例如 finish4，pass4可领、pass5和pass0不可领，已领取亦不可领。排名奖另用 team_rank_cnt 与已领列表判断；不能把回合奖与排名奖合成同一个按钮状态。[回合奖](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.dungeon_material.manager.data.data&function=get_round_reward_can_get_by_id)
 
 ## 单人 Boss 的进度对象
 
@@ -448,15 +448,15 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 | 节点 | choose1、doing2、finished3 |
 | 事件 | fight1、shop2、reward3、wish4、multiple99 |
 
-难度配置 5 条、节点配置 155 条、事件 93 条、愿望 86 条。节点还有 hard9 等行，所以不能简单把 155 行平均分成当前开放的 5 个难度，也不能称 155 个全部在线节点。[状态定义](evidence:game.module.rogue.manager.const) [难度](config:rogue_hard.rogue_hard) [节点](config:rogue_node.rogue_node)
+难度配置 5 条、节点配置 155 条、事件 93 条、愿望 86 条。节点还有 hard9 等行，所以不能简单把 155 行平均分成当前开放的 5 个难度，也不能称 155 个全部在线节点。[状态定义](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.rogue.manager.const&function=) [难度](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=rogue_hard.rogue_hard&q=) [节点](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=rogue_node.rogue_node&q=)
 
 ## 难度解锁的原条件
 
-`is_rouge_difficulty_open`（函数名保留原拼写）先要求配置有效、功能开放，再比较请求难度与 `pass_hard+1`。难度 2 在通过难度 0 时不可用，通过难度 1 时可用；功能关闭时即便已通过也不能使用。用例只替换服务器下发的 pass_hard 和开放状态，实际条件运行原始字节码。[解锁原函数](evidence:game.module.rogue.manager.core#is_rouge_difficulty_open)
+`is_rouge_difficulty_open`（函数名保留原拼写）先要求配置有效、功能开放，再比较请求难度与 `pass_hard+1`。难度 2 在通过难度 0 时不可用，通过难度 1 时可用；功能关闭时即便已通过也不能使用。用例只替换服务器下发的 pass_hard 和开放状态，实际条件运行原始字节码。[解锁原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.rogue.manager.core&function=is_rouge_difficulty_open)
 
 ## 节点推进与选择窗口
 
-`get_next_challenge_info` 在节点状态 choose/doing 时仍返回当前节点，finished 才加一。测试 hard2、node3：状态 1/2 返回 (2,3)，状态 3 返回 (2,4)。`can_select_event` 只允许匹配下一可选难度/节点，不能跨到 5 或其他难度。这是防止 UI 提前跳节点的重要客户端约束。[推进](evidence:game.module.rogue.manager.core#get_next_challenge_info) [事件选择](evidence:game.module.rogue.manager.core#can_select_event)
+`get_next_challenge_info` 在节点状态 choose/doing 时仍返回当前节点，finished 才加一。测试 hard2、node3：状态 1/2 返回 (2,3)，状态 3 返回 (2,4)。`can_select_event` 只允许匹配下一可选难度/节点，不能跨到 5 或其他难度。这是防止 UI 提前跳节点的重要客户端约束。[推进](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.rogue.manager.core&function=get_next_challenge_info) [事件选择](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.rogue.manager.core&function=can_select_event)
 
 ## 事件与局内构筑
 
@@ -466,7 +466,7 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 ## 日周额度与愿望保存
 
-杂项原值包括 daily_reward8、累计奖励上限56、wish_reset1、save_wish3、save_wish_after8node，以及愿望重置花费肉鸽币5。值应按调用分支使用：8 个节点后保存的门槛不同于每日奖励 8，不能因数字相同合并机制。[肉鸽杂项](config:rogue_misc.rogue_misc)
+杂项原值包括 daily_reward8、累计奖励上限56、wish_reset1、save_wish3、save_wish_after8node，以及愿望重置花费肉鸽币5。值应按调用分支使用：8 个节点后保存的门槛不同于每日奖励 8，不能因数字相同合并机制。[肉鸽杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=rogue_misc.rogue_misc&q=)
 
 下一周重置函数按服务器日历定位周一 05:00。这不是使用本地操作系统时间随意计算。实际服务端刷新、补偿和上一轮保留范围仍依赖回包。
 
@@ -485,30 +485,30 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 `pin_ball_game` 使用独立 Unity 控制器桥接，维护球、道具、50 个布局脚本、分数、波次、结果与网络提交。50 份布局由原字节码执行恢复，加载、球组和结算分支通过原函数验证。
 
-运行时入口 `is_runtime_available` 通过 `pcall(typeof(PinBallGameController))` 判断类型是否存在，`is_feature_available` 调用同一检查。类型可用不等于当前服务器开放；类型缺失时会提示“当前客户端版本暂不支持该玩法”。[入口原函数](evidence:game.module.pin_ball_game.manager.core#is_runtime_available)
+运行时入口 `is_runtime_available` 通过 `pcall(typeof(PinBallGameController))` 判断类型是否存在，`is_feature_available` 调用同一检查。类型可用不等于当前服务器开放；类型缺失时会提示“当前客户端版本暂不支持该玩法”。[入口原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=is_runtime_available)
 
 ## 关卡数据由两层组合
 
-关卡配置 ID 70101001～70101050，保存目标、前置、默认球数和奖励。布局脚本保存 canvas、init_balls、initial_units、initial_props 和后续 waves。`load_stage_layout` 取根对象的 layout，并在需要时合并根对象的 canvas/init_balls；不能只读取 layout 子对象而漏掉球数。[布局加载](evidence:game.module.pin_ball_game.manager.core#load_stage_layout) [关卡表](config:pinball_stage.pinball_stage)
+关卡配置 ID 70101001～70101050，保存目标、前置、默认球数和奖励。布局脚本保存 canvas、init_balls、initial_units、initial_props 和后续 waves。`load_stage_layout` 取根对象的 layout，并在需要时合并根对象的 canvas/init_balls；不能只读取 layout 子对象而漏掉球数。[布局加载](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=load_stage_layout) [关卡表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=pinball_stage.pinball_stage&q=)
 
 全部画布以配置中的像素坐标呈现；首关为 1080×2400。网站提供初始布局和各个后续波次的 SVG 示意：标注单位 HP、道具 ID、位置与大小。它是布局数据可视化，不是游戏截图或碰撞模拟。
 
 ## 初始球组的配置优先级
 
-`build_initial_ball_loadout` 优先采用有效非空的布局球列表；检查球 ID 存在、数量有效且大于 0。空列表或未知球 ID 会回退到配置 `init_ball_count`。首关布局 5 普通+1 大力，实际初始 6 球；末关 10 普通+8 大力，实际 18 球；两者配置默认均是 8。四种分支已执行原函数验证。[球组装](evidence:game.module.pin_ball_game.manager.core#build_initial_ball_loadout)
+`build_initial_ball_loadout` 优先采用有效非空的布局球列表；检查球 ID 存在、数量有效且大于 0。空列表或未知球 ID 会回退到配置 `init_ball_count`。首关布局 5 普通+1 大力，实际初始 6 球；末关 10 普通+8 大力，实际 18 球；两者配置默认均是 8。四种分支已执行原函数验证。[球组装](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=build_initial_ball_loadout)
 
 | 球 | ID | base_damage | hit_radius |
 | --- | ---: | ---: | ---: |
 | 普通球 | 7012001 | 1 | 20 |
 | 大力球 | 7012002 | 2 | 20 |
 
-这些是配置基础值；不能在未验证控制器碰撞调用时把 hit_radius 直接当世界单位或计算精确击杀次数。[球表](config:pinball_ball.pinball_ball)
+这些是配置基础值；不能在未验证控制器碰撞调用时把 hit_radius 直接当世界单位或计算精确击杀次数。[球表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=pinball_ball.pinball_ball&q=)
 
 ## 障碍、增球与爆炸道具
 
-共有 6 条 prop 配置。圆形7011001、三角形7011004、正方形7011005、五边形7011006都是prop_type1，hit_score1、death_score10、move_distance216。增球7011002为prop_type2，hit/death_score都0、move_distance216、add_ball1，描述明确为“下一回合小球数量+1”；炸弹7011003为prop_type2，hit/death_score都0、move_distance0、boom_effect50、effect_r300。不同几何、角度、HP 和位置提供反弹/命中路线的布局差异。[道具表](config:pinball_prop.pinball_prop)
+共有 6 条 prop 配置。圆形7011001、三角形7011004、正方形7011005、五边形7011006都是prop_type1，hit_score1、death_score10、move_distance216。增球7011002为prop_type2，hit/death_score都0、move_distance216、add_ball1，描述明确为“下一回合小球数量+1”；炸弹7011003为prop_type2，hit/death_score都0、move_distance0、boom_effect50、effect_r300。不同几何、角度、HP 和位置提供反弹/命中路线的布局差异。[道具表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=pinball_prop.pinball_prop&q=)
 
-`on_kill` 把 active_unit_count 下限钳为 0，并累加死亡分数；死亡计数原为 0 的测试仍保持 0，并获得配置死亡分10。`on_hit/on_kill`通过未命名的0.44函数加分：base_score非0时，增加`base_score×max(1,tonumber(回调第二参数)或1)`。这能确认客户端倍率处理，但第二参数的游戏语义仍需控制器证据，不能自行称为完整“连击倍率”。命中、死亡和倍率参数来自控制器回调；不能在缺完整 C# 桥接语义时宣称任意关卡理论最高分。[命中与计分原指令](evidence:game.module.pin_ball_game.manager.core#on_hit)
+`on_kill` 把 active_unit_count 下限钳为 0，并累加死亡分数；死亡计数原为 0 的测试仍保持 0，并获得配置死亡分10。`on_hit/on_kill`通过未命名的0.44函数加分：base_score非0时，增加`base_score×max(1,tonumber(回调第二参数)或1)`。这能确认客户端倍率处理，但第二参数的游戏语义仍需控制器证据，不能自行称为完整“连击倍率”。命中、死亡和倍率参数来自控制器回调；不能在缺完整 C# 桥接语义时宣称任意关卡理论最高分。[命中与计分原指令](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=on_hit)
 
 ## 50 关的可量化内容
 
@@ -533,9 +533,9 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 ## 达标、结束和结果提交
 
-`is_stage_target_reached` 在 score≥target 时返回真，目标≤0也为真。`on_round_end` 重置当轮球计数，并在达标后调用控制器 `RequestFinishAfterRoundEnd`。因此该流程按目标分达标，并在回合末请求结束。[达标](evidence:game.module.pin_ball_game.manager.core#is_stage_target_reached) [回合末](evidence:game.module.pin_ball_game.manager.core#on_round_end)
+`is_stage_target_reached` 在 score≥target 时返回真，目标≤0也为真。`on_round_end` 重置当轮球计数，并在达标后调用控制器 `RequestFinishAfterRoundEnd`。因此该流程按目标分达标，并在回合末请求结束。[达标](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=is_stage_target_reached) [回合末](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=on_round_end)
 
-`on_stage_finished` 用分数是否达标判 win1/lose2，结果只展示一次。只有获胜且该关尚未完成时发送 `pinball_submit_result`；已通过的重玩和失败不走同一提交分支。四种组合已验证。网络包装发送 `{dup_id,type}`，没有 score 字段；这仅描述客户端接口，不证明服务器会信任任意构造结果。[结束原函数](evidence:game.module.pin_ball_game.manager.core#on_stage_finished) [网络封装](evidence:game.module.pin_ball_game.manager.network.network)
+`on_stage_finished` 用分数是否达标判 win1/lose2，结果只展示一次。只有获胜且该关尚未完成时发送 `pinball_submit_result`；已通过的重玩和失败不走同一提交分支。四种组合已验证。网络包装发送 `{dup_id,type}`，没有 score 字段；这仅描述客户端接口，不证明服务器会信任任意构造结果。[结束原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.core&function=on_stage_finished) [网络封装](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.pin_ball_game.manager.network.network&function=)
 
 ## 解锁、奖励与继续挑战
 
@@ -550,15 +550,15 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 ## 组织功能与跨系统关系
 
-客户端包含创建/搜索/申请/审批、邀请、任免、退出/踢人、公告改名、捐献、建筑、商店、愿望帮助、试炼、选举、弹劾及团体活动。公会关系又被农场、家园、拍卖、聊天和多个战斗玩法引用，属于跨系统组织层。[公会管理器](evidence:game.module.alliance.manager.core.core)
+客户端包含创建/搜索/申请/审批、邀请、任免、退出/踢人、公告改名、捐献、建筑、商店、愿望帮助、试炼、选举、弹劾及团体活动。公会关系又被农场、家园、拍卖、聊天和多个战斗玩法引用，属于跨系统组织层。[公会管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.alliance.manager.core.core&function=)
 
 ## 九种职位与权限配置
 
-职位表有 9 条：会长1、副会长2、主理人3、执事4、精锐5、佳人6、指挥7、正式成员10、临时成员11。**ID不连续**，表中没有职位8/9。权限由职位行的 rights 列表决定，职位 ID 与显示顺序独立。[职位表](config:alliance_status.alliance_status)
+职位表有 9 条：会长1、副会长2、主理人3、执事4、精锐5、佳人6、指挥7、正式成员10、临时成员11。**ID不连续**，表中没有职位8/9。权限由职位行的 rights 列表决定，职位 ID 与显示顺序独立。[职位表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=alliance_status.alliance_status&q=)
 
-`has_right_for_operate` 调 `DataConfigs.alliance_status.get_status_cfg`，再在 rights 中查指定 ID；未知职位返回 false。实测职位1/2有权限1，职位4无权限1但有权限4，正式成员10无权限3，职位999无权限1。这里测试实际权限查找代码，未伪造职位与权限对应关系。[权限原函数](evidence:game.module.alliance.manager.core.core#has_right_for_operate)
+`has_right_for_operate` 调 `DataConfigs.alliance_status.get_status_cfg`，再在 rights 中查指定 ID；未知职位返回 false。实测职位1/2有权限1，职位4无权限1但有权限4，正式成员10无权限3，职位999无权限1。这里测试实际权限查找代码，未伪造职位与权限对应关系。[权限原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.alliance.manager.core.core&function=has_right_for_operate)
 
-权限定义相关表 15 条，但职位 rights 中出现 16；会长 rights 示例不含 7。因此不能未经调用点核查把权限1～16依次写成完整连续菜单。踢人额度也不同，会长30、副会长15、主理人5为职位表的kick_limit原值，是否刷新及例外需沿使用处核对。职位表还含人数num、分红exp_percent、battle_buff和limits；佳人与精锐行有明确性别提示，说明职位除管理权外还关联收益和资格。[职位有效表](config:alliance_status.alliance_status) [公会杂项](config:alliance_misc.alliance_misc)
+权限定义相关表 15 条，但职位 rights 中出现 16；会长 rights 示例不含 7。因此不能未经调用点核查把权限1～16依次写成完整连续菜单。踢人额度也不同，会长30、副会长15、主理人5为职位表的kick_limit原值，是否刷新及例外需沿使用处核对。职位表还含人数num、分红exp_percent、battle_buff和limits；佳人与精锐行有明确性别提示，说明职位除管理权外还关联收益和资格。[职位有效表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=alliance_status.alliance_status&q=) [公会杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=alliance_misc.alliance_misc&q=)
 
 ## 成员生命周期与组织限制
 
@@ -568,7 +568,7 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 ## 公会建筑与协作经济
 
-相关配置含 6 类建筑方向，主建筑、金库、房间/共享、商业等由原表字段确认；捐献、建筑升级、商店货币、订单求助、愿望、试炼奖励各有状态。客户端 `is_func_destroy_by_invade` 还表明组织场景存在战斗后功能状态分支，建筑升级与战后可用状态分别维护。[公会管理器](evidence:game.module.alliance.manager.core.core)
+相关配置含 6 类建筑方向，主建筑、金库、房间/共享、商业等由原表字段确认；捐献、建筑升级、商店货币、订单求助、愿望、试炼奖励各有状态。客户端 `is_func_destroy_by_invade` 还表明组织场景存在战斗后功能状态分支，建筑升级与战后可用状态分别维护。[公会管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.alliance.manager.core.core&function=)
 
 奖励提醒分成捐献、商店、经营、愿望帮助、试炼伤害进度/等级进度等。公会钱包和个人背包分别维护来源、权限及扣款接口，组织账本与个人库存由各自状态管理。
 
@@ -581,7 +581,7 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 | territory_battle 领地 | Boss 资格、地图、结算胜负与惊喜奖 | 结构索引与入口核对 |
 | alliance_battle 公会战 | 活动与模块开放、膜拜、进度/成就、战报、历史已读 | 结构索引与入口核对 |
 
-另有扫雷、宝藏、集结、宴会等模块。它们与公会成员关系相连，但活动时间、挑战次数和积分不共享。[讨伐](evidence:game.module.alliance_raid.manager.core) [领地](evidence:game.module.territory_battle.manager.core) [公会战](evidence:game.module.alliance_battle.manager.core)
+另有扫雷、宝藏、集结、宴会等模块。它们与公会成员关系相连，但活动时间、挑战次数和积分不共享。[讨伐](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.alliance_raid.manager.core&function=) [领地](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.territory_battle.manager.core&function=) [公会战](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.alliance_battle.manager.core&function=)
 
 ## 职位的管理与收益分工
 
@@ -597,7 +597,7 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 | 正式成员 | 10 | −1 | 0 | 未配置 | 未配置 |
 | 临时成员 | 11 | −1 | 0 | 未配置 | 未配置 |
 
-上述为字段原值，−1 的名额和分红换算需要结合调用处解释。佳人、指挥可配置 battle_buff=187；管理职位与精锐配置 186。由此可见，管理权、组织职位与收益参数是独立维度。指挥的名称不直接授予 rights，具体操作仍走权限查询。[职位配置](config:alliance_status.alliance_status)
+上述为字段原值，−1 的名额和分红换算需要结合调用处解释。佳人、指挥可配置 battle_buff=187；管理职位与精锐配置 186。由此可见，管理权、组织职位与收益参数是独立维度。指挥的名称不直接授予 rights，具体操作仍走权限查询。[职位配置](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=alliance_status.alliance_status&q=)
 
 ## 组织结构的作用
 
@@ -616,7 +616,7 @@ PVE 分别保存前置、难度、关卡、楼层、队友资格与奖励进度�
 
 ## 好友：申请、确认、删除与黑名单
 
-客户端维护本服和跨服两套列表、申请、推荐、搜索、批量添加、接受/拒绝、黑名单及删除流程。`friend_confirm_intimacy_effect` 与跨服对应请求独立，亲密效果确认不是自动接受好友的同义操作。[好友原函数](evidence:game.module.friend.manager.core)
+客户端维护本服和跨服两套列表、申请、推荐、搜索、批量添加、接受/拒绝、黑名单及删除流程。`friend_confirm_intimacy_effect` 与跨服对应请求独立，亲密效果确认不是自动接受好友的同义操作。[好友原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.friend.manager.core&function=)
 
 状态文本区分离线、组队、战斗。通知还受设置、当前战斗和消息提示关闭状态影响。已查看申请的本地键、服务器申请列表和最终好友关系不同：打开申请页面可以清提醒，不能直接把所有申请变成好友。
 
@@ -628,19 +628,19 @@ fake_chat 和 chat_ai_reply 提供演示与自动回复相关结构。需要实�
 
 ## 师徒：关系数量、招募和任务
 
-师徒模块区分教师/学生身份、关系 ID、毕业/未毕业人数、招募、申请列表、处分申请、解除及解除惩罚期。`reach_teacher_limit` 与 `reach_student_limit` 是独立资格；招募资格由身份、关系数量及相应配置共同决定。[师徒管理器](evidence:game.module.tutor.manager.core)
+师徒模块区分教师/学生身份、关系 ID、毕业/未毕业人数、招募、申请列表、处分申请、解除及解除惩罚期。`reach_teacher_limit` 与 `reach_student_limit` 是独立资格；招募资格由身份、关系数量及相应配置共同决定。[师徒管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.tutor.manager.core&function=)
 
 解除关系可能先请求再确认；取消解除亦有路径。师徒任务分教师任务、学生任务和关系任务红点，任务完成后要经过奖励领取状态。具体数量上限、惩罚时间和任务投放以相应配置及回包为准，数量上限与惩罚生效以具体配置和关系回复为依据。
 
 ## 婚姻：预留、求婚、婚礼与培养
 
-婚姻模块含恋爱信件、求婚通知、婚礼、预约/预留邀请、伙伴姓名异步获取、约会任务、培养技能和离婚资格。预约入口是否启用、婚礼档次资格、队伍邀请及对方确认分别处理。[婚姻管理器](evidence:game.module.marriage.manager.core)
+婚姻模块含恋爱信件、求婚通知、婚礼、预约/预留邀请、伙伴姓名异步获取、约会任务、培养技能和离婚资格。预约入口是否启用、婚礼档次资格、队伍邀请及对方确认分别处理。[婚姻管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.marriage.manager.core&function=)
 
 `marriage_handle_propose`、`marriage_handle_open_wedding`、`marriage_enter_wedding` 等调用表明接受关系、举办婚礼、进入场景是不同操作。培养红点与未读一次性提示也分开。不能凭对象有 partner 就自动开放所有婚姻场景。
 
 ## 多人场景与休闲互动
 
-大场景管理角色、移动、互动对象和子场景；家园房间按房主、成员状态、准备确认维护，支持躲藏/绘画语音房间等分支。你画我猜、音乐会、宴会、小游戏等有各自模块。角色在房间、家园聚会和观看中的状态并非同一位置布尔值。[家园房间](evidence:game.module.home_room.manager.core) [多人场景](evidence:game.module.big_scene.manager.core)
+大场景管理角色、移动、互动对象和子场景；家园房间按房主、成员状态、准备确认维护，支持躲藏/绘画语音房间等分支。你画我猜、音乐会、宴会、小游戏等有各自模块。角色在房间、家园聚会和观看中的状态并非同一位置布尔值。[家园房间](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home_room.manager.core&function=) [多人场景](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.big_scene.manager.core&function=)
 
 这些内容构成战斗之外的交流和表达空间。活动实际可用性、同步人数、房间容量和主持流程还需要当前运行状态；结构目录列出已识别的处理函数，避免将“缓存有模块”当成完整体验测试。
 
@@ -659,35 +659,35 @@ fake_chat 和 chat_ai_reply 提供演示与自动回复相关结构。需要实�
 
 ## 一套可编辑、可访问的场景系统
 
-家园维护方案、地形、家具/摆放物、区域、职业、制造、魅力、照片、访问和聚会。农场位于相关场景体系，但有独立土地、作物与订单状态，后章单独说明。切换家园、回自己的家园、重新进入以及场景内区域归属有不同处理。[家园管理器](evidence:game.module.home.manager.core)
+家园维护方案、地形、家具/摆放物、区域、职业、制造、魅力、照片、访问和聚会。农场位于相关场景体系，但有独立土地、作物与订单状态，后章单独说明。切换家园、回自己的家园、重新进入以及场景内区域归属有不同处理。[家园管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home.manager.core&function=)
 
 ## 布置方案与编辑操作
 
 摆放、更换、移除物品，替换/擦除地形，预览和保存方案是不同操作。编辑数据分别维护所有权、库存、摆放实例、预览与保存方案。多个方案允许玩家在保留库存的同时切换布局；复制他人方案又增加缺料检查与购买提示。
 
-杂项配置有 5 个方案、复制费用家园币 `1160020001×100`、每日被复制上限3等原值。复制资格、私密设置和目标预览需先确认；本地预览并不已经扣币或保存。[家园杂项](config:home_misc.home_misc)
+杂项配置有 5 个方案、复制费用家园币 `1160020001×100`、每日被复制上限3等原值。复制资格、私密设置和目标预览需先确认；本地预览并不已经扣币或保存。[家园杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=home_misc.home_misc&q=)
 
 ## 复制他人方案的完整链
 
 请求目标方案 → 获取预览和已摆放物 → 比较自己缺失物品 → 展示缺料/购买路径 → 确认继续 → 提交复制 → 成功后更新方案。`try_continue_duplicate_plan_from_other_preview` 与最终继续复制是分开的。预览 URL 缺失也有独立查询，复制对象为布局方案和物品实例。
 
-家园复制包含私聊消息发送分支，使方案复制与玩家之间的交流连接。[复制原函数](evidence:game.module.home.manager.core#try_copy_other_home_plan)
+家园复制包含私聊消息发送分支，使方案复制与玩家之间的交流连接。[复制原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home.manager.core&function=try_copy_other_home_plan)
 
 ## 三种职业与职业升级
 
-职业表有园丁、工匠、厨师。杂项配置职业更换参数14天。职业等级提升检查上限、下一行、魅力要求与第一项消耗材料余额；编辑器 GM 分支不能推广为普通玩家免费升级。[职业表](config:home_job.home_job) [升级原函数](evidence:game.module.home.manager.core#check_job_level_up_enabled)
+职业表有园丁、工匠、厨师。杂项配置职业更换参数14天。职业等级提升检查上限、下一行、魅力要求与第一项消耗材料余额；编辑器 GM 分支不能推广为普通玩家免费升级。[职业表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=home_job.home_job&q=) [升级原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home.manager.core&function=check_job_level_up_enabled)
 
 职业每日奖励、职业升级、帮助制造和魅力奖励有各自红点。制造需要目标物、进度和帮助对象；走到目标后帮助、取消前往目标的处理也分开。`help manufacture factor=13333` 是原参数，未沿所有制造使用处验证前不直接宣称某个实际提速百分比；每周帮助5次亦应按实际额度数据使用。
 
 ## 魅力奖：三态与初始化边界
 
-`get_charm_reward_state` 返回 0未达、1可领、2已领。魅力99/阈值100返回0；魅力100且未领返回1；在已领列表中返回2。即使魅力足够，如果领取列表尚为 nil，该函数也返回0，该条件把数据未初始化归入不可领取状态。[魅力原函数](evidence:game.module.home.manager.core#get_charm_reward_state)
+`get_charm_reward_state` 返回 0未达、1可领、2已领。魅力99/阈值100返回0；魅力100且未领返回1；在已领列表中返回2。即使魅力足够，如果领取列表尚为 nil，该函数也返回0，该条件把数据未初始化归入不可领取状态。[魅力原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home.manager.core&function=get_charm_reward_state)
 
 魅力同时用于职业与奖励门槛。最终魅力还涉及家具评分、摆放折算和服务器规则，此处确定的是奖励查询函数的三态契约。
 
 ## 照片、点赞、访问与聚会
 
-照片数据与“已查看照片”本地标志分开；保存、展示与点赞还有自己的请求和记录。杂项有点赞日上限100、场景人数10等原值。派对、绘画房间、观看、重连和回自己家园各有分支；人数参数不应自动套到所有子房间。[家园房间](evidence:game.module.home_room.manager.core)
+照片数据与“已查看照片”本地标志分开；保存、展示与点赞还有自己的请求和记录。杂项有点赞日上限100、场景人数10等原值。派对、绘画房间、观看、重连和回自己家园各有分支；人数参数不应自动套到所有子房间。[家园房间](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.home_room.manager.core&function=)
 
 ## 家园系统结论
 
@@ -700,23 +700,23 @@ fake_chat 和 chat_ai_reply 提供演示与自动回复相关结构。需要实�
 
 ## 八种土地操作
 
-操作类型 sow1、harvest2、watering3、fertilizing4、steal5、drive_away6、eliminate7、cancel_steal8。每一种资格不同；土地有无作物、作物阶段、归属、浇水记录、偷取记录、当前偷取者及关系状态都可能影响按钮。[操作定义](evidence:game.module.farm.manager.const) [农场原函数](evidence:game.module.farm.manager.core)
+操作类型 sow1、harvest2、watering3、fertilizing4、steal5、drive_away6、eliminate7、cancel_steal8。每一种资格不同；土地有无作物、作物阶段、归属、浇水记录、偷取记录、当前偷取者及关系状态都可能影响按钮。[操作定义](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.const&function=) [农场原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=)
 
 ## 播种与收获
 
-播种要求土地存在、没有作物，且传入归属时为自己的土地。收获要求成熟阶段10、归属自己、没有 active_thief>0；成长阶段9不满足。收获同时要求成熟和当前没有 active_thief。[播种](evidence:game.module.farm.manager.core#can_sow) [收获](evidence:game.module.farm.manager.core#can_harvest)
+播种要求土地存在、没有作物，且传入归属时为自己的土地。收获要求成熟阶段10、归属自己、没有 active_thief>0；成长阶段9不满足。收获同时要求成熟和当前没有 active_thief。[播种](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_sow) [收获](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_harvest)
 
 种子、消耗库存与作物模板分开。快速播种、收获、浇水和施肥按批量入口处理，每块地仍有独立资格与回复结果。
 
 ## 浇水的归属、阶段与额度
 
-浇水要求有成长中的作物，不是成熟阶段10；所检查归属不能是自己，且自己未对该株浇过水；按调用参数还要检查当日额度。原函数验证正常给他人浇水可用、给自己不可用、成熟不可用、5/5次用完不可用、同株已浇不可用。[浇水原函数](evidence:game.module.farm.manager.core#can_watering)
+浇水要求有成长中的作物，不是成熟阶段10；所检查归属不能是自己，且自己未对该株浇过水；按调用参数还要检查当日额度。原函数验证正常给他人浇水可用、给自己不可用、成熟不可用、5/5次用完不可用、同株已浇不可用。[浇水原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_watering)
 
 第三参数决定部分限制检查，本节验证使用 false 分支。入口调用参数与土地状态共同决定资格。
 
 ## 偷菜需要七类条件
 
-成熟10、不是自己的土地、无当前偷取者、不是同公会、当天剩余次数、该株偷取人数未满、自己未偷过。配置 `veg_steal_percent=[20,10,10]` 的长度使该分支最多记录3个偷取角色；这与另外“同时偷3块”“土地最大偷取2”等杂项参数不是同一个统计口径。[偷取原函数](evidence:game.module.farm.manager.core#can_steal)
+成熟10、不是自己的土地、无当前偷取者、不是同公会、当天剩余次数、该株偷取人数未满、自己未偷过。配置 `veg_steal_percent=[20,10,10]` 的长度使该分支最多记录3个偷取角色；这与另外“同时偷3块”“土地最大偷取2”等杂项参数不是同一个统计口径。[偷取原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_steal)
 
 实测正常允许；未成熟、正在被偷、同公会、10次用完、已三人偷取、自己已在列表均拒绝。驱赶、取消偷取和清除另有流程，还可能进入战斗/回放。界面需要清楚显示正在偷和已经偷的区别。
 
@@ -732,19 +732,19 @@ fake_chat 和 chat_ai_reply 提供演示与自动回复相关结构。需要实�
 | 建筑行 | 145 | 有等级变体，非145栋独立建筑 |
 | 订单行 | 20 | 包含类型和品质机制 |
 
-例如“睡蘑菇”时间字段28800、季节南瓜7200且部分收获字段−1；特殊值不能直接当普通产量。种子随机权重示例5项1000、5项150，总5750。可比较相对权重，但未追选择器时不应把它直接公布为权威抽取概率。[作物](config:farm_crop.farm_crop) [种子](config:farm_seed.farm_seed) [杂项](config:farm_misc.farm_misc)
+例如“睡蘑菇”时间字段28800、季节南瓜7200且部分收获字段−1；特殊值不能直接当普通产量。种子随机权重示例5项1000、5项150，总5750。可比较相对权重，但未追选择器时不应把它直接公布为权威抽取概率。[作物](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=farm_crop.farm_crop&q=) [种子](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=farm_seed.farm_seed&q=) [杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=farm_misc.farm_misc&q=)
 
 ## 普通订单与共享订单
 
-提交订单要求剩余提交次数、订单及配置存在、每项背包库存足够。共享订单还有独立额度、分享与协作状态；分享积分阶段奖分未达、可领、已领，日/周记录独立。接单、分享给聊天、求助、完成、领取不能简化为一次卖菜。[订单原函数](evidence:game.module.farm.manager.core#can_commit_order)
+提交订单要求剩余提交次数、订单及配置存在、每项背包库存足够。共享订单还有独立额度、分享与协作状态；分享积分阶段奖分未达、可领、已领，日/周记录独立。接单、分享给聊天、求助、完成、领取不能简化为一次卖菜。[订单原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_commit_order)
 
 建筑升级也可能受其他建筑等级限制，形成联动门槛。订单刷新次数购买是额外消费，不应混入基础提交费。
 
 ## 共享订单的双层资格
 
-can_commit_share_order 先调用 can_commit_order(0)，读取共享订单并执行普通剩余次数、订单配置和材料检查；通过后再比较已提交共享次数与 share_order_commit_limit。该上限配置为 3，已用 2 次可继续，已用 3 次拒绝。普通额度不足也会先行拒绝。[共享订单资格](evidence:game.module.farm.manager.core#can_commit_share_order)
+can_commit_share_order 先调用 can_commit_order(0)，读取共享订单并执行普通剩余次数、订单配置和材料检查；通过后再比较已提交共享次数与 share_order_commit_limit。该上限配置为 3，已用 2 次可继续，已用 3 次拒绝。普通额度不足也会先行拒绝。[共享订单资格](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_commit_share_order)
 
-普通订单要求 accept_cost_item_list 非空，逐项按物品 bag_type 查询库存；库存等于需求可通过，低于需求拒绝。共享提交每次积分配置为 1，阶段目标为 1、2、3、5、8，奖励分别读取独立列表。订单提交、共享额度和累计积分因此形成三层状态。[普通订单资格](evidence:game.module.farm.manager.core#can_commit_order) [订单杂项](config:farm_misc.farm_misc)
+普通订单要求 accept_cost_item_list 非空，逐项按物品 bag_type 查询库存；库存等于需求可通过，低于需求拒绝。共享提交每次积分配置为 1，阶段目标为 1、2、3、5、8，奖励分别读取独立列表。订单提交、共享额度和累计积分因此形成三层状态。[普通订单资格](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.farm.manager.core&function=can_commit_order) [订单杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=farm_misc.farm_misc&q=)
 
 ## 生产与社交的连接
 
@@ -763,25 +763,25 @@ can_commit_share_order 先调用 can_commit_order(0)，读取共享订单并执�
 
 ## 日常活跃：两条投放分支
 
-活跃箱在20/40/60/80/100档。一个分支合计金币5,000,000、技能知识2,000、强化石20、武器券5、蓝钻100；另一分支金币500,000，80档券种不同，为1413010001。差异说明不能按同一组名字跨服直接比较收益。[任务/活跃配置](config:task_liveness.task_liveness)
+活跃箱在20/40/60/80/100档。一个分支合计金币5,000,000、技能知识2,000、强化石20、武器券5、蓝钻100；另一分支金币500,000，80档券种不同，为1413010001。差异说明不能按同一组名字跨服直接比较收益。[任务/活跃配置](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=task_liveness.task_liveness&q=)
 
 任务候选约7,004条，是缓存候选集合，不能说玩家每天有7,004个任务；`_0/_543` 约80条覆写也不能直接累加为每日任务数。日常资源对技能升级提供回流，但用单日静态总量推算毕业天数还需任务资格、掉落、活动和消耗竞争。
 
 ## 抽取：消耗、保底与概率分开
 
-基础抽取配置6条，含999等测试门槛。武器抽取101以武器券消耗；保底类型8/7对应红武器60、神器心200等配置；另有每10紫、每80橙分支和锁定9/10规则。不能把所有池合并成“全局40抽保底”。[抽取基础](config:gacha.gacha)
+基础抽取配置6条，含999等测试门槛。武器抽取101以武器券消耗；保底类型8/7对应红武器60、神器心200等配置；另有每10紫、每80橙分支和锁定9/10规则。不能把所有池合并成“全局40抽保底”。[抽取基础](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=gacha.gacha&q=)
 
 池配置约200行包含 pool_id/count 等，不是完整基础概率表。愿望/UP 10000、5000等值要追权重和选择器后解释，不能直接公布成100%/50%掉率。保底触发的重置、累计与领取状态也需要接口返回确认。
 
 ## 普通商店与动态库存
 
-普通商店基础约2,529行、46分类，分片 `_0`23、`_543`28。购买次数、刷新、限购与动态库存读服务器列表；推送可以删除或新增库存。静态 shop 表不是实时货架，多个入口也可能使用不同货币。[商店管理器](evidence:game.module.shop.manager.core)
+普通商店基础约2,529行、46分类，分片 `_0`23、`_543`28。购买次数、刷新、限购与动态库存读服务器列表；推送可以删除或新增库存。静态 shop 表不是实时货架，多个入口也可能使用不同货币。[商店管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.shop.manager.core&function=)
 
 ## 贸易参数：已确认万分单位
 
-`trade_misc` 的 item_cid 为1001010002，price_increase_premium、system_tax_rate、limit_up_ratio、limit_down_ratio均1000。原函数除以10000，四项返回0.1，故本分支可解释为10%。这来自执行验证，不是看数字自行套百分比。[贸易原函数](evidence:game.module.trade.manager.core#get_trade_shop_system_tax_rate) [贸易表](config:trade_misc.trade_misc)
+`trade_misc` 的 item_cid 为1001010002，price_increase_premium、system_tax_rate、limit_up_ratio、limit_down_ratio均1000。原函数除以10000，四项返回0.1，故本分支可解释为10%。这来自执行验证，不是看数字自行套百分比。[贸易原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=get_trade_shop_system_tax_rate) [贸易表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=trade_misc.trade_misc&q=)
 
-涨跌显示先夹在上下限，再乘显示倍率；非整数用 floor 截一位小数。ratio0.02349、倍率100显示2.3%；−0.02349显示−2.4%，负数向下而非向零。展示舍入不一定是服务器交易金额的舍入。[比例显示](evidence:game.module.trade.manager.core#get_ratio_keep_one_decimal_digit)
+涨跌显示先夹在上下限，再乘显示倍率；非整数用 floor 截一位小数。ratio0.02349、倍率100显示2.3%；−0.02349显示−2.4%，负数向下而非向零。展示舍入不一定是服务器交易金额的舍入。[比例显示](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=get_ratio_keep_one_decimal_digit)
 
 购买可以带价格确认值，并进入成本确认界面；不能把静态基础价当实时成交价。交易商店、玩家挂单、拍卖的对象和钱包还要分开。
 
@@ -789,11 +789,11 @@ can_commit_share_order 先调用 can_commit_order(0)，读取共享订单并执�
 
 客户端存在上架、调整价格、购买、下架、提取货款以及竞价、直购、关注/自动竞价等分支；世界、公会、区服拍卖有独立通知和跨服信息。不能把贸易商店税率直接套在所有拍卖接口。
 
-`auction_misc` 29项含 tax[1000]、cool_time[30]、extend_time[300]、截止23:00、系统竞价22:00、start[[21,0],[24,0]]等原值。它们属于不同活动对象/时段；完整日程、时间单位与成交税仍应跟具体使用函数闭合，本报告不把它们拼成所有拍卖统一开放时间。[拍卖杂项](config:auction_misc.auction_misc) [交易管理器](evidence:game.module.trade.manager.core)
+`auction_misc` 29项含 tax[1000]、cool_time[30]、extend_time[300]、截止23:00、系统竞价22:00、start[[21,0],[24,0]]等原值。它们属于不同活动对象/时段；完整日程、时间单位与成交税仍应跟具体使用函数闭合，本报告不把它们拼成所有拍卖统一开放时间。[拍卖杂项](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=auction_misc.auction_misc&q=) [交易管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=)
 
 ## 动态价格、涨停与购买溢价
 
-贸易商品 ratio 以 10000 为中性基准。get_abs_change_ratio 返回 abs(ratio−10000)/100，因此 11000 表示相对基准的 10 个百分点，9900 表示 1 个百分点的绝对变化。ratio 缺失时该查询返回 0。[涨跌计算](evidence:game.module.trade.manager.core#get_abs_change_ratio)
+贸易商品 ratio 以 10000 为中性基准。get_abs_change_ratio 返回 abs(ratio−10000)/100，因此 11000 表示相对基准的 10 个百分点，9900 表示 1 个百分点的绝对变化。ratio 缺失时该查询返回 0。[涨跌计算](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=get_abs_change_ratio)
 
 is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+1000。达到 11000 后，get_trade_shop_price 把服务器当前 price 乘 (1+0.1) 并 floor，得到购买调整价；低于阈值保持当前 price。原函数示例：
 
@@ -804,7 +804,7 @@ is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+
 | 101 | 11001 | 101 | 111 |
 | 101 | 缺失 | 101 | 101 |
 
-函数同时返回限购、number、库存相关标志与货币类型；商品不存在时返回零值分支。购买调整价和涨跌展示采用不同计算，服务器确认值仍参与交易请求。[涨停判断](evidence:game.module.trade.manager.core#is_limit_up_ratio) [价格查询](evidence:game.module.trade.manager.core#get_trade_shop_price)
+函数同时返回限购、number、库存相关标志与货币类型；商品不存在时返回零值分支。购买调整价和涨跌展示采用不同计算，服务器确认值仍参与交易请求。[涨停判断](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=is_limit_up_ratio) [价格查询](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.trade.manager.core&function=get_trade_shop_price)
 
 ## 资源结构与经济结论
 
@@ -819,13 +819,13 @@ is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+
 
 ## 付费链与领取链分开
 
-充值订单、平台 SDK 成功/取消、服务器确认、物品到账、首次奖励和季节首次奖励是不同阶段。客户端有428条商品候选，不代表当前账号全部可购买。云审核开关、平台、活动和商品可用状态还会限制入口。[充值网络](evidence:game.module.recharge.manager.network.network) [商品表](config:recharge.recharge_goods)
+充值订单、平台 SDK 成功/取消、服务器确认、物品到账、首次奖励和季节首次奖励是不同阶段。客户端有428条商品候选，不代表当前账号全部可购买。云审核开关、平台、活动和商品可用状态还会限制入口。[充值网络](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.recharge.manager.network.network&function=) [商品表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=recharge.recharge_goods&q=)
 
 配置例：商品1 price6、gem_reward60、晶石×60、首次蓝钻×60、季节首次×30；商品2 price30、gem_reward300，部分购买/首充奖励独立。price 是配置价格字段，当前结算价格和币种由平台及服务器确定。订单 ID 连接支付结果和服务器确认，物品到账由账户回复处理。
 
 ## 月卡激活的时间边界
 
-月卡2条，ID9/10，duration30、各自max_buy4；杂项另有month_card_max_buy18，不能用一个上限替代另一个。`is_month_card_activated` 要功能开放、信息存在且expired_time>server_time；恰好等于到期时间就不激活。四种时间/开放组合已验证。[月卡原函数](evidence:game.module.month_card.manager.core#is_month_card_activated) [月卡表](config:month_card.month_card)
+月卡2条，ID9/10，duration30、各自max_buy4；杂项另有month_card_max_buy18，不能用一个上限替代另一个。`is_month_card_activated` 要功能开放、信息存在且expired_time>server_time；恰好等于到期时间就不激活。四种时间/开放组合已验证。[月卡原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.month_card.manager.core&function=is_month_card_activated) [月卡表](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=month_card.month_card&q=)
 
 | 月卡 | 日奖励配置 | 连续30天全部可领时的静态合计 |
 | --- | --- | --- |
@@ -836,21 +836,21 @@ is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+
 
 ## 特权参数的累计
 
-`is_has_privilege` 遍历有效月卡特权，将匹配参数的正值累计返回；调用者可能用非零作真假，但原值是数量或系数，可以大于1。返回值保留累计参数，用于数量或系数计算。试用特权另有6条配置，含86400、cd300等字段；要按调用处分别解释时长与冷却。[特权原函数](evidence:game.module.month_card.manager.core#is_has_privilege) [试用特权](config:month_card.privilege)
+`is_has_privilege` 遍历有效月卡特权，将匹配参数的正值累计返回；调用者可能用非零作真假，但原值是数量或系数，可以大于1。返回值保留累计参数，用于数量或系数计算。试用特权另有6条配置，含86400、cd300等字段；要按调用处分别解释时长与冷却。[特权原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.month_card.manager.core&function=is_has_privilege) [试用特权](https://chitanda233.github.io/dandanxingqiu-research/review/configs.html?table=month_card.privilege&q=)
 
 ## 激励广告：额度、冷却与奖励确认
 
 `get_advert_watch_state` 在daily_cnt≥daily_all_cnt返回−1；否则若pre_time+view_interval−now>0，返回剩余秒数；冷却到点返回0。无信息时本地也返回0，但不证明服务器会允许观看或发奖。
 
-测试次数0/2、pre100、interval30，now129→1，now130→0；次数2/2、now140→−1。SDK加载、播放成功、取消/失败和服务器领奖是独立步骤，平台成功回调不能直接等价奖励到账。[广告原函数](evidence:game.module.advertisement.manager.core#get_advert_watch_state)
+测试次数0/2、pre100、interval30，now129→1，now130→0；次数2/2、now140→−1。SDK加载、播放成功、取消/失败和服务器领奖是独立步骤，平台成功回调不能直接等价奖励到账。[广告原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.advertisement.manager.core&function=get_advert_watch_state)
 
 ## 通行证：等级、双轨与已领进度
 
-普通与进阶轨道分别保存normal_level/advance_level，是否购买由独立状态确定。锁定判断包括目标等级超过当前等级，或付费轨未购买。可领奖要求达到等级、该轨已解锁、目标超过该轨已领取进度。[通行证原函数](evidence:game.module.battle_pass.manager.core#get_item_can_get)
+普通与进阶轨道分别保存normal_level/advance_level，是否购买由独立状态确定。锁定判断包括目标等级超过当前等级，或付费轨未购买。可领奖要求达到等级、该轨已解锁、目标超过该轨已领取进度。[通行证原函数](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.battle_pass.manager.core&function=get_item_can_get)
 
 原函数验证：当前10、普通已领9，普通目标10可领；已领10就不可再领；进阶目标6未购时锁定，购买后可领，advance已领6则不可再领。周经验99/100未达上限，100/100和101/100达到。等级、购买资格与领奖进度分别决定锁定和可领取状态。
 
-通用通行证另有get_common_state：0未满足/无相关数据，1有可领项，2终档已领；按目标等级查询与按整个通行证查询的路径不同。节日团队通行证还有邀请、队长、队员、退出费用和共同进度。[团队通行证](evidence:game.module.festival_battle_pass.manager.core)
+通用通行证另有get_common_state：0未满足/无相关数据，1有可领项，2终档已领；按目标等级查询与按整个通行证查询的路径不同。节日团队通行证还有邀请、队长、队员、退出费用和共同进度。[团队通行证](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.festival_battle_pass.manager.core&function=)
 
 ## 首充、礼包和活动商品
 
@@ -877,11 +877,11 @@ is_limit_up_ratio 使用未换算的 limit_up_ratio=1000，比较 ratio≥10000+
 
 任务客户端保存配置、进度、状态、类型、跳转、条件和领奖。完成状态与已领取不同；红点通常根据可领取或未查看条件派生。日常、成就、师徒、公会、活动、通行证任务可能共享任务层，但奖励计入不同账本。
 
-任务数量是候选表规模，不是当前玩家列表规模。日周刷新还依赖服务器时钟、服务器刷新数据与活动周期；刷新依据服务器时间和回复执行。[任务管理器](evidence:game.module.task.manager.core)
+任务数量是候选表规模，不是当前玩家列表规模。日周刷新还依赖服务器时钟、服务器刷新数据与活动周期；刷新依据服务器时间和回复执行。[任务管理器](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.task.manager.core&function=)
 
 ## 星系循环活动作为复合活动例
 
-`galactic_cycle` 管理签到、任务、愿望、商店、排行榜；分别有is_sign_open/is_task_open/is_wish_open/is_shop_open/is_rank_open。愿望保存轮次、等级、已完成轮、可选物、当前/上一池；签到区分某日可签、已签和未签；兑换要求活动物品与限购状态。[星系循环](evidence:game.module.galactic_cycle.manager.core)
+`galactic_cycle` 管理签到、任务、愿望、商店、排行榜；分别有is_sign_open/is_task_open/is_wish_open/is_shop_open/is_rank_open。愿望保存轮次、等级、已完成轮、可选物、当前/上一池；签到区分某日可签、已签和未签；兑换要求活动物品与限购状态。[星系循环](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.galactic_cycle.manager.core&function=)
 
 活动奖励结束后还可能有展示缓存与待弹奖励；本地save_wish_get_items属于展示暂存，不是背包持久账户。把所有子页用一个is_activity_open开关控制会漏掉这些阶段差异。
 
@@ -951,7 +951,7 @@ LuaDec、unluac 对复杂控制流及缺少调试信息的函数可能出现结�
 
 ## 平台、云配置与开放状态
 
-登录、分享、订阅、邀请、实名与充值包含微信、字节小游戏、快手等平台分支。cloud_data 处理按玩家或日期组织的云键、读写与开关，包含充值审核判断；云数据加载和业务初始化存在先后依赖。[云配置](evidence:game.module.cloud_data.manager.core) [登录](evidence:game.module.login.manager.core)
+登录、分享、订阅、邀请、实名与充值包含微信、字节小游戏、快手等平台分支。cloud_data 处理按玩家或日期组织的云键、读写与开关，包含充值审核判断；云数据加载和业务初始化存在先后依赖。[云配置](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.cloud_data.manager.core&function=) [登录](https://chitanda233.github.io/dandanxingqiu-research/review/evidence.html?module=game.module.login.manager.core&function=)
 
 可用性由配置、服务器状态、平台条件和运行时依赖共同决定。弹球检查 PinBallGameController 类型，充值读取审核开关，分片后缀由选择器解释。网络字符串包含协议、包装与回调，作为定位索引使用。
 
